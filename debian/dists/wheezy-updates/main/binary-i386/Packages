@@ -1,0 +1,80 @@
+Package: libdatetime-timezone-perl
+Version: 1:1.58-1+2013d
+Installed-Size: 6343
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl, libclass-load-perl, libclass-singleton-perl, libparams-validate-perl
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: framework exposing the Olson time zone database to Perl
+Homepage: http://datetime.perl.org/
+Description-md5: 49fff32146b7c0ac14d7bcca1f92bfe6
+Tag: devel::lang:perl, devel::library, implemented-in::perl, use::timekeeping
+Section: perl
+Priority: optional
+Filename: pool/main/libd/libdatetime-timezone-perl/libdatetime-timezone-perl_1.58-1+2013d_all.deb
+Size: 270210
+MD5sum: 7e27ff77629b12d05b70974e2885e3c9
+SHA1: b7e8d3557894219030ba202470a26006303e4a69
+SHA256: bebc3713339a8c00da189839090119ff91069139c561eb5290943c2b20fb498d
+
+Package: openvpn
+Version: 2.2.1-8+deb7u2
+Installed-Size: 1112
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: i386
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), liblzo2-2, libpam0g (>= 0.99.7.1), libpkcs11-helper1 (>= 1.05), libssl1.0.0 (>= 1.0.0), net-tools, initscripts (>= 2.88dsf-13.3)
+Suggests: openssl, resolvconf
+Description: virtual private network daemon
+Homepage: http://www.openvpn.net/
+Description-md5: 2ebe91e411d46309a61861db507e5c2f
+Tag: interface::commandline, interface::daemon, network::server,
+ network::vpn, role::program, security::cryptography, use::routing
+Section: net
+Priority: optional
+Filename: pool/main/o/openvpn/openvpn_2.2.1-8+deb7u2_i386.deb
+Size: 517372
+MD5sum: 5ff329bc002380e9117d2c6b79030a77
+SHA1: 57f7b400fd8630f7103407d327c0f0b37ac02c18
+SHA256: 7e670099f1f727731b5bcffb8acb54d40cd7982297ef4fcd436003adb07e3e19
+
+Package: tzdata
+Version: 2013d-0wheezy1
+Installed-Size: 1801
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Provides: tzdata-wheezy
+Depends: debconf (>= 0.5) | debconf-2.0
+Description: time zone and daylight-saving time data
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Tag: role::app-data, use::timekeeping
+Section: localization
+Priority: required
+Filename: pool/main/t/tzdata/tzdata_2013d-0wheezy1_all.deb
+Size: 524340
+MD5sum: cc15e3f26ce5682f19c211298f6a88af
+SHA1: 6aa6460171b9f4b00bd78c96e280e197e5e9dab5
+SHA256: c5f6ce7e6d0507f3067ba8f6bc377aef53639ce32444461aee51f29277b740f2
+
+Package: tzdata-java
+Source: tzdata
+Version: 2013d-0wheezy1
+Installed-Size: 373
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Depends: tzdata (= 2013d-0wheezy1)
+Description: time zone and daylight-saving time data for use by java runtimes
+Multi-Arch: foreign
+Homepage: http://www.iana.org/time-zones
+Description-md5: 811cf395ae4cc676283711d9bc20443f
+Tag: field::geography, implemented-in::java, role::app-data, use::timekeeping
+Section: java
+Priority: optional
+Filename: pool/main/t/tzdata/tzdata-java_2013d-0wheezy1_all.deb
+Size: 152086
+MD5sum: 21e361153319e44196e0b3b72c51667a
+SHA1: e04c94710732dafd239b0e1b0e8687aba9a8c6b8
+SHA256: 07bbab4e7d91226c265d86521434375a99ed70774212f28248745f2a044a38fa
+

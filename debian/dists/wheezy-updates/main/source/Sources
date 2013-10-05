@@ -1,0 +1,88 @@
+Package: libdatetime-timezone-perl
+Binary: libdatetime-timezone-perl
+Version: 1:1.58-1+2013d
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Krzysztof Krzyżaniak (eloy) <eloy@debian.org>, gregor herrmann <gregoa@debian.org>, Jonathan Yu <jawnsy@cpan.org>, Ansgar Burchardt <ansgar@debian.org>, Nicholas Bamber <nicholas@periapt.co.uk>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl, libclass-load-perl, libclass-singleton-perl, libdatetime-perl, libparams-validate-perl, libtest-output-perl
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 7399e9cfd0ffd799e8e0ebac5e257c74 2417 libdatetime-timezone-perl_1.58-1+2013d.dsc
+ a815c7a18b3386ff2d2f6bcadab61fb6 852884 libdatetime-timezone-perl_1.58.orig.tar.gz
+ bab23b18755f32fffecc424642e15dc1 24948 libdatetime-timezone-perl_1.58-1+2013d.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libdatetime-timezone-perl.git
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libdatetime-timezone-perl.git
+Checksums-Sha1:
+ 7b2c2c13568f06650f8db566e0a2c90804866979 2417 libdatetime-timezone-perl_1.58-1+2013d.dsc
+ 8c6b6f43885160a8f782b1a6d1036346291a5520 852884 libdatetime-timezone-perl_1.58.orig.tar.gz
+ c356c047b9049143f260dec87c98c4f0b3eed5a4 24948 libdatetime-timezone-perl_1.58-1+2013d.debian.tar.xz
+Checksums-Sha256:
+ 94508361bbc27e80a813dd378c443caa8a18d4a523ef5c2de3b15c830372f9f6 2417 libdatetime-timezone-perl_1.58-1+2013d.dsc
+ 82c3e94140908af96aca2f46c0334631b1739f8a444b64260814a6974bc44367 852884 libdatetime-timezone-perl_1.58.orig.tar.gz
+ c97613f5726da447768b9dead69b6aeaf44a0055f5de9fc13aece2c9a47f7056 24948 libdatetime-timezone-perl_1.58-1+2013d.debian.tar.xz
+Homepage: http://datetime.perl.org/
+Package-List: 
+ libdatetime-timezone-perl deb perl optional
+Directory: pool/main/libd/libdatetime-timezone-perl
+Priority: source
+Section: perl
+
+Package: openvpn
+Binary: openvpn
+Version: 2.2.1-8+deb7u2
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>> 0.9.8g-9), liblzo2-dev, libpam0g-dev, libpkcs11-helper1-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 46194b99971a5e63531a7aa67374c9e7 1808 openvpn_2.2.1-8+deb7u2.dsc
+ 500bee5449b29906150569aaf2eb2730 911472 openvpn_2.2.1.orig.tar.gz
+ e21c3ae5b08f9340bd1f7fe937664bdc 124626 openvpn_2.2.1-8+deb7u2.debian.tar.gz
+Checksums-Sha1:
+ 93540a67c6d3cbdc5834d3ce06942a2c52c981e7 1808 openvpn_2.2.1-8+deb7u2.dsc
+ d5a8e9c635aa330eae8e66e1ccbe2b98e4c3047b 911472 openvpn_2.2.1.orig.tar.gz
+ bd626fc3dbc7f4155ec97300ff27726f09e9cc3d 124626 openvpn_2.2.1-8+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 1b0fcc361c2ba29204c535277d4304c8bfc294a833d12313e73816d7de05a8b6 1808 openvpn_2.2.1-8+deb7u2.dsc
+ a860858cc92d4573399bb2ff17ac62d9b4b8939e6af0b8cc69150ba39d6e94e0 911472 openvpn_2.2.1.orig.tar.gz
+ f382bf32b6a5aef7f56daf78750165ebac17f394b7fbaccf66c6cac2e0faeaf9 124626 openvpn_2.2.1-8+deb7u2.debian.tar.gz
+Homepage: http://www.openvpn.net/
+Package-List: 
+ openvpn deb net optional
+Directory: pool/main/o/openvpn
+Priority: source
+Section: net
+
+Package: tzdata
+Binary: tzdata, tzdata-java
+Version: 2013d-0wheezy1
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>
+Build-Depends: debhelper (>= 5.0.0)
+Build-Depends-Indep: po-debconf, openjdk-6-jre-headless, fdupes
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ d5ae785cb6881d0c4122e643947e865e 1943 tzdata_2013d-0wheezy1.dsc
+ 65b6818162230fc02f86f293376c73df 218918 tzdata_2013d.orig.tar.gz
+ 4f0e8eff3a6df3b953b2faf5c0a3cad4 102800 tzdata_2013d-0wheezy1.debian.tar.xz
+Checksums-Sha1:
+ 7be96a6923cf98fbb98ee73d84336095b8b26be8 1943 tzdata_2013d-0wheezy1.dsc
+ bdf46d0a6de276a21f1cbce6022888568c5ee520 218918 tzdata_2013d.orig.tar.gz
+ a8fc872ec812297294205d0eed33ff564cda1c91 102800 tzdata_2013d-0wheezy1.debian.tar.xz
+Checksums-Sha256:
+ 241e04dd8980ece22075db62109cc7bdb9510127f7b51046f3e22d10bf49707d 1943 tzdata_2013d-0wheezy1.dsc
+ cd1c96f0676e0edceebc6a418a2222ffb05becb41180dd9f847b9c7cef303b04 218918 tzdata_2013d.orig.tar.gz
+ ed398d5f451b07f6dae69036033ac93a6e9a845daf29becade9269640b5daf1e 102800 tzdata_2013d-0wheezy1.debian.tar.xz
+Homepage: http://www.iana.org/time-zones
+Package-List: 
+ tzdata deb libs required
+ tzdata-java deb java optional
+Directory: pool/main/t/tzdata
+Priority: source
+Section: localization
+
