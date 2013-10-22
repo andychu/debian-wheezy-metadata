@@ -1588,7 +1588,7 @@ Section: contrib/otherosfs
 
 Package: kfreebsd-downloader
 Binary: kfreebsd-downloader-9.0, kfreebsd-downloader-9, kfreebsd-downloader
-Version: 9.0-3
+Version: 9.0-3+deb70.1
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Uploaders: Robert Millan <rmh@debian.org>
 Build-Depends: debhelper (>= 8.0)
@@ -1596,16 +1596,16 @@ Architecture: kfreebsd-i386 kfreebsd-amd64
 Standards-Version: 3.9.2
 Format: 3.0 (native)
 Files:
- c9efa5b6610bdc4aae3f43e69b0c9481 1203 kfreebsd-downloader_9.0-3.dsc
- 1d1967ceb17e25d53e319aa4771f73bd 4116 kfreebsd-downloader_9.0-3.tar.gz
+ fcec80a6a1d819e8cd55b1909678e2ac 1235 kfreebsd-downloader_9.0-3+deb70.1.dsc
+ 66079a1dba3c5d9f2f5a1a30a3c0aa7f 4176 kfreebsd-downloader_9.0-3+deb70.1.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-downloader/
 Vcs-Svn: svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-downloader/
 Checksums-Sha1:
- 412c94c0d98d281835965930ef1b6d9715f380d0 1203 kfreebsd-downloader_9.0-3.dsc
- 02ad99f102f7ae7b783e257dad248bdce54866cf 4116 kfreebsd-downloader_9.0-3.tar.gz
+ 05aff8bbdc24095f73ad5a0a511ca1df2244c3bd 1235 kfreebsd-downloader_9.0-3+deb70.1.dsc
+ 264a4ce666c0da43721d5d59d0b5f44f07fcdf1a 4176 kfreebsd-downloader_9.0-3+deb70.1.tar.gz
 Checksums-Sha256:
- 159685089f52738495f25fdccca0fc5eeee6b3420d5024e8f07bb3af2b40be66 1203 kfreebsd-downloader_9.0-3.dsc
- 24d3fa96a9677f40c9753a13bd6757dced27fa44b3eeef596726bb5111e3e567 4116 kfreebsd-downloader_9.0-3.tar.gz
+ b825993906ce2f7e2dcdbfd2809497f2b8b412cc2ad049d9f7d4c49fe2d17979 1235 kfreebsd-downloader_9.0-3+deb70.1.dsc
+ c55e1225ecceb55247eb13f9ed3fef7e2d0025309b53a1195cae45e27217bf11 4176 kfreebsd-downloader_9.0-3+deb70.1.tar.gz
 Package-List: 
  kfreebsd-downloader deb contrib/kernel extra
  kfreebsd-downloader-9 deb contrib/kernel extra
@@ -2291,26 +2291,26 @@ Section: contrib/python
 
 Package: pyopencl
 Binary: python-pyopencl-headers, python-pyopencl, python3-pyopencl, python-pyopencl-doc
-Version: 2012.1-1
+Version: 2012.1.dfsg-1
 Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
 Build-Depends: debhelper (>= 9), python-all-dev, python3-all-dev, python-setuptools, python3-setuptools, opencl-headers, ocl-icd-libopencl1 | libopencl1, libboost-python-dev, mesa-common-dev, python-numpy (>= 1:1.4.1-4~), python3-numpy, python-sphinx (>= 1.0.7+dfsg), python3-sphinx (>= 1.0.7+dfsg), python-pytools (>= 2011.5), python3-pytools
 Architecture: all amd64 i386
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 5e9579604ef7be19343dddb2eb0e99ed 2415 pyopencl_2012.1-1.dsc
- d7f57f55259a0f8d8561ad4f3cd2ed27 239609 pyopencl_2012.1.orig.tar.gz
- e7f4f670bfcf9ba2b910b32139a838cb 9659 pyopencl_2012.1-1.debian.tar.gz
+ 0ab8e34a048bac8d27722bcfc2633087 2450 pyopencl_2012.1.dfsg-1.dsc
+ 0493a07fcb59b7e7c63f3446f91f3942 236802 pyopencl_2012.1.dfsg.orig.tar.gz
+ fb8ab82da4f17a99b125e5b332cf04cb 9543 pyopencl_2012.1.dfsg-1.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/python-pyopencl.git
 Vcs-Git: git://git.debian.org/git/collab-maint/python-pyopencl.git
 Checksums-Sha1:
- f89c814ef77d04cd7d73077c558ae84b99a60b56 2415 pyopencl_2012.1-1.dsc
- d18686b67c7266045a1a7abe220e317746cc9bb5 239609 pyopencl_2012.1.orig.tar.gz
- e5118296622e9907d3c4308ceae442a8683b99f9 9659 pyopencl_2012.1-1.debian.tar.gz
+ dc56cebb9d251949c57ec85cb3d7e9c27a3ef8df 2450 pyopencl_2012.1.dfsg-1.dsc
+ ea9af3230fc91de91a57ba4fbb2ff11d6fb1cd74 236802 pyopencl_2012.1.dfsg.orig.tar.gz
+ cbe04acf3cc0412bc4b191a2c2fb059d02d2bb97 9543 pyopencl_2012.1.dfsg-1.debian.tar.gz
 Checksums-Sha256:
- 563ff54cec3e23083a966a4f7269bc339c83ca789b4c10a3ae557f1c03a314f8 2415 pyopencl_2012.1-1.dsc
- 5ac12ba556534943e138badbda7c4c0aad1cde904bd19b5e727b011ca02d639a 239609 pyopencl_2012.1.orig.tar.gz
- a939550cd222cec152d7bf31521a870b3a86f7e8fd8afbc08b1df13fd67f5aca 9659 pyopencl_2012.1-1.debian.tar.gz
+ 8b5b20b403d80e88adaf771da4c21e4eb598d373f2194b7d46ce54ce670d0557 2450 pyopencl_2012.1.dfsg-1.dsc
+ fd4765738c58019c1df3f7a08bec8c1acf5fbee4f18568b2e78d31532f72c2a0 236802 pyopencl_2012.1.dfsg.orig.tar.gz
+ 9d32b81bfb490278f3238d43b184ea4b8a558e5ad7f2e48967b555536e2bc05f 9543 pyopencl_2012.1.dfsg-1.debian.tar.gz
 Homepage: http://mathema.tician.de/software/pyopencl
 Package-List: 
  python-pyopencl deb contrib/python optional

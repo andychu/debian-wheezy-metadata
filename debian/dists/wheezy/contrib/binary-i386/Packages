@@ -2503,11 +2503,11 @@ SHA256: 2d91c3f342c3c49f80285e7b682bb1453d66872a4522e98837484ad2272e7673
 
 Package: python-pyopencl
 Source: pyopencl
-Version: 2012.1-1
-Installed-Size: 3008
+Version: 2012.1.dfsg-1
+Installed-Size: 3005
 Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
 Architecture: i386
-Depends: libboost-python1.49.0 (>= 1.49.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libopencl1, libstdc++6 (>= 4.2.1), python-numpy (>= 1:1.6.1), python-numpy-abi9, python2.7 | python2.6, python (>= 2.6.6-7~), python (<< 2.8), python-pytools (>= 2011.5), python-decorator, opencl-icd, python-pyopencl-headers (= 2012.1-1)
+Depends: libboost-python1.49.0 (>= 1.49.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libopencl1, libstdc++6 (>= 4.2.1), python-numpy (>= 1:1.6.1), python-numpy-abi9, python (>= 2.6.6-7~), python (<< 2.8), python-pytools (>= 2011.5), python-decorator, opencl-icd, python-pyopencl-headers (= 2012.1.dfsg-1)
 Recommends: python-pyopencl-doc, python-opengl, python-mako
 Suggests: python-imaging-tk, python-pytest, python-matplotlib
 Description: Python module to access OpenCL parallel computation API
@@ -2515,16 +2515,16 @@ Homepage: http://mathema.tician.de/software/pyopencl
 Description-md5: 2518acfbf350bd58788cf5f83141b61c
 Section: contrib/python
 Priority: optional
-Filename: pool/contrib/p/pyopencl/python-pyopencl_2012.1-1_i386.deb
-Size: 749552
-MD5sum: bb39af704575602fdf663be7c7c91e0c
-SHA1: 2c81b69ed1e52ad95acaaedcbcf387a5938a3433
-SHA256: 20e90264b657dab0040bf6c643ddeeb2b050177b87d18f6a5f9ca7c62d1e3f97
+Filename: pool/contrib/p/pyopencl/python-pyopencl_2012.1.dfsg-1_i386.deb
+Size: 749312
+MD5sum: 230bfe82f6e32437eb5ff0127260ccf4
+SHA1: 040e633fadbb01f92c0d863585d35e684249e6de
+SHA256: f2c5cddfe7970bd4722741c28d512f9845ca8182b7d70a6cb252797d47ed5efa
 
 Package: python-pyopencl-doc
 Source: pyopencl
-Version: 2012.1-1
-Installed-Size: 741
+Version: 2012.1.dfsg-1
+Installed-Size: 742
 Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
 Architecture: all
 Depends: libjs-sphinxdoc (>= 1.0)
@@ -2534,40 +2534,40 @@ Homepage: http://mathema.tician.de/software/pyopencl
 Description-md5: 0b1f9cb9c27d466dca495ad8192d962e
 Section: contrib/doc
 Priority: optional
-Filename: pool/contrib/p/pyopencl/python-pyopencl-doc_2012.1-1_all.deb
-Size: 133128
-MD5sum: d6a35d6d39e62620c6d8922843503c86
-SHA1: 6226c530b102e516765505b3d67447a06e6ae24b
-SHA256: 3f2a2bb8ad56a19347982e12c1319755abbd5f1a95bb6866a15aed2d7a7260b5
+Filename: pool/contrib/p/pyopencl/python-pyopencl-doc_2012.1.dfsg-1_all.deb
+Size: 131760
+MD5sum: f72d432aeec6d4196fa8ac5817ca248e
+SHA1: 8224786626ac92d216b5cf91d22a594d58e5411f
+SHA256: b0e9845df8a7ff564c611e1a351464bc4480446faa824b8112d04562c49ccb03
 
 Package: python-pyopencl-headers
 Source: pyopencl
-Version: 2012.1-1
+Version: 2012.1.dfsg-1
 Installed-Size: 119
 Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
 Architecture: all
 Replaces: python-pyopencl (<< 2011.2+git20120508-1)
 Depends: opencl-icd
 Recommends: python-pyopencl-doc, python-pyopencl, python3-pyopencl
-Breaks: python-pyopencl (<< 2012.1-1), python3-pyopencl (<< 2012.1-1)
+Breaks: python-pyopencl (<< 2012.1.dfsg-1), python3-pyopencl (<< 2012.1.dfsg-1)
 Description: headers for Python module to access OpenCL parallel computation API
 Homepage: http://mathema.tician.de/software/pyopencl
 Description-md5: 7be8d0f651f61987bba939f95462d9d8
 Section: contrib/python
 Priority: optional
-Filename: pool/contrib/p/pyopencl/python-pyopencl-headers_2012.1-1_all.deb
-Size: 30254
-MD5sum: 17259bea5b14f8411ef0a7ac92635e28
-SHA1: 92ea6f1ef3b5ae62e6a1bdfb28dd834acb8968ff
-SHA256: 20a603823798984a0f93f9e033d815387e724bcf8e018c2578a66aae265d60f5
+Filename: pool/contrib/p/pyopencl/python-pyopencl-headers_2012.1.dfsg-1_all.deb
+Size: 29804
+MD5sum: c9afe0ac63659fcce902bc4300a84534
+SHA1: 364b46e7cdf242f74b27002b5293f263c7f3877f
+SHA256: a0d5fe07115d4bb98a8f9629785a1e24b8ec8cb2014cde56d0488e5cbaa3a09a
 
 Package: python3-pyopencl
 Source: pyopencl
-Version: 2012.1-1
-Installed-Size: 1619
+Version: 2012.1.dfsg-1
+Installed-Size: 1618
 Maintainer: Tomasz Rybak <tomasz.rybak@post.pl>
 Architecture: i386
-Depends: libboost-python1.49.0 (>= 1.49.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libopencl1, libstdc++6 (>= 4.2.1), python3-numpy (>= 1:1.6.1), python3-numpy-abi9, python3 (>= 3.2), python3 (<< 3.3), python3-pytools (>= 2011.5), python3-decorator, opencl-icd, python-pyopencl-headers (= 2012.1-1)
+Depends: libboost-python1.49.0 (>= 1.49.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libopencl1, libstdc++6 (>= 4.2.1), python3-numpy (>= 1:1.6.1), python3-numpy-abi9, python3 (>= 3.2.3-3~), python3 (<< 3.3), python3-pytools (>= 2011.5), python3-decorator, opencl-icd, python-pyopencl-headers (= 2012.1.dfsg-1)
 Recommends: python-pyopencl-doc, python3-mako
 Suggests: python3-imaging-tk, python3-opengl, python3-pytest, python3-matplotlib
 Description: Python 3 module to access OpenCL parallel computation API
@@ -2575,11 +2575,11 @@ Homepage: http://mathema.tician.de/software/pyopencl
 Description-md5: 7a31e9ce8f06c38705703f009d69b248
 Section: contrib/python
 Priority: optional
-Filename: pool/contrib/p/pyopencl/python3-pyopencl_2012.1-1_i386.deb
-Size: 405394
-MD5sum: 9d43730976bc8eb79a6c03d987e2434f
-SHA1: dabb8166d4a5338d613101a98d08f592328d0a25
-SHA256: 258162809d9bdf8253488eaf6ec32f2a60daa9ece11dff7e9bbf4b1bf6920d3d
+Filename: pool/contrib/p/pyopencl/python3-pyopencl_2012.1.dfsg-1_i386.deb
+Size: 405188
+MD5sum: 56420ca29d3e4bd1d6e032a2d8a2e425
+SHA1: 2e895ac7f627216ccfb9cbfef86cd99294d9d0b4
+SHA256: 56e7b54eb047c685a35dcf7e947c67ce2b4ed676ba4145c85f8a714dd47030f9
 
 Package: python-ldap-doc
 Version: 2.3-2.2

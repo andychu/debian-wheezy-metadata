@@ -29,6 +29,40 @@ Directory: pool/main/libd/libdatetime-timezone-perl
 Priority: source
 Section: perl
 
+Package: multipath-tools
+Binary: multipath-tools, multipath-tools-dbg, kpartx, multipath-tools-boot, multipath-udeb
+Version: 0.4.9+git0.4dfdaf2b-7~deb7u2
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>, Ritesh Raj Sarraf <rrs@debian.org>
+Build-Depends: debhelper (>= 5.0.45), po-debconf, libdevmapper-dev (>= 2:1.02.20), libreadline-dev, libaio-dev
+Architecture: any all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ aa9c5ea62f01362974d2f21a0714f910 2423 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.dsc
+ d0f76d390bac27f23a04562f05e52c5c 228081 multipath-tools_0.4.9+git0.4dfdaf2b.orig.tar.gz
+ db68343db6efeda83edbd4f59cdfbff9 29886 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-lvm/multipath-tools.git
+Vcs-Git: git://git.debian.org/git/pkg-lvm/multipath-tools.git
+Checksums-Sha1:
+ 5f39204bcf3188f2f6fdd8089bbf27f81470041b 2423 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.dsc
+ 67d83189e1a99fdea1d640d2dcd799231c72c1ab 228081 multipath-tools_0.4.9+git0.4dfdaf2b.orig.tar.gz
+ f3a1d12404dca7737023de6290a3b098a870306e 29886 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 4c356694608263c2ebae94972f3a0f19d1d39ddcca82532312c54835d2a0eab6 2423 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.dsc
+ 5d1d4c1b0af4f3d662c0ab6ce35bbbbb2c4c29f6683ba8383828e54a660173c9 228081 multipath-tools_0.4.9+git0.4dfdaf2b.orig.tar.gz
+ 0d6d56c107c3ee05da51e2e0db952266b0a419113645776d0e42029a7b93cd06 29886 multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2.debian.tar.gz
+Homepage: http://christophe.varoqui.free.fr/
+Package-List: 
+ kpartx deb admin extra
+ multipath-tools deb admin extra
+ multipath-tools-boot deb admin extra
+ multipath-tools-dbg deb debug extra
+ multipath-udeb udeb debian-installer extra
+Directory: pool/main/m/multipath-tools
+Priority: source
+Section: admin
+
 Package: openvpn
 Binary: openvpn
 Version: 2.2.1-8+deb7u2

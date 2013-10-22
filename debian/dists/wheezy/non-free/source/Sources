@@ -2425,7 +2425,7 @@ Section: non-free/science
 
 Package: intel-microcode
 Binary: intel-microcode
-Version: 1.20130222.1
+Version: 1.20130808.0+deb7u1
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Uploaders: Giacomo Catenazzi <cate@debian.org>
 Build-Depends: debhelper (>= 7), iucode-tool (>= 0.8)
@@ -2433,16 +2433,16 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- bb5c389d328287a1db46fa37b8439ecc 1425 intel-microcode_1.20130222.1.dsc
- 7067c227b60ede1cd68f6d6faa790aec 699732 intel-microcode_1.20130222.1.tar.xz
+ 21b907b495b0122296a8eb2c1aa297e3 1453 intel-microcode_1.20130808.0+deb7u1.dsc
+ 78566ca82caaac7ae0da8f6e83323355 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
 Vcs-Browser: http://git.debian.org/?p=users/hmh/intel-microcode.git
 Vcs-Git: git://git.debian.org/users/hmh/intel-microcode.git
 Checksums-Sha1:
- b2d6500055c563487dd5acc592a06b11138b8483 1425 intel-microcode_1.20130222.1.dsc
- 3a513021d75746e15f447d65abdef561761e4fbe 699732 intel-microcode_1.20130222.1.tar.xz
+ ac40fd7c13cc69aa2a4f52d255126c890d5ef042 1453 intel-microcode_1.20130808.0+deb7u1.dsc
+ a24b201a6528e7cbf7e447d465b61fd5a983d615 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
 Checksums-Sha256:
- a9a5cf79cbea20b8f9a6586f1e1ef979d5c98a7986698893291b3f1e3bb4df68 1425 intel-microcode_1.20130222.1.dsc
- 508fae64cf75df6aedca89fe15c22eb8928fec81ed4c3e65f689d1659b627fa5 699732 intel-microcode_1.20130222.1.tar.xz
+ 0a0ff3dae328af18fbdacd52bfd8ffaa729552fd64ef61ce8bbd83d2f8972cdb 1453 intel-microcode_1.20130808.0+deb7u1.dsc
+ c7bfc38fea2f5346fa8dae284a2c46ebf484f6c345332858ab16842d6f473cd5 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
 Homepage: http://feeds.downloadcenter.intel.com/rss/?p=483&lang=eng
 Autobuild: yes
 Package-List: 
@@ -7129,26 +7129,26 @@ Section: non-free/fonts
 
 Package: ttytter
 Binary: ttytter
-Version: 2.0.1-1
+Version: 2.1.0-1~deb7u1
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Build-Depends: debhelper (>= 9)
 Architecture: all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- 07e08af96bd8c4c6ec2fb2d6df417979 1462 ttytter_2.0.1-1.dsc
- a590ab5174c88df629089feb567a0311 119026 ttytter_2.0.1.orig.tar.gz
- 5ab76c9fbd51589fbd3001c572cbbc3b 6841 ttytter_2.0.1-1.diff.gz
+ 91e16d0e5d01fe3dabd091ade7eda7cf 1490 ttytter_2.1.0-1~deb7u1.dsc
+ f0b26b58a9eff744fbd91bba44b11488 125353 ttytter_2.1.0.orig.tar.gz
+ 60ccb57f4a3dfbaf959e38696b3de916 6933 ttytter_2.1.0-1~deb7u1.diff.gz
 Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/ttytter/
 Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/ttytter/trunk/
 Checksums-Sha1:
- 3e0bccbb4a2a4b8e1541fd1819e18396635f75f9 1462 ttytter_2.0.1-1.dsc
- bf88f0d0d3b64b46097bcefcadae7749c9725f46 119026 ttytter_2.0.1.orig.tar.gz
- 40321bdacb701b6fa21b585d3eb7e573769e0564 6841 ttytter_2.0.1-1.diff.gz
+ d838d48af529a874ea30cf750055e1f2e7f2ba27 1490 ttytter_2.1.0-1~deb7u1.dsc
+ a4424b1038a743d9bdc7566e5bf71775bcded20f 125353 ttytter_2.1.0.orig.tar.gz
+ 50a925994e09782d7b069e9b252ceb1c718736ff 6933 ttytter_2.1.0-1~deb7u1.diff.gz
 Checksums-Sha256:
- b24a15c1c93d361087d4fdf44d127bce7224bd3038d4bf8e17d0e4196639dee5 1462 ttytter_2.0.1-1.dsc
- f8829804c9f45e1cd25d4098f2e732970385a8f7f0deff2549d11a26442507df 119026 ttytter_2.0.1.orig.tar.gz
- 5220f1bab579c902dda9564e5b35b3e18ea674f898a079c74b2406b826344731 6841 ttytter_2.0.1-1.diff.gz
+ 93a0ec4543a389f9baca10b72ee68d110c6a560b7a8ee096f026675ddb53b136 1490 ttytter_2.1.0-1~deb7u1.dsc
+ 732e25547f7cee697400ba79d0267a8c1235aa714c0f7fd6f83c302873babab7 125353 ttytter_2.1.0.orig.tar.gz
+ 914fb8b9ee6675c693c9047c8e48b3f68f7c628f7ad83bc6581dc4e74d3efa32 6933 ttytter_2.1.0-1~deb7u1.diff.gz
 Homepage: http://www.floodgap.com/software/ttytter/
 Package-List: 
  ttytter deb non-free/net optional

@@ -3282,8 +3282,8 @@ SHA1: 01c76ed82bc53a5835b8c7f73d45e7696e06f7a9
 SHA256: 5a0f4713575d541611e1baf96776f174a5b44b06c4d0319cb84b8a902423d9d4
 
 Package: intel-microcode
-Version: 1.20130222.1
-Installed-Size: 347
+Version: 1.20130808.0+deb7u1
+Installed-Size: 417
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Architecture: amd64
 Recommends: iucode-tool
@@ -3294,11 +3294,11 @@ Description-md5: 642afeac73eb40c21b5551ce1694ab40
 Tag: hardware::TODO, role::app-data, use::driver
 Section: non-free/admin
 Priority: extra
-Filename: pool/non-free/i/intel-microcode/intel-microcode_1.20130222.1_amd64.deb
-Size: 265430
-MD5sum: 4a924e05e9c2cc15add9cb257626cc45
-SHA1: d9618ef8ae8a1252a0b69f95efec7175e69c3824
-SHA256: 55b66aabd30f2f97badcf23fffc7493002a584c4df67030b161111256bcc82ca
+Filename: pool/non-free/i/intel-microcode/intel-microcode_1.20130808.0+deb7u1_amd64.deb
+Size: 339962
+MD5sum: 86a7fa4ebcf060dd0f8f361d852b66fb
+SHA1: ec5d49ad0c04408ee9439a96b160fb816c137e04
+SHA256: d8c0d32b878a797d83b99b37f756381eaaf2b386e64c6b663a4c3e2e792ebe1c
 
 Package: iozone3
 Version: 397-2
@@ -8711,8 +8711,8 @@ SHA1: ca93feca66369676107489eb5489b4c17b68234f
 SHA256: 67763e55e00bd6146c2d1892db2a8ef3d67334c33e6cc7b129bd375ad53b7765
 
 Package: ttytter
-Version: 2.0.1-1
-Installed-Size: 372
+Version: 2.1.0-1~deb7u1
+Installed-Size: 395
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Architecture: all
 Depends: perl, curl | lynx
@@ -8724,11 +8724,11 @@ Tag: implemented-in::perl, interface::commandline, interface::text-mode,
  network::client, role::program, scope::application, web::microblog
 Section: non-free/net
 Priority: optional
-Filename: pool/non-free/t/ttytter/ttytter_2.0.1-1_all.deb
-Size: 124470
-MD5sum: 84e0af0e311e2bf2a6ea660629d3407c
-SHA1: f81831823acabf245f58ba47607236bd833f7d3a
-SHA256: 4fa6f78af1092f13aeeed18a03a5fb3c16034bf72ffa8cdcf5662c0ec11bf30f
+Filename: pool/non-free/t/ttytter/ttytter_2.1.0-1~deb7u1_all.deb
+Size: 131346
+MD5sum: f2138d8fd6ad329a6def737deb088e18
+SHA1: 997b6460d65e6358b1027e756ab6ac150d978831
+SHA256: b0f625513e0db8c3fd140f5129cb3922e012149d53bb749002a9ad89d7fa132c
 
 Package: unace-nonfree
 Version: 2.5-7

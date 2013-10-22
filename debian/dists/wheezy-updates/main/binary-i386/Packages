@@ -17,6 +17,86 @@ MD5sum: 7e27ff77629b12d05b70974e2885e3c9
 SHA1: b7e8d3557894219030ba202470a26006303e4a69
 SHA256: bebc3713339a8c00da189839090119ff91069139c561eb5290943c2b20fb498d
 
+Package: kpartx
+Source: multipath-tools
+Version: 0.4.9+git0.4dfdaf2b-7~deb7u2
+Installed-Size: 56
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: multipath-tools (<< 0.4.7-3)
+Depends: libc6 (>= 2.7), libdevmapper1.02.1 (>= 2:1.02.36), udev (>> 0.086), dmsetup (>= 2:1.02.24)
+Description: create device mappings for partitions
+Homepage: http://christophe.varoqui.free.fr/
+Description-md5: 5edc0d8999e24d591b49f95449a8741f
+Tag: role::program
+Section: admin
+Priority: extra
+Filename: pool/main/m/multipath-tools/kpartx_0.4.9+git0.4dfdaf2b-7~deb7u2_i386.deb
+Size: 33430
+MD5sum: 49924a85ed35beaa5260915aec3bce93
+SHA1: bbffc6170c4aa4aea5e9c7d763ac572e65d47e72
+SHA256: fda433d0ae22eeef7272f64bbc3b72be830a51963716c65368cda2b385c8c5e2
+
+Package: multipath-tools
+Version: 0.4.9+git0.4dfdaf2b-7~deb7u2
+Installed-Size: 510
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libaio1 (>= 0.3.106-8), libc6 (>= 2.7), libdevmapper1.02.1 (>= 2:1.02.36), libreadline6 (>= 6.0), udev (>= 0.124), initscripts (>= 2.85-16), kpartx (>= 0.4.9+git0.4dfdaf2b-7~deb7u2), lsb-base (>= 3)
+Suggests: multipath-tools-boot
+Conflicts: multipath-tools-boot (<= 0.4.8+git0.761c66f-2~), multipath-tools-initramfs (<= 1.0.1)
+Description: maintain multipath block device access
+Homepage: http://christophe.varoqui.free.fr/
+Description-md5: d2b50f6d45021a3e6697180f992bb365
+Tag: admin::kernel, interface::commandline, role::program, scope::utility,
+ uitoolkit::ncurses
+Section: admin
+Priority: extra
+Filename: pool/main/m/multipath-tools/multipath-tools_0.4.9+git0.4dfdaf2b-7~deb7u2_i386.deb
+Size: 206348
+MD5sum: b3285a0b7084c226448498427e151b81
+SHA1: 483b90a0aeb03d2d92c4804b051c9f5fb005f25f
+SHA256: fffe5acfd8604c464388f8667b3069c106f87a132ece2aa0b9d8846ef3ab682a
+
+Package: multipath-tools-boot
+Source: multipath-tools
+Version: 0.4.9+git0.4dfdaf2b-7~deb7u2
+Installed-Size: 73
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: all
+Replaces: multipath-tools-initramfs (<< 1.0.1+nmu1)
+Depends: debconf (>= 0.5) | debconf-2.0, initramfs-tools, multipath-tools (>= 0.4.9+git0.4dfdaf2b-7~deb7u2), multipath-tools (<< 0.4.9+git0.4dfdaf2b-7~deb7u2.1~)
+Conflicts: multipath-tools-initramfs (<< 1.0.1+nmu1)
+Description: Support booting from multipath devices
+Homepage: http://christophe.varoqui.free.fr/
+Description-md5: 24b848655cff6a3dd257c2afda6cf91f
+Section: admin
+Priority: extra
+Filename: pool/main/m/multipath-tools/multipath-tools-boot_0.4.9+git0.4dfdaf2b-7~deb7u2_all.deb
+Size: 16308
+MD5sum: 48172f89534e479ec90f9b55d59189cb
+SHA1: 533933cb20a2e8adfd5fbc894f984c24e9bcb0b0
+SHA256: 7fffd6bcd4ee4e3ca16ecc31ae85939ecff25432491bec7c9c1f69bab540b175
+
+Package: multipath-tools-dbg
+Source: multipath-tools
+Version: 0.4.9+git0.4dfdaf2b-7~deb7u2
+Installed-Size: 1131
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: multipath-tools (= 0.4.9+git0.4dfdaf2b-7~deb7u2), kpartx (= 0.4.9+git0.4dfdaf2b-7~deb7u2)
+Description: maintain multipath block device access - debugging symbols
+Homepage: http://christophe.varoqui.free.fr/
+Description-md5: 734365732126c3c2cd4a7d36a903a6cc
+Tag: role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/m/multipath-tools/multipath-tools-dbg_0.4.9+git0.4dfdaf2b-7~deb7u2_i386.deb
+Size: 457312
+MD5sum: 01e8c31ff3cd57512a0337216cf5c01d
+SHA1: a5ef3dc8012b3bff0621ef133cc71f7693b013ad
+SHA256: eeb723640864754846291dfc14bfe24ece07e0d23193fb8d49563f655d67bc38
+
 Package: openvpn
 Version: 2.2.1-8+deb7u2
 Installed-Size: 1112
