@@ -2979,7 +2979,7 @@ Section: contrib/misc
 
 Package: starpu-contrib
 Binary: libstarpu-contrib-dev, libstarpu-contrib-1.0, libstarpu-contribfft-1.0, libstarpu-contribmpi-1.0, starpu-contrib-tools, starpu-contrib-examples, libsocl-contrib-1.0
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), autotools-dev, dh-autoreconf, pkg-config, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], libglpk-dev, mpi-default-dev, libgl1-mesa-dev | libgl-dev, libglu1-mesa-dev | libglu-dev, freeglut3-dev, libx11-dev, libblas-dev, libfftw3-dev, libhwloc-dev, libcnf-dev, gfortran, qt4-qmake, libqt4-dev, libqt4-opengl-dev, libqwt5-qt4-dev, gcc-4.4, g++-4.4, help2man, nvidia-cuda-toolkit, libcuda1
 Build-Conflicts: g++-4.6, gcc-4.6, hardening-wrapper
@@ -2987,19 +2987,19 @@ Architecture: amd64 i386
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 885bc3008676ebaa628b7c240002abdd 2207 starpu-contrib_1.0.1-3.dsc
- 72e9d92057f2b88483c27aca78c53316 3003333 starpu-contrib_1.0.1.orig.tar.gz
- 4dee6a56c7f61b3491ec161661adfe96 7956 starpu-contrib_1.0.1-3.debian.tar.gz
+ b181281e14bbfe157316275321c84411 2848 starpu-contrib_1.0.1+dfsg-1.dsc
+ 95674325acb76a6f9933cef36ef59d78 2763633 starpu-contrib_1.0.1+dfsg.orig.tar.gz
+ 3278b60726be6ede1c6772357e4ebc83 8202 starpu-contrib_1.0.1+dfsg-1.debian.tar.gz
 Vcs-Browser: https://gforge.inria.fr/scm/viewvc.php/debian/unstable/?root=starpu
 Vcs-Svn: svn://scm.gforge.inria.fr/svn/starpu/debian/unstable
 Checksums-Sha1:
- 54edd060e02078f994da8ab52b8afcc38e28dfc7 2207 starpu-contrib_1.0.1-3.dsc
- 944a7d60bbef8e0fa67cc33d8b59a64b29389ab7 3003333 starpu-contrib_1.0.1.orig.tar.gz
- f1c69f61eac86d23032c98fe01ba2a72826acc79 7956 starpu-contrib_1.0.1-3.debian.tar.gz
+ 08831273a59656d3645b0223a33e66a4db710332 2848 starpu-contrib_1.0.1+dfsg-1.dsc
+ 58b9da1a4615968726ce962f874d688015c8201c 2763633 starpu-contrib_1.0.1+dfsg.orig.tar.gz
+ 3c5801d4ab2aa4c199374c94affe1db66d35ee1a 8202 starpu-contrib_1.0.1+dfsg-1.debian.tar.gz
 Checksums-Sha256:
- b6e648c7cf2ad80e3a90e94cf85fbc62d8d2829cdb8f84475450de3d267c688a 2207 starpu-contrib_1.0.1-3.dsc
- 8cb78a4a2b2eec8ce55aca7917ab6db3fd34d0e5ba2f3eedb1dff8daf20d7165 3003333 starpu-contrib_1.0.1.orig.tar.gz
- 52a1f5de044967df2c7742b8a6feafb6a58aae0be3661e9ad9972fd5852a1317 7956 starpu-contrib_1.0.1-3.debian.tar.gz
+ 25e709992e8be2b903c9bfce59254435f7d0d7193b989501867d44f469bbcca9 2848 starpu-contrib_1.0.1+dfsg-1.dsc
+ 6ddbf9abb59ca0be39f60e8508fa1605f9cd984839752402337d0af001646a45 2763633 starpu-contrib_1.0.1+dfsg.orig.tar.gz
+ 0ee6bb240145667fbec16b47dcbf858d88ed9f60de5bf682c1940e56fe1b0218 8202 starpu-contrib_1.0.1+dfsg-1.debian.tar.gz
 Homepage: http://starpu.gforge.inria.fr/
 Package-List: 
  libsocl-contrib-1.0 deb contrib/libs extra

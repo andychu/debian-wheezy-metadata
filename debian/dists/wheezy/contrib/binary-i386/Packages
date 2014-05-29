@@ -3404,7 +3404,7 @@ SHA256: 289db413af5862bac18b9e5385cc20ea784226fbaab5ed333aba3102dcb595a2
 
 Package: libsocl-contrib-1.0
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 115
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
@@ -3415,20 +3415,20 @@ Description-md5: 607f8f9648f71dbaceaaeeaa04f4c6e8
 Tag: role::shared-lib
 Section: contrib/libs
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/libsocl-contrib-1.0_1.0.1-3_i386.deb
-Size: 29340
-MD5sum: 524cb217b0789a87ce7ef8b726844dda
-SHA1: 9175f932e7add42aaf69547c00765d6f366f150b
-SHA256: fc0515428eea15376f120b667b10f7cd42579f8945b5cf5ec695a477c6c25359
+Filename: pool/contrib/s/starpu-contrib/libsocl-contrib-1.0_1.0.1+dfsg-1_i386.deb
+Size: 29438
+MD5sum: 7b73403a620dc8998693618c55b3bbcd
+SHA1: c308ead849c44cc675a29f170e20c56583031b00
+SHA256: 52f7539f6fd373758b00fc67f1fcb178c4ea5aa7fd238f9f13f9af8c96eb005c
 
 Package: libstarpu-contrib-1.0
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 458
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
 Provides: libstarpu-1.0
-Depends: libc6 (>= 2.3.6-6~), libcublas4 (>= 4.1), libcuda1 (>= 195.30), libcudart4 (>= 4.0), libglpk0 (>= 4.30), libhwloc5, libstdc++6 (>= 4.1.1), nvidia-libopencl1 (>= 195)
+Depends: libc6 (>= 2.3.6-6~), libcublas4 (>= 4.1), libcuda1 (>= 169), libcudart4 (>= 4.0), libglpk0 (>= 4.30), libhwloc5, libstdc++6 (>= 4.1.1), nvidia-libopencl1 (>= 195)
 Conflicts: libstarpu-1.0
 Description: Task scheduler for heterogeneous multicore machines
 Homepage: http://starpu.gforge.inria.fr/
@@ -3436,20 +3436,20 @@ Description-md5: 6e4e8db53b47fb942bef212def2a1e22
 Tag: role::shared-lib
 Section: contrib/libs
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/libstarpu-contrib-1.0_1.0.1-3_i386.deb
-Size: 166128
-MD5sum: dbdac733fda862dcbcde65a7375408fc
-SHA1: c0ecae2753d9798c49e7a32e8c4e60f5bbb97581
-SHA256: 10268e735b3d94960214a081722657b8169c3b73238614c3f5b2c9ea02bd7c4d
+Filename: pool/contrib/s/starpu-contrib/libstarpu-contrib-1.0_1.0.1+dfsg-1_i386.deb
+Size: 166226
+MD5sum: a7e5729efbfa3366641642701c7f32eb
+SHA1: 7948eeb6c365b2a4cedad1e7ecb6c455ab2c54c7
+SHA256: 754c286b596d218346e34c2be617cbb8d982348c5a77b167121f529ad8162af8
 
 Package: libstarpu-contrib-dev
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 2087
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
 Provides: libstarpu-dev
-Depends: libstarpu-contrib-1.0 (= 1.0.1-3), install-info, libhwloc-dev
+Depends: libstarpu-contrib-1.0 (= 1.0.1+dfsg-1), install-info, libhwloc-dev
 Conflicts: libstarpu-dev
 Description: Task scheduler for heterogeneous multicore machines - dev
 Homepage: http://starpu.gforge.inria.fr/
@@ -3457,15 +3457,15 @@ Description-md5: 967c103c8b3cf3662ee291f422fa5be6
 Tag: devel::library, role::devel-lib
 Section: contrib/libdevel
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/libstarpu-contrib-dev_1.0.1-3_i386.deb
-Size: 447756
-MD5sum: f4c2c8892b4c5248c832e9fcc3962ff0
-SHA1: de857dc9447080a5bf8fbe1a3d70dfaad2d493f7
-SHA256: 06fa4aed8155fa60ccb8ae20b3cf912d06a618a0b79d44631c5c978040662a1f
+Filename: pool/contrib/s/starpu-contrib/libstarpu-contrib-dev_1.0.1+dfsg-1_i386.deb
+Size: 447856
+MD5sum: ea186681c8dd232d17c7bb3fe9e18e2d
+SHA1: 265928f69f826e52a98d421d7cc6b5a2bc6b1d49
+SHA256: c0969f34c9116727441585204d8b65aa6aaf33ef9a2216654ba2678e102a3835
 
 Package: libstarpu-contribfft-1.0
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 574
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
@@ -3478,15 +3478,15 @@ Description-md5: a1e84fcd5b7aa1a04d6c8089b0a0ecef
 Tag: role::shared-lib
 Section: contrib/libs
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/libstarpu-contribfft-1.0_1.0.1-3_i386.deb
-Size: 26742
-MD5sum: 1e8690773b64db99873fcc5f6ce9ef2a
-SHA1: 1cd5a6d2ba35e4ec9189831567e51de896004ebf
-SHA256: 6dfd2dc530e9ef12f559e0e886e0d18d7a4b487dc9ea60bf75c40d4ec420edeb
+Filename: pool/contrib/s/starpu-contrib/libstarpu-contribfft-1.0_1.0.1+dfsg-1_i386.deb
+Size: 26844
+MD5sum: 62e665c661d8dce49e15c16a36a3f8fe
+SHA1: 1f03b29522d33c3a3743940e74056eaedcafe5d2
+SHA256: 01f87a790f837580d92d6416921c9b2883633c58e53db684788462b81898af59
 
 Package: libstarpu-contribmpi-1.0
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 110
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
@@ -3499,35 +3499,35 @@ Description-md5: a7034f989f1ae2e40b4db1b5bb58bd47
 Tag: role::shared-lib
 Section: contrib/libs
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/libstarpu-contribmpi-1.0_1.0.1-3_i386.deb
-Size: 23812
-MD5sum: 6434a8bb8e3c6a15426dff4320006a40
-SHA1: 604630a79ae4040ad8f07fba540c936b63ecc97d
-SHA256: 943c82acb1bd66d113857225711164111570367081ba2dc33cc3467ee66597f3
+Filename: pool/contrib/s/starpu-contrib/libstarpu-contribmpi-1.0_1.0.1+dfsg-1_i386.deb
+Size: 23908
+MD5sum: 27cc7aed50733c47adaa796dfd6cbf4b
+SHA1: 0ad33c78ee2f61719d661dadfe827d438d83d0fa
+SHA256: f72809c751d7f7481a11168e9e83d3bf63560e737a01c2e2f8398769cf93ea17
 
 Package: starpu-contrib-examples
 Source: starpu-contrib
-Version: 1.0.1-3
-Installed-Size: 4414
+Version: 1.0.1+dfsg-1
+Installed-Size: 3534
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
 Provides: starpu-examples
-Depends: freeglut3, libblas3 | libblas.so.3 | libatlas3-base, libc6 (>= 2.3.6-6~), libcublas4 (>= 4.1), libcuda1 (>= 169), libcudart4 (>= 2.2), libcurand4 (>= 3.2), libfftw3-3, libgcc1 (>= 1:4.1.1), libgfortran3 (>= 4.6), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libhwloc5, libice6 (>= 1:1.0.0), libnuma1 (>= 2.0.8~rc3), libopenmpi1.3, libquadmath0 (>= 4.6), libsm6, libsocl-contrib-1.0, libstarpu-contrib-1.0, libstarpu-contribfft-1.0, libstarpu-contribmpi-1.0, libstdc++6 (>= 4.1.1), libx11-6, nvidia-libopencl1 (>= 195)
+Depends: freeglut3, libblas3 | libblas.so.3 | libatlas3-base, libc6 (>= 2.3.6-6~), libcublas4 (>= 4.1), libcuda1 (>= 169), libcudart4 (>= 2.2), libfftw3-3, libgcc1 (>= 1:4.1.1), libgfortran3 (>= 4.6), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libhwloc5, libice6 (>= 1:1.0.0), libnuma1 (>= 2.0.8~rc4), libopenmpi1.3, libquadmath0 (>= 4.6), libsm6, libsocl-contrib-1.0, libstarpu-contrib-1.0, libstarpu-contribfft-1.0, libstarpu-contribmpi-1.0, libstdc++6 (>= 4.1.1), libx11-6, nvidia-libopencl1 (>= 195)
 Conflicts: starpu-examples
 Description: Task scheduler for heterogeneous multicore machines - exs
 Homepage: http://starpu.gforge.inria.fr/
 Description-md5: 601fd3c318d53962421cdbdd364f312b
 Section: contrib/science
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/starpu-contrib-examples_1.0.1-3_i386.deb
-Size: 689246
-MD5sum: 542a44953c1eb3a1e0a612f1dbc15623
-SHA1: 9846f4ef750e3e2c94e328ac48390e0067f20cf7
-SHA256: c5e1ae5ab8b8dce349dc55a9bceca815f3d8a1120cc06bd49274c4a6f5817820
+Filename: pool/contrib/s/starpu-contrib/starpu-contrib-examples_1.0.1+dfsg-1_i386.deb
+Size: 352096
+MD5sum: 831d791a2fee86f752f25815c33c14fc
+SHA1: b4017a0166eb9fea3fb2e6e0e455add084bc283d
+SHA256: 780a86afa3d81e824cbc332a454ca657c6f7e45728de4f3adfbec34ac5dbe171
 
 Package: starpu-contrib-tools
 Source: starpu-contrib
-Version: 1.0.1-3
+Version: 1.0.1+dfsg-1
 Installed-Size: 101
 Maintainer: Samuel Thibault <sthibault@debian.org>
 Architecture: i386
@@ -3539,11 +3539,11 @@ Homepage: http://starpu.gforge.inria.fr/
 Description-md5: eb2ba87d4cd88833bc91b0cf6b977279
 Section: contrib/utils
 Priority: extra
-Filename: pool/contrib/s/starpu-contrib/starpu-contrib-tools_1.0.1-3_i386.deb
-Size: 28708
-MD5sum: 65cf167429d307ee2d6b931c554f7638
-SHA1: 0d6e6dd5e29c3c8d4c05bf1cf5a89096e85ba805
-SHA256: ade0d2d226a351c559f1955d0ccf765dfca717e9fee01a3d7b3ff11db87f8b31
+Filename: pool/contrib/s/starpu-contrib/starpu-contrib-tools_1.0.1+dfsg-1_i386.deb
+Size: 28828
+MD5sum: ff268bb955206d2e00cdd08ae709ed76
+SHA1: d6d6ff0f49ac933e63f96d902dfa8600f5cf6036
+SHA256: 8e4d8e581d0b5a613688cc8b28c11955d5f0ce244dc6a5c6197b79cd7caf513c
 
 Package: sugar-etoys-activity
 Version: 116-3

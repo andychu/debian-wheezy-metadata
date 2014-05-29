@@ -2425,7 +2425,7 @@ Section: non-free/science
 
 Package: intel-microcode
 Binary: intel-microcode
-Version: 1.20130808.0+deb7u1
+Version: 1.20140122.1
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Uploaders: Giacomo Catenazzi <cate@debian.org>
 Build-Depends: debhelper (>= 7), iucode-tool (>= 0.8)
@@ -2433,16 +2433,16 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 21b907b495b0122296a8eb2c1aa297e3 1453 intel-microcode_1.20130808.0+deb7u1.dsc
- 78566ca82caaac7ae0da8f6e83323355 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
+ 0cf0ba3c77e20b8794147825fbef53f7 1425 intel-microcode_1.20140122.1.dsc
+ b656d1b19e670c7d081f06e324cc61ae 831128 intel-microcode_1.20140122.1.tar.xz
 Vcs-Browser: http://git.debian.org/?p=users/hmh/intel-microcode.git
 Vcs-Git: git://git.debian.org/users/hmh/intel-microcode.git
 Checksums-Sha1:
- ac40fd7c13cc69aa2a4f52d255126c890d5ef042 1453 intel-microcode_1.20130808.0+deb7u1.dsc
- a24b201a6528e7cbf7e447d465b61fd5a983d615 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
+ 613d8513569ebd6ae6bda63d4c585c6b5553b951 1425 intel-microcode_1.20140122.1.dsc
+ 1c995b55a06100cee7189f516128eb6868708a3c 831128 intel-microcode_1.20140122.1.tar.xz
 Checksums-Sha256:
- 0a0ff3dae328af18fbdacd52bfd8ffaa729552fd64ef61ce8bbd83d2f8972cdb 1453 intel-microcode_1.20130808.0+deb7u1.dsc
- c7bfc38fea2f5346fa8dae284a2c46ebf484f6c345332858ab16842d6f473cd5 807732 intel-microcode_1.20130808.0+deb7u1.tar.xz
+ 846eaf5448a5055ff737f38474824265ec1c965687cecaf10a09685551792e1b 1425 intel-microcode_1.20140122.1.dsc
+ 1ad51f8a0cdf62da8e18a2f729ed6d8fbcc6ae4d63603792ae3318d51a64095c 831128 intel-microcode_1.20140122.1.tar.xz
 Homepage: http://feeds.downloadcenter.intel.com/rss/?p=483&lang=eng
 Autobuild: yes
 Package-List: 
@@ -5238,7 +5238,7 @@ Section: non-free/devel
 
 Package: nvidia-graphics-drivers
 Binary: nvidia-glx, xserver-xorg-video-nvidia, nvidia-glx-ia32, libgl1-nvidia-glx, libxvmcnvidia1, libgl1-nvidia-glx-ia32, nvidia-alternative, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-vdpau-driver-ia32, nvidia-smi, libcuda1, libcuda1-ia32, libnvidia-compiler, libnvidia-compiler-ia32, libnvcuvid1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-opencl-icd-ia32, nvidia-libopencl1, nvidia-libopencl1-ia32, libgl1-nvidia-alternatives, libgl1-nvidia-alternatives-ia32, libglx-nvidia-alternatives, nvidia-detect
-Version: 304.88-1+deb7u1
+Version: 304.117-1
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>,
 Build-Depends: debhelper (>= 9), bzip2, dkms (>= 2.1.1.1), libxext6, libxvmc1, quilt
@@ -5246,19 +5246,19 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 42046172c8b112721c6de9498c37514c 3993 nvidia-graphics-drivers_304.88-1+deb7u1.dsc
- 0f934641044c3506157afa0a3ca16aeb 104500519 nvidia-graphics-drivers_304.88.orig.tar.gz
- 04cf345a412d2d6d0741d57d25fd8eb3 112287 nvidia-graphics-drivers_304.88-1+deb7u1.debian.tar.gz
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-graphics-drivers/
-Vcs-Svn: svn://svn.debian.org/svn/pkg-nvidia/packages/nvidia-graphics-drivers/trunk
+ e6589d64b52307978bb7b6aced4eb39c 3978 nvidia-graphics-drivers_304.117-1.dsc
+ 5cd7547d4fc9bd6372f7fd480922b222 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
+ 16370680390076e1a01691230a59731f 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/
+Vcs-Svn: svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk
 Checksums-Sha1:
- f0e9f6f20222c5e82d118e55dc3bc109a17c3662 3993 nvidia-graphics-drivers_304.88-1+deb7u1.dsc
- f32c9463900a5a5a678aa21c6b534c7469ba7fbf 104500519 nvidia-graphics-drivers_304.88.orig.tar.gz
- 0dee83273cf91c2025d92c23144f51c78c360a99 112287 nvidia-graphics-drivers_304.88-1+deb7u1.debian.tar.gz
+ 5462311a00d5aedb6b2b5d456610f072d954f6de 3978 nvidia-graphics-drivers_304.117-1.dsc
+ 3d7564cb75e2fb94ff12940fcf61069f846d0580 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
+ ceab091c16419d8f4c78a831472c8975696bfa96 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
 Checksums-Sha256:
- 152c0b2962f215a72180badcd0c3d4d522b3453609985da580b8233c3990c108 3993 nvidia-graphics-drivers_304.88-1+deb7u1.dsc
- 126f7c9b937869260e5ce5a051b069b3efb74bff070f1a3f6c7914b06381eda8 104500519 nvidia-graphics-drivers_304.88.orig.tar.gz
- f6152eb83dd83766a7b1628b91b9d71375664c9b992964fa9f9cf4da513ac4b2 112287 nvidia-graphics-drivers_304.88-1+deb7u1.debian.tar.gz
+ bfa507dd81443c17c3a9919e78dc65e9b3cfb9d91dd91315e1515dda9eb9d2c8 3978 nvidia-graphics-drivers_304.117-1.dsc
+ ea08437fed8f60e4180f3b6b99dd7fd99bcfd0fe824144fc295a33d5e738ab02 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
+ 0cc40ac8a7f00f5066cbd6fa92169616551ce3f07285c037300722a025b234b8 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
 Homepage: http://www.nvidia.com
 Autobuild: yes
 Package-List: 
@@ -5418,24 +5418,24 @@ Section: non-free/x11
 
 Package: nvidia-graphics-modules
 Binary: nvidia-kernel-amd64, nvidia-kernel-2.6-amd64, nvidia-kernel-3.2.0-4-amd64, nvidia-kernel-486, nvidia-kernel-2.6-486, nvidia-kernel-3.2.0-4-486, nvidia-kernel-686-pae, nvidia-kernel-2.6-686-pae, nvidia-kernel-3.2.0-4-686-pae
-Version: 304.88+1
+Version: 304.117+3.2.0+1
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>,
-Build-Depends: debhelper (>= 8), linux-headers-3.2.0-4-amd64 [i386 amd64], linux-headers-3.2.0-4-486 [i386], linux-headers-3.2.0-4-686-pae [i386], nvidia-kernel-source (>= 304.88), nvidia-kernel-source (<< 304.88.0~)
+Build-Depends: debhelper (>= 8), linux-headers-3.2.0-4-amd64 [i386 amd64], linux-headers-3.2.0-4-486 [i386], linux-headers-3.2.0-4-686-pae [i386], nvidia-kernel-source (>= 304.117), nvidia-kernel-source (<< 304.117.~)
 Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 139b346c51a585503491a2a5f4291615 2641 nvidia-graphics-modules_304.88+1.dsc
- cd8183a649e76586c639600d126307bb 8572 nvidia-graphics-modules_304.88+1.tar.gz
+ a5c410cd6aa9396330b9ea9e4b853328 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
+ 678d624a8752a6c4b3670c749482bc92 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-nvidia/nvidia-graphics-modules.git
-Vcs-Git: git://git.debian.org/git/pkg-nvidia/nvidia-graphics-modules.git
+Vcs-Git: git://anonscm.debian.org/pkg-nvidia/nvidia-graphics-modules.git
 Checksums-Sha1:
- 4fd14cf8e28edd4a9931bc5db31e7b21ff49cad8 2641 nvidia-graphics-modules_304.88+1.dsc
- 25ae93581f84a091ab43646e63b38ed50ee1f487 8572 nvidia-graphics-modules_304.88+1.tar.gz
+ 785f86bebea7ea6bd6c5b7ee67b102782ab87660 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
+ 80e21ae1f7b0531d034088a9d597fd8b764bea55 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
 Checksums-Sha256:
- 8c999b9da398c91f4ca84b487359a93eb5a6fe6d1c370f146911207541bce05e 2641 nvidia-graphics-modules_304.88+1.dsc
- 7daa3da8ccff6b20c8ecccd300c1b20d3ca0be7436b958e0b0c704d611792e42 8572 nvidia-graphics-modules_304.88+1.tar.gz
+ bcb4f7c80e53a7ed260be090ab5bd9f0db873c9817a7875d0416c6cb44cc2223 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
+ 07ec809fc41df9a3bc423979a33f730cffd7ef04aa3eeabe51fef5ed4c7f42a1 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
 Homepage: http://www.nvidia.com/
 Autobuild: yes
 Package-List: 
