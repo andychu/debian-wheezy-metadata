@@ -27,7 +27,7 @@ Section: web
 
 Package: clamav
 Binary: clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav6, clamav-daemon, clamav-testfiles, clamav-freshclam, clamav-milter
-Version: 0.98.1+dfsg-1+deb7u3
+Version: 0.98.1+dfsg-1+deb7u4
 Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Uploaders: Stephen Gran <sgran@debian.org>, Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>
 Build-Depends: debhelper (>= 6.0.7), po-debconf, zlib1g-dev, libbz2-dev, libmilter-dev, perl, bc, check, libtommath-dev, libltdl-dev, electric-fence, libncurses5-dev, python, dh-autoreconf, automake1.11, pkg-config
@@ -35,19 +35,19 @@ Architecture: any all
 Standards-Version: 3.9.5
 Format: 1.0
 Files:
- 0e1e93d81267a0ee5227081c83cd2d41 2665 clamav_0.98.1+dfsg-1+deb7u3.dsc
+ d10d5fdf3eae2461cc57f653657e5160 2648 clamav_0.98.1+dfsg-1+deb7u4.dsc
  d2fca4ef94e0de1a3be9d4d87a6b76db 13118803 clamav_0.98.1+dfsg.orig.tar.gz
- 1f4a55fd0b82650784061d52d5b02cb2 327345 clamav_0.98.1+dfsg-1+deb7u3.diff.gz
+ d1a0b17d3f78fd81fc6146a0820fed97 327730 clamav_0.98.1+dfsg-1+deb7u4.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-clamav/clamav.git;a=summary
 Vcs-Git: git://git.debian.org/pkg-clamav/clamav.git
 Checksums-Sha1:
- b01943305d469692e5269131d229f221da655587 2665 clamav_0.98.1+dfsg-1+deb7u3.dsc
+ ecb1176ab4ad0954ec3372be50b32b4b26ea99d6 2648 clamav_0.98.1+dfsg-1+deb7u4.dsc
  112910a65f0518feb08e5250bc7f3b0fb74a697f 13118803 clamav_0.98.1+dfsg.orig.tar.gz
- 96c3012b1692466bc12be7a951a9a34fc73b9b64 327345 clamav_0.98.1+dfsg-1+deb7u3.diff.gz
+ 1c1da6a2ed6db84757d255ad5a3442412ad03598 327730 clamav_0.98.1+dfsg-1+deb7u4.diff.gz
 Checksums-Sha256:
- 69d044a6c0a97635f24ac79f90d0f2670c367bc948e2a82e37cb1234ab6681bf 2665 clamav_0.98.1+dfsg-1+deb7u3.dsc
+ b6e035d0907b2f2fe3aba504155fed68973dba96d0c9ec03c703de9cd23759ff 2648 clamav_0.98.1+dfsg-1+deb7u4.dsc
  ab916578b34beade95e455b02764302f312b25f1fd9b9f1b978143c57eceaad8 13118803 clamav_0.98.1+dfsg.orig.tar.gz
- 8fef5276b4c9b679bf5dfff486df1e9990cf811e410f00c910a8df75891e8470 327345 clamav_0.98.1+dfsg-1+deb7u3.diff.gz
+ 304a0d36face67288fc19e2ab072c304ae0db79eb5f3aae0c56cad28eb99de39 327730 clamav_0.98.1+dfsg-1+deb7u4.diff.gz
 Homepage: http://www.clamav.net/
 Package-List: 
  clamav deb utils optional
@@ -64,6 +64,36 @@ Testsuite: autopkgtest
 Directory: pool/main/c/clamav
 Priority: source
 Section: utils
+
+Package: duo-unix
+Binary: libpam-duo, login-duo, libduo3, libduo-dev
+Version: 1.8.1-1~deb7u1
+Maintainer: Kees Cook <kees@debian.org>
+Build-Depends: debhelper (>= 8.1.3~), autotools-dev, libcurl4-openssl-dev, libpam-dev, python
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ b34f09b2398790baf923c4b26bc9b8ba 1929 duo-unix_1.8.1-1~deb7u1.dsc
+ 27758050456157496c8f0d331834cf8e 446534 duo-unix_1.8.1.orig.tar.gz
+ 8438ec2b0631ec63092ad91f294294f5 9388 duo-unix_1.8.1-1~deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 9fee51485ef3e3eab4d4b827fce3ff66098baff8 1929 duo-unix_1.8.1-1~deb7u1.dsc
+ 3f5e930761f15a71923666d14cd9086314cbb445 446534 duo-unix_1.8.1.orig.tar.gz
+ 49ba70addcfc3ed4a95628a6b08abb6ddf35914e 9388 duo-unix_1.8.1-1~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ e7a73801d424f50aa339927ee705bb78459d105a6c0e0a46a06922bb3b4f2234 1929 duo-unix_1.8.1-1~deb7u1.dsc
+ b2f02dadbc8ab8abea4e7c7a6b848c326180163736ee1df0c8ad6d7e99d22a9b 446534 duo-unix_1.8.1.orig.tar.gz
+ a1d54c746a5a91490b4c48f9a0763d07d2d2a48b43d6afdf0a438c2e552dc761 9388 duo-unix_1.8.1-1~deb7u1.debian.tar.gz
+Homepage: https://github.com/duosecurity/duo_unix
+Package-List: 
+ libduo-dev deb libdevel extra
+ libduo3 deb libs extra
+ libpam-duo deb libs extra
+ login-duo deb admin extra
+Directory: pool/main/d/duo-unix
+Priority: source
+Section: libs
 
 Package: libdatetime-timezone-perl
 Binary: libdatetime-timezone-perl
@@ -159,7 +189,7 @@ Section: net
 
 Package: tzdata
 Binary: tzdata, tzdata-java
-Version: 2014c-0wheezy1
+Version: 2014e-0wheezy1
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>
 Build-Depends: debhelper (>= 5.0.0)
@@ -168,17 +198,17 @@ Architecture: all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- f34658ab319e9e7e1f696573fe3eea0f 1901 tzdata_2014c-0wheezy1.dsc
- fa7f3dc1c6f6238253a6f2b850467e2e 221322 tzdata_2014c.orig.tar.gz
- 41f7eb60348f4bbdd57c0febf10527e4 103132 tzdata_2014c-0wheezy1.debian.tar.xz
+ 970a8baa838b72a3b603f1546de3aba0 1901 tzdata_2014e-0wheezy1.dsc
+ 8a49fdedd4e832da8e85f7f9bcaedc33 221587 tzdata_2014e.orig.tar.gz
+ 0d4b546ac8adf10a71e035e879bc93b0 103100 tzdata_2014e-0wheezy1.debian.tar.xz
 Checksums-Sha1:
- ad5fbd27d7513588c28f2e6500fb5e3b0140aa92 1901 tzdata_2014c-0wheezy1.dsc
- c5c7cc0dd3de514e89e2c5d9c4a8eff812e68e65 221322 tzdata_2014c.orig.tar.gz
- e256de4aada4155cef5a0ce3f8bfdb7c7579f804 103132 tzdata_2014c-0wheezy1.debian.tar.xz
+ 173cf7a2c619aaf35ac93040e6954f4ec208691a 1901 tzdata_2014e-0wheezy1.dsc
+ 724b0e19ba26316d7e1f6fee1ec5934fa31454ab 221587 tzdata_2014e.orig.tar.gz
+ cfdf69b4ba0c41a9bcda288a7a445f36c55c7981 103100 tzdata_2014e-0wheezy1.debian.tar.xz
 Checksums-Sha256:
- 196aa100efe41c7d4eb8a8c548730cd395688a0461ffbbab0cf7779fb4cfed05 1901 tzdata_2014c-0wheezy1.dsc
- aa2924e012644de3a6cc3160ffff690cb3afecf350af435daefa43bb669fb8f1 221322 tzdata_2014c.orig.tar.gz
- 24d00772159e94eb65d7ed78792e9659d8a1d1d6ca67736f3eecb74b08edb7c6 103132 tzdata_2014c-0wheezy1.debian.tar.xz
+ 073a6e6f2cdbe571db00398e2b3eba45d0e081c0026aa220b6212dad566daf38 1901 tzdata_2014e-0wheezy1.dsc
+ 08e243a79051f838d86ac1311a78b74047951302d448024e823b5b7aa71f86c5 221587 tzdata_2014e.orig.tar.gz
+ 20b850ff1cfa350f9ee6f6cb3f03a408aca72e4b0e226370a027025ae0a0404d 103100 tzdata_2014e-0wheezy1.debian.tar.xz
 Homepage: http://www.iana.org/time-zones
 Package-List: 
  tzdata deb libs required
