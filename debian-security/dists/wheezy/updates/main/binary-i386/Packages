@@ -8064,6 +8064,24 @@ MD5sum: 3a538a6e37242d9051f027e2767cbcfc
 SHA1: b845ef57013def984d3aea75b182d2bb2226fc40
 SHA256: 1e89315b4f5ace76b548eacfa801c3e743d8ec69edc0fa05a5273e2cc9a2b9dd
 
+Package: iodine
+Version: 0.6.0~rc1-12+deb7u1
+Installed-Size: 249
+Maintainer: gregor herrmann <gregoa@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, adduser, udev | makedev
+Suggests: dnsutils, fping, gawk, ipcalc, iproute
+Description: tool for tunneling IPv4 data through a DNS server
+Homepage: http://code.kryo.se/iodine
+Description-md5: 9bad400dda7d73fa2ccadb4ceb0ced82
+Section: net
+Priority: extra
+Filename: pool/updates/main/i/iodine/iodine_0.6.0~rc1-12+deb7u1_i386.deb
+Size: 107068
+MD5sum: fe46b692bdaf161f32056b2e9cceb241
+SHA1: f1fcaf8349322fef2d4b14e15d39def874433f45
+SHA256: f7c3a14cba5f2263f18bc7406c535269d05b13606702c42162bb663f467bbe6c
+
 Package: jbigkit-bin
 Source: jbigkit
 Version: 2.0-2+deb7u1

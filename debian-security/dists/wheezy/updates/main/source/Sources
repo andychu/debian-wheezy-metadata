@@ -2556,6 +2556,36 @@ Directory: pool/updates/main/i/imagemagick
 Priority: source
 Section: graphics
 
+Package: iodine
+Binary: iodine
+Version: 0.6.0~rc1-12+deb7u1
+Maintainer: gregor herrmann <gregoa@debian.org>
+Uploaders: tony mancill <tmancill@debian.org>
+Build-Depends: check, dpkg-dev (>= 1.16.1), debhelper (>= 9), help2man, po-debconf, zlib1g-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ d52034363286b295ebb368d221d880f8 2061 iodine_0.6.0~rc1-12+deb7u1.dsc
+ a15bb4faba020d217016fde6e231074a 89827 iodine_0.6.0~rc1.orig.tar.gz
+ 17b9b004e2dfff1ed6e8b0347364ad5d 27040 iodine_0.6.0~rc1-12+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.toastfreeware.priv.at/debian/iodine.git/
+Vcs-Git: git://git.toastfreeware.priv.at/debian/iodine.git
+Checksums-Sha1:
+ d486c694b46c3a5649cef671d71a23b5409c6aed 2061 iodine_0.6.0~rc1-12+deb7u1.dsc
+ 4fa9a248b8a84df8a727a5d749e669e58136edca 89827 iodine_0.6.0~rc1.orig.tar.gz
+ bb3f93234e68d9817be9ab625b347e84c33c4a53 27040 iodine_0.6.0~rc1-12+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ d7fd95f50d3a7624916efee576ee9b7ac065658e01c21f84e0e7e51e4d074c60 2061 iodine_0.6.0~rc1-12+deb7u1.dsc
+ dacf950198b68fd1dae09fe980080155b0c75718f581c08e069eee0c1b6c5e60 89827 iodine_0.6.0~rc1.orig.tar.gz
+ 2da3e327499ff0058e80a482485af84e419ce68648f1e07b6aa150db7e0c3225 27040 iodine_0.6.0~rc1-12+deb7u1.debian.tar.gz
+Homepage: http://code.kryo.se/iodine
+Package-List: 
+ iodine deb net extra
+Directory: pool/updates/main/i/iodine
+Priority: source
+Section: net
+
 Package: ipxe
 Binary: ipxe, ipxe-qemu
 Version: 1.0.0+git-20120202.f6840ba-3
