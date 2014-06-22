@@ -9038,24 +9038,24 @@ Section: net
 
 Package: tiff
 Binary: libtiff5, libtiffxx5, libtiff5-dev, libtiff5-alt-dev, libtiff-tools, libtiff-opengl, libtiff-doc
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Build-Depends: cdbs (>= 0.4.106~), debhelper (>> 9), dpkg-dev (>= 1.16.1~), zlib1g-dev, libjpeg-dev, libxmu-dev, libglu1-mesa-dev, freeglut3-dev, libxi-dev, libjbig-dev, liblzma-dev
 Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 01059a12ba6af592d0816ebe5903fe0a 2152 tiff_4.0.2-6+deb7u2.dsc
+ 22781d21976bde2021cf95fe21819a71 2135 tiff_4.0.2-6+deb7u3.dsc
  04a08fa1e07e696e820a0c3f32465a13 2022814 tiff_4.0.2.orig.tar.gz
- 99235798ba073b6fc9d240cbd1c2e7c9 23154 tiff_4.0.2-6+deb7u2.debian.tar.gz
+ 640cbf487b27c85ea4c2b11ddf3a1cbc 23494 tiff_4.0.2-6+deb7u3.debian.tar.gz
 Checksums-Sha1:
- a36ccee98684658c36b8328fd937dfc52fe8684f 2152 tiff_4.0.2-6+deb7u2.dsc
+ d05d1ae56ffad682ec391a59b9eb366802a8c581 2135 tiff_4.0.2-6+deb7u3.dsc
  d84b7b33a6cfb3d15ca386c8c16b05047f8b5352 2022814 tiff_4.0.2.orig.tar.gz
- 006d3077d60c8a6c3e09e41c1f5c358bbbe8368c 23154 tiff_4.0.2-6+deb7u2.debian.tar.gz
+ 99ab6e9a5e8a491055255a1972f97821adf84b59 23494 tiff_4.0.2-6+deb7u3.debian.tar.gz
 Checksums-Sha256:
- e2e6fc1420c06d28383fec88ab68e426f5fc2b30efd37b64e58caee94a8d877d 2152 tiff_4.0.2-6+deb7u2.dsc
+ 19d26d6cd0d1bb0aecb11cec27464026a355762f775a01c5fb7596bdfb8f0e2c 2135 tiff_4.0.2-6+deb7u3.dsc
  aa29f1f5bfe3f443c3eb4dac472ebde15adc8ff0464b83376f35e3b2fef935da 2022814 tiff_4.0.2.orig.tar.gz
- 312e5ce52a988f58ee495e0fdd5d5d3d94963e039786f849ddb7d447c21a505d 23154 tiff_4.0.2-6+deb7u2.debian.tar.gz
+ 63892e9a99d8e6e880468873a145020affab1402c5cf323301756fd29748d0f7 23494 tiff_4.0.2-6+deb7u3.debian.tar.gz
 Homepage: http://libtiff.maptools.org
 Package-List: 
  libtiff-doc deb doc optional

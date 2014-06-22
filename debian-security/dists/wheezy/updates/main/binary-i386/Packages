@@ -21673,7 +21673,7 @@ SHA256: 7933890a080d84f099442b93c73651e70a75b0c654ecabb34d54de13371d7423
 
 Package: libtiff-doc
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 1083
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: all
@@ -21682,15 +21682,15 @@ Homepage: http://libtiff.maptools.org
 Description-md5: 418b6b38755ca1f970cc3282a8afc939
 Section: doc
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff-doc_4.0.2-6+deb7u2_all.deb
-Size: 395592
-MD5sum: 378945ac4ebcb0893282fd43bc068cc0
-SHA1: 0bcb5c530c1710956ffada193e9901c42a7584e0
-SHA256: 8ba2cf17b22d0c15bfd6a4f175299d31bad95296a67f28ae2c0242c10622ce42
+Filename: pool/updates/main/t/tiff/libtiff-doc_4.0.2-6+deb7u3_all.deb
+Size: 395642
+MD5sum: 8708d63540259aed3fde3aec4c9d7f5e
+SHA1: d8eb4734cc27a1d9cd9658d6bb253553b3bd89eb
+SHA256: a34abb8e122f570bbc892e21970ef2b8e5313906c6019a7c62d0b0c0e340f109
 
 Package: libtiff-opengl
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 86
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
@@ -21700,15 +21700,15 @@ Homepage: http://libtiff.maptools.org
 Description-md5: 8b1debea0e0eac5de9dc7eb9a32524a2
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff-opengl_4.0.2-6+deb7u2_i386.deb
-Size: 79000
-MD5sum: 8a24f348877e5312289242283ea444d6
-SHA1: 645e1c867816cb6cbb798221decc291fc3c87a72
-SHA256: ffca3417b036b1017417270f5fe4958d17584ff3536a2dc3d5b164ed6c43bd26
+Filename: pool/updates/main/t/tiff/libtiff-opengl_4.0.2-6+deb7u3_i386.deb
+Size: 79036
+MD5sum: 15045922dd789a212133e3db6bc57381
+SHA1: 670721763ad356e3a85af97bd0c32edc02701e4e
+SHA256: aebd6b98eeebab82d06ba85b01bb656f2cdf6dda2920d57e31968e824b84354f
 
 Package: libtiff-tools
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 656
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
@@ -21719,15 +21719,15 @@ Homepage: http://libtiff.maptools.org
 Description-md5: f333fccce3ca049190b80f117d3faa92
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff-tools_4.0.2-6+deb7u2_i386.deb
-Size: 327404
-MD5sum: 45d11dd61ceedd8c5785726575b0878d
-SHA1: eddcec099647cad1f2a56a9c1f9e40cd796b8124
-SHA256: 6ff30183a6bdedeae2100ae72cbe0e8b68054a684088b5c23f506bb1f7fc5cee
+Filename: pool/updates/main/t/tiff/libtiff-tools_4.0.2-6+deb7u3_i386.deb
+Size: 327546
+MD5sum: 9bdff7128e9d67c3cec813158e25f10e
+SHA1: 5b69aa39ff7a01df7f2b1763a58c4aa65a0c2724
+SHA256: 6312de98d6ee22465bfa14f50a27538f62ebcef4bf7ae60d772cd8e736a8aca9
 
 Package: libtiff5
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 532
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
@@ -21739,54 +21739,54 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff5_4.0.2-6+deb7u2_i386.deb
-Size: 236724
-MD5sum: 23276ef05524f19779554d73a17cfac1
-SHA1: 225310fd535cd9db35f89d627029b5b4307583bb
-SHA256: aa6332566ba077ee4d5591d2efdec690ee2395014b6ebfe0d5d2821ff81bd562
+Filename: pool/updates/main/t/tiff/libtiff5_4.0.2-6+deb7u3_i386.deb
+Size: 236740
+MD5sum: 806337e2ed98ccc908866d0ecb1bc92a
+SHA1: e8ac4c13080a181a3df0163490b40f68a4d88648
+SHA256: 1d3c0b3193d1994a5070045f4489c3ed5c0330a2a938aab2a739be5b2c2429fd
 
 Package: libtiff5-alt-dev
 Source: tiff
-Version: 4.0.2-6+deb7u2
-Installed-Size: 762
+Version: 4.0.2-6+deb7u3
+Installed-Size: 763
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
-Depends: libtiff5 (= 4.0.2-6+deb7u2), libtiffxx5 (= 4.0.2-6+deb7u2), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev, libjbig-dev, liblzma-dev
+Depends: libtiff5 (= 4.0.2-6+deb7u3), libtiffxx5 (= 4.0.2-6+deb7u3), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev, libjbig-dev, liblzma-dev
 Conflicts: libtiff5-dev
 Description: Tag Image File Format library (TIFF), alternative development files
 Homepage: http://libtiff.maptools.org
 Description-md5: f8bd909b2722035ca5228536eb37749a
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff5-alt-dev_4.0.2-6+deb7u2_i386.deb
-Size: 301970
-MD5sum: c4f91bc80ebdd9041ceebe4d9a3cdb0c
-SHA1: 2375bc76e44caa95fd9001ec68a26eb04a332d22
-SHA256: f2572287079c3d508fa171e67fb87a77c081d0a7b713df304c58ea1aa5fb8910
+Filename: pool/updates/main/t/tiff/libtiff5-alt-dev_4.0.2-6+deb7u3_i386.deb
+Size: 301996
+MD5sum: c6182f8230a5dd2543ed7f31e285c8f2
+SHA1: 6b11abf8ed36256bf7d85f2638f7a04a47facfd4
+SHA256: 4db094d40e882083e872a9d8a71f83a1f5ebfcf00e94ee2b905b6876e442b252
 
 Package: libtiff5-dev
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 839
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
 Replaces: libtiff-dev (<< 4.0.0-2), libtiff4-dev, libtiff5-alt-dev
-Depends: libtiff5 (= 4.0.2-6+deb7u2), libtiffxx5 (= 4.0.2-6+deb7u2), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev, libjbig-dev, liblzma-dev
+Depends: libtiff5 (= 4.0.2-6+deb7u3), libtiffxx5 (= 4.0.2-6+deb7u3), libc6-dev | libc-dev, zlib1g-dev, libjpeg-dev, libjbig-dev, liblzma-dev
 Conflicts: libtiff-dev (<< 4.0.0-2), libtiff4-dev, libtiff5-alt-dev
 Description: Tag Image File Format library (TIFF), development files
 Homepage: http://libtiff.maptools.org
 Description-md5: 9da8bcdaa4c04ca6ee4ae233236c1927
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiff5-dev_4.0.2-6+deb7u2_i386.deb
-Size: 381964
-MD5sum: 9b1aa4e3fff24901d2a872bd6eafd5dc
-SHA1: 6e5cf09cc4d455c0df7ec525d4399aae7f3316f3
-SHA256: ac9e8167a085c224590b4a96dd102bbd66cb50d83112ce901f48a74b82f3e31a
+Filename: pool/updates/main/t/tiff/libtiff5-dev_4.0.2-6+deb7u3_i386.deb
+Size: 381998
+MD5sum: ef0ff7ebceefa76eb93d999d32296c7a
+SHA1: 7fb0cb607f804413c092b98fdb67084b5dc15d05
+SHA256: a1e9b384daf9dba2451ca70bb056404fec567435f7e90b03e4553865f9390d9a
 
 Package: libtiffxx5
 Source: tiff
-Version: 4.0.2-6+deb7u2
+Version: 4.0.2-6+deb7u3
 Installed-Size: 79
 Maintainer: Jay Berkenbilt <qjb@debian.org>
 Architecture: i386
@@ -21798,11 +21798,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/t/tiff/libtiffxx5_4.0.2-6+deb7u2_i386.deb
-Size: 73994
-MD5sum: a5feb9c549fa52e0308602d3a58d2c1b
-SHA1: 2bf6d43a23b23b7e421b129aa444cf356a8c6965
-SHA256: 2368b1047e26b21fe1bfa2fa7a44f37bf79ddbe5e61c4a08f25fa816f1272f83
+Filename: pool/updates/main/t/tiff/libtiffxx5_4.0.2-6+deb7u3_i386.deb
+Size: 74030
+MD5sum: 1d7d573672b2669dd56f08e4985ce6de
+SHA1: 97e530ad15d8c354fd0b1b11f05f7b4fb8cbccdd
+SHA256: feb283a3a7aa2b941582fa65f30a8eb348bd5984b981046960b36f143c9bb05a
 
 Package: libservlet2.4-java
 Source: tomcat6
