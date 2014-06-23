@@ -13376,6 +13376,142 @@ MD5sum: 7272317a5ec40eba3c0d46684cad7750
 SHA1: 79bf9f9252c2b06a7e8634993bf77166101a9cab
 SHA256: b6f8fe31ef4478e91bb442f7906e65948f6b6da38dca2a6a25a42c3ddeec38b6
 
+Package: liblucene3-contrib-java
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 11668
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: liblucene3-java
+Suggests: liblucene3-java-doc
+Description: Full-text search engine library for Java(TM)
+Homepage: http://lucene.apache.org
+Description-md5: 15577b9fe5033223bce13b4f857675aa
+Recommends: libavalon-framework-java, libcommons-beanutils-java, libcommons-codec-java (>= 1.6), libcommons-collections3-java, libcommons-compress-java, libcommons-digester-java, libcommons-logging-java, libexcalibur-logkit-java, libicu4j-4.4-java, liblog4j1.2-java, libregexp-java, libxerces2-java, libxml-commons-external-java, libxml-commons-resolver1.1-java
+Section: java
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/liblucene3-contrib-java_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 11153104
+MD5sum: 01237d512dbcb80e1110b8d62fb5c9ea
+SHA1: 61bdc9e6c825032eefcc4378f1f3c4d25637914c
+SHA256: 9aa7d4693b8a4710657a8f07c57f5eff42f614dc0c385d3e783b4770faab6c54
+
+Package: liblucene3-java
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 1714
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Suggests: ant, ant-optional, junit4
+Description: Full-text search engine library for Java(TM)
+Homepage: http://lucene.apache.org
+Description-md5: 70aa32c1c78cedda2b1bd82df997dee7
+Recommends: liblucene3-contrib-java
+Section: java
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/liblucene3-java_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 1512400
+MD5sum: 832fd89e1424b9af53b5401cdae048f8
+SHA1: f47f889a5b72cae66a7e529029be4872a04186fe
+SHA256: 7959d005f099f00b4b05762b247a57432e3e642f86ed6b7bf02ab1b80d57a7e9
+
+Package: liblucene3-java-doc
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 129307
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Suggests: liblucene3-java
+Description: Documentation for Lucene
+Homepage: http://lucene.apache.org
+Description-md5: 7aba462e5fbf51587e67102b90c461ce
+Section: doc
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/liblucene3-java-doc_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 9600444
+MD5sum: 3e61a0d9fa9c3b33faef1e43f903db57
+SHA1: 86be614c66c0f946386a380934124d42be98611b
+SHA256: 077ac6ccbba44fc44ae5d25200b430f21c66cd3e4a9460ffbfe1bc26bcbcb2d9
+
+Package: libsolr-java
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 2287
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Replaces: solr-common (<< 3.6.0-1)
+Depends: libcommons-codec-java (>= 1.6), libcommons-fileupload-java (>= 1.2.1), libcommons-httpclient-java (>= 3.1), libcommons-io-java (>= 1.4), libcommons-lang-java, libcommons-logging-java, libgeronimo-stax-1.2-spec-java, libguava-java, libhttpclient-java (>= 4.1.1), libhttpmime-java, liblucene3-contrib-java, liblucene3-java, libservlet2.5-java (>= 6.0.20), libslf4j-java (>= 1.6.1), libwoodstox-java
+Suggests: junit4, libeasymock-java, libjetty-extras-java, libjetty-java, libsolr-java-doc
+Breaks: solr-common (<< 3.6.0-1)
+Description: Enterprise search server based on Lucene - Java libraries
+Homepage: http://lucene.apache.org
+Description-md5: 4dd9dc9432d83c43177b09903e210aa6
+Section: java
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/libsolr-java_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 2029750
+MD5sum: 27dccd3b584773dc523ea9cc33527554
+SHA1: 2e864f642f854d6a97b3eb4baa210d6d528ce1a1
+SHA256: 186c26fbc6e1a27b007fb833e872c9e9ff3c6faf65f049d86cf8c097fcf315be
+
+Package: solr-common
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 709
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: curl, debconf (>= 1.5), default-jre-headless | java5-runtime-headless | java6-runtime-headless, libjs-jquery, libsolr-java (= 3.6.0+dfsg-1+deb7u1), procps
+Suggests: libmysql-java
+Description: Enterprise search server based on Lucene3 - common files
+Homepage: http://lucene.apache.org
+Description-md5: 2a700ce52eb8ce5ea4803b1a7664fcc7
+Recommends: solr-tomcat (= 3.6.0+dfsg-1+deb7u1) | solr-jetty (= 3.6.0+dfsg-1+deb7u1)
+Section: web
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/solr-common_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 171552
+MD5sum: 6fe9629acdac540ec66484cf1f9bc60c
+SHA1: 95d15b2a2774af95fa11aa398e7388780110b9ac
+SHA256: 16c096b140f406abf4772e30affce7e5a2886fa2f2bbae64759b050805a0d338
+
+Package: solr-jetty
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 70
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: jetty (>= 6.1.22), libjetty-extra-java (>= 6.1.22), solr-common (= 3.6.0+dfsg-1+deb7u1)
+Conflicts: solr-tomcat, solr-tomcat6
+Description: Enterprise search server based on Lucene3 - Jetty integration
+Homepage: http://lucene.apache.org
+Description-md5: f9bd6b37cab2818e5309a83177b84552
+Section: java
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/solr-jetty_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 7520
+MD5sum: 6d00a0d481799b70d784c43c3a609ae2
+SHA1: a1733fc4c0b9cff5918b02be45fe9288f3290da4
+SHA256: 7123c33985031c854952e568bb0980c1ad710761a7abe33e5fb889687c736757
+
+Package: solr-tomcat
+Source: lucene-solr
+Version: 3.6.0+dfsg-1+deb7u1
+Installed-Size: 63
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: solr-common (= 3.6.0+dfsg-1+deb7u1), tomcat6
+Conflicts: solr-jetty, solr-tomcat6
+Description: Enterprise search server based on Lucene3 - Tomcat integration
+Homepage: http://lucene.apache.org
+Description-md5: eb7b14f88e5e0facbf4429a2f496d47f
+Section: java
+Priority: optional
+Filename: pool/updates/main/l/lucene-solr/solr-tomcat_3.6.0+dfsg-1+deb7u1_all.deb
+Size: 7942
+MD5sum: a20d5f95752455be5c2edd93244a0887
+SHA1: 9412c1cf80fca9b700ebf5e2815a5552ef00a78a
+SHA256: 16b5341c0cb8bdf7b9c1e93a9c4237f4866ed803aaac0dfdaed18386ddfde1c9
+
 Package: python-lxml
 Source: lxml
 Version: 2.3.2-1+deb7u1
