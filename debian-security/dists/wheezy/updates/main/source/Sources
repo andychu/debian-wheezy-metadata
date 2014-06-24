@@ -8688,7 +8688,7 @@ Section: x11
 
 Package: samba
 Binary: samba, samba-common-bin, samba-common, samba-tools, smbclient, swat, samba-doc, samba-doc-pdf, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Uploaders: Steve Langasek <vorlon@debian.org>, Christian Perrier <bubulle@debian.org>, Noèl Köthe <noel@debian.org>, Jelmer Vernooij <jelmer@debian.org>
 Build-Depends: debhelper (>= 9~), libpam0g-dev, libreadline-dev, libcups2-dev, libacl1-dev [linux-any], libkrb5-dev (>= 1.10+dfsg~), libldap2-dev, po-debconf, libpopt-dev, uuid-dev, libtalloc-dev (>= 2.0.1-1~bpo50+1), libtdb-dev (>= 1.2.6~), libcap-dev [linux-any], libkeyutils-dev [linux-any], libctdb-dev (>= 1.10+git20110412), pkg-config
@@ -8696,18 +8696,18 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- aa39fb006b8f7c80aad42bcaafd120b6 3098 samba_3.6.6-6+deb7u2.dsc
+ 189195d4f18f4fccd4cf8299e77b22e3 3098 samba_3.6.6-6+deb7u4.dsc
  46b07ed027657917413f6bfc7234db38 29464478 samba_3.6.6.orig.tar.bz2
- a9a3d12df1b859ba61b2927814f42086 402977 samba_3.6.6-6+deb7u2.debian.tar.gz
+ b74efe0aaf3515ff714aa922cbe8ac12 412989 samba_3.6.6-6+deb7u4.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-samba/trunk/samba/
 Checksums-Sha1:
- a7c535caac4902da938cc9c81fb6faba87c84c97 3098 samba_3.6.6-6+deb7u2.dsc
+ a6b5f94709fac3d079f3ff35aa76523cc200fa67 3098 samba_3.6.6-6+deb7u4.dsc
  450371e613d867a2d42555998cd3e83a47014123 29464478 samba_3.6.6.orig.tar.bz2
- 4b72ee589be6c807b6ac28571b00954a2ff8e28b 402977 samba_3.6.6-6+deb7u2.debian.tar.gz
+ 9567a4a4e25be2d68d682aca750a0e874793f182 412989 samba_3.6.6-6+deb7u4.debian.tar.gz
 Checksums-Sha256:
- 459fadd255f35dbe87852a099907c05f45a06a57a2297f82ea5bcbcd0fe56096 3098 samba_3.6.6-6+deb7u2.dsc
+ 34dd94899158a374ce0b7afe7116e321aa0f0b3ace5185b767ac56257687bf5b 3098 samba_3.6.6-6+deb7u4.dsc
  1141eb5f173534db8f8d7dd1aa8fed53404d719e4a65c610f3ef62fdcad783e6 29464478 samba_3.6.6.orig.tar.bz2
- 204fb4508dacc60de522e5de48231ec22902685c0f47d60eb195bb2326ab37e1 402977 samba_3.6.6-6+deb7u2.debian.tar.gz
+ 56157a054ad77035073f11d0905666f52664bcaa0d582eb8fbb3f3fdbef44fc8 412989 samba_3.6.6-6+deb7u4.debian.tar.gz
 Homepage: http://www.samba.org
 Build-Conflicts: libfam-dev, python-ldb, python-ldb-dev
 Package-List: 

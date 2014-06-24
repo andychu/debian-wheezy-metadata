@@ -20196,12 +20196,12 @@ SHA256: c6e475a17a72a5a217e1e2cd699e487421815678094ddbd309ea22dd30d1a236
 
 Package: libnss-winbind
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 1752
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libpam-winbind (<< 2:3.6.5-2), samba (<= 2.2.3-2), winbind (<< 2:3.5.11~dfsg-3)
-Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), winbind (= 2:3.6.6-6+deb7u2), libwbclient0 (= 2:3.6.6-6+deb7u2), samba-common (= 2:3.6.6-6+deb7u2)
+Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), winbind (= 2:3.6.6-6+deb7u4), libwbclient0 (= 2:3.6.6-6+deb7u4), samba-common (= 2:3.6.6-6+deb7u4)
 Suggests: libpam-winbind
 Breaks: libpam-winbind (<< 2:3.6.5-2), winbind (<< 2:3.5.11~dfsg-3)
 Description: Samba nameservice integration plugins
@@ -20211,19 +20211,19 @@ Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/libnss-winbind_3.6.6-6+deb7u2_amd64.deb
-Size: 559108
-MD5sum: c4108faac458fb95334718f434b5cd0c
-SHA1: eb34a2b0dd27da6eec69c5e1cedf24b3e7fd79d6
-SHA256: c26dd102d510b455733734fba8f81f2f88c156f053f51431cf02b147e768a93b
+Filename: pool/updates/main/s/samba/libnss-winbind_3.6.6-6+deb7u4_amd64.deb
+Size: 561158
+MD5sum: daa7216184bf84cf4fe8b703bb320606
+SHA1: 2e4e7b34bba967db0e05e8a21d74e958c7dac05f
+SHA256: c548eb2485729dad078d1ebf266f626c04cdba333067aeaa947e80620c5fa44a
 
 Package: libpam-smbpass
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 2167
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), samba-common (= 2:3.6.6-6+deb7u2), libpam-runtime (>= 1.0.1-6)
+Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), samba-common (= 2:3.6.6-6+deb7u4), libpam-runtime (>= 1.0.1-6)
 Suggests: samba
 Description: pluggable authentication module for Samba
 Homepage: http://www.samba.org
@@ -20232,20 +20232,20 @@ Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: admin
 Priority: extra
-Filename: pool/updates/main/s/samba/libpam-smbpass_3.6.6-6+deb7u2_amd64.deb
-Size: 691478
-MD5sum: fa8b8276ec916ccce0896916dcf8fe94
-SHA1: 257a9495a72b8d43e171b4db99add47db1a56b23
-SHA256: c338feb8c2deed38c4589dad0693cccfe37b379d4055218a1dbdce9958303fd9
+Filename: pool/updates/main/s/samba/libpam-smbpass_3.6.6-6+deb7u4_amd64.deb
+Size: 692450
+MD5sum: 457ed476be3092ffc182cff4dfbc4fa3
+SHA1: 4ca39fa9da18d92a6dcb3ba5705119a7d844fddb
+SHA256: 88118319dca5d369d32f593eed987128dd84557908c0a22647d06642e112b8ec
 
 Package: libpam-winbind
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 135
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: samba (<= 2.2.3-2), winbind (<< 2:3.5.11~dfsg-3)
-Depends: libc6 (>= 2.8), libpam0g (>= 1.1.3-2~), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (= 2:3.6.6-6+deb7u2), winbind (= 2:3.6.6-6+deb7u2), samba-common (= 2:3.6.6-6+deb7u2), libpam-runtime (>= 1.0.1-6)
+Depends: libc6 (>= 2.8), libpam0g (>= 1.1.3-2~), libtalloc2 (>= 2.0.4~git20101213), libwbclient0 (= 2:3.6.6-6+deb7u4), winbind (= 2:3.6.6-6+deb7u4), samba-common (= 2:3.6.6-6+deb7u4), libpam-runtime (>= 1.0.1-6)
 Breaks: winbind (<< 2:3.5.11~dfsg-3)
 Description: Windows domain authentication integration plugin
 Homepage: http://www.samba.org
@@ -20255,15 +20255,15 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: libnss-winbind
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/libpam-winbind_3.6.6-6+deb7u2_amd64.deb
-Size: 102442
-MD5sum: 2cbab14cdca303cec769c8dbc0d362d3
-SHA1: 3254f7c9a4c0060105f05288820e57621460fd50
-SHA256: 34dc7cc096cec0220d3efcc80d265d6c8728cea1cb71a89ccc097a2223b4b8bb
+Filename: pool/updates/main/s/samba/libpam-winbind_3.6.6-6+deb7u4_amd64.deb
+Size: 102584
+MD5sum: d6410a487d778d890d115098ab560f47
+SHA1: c5dbd9d1b3e6af5a2c78bc905d89a99d58c78099
+SHA256: 06ff2aa7543728b1117ccab04708d65f399e4d32f4e5385d7723912b4a89851c
 
 Package: libsmbclient
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 5965
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
@@ -20275,19 +20275,19 @@ Multi-Arch: same
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Section: libs
 Priority: optional
-Filename: pool/updates/main/s/samba/libsmbclient_3.6.6-6+deb7u2_amd64.deb
-Size: 1537944
-MD5sum: d5c26c8a99cba1cad923178eb3cc9296
-SHA1: d685b5afa3fc6c4a9242e7a58edc01a128ac8958
-SHA256: 0dd62b7daf1b8e674e6609340f128fc4b913130868051efddcf47b555530c075
+Filename: pool/updates/main/s/samba/libsmbclient_3.6.6-6+deb7u4_amd64.deb
+Size: 1538208
+MD5sum: 19d78a0bf67c295a01e351b9f6bdd439
+SHA1: 90d4dca62dceea7f1d452b4cda198f64bd6c10e8
+SHA256: 90c846dc1c043f6f70ef5abd55dab165f4a6a4919e8ba26e711b472036e09b9a
 
 Package: libsmbclient-dev
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 12709
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libsmbclient (= 2:3.6.6-6+deb7u2)
+Depends: libsmbclient (= 2:3.6.6-6+deb7u4)
 Description: development files for libsmbclient
 Homepage: http://www.samba.org
 Description-md5: d6338d0aed68408023b999dd547aaecf
@@ -20295,19 +20295,19 @@ Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/s/samba/libsmbclient-dev_3.6.6-6+deb7u2_amd64.deb
-Size: 1864040
-MD5sum: 5064d1e545d7d57e34e6842f70f77a31
-SHA1: 0d4b538a542531bc52bb313bd38ad70b309bab1e
-SHA256: c775ad116962aac07e1deef0f5bd9b61aaeac1f11904840cf790e7f0422fbbe6
+Filename: pool/updates/main/s/samba/libsmbclient-dev_3.6.6-6+deb7u4_amd64.deb
+Size: 1863090
+MD5sum: cf3c7c4dc0b3635de8eef7b59a4b944c
+SHA1: 2faa00882afa0cfcf4b18a6df5e15d4cee0d86d9
+SHA256: ccab30599c86ad9335af709651368f362aa4ed3b64f22006030fe1fce21ba85e
 
 Package: libwbclient-dev
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 109
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libwbclient0 (= 2:3.6.6-6+deb7u2)
+Depends: libwbclient0 (= 2:3.6.6-6+deb7u4)
 Description: Samba winbind client library - development files
 Homepage: http://www.samba.org
 Description-md5: 2fd42f0ef62fe1cc8cfee6fb03d4b884
@@ -20315,15 +20315,15 @@ Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/s/samba/libwbclient-dev_3.6.6-6+deb7u2_amd64.deb
-Size: 83242
-MD5sum: c9d7562d69ceaccc63f1a20c8ce86624
-SHA1: 8441d2bdec1d41997d08ce8ee2c2e97261f10a57
-SHA256: 9667407db5197619c3bb5026f4ec0e9641b416fd77d8c8f81c8bb62ce6d4746a
+Filename: pool/updates/main/s/samba/libwbclient-dev_3.6.6-6+deb7u4_amd64.deb
+Size: 83418
+MD5sum: a5ae1ad95bab8b66352cc38137b728f7
+SHA1: fec7f1ceb9657d9c0180a704304ea178db2febd4
+SHA256: c8947e513a29da03f6554b6edb272d30047e0a114bf86bae8d293e528de3fe8b
 
 Package: libwbclient0
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 126
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
@@ -20336,19 +20336,19 @@ Multi-Arch: same
 Pre-Depends: multiarch-support, dpkg (>= 1.15.6~)
 Section: libs
 Priority: optional
-Filename: pool/updates/main/s/samba/libwbclient0_3.6.6-6+deb7u2_amd64.deb
-Size: 95672
-MD5sum: e4d615dc1811bed60e8d71180821ce69
-SHA1: c4fc5257c6c73e87910eb083c9f7bc109655967f
-SHA256: 0dfe55ada9abe72cd152ad76a35548f63d960daea87322e21a90af86c765e53c
+Filename: pool/updates/main/s/samba/libwbclient0_3.6.6-6+deb7u4_amd64.deb
+Size: 95798
+MD5sum: bc843f55e8e7ac948df56c9d34f5df8e
+SHA1: 524cc0d843f70a3aa13ec6a5576daff5f4cccbbe
+SHA256: de65de98cdcb5549b8041b1f40f9e9657281f42a6bf0edc9280aa387e6154392
 
 Package: samba
-Version: 2:3.6.6-6+deb7u2
-Installed-Size: 23183
+Version: 2:3.6.6-6+deb7u4
+Installed-Size: 23180
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: samba-common (<= 2.0.5a-2)
-Depends: samba-common (= 2:3.6.6-6+deb7u2), libwbclient0 (= 2:3.6.6-6+deb7u2), libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, libpam-runtime (>= 1.0.1-11), libpam-modules, lsb-base (>= 3.2-13), procps, update-inetd, adduser
+Depends: samba-common (= 2:3.6.6-6+deb7u4), libwbclient0 (= 2:3.6.6-6+deb7u4), libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, libpam-runtime (>= 1.0.1-11), libpam-modules, lsb-base (>= 3.2-13), procps, update-inetd, adduser
 Suggests: openbsd-inetd | inet-superserver, smbldap-tools, ldb-tools, ctdb
 Conflicts: samba4 (<< 4.0.0~alpha6-2)
 Description: SMB/CIFS file, print, and login server for Unix
@@ -20358,15 +20358,15 @@ Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: logrotate, tdb-tools
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/samba_3.6.6-6+deb7u2_amd64.deb
-Size: 4322188
-MD5sum: 5a7df8abec44310d6ba7d7c3958ed81c
-SHA1: c2970553ce53e6bada07fdf007e242b174ea0ebf
-SHA256: ddabadeaa4e1cc145a39422d4f3f19f7af1d4d5fa44d3db5c87ff5ebddc7fbbb
+Filename: pool/updates/main/s/samba/samba_3.6.6-6+deb7u4_amd64.deb
+Size: 4329438
+MD5sum: 16acc913ddeec9b8540ac4ab33b00bd0
+SHA1: 8d44e0074e3b2b1975346e25801192e985a9e72a
+SHA256: 1021897d34d5a96dea1d9f18074c5f7ac3467a500a805977d34c1f568c2a7eb3
 
 Package: samba-common
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 593
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
@@ -20381,15 +20381,15 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: samba-common-bin
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/samba-common_3.6.6-6+deb7u2_all.deb
-Size: 213442
-MD5sum: a43424335f3248602102b4dfcb9825b4
-SHA1: 677ed26f32878fece5e5580c8b7f4aad67bc74a1
-SHA256: dc5426220ef79ed3c72bdc4ccb642a63034feaa6dd31699465bfba046c9b91cb
+Filename: pool/updates/main/s/samba/samba-common_3.6.6-6+deb7u4_all.deb
+Size: 213772
+MD5sum: 52ad2a76516bdc034ff93cd4b1561468
+SHA1: 08cc32746047fde7e7caa50fad3dbd716b9ec940
+SHA256: 0e580f5f43af0dc8ed6677edbcd00b12affb7bff8af2e175c7774f1b293d09c7
 
 Package: samba-common-bin
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 18153
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
@@ -20402,35 +20402,35 @@ Multi-Arch: foreign
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/samba-common-bin_3.6.6-6+deb7u2_amd64.deb
-Size: 3718646
-MD5sum: 6ce49962397cd89d7f77956e8ff84d61
-SHA1: 87420c1d54fa1d3448d6031eb280fbe97cd38215
-SHA256: 4bf070c3adc49169898833bc4dbfc012b68998f76c66a66bf387b1ffd3566870
+Filename: pool/updates/main/s/samba/samba-common-bin_3.6.6-6+deb7u4_amd64.deb
+Size: 3711624
+MD5sum: 8b365b7deeb51bb672ae900d2e5e412e
+SHA1: 3f61c9a26da5fbc7d9f00a7ab869d99e060f5f20
+SHA256: 4ae9d6dcb98847068696684a1346e943c83324374b953129f44d1fa1cc7904bf
 
 Package: samba-dbg
 Source: samba
-Version: 2:3.6.6-6+deb7u2
-Installed-Size: 83342
+Version: 2:3.6.6-6+deb7u4
+Installed-Size: 83339
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: samba (= 2:3.6.6-6+deb7u2)
+Depends: samba (= 2:3.6.6-6+deb7u4)
 Description: Samba debugging symbols
 Homepage: http://www.samba.org
 Description-md5: f3ad98b58579564228dc9b95ecaca46a
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: devel
 Priority: extra
-Filename: pool/updates/main/s/samba/samba-dbg_3.6.6-6+deb7u2_amd64.deb
-Size: 74970920
-MD5sum: 47326a7b56102f90f386060cea2d4b9b
-SHA1: 31fe1c796be38516bb4041d6c0aaa2aa518070b2
-SHA256: 7a8f69d3f222f1b417169bbc811e11ef30788c1a7a47a7eb6f16f2f282bd0e4e
+Filename: pool/updates/main/s/samba/samba-dbg_3.6.6-6+deb7u4_amd64.deb
+Size: 75016446
+MD5sum: eef77af7523f650a7ff281c2cd10e77b
+SHA1: d7f0769e0d30a6e93af63d36d8d8070ba42ec562
+SHA256: e497501b8cedbad0913166ac5ff7d54ac999338ffaccb595b4e17392919b5036
 
 Package: samba-doc
 Source: samba
-Version: 2:3.6.6-6+deb7u2
-Installed-Size: 13496
+Version: 2:3.6.6-6+deb7u4
+Installed-Size: 13497
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
 Suggests: samba-doc-pdf
@@ -20440,15 +20440,15 @@ Description-md5: a0929c1210df3dd912c15b8d3bdab5ff
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: doc
 Priority: optional
-Filename: pool/updates/main/s/samba/samba-doc_3.6.6-6+deb7u2_all.deb
-Size: 5764320
-MD5sum: 35d4895382b4619444acbf8b9a7b0f6b
-SHA1: 9ad83f91efcce47284c9b8b52b8f7cfc9040cdb6
-SHA256: 1cd2073158ddeadcf6fa66785e5cbf988a738a26eb9112769a7deb5f54daca9d
+Filename: pool/updates/main/s/samba/samba-doc_3.6.6-6+deb7u4_all.deb
+Size: 5764450
+MD5sum: dc8f8844838718c39d7d683d83ed3267
+SHA1: 93ddadb309213a767cb6662002a69809932363c8
+SHA256: 22c2bf50b696476a18bb240ef1278616a3d57e5fa765e603ecec837d5b13beed
 
 Package: samba-doc-pdf
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 6921
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: all
@@ -20458,15 +20458,15 @@ Description-md5: 9a7a9193c0d5ef2aafebcf80d7b2d356
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: doc
 Priority: optional
-Filename: pool/updates/main/s/samba/samba-doc-pdf_3.6.6-6+deb7u2_all.deb
-Size: 7066764
-MD5sum: e4d0b3a69651811e54be1acba3180b55
-SHA1: 9c9e19615876c2066cff7dc02615df7b92b7b2ee
-SHA256: 09b01fc0bc60f8a4d5046cde1dc2183ebb462e62d4a074883bc62a31b856006c
+Filename: pool/updates/main/s/samba/samba-doc-pdf_3.6.6-6+deb7u4_all.deb
+Size: 7066882
+MD5sum: e369fbd2a45b2bdd8133f58a64801cc6
+SHA1: fc3d863bc9b4f1bbf53e8a200658ffb5c97c7f9c
+SHA256: 7bb0f8176e186a55f89fcee1c8bd824eb1cd4de13999d4ea51b5549bcd13fddd
 
 Package: samba-tools
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 33707
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
@@ -20478,21 +20478,21 @@ Description-md5: e2a81a28e5322f5eb71f94b5b89163fa
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/samba-tools_3.6.6-6+deb7u2_amd64.deb
-Size: 5379614
-MD5sum: a96a39dfb5e1086c2d9d1e1d7bb63845
-SHA1: 0839f9be89d65f666cf74193722dff3fa9f37cb4
-SHA256: 776c1712a2cee5b1817447bf3c3fa5555827eebc6489e0d9866ea9d9cb5309c3
+Filename: pool/updates/main/s/samba/samba-tools_3.6.6-6+deb7u4_amd64.deb
+Size: 5385580
+MD5sum: 727e41725ae06bf757e92c685b054e01
+SHA1: 04f19456c0044593443939aa18e0fb656e22ef17
+SHA256: 77629893b63a6d66b1920c0056c43f3daf34f0fca8daa9b1d28a1c13522b4d66
 
 Package: smbclient
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 41901
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: samba (<< 2.999+3.0.alpha21-4), smbget
 Provides: samba-client
-Depends: samba-common (= 2:3.6.6-6+deb7u2), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtinfo5, libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
+Depends: samba-common (= 2:3.6.6-6+deb7u4), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpopt0 (>= 1.14), libreadline6 (>= 6.0), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtinfo5, libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4)
 Suggests: cifs-utils
 Conflicts: samba4-clients (<< 4.0.0~beta1+dfsg1-1)
 Description: command-line SMB/CIFS clients for Unix
@@ -20501,40 +20501,40 @@ Description-md5: 476018eed30b7f1e76b02afe22aaf008
 Pre-Depends: dpkg (>= 1.15.6~)
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/smbclient_3.6.6-6+deb7u2_amd64.deb
-Size: 5891048
-MD5sum: 52c00fcaa7f20ceea2ade2b872a27ae0
-SHA1: 45b8322f7a223cecf1ae2b34be9bf8c2d4cee60c
-SHA256: 2fda1c79d696ff5df32c898bf5bc0734a8014a6ad71b8bc88ee355a239dbea86
+Filename: pool/updates/main/s/samba/smbclient_3.6.6-6+deb7u4_amd64.deb
+Size: 5873026
+MD5sum: 6f23f8c59606a6d46aabdda06764d471
+SHA1: 556ef092839a87c024206b20b69aa568cb6588f4
+SHA256: 968fd3ab7d3f7f864aeaee24dc7fc6de7df7b1c31f3280e577f0d68234371c76
 
 Package: swat
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 6569
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
-Depends: samba (= 2:3.6.6-6+deb7u2), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
+Depends: samba (= 2:3.6.6-6+deb7u4), libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libcups2 (>= 1.4.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (>= 2:3.6.0~pre3), zlib1g (>= 1:1.1.4), openbsd-inetd | inet-superserver
 Description: Samba Web Administration Tool
 Homepage: http://www.samba.org
 Description-md5: 522e805bdee5e0ab517ba107d1ef406a
 Pre-Depends: dpkg (>= 1.15.6~)
-Recommends: samba-doc (= 2:3.6.6-6+deb7u2)
+Recommends: samba-doc (= 2:3.6.6-6+deb7u4)
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/swat_3.6.6-6+deb7u2_amd64.deb
-Size: 1736834
-MD5sum: a4d2042eba837db54340d6e0e44286ef
-SHA1: 70dfa83807b48539128292b18efa0d1a1da6cef6
-SHA256: 3b7efa06f9ec2976b591941846b055f06162d4560ab3b7ca36513bce6ef55cda
+Filename: pool/updates/main/s/samba/swat_3.6.6-6+deb7u4_amd64.deb
+Size: 1739670
+MD5sum: 16275f7a10a9195ccb3d8db4b917201d
+SHA1: 8a82e1c77373bc550bd4478e8cd255dc955ae585
+SHA256: ce3a8d3e6d1b9c0c86115148a822314713be491fdf34d58fa549217fac6a40cd
 
 Package: winbind
 Source: samba
-Version: 2:3.6.6-6+deb7u2
+Version: 2:3.6.6-6+deb7u4
 Installed-Size: 12926
 Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: samba (<= 2.2.3-2)
-Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.6-6+deb7u2), zlib1g (>= 1:1.1.4), samba-common (= 2:3.6.6-6+deb7u2), lsb-base (>= 3.0-6), adduser
+Depends: libc6 (>= 2.10), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.10+dfsg~), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libwbclient0 (= 2:3.6.6-6+deb7u4), zlib1g (>= 1:1.1.4), samba-common (= 2:3.6.6-6+deb7u4), lsb-base (>= 3.0-6), adduser
 Description: Samba nameservice integration server
 Homepage: http://www.samba.org
 Description-md5: ab3445ae3b9e5ec24a4f990f448f661a
@@ -20543,11 +20543,11 @@ Pre-Depends: dpkg (>= 1.15.6~)
 Recommends: libpam-winbind, libnss-winbind
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/samba/winbind_3.6.6-6+deb7u2_amd64.deb
-Size: 2616360
-MD5sum: d61be8b69839d4ca81529b1150caa16e
-SHA1: da9add2d38048909d9ddb68c34fcc884928f557a
-SHA256: af7bd1f2fc2dff25aa1e8deb4a0ed9e7f72490052e4a402969224d9fd4f2b4fc
+Filename: pool/updates/main/s/samba/winbind_3.6.6-6+deb7u4_amd64.deb
+Size: 2615694
+MD5sum: bb463f8d6093a901f184ba63ef163e6d
+SHA1: e33b5dac11d49cdc432f3502f647fab5f96173c8
+SHA256: f1959b5f037e32d92d59288a0c7c240a3fad04255855dbb0142d62488754ca41
 
 Package: libspice-server-dev
 Source: spice
