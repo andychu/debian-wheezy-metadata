@@ -843,7 +843,7 @@ Section: graphics
 
 Package: gnupg
 Binary: gnupg, gnupg-curl, gpgv, gnupg-udeb, gpgv-udeb, gpgv-win32
-Version: 1.4.12-7+deb7u3
+Version: 1.4.12-7+deb7u4
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Daniel Leidert <dleidert@debian.org>, Thijs Kinkhorst <thijs@debian.org>
 Build-Depends: debhelper (>> 7), libz-dev, libldap2-dev, libbz2-dev, libusb-dev [!hurd-i386], libreadline-dev, file, gettext, libcurl4-gnutls-dev
@@ -851,18 +851,18 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 9e3bf98407214227533c10bad5559bfb 1993 gnupg_1.4.12-7+deb7u3.dsc
+ 580b486123beef6ea35e0927dd535301 2324 gnupg_1.4.12-7+deb7u4.dsc
  f9a65ccd7166d3fdb084454cf7427564 4939171 gnupg_1.4.12.orig.tar.gz
- f17327365a21d208a7a40739ae56661b 102475 gnupg_1.4.12-7+deb7u3.debian.tar.gz
+ 25786cbe082755577e84b8fe89676abd 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnupg/gnupg/
 Checksums-Sha1:
- 18e2bfc5ab8b6f26a846036d3040ad56c39c9401 1993 gnupg_1.4.12-7+deb7u3.dsc
+ 61f290cbbafd310f455d9acac9e743b902711322 2324 gnupg_1.4.12-7+deb7u4.dsc
  790587e440ec7d429b120db7a96a237badc638fd 4939171 gnupg_1.4.12.orig.tar.gz
- 9615fafe7028150e658492d3880b85880108b055 102475 gnupg_1.4.12-7+deb7u3.debian.tar.gz
+ bf4ac31553ac27d3709ed89acf55385c6f8004ac 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
 Checksums-Sha256:
- c8f5e8a5f0797f8da2dfb27fb23e782219738f631b44538fab4c3e2dfb1113c0 1993 gnupg_1.4.12-7+deb7u3.dsc
+ 31f9cfe4e94d25311d1530c4ed9dab6e7a1dc28cc3ad10bc30719101958009eb 2324 gnupg_1.4.12-7+deb7u4.dsc
  bb94222fa263e55a5096fdc1c6cd60e9992602ce5067bc453a4ada77bb31e367 4939171 gnupg_1.4.12.orig.tar.gz
- 3401092a87b51fd90aa5c75ee03a00246bee90e9ad5d02581eed3a78522d95c0 102475 gnupg_1.4.12-7+deb7u3.debian.tar.gz
+ 11745cb3e5c89735957b55d46b8cd36470d0dfbca300fa28134216584ef4fa84 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
 Homepage: http://www.gnupg.org
 Build-Depends-Indep: mingw-w64
 Package-List: 

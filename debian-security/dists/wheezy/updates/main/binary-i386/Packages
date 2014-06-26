@@ -2153,8 +2153,8 @@ SHA1: 56c1ddd18870502cfb54b5c3d09db4113142a5ed
 SHA256: 211374d8c8c7da41cc0c880b0f7d188b770681cd68e4ffb856dc77b7a1c94adf
 
 Package: gnupg
-Version: 1.4.12-7+deb7u3
-Installed-Size: 4608
+Version: 1.4.12-7+deb7u4
+Installed-Size: 4942
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: i386
 Depends: libbz2-1.0, libc6 (>= 2.4), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info, gpgv
@@ -2166,16 +2166,16 @@ Multi-Arch: foreign
 Recommends: libldap-2.4-2 (>= 2.4.7), gnupg-curl
 Section: utils
 Priority: important
-Filename: pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u3_i386.deb
-Size: 1936470
-MD5sum: 88d9d51983fe3a30dab8b2c22f8634da
-SHA1: 5751128d7023d2d9ef8dc12d056f358727c8411b
-SHA256: 679ed745ac7280f5ddf7a84fdd71487ea412f4afffb694b087cde9e035df2ba5
+Filename: pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u4_i386.deb
+Size: 1937638
+MD5sum: e9fc1a2f59266432f5f553c6f99d63e1
+SHA1: 5b494d7bc562ec6778ce9144a7d6cc175af29c04
+SHA256: 7d6a766aaeb701d0f97241b057c153fe2ec646d57671cb04674b6933f9f8bc49
 
 Package: gnupg-curl
 Source: gnupg
-Version: 1.4.12-7+deb7u3
-Installed-Size: 88
+Version: 1.4.12-7+deb7u4
+Installed-Size: 120
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), gnupg
@@ -2185,16 +2185,16 @@ Description-md5: 55306a4e1e1fd63e577767c1b9f5161c
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg/gnupg-curl_1.4.12-7+deb7u3_i386.deb
-Size: 62624
-MD5sum: 1a5ba43cbd53db692f2f07121442f0f0
-SHA1: a140888ebcb7751dd1e7c002ae9a96940d918e2e
-SHA256: c89c39fff5e7dbd8e35a1dc0ae64562f3fd99cc57abd2422591fc8339e3fd4a4
+Filename: pool/updates/main/g/gnupg/gnupg-curl_1.4.12-7+deb7u4_i386.deb
+Size: 62760
+MD5sum: 20d2ad8a656431ef8a3599e61fffe774
+SHA1: f094e3ee759ad4f806472cedb4f68659dcc16dd7
+SHA256: d27221c7b27f558f73145bf49aecc5374c180867470a97627214f25c93574f71
 
 Package: gpgv
 Source: gnupg
-Version: 1.4.12-7+deb7u3
-Installed-Size: 396
+Version: 1.4.12-7+deb7u4
+Installed-Size: 432
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: i386
 Depends: libbz2-1.0, libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
@@ -2205,16 +2205,16 @@ Description-md5: 19709c7fc27595437225fd34d295b347
 Multi-Arch: foreign
 Section: utils
 Priority: important
-Filename: pool/updates/main/g/gnupg/gpgv_1.4.12-7+deb7u3_i386.deb
-Size: 220334
-MD5sum: 1290af7c8edd6228bdb80af79ad5b1b7
-SHA1: 93692d748eb84b2bcb5793c01dd4d7d30d3f907a
-SHA256: 520063b5a7c51ff4b6b5da457ba74a8ed1709a2df6d8b68041d39af655a38424
+Filename: pool/updates/main/g/gnupg/gpgv_1.4.12-7+deb7u4_i386.deb
+Size: 220154
+MD5sum: ed39aaa5ad28f8782613669c8567be56
+SHA1: 8ad9ca23585313f61af16a47c9cd6a19e8502cf6
+SHA256: 077dbfe382b6f13035376f2762e47e56052b8bf090c5fecd5c0e142e5fd40b0c
 
 Package: gpgv-win32
 Source: gnupg
-Version: 1.4.12-7+deb7u3
-Installed-Size: 1449
+Version: 1.4.12-7+deb7u4
+Installed-Size: 1476
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: all
 Suggests: wine
@@ -2223,11 +2223,11 @@ Homepage: http://www.gnupg.org
 Description-md5: 3f8767984a5f4b323de309446d07435d
 Section: utils
 Priority: extra
-Filename: pool/updates/main/g/gnupg/gpgv-win32_1.4.12-7+deb7u3_all.deb
-Size: 614312
-MD5sum: 9c475860c76310fda6267367b4cb679e
-SHA1: ec7307a4ace3d0cccfd0e709dbed095de0c5eb3c
-SHA256: 7726e76225362d366993d3be13bcf7de0eedbfe7886fa752f415586a80ddd687
+Filename: pool/updates/main/g/gnupg/gpgv-win32_1.4.12-7+deb7u4_all.deb
+Size: 614400
+MD5sum: 0f85528f49d858ba8f10a88284d22df4
+SHA1: 0f056402e05f249064a371c2b5e29ca918f7e391
+SHA256: 2d6955dcec3ef31b02ba8d56171528c6f8f2dc9a0e274ba1b057ec372f4936d3
 
 Package: gnupg-agent
 Source: gnupg2
