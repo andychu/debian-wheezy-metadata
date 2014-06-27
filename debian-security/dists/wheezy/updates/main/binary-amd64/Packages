@@ -2231,7 +2231,7 @@ SHA256: 2d6955dcec3ef31b02ba8d56171528c6f8f2dc9a0e274ba1b057ec372f4936d3
 
 Package: gnupg-agent
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
+Version: 2.0.19-2+deb7u2
 Installed-Size: 953
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: amd64
@@ -2246,18 +2246,18 @@ Multi-Arch: foreign
 Recommends: gnupg2 | gpgsm | gnupg
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/gnupg-agent_2.0.19-2+deb7u1_amd64.deb
-Size: 465060
-MD5sum: 9d9b07f8fdc1fbb5e9aa93307f118f88
-SHA1: cf614b8fe2bf6c6acbe552d7862a8b8a78b03980
-SHA256: f0be6fd88957279fcc4c1874289fd942150664bd27bc532bb473f48534289d42
+Filename: pool/updates/main/g/gnupg2/gnupg-agent_2.0.19-2+deb7u2_amd64.deb
+Size: 465120
+MD5sum: 85f056e4ecbff518c27cc6c841f1a9ee
+SHA1: 4397f4e88ffcf812eb4b8ef35a87d4b55d314836
+SHA256: 7e1435b53380d6f97b9e68a79cbb4a6e674ae3f15eff24eb6e7c990d6e4f323f
 
 Package: gnupg2
-Version: 2.0.19-2+deb7u1
+Version: 2.0.19-2+deb7u2
 Installed-Size: 5659
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: amd64
-Depends: gnupg-agent (= 2.0.19-2+deb7u1), libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.7), libcurl3-gnutls (>= 7.16.2), libgcrypt11 (>= 1.4.5), libgpg-error0 (>= 1.10), libksba8 (>= 1.2.0), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Depends: gnupg-agent (= 2.0.19-2+deb7u2), libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.7), libcurl3-gnutls (>= 7.16.2), libgcrypt11 (>= 1.4.5), libgpg-error0 (>= 1.10), libksba8 (>= 1.2.0), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
 Suggests: gnupg-doc, xloadimage
 Conflicts: gpg-idea (<= 2.2)
 Description: GNU privacy guard - a free PGP replacement (new v2.x)
@@ -2267,15 +2267,15 @@ Multi-Arch: foreign
 Recommends: libldap-2.4-2 (>= 2.4.7)
 Section: utils
 Priority: extra
-Filename: pool/updates/main/g/gnupg2/gnupg2_2.0.19-2+deb7u1_amd64.deb
-Size: 2284332
-MD5sum: 644bc452a0d68dd4017663a43d2e055a
-SHA1: 4a4ce12f53d8f2970acf33239a1b1eb874df882c
-SHA256: 5a4d0f15ab5543bd224a92eee67d7452c1748eab18d0bc27a8b1846eefd1caac
+Filename: pool/updates/main/g/gnupg2/gnupg2_2.0.19-2+deb7u2_amd64.deb
+Size: 2284322
+MD5sum: d322bf89a445a4f6ce3656854ad4c246
+SHA1: 4bef86db77d463c24998d663faa7b03127cc01f3
+SHA256: 9b456f0a4114a3950957753df249603ab774239c178fbe11b12c56b68feb603f
 
 Package: gpgsm
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
+Version: 2.0.19-2+deb7u2
 Installed-Size: 500
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: amd64
@@ -2287,15 +2287,15 @@ Description-md5: eaa08168026822f8656ab2343df90485
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/gpgsm_2.0.19-2+deb7u1_amd64.deb
-Size: 256134
-MD5sum: b1e10ce508a887f95031988a593557ab
-SHA1: 3d4a9a6d64624420396ac0e93b64f55b5751e372
-SHA256: 503f9463f5dd61c60e5c630fa4f920a6fa2a646923ca0109f8309dd808010ae0
+Filename: pool/updates/main/g/gnupg2/gpgsm_2.0.19-2+deb7u2_amd64.deb
+Size: 256202
+MD5sum: f49f5f40641b2279f0bbcb52c47a5222
+SHA1: e95caed6e44ed13e40d04d3fc4c8b25b7d893db4
+SHA256: 76dc54520a238dc8d1caf31c1b1c97536c694de0aa7fb06da82dad712077ca66
 
 Package: scdaemon
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
+Version: 2.0.19-2+deb7u2
 Installed-Size: 451
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: amd64
@@ -2308,11 +2308,11 @@ Description-md5: ade00d73739242cbebc5e97599fd6bb7
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/scdaemon_2.0.19-2+deb7u1_amd64.deb
-Size: 217696
-MD5sum: 4abe39af1caee492192ea4541cd89b11
-SHA1: 0c155ead33951b35206637f1181ea09ec955b5fa
-SHA256: 286927c805631f20ec389c0871e5a14fa01c2437206b2b69de5754c2682e2a21
+Filename: pool/updates/main/g/gnupg2/scdaemon_2.0.19-2+deb7u2_amd64.deb
+Size: 217758
+MD5sum: 49d09976c571510015fc836fc03a3ce0
+SHA1: 319e6ce4948471d18e96b7ea35e659aa1e93ee91
+SHA256: ecb568d74060028be7147d6f3c4f57409afbd1959a9aacccea407088c71214d9
 
 Package: gnutls-bin
 Source: gnutls26 (2.12.20-8+deb7u2)

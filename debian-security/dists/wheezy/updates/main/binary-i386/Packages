@@ -2231,8 +2231,8 @@ SHA256: 2d6955dcec3ef31b02ba8d56171528c6f8f2dc9a0e274ba1b057ec372f4936d3
 
 Package: gnupg-agent
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
-Installed-Size: 889
+Version: 2.0.19-2+deb7u2
+Installed-Size: 944
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: i386
 Replaces: gnupg2 (<< 2.0.18-2), gpgsm (<< 2.0.18-2), newpg
@@ -2246,18 +2246,18 @@ Multi-Arch: foreign
 Recommends: gnupg2 | gpgsm | gnupg
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/gnupg-agent_2.0.19-2+deb7u1_i386.deb
-Size: 469588
-MD5sum: 577d55d958fbd016b72da8919bffe2e2
-SHA1: 94ce2cbb5f94baa7952a2974bad627d2514370b2
-SHA256: 7e99209bcf215fa890960de16dd53147f11f64a2e84e7691c8d77085fb3ee9a8
+Filename: pool/updates/main/g/gnupg2/gnupg-agent_2.0.19-2+deb7u2_i386.deb
+Size: 469778
+MD5sum: 341d884b315b8ef22998ef581f6169c8
+SHA1: 8a318bcd97d1b4b7482aa18c1194c96d306a1d77
+SHA256: 1c18a4c55cc8bc7eac4c38cd65e8528ff371d984562d593eecf2f7a1620dc988
 
 Package: gnupg2
-Version: 2.0.19-2+deb7u1
-Installed-Size: 5375
+Version: 2.0.19-2+deb7u2
+Installed-Size: 5677
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: i386
-Depends: gnupg-agent (= 2.0.19-2+deb7u1), libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.7), libcurl3-gnutls (>= 7.16.2), libgcrypt11 (>= 1.4.5), libgpg-error0 (>= 1.10), libksba8 (>= 1.2.0), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Depends: gnupg-agent (= 2.0.19-2+deb7u2), libassuan0 (>= 2.0.1), libbz2-1.0, libc6 (>= 2.7), libcurl3-gnutls (>= 7.16.2), libgcrypt11 (>= 1.4.5), libgpg-error0 (>= 1.10), libksba8 (>= 1.2.0), libreadline6 (>= 6.0), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
 Suggests: gnupg-doc, xloadimage
 Conflicts: gpg-idea (<= 2.2)
 Description: GNU privacy guard - a free PGP replacement (new v2.x)
@@ -2267,16 +2267,16 @@ Multi-Arch: foreign
 Recommends: libldap-2.4-2 (>= 2.4.7)
 Section: utils
 Priority: extra
-Filename: pool/updates/main/g/gnupg2/gnupg2_2.0.19-2+deb7u1_i386.deb
-Size: 2282972
-MD5sum: ec312699e3511ded2d4c7a7f0d9566a1
-SHA1: c6a2b7d926e560d6176b838c2da2fddc61fb8eb3
-SHA256: 28a040438cf468a8c4495dfcf15cd28fb811b765cc66636513175a877279ee1f
+Filename: pool/updates/main/g/gnupg2/gnupg2_2.0.19-2+deb7u2_i386.deb
+Size: 2284438
+MD5sum: abfccd4ef99b9244ce6b8eb7cba6b4b2
+SHA1: 657c2beb234680b00fa3f510e8c009f7505ea243
+SHA256: 7f5b15aee808d03d072d8f7f55b315faa3c52187315e6ba17994cd35229d8f79
 
 Package: gpgsm
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
-Installed-Size: 470
+Version: 2.0.19-2+deb7u2
+Installed-Size: 505
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: i386
 Replaces: gnupg-agent, gnupg2 (<< 2.0.0-2)
@@ -2287,16 +2287,16 @@ Description-md5: eaa08168026822f8656ab2343df90485
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/gpgsm_2.0.19-2+deb7u1_i386.deb
-Size: 257504
-MD5sum: 7940ccad4fca8062dd76c690d4045ebf
-SHA1: b0665be85f9517e1853aed09791d7099b21373e7
-SHA256: a7214a2dc8189424a07fb45c947ccdc9b7bf61d2f44fc1d6bbb4b66ccb692fd3
+Filename: pool/updates/main/g/gnupg2/gpgsm_2.0.19-2+deb7u2_i386.deb
+Size: 257614
+MD5sum: 31f29eb96e4309083c275a9e66da4855
+SHA1: b873c7323e316c37a138ab2a45d0cb5ebfdb8b42
+SHA256: a48d8909b31e95351d9f1d7c63455ffa3e2f964db1125fdc8d8c387480439e94
 
 Package: scdaemon
 Source: gnupg2
-Version: 2.0.19-2+deb7u1
-Installed-Size: 410
+Version: 2.0.19-2+deb7u2
+Installed-Size: 453
 Maintainer: Eric Dorland <eric@debian.org>
 Architecture: i386
 Replaces: gpgsm (<< 2.0.18-2)
@@ -2308,11 +2308,11 @@ Description-md5: ade00d73739242cbebc5e97599fd6bb7
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg2/scdaemon_2.0.19-2+deb7u1_i386.deb
-Size: 217718
-MD5sum: 121fec229396c460afc499aafc9cee15
-SHA1: 3d5d97107c6933069fd4f7906068566611986136
-SHA256: da5bf3568696513362bffcb7a8f56a1ef28cf177cecb44c6d97f8a1b37059056
+Filename: pool/updates/main/g/gnupg2/scdaemon_2.0.19-2+deb7u2_i386.deb
+Size: 217814
+MD5sum: e2efe333b0488ac635cac225ae9a6a18
+SHA1: 2eac0b8d09362bd040d8851d24a0cf41b280c9e2
+SHA256: 7ae701ba16f2acbec8614824fbdadcaea64d8a696dccf31876dc1332343de9ab
 
 Package: gnutls-bin
 Source: gnutls26 (2.12.20-8+deb7u2)

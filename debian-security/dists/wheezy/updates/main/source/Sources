@@ -879,26 +879,26 @@ Section: utils
 
 Package: gnupg2
 Binary: gnupg-agent, scdaemon, gpgsm, gnupg2
-Version: 2.0.19-2+deb7u1
+Version: 2.0.19-2+deb7u2
 Maintainer: Eric Dorland <eric@debian.org>
 Build-Depends: debhelper (>= 8), dh-autoreconf, autopoint, gettext, zlib1g-dev | libz-dev, libldap2-dev, file, libbz2-dev, libgpg-error-dev (>= 1.7), libassuan-dev (>= 2.0), libgcrypt11-dev (>= 1.4.0), libksba-dev (>= 1.0.7), libpth-dev, libusb-dev, texinfo, transfig, ghostscript, libreadline-dev, libcurl4-gnutls-dev, hardening-wrapper
 Architecture: any
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- ec23631be9966f51c684ca4dc055437c 1623 gnupg2_2.0.19-2+deb7u1.dsc
+ 14258cc8bde42b8fa2703bb851f58fc7 2246 gnupg2_2.0.19-2+deb7u2.dsc
  6a8589381ca1b0c1a921e9955f42b016 4187460 gnupg2_2.0.19.orig.tar.bz2
- 0f2a7a3a0c140fabc417b7e6a9a35332 20489 gnupg2_2.0.19-2+deb7u1.debian.tar.bz2
+ fc8e0086cae5320d8057a14999e227ea 21425 gnupg2_2.0.19-2+deb7u2.debian.tar.bz2
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/eric/gnupg2.git
 Vcs-Git: git://anonscm.debian.org/~eric/gnupg2.git
 Checksums-Sha1:
- 188f9f96286422a2e1a20c2eab12ffbae3436a99 1623 gnupg2_2.0.19-2+deb7u1.dsc
+ c7d464fbb8060cd1c2b993848d4ff6bb481227c3 2246 gnupg2_2.0.19-2+deb7u2.dsc
  190c09e6688f688fb0a5cf884d01e240d957ac1f 4187460 gnupg2_2.0.19.orig.tar.bz2
- 8bb1172b5b250b3d9f7117d1dcf1f8e0a4b0da7b 20489 gnupg2_2.0.19-2+deb7u1.debian.tar.bz2
+ ceb46b746abfeff59003fbd5416641476443101c 21425 gnupg2_2.0.19-2+deb7u2.debian.tar.bz2
 Checksums-Sha256:
- 40f3f6ef844e56a90a4de2f3ca59e720121871bc110c865ab1f476361f21f28b 1623 gnupg2_2.0.19-2+deb7u1.dsc
+ 2a91b1214b5e4f463461e585ab72630cfc3d8b720a4443ee546945eeb65345ce 2246 gnupg2_2.0.19-2+deb7u2.dsc
  efa23a8a925adb51c7d3b708c25b6d000300f5ce37de9bdec6453be7b419c622 4187460 gnupg2_2.0.19.orig.tar.bz2
- c70c6b065e460b8cc733811d3c1d1fb343dd887ff9064431a1ba4f6465dda42f 20489 gnupg2_2.0.19-2+deb7u1.debian.tar.bz2
+ 5a8177209cd22921d3212ffeb06be72c335cc59e269846e6b5a9923f4a474286 21425 gnupg2_2.0.19-2+deb7u2.debian.tar.bz2
 Homepage: http://www.gnupg.org/
 Package-List: 
  gnupg-agent deb utils optional
