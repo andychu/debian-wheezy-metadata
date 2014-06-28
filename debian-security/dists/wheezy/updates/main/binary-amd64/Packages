@@ -9309,6 +9309,24 @@ MD5sum: 7227820c85da6f2e3aceb5a2ba2ea7bb
 SHA1: 73886b280e72f44594fc531adc7556b8f56663a8
 SHA256: 7920c4bdc0086109e3ee552cef453e60825dde6f7ba2c3f5f0e4533f7110d786
 
+Package: libemail-address-perl
+Version: 1.895-1+deb7u1
+Installed-Size: 92
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: perl
+Description: Perl module for RFC 2822 address parsing and creation
+Homepage: http://search.cpan.org/dist/Email-Address/
+Description-md5: 1e8970fa9c7abc7402d943397bdc2c75
+Pre-Depends: dpkg (>= 1.15.6)
+Section: perl
+Priority: optional
+Filename: pool/updates/main/libe/libemail-address-perl/libemail-address-perl_1.895-1+deb7u1_all.deb
+Size: 27800
+MD5sum: 2b88421861b3faed02ad2566c78cbe89
+SHA1: 4b6829b3a6ffb7bfd0a00e4b4afd992b22715dca
+SHA256: 02e7765837885a7c11a76f7d38070af254885448988fbcd85bea40353861fe6c
+
 Package: libfs-dev
 Source: libfs
 Version: 2:1.0.4-1+deb7u1

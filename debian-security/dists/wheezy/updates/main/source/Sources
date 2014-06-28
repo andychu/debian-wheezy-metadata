@@ -2973,6 +2973,37 @@ Directory: pool/updates/main/libd/libdmx
 Priority: source
 Section: x11
 
+Package: libemail-address-perl
+Binary: libemail-address-perl
+Version: 1.895-1+deb7u1
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ernesto Hernández-Novich (USB) <emhn@usb.ve>, Ansgar Burchardt <ansgar@debian.org>
+Build-Depends: debhelper (>= 8)
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 747b326660128539e263a6c370aee462 2201 libemail-address-perl_1.895-1+deb7u1.dsc
+ 57a05d45498f5dc6dc28ebb075706b91 34306 libemail-address-perl_1.895.orig.tar.gz
+ 1a1a3953d4e300d840f01d737fcdc34c 4700 libemail-address-perl_1.895-1+deb7u1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libemail-address-perl.git
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libemail-address-perl.git
+Checksums-Sha1:
+ 0458a299553026f1b400e9147e8ee1a55ec9fbf2 2201 libemail-address-perl_1.895-1+deb7u1.dsc
+ aef751e93a150f48fc11a20eb6af7f6d801c8ef4 34306 libemail-address-perl_1.895.orig.tar.gz
+ bc18ce9865587eb6b9362a4e1f98b1b0324b57dc 4700 libemail-address-perl_1.895-1+deb7u1.debian.tar.xz
+Checksums-Sha256:
+ 109ab6d3b3b6f8f2baddcf74d457d194fce85d0bab9602fb11da315b7734bfb3 2201 libemail-address-perl_1.895-1+deb7u1.dsc
+ 31421931c43a50ad8d658355fedcea0ff92c2794331a7000982813be0d487095 34306 libemail-address-perl_1.895.orig.tar.gz
+ 17c0b0d8eb8a9bc2fa3bb3653d91abe338987d32b9018d1a6dde16f8582b135d 4700 libemail-address-perl_1.895-1+deb7u1.debian.tar.xz
+Homepage: http://search.cpan.org/dist/Email-Address/
+Build-Depends-Indep: perl, libtest-pod-perl, libtest-pod-coverage-perl
+Package-List: 
+ libemail-address-perl deb perl optional
+Directory: pool/updates/main/libe/libemail-address-perl
+Priority: source
+Section: perl
+
 Package: libfs
 Binary: libfs6, libfs6-dbg, libfs-dev
 Version: 2:1.0.4-1+deb7u1
