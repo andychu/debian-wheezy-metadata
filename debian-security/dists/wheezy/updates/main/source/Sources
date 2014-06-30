@@ -177,7 +177,7 @@ Section: net
 
 Package: cacti
 Binary: cacti
-Version: 0.8.8a+dfsg-5+deb7u2
+Version: 0.8.8a+dfsg-5+deb7u3
 Maintainer: Cacti Maintainer <pkg-cacti-maint@lists.alioth.debian.org>
 Uploaders: Sean Finney <seanius@debian.org>, Mahyuddin Susanto <udienz@ubuntu.com>, Paul Gevers <elbrus@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), po-debconf
@@ -185,19 +185,19 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 3e24319255ac0ecc5ebcb81de8b02afb 1683 cacti_0.8.8a+dfsg-5+deb7u2.dsc
+ 724367875a4e43438b532c33cb59d853 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
  45ef51a85ee91bf9212478cc4af1c5de 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- 542d68b32a98054d6f574504cb04bcfd 110696 cacti_0.8.8a+dfsg-5+deb7u2.debian.tar.gz
+ 8237f1100ca61743de8e0e4b2e5f2fab 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-cacti/cacti.git
 Vcs-Git: git://git.debian.org/pkg-cacti/cacti.git
 Checksums-Sha1:
- 1064a43dd4ae4c7664fc6e7e50e45b090d2a05e3 1683 cacti_0.8.8a+dfsg-5+deb7u2.dsc
+ 9acdcd6e9e6b16603e2ee400197df3282a1e6b83 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
  4345484327a663043f2c25cc14da763ed0b10bce 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- e690917a79840ddc1ec80d29fb73d55faaa4c191 110696 cacti_0.8.8a+dfsg-5+deb7u2.debian.tar.gz
+ 1d3cc0a0c7ce926893644967ee151c4c4bc65466 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
 Checksums-Sha256:
- c53fcc206bf1a149ad2df89bd475fd04bae34563569d81ec705b1e1a47fa80bc 1683 cacti_0.8.8a+dfsg-5+deb7u2.dsc
+ 329bd24accebeab86ac701788a092b090454d80ec69c9c05d8ba0e2a13a7cb93 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
  18575e99b5be11edb150a5a20a8a63f8cbf50be0adb0c4892db3be68ca1fcf74 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- 5e14dff9790f67b3e4b88b8c590986eea07a0c7280f909726da0ea418e5b0eb5 110696 cacti_0.8.8a+dfsg-5+deb7u2.debian.tar.gz
+ c105e1fd8d185a26308343a0c2575fb350aa7555bf61da488a63ff40a3b183d5 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
 Homepage: http://www.cacti.net/
 Dm-Upload-Allowed: yes
 Package-List: 

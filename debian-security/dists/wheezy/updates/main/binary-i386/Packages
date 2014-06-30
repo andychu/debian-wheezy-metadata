@@ -716,8 +716,8 @@ SHA1: ded01f55e4495bb18851dd08966f5b5ec3e6fda7
 SHA256: 7f391523d6dca69c88a7109ae5289cb37a5396a91e105a789e30d33a7d807023
 
 Package: cacti
-Version: 0.8.8a+dfsg-5+deb7u2
-Installed-Size: 4876
+Version: 0.8.8a+dfsg-5+deb7u3
+Installed-Size: 4903
 Maintainer: Cacti Maintainer <pkg-cacti-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: dbconfig-common (>= 1.8.8), libapache2-mod-php5 | libapache2-mod-fcgid | php5-cgi, libphp-adodb (>= 4.50-1), php5-cli, php5-mysql, php5-snmp, rrdtool, snmp, ucf, virtual-mysql-client, debconf (>= 0.5) | debconf-2.0, perl
@@ -728,11 +728,11 @@ Description-md5: c149f2c54502ee335699276ff204fd5d
 Recommends: apache2 | lighttpd | nginx | httpd, inetutils-ping | iputils-ping, logrotate, libjs-jquery, libjs-jquery-cookie, mysql-server
 Section: web
 Priority: extra
-Filename: pool/updates/main/c/cacti/cacti_0.8.8a+dfsg-5+deb7u2_all.deb
-Size: 2141482
-MD5sum: ac724a3fd505964ed820ac64bb5766e6
-SHA1: e5a916f4be0b25e2fc2afe3a60ca94e2a6389cc8
-SHA256: 3d63054d8fa0c3347e07d8a5d9ff643e035281db9e48c0d459bd7bec970e7606
+Filename: pool/updates/main/c/cacti/cacti_0.8.8a+dfsg-5+deb7u3_all.deb
+Size: 2147332
+MD5sum: 80c20926bb4e0502b0aae27d767631e0
+SHA1: 49ce8a79add38a77e69a23f885df62888c8dcb3e
+SHA256: 8c9606571c58b135d3320ebf1222f924badd5172915dd69966c373467ab573e2
 
 Package: chkrootkit
 Version: 0.49-4.1+deb7u2
