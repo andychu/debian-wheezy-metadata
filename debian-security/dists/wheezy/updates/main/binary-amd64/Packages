@@ -1181,8 +1181,8 @@ SHA1: aa6436ced8887eb8a23a0db799098a13bb22f1b1
 SHA256: 6199a9ea155bf6afde3b1bb20bec170f5f94c6b2e6f7e83b88d82ecf72fe8ca0
 
 Package: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 942
+Version: 1.6.8-1+deb7u3
+Installed-Size: 820
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.10), libdbus-1-3 (>= 1.0.2), libexpat1 (>= 2.0.1), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), adduser, lsb-base (>= 3.2-14)
@@ -1193,34 +1193,34 @@ Description-md5: 8317e43242716ec7f7692a3ac5895e1c
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u1_amd64.deb
-Size: 398906
-MD5sum: f6f7e34057d45c6c39bfd4013e25f967
-SHA1: 4b4bd1831f62cc7c29bdf67a7f9250e0411cefb5
-SHA256: cd8c666ce9534874c72564915032e2e93cb37c7a54964adce71119268874ff0d
+Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u3_amd64.deb
+Size: 398872
+MD5sum: 00dcc71939f1061a7fd34175b69327d4
+SHA1: b5e8e233f8fadcf11fd92d6d461ce8212438e0f7
+SHA256: 6de730e6ed44e09886ef33e5160c298d76fb4cf35de4e97b62842bf33eb92e1f
 
 Package: dbus-1-dbg
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 13010
+Version: 1.6.8-1+deb7u3
+Installed-Size: 12805
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u1), dbus (= 1.6.8-1+deb7u1), dbus-x11 (= 1.6.8-1+deb7u1), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), dbus (= 1.6.8-1+deb7u3), dbus-x11 (= 1.6.8-1+deb7u3), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
 Description: simple interprocess messaging system (debug symbols)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 8e652fad9ff7afdabd20cb27b87476a9
 Section: debug
 Priority: extra
-Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u1_amd64.deb
-Size: 8287174
-MD5sum: 0a479786e0035e62edc8b75a8b6a4716
-SHA1: 46f95e9303381277f4afa18dea5e0bcdc0f9a07c
-SHA256: c81ea3afd9b6a37222485f63246f4c50b485b46432914944e16bd65e1464847c
+Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u3_amd64.deb
+Size: 8284268
+MD5sum: c309a7147eae5a3713a5df3bc6bdb720
+SHA1: 8e45553348fa26596426451cc6b0004b38350cfd
+SHA256: eda53a76c0755718e4d9aaf90045282ec5b7f8e348659bc3665e74c938ce196d
 
 Package: dbus-1-doc
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 19093
+Version: 1.6.8-1+deb7u3
+Installed-Size: 19034
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Suggests: libdbus-1-dev
@@ -1229,16 +1229,16 @@ Homepage: http://dbus.freedesktop.org/
 Description-md5: 4ff746780e6dca0a27147236301ca4fd
 Section: doc
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u1_all.deb
-Size: 2382588
-MD5sum: f4789325b88f9a2d5be8e36bb149a5ae
-SHA1: e3fcaeef65a7048f75753bb87b770268a2e89e3c
-SHA256: 4fe658595a0cbaace60a21c5101fd72b42ce611db683be53724346a1556d99ba
+Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u3_all.deb
+Size: 2287234
+MD5sum: 10267bb96f0982be29f8b6ab84a0be3c
+SHA1: 85e326e8d38a5b0dd05fe95855692a6e6aca6550
+SHA256: dd877e7a85988990edb1cb77d1a9250d7b29cce2b60038481f30aba9803f0dcb
 
 Package: dbus-x11
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 133
+Version: 1.6.8-1+deb7u3
+Installed-Size: 78
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.4), libx11-6, dbus
@@ -1249,16 +1249,16 @@ Description-md5: 101d13ea029d06116b86761850faa2f3
 Multi-Arch: foreign
 Section: x11
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u1_amd64.deb
-Size: 59638
-MD5sum: ec36563a39fc902053527ce2428ec4de
-SHA1: f6ace975ecacb6ac3eba18c71ea67e48621ca2ab
-SHA256: 02c399bb8fa79980e3c674936abbd2cb2447cb6fe1cf1109b8d3e17ed9779344
+Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u3_amd64.deb
+Size: 58998
+MD5sum: 5977d43bef972c321c8d98396b118574
+SHA1: 09213315bbb247fd4ef0cd0d6f7fb9d8bd9d158f
+SHA256: 6b035d3492bdb8f78f2d3d5066e1e4c11d227763a8f3192b417bfccbaa8bbef4
 
 Package: libdbus-1-3
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 376
+Version: 1.6.8-1+deb7u3
+Installed-Size: 337
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.10)
@@ -1271,29 +1271,29 @@ Pre-Depends: multiarch-support
 Recommends: dbus
 Section: libs
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u1_amd64.deb
-Size: 172578
-MD5sum: b828d8c7ed9248206d59fd27bb0dd586
-SHA1: 624f93ecd57f7a0d0aa36e2e7885203885206432
-SHA256: 4e6d5182a97a1c919ec0c1d06216184bb44d6c49ccdbddde11ca7364c9a66ae5
+Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u3_amd64.deb
+Size: 172046
+MD5sum: 9cec0a9f08314cc6cdae22bdde8196e5
+SHA1: 848fcaf11a232d6a0ebb6b6c6d02814dd0fb7414
+SHA256: 4bfccbb32e71e6d9e9e3932a5a6cc237100e94839327e7a956793f0d3caf3a6a
 
 Package: libdbus-1-dev
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 867
+Version: 1.6.8-1+deb7u3
+Installed-Size: 801
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u1), pkg-config
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), pkg-config
 Description: simple interprocess messaging system (development headers)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 59e71e7e764b950dc1184788af416a7e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u1_amd64.deb
-Size: 246440
-MD5sum: 9b8ecddb155800e3b7714b5975bfc159
-SHA1: 62da0f0f54290d5596280d047657bc2f6b319439
-SHA256: 5eabcf8da7230c12f2600a29a206e0430214e2c940db28303a387c88e6be32e7
+Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u3_amd64.deb
+Size: 246442
+MD5sum: c815d45afa0d95513ccc07f32962419b
+SHA1: 46110a9ece1aa71033e840be9163f955401c5e27
+SHA256: 0615ff68218bcc89f3e4ee42624a55288bbe468ddde45cf1d327be1a1d15cc39
 
 Package: denyhosts
 Version: 2.6-10+deb7u3

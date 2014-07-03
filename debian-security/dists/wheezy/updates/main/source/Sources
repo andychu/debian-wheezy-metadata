@@ -398,7 +398,7 @@ Section: utils
 
 Package: dbus
 Binary: dbus, dbus-x11, libdbus-1-3, dbus-1-doc, libdbus-1-dev, dbus-1-dbg
-Version: 1.6.8-1+deb7u1
+Version: 1.6.8-1+deb7u3
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>
 Build-Depends: automake (>= 1:1.10), autotools-dev, debhelper (>= 9), dh-autoreconf, doxygen, dpkg-dev (>= 1.16.1), libexpat-dev, libdbus-glib-1-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-daemon-dev (>= 32) [linux-any], libsystemd-login-dev (>= 32) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, xmlto, xsltproc
@@ -406,19 +406,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 310e4089986d6370f448788c4107e5c4 2535 dbus_1.6.8-1+deb7u1.dsc
+ 6a538a48859a06f4df247407b0d101b3 2535 dbus_1.6.8-1+deb7u3.dsc
  3bf059c7dd5eda5f539a1b7cfe7a14a2 1929630 dbus_1.6.8.orig.tar.gz
- 82c6d69823b580a667115f4396d71858 35196 dbus_1.6.8-1+deb7u1.debian.tar.gz
+ a57f1f5839d3eb82682c5a9bdd6d5d16 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-utopia/dbus.git
 Vcs-Git: git://anonscm.debian.org/pkg-utopia/dbus.git
 Checksums-Sha1:
- ee50b09e2fc3a41d3a8423bf9402c13bf69db5e9 2535 dbus_1.6.8-1+deb7u1.dsc
+ eae19db12443455fe04408ac0b9130a09cd09870 2535 dbus_1.6.8-1+deb7u3.dsc
  d9634807d1de9b64727ae2178e3af2227fca0fca 1929630 dbus_1.6.8.orig.tar.gz
- f2460be62aa16ba45323e012e6d20deb54781d7a 35196 dbus_1.6.8-1+deb7u1.debian.tar.gz
+ 3385d6058f8be043c484d7c019a63cafd92a2a37 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
 Checksums-Sha256:
- 5b18d2ccaf6d2ed539703df5e7c2ed1085a8379618e2bb07167c1c6787cb60f2 2535 dbus_1.6.8-1+deb7u1.dsc
+ ad879cfc34a7040ac3195cdf6e74059a61e1f79cb085257c61bc0586a6a3b08e 2535 dbus_1.6.8-1+deb7u3.dsc
  fc1370ef38abeeb13f55c905ec002e60705fb0bfde3b8d21c8d6eb8056c11bac 1929630 dbus_1.6.8.orig.tar.gz
- e34991ad02b2e58463f01a026001cc8dcdea9608f96c81fe113d85db22c70548 35196 dbus_1.6.8-1+deb7u1.debian.tar.gz
+ b26f704c955e453ecdcb5c6be8233bf7c15817c87f6c5fb600a73cfeddb063b5 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
 Homepage: http://dbus.freedesktop.org/
 Package-List: 
  dbus deb admin optional

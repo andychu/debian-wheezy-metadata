@@ -1181,7 +1181,7 @@ SHA1: d0aabd51a57038776defb671ada9d8f0d6931abe
 SHA256: 2a9f58729f9751cf9ec146f93c1bb9a987dfa45ee7920294777afca0d9bdbeb1
 
 Package: dbus
-Version: 1.6.8-1+deb7u1
+Version: 1.6.8-1+deb7u3
 Installed-Size: 980
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
@@ -1193,34 +1193,34 @@ Description-md5: 8317e43242716ec7f7692a3ac5895e1c
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u1_i386.deb
-Size: 405922
-MD5sum: 74042c973ad1be877a479bbb0e569cc2
-SHA1: 34197349b2c7e2da65e78b164abad5e00dcf4c4f
-SHA256: dd6c4fb987a95cb8d41ebf6ae147a268a35d05fef6b39fb143c0e0477a77f580
+Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u3_i386.deb
+Size: 406096
+MD5sum: 42e32beac2c21732f0f285b7e48da119
+SHA1: ca6dc4c21477f133c966742b24f0762d0fd0a0ed
+SHA256: 61d1315ab535d3f89030e053b372b7b2650c011b84fe5c8acbe3b6ddcf9e493d
 
 Package: dbus-1-dbg
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 12174
+Version: 1.6.8-1+deb7u3
+Installed-Size: 12184
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u1), dbus (= 1.6.8-1+deb7u1), dbus-x11 (= 1.6.8-1+deb7u1), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), dbus (= 1.6.8-1+deb7u3), dbus-x11 (= 1.6.8-1+deb7u3), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
 Description: simple interprocess messaging system (debug symbols)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 8e652fad9ff7afdabd20cb27b87476a9
 Section: debug
 Priority: extra
-Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u1_i386.deb
-Size: 7675524
-MD5sum: 90b27d7a4b3416716e7269781657e52e
-SHA1: e7fb51c9bd731e9b82a0ee15dfa72e667ce73b9d
-SHA256: 5663012e782c8129a131c51ebf28b33101a87f34314db60468120fa25aec48cd
+Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u3_i386.deb
+Size: 7679442
+MD5sum: 74f225096b24c2a7844cb2c25203c393
+SHA1: b0730d13a7223cc4df107e5a20fc2544966f261b
+SHA256: c29901ade44086c07cba33a1829c230c4e6536d5a51ea2b8019b84173f41dfd3
 
 Package: dbus-1-doc
 Source: dbus
-Version: 1.6.8-1+deb7u1
-Installed-Size: 19093
+Version: 1.6.8-1+deb7u3
+Installed-Size: 19034
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Suggests: libdbus-1-dev
@@ -1229,15 +1229,15 @@ Homepage: http://dbus.freedesktop.org/
 Description-md5: 4ff746780e6dca0a27147236301ca4fd
 Section: doc
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u1_all.deb
-Size: 2382588
-MD5sum: f4789325b88f9a2d5be8e36bb149a5ae
-SHA1: e3fcaeef65a7048f75753bb87b770268a2e89e3c
-SHA256: 4fe658595a0cbaace60a21c5101fd72b42ce611db683be53724346a1556d99ba
+Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u3_all.deb
+Size: 2287234
+MD5sum: 10267bb96f0982be29f8b6ab84a0be3c
+SHA1: 85e326e8d38a5b0dd05fe95855692a6e6aca6550
+SHA256: dd877e7a85988990edb1cb77d1a9250d7b29cce2b60038481f30aba9803f0dcb
 
 Package: dbus-x11
 Source: dbus
-Version: 1.6.8-1+deb7u1
+Version: 1.6.8-1+deb7u3
 Installed-Size: 132
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
@@ -1249,15 +1249,15 @@ Description-md5: 101d13ea029d06116b86761850faa2f3
 Multi-Arch: foreign
 Section: x11
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u1_i386.deb
-Size: 58096
-MD5sum: 40ae9846a4dada27844fa45f7f247fca
-SHA1: cc92d590c41ab072c6ca010823e006d4efd8573f
-SHA256: 3b26bd342f5de57926d1518da8569fa23a20b25d2c1e9b92878fae9597daef98
+Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u3_i386.deb
+Size: 58214
+MD5sum: 902b459c11d9ce7a63e264d1e97c7603
+SHA1: 8778af70ab9ebfc8f12b25c91a25711a3fa7a079
+SHA256: 63c7eeb0546d9a57cf40e8d34d8622fc8a862f2e3863f5734766f5c04995d4d2
 
 Package: libdbus-1-3
 Source: dbus
-Version: 1.6.8-1+deb7u1
+Version: 1.6.8-1+deb7u3
 Installed-Size: 395
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
@@ -1271,29 +1271,29 @@ Pre-Depends: multiarch-support
 Recommends: dbus
 Section: libs
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u1_i386.deb
-Size: 175526
-MD5sum: fb26c35758cc5988505c686af0ea6135
-SHA1: d82e1a665c556ee16ce3c82762e865d8b7d674e8
-SHA256: e54dffa59d8aa0cbaaef0f476f5b5912468df72ef12980554805f3e37052097e
+Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u3_i386.deb
+Size: 175654
+MD5sum: 9b8a0370a8c2b113b210ca6c1dec9699
+SHA1: b84710dd5116712e2c944cb9398d27255f5089ef
+SHA256: ed8ac756175ebca94a6b57d84d289243298b29c5d232a096460f017461a81acb
 
 Package: libdbus-1-dev
 Source: dbus
-Version: 1.6.8-1+deb7u1
+Version: 1.6.8-1+deb7u3
 Installed-Size: 710
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u1), pkg-config
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), pkg-config
 Description: simple interprocess messaging system (development headers)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 59e71e7e764b950dc1184788af416a7e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u1_i386.deb
-Size: 233442
-MD5sum: 8e3355d6f2f23126bc2ea530df7b1f9e
-SHA1: 084f5049f28b22d58eceee2b30770b6dfc5de01f
-SHA256: 987174f7cbaf1d5c79973e390f2e09a5ac5f9f3538c2cfae761c598b78159cc9
+Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u3_i386.deb
+Size: 233656
+MD5sum: 41b7f78806a762ee2d3c7d9ece84a081
+SHA1: e3182964999fe84068055c5ce6f5759f8ea24157
+SHA256: 56cb0c040f1fffa71764c79ee955caa1f84606e28c19e3ea11439d48d75a645e
 
 Package: denyhosts
 Version: 2.6-10+deb7u3
