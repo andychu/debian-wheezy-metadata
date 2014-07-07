@@ -13230,8 +13230,8 @@ SHA256: ca73579c1a7e9352afe890067074103df020b1151947ee86206b909664640155
 
 Package: linux-doc-3.2
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 23545
+Version: 3.2.60-1+deb7u1
+Installed-Size: 23549
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Description: Linux kernel specific documentation for version 3.2
@@ -13239,154 +13239,154 @@ Description-md5: 9d0588de7683f536dc67ac15b80e62ae
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.57-3+deb7u2_all.deb
-Size: 6427128
-MD5sum: 45b576c5513a0b138a76992105702bfc
-SHA1: 3016cd91dc2bebdf5cb8dff3f285c59b81c3d35d
-SHA256: c6e5e80fd375f3dcda8bb348f99b9b86722bdb3ec52d2c0c63d55cbb2f027ea0
+Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.60-1+deb7u1_all.deb
+Size: 6430268
+MD5sum: a63fae09b51f2d3903d9c936834d53fa
+SHA1: 1c986e3cfb449a36fbabcd959c02f6ccf1b06130
+SHA256: 0654a0228666bf5db9a15ca92c451f9f87be5d445e2635d7be406d452f68202f
 
 Package: linux-headers-3.2.0-4-486
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 2294
+Version: 3.2.60-1+deb7u1
+Installed-Size: 2298
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common (= 3.2.57-3+deb7u2), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common (= 3.2.60-1+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-486
 Description-md5: 165ab1c7a181b57e6c8aa510cf2b3ead
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-486_3.2.57-3+deb7u2_i386.deb
-Size: 581144
-MD5sum: 952a07a931bd38185c0f7f276e4278ba
-SHA1: 0e3c76b37ea1c6e362e79e0471e2a9fce2fb422c
-SHA256: b7b731d3b08a195a615b998b0980786c2537542f557da878220c56efaa2bc059
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-486_3.2.60-1+deb7u1_i386.deb
+Size: 584344
+MD5sum: 33136bd9918369a6167814d5616c360d
+SHA1: 5f4dae400af1977e3f2499c0ee06297be8949c3b
+SHA256: 632f792926e6b678fa255328f885646b021c130d5357075edbaeecb0c7fb17ac
 
 Package: linux-headers-3.2.0-4-686-pae
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 2564
+Version: 3.2.60-1+deb7u1
+Installed-Size: 2567
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common (= 3.2.57-3+deb7u2), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common (= 3.2.60-1+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-686-pae
 Description-md5: 04929283bec820955735bd57299efb19
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-686-pae_3.2.57-3+deb7u2_i386.deb
-Size: 610374
-MD5sum: 40c6821c76ba1b73aebe1c0a396b5dd3
-SHA1: 949921109e65efa8555aa11c50b9f8ef2dced452
-SHA256: 9562b888cac3ac8c38429fbef4304215268600bc72350d3803a5f8542c0dc6ad
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-686-pae_3.2.60-1+deb7u1_i386.deb
+Size: 613918
+MD5sum: 42fa03a9e0fc43dd6458c4c58101c5e3
+SHA1: 54be046a9c8218fb88f1239db3df1a0703fac3be
+SHA256: a5337d6719490e02d6db9e6b78760e884ff4439a2515e3da73ed8b2d1fd2af79
 
 Package: linux-headers-3.2.0-4-all
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 210
+Version: 3.2.60-1+deb7u1
+Installed-Size: 213
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
-Depends: linux-headers-3.2.0-4-all-i386 (= 3.2.57-3+deb7u2)
+Depends: linux-headers-3.2.0-4-all-i386 (= 3.2.60-1+deb7u1)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.57-3+deb7u2_i386.deb
-Size: 215092
-MD5sum: 5539c5c5e798beac03e937638d312853
-SHA1: 4322c87545758c7b004161fd73cd0a01ae1be3f8
-SHA256: 206dfc8c440916601684c8b5bc3f3c192840d41cc82bfe8d6c2f8e75c420000d
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.60-1+deb7u1_i386.deb
+Size: 218312
+MD5sum: 4224b172fdce0644b16fe2283ce24362
+SHA1: ac6b2939ddc73078a511826c3a3f7b800d0c6610
+SHA256: e249beae46078e6f60404ff97cd035efb9089370b1a6f52192e192651f54298a
 
 Package: linux-headers-3.2.0-4-all-i386
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 210
+Version: 3.2.60-1+deb7u1
+Installed-Size: 213
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
-Depends: linux-headers-3.2.0-4-486 (= 3.2.57-3+deb7u2), linux-headers-3.2.0-4-686-pae (= 3.2.57-3+deb7u2), linux-headers-3.2.0-4-amd64 (= 3.2.57-3+deb7u2), linux-headers-3.2.0-4-rt-686-pae (= 3.2.57-3+deb7u2)
+Depends: linux-headers-3.2.0-4-486 (= 3.2.60-1+deb7u1), linux-headers-3.2.0-4-686-pae (= 3.2.60-1+deb7u1), linux-headers-3.2.0-4-amd64 (= 3.2.60-1+deb7u1), linux-headers-3.2.0-4-rt-686-pae (= 3.2.60-1+deb7u1)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-i386_3.2.57-3+deb7u2_i386.deb
-Size: 215118
-MD5sum: 08124f2839e2dda7fba07d3e383b4a75
-SHA1: 525b9d83abd69923e60d14327bd25c57a64f90a8
-SHA256: 29967baef961119e5d7676e3c392d63c70d609979fe940f1de7b81d42b61fecb
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-i386_3.2.60-1+deb7u1_i386.deb
+Size: 218338
+MD5sum: 61b1be852b61c75f905c6b7b4f917439
+SHA1: 5a2c93aac83c486ac2d6b5ae4a65e1d40a2cf00c
+SHA256: 0bd6d653feb95fbf19d8db4955134b453406f22d91e12bc7bdd831bde44cece6
 
 Package: linux-headers-3.2.0-4-amd64
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 2275
+Version: 3.2.60-1+deb7u1
+Installed-Size: 2278
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common (= 3.2.57-3+deb7u2), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common (= 3.2.60-1+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-amd64
 Description-md5: fe94eb6b59de35294465939a68e4f856
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.57-3+deb7u2_i386.deb
-Size: 577182
-MD5sum: 0b6643e5a2c47397ab6458ddfe5feaee
-SHA1: f5ed5453ab98c9ba439c51aba1a1472a89d2d77a
-SHA256: 3d482c51a7408d1ff210fd0f3499637317a6b6199d22a6a766e599d298a7c603
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.60-1+deb7u1_i386.deb
+Size: 580370
+MD5sum: be82e1cd7bd6dd4110d83aaf3cdb87a4
+SHA1: 461229b9713ec86326497b439369e599d9af5ed3
+SHA256: b4129ee4ec054ca66d96634272ce34547be7ecac2d9e3fd95512edc8eacec182
 
 Package: linux-headers-3.2.0-4-common
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 17177
+Version: 3.2.60-1+deb7u1
+Installed-Size: 17183
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Description: Common header files for Linux 3.2.0-4
 Description-md5: f56cc30cc35383027484d37eb0066029
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.57-3+deb7u2_i386.deb
-Size: 3576946
-MD5sum: 3d787339b4c51a0bb834736f9afda20c
-SHA1: 22e53a28c1e8e1a350a7f568cbf9b28e7264abfc
-SHA256: 9ede39d51b567ec4e3432de5478528254e5b16a95bd097a1551cc53f540f691e
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.60-1+deb7u1_i386.deb
+Size: 3580816
+MD5sum: 4c7221156edd29c1e064d4546c041c08
+SHA1: 1963a99d5899c98d9017fd23288e1c04ed0ae41c
+SHA256: 6f7d0e9be0a6bcd7a3a7b66d1222c954ac6162fbd90730ec2010a039d1f8bb25
 
 Package: linux-headers-3.2.0-4-common-rt
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 17227
+Version: 3.2.60-1+deb7u1
+Installed-Size: 17233
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Description: Common header files for Linux 3.2.0-4-rt
 Description-md5: 9c3f511c4bc9ffb18b416cc8e4b8da4a
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.57-3+deb7u2_i386.deb
-Size: 3581764
-MD5sum: 54461067f97d3cc6a799c08b3d530b17
-SHA1: 045106cd6e9d9faa564eb03e240f02077dfa6eba
-SHA256: 3665d54c2ab924ee4c76a2840d98e2e309a96ded186c441dba21c0f6ac970150
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.60-1+deb7u1_i386.deb
+Size: 3585776
+MD5sum: 1b8228ac6a734c98a123090905cfa533
+SHA1: 601f92f76d8ada0f1117645f874490b58f9c95c9
+SHA256: 3426687541e62a82d1fc0c5c474f5efbf340b4927c5b021da63217431b41220b
 
 Package: linux-headers-3.2.0-4-rt-686-pae
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 2556
+Version: 3.2.60-1+deb7u1
+Installed-Size: 2560
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common-rt (= 3.2.57-3+deb7u2), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common-rt (= 3.2.60-1+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-rt-686-pae
 Description-md5: 2bd0e49dd5d866fbfaf3a604d0c6990e
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-686-pae_3.2.57-3+deb7u2_i386.deb
-Size: 607682
-MD5sum: 962ce14a6ed151c89a81b91c2cd1a1ad
-SHA1: 5df575adae8261b618f1e6e3e7e1c66684289dae
-SHA256: 12a05fab44a51235bb924b9f117f6bc64d61366cc60792790a8007246b4ddcb9
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-686-pae_3.2.60-1+deb7u1_i386.deb
+Size: 611106
+MD5sum: cf7ea0096bc23571c1f05f8712433533
+SHA1: f01d1e4bed08cee369d063e958818c8a0d77ce66
+SHA256: 9d1615681115d20d0343b2e02fc5109719cd050e9428035983d57bfbb9bf1ed8
 
 Package: linux-image-3.2.0-4-486
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 76333
+Version: 3.2.60-1+deb7u1
+Installed-Size: 76353
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-image, linux-modules-3.2.0-4-486
@@ -13399,16 +13399,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-486_3.2.57-3+deb7u2_i386.deb
-Size: 22405532
-MD5sum: 59cb19cbc8bfbf23ebfb257af22365d3
-SHA1: 6a12007597f825dee33c2a1eceaba81edc7c6019
-SHA256: 08e3edff360c60126bd90857945d7feea52bf563f98d2b41838eff8597bbd320
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-486_3.2.60-1+deb7u1_i386.deb
+Size: 22416594
+MD5sum: de45487e4ce6f6ad01b761876e244950
+SHA1: 4f98566d99510ee7efc23dbd605384f028ee58ca
+SHA256: a2ed49a794cc3ce3dbfd984cbc12ba4f9a61e6276e083c30930ca9ffb3157639
 
 Package: linux-image-3.2.0-4-686-pae
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 77875
+Version: 3.2.60-1+deb7u1
+Installed-Size: 77896
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-image, linux-modules-3.2.0-4-686-pae
@@ -13421,16 +13421,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~), libc6-i686
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-686-pae_3.2.57-3+deb7u2_i386.deb
-Size: 22927144
-MD5sum: 69fa5f1af713e2e66f5737b538ff8de2
-SHA1: aca53ebed0be0bd13a10d7ffce13311922ec0d8b
-SHA256: dc701ff6edbac8730a1900359fdd6dd446572df13c8dec8e2c4eed9431200c9a
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-686-pae_3.2.60-1+deb7u1_i386.deb
+Size: 22931492
+MD5sum: ed32ae12c76978c35d7eba3d87c1f442
+SHA1: abde453c22602e23a706a3e5993fae859d7b95e0
+SHA256: 09aec829707a6c4bddefefeca99742ecd43c0b062413e8840a6f80afda012e07
 
 Package: linux-image-3.2.0-4-686-pae-dbg
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 1284411
+Version: 3.2.60-1+deb7u1
+Installed-Size: 1284571
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Depends: linux-image-3.2.0-4-686-pae
@@ -13438,16 +13438,16 @@ Description: Debugging symbols for Linux 3.2.0-4-686-pae
 Description-md5: c15497a09863d4563d09f9d3380cd89c
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-686-pae-dbg_3.2.57-3+deb7u2_i386.deb
-Size: 255336240
-MD5sum: c2db2a41f1f012e4bccfeb541b312a3a
-SHA1: d9411bf6f854ba42d31cdb740c6f3e6c17749594
-SHA256: aec495d85ce61e954f8fcd86fc607b938f4aa362c42d7d9ddaafaaaf64955b0b
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-686-pae-dbg_3.2.60-1+deb7u1_i386.deb
+Size: 255440812
+MD5sum: 0ff14c4fe32d0eb382e91b033512e9fc
+SHA1: b5e8fa588bbf716c0ae4ea7367003d4902629b68
+SHA256: 5810e9eef3f5516fcab9ebcb9b2ba0cdd756c50bd55f60d90546ab7745fc1c72
 
 Package: linux-image-3.2.0-4-amd64
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 102627
+Version: 3.2.60-1+deb7u1
+Installed-Size: 102650
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-image, linux-modules-3.2.0-4-amd64
@@ -13460,16 +13460,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~), libc6-i686
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.57-3+deb7u2_i386.deb
-Size: 23327346
-MD5sum: 3fc6f0101107f5e23df2d6901ab701f9
-SHA1: 469ba9b51ac83457e5852639337b7b23727e5a09
-SHA256: 829927d0d273ba3d39bd335fe72a5d28b883f0d3803caf72db018404eb44081e
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.60-1+deb7u1_i386.deb
+Size: 23335006
+MD5sum: 95ab39afc863e2820c2a9a533de369f6
+SHA1: 4499bd16997bb14cfac70cf87c1e3236fcd162bb
+SHA256: f049a02656b78df361674abfa32d646c362d0fd2e6ac1ec1370b145c42d1de59
 
 Package: linux-image-3.2.0-4-rt-686-pae
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 79225
+Version: 3.2.60-1+deb7u1
+Installed-Size: 79247
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Provides: linux-image, linux-modules-3.2.0-4-rt-686-pae
@@ -13482,16 +13482,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~), libc6-i686
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-686-pae_3.2.57-3+deb7u2_i386.deb
-Size: 23056622
-MD5sum: aaab5382935fdf65a690a486014d162b
-SHA1: 63d11c6489456d7cb958eaa59ddce48f6a3317b7
-SHA256: dd4ecf6ebc82ccede922af58ecf209e98faf33ad7f37249e512366eb9be64e39
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-686-pae_3.2.60-1+deb7u1_i386.deb
+Size: 23069864
+MD5sum: 1867243e0a79c2388e5aa913ebe9b712
+SHA1: 0f0bac03f15b3351609414e5c6b600ded93e2bce
+SHA256: 47103c306e4618a76aba37b51a52d5c1338402268e8795723477a55740e0570f
 
 Package: linux-image-3.2.0-4-rt-686-pae-dbg
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 1278845
+Version: 3.2.60-1+deb7u1
+Installed-Size: 1279276
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Depends: linux-image-3.2.0-4-rt-686-pae
@@ -13499,16 +13499,16 @@ Description: Debugging symbols for Linux 3.2.0-4-rt-686-pae
 Description-md5: 498ce5fdb3c43e7db7163d640c5bd027
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-686-pae-dbg_3.2.57-3+deb7u2_i386.deb
-Size: 252364392
-MD5sum: 486c1656a4975000a068f262aeb3fc92
-SHA1: 5da065e4e3936a4613ae0f0f64bf3b0f27825a9a
-SHA256: 75604a27a305fc46eddd952a1b7cc2289df6f8765b2faab42d3497158f67fe71
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-686-pae-dbg_3.2.60-1+deb7u1_i386.deb
+Size: 252456024
+MD5sum: b6c3fd69060ac2bff928f925634607f6
+SHA1: b65ee24d6da7a47ca53af62deab37614e8cedd1b
+SHA256: fe55a23867327d4b807ec5c0df29466ae8d1444af827fd0065cd25b2b059d883
 
 Package: linux-libc-dev
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 2793
+Version: 3.2.60-1+deb7u1
+Installed-Size: 2796
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
 Replaces: linux-kernel-headers
@@ -13519,16 +13519,16 @@ Description-md5: f310daf8fb891639ee6eeeb4020a7c13
 Multi-Arch: same
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.57-3+deb7u2_i386.deb
-Size: 822964
-MD5sum: 549b5088e19673e92a4283a0ff5f9a39
-SHA1: 9c8de2030498edffe2347cee9c5d3771bd662f66
-SHA256: c8dcef16edcdce1d95c2df9d9153fd183a8ec8058e6798a066d0290d9ca1176b
+Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.60-1+deb7u1_i386.deb
+Size: 826414
+MD5sum: 7c730295a4b2b6955488103e3e31cacb
+SHA1: 08d13d870200c295cf081f5e98e6bde1b56b1be0
+SHA256: 62455f9304d8586b4a4ee31af58374dc525e29fb8cfb1f2257c31ff113e8c9fb
 
 Package: linux-manual-3.2
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 3244
+Version: 3.2.60-1+deb7u1
+Installed-Size: 3249
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Replaces: linux-manual
@@ -13539,16 +13539,16 @@ Description-md5: 6d4c33116b6fa28acef9783d3bbd6ea9
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.57-3+deb7u2_all.deb
-Size: 2982834
-MD5sum: c7067d6ded21e560520e31503b25495c
-SHA1: 1c8c9d84f3fe1e00cf7b5303b9162a32bc2b945d
-SHA256: 2b091854cb69780e91a73ec4f4c878630a5ccdfd2cc082eaff1aba386f90606a
+Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.60-1+deb7u1_all.deb
+Size: 2973778
+MD5sum: 62e461269677a81923b8244e413e07b9
+SHA1: 65ca8252dcd9be6195648656f7258d6eaa5d1ee8
+SHA256: dc061e94d30dbec4d744261b6a1df2dbd8bb83279c7e028dee7a96aee8879d13
 
 Package: linux-source-3.2
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 75691
+Version: 3.2.60-1+deb7u1
+Installed-Size: 75692
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Provides: linux-source
@@ -13560,16 +13560,16 @@ Multi-Arch: foreign
 Recommends: libc6-dev | libc-dev, gcc, make
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.57-3+deb7u2_all.deb
-Size: 77439592
-MD5sum: e60fea139451f9fe99a92f80dce8b316
-SHA1: 8179da64d8d3484feb69eff763b5ba15d3d3a9dc
-SHA256: dbb5b0b673c0226a26c396effde49d964c7831a63bb05d7809d1a1880d123fd6
+Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.60-1+deb7u1_all.deb
+Size: 77441200
+MD5sum: d58eb68a72acd0869fa54244159d6fcf
+SHA1: 8053ac67863e59c0ae6081649b025fd4e15e1540
+SHA256: 74783f1031409f2d4eabbfed00fd36961dbe4f90402233156375fdbfd9536749
 
 Package: linux-support-3.2.0-4
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 331
+Version: 3.2.60-1+deb7u1
+Installed-Size: 335
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Depends: python (>= 2.6.6-7~)
@@ -13578,45 +13578,45 @@ Description-md5: d281db896aa88c6dbb13d747cdb40db2
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.57-3+deb7u2_all.deb
-Size: 231594
-MD5sum: 9dbdf3f97ed3555325fd4ae7d0399178
-SHA1: 6f40a6b70b98cb63957149f1ef34f3e5090b004c
-SHA256: 8bce0d167e53aa7c043305e9f1fb834f6aeeb5ae71595374b24fde840f616c03
+Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.60-1+deb7u1_all.deb
+Size: 234874
+MD5sum: 51d57dc38ee607212ac10e97af179e74
+SHA1: f2241b923520603f469da2faa2eef05e1c8ce18f
+SHA256: 4497320203341fbcbc450221e91d1c4ec61d138273cadcfc83ca64e4a97ae4b2
 
 Package: xen-linux-system-3.2.0-4-686-pae
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 210
+Version: 3.2.60-1+deb7u1
+Installed-Size: 213
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
-Depends: linux-image-3.2.0-4-686-pae (= 3.2.57-3+deb7u2), xen-system-i386 | xen-system-amd64
+Depends: linux-image-3.2.0-4-686-pae (= 3.2.60-1+deb7u1), xen-system-i386 | xen-system-amd64
 Description: Xen system with Linux 3.2 on modern PCs (meta-package)
 Description-md5: a303078d54009d13b8b27a1113b01acb
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-686-pae_3.2.57-3+deb7u2_i386.deb
-Size: 215080
-MD5sum: 1e52ba6a3ecb0a57845df4ab5b13c22c
-SHA1: bf92f78fe6ab1afe4a462d56eb47cdab535e0172
-SHA256: f68c8f95acb770d80cc704dcf9fc717eb68a4c34d88685e0e63cf458b3534c66
+Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-686-pae_3.2.60-1+deb7u1_i386.deb
+Size: 218302
+MD5sum: 5654d40b35cc920a74c7f3d4e7a15426
+SHA1: 6a5ffc77c57da5cbee1ca61d16ee3b47a4f02242
+SHA256: 8bea46f1dd5dbccd82364d39e896257c5e5a05a520070591a2ace0bf40e8e45d
 
 Package: xen-linux-system-3.2.0-4-amd64
 Source: linux
-Version: 3.2.57-3+deb7u2
-Installed-Size: 210
+Version: 3.2.60-1+deb7u1
+Installed-Size: 213
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: i386
-Depends: linux-image-3.2.0-4-amd64 (= 3.2.57-3+deb7u2), xen-system-amd64
+Depends: linux-image-3.2.0-4-amd64 (= 3.2.60-1+deb7u1), xen-system-amd64
 Description: Xen system with Linux 3.2 on 64-bit PCs (meta-package)
 Description-md5: 418c015fc0380f08f5de8b1abd0e2969
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.57-3+deb7u2_i386.deb
-Size: 215070
-MD5sum: 6b13848fc4845cb34d4585d76d2812a2
-SHA1: b6335367a7106747e6a1cc05d6d10e7c1760aec9
-SHA256: 2d0b648ea4bac7e287fc4d5cd80dfbf1ca01042a624e2b101307b9e32c5ed680
+Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.60-1+deb7u1_i386.deb
+Size: 218292
+MD5sum: cffdba8ff984d40269da6918f72b3362
+SHA1: 42424457bc2f372a768bd9df0b2f46bca1cb3859
+SHA256: 77ba25c7693aee923270e4a18eb01ed355d2512bd0c9ecf7d43f8bc4967e44b1
 
 Package: liblua5.1-expat-dev
 Source: lua-expat
