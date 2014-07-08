@@ -23143,6 +23143,308 @@ MD5sum: 2e88ed076dd9e4f43d3bf34666e9b0d3
 SHA1: 84db0b06a770f4d8933dd6fce064d65e4ade49ff
 SHA256: 48b32f983a409b3063c6d1ae931be66ce4ffa92f6daa71a739a672730cefd5d0
 
+Package: libvlc-dev
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 307
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: libvlc0-dev
+Depends: libvlc5 (= 2.0.3-5+deb7u1), libvlccore-dev, pkg-config
+Description: development files for libvlc
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 12dd7b707396cd811cd0c9fd70dd8122
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/v/vlc/libvlc-dev_2.0.3-5+deb7u1_i386.deb
+Size: 61256
+MD5sum: 834934b3e73746ae786f410811fc0258
+SHA1: 87f24b91990ddba3acd5646f9982a5efa5c6edf4
+SHA256: b3e08eeb9aaded5b8413b1aac02d04d7b6c951201cbc53179deb3f050e0ba346
+
+Package: libvlc5
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 152
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: vlc (<< 0.8.6.c-6)
+Depends: libc6 (>= 2.8), libvlccore5 (>= 2.0.0)
+Description: multimedia player and streamer library
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 7aeaccf15924abc072d91cc9a8630df1
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/v/vlc/libvlc5_2.0.3-5+deb7u1_i386.deb
+Size: 43928
+MD5sum: 792c7c5f8a858898e408e1f7037342fb
+SHA1: 37d4912effede8f48d5d5b9faf29c4c2b78165f9
+SHA256: af524836daadc56d1f3c200d2683a611a560508232773e4e8ddeb366370ee2f5
+
+Package: libvlccore-dev
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 2001
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libvlccore5 (= 2.0.3-5+deb7u1), pkg-config
+Description: development files for libvlccore
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 0bd8297645507d52d5d220efd9b795c9
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/v/vlc/libvlccore-dev_2.0.3-5+deb7u1_i386.deb
+Size: 525740
+MD5sum: 651a1f377243c5ca695172f0a3eaf2c0
+SHA1: cbde8336522567c8dc4e24113f375dd8e4dafa95
+SHA256: 98d8844c6e710e5102f3dc5a5eb42fb241defae158ebaab046d14be8c2951752
+
+Package: libvlccore5
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 1073
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-data (= 2.0.3-5+deb7u1), libc6 (>= 2.10), libdbus-1-3 (>= 1.0.2)
+Description: base library for VLC and its modules
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 193db02ba05ac9c49438f8e5dd1c7659
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/v/vlc/libvlccore5_2.0.3-5+deb7u1_i386.deb
+Size: 390130
+MD5sum: 1f4c68a5b0bec2a250cedb6f4ca1858b
+SHA1: cb50fd0ee22b465066cc87d7a7138268a1a4fc8d
+SHA256: 10e4f36ef9c99f4876d2f26a3a8a3f3d6585a8453a45fc09d588d22850fe7fb8
+
+Package: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 3368
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: vlc-data (<< 1.1.5), vlc-nox (<< 2.0.2)
+Provides: mp3-decoder
+Depends: fonts-freefont-ttf, vlc-nox (= 2.0.3-5+deb7u1), libaa1 (>= 1.4p5), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.8), libcaca0 (>= 0.99.beta17-1), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libice6 (>= 1:1.0.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0~beta1), libsdl-image1.2 (>= 1.2.10), libsdl1.2debian (>= 1.2.11), libsm6, libstdc++6 (>= 4.6), libtar0, libva-x11-1 (>> 1.0.15~), libva1 (>> 1.0.15~), libvlccore5 (>= 2.0.0), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.3.9), libxcb-randr0 (>= 1.1), libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.6), libxext6, libxinerama1, libxpm4, zlib1g (>= 1:1.2.3.3)
+Suggests: videolan-doc
+Breaks: vlc-data (<< 1.1.5), vlc-nox (<< 2.0.2)
+Description: multimedia player and streamer
+Homepage: http://www.videolan.org/vlc/
+Description-md5: ade490894197577c48a5c98707cbcbcf
+Pre-Depends: dpkg (>= 1.15.6~)
+Recommends: vlc-plugin-notify (= 2.0.3-5+deb7u1), vlc-plugin-pulse (= 2.0.3-5+deb7u1), xdg-utils
+Section: graphics
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc_2.0.3-5+deb7u1_i386.deb
+Size: 1087166
+MD5sum: 0b639c1c25ff521c5b3da6d96584a9d8
+SHA1: dfa48ba376d3614714208572a522f84d30dc867f
+SHA256: 239b23cb715388e8685ceed5579da2cf95d663d002ee9eb810bbf703b4c9bb0b
+
+Package: vlc-data
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 26401
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Replaces: mozilla-plugin-vlc (<< 0.9.2-1), vlc (<< 0.9.2-1), vlc-nox (<< 2.0.1-3)
+Breaks: vlc-nox (<< 2.0.1-3)
+Description: Common data for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: bccba58fb9840799ef3e1fbe272530f0
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: graphics
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-data_2.0.3-5+deb7u1_all.deb
+Size: 5117772
+MD5sum: 3455f58598a4b39208a4e71c31bd3ec8
+SHA1: b0f4d9609a0191b7953ee75242d5c41ca5eaf83a
+SHA256: d8fe112ce6713416954d96a48547182949871e25e18e2e430034ae7a62090883
+
+Package: vlc-dbg
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 50388
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1)
+Description: debugging symbols for vlc
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 2e42d21fd273f39c55c7ffc9183c44b4
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: graphics
+Priority: extra
+Filename: pool/updates/main/v/vlc/vlc-dbg_2.0.3-5+deb7u1_i386.deb
+Size: 12354396
+MD5sum: 81d03e6862469384a35d3c2d8b158406
+SHA1: 20b14e59e0887099f9e7ac46e74558453d0579b3
+SHA256: 14fba17976e3a68a536a561fd9e41c72fe095f29ce12bfe2c0625ae3f8eab947
+
+Package: vlc-nox
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 8841
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: vlc (<< 1.1.0)
+Provides: mp3-decoder
+Depends: liba52-0.7.4, libasound2 (>= 1.0.16), libass4 (>= 0.9.7), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavc1394-0 (>= 0.5.3), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libbluray1, libc6 (>= 2.8), libcddb2, libcdio13 (>= 0.83), libcrystalhd3, libdbus-1-3 (>= 1.2.16), libdc1394-22, libdca0, libdirac-decoder0, libdirac-encoder0, libdirectfb-1.2-9, libdvbpsi7 (>= 0.2.0), libdvdnav4 (>= 4.2.0+20120524), libdvdread4, libebml3, libfaad2 (>= 2.7), libflac8 (>= 1.2.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.1.1), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgpg-error0 (>= 1.10), libiso9660-8 (>= 0.83), libkate1 (>= 0.3.0), liblircclient0, liblua5.1-0, libmad0 (>= 0.15.1b-3), libmatroska5, libmodplug1, libmpcdec6 (>= 1:0.1~r435), libmpeg2-4, libmtp9 (>= 1.1.0), libncursesw5 (>= 5.6+20070908), libogg0 (>= 1.1.0), libpng12-0 (>= 1.2.13-4), libpostproc52 (>= 6:0.8.3-1~), libproxy0 (>= 0.2.3), libraw1394-11, libresid-builder0c2a, libsamplerate0 (>= 0.1.7), libschroedinger-1.0-0 (>= 1.0.10), libshout3, libsidplay2, libsmbclient (>= 3.0.24), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 4.6), libswscale2 (>= 6:0.8.3-1~), libtag1c2a (>= 1.7), libtheora0 (>= 1.0), libtinfo5, libtwolame0, libudev0 (>= 146), libupnp6 (>= 1.4.3), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), libvcdinfo0 (>= 0.7.21), libvlc5 (>= 2.0.0), libvlccore5 (>= 2.0.2), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libx264-123, libxml2 (>= 2.7.4), libzvbi0 (>= 0.2.11), zlib1g (>= 1:1.2.0.2)
+Description: multimedia player and streamer (without X support)
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 37fd0f9e7a6c27828878f9c0225c4ad0
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: net
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-nox_2.0.3-5+deb7u1_i386.deb
+Size: 2610754
+MD5sum: 60659f6d2e776a86bda1ccdbeff83dec
+SHA1: 0fc86db039b8877bedd100b6dc679e169d5aca80
+SHA256: d8b756b10a39978b466d1aa07f4c1858cacaf80a41662dee2dce8dc5e27c089e
+
+Package: vlc-plugin-fluidsynth
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 54
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: fluid-soundfont-gm | musescore-soundfont-gm, vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.3.6-6~), libfluidsynth1, libvlccore5 (>= 2.0.0)
+Breaks: vlc-nox (<< 2.0.0)
+Description: FluidSynth plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: d020b798220b991c5ab1439d49afe36c
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: video
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-fluidsynth_2.0.3-5+deb7u1_i386.deb
+Size: 6060
+MD5sum: f5fddce5146e045ace6a0ae65187379b
+SHA1: 8e1ff7e3c9bc87522b2e7830982b65fb814d1fce
+SHA256: 665b12c4e493c60f41c478fa7d50ac28255099b829128bb894b6d8fcb3ce28d5
+
+Package: vlc-plugin-jack
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 71
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.4), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libvlccore5 (>= 2.0.0)
+Breaks: vlc-nox (<< 2.0.0)
+Description: Jack audio plugins for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: fa64893fd1af0d8b72b24b65e12bfe96
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: graphics
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-jack_2.0.3-5+deb7u1_i386.deb
+Size: 10442
+MD5sum: ba1ad97c3294a453fe3dd3ddc62b3e9b
+SHA1: e1732fe6c603c9d12ec764478867bab1f96d2e0a
+SHA256: 2025907f4e560729a6c529aaa8149f525fe11431ee3d4a59e0f1e1e5b620b146
+
+Package: vlc-plugin-notify
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 54
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: vlc-nox (<< 1.1.2)
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.8), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libnotify4 (>= 0.7.0), libpango1.0-0 (>= 1.14.0), libvlccore5 (>= 2.0.0)
+Breaks: vlc-nox (<< 2.0.0)
+Description: LibNotify plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: d67616280b4d81707276896d99ca97b6
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: video
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-notify_2.0.3-5+deb7u1_i386.deb
+Size: 5994
+MD5sum: a7d07bb50fd77a3f2b8ef4ccc63e1e45
+SHA1: ef78bf2434674ea5183c57ad77ae15deb0b6fddf
+SHA256: 4165dd36c99a8415944db1471f8de5eb6c1e87e9185e79a7d0261328dbfecb1f
+
+Package: vlc-plugin-pulse
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 109
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.8), libpulse0 (>= 0.99.4), libvlccore5 (>= 2.0.0)
+Breaks: vlc-nox (<< 2.0.0)
+Description: PulseAudio plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 7bf6d88753dd5faf8be6485c523db6f8
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: graphics
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-pulse_2.0.3-5+deb7u1_i386.deb
+Size: 18402
+MD5sum: 1fe901a758e70b3cfbd9296f22c9a36c
+SHA1: 20e44bdac8459a8d041757b4b715a92486176837
+SHA256: d956e6be8fc22133471517a92e7fd635a40c78176920b1d7e45cb2331134860f
+
+Package: vlc-plugin-sdl
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 58
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.3.6-6~), libice6 (>= 1:1.0.0), libsdl1.2debian (>= 1.2.11), libsm6, libvlccore5 (>= 2.0.0), libx11-6
+Breaks: vlc-nox (<< 2.0.0)
+Description: SDL video and audio output plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: e31cd936999e7a774e7bbf12dbc180bd
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: graphics
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-sdl_2.0.3-5+deb7u1_i386.deb
+Size: 8832
+MD5sum: c83cd96de87b9f6617b7ffb218105c9b
+SHA1: 562eee8121bbd37c3935e9d47c265a8c87d4c14a
+SHA256: e61cf523324204bfe50681067d11c126a4e052d3841936fe7160c3b6215a9b37
+
+Package: vlc-plugin-svg
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 54
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.3.6-6~), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), librsvg2-2 (>= 2.14.4), libvlccore5 (>= 2.0.0)
+Breaks: vlc-nox (<< 2.0.0)
+Description: SVG plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: d93a812bb488ea5282e82e2442f61c05
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: video
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-svg_2.0.3-5+deb7u1_i386.deb
+Size: 6812
+MD5sum: 3b4f42726551e591695c418cd39508f8
+SHA1: c72bf30dff62fdcaeedefaa385b153f362ba39df
+SHA256: 5a97397605c0e222bf1b94f838f07109e8dbbec642811b00d844e5059c1b27c8
+
+Package: vlc-plugin-zvbi
+Source: vlc
+Version: 2.0.3-5+deb7u1
+Installed-Size: 58
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: vlc-nox (= 2.0.3-5+deb7u1), libc6 (>= 2.4), libpng12-0 (>= 1.2.13-4), libvlccore5 (>= 2.0.0), libzvbi0 (>= 0.2.11), zlib1g (>= 1:1.1.4)
+Breaks: vlc-nox (<< 2.0.0)
+Description: VBI teletext plugin for VLC
+Homepage: http://www.videolan.org/vlc/
+Description-md5: 26b7e796b876a1bbc3368fd63e28ae0e
+Pre-Depends: dpkg (>= 1.15.6~)
+Section: video
+Priority: optional
+Filename: pool/updates/main/v/vlc/vlc-plugin-zvbi_2.0.3-5+deb7u1_i386.deb
+Size: 8650
+MD5sum: 5c85ffb646cb1001595cdbeba0bb81f7
+SHA1: 5ff9c08e6fb8e27bfcba724738398e0872b3e922
+SHA256: cf5a8bde4aa15b49dbda17807fca342e9e21de34c72b0253b0e822eecc870a8c
+
 Package: libwireshark-data
 Source: wireshark
 Version: 1.8.2-5wheezy10
