@@ -17948,6 +17948,25 @@ MD5sum: aa3c9aa6e971f1841c15a2645e5af99f
 SHA1: 62be198c96b5ee8a91471cce8aaa96b6ea4dee9b
 SHA256: 9e6fdb2032f21733784695370998fef21917b9793283b4557fc1e384b9f990fa
 
+Package: phpmyadmin
+Version: 4:3.4.11.1-2+deb7u1
+Installed-Size: 15192
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Architecture: all
+Depends: libapache2-mod-php5 | libapache2-mod-php5filter | php5-cgi | php5-fpm | php5, php5-mysql | php5-mysqli | php5-mysqlnd, php5-mcrypt, perl, debconf (>= 0.5) | debconf-2.0, dbconfig-common, ttf-dejavu-core, ucf (>= 0.28)
+Suggests: mysql-server, www-browser
+Description: MySQL web administration tool
+Homepage: http://www.phpmyadmin.net/
+Description-md5: 741cc5619fcb316ac8049f5906394984
+Recommends: apache2 | lighttpd | httpd, php5-gd, mysql-client
+Section: web
+Priority: extra
+Filename: pool/updates/main/p/phpmyadmin/phpmyadmin_3.4.11.1-2+deb7u1_all.deb
+Size: 5502992
+MD5sum: 6b0e6aa176d1a2494148572001e30a64
+SHA1: fbcc49c7cb1bf71d2e7248def5498b6596424412
+SHA256: 2898de095dbe576e4c2cf81914e1660c5d42b971be8c34f67d15c03123ab9600
+
 Package: finch
 Source: pidgin
 Version: 2.10.9-1~deb7u1

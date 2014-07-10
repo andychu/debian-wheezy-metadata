@@ -7725,6 +7725,36 @@ Directory: pool/updates/main/p/phpbb3
 Priority: source
 Section: web
 
+Package: phpmyadmin
+Binary: phpmyadmin
+Version: 4:3.4.11.1-2+deb7u1
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Uploaders: Michal Čihař <nijel@debian.org>
+Build-Depends: debhelper (>= 7), po-debconf
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ a50f63272ad99a58ef4895ae0b188951 1590 phpmyadmin_3.4.11.1-2+deb7u1.dsc
+ e54cedac04ef1743eae381c9affd2fc1 5844325 phpmyadmin_3.4.11.1.orig.tar.gz
+ 5b3d490782044807cb7567a6e4db9c09 54361 phpmyadmin_3.4.11.1-2+deb7u1.debian.tar.gz
+Vcs-Browser: https://aphrodite.kinkhorst.nl/wsvn/debian/phpmyadmin/
+Checksums-Sha1:
+ 957c6995ca8aa6db6765276a0b0c71e066b1d0e2 1590 phpmyadmin_3.4.11.1-2+deb7u1.dsc
+ d9f420c7664815ac91b63046f9ab2869adb1c2ab 5844325 phpmyadmin_3.4.11.1.orig.tar.gz
+ 627dadcd199b0a567434df5745083f646c29d32e 54361 phpmyadmin_3.4.11.1-2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ f72828bce405e75ba94a18cbdb45a101b6bdc72cfabd17f313c78b793a029b6a 1590 phpmyadmin_3.4.11.1-2+deb7u1.dsc
+ e29332102cb1f9aac583c71e2b73c8916d3bbb8771fb8a28a4863e837be0dae6 5844325 phpmyadmin_3.4.11.1.orig.tar.gz
+ 6ee6ac1aec9c906db4aaad03a9968695f4ae2d44e764284cf3c9631bad4d1cb8 54361 phpmyadmin_3.4.11.1-2+deb7u1.debian.tar.gz
+Homepage: http://www.phpmyadmin.net/
+Package-List: 
+ phpmyadmin deb web extra
+Vcs-Svn: https://svn.kinkhorst.nl/svn/debian/phpmyadmin/trunk
+Directory: pool/updates/main/p/phpmyadmin
+Priority: source
+Section: web
+
 Package: pidgin
 Binary: libpurple0, pidgin, pidgin-data, pidgin-dev, pidgin-dbg, finch, finch-dev, libpurple-dev, libpurple-bin
 Version: 2.10.9-1~deb7u1
