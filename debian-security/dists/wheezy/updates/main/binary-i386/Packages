@@ -1751,6 +1751,353 @@ MD5sum: c25c7b29f3931c9bf7ec19f765508ba5
 SHA1: 5458a8dccdefc3f35c79aa2b7ee8d30e0cb238b1
 SHA256: 18de18bd44790a468276e719e261f756f74765fb44651d1d3ccfe7cb059406a3
 
+Package: eglibc-source
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 20781
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Description: Embedded GNU C Library: sources
+Homepage: http://www.eglibc.org
+Description-md5: e4d1c2960e50de66688b8a889117873c
+Multi-Arch: foreign
+Recommends: xz-utils
+Section: devel
+Priority: optional
+Filename: pool/updates/main/e/eglibc/eglibc-source_2.13-38+deb7u3_all.deb
+Size: 13566108
+MD5sum: a1218622e9783f1186e750f6bf4164f2
+SHA1: 171aedb507c0c6628cb7efe3a5404aa137c61f31
+SHA256: 5708c35da6dc710fadb124477b4edafe7a1157d9afd240854cbe70a3e4524fdb
+
+Package: glibc-doc
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 156
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Suggests: glibc-doc-reference
+Description: Embedded GNU C Library: Documentation
+Homepage: http://www.eglibc.org
+Description-md5: 49341b064b2f9185d1eb2c96e4a87c33
+Multi-Arch: foreign
+Section: doc
+Priority: optional
+Filename: pool/updates/main/e/eglibc/glibc-doc_2.13-38+deb7u3_all.deb
+Size: 150610
+MD5sum: 8ba52e53ba40e664843aa0c10bf47c68
+SHA1: 2fcfe89cc1197f8afd69ba7f1fbb449679d07f76
+SHA256: b47b2b45eb54bf007638ccfff4687ac133f4f61d5f870bc4220725a2e1fd568a
+
+Package: libc-bin
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 3094
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Replaces: libc0.1, libc0.3, libc6, libc6.1
+Breaks: libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)
+Description: Embedded GNU C Library: Binaries
+Homepage: http://www.eglibc.org
+Description-md5: 90523935f9c97be3a67bc8a1596de79b
+Essential: yes
+Multi-Arch: foreign
+Section: libs
+Priority: required
+Filename: pool/updates/main/e/eglibc/libc-bin_2.13-38+deb7u3_i386.deb
+Size: 1216228
+MD5sum: 7314216a974573ed7eb1988e693f01b8
+SHA1: 028bedd9b74b02863ac28a2371fee91b602c6386
+SHA256: 8ac23f5d1811f68dac077be95d258a5c609834c6e878936b46531c04a46c6181
+
+Package: libc-dev-bin
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 331
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Replaces: libc0.1-dev, libc0.3-dev, libc6-dev, libc6.1-dev
+Depends: libc6 (>> 2.13), libc6 (<< 2.14)
+Description: Embedded GNU C Library: Development binaries
+Homepage: http://www.eglibc.org
+Description-md5: fd5fdd2377062e0827c669a30c97e2dc
+Multi-Arch: foreign
+Recommends: manpages-dev
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/e/eglibc/libc-dev-bin_2.13-38+deb7u3_i386.deb
+Size: 218780
+MD5sum: 005636f0315c2a745c99b8f81208c75a
+SHA1: 02644e911167acae543ad0b04090c5ca584b1c7c
+SHA256: 3b26284cb5c8d7721f440808ab9669d9e1b58d21be4458a93edd7693f228b6e1
+
+Package: libc6
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 8557
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Replaces: libc6-i386
+Provides: glibc-2.13-1
+Depends: libc-bin (= 2.13-38+deb7u3), libgcc1
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Conflicts: prelink (<= 0.0.20090311-1), tzdata (<< 2007k-1), tzdata-etch
+Breaks: locales (<< 2.13), locales-all (<< 2.13), nscd (<< 2.13)
+Description: Embedded GNU C Library: Shared libraries
+Homepage: http://www.eglibc.org
+Description-md5: 5089b4da6684d7432ab618fb5b79cec5
+Multi-Arch: same
+Recommends: libc6-i686
+Section: libs
+Priority: required
+Filename: pool/updates/main/e/eglibc/libc6_2.13-38+deb7u3_i386.deb
+Size: 3951926
+MD5sum: fd318bb708e18d8056beee6d27075940
+SHA1: 1787528a148c54c5596834130981ddd7313bb108
+SHA256: a570ac54b19c7c2b687311f36fa07e48d1f7740f9afc2e1c2577cef1121cc949
+
+Package: libc6-amd64
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 9904
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Depends: libc6 (= 2.13-38+deb7u3)
+Conflicts: amd64-libs (<= 1.2)
+Description: Embedded GNU C Library: 64bit Shared libraries for AMD64
+Homepage: http://www.eglibc.org
+Description-md5: 5e871a82fe5ae12250669afab6662439
+Section: libs
+Priority: optional
+Filename: pool/updates/main/e/eglibc/libc6-amd64_2.13-38+deb7u3_i386.deb
+Size: 4399042
+MD5sum: 011c6de3c613273bea1f0d330703efb3
+SHA1: 555a3c3eb700e18d8badb91d3155d390fcf4a470
+SHA256: dbdfba650f58f1335948ce0e88f236e5330a5e4582a274a2500c6692af981d22
+
+Package: libc6-dbg
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 32952
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Provides: libc-dbg
+Depends: libc6 (= 2.13-38+deb7u3)
+Description: Embedded GNU C Library: detached debugging symbols
+Homepage: http://www.eglibc.org
+Description-md5: 277bfaa2a11e93ce7a8e08b0947e8bd8
+Multi-Arch: same
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/e/eglibc/libc6-dbg_2.13-38+deb7u3_i386.deb
+Size: 3581124
+MD5sum: 21dc0cf240130ad7f67eec7299c138a8
+SHA1: 29526784575ae2312e3a24df3ead6324986055fa
+SHA256: 093710151a2e066a829f31cc703e1e34f33bcab1f31a2af44adf5992a950df38
+
+Package: libc6-dev
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 17989
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Provides: libc-dev
+Depends: libc6 (= 2.13-38+deb7u3), libc-dev-bin (= 2.13-38+deb7u3), linux-libc-dev
+Suggests: glibc-doc, manpages-dev
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Breaks: binutils (<< 2.20.1-1), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
+Description: Embedded GNU C Library: Development Libraries and Header Files
+Homepage: http://www.eglibc.org
+Description-md5: 67dac41d6c8268d6a08835d858b160af
+Multi-Arch: same
+Recommends: gcc | c-compiler
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/e/eglibc/libc6-dev_2.13-38+deb7u3_i386.deb
+Size: 4944624
+MD5sum: 24454ec087a55361c879b80d9b759537
+SHA1: 26879829302e24b311c51a8c97070063c9d1bd11
+SHA256: 7f177dda2da999f304715df948050221c5f2fff5e766b0fb54b28abf9298f9df
+
+Package: libc6-dev-amd64
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 9018
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Replaces: amd64-libs-dev (<= 1.2), libc6-dev (<< 2.13-11)
+Provides: lib64c-dev
+Depends: libc6-amd64 (= 2.13-38+deb7u3), libc6-dev (= 2.13-38+deb7u3)
+Conflicts: libc6-dev (<< 2.13-14)
+Description: Embedded GNU C Library: 64bit Development Libraries for AMD64
+Homepage: http://www.eglibc.org
+Description-md5: e56f2cd3094aab960377d26a5ed4ab90
+Recommends: gcc-multilib
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/e/eglibc/libc6-dev-amd64_2.13-38+deb7u3_i386.deb
+Size: 2264294
+MD5sum: 4c6782d694ece1254edb081410a5a856
+SHA1: cc8ccb75287c16fad7e3b0478ff5435f3d7f805a
+SHA256: 8c8753354d9148f4c354a1a61df370febca3858e03558f10278afe53d540c1a0
+
+Package: libc6-i686
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 2676
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Description: Embedded GNU C Library: Shared libraries [i686 optimized]
+Homepage: http://www.eglibc.org
+Description-md5: 81e66ffe6c2ce5260c81eccb0a57de6b
+Multi-Arch: same
+Pre-Depends: libc6 (= 2.13-38+deb7u3)
+Section: libs
+Priority: extra
+Filename: pool/updates/main/e/eglibc/libc6-i686_2.13-38+deb7u3_i386.deb
+Size: 1257810
+MD5sum: a56862db5b4b27475cd62df4c06a14ba
+SHA1: e502203ff3e1a1acb650ab2d72dbcd9442ecb833
+SHA256: be56d4639bdf48aa98dd488c5b3fb52ff29e6048138a4b3f6af584319f00a5b3
+
+Package: libc6-pic
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 4476
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Provides: glibc-pic, libc-pic
+Depends: libc6 (= 2.13-38+deb7u3)
+Conflicts: libc-pic
+Description: Embedded GNU C Library: PIC archive library
+Homepage: http://www.eglibc.org
+Description-md5: 85973cd40f4511da29e5fd362e133f28
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/e/eglibc/libc6-pic_2.13-38+deb7u3_i386.deb
+Size: 1253514
+MD5sum: 298a132bdf74b1c4cf468a83cb4faacd
+SHA1: f24e12afd0764a3642f35344f0cb4c88f6c720c2
+SHA256: c09a8c5e7879cb89baa20afef913fab8bcee8da57f1055f026343e51da10defb
+
+Package: libc6-prof
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 5305
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Depends: libc6 (= 2.13-38+deb7u3)
+Description: Embedded GNU C Library: Profiling Libraries
+Homepage: http://www.eglibc.org
+Description-md5: 37f174a2430988386de68890169f5224
+Multi-Arch: same
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/e/eglibc/libc6-prof_2.13-38+deb7u3_i386.deb
+Size: 1567964
+MD5sum: 352c34b3440a8eb26bb7686372ba1fcc
+SHA1: c76a8f29c014a68c11b8d75153996ce4c31aeec0
+SHA256: dc984314821720a3cc8c6394f0d21206fb334baa18121157cd568ae76df7cca2
+
+Package: libc6-xen
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 2704
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Description: Embedded GNU C Library: Shared libraries [Xen version]
+Homepage: http://www.eglibc.org
+Description-md5: 9c83bb34c66439f4c333b8ab96e84d18
+Multi-Arch: same
+Pre-Depends: libc6 (= 2.13-38+deb7u3)
+Section: libs
+Priority: extra
+Filename: pool/updates/main/e/eglibc/libc6-xen_2.13-38+deb7u3_i386.deb
+Size: 1263290
+MD5sum: b543b31d80644f7e5bb183642ac5dd0e
+SHA1: 42d9f387b856c4279d485eaba26c284ae779e1ea
+SHA256: 427212832079bc9b09f25bf9258775ad5a31c931eb707b7c5426bcae8273b6b7
+
+Package: locales
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 14801
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: all
+Replaces: base-config, lliurex-belocs-locales-data
+Depends: glibc-2.13-1, debconf (>= 0.5) | debconf-2.0
+Conflicts: base-config, belocs-locales-bin, belocs-locales-data
+Description: Embedded GNU C Library: National Language (locale) data [support]
+Homepage: http://www.eglibc.org
+Description-md5: 8cac3a8aec2778ae1b878dc2b54c07ea
+Section: libs
+Priority: standard
+Filename: pool/updates/main/e/eglibc/locales_2.13-38+deb7u3_all.deb
+Size: 5657276
+MD5sum: a621b003c345a9da591b50b83392eda2
+SHA1: 384426d7a58acc6a4a2018ee773b1d752007d4d0
+SHA256: 3497d5dff517c740bd800535f9456934b926171da561f51d9e20c854e3527eab
+
+Package: locales-all
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 111369
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Provides: locales
+Depends: glibc-2.13-1
+Breaks: locales (<< 2.13-17)
+Description: Embedded GNU C Library: Precompiled locale data
+Homepage: http://www.eglibc.org
+Description-md5: 2523538787d3878ad8128d1a87d6c9f9
+Multi-Arch: foreign
+Section: libs
+Priority: extra
+Filename: pool/updates/main/e/eglibc/locales-all_2.13-38+deb7u3_i386.deb
+Size: 3149270
+MD5sum: 2078e62760a3c74bcfec92b97d7a0737
+SHA1: f542fada1061623f960cce788c1dd50b26a9f9dc
+SHA256: aef9d21575056b1fd247e2a8fb1310490ebcc8bc00bdefac96bec14a7a2a1a03
+
+Package: multiarch-support
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 180
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.13-5)
+Description: Transitional package to ensure multiarch compatibility
+Homepage: http://www.eglibc.org
+Description-md5: f70fd4ad370040691119c10d77aec677
+Multi-Arch: foreign
+Section: libs
+Priority: standard
+Filename: pool/updates/main/e/eglibc/multiarch-support_2.13-38+deb7u3_i386.deb
+Size: 150856
+MD5sum: 019671e0f258895457ced67b1f9047dd
+SHA1: 428c698760e5ed331df5a1e8ba97d027a590fc2a
+SHA256: 98bb163d5bec94fc8ec1a1f6d2434461737aadea917f291495089e9c46924c6b
+
+Package: nscd
+Source: eglibc
+Version: 2.13-38+deb7u3
+Installed-Size: 336
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>> 2.13), libc6 (<< 2.14)
+Description: Embedded GNU C Library: Name Service Cache Daemon
+Homepage: http://www.eglibc.org
+Description-md5: bd699c5307bf07a56a6eb9cf27ef3073
+Multi-Arch: foreign
+Section: admin
+Priority: optional
+Filename: pool/updates/main/e/eglibc/nscd_2.13-38+deb7u3_i386.deb
+Size: 211184
+MD5sum: c5f0532db411ab961c885ffaecbcd4b5
+SHA1: ecbf85b49b068a144805245869067670b08cbd0c
+SHA256: 5286caabb05a19bbbafc4a78517f9cd8168441015a9c325a0b3e813aacaae880
+
 Package: ejabberd
 Version: 2.1.10-4+deb7u1
 Installed-Size: 3616
