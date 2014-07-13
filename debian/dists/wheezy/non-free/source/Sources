@@ -370,7 +370,7 @@ Section: non-free/science
 
 Package: automake1.9-nonfree
 Binary: automake1.9-doc
-Version: 1.9.6-1
+Version: 1.9.6-1.1~deb7u1
 Maintainer: Eric Dorland <eric@debian.org>
 Build-Depends: cdbs, debhelper (>= 4.1.0)
 Build-Depends-Indep: autoconf (>= 2.59), autotools-dev (>= 20020320.1), texinfo (>= 4.3)
@@ -378,17 +378,19 @@ Architecture: all
 Standards-Version: 3.7.2.1
 Format: 1.0
 Files:
- 764007ac93ad2849a95446a643485645 699 automake1.9-nonfree_1.9.6-1.dsc
+ 70bb0c87f7c07b23b76f53652909d4a3 1866 automake1.9-nonfree_1.9.6-1.1~deb7u1.dsc
  2ed44997cdffb2350b3d043215e578b2 985623 automake1.9-nonfree_1.9.6.orig.tar.gz
- 91b789d263ff7303bd532e6985dceae2 4312 automake1.9-nonfree_1.9.6-1.diff.gz
+ d9b3333d77500f31702c417143cf7a32 4636 automake1.9-nonfree_1.9.6-1.1~deb7u1.diff.gz
 Checksums-Sha1:
- 6e068dc12f0c790251a54c02ae0693831031112f 699 automake1.9-nonfree_1.9.6-1.dsc
- bc9d0385f588afe3e3b0dba8ad3752828faa5507 4312 automake1.9-nonfree_1.9.6-1.diff.gz
+ d35515f3a706d19eefd1bed6fbb12fbad815ec6d 1866 automake1.9-nonfree_1.9.6-1.1~deb7u1.dsc
  eab569a330a2656bd1c03885ec610b55f8094d2a 985623 automake1.9-nonfree_1.9.6.orig.tar.gz
+ febab5e87d02b8281d5c82ca7ce62f3a4762986e 4636 automake1.9-nonfree_1.9.6-1.1~deb7u1.diff.gz
 Checksums-Sha256:
- db1bd857b909e6944ac65392768b4c85674c253679c18c12f79b9829be6f5cc4 699 automake1.9-nonfree_1.9.6-1.dsc
- da62a8d72c017aa6361f9e10e791eb993a1aad0e7acac38f0e2f977897d5e750 4312 automake1.9-nonfree_1.9.6-1.diff.gz
+ 2c60254b9568bb9b7d6f49ec53e66eaf1ffdc4d5bef77b2a4a895d40c79cc31e 1866 automake1.9-nonfree_1.9.6-1.1~deb7u1.dsc
  83395dce74cfac33979820ee073aae2135bee2587527964fa5b37a2fc2c574d2 985623 automake1.9-nonfree_1.9.6.orig.tar.gz
+ a217017cef41305ed9b5eee5eb3f6982b6892c98f43e42297adb7d1529c51eb6 4636 automake1.9-nonfree_1.9.6-1.1~deb7u1.diff.gz
+Package-List: 
+ automake1.9-doc deb non-free/doc optional
 Directory: pool/non-free/a/automake1.9-nonfree
 Priority: source
 Section: non-free/doc
@@ -2425,7 +2427,7 @@ Section: non-free/science
 
 Package: intel-microcode
 Binary: intel-microcode
-Version: 1.20140122.1
+Version: 1.20140624.1
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Uploaders: Giacomo Catenazzi <cate@debian.org>
 Build-Depends: debhelper (>= 7), iucode-tool (>= 0.8)
@@ -2433,16 +2435,16 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 0cf0ba3c77e20b8794147825fbef53f7 1425 intel-microcode_1.20140122.1.dsc
- b656d1b19e670c7d081f06e324cc61ae 831128 intel-microcode_1.20140122.1.tar.xz
+ 14001221749d9f8242ee7b2185342d35 1425 intel-microcode_1.20140624.1.dsc
+ b27fa66f26b36d504498adbf83bcb6f5 848988 intel-microcode_1.20140624.1.tar.xz
 Vcs-Browser: http://git.debian.org/?p=users/hmh/intel-microcode.git
 Vcs-Git: git://git.debian.org/users/hmh/intel-microcode.git
 Checksums-Sha1:
- 613d8513569ebd6ae6bda63d4c585c6b5553b951 1425 intel-microcode_1.20140122.1.dsc
- 1c995b55a06100cee7189f516128eb6868708a3c 831128 intel-microcode_1.20140122.1.tar.xz
+ f3681a3cea463322aab0cfa1beb9c582ae19d19f 1425 intel-microcode_1.20140624.1.dsc
+ 564dd901c01d511d932328e52f545af7518e5397 848988 intel-microcode_1.20140624.1.tar.xz
 Checksums-Sha256:
- 846eaf5448a5055ff737f38474824265ec1c965687cecaf10a09685551792e1b 1425 intel-microcode_1.20140122.1.dsc
- 1ad51f8a0cdf62da8e18a2f729ed6d8fbcc6ae4d63603792ae3318d51a64095c 831128 intel-microcode_1.20140122.1.tar.xz
+ 736a9519c063b2c7b4cacce22d6b2c307717d8a61e7b9e0471567c8dd25cc17f 1425 intel-microcode_1.20140624.1.dsc
+ bef3776259d28c6a14a20913ab6e0bab64a82e207d5ece940d1517c286c316ea 848988 intel-microcode_1.20140624.1.tar.xz
 Homepage: http://feeds.downloadcenter.intel.com/rss/?p=483&lang=eng
 Autobuild: yes
 Package-List: 
