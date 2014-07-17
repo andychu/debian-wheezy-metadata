@@ -371,24 +371,24 @@ Section: libs
 
 Package: davfs2
 Binary: davfs2
-Version: 1.4.6-1.1+deb7u1
+Version: 1.4.6-1.1+wheezy1
 Maintainer: Luciano Bello <luciano@debian.org>
 Build-Depends: debhelper (>= 7.0.0), po-debconf, libneon27-gnutls-dev
 Architecture: any
 Standards-Version: 3.8.4
 Format: 1.0
 Files:
- c527098c3dd57e73e364b31bdd6acdc5 1104 davfs2_1.4.6-1.1+deb7u1.dsc
+ 907e26a1ef84427430b337e300640b40 1383 davfs2_1.4.6-1.1+wheezy1.dsc
  c9e8aeb15daeba4b6283b40bb640e908 429799 davfs2_1.4.6.orig.tar.gz
- 166c80ee52e1d5a0d860a25716030a07 49173 davfs2_1.4.6-1.1+deb7u1.diff.gz
+ 07c0f33d18dfae4a2d7d2bb7474a4508 49240 davfs2_1.4.6-1.1+wheezy1.diff.gz
 Checksums-Sha1:
- 71d83ce914dd591e61c4da7a9afc20e71bf00e3c 1104 davfs2_1.4.6-1.1+deb7u1.dsc
+ f7a027716249db5ed380404f2f047d09bd2bc327 1383 davfs2_1.4.6-1.1+wheezy1.dsc
  5cf396d771345a2bf3583c0a7c08d1ab50a38b97 429799 davfs2_1.4.6.orig.tar.gz
- ac45933903f8a9c39699365663b705852d4a04d7 49173 davfs2_1.4.6-1.1+deb7u1.diff.gz
+ 7cd3573687bf8c2a15021125c11bb2f49f80e54c 49240 davfs2_1.4.6-1.1+wheezy1.diff.gz
 Checksums-Sha256:
- f1a8cb1a7c3a361a7262f21b1c6b2b66bb4215d985e6166df162bd0a0e3ce64b 1104 davfs2_1.4.6-1.1+deb7u1.dsc
+ 32e9e67197914b9d5e85dccbfaf6f8b328ef85bd5ae387e3c902ec2964878cd2 1383 davfs2_1.4.6-1.1+wheezy1.dsc
  e07252ec6db38c8f691bf2dada639e8300e058594f47a7c3c45020631621c356 429799 davfs2_1.4.6.orig.tar.gz
- 4dfa2bc7bb81e73364e1c7010a773bbf44ddb8e5dbd032861d6bcdf8c13261ad 49173 davfs2_1.4.6-1.1+deb7u1.diff.gz
+ 77ad7fb5cc15436e7eeea85ee3fd31d4746490024aefbe7173ba2763f30e0ed6 49240 davfs2_1.4.6-1.1+wheezy1.diff.gz
 Homepage: http://savannah.nongnu.org/projects/davfs2
 Package-List: 
  davfs2 deb utils extra
