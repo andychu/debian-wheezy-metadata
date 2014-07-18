@@ -836,26 +836,26 @@ Section: web
 
 Package: fail2ban
 Binary: fail2ban
-Version: 0.8.6-3wheezy2
+Version: 0.8.6-3wheezy3
 Maintainer: Yaroslav Halchenko <debian@onerussian.com>
 Build-Depends: debhelper (>= 5.0.37.2), python (>= 2.5.4-1~)
 Architecture: all
 Standards-Version: 3.9.2
 Format: 1.0
 Files:
- 2b891bd3da4db92ef2d45fd7b54e35ae 1271 fail2ban_0.8.6-3wheezy2.dsc
+ 0e19f4a9d11f65984031352311ecb139 1254 fail2ban_0.8.6-3wheezy3.dsc
  a5f08a67fe6bfb0580043d90c6f81cfd 107029 fail2ban_0.8.6.orig.tar.gz
- 858df62cae852b6bc4009138debf2561 30384 fail2ban_0.8.6-3wheezy2.diff.gz
+ f3bf9aa21d5c9a8a1334d4c93a0106ba 31769 fail2ban_0.8.6-3wheezy3.diff.gz
 Vcs-Browser: http://github.com/fail2ban/fail2ban
 Vcs-Git: git://github.com/fail2ban/fail2ban.git
 Checksums-Sha1:
- d54a9b3bf90c201d80f751613b6ae2e38fdf8ade 1271 fail2ban_0.8.6-3wheezy2.dsc
+ 13799f93285f625f74efdb60fc47a86ca3b7dd1b 1254 fail2ban_0.8.6-3wheezy3.dsc
  f05df2ac989aec47cc40830aafcd6c945ec575ea 107029 fail2ban_0.8.6.orig.tar.gz
- 0692f9fe908de27aa49300889751e4173969a1ef 30384 fail2ban_0.8.6-3wheezy2.diff.gz
+ 3bf99a767eef262f678f524f1669829b92d736fd 31769 fail2ban_0.8.6-3wheezy3.diff.gz
 Checksums-Sha256:
- 891f0d39a5b5fa48fdf7030e8a3b8ee02c47fbaad09145019b77125a4686c1a1 1271 fail2ban_0.8.6-3wheezy2.dsc
+ 0dc391d57e64f1b93c615f47e5b8d9d39d3544a6c8f253fa67b3032c91d988f5 1254 fail2ban_0.8.6-3wheezy3.dsc
  24d02422c55f1b7d92bea30a7dde6f72f280eadf09d478fcca8b1dd40fb4e914 107029 fail2ban_0.8.6.orig.tar.gz
- 31a46fb66c184dc001dcf55dd16da06a33c4d2cd3f04cb0787442ac22e9beeb9 30384 fail2ban_0.8.6-3wheezy2.diff.gz
+ af857dacdc8cd9309a86531259eaffa97c3693501001ddd3c481e4ff579175b9 31769 fail2ban_0.8.6-3wheezy3.diff.gz
 Homepage: http://www.fail2ban.org
 Build-Depends-Indep: python-central (>= 0.5.6)
 Package-List: 
@@ -7246,7 +7246,7 @@ Section: devel
 
 Package: openjdk-6
 Binary: openjdk-6-jdk, openjdk-6-jre-headless, openjdk-6-jre, openjdk-6-jre-lib, openjdk-6-demo, openjdk-6-source, openjdk-6-doc, openjdk-6-dbg, icedtea-6-jre-cacao, icedtea-6-jre-jamvm, openjdk-6-jre-zero
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Uploaders: Torsten Werner <twerner@debian.org>, Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
 Build-Depends: debhelper (>= 5), binutils-dev [armel armhf], m4, lsb-release, wget, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, fastjar (>= 2:0.96-0ubuntu2), autoconf, automake1.11, autotools-dev, ant, ant-optional, libtool [alpha amd64 armel armhf i386 lpia m68k mips mipsel powerpc s390], g++-4.7, ecj-gcj [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], gcj-4.6-jdk [m68k s390], gcj-4.7-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el mips mipsel sh4 sparc sparc64 s390x], gcj-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], g++-4.4 [mips mipsel], openjdk-6-jdk (>= 6b27) [alpha], libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, xsltproc, libkrb5-dev, rhino, fonts-ipafont-mincho, libffi-dev, zlib1g-dev, libpng-dev, libjpeg8-dev, libgif-dev, libpulse-dev (>= 0.9.12), libnss3-dev (>= 3.12.3), mauve, xvfb, xauth, xfonts-base, libgl1-mesa-dri, twm | metacity, twm | dbus-x11, x11-xkb-utils
@@ -7254,18 +7254,18 @@ Architecture: any all
 Standards-Version: 3.9.5
 Format: 1.0
 Files:
- 97218585e1af32af2ba54b6082cceb2a 3732 openjdk-6_6b31-1.13.3-1~deb7u1.dsc
- 41d726d66cbb62f76d47b93f88a620f0 44288430 openjdk-6_6b31-1.13.3.orig.tar.gz
- 70b4462d6928ff2d43b02d53633028e9 161128 openjdk-6_6b31-1.13.3-1~deb7u1.diff.gz
+ c8b6ebcba3bba9e71131a3511b0fc673 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
+ 636ef4f6f9942bb1db2284e99afbc1f3 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
+ f548bd4e37e03548cf5dc3870a15a41b 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
 Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk6
 Checksums-Sha1:
- 9d5918bcbbe358a865cad0f9945c9e88eaf3a502 3732 openjdk-6_6b31-1.13.3-1~deb7u1.dsc
- b8a97830ec5f9f72faf4179dd8aa18b45380adf9 44288430 openjdk-6_6b31-1.13.3.orig.tar.gz
- 9306131c873e0809a07c98ddae5a33cf67d7a281 161128 openjdk-6_6b31-1.13.3-1~deb7u1.diff.gz
+ 36d1c31616f61f36dee43de37ea119ba98b34711 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
+ f2e1ce19056fdf7569bd630790b4ef5d6622dc79 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
+ 6d970459a1401cd808548596d3511094cab68e66 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
 Checksums-Sha256:
- 933a2c1077564ff95d380ffb2ab4dfca571bb1ba9406791e13b6e45f138f142b 3732 openjdk-6_6b31-1.13.3-1~deb7u1.dsc
- 8ff87b65323085e82800498106cf4f57c8e812db0e56e0e7639fe464cefa4e47 44288430 openjdk-6_6b31-1.13.3.orig.tar.gz
- 8d811556cc41f0f448bf7ce14c694e4255dd6ef7ec472af2d1cc1de84d6d016e 161128 openjdk-6_6b31-1.13.3-1~deb7u1.diff.gz
+ 1ca49abfa048106c2d24d434c564f243b039d47fe6c3cd4cfd2999c7c3c7b9ce 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
+ 31f949f054bd6aa13d1fe5db9cfdc3bee4b61ffef06713f61ad6ced0168bf9d5 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
+ d38d10d42afbc2df2e709c8411fcca5dbb93fcf02b4e86627c028248eac40a2c 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
 Homepage: http://openjdk.java.net/
 Package-List: 
  icedtea-6-jre-cacao deb java extra

@@ -2267,8 +2267,8 @@ SHA1: d3df63b306580a0e6066ef7d82f21d67906f5eb2
 SHA256: eccf83807426756116cfa0893ee1f97c3a1227ea243300a41d4f83fb4c566ddc
 
 Package: fail2ban
-Version: 0.8.6-3wheezy2
-Installed-Size: 340
+Version: 0.8.6-3wheezy3
+Installed-Size: 341
 Maintainer: Yaroslav Halchenko <debian@onerussian.com>
 Architecture: all
 Depends: python (>= 2.4), python-central (>= 0.6.11), lsb-base (>= 2.0-7)
@@ -2280,11 +2280,11 @@ Python-Version: current, >= 2.4
 Recommends: iptables, whois, python-gamin
 Section: net
 Priority: optional
-Filename: pool/updates/main/f/fail2ban/fail2ban_0.8.6-3wheezy2_all.deb
-Size: 104040
-MD5sum: 294fe90d0997b8d0af80aa362c5c7aaf
-SHA1: c46913715e37753cca1c6149afa2b69737df81c6
-SHA256: d1eab5057ffd54f5b52a68206ab9c922da065c27ca7b58c635ef042682f43a53
+Filename: pool/updates/main/f/fail2ban/fail2ban_0.8.6-3wheezy3_all.deb
+Size: 104460
+MD5sum: e0b428dc54c4911ec1acef7e20040bc0
+SHA1: f77ee25d8ecc7b81f986f0630046785b21f0602d
+SHA256: 815b28ffdfcfbf0c8983facad46d54edffce63df2269ef9dc79b60886e747794
 
 Package: file
 Version: 5.11-2+deb7u3
@@ -16714,87 +16714,87 @@ SHA256: 2dffe4567851f27dd87337b0e75dfedd77794c4ad629ac191fb12446f54404ce
 
 Package: icedtea-6-jre-cacao
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 1934
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Provides: icedtea6-jre-cacao
-Depends: openjdk-6-jre-headless (= 6b31-1.13.3-1~deb7u1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
+Depends: openjdk-6-jre-headless (= 6b32-1.13.4-1~deb7u1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.1.4)
 Description: Alternative JVM for OpenJDK, using Cacao
 Homepage: http://openjdk.java.net/
 Description-md5: 24efc2093c93b3e7670092d00aea59d9
 Multi-Arch: same
 Section: interpreters
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/icedtea-6-jre-cacao_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 793342
-MD5sum: 71394e0d2cba9034c9d5781685f4bde1
-SHA1: 8924004f69b517c9a45435ef179d3ee3bd6fe8db
-SHA256: 1f1834a700bda4cbb9b8d9bc2416f1dec47d96bfff1a2e661d6b4308a0eca8e3
+Filename: pool/updates/main/o/openjdk-6/icedtea-6-jre-cacao_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 793774
+MD5sum: d2b2fafa7e5c869c2bea079072fab70b
+SHA1: 250762c653cf6c365695933f87785c6d09460b8b
+SHA256: 40a2c708c481645625e7fd047b8f2647f14812e2856cf50866dc469fc0d4e62d
 
 Package: icedtea-6-jre-jamvm
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 1620
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-6-jre-headless (= 6b31-1.13.3-1~deb7u1), libc6 (>= 2.3.6-6~), zlib1g (>= 1:1.1.4)
+Depends: openjdk-6-jre-headless (= 6b32-1.13.4-1~deb7u1), libc6 (>= 2.3.6-6~), zlib1g (>= 1:1.1.4)
 Description: Alternative JVM for OpenJDK, using JamVM
 Homepage: http://openjdk.java.net/
 Description-md5: a3b67c2c3683232269f84a02ede3fd4b
 Multi-Arch: same
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/icedtea-6-jre-jamvm_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 632218
-MD5sum: 403296ba94451acb654779c301d39b22
-SHA1: c17639aa841c77d4e85b2b0397474a0c2d0d17e0
-SHA256: 837d953e8e69083e33e6ac01b2da9247ded44484f935111d12097fb702a17e1b
+Filename: pool/updates/main/o/openjdk-6/icedtea-6-jre-jamvm_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 632666
+MD5sum: 392763a8b8028765ac21e6fb449abbe5
+SHA1: c2b328edaab6131e9b2a5299d121bb4438c3008d
+SHA256: 88db2514980b694c32ddcf298e8f300f55bf1fa8623305a9e21b2b23c4d19f48
 
 Package: openjdk-6-dbg
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
-Installed-Size: 471482
+Version: 6b32-1.13.4-1~deb7u1
+Installed-Size: 471637
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-6-jre-headless (= 6b31-1.13.3-1~deb7u1)
-Suggests: openjdk-6-jdk (= 6b31-1.13.3-1~deb7u1)
+Depends: openjdk-6-jre-headless (= 6b32-1.13.4-1~deb7u1)
+Suggests: openjdk-6-jdk (= 6b32-1.13.4-1~deb7u1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Description: Java runtime based on OpenJDK (debugging symbols)
 Homepage: http://openjdk.java.net/
 Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
 Multi-Arch: same
-Recommends: openjdk-6-jre (= 6b31-1.13.3-1~deb7u1)
+Recommends: openjdk-6-jre (= 6b32-1.13.4-1~deb7u1)
 Section: devel
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-dbg_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 220278222
-MD5sum: 9e309624f2db088a6b782fb531d7cbe7
-SHA1: 2ff12dd14ba53c087421b35389f578a0e8c8e006
-SHA256: ba74f5621b980670e363c442af2732b1ac54b152f7edabc1169f4609b92ff102
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-dbg_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 220306862
+MD5sum: a98dc09973e0da4123e3f14f16559b3d
+SHA1: 70341ee2ab10903959da7521c9139c3bcb4d239c
+SHA256: c377e5562c5be6bd650993bd5c6aafea3f33cc62c752180c1699452afbae17e9
 
 Package: openjdk-6-demo
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 3972
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-6-jre (= 6b31-1.13.3-1~deb7u1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: openjdk-6-jre (= 6b32-1.13.4-1~deb7u1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Description: Java runtime based on OpenJDK (demos and examples)
 Homepage: http://openjdk.java.net/
 Description-md5: c2a5624aa60e4de3025a249886fa82d7
 Section: devel
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-demo_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 2303746
-MD5sum: 8ed281089296902bc11ed9018432f9c7
-SHA1: 326eae4acc58100051c146f11a356a9f7c320fe8
-SHA256: a64038516c1c603d33836831dc5f2c3b2933c925fde610aee8893e223f6c6301
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-demo_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 2303650
+MD5sum: 682db386f839ca9470bf55c7f1f4cff9
+SHA1: a65c4f8c6d1d4f3effd6e92652f493691261f836
+SHA256: 3b517b967288834c6e5e482b778f302b95b2a63037780c5032e4d8358dcfb88b
 
 Package: openjdk-6-doc
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 224655
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
@@ -16805,20 +16805,20 @@ Homepage: http://openjdk.java.net/
 Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
 Section: doc
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-doc_6b31-1.13.3-1~deb7u1_all.deb
-Size: 20408830
-MD5sum: 2369697d2e70c40746833df83ba4f27a
-SHA1: a0a8ddddbbcf5bddce4cf6139a99faa9859f1709
-SHA256: 451626cb098a9953e298d6ac8dc7608485da09a644fc58145e23170ddf784803
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-doc_6b32-1.13.4-1~deb7u1_all.deb
+Size: 20413286
+MD5sum: 109f9d3615e8877ce6c8a21133ea1fec
+SHA1: 964d63cb824a8309b1427a4158a0e951a9517dd2
+SHA256: 71bd15748cd6ed5b69e03f823fe1a3453bd27b61d3e5707f0611b4172c3092c2
 
 Package: openjdk-6-jdk
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 19856
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk
-Depends: openjdk-6-jre (= 6b31-1.13.3-1~deb7u1), libc6 (>= 2.3.6-6~), libx11-6, zlib1g (>= 1:1.1.4)
+Depends: openjdk-6-jre (= 6b32-1.13.4-1~deb7u1), libc6 (>= 2.3.6-6~), libx11-6, zlib1g (>= 1:1.1.4)
 Suggests: openjdk-6-demo, openjdk-6-source, visualvm
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Description: OpenJDK Development Kit (JDK)
@@ -16828,21 +16828,21 @@ Multi-Arch: same
 Recommends: libxt-dev
 Section: devel
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-jdk_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 16000342
-MD5sum: 8246dd3092397eca5f294567622edfaf
-SHA1: bac7dff155642dfb701ea3edfee6179d19bb5cad
-SHA256: 5639656eabbd59a8cd35123ba61e2af59a01667f4750eec92271e0c5519eb2fa
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-jdk_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 16001110
+MD5sum: 86ed6860d4c97cfa0bec748a496988b5
+SHA1: 2ee14648471a6395237e729121ba182a88f6dba3
+SHA256: 46946df3546f29e28d952ef3a783ad4debb6b00af05b3057ca0fda7acba8f080
 
 Package: openjdk-6-jre
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 695
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Replaces: openjdk-6-jdk (<< 6b20-1.10~pre2-0ubuntu1), openjdk-6-jre-headless (<< 6b16~pre3)
 Provides: java-runtime, java2-runtime, java5-runtime, java6-runtime
-Depends: openjdk-6-jre-headless (= 6b31-1.13.3-1~deb7u1), libasound2 (>= 1.0.16), libc6 (>= 2.3.6-6~), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4), libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
+Depends: openjdk-6-jre-headless (= 6b32-1.13.4-1~deb7u1), libasound2 (>= 1.0.16), libc6 (>= 2.3.6-6~), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4), libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
 Suggests: icedtea-plugin
 Conflicts: icedtea-gcjwebplugin (<< 1.0-1ubuntu4), openjdk-6-dbg (<< 6b17~pre3-1), openjdk-6-demo (<< 6b17~pre3-1), openjdk-6-doc (<< 6b17~pre3-1), openjdk-6-jdk (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1), openjdk-6-jre-lib (<< 6b17~pre3-1), openjdk-6-jre-zero (<< 6b17~pre3-1), openjdk-6-source (<< 6b17~pre3-1)
 Description: OpenJDK Java runtime, using Hotspot JIT
@@ -16852,21 +16852,21 @@ Multi-Arch: same
 Recommends: ttf-dejavu-extra, icedtea-netx
 Section: interpreters
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 236500
-MD5sum: b08b9bcd13de38619fdb6483efa9314a
-SHA1: c94db4e997672ad3bf59244f94b6550bd12febb0
-SHA256: 27d6916a616e679aeab1768271ca8499190f2b8d9de7de6476da2b47dd9f6bc9
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 236494
+MD5sum: 845c29e9b56798ff0e91702edc205c9f
+SHA1: 5a3578e39f0f10bf377aaa5d23ac6276a6721370
+SHA256: 76aa279063d886def849ffc5e1709d0ff497e66112d1970e03cdace3667853ef
 
 Package: openjdk-6-jre-headless
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
-Installed-Size: 51331
+Version: 6b32-1.13.4-1~deb7u1
+Installed-Size: 51341
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Replaces: openjdk-6-jdk (<< 6b20-1.9.1-0ubuntu2), openjdk-6-jre (<< 6b23~pre1), openjdk-6-jre-lib (<< 6b23~pre10)
 Provides: java-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless
-Depends: openjdk-6-jre-lib (= 6b31-1.13.3-1~deb7u1), ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2, liblcms2-2, libjpeg8, libnss3-1d (>= 3.12.3), libpcsclite1, libc6 (>= 2.3.6-6~), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libkrb5-3 (>= 1.6.dfsg.2), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: openjdk-6-jre-lib (= 6b32-1.13.4-1~deb7u1), ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2, liblcms2-2, libjpeg8, libnss3-1d (>= 3.12.3), libpcsclite1, libc6 (>= 2.3.6-6~), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libkrb5-3 (>= 1.6.dfsg.2), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Suggests: libnss-mdns, sun-java6-fonts, ttf-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, ttf-wqy-microhei | ttf-wqy-zenhei, ttf-indic-fonts
 Conflicts: default-jre-headless (<< 1.6-43~), icedtea-netx (<< 1.1.1-2~), openjdk-6-dbg (<< 6b17~pre3-1), openjdk-6-demo (<< 6b17~pre3-1), openjdk-6-doc (<< 6b17~pre3-1), openjdk-6-jdk (<< 6b17~pre3-1), openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-lib (<< 6b17~pre3-1), openjdk-6-jre-zero (<< 6b17~pre3-1), openjdk-6-source (<< 6b17~pre3-1)
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
@@ -16874,18 +16874,18 @@ Homepage: http://openjdk.java.net/
 Description-md5: c5ec89b1a6bac9cd86f6e61756d18fb9
 Multi-Arch: same
 Pre-Depends: multiarch-support
-Recommends: icedtea-6-jre-cacao (= 6b31-1.13.3-1~deb7u1), icedtea-6-jre-jamvm (= 6b31-1.13.3-1~deb7u1)
+Recommends: icedtea-6-jre-cacao (= 6b32-1.13.4-1~deb7u1), icedtea-6-jre-jamvm (= 6b32-1.13.4-1~deb7u1)
 Section: interpreters
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-headless_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 35228726
-MD5sum: 6788ffe1df437eb0ac337a4dbd9b3416
-SHA1: bc0c098b71e2a118fefd484b0115af2a1403b937
-SHA256: c7c5c10791880ced8858b62a310e5952e9ae25818bb140d290b221d0e8d31124
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-headless_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 35231484
+MD5sum: 2ad6fa0c789ab747caf958ac64b0ec12
+SHA1: d37e9b49bc501163beb784c928648f664817d852
+SHA256: fa05dcb20705afcd0b50c686e106cc97c02e83981a730c29abe6072e4d2ef431
 
 Package: openjdk-6-jre-lib
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 6840
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
@@ -16899,19 +16899,19 @@ Description-md5: a996626aed77fd374bd7291146f8d6ee
 Multi-Arch: foreign
 Section: interpreters
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-lib_6b31-1.13.3-1~deb7u1_all.deb
-Size: 6215488
-MD5sum: d7bc85befd7d78418f1c53e089fb4264
-SHA1: 2a24a8d1b8f81dcf99b04221c495dc0a205de8ca
-SHA256: 2b7b87f59f444e5ee91c94b4123d9dd1b13107961a991991f9b0597f83d95a47
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-lib_6b32-1.13.4-1~deb7u1_all.deb
+Size: 6215598
+MD5sum: 344569bd08a26e3b276ee5b321994ea0
+SHA1: 653da69e33bfbf121f11d757acc034b3d8486a28
+SHA256: 2e9465bf9885836beeeeb3f539b7c2efdee17047dadb29606d06a3046d40794a
 
 Package: openjdk-6-jre-zero
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
-Installed-Size: 5849
+Version: 6b32-1.13.4-1~deb7u1
+Installed-Size: 5852
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-6-jre-headless (= 6b31-1.13.3-1~deb7u1), libc6 (>= 2.3.6-6~), libstdc++6 (>= 4.1.1)
+Depends: openjdk-6-jre-headless (= 6b32-1.13.4-1~deb7u1), libc6 (>= 2.3.6-6~), libstdc++6 (>= 4.1.1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Description: Alternative JVM for OpenJDK, using Zero/Shark
 Homepage: http://openjdk.java.net/
@@ -16919,30 +16919,30 @@ Description-md5: ca0db1fb38a237b982a1de5e6d632720
 Multi-Arch: same
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-zero_6b31-1.13.3-1~deb7u1_i386.deb
-Size: 2279682
-MD5sum: 57325e945b0df0052e1ff146dba634c9
-SHA1: 71a9db156b0171e81a40e9e4cc33c74db45d8704
-SHA256: 20c965d77804e36066fbf0f1c61bd8cca9b78dd09bd2f0ae48a22a6014618cd2
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-jre-zero_6b32-1.13.4-1~deb7u1_i386.deb
+Size: 2280204
+MD5sum: 7494b57ad6038936fcb8c78e88e252bf
+SHA1: 534b854c3a8479e08d6fb64464dcbb93af1b5770
+SHA256: 3e42adb66207d8fcab06cb592ec9edd6408f357718cf33caaa0cbf6f70b6d00f
 
 Package: openjdk-6-source
 Source: openjdk-6
-Version: 6b31-1.13.3-1~deb7u1
+Version: 6b32-1.13.4-1~deb7u1
 Installed-Size: 43584
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
-Depends: openjdk-6-jre (>= 6b31-1.13.3-1~deb7u1), openjdk-6-jdk (>= 6b31-1.13.3-1~deb7u1)
+Depends: openjdk-6-jre (>= 6b32-1.13.4-1~deb7u1), openjdk-6-jdk (>= 6b32-1.13.4-1~deb7u1)
 Conflicts: openjdk-6-jre (<< 6b17~pre3-1), openjdk-6-jre-headless (<< 6b17~pre3-1)
 Description: OpenJDK Development Kit (JDK) source files
 Homepage: http://openjdk.java.net/
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
 Section: devel
 Priority: extra
-Filename: pool/updates/main/o/openjdk-6/openjdk-6-source_6b31-1.13.3-1~deb7u1_all.deb
-Size: 41212198
-MD5sum: 1b4f5cb8ba88a56191c773ce7a13c70a
-SHA1: 5af9650ce29df36311484634410927e59d4f1afc
-SHA256: fd1a49c6a1ab7e8726134e08d159378772f445b819f4ff00fce2cdaafb994972
+Filename: pool/updates/main/o/openjdk-6/openjdk-6-source_6b32-1.13.4-1~deb7u1_all.deb
+Size: 41212124
+MD5sum: 8535f902fda4f76c5c7737b54c82f37f
+SHA1: 07b858c2f2dd56a78e917d737ba1b62a29782445
+SHA256: b8645e0a238adaeb291d7889587cb59b4eb18ab70343c4a3336ee946dc238863
 
 Package: icedtea-7-jre-cacao
 Source: openjdk-7
