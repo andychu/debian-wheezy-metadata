@@ -20036,6 +20036,25 @@ MD5sum: 4074ef740338fa3aef161b96658071ad
 SHA1: 228277235a288b19412fd47a2c072e0a9e26883e
 SHA256: d74c53be5deacdfc8aae3df588ed1c8074e9db62388a4d35477df7fdb9d668f3
 
+Package: ruby-activerecord-3.2
+Version: 3.2.6-5+deb7u1
+Installed-Size: 1251
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: ruby | ruby-interpreter, ruby-activesupport-3.2 (>= 3.2.6), ruby-activesupport-3.2 (<< 3.2.6.), ruby-activemodel-3.2 (>= 3.2.6), ruby-activemodel-3.2 (<< 3.2.6.), ruby-arel (>= 3.0.2~), ruby-tzinfo (>= 0.3.29~)
+Conflicts: ruby-activerecord-2.3
+Description: object-relational mapper framework (part of Rails)
+Homepage: http://www.rubyonrails.org
+Description-md5: 6452745f1c144fe5e8efd5bbcab99307
+Ruby-Versions: ruby1.8 ruby1.9.1
+Section: ruby
+Priority: optional
+Filename: pool/updates/main/r/ruby-activerecord-3.2/ruby-activerecord-3.2_3.2.6-5+deb7u1_all.deb
+Size: 393806
+MD5sum: 0108d6d1f93d1f18cc73830792c4ecc0
+SHA1: 9ec0d1919153e9ed0a95cd2cccd8ac7ee9dc1ead
+SHA256: 7e4eea458d89801bcfa561aa12ccd82ee3baff1e03f56d56dc02ad97ad76543b
+
 Package: ruby-activesupport-3.2
 Version: 3.2.6-6+deb7u1
 Installed-Size: 1563

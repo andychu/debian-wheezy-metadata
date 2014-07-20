@@ -8663,6 +8663,38 @@ Directory: pool/updates/main/r/ruby-actionpack-3.2
 Priority: source
 Section: ruby
 
+Package: ruby-activerecord-3.2
+Binary: ruby-activerecord-3.2
+Version: 3.2.6-5+deb7u1
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Antonio Terceiro <terceiro@debian.org>,
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.3.0~), ruby-activesupport-3.2 (>= 3.2.6), ruby-activesupport-3.2 (<< 3.2.6.), ruby-activemodel-3.2 (>= 3.2.6), ruby-activemodel-3.2 (<< 3.2.6.)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ f08480b5eaffb0c49e65068021bc9027 2331 ruby-activerecord-3.2_3.2.6-5+deb7u1.dsc
+ cfcceb44e4f7a66bcbb7982e733738b4 388542 ruby-activerecord-3.2_3.2.6.orig.tar.gz
+ 88bb86c8c9d4115c522e9021c6384854 5334 ruby-activerecord-3.2_3.2.6-5+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-activerecord-3.2.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-activerecord-3.2.git
+Checksums-Sha1:
+ efd92ecba0a8b59a5936731da402a4d0b6bcd72f 2331 ruby-activerecord-3.2_3.2.6-5+deb7u1.dsc
+ d094533d81c5c05ff57a3ad60370a51120c48161 388542 ruby-activerecord-3.2_3.2.6.orig.tar.gz
+ 7fff82281f4eee347a50cbff66e0c8918faf8e62 5334 ruby-activerecord-3.2_3.2.6-5+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 1dbe39c9fd1f4edfc75987b3227f3025dd5fcc64cf3f2e7700a2e1e08403a0b6 2331 ruby-activerecord-3.2_3.2.6-5+deb7u1.dsc
+ 42b454aa45d940369f5baf2ad245e741c075bb81e688f603c82d65b893bdff8b 388542 ruby-activerecord-3.2_3.2.6.orig.tar.gz
+ c439eb83106974068ed99fa0dd2ce54c6e4098779dd1c69521233fd05f5ac1c5 5334 ruby-activerecord-3.2_3.2.6-5+deb7u1.debian.tar.gz
+Homepage: http://www.rubyonrails.org
+Dm-Upload-Allowed: yes
+Package-List: 
+ ruby-activerecord-3.2 deb ruby optional
+Ruby-Versions: all
+Directory: pool/updates/main/r/ruby-activerecord-3.2
+Priority: source
+Section: ruby
+
 Package: ruby-activesupport-3.2
 Binary: ruby-activesupport-3.2
 Version: 3.2.6-6+deb7u1
