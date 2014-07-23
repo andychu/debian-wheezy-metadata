@@ -24,6 +24,37 @@ Directory: pool/updates/main/a/a2ps
 Priority: source
 Section: text
 
+Package: acpi-support
+Binary: acpi-support, acpi-support-base, acpi-fakekey
+Version: 0.140-5+deb7u1
+Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.40)
+Architecture: all i386 amd64 ia64
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ de92ff6a1622ed46a3cc3e5e72edaa00 2035 acpi-support_0.140-5+deb7u1.dsc
+ 7accf060c8be879c8038c00e04c529e9 21433 acpi-support_0.140.orig.tar.gz
+ 3e7817d2ef7583fd3a0962828fb54e71 50194 acpi-support_0.140-5+deb7u1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-acpi/acpi-support.git
+Vcs-Git: git://git.debian.org/git/pkg-acpi/acpi-support.git
+Checksums-Sha1:
+ 65ae6243152286dea78e8dbc4f5997f3426b387f 2035 acpi-support_0.140-5+deb7u1.dsc
+ 04f22fa42c2224a4ffdbebfd25688f366c9a5e09 21433 acpi-support_0.140.orig.tar.gz
+ 22525bf101ea00350964a5c9fe70f1fb88a04ac6 50194 acpi-support_0.140-5+deb7u1.diff.gz
+Checksums-Sha256:
+ 3565188c1cb12d3f85c2687c8274accaf8fdc3f076341576c16fbe0a9c1f895c 2035 acpi-support_0.140-5+deb7u1.dsc
+ 2b93d2a136abc516f390ff3c9913ac4c8c61cdb85d726c387776b2aaed7da8e5 21433 acpi-support_0.140.orig.tar.gz
+ 338e98ee2817dd6771dc6f0a01815a150ca23887e7d9d0ad8e27a0eb5733e312 50194 acpi-support_0.140-5+deb7u1.diff.gz
+Package-List: 
+ acpi-fakekey deb admin optional
+ acpi-support deb admin optional
+ acpi-support-base deb admin optional
+Directory: pool/updates/main/a/acpi-support
+Priority: source
+Section: admin
+
 Package: adblock-plus
 Binary: xul-ext-adblock-plus
 Version: 2.1-1+deb7u1
@@ -565,25 +596,25 @@ Section: admin
 
 Package: drupal7
 Binary: drupal7
-Version: 7.14-2+deb7u4
+Version: 7.14-2+deb7u5
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 73eb9b8b5e21a04591c4be61d4711e5e 1832 drupal7_7.14-2+deb7u4.dsc
+ da4834965b58e6abda94680d41ac57bc 1832 drupal7_7.14-2+deb7u5.dsc
  af7abd95c03ecad4e1567ed94a438334 3128473 drupal7_7.14.orig.tar.gz
- dccbc84b1975a93ceda7f8407e0568a9 221407 drupal7_7.14-2+deb7u4.debian.tar.gz
+ 281dcf9afe0c426ef9df52b6c6a0ce4e 223969 drupal7_7.14-2+deb7u5.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-drupal/branches/drupal7
 Checksums-Sha1:
- 5771c3531c7d64b2766c92e9165b53779b22e0ca 1832 drupal7_7.14-2+deb7u4.dsc
+ 83761a38d952930fd7d84d6aa3dbe8384b3967b0 1832 drupal7_7.14-2+deb7u5.dsc
  ab33bea454fed20c535e37a71cea6004599488c3 3128473 drupal7_7.14.orig.tar.gz
- a1263bede77329cfad245dd2d41ed4ed206b6a98 221407 drupal7_7.14-2+deb7u4.debian.tar.gz
+ 38ec1af26e69fb0897af072c87049db6eab6ae92 223969 drupal7_7.14-2+deb7u5.debian.tar.gz
 Checksums-Sha256:
- d0623eb96c44725dfac41c2f3b41501d67fa5be7d47fbfaf64b622c446c440e0 1832 drupal7_7.14-2+deb7u4.dsc
+ bd65a1b21cd239a357d633331a6a220f7dc0c0b94b2254037ad4070f5d3d1700 1832 drupal7_7.14-2+deb7u5.dsc
  17db094aaa78d76ec6a3517171f1d8c158745eee2e19006d5ed97b7ffc2c54da 3128473 drupal7_7.14.orig.tar.gz
- cfb5f04e01599aadade78c6636a8439cabf8dd6892038459dc335c02bc71afc3 221407 drupal7_7.14-2+deb7u4.debian.tar.gz
+ b1c5e88bf6525ff8814dd04f46dde238e05a1da2669cdfdbaa390f7309471051 223969 drupal7_7.14-2+deb7u5.debian.tar.gz
 Homepage: http://www.drupal.org/
 Package-List: 
  drupal7 deb web extra
@@ -6952,7 +6983,7 @@ Section: mail
 
 Package: mysql-5.5
 Binary: libmysqlclient18, libmysqld-pic, libmysqld-dev, libmysqlclient-dev, mysql-common, mysql-client-5.5, mysql-server-core-5.5, mysql-server-5.5, mysql-server, mysql-client, mysql-testsuite-5.5, mysql-source-5.5
-Version: 5.5.37-0+wheezy1
+Version: 5.5.38-0+wheezy1
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Uploaders: Norbert Tretkowski <norbert@tretkowski.de>, Clint Byrum <clint@ubuntu.com>, Nicholas Bamber <nicholas@periapt.co.uk>
 Build-Depends: debhelper (>= 8.1.3~), libaio-dev [linux-any], libncurses5-dev (>= 5.0-6), perl, libwrap0-dev (>= 7.6-8.3), zlib1g-dev (>= 1:1.1.3-5), libreadline-dev, po-debconf, psmisc, chrpath, doxygen-latex, ghostscript, gawk, bison, lsb-release, hardening-wrapper, cmake, gcc-4.4 [any-i386], g++-4.4 [any-i386]
@@ -6960,19 +6991,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 88ad3a055bd3bd2944fd739b9102925f 2938 mysql-5.5_5.5.37-0+wheezy1.dsc
- bf1d80c66d4822ec6036300399a33c03 21718944 mysql-5.5_5.5.37.orig.tar.gz
- e22a6dfadee9b403d0c004c1943db4b8 376534 mysql-5.5_5.5.37-0+wheezy1.debian.tar.gz
+ e6b4a3b5ed01d13923fd0e0f1d1b4e91 2938 mysql-5.5_5.5.38-0+wheezy1.dsc
+ df5071c49764c3ad65df04ff20866a86 21739681 mysql-5.5_5.5.38.orig.tar.gz
+ b44eff06c6bdfcc33ff7204fb1bcaa94 376907 mysql-5.5_5.5.38-0+wheezy1.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-mysql/mysql-5.5.git
 Vcs-Git: git://git.debian.org/git/pkg-mysql/mysql-5.5.git
 Checksums-Sha1:
- 2a26394c489d8eb5c028d2d362699b0cf13afb46 2938 mysql-5.5_5.5.37-0+wheezy1.dsc
- b5f15ff72c86358693c250203e7cb9c20fbe5f7f 21718944 mysql-5.5_5.5.37.orig.tar.gz
- 2b0cf370980e319ad3f600dd420ff77539139371 376534 mysql-5.5_5.5.37-0+wheezy1.debian.tar.gz
+ 383b3cecfdab8178c3d109d25efaf7fdb1cff9b3 2938 mysql-5.5_5.5.38-0+wheezy1.dsc
+ 569c76385b24b981df35e703eefd34f9f76a2ee2 21739681 mysql-5.5_5.5.38.orig.tar.gz
+ 8fc276bcdef617d2f11d8f123b749b555f7aa9bb 376907 mysql-5.5_5.5.38-0+wheezy1.debian.tar.gz
 Checksums-Sha256:
- c992a37b68a9e2e52d59a2c3b405e5411dd23291c3f6af17a05fc5243614b0cc 2938 mysql-5.5_5.5.37-0+wheezy1.dsc
- da1ac0a3813d0b03a26618fcf003a5df16a4afc2dddc0c98b13f41923aab02a8 21718944 mysql-5.5_5.5.37.orig.tar.gz
- c8febc4704952eeaf0b0dc590d81b3531df2c7b78ca6a71c4cdaa7df432b3ea8 376534 mysql-5.5_5.5.37-0+wheezy1.debian.tar.gz
+ 8a0d7fce71328127c94ed9f9316437fb37336526084e8d293af2520b82300514 2938 mysql-5.5_5.5.38-0+wheezy1.dsc
+ 61869633924ab243a3f676cf6b8feb66b672e3c07566a7190f0f1bb8c9b2fc81 21739681 mysql-5.5_5.5.38.orig.tar.gz
+ 38e2b65a3ab1b0d494de8b4f0c7822e6b6d7cabcfdec6bcbe1ae920a6f8042fd 376907 mysql-5.5_5.5.38-0+wheezy1.debian.tar.gz
 Homepage: http://dev.mysql.com/
 Package-List: 
  libmysqlclient-dev deb libdevel optional
