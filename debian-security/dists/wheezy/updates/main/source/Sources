@@ -85,6 +85,50 @@ Directory: pool/updates/main/a/adblock-plus
 Priority: source
 Section: web
 
+Package: apache2
+Binary: apache2.2-common, apache2.2-bin, apache2-mpm-worker, apache2-mpm-prefork, apache2-mpm-event, apache2-mpm-itk, apache2-utils, apache2-suexec, apache2-suexec-custom, apache2, apache2-doc, apache2-prefork-dev, apache2-threaded-dev, apache2-dbg
+Version: 2.2.22-13+deb7u3
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Uploaders: Stefan Fritsch <sf@debian.org>, Steinar H. Gunderson <sesse@debian.org>, Arno Töll <arno@debian.org>
+Build-Depends: debhelper (>= 8.9.7~), lsb-release, libaprutil1-dev (>= 1.3.4), libapr1-dev, openssl, libpcre3-dev, mawk, zlib1g-dev, libssl-dev (>= 1.0.1e-2+deb7u8), sharutils, libcap-dev [linux-any], autoconf, autotools-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 5d38b41a1c3a7d107e21fbb48fc40d43 2899 apache2_2.2.22-13+deb7u3.dsc
+ d77fa5af23df96a8af68ea8114fa6ce1 7200529 apache2_2.2.22.orig.tar.gz
+ 9420497ae2971a4cd03836b0d985defc 213521 apache2_2.2.22-13+deb7u3.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-apache/apache2.git
+Vcs-Git: git://git.debian.org/git/pkg-apache/apache2.git
+Checksums-Sha1:
+ 0c5197884d80f02772c1d0f58c93cfc056f59c0a 2899 apache2_2.2.22-13+deb7u3.dsc
+ bf3bbfda967ac900348e697f26fe86b25695efe9 7200529 apache2_2.2.22.orig.tar.gz
+ 3233da9581f77ec8cb38e4e528838f621d371d6f 213521 apache2_2.2.22-13+deb7u3.debian.tar.gz
+Checksums-Sha256:
+ f720ea82bb7b6d448f5f9346817f435eaa4cf91ca9c7091ed2630db455fcb4a0 2899 apache2_2.2.22-13+deb7u3.dsc
+ 74c1ffffefe1a502339b004ad6488fbd858eb425a05968cd67c05695dbc0fe7c 7200529 apache2_2.2.22.orig.tar.gz
+ 3b6bcc34ae33fd94f08be0d7a5d1d59a2a31b8a6bc7147ece7dcdb8314b78ef8 213521 apache2_2.2.22-13+deb7u3.debian.tar.gz
+Homepage: http://httpd.apache.org/
+Build-Conflicts: autoconf2.13
+Package-List: 
+ apache2 deb httpd optional
+ apache2-dbg deb debug extra
+ apache2-doc deb doc optional
+ apache2-mpm-event deb httpd optional
+ apache2-mpm-itk deb httpd extra
+ apache2-mpm-prefork deb httpd optional
+ apache2-mpm-worker deb httpd optional
+ apache2-prefork-dev deb httpd extra
+ apache2-suexec deb httpd optional
+ apache2-suexec-custom deb httpd extra
+ apache2-threaded-dev deb httpd extra
+ apache2-utils deb httpd optional
+ apache2.2-bin deb httpd optional
+ apache2.2-common deb httpd optional
+Directory: pool/updates/main/a/apache2
+Priority: source
+Section: net
+
 Package: apt
 Binary: apt, libapt-pkg4.12, libapt-inst1.5, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https
 Version: 0.9.7.9+deb7u2
@@ -7356,46 +7400,6 @@ Section: java
 
 Package: openjdk-7
 Binary: openjdk-7-jdk, openjdk-7-jre-headless, openjdk-7-jre, openjdk-7-jre-lib, openjdk-7-demo, openjdk-7-source, openjdk-7-doc, openjdk-7-dbg, icedtea-7-jre-cacao, icedtea-7-jre-jamvm, openjdk-7-jre-zero
-Version: 7u55-2.4.7-1~deb7u1
-Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
-Uploaders: Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
-Build-Depends: debhelper (>= 5), binutils-dev [armel armhf], m4, lsb-release, wget, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, wdiff, fastjar (>= 2:0.96-0ubuntu2), autoconf, automake1.11, autotools-dev, ant, ant-optional, libtool, g++-4.7, g++-4.4 [mips mipsel], ecj-gcj [amd64 armel armhf hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64], gcj-jdk [amd64 armel armhf hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el mips mipsel sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64], gcj-4.6-jdk [m68k s390], gcj-4.7-jdk [ia64], openjdk-7-jdk (>= 6b18) [alpha arm64], libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, libkrb5-dev, xsltproc, librhino-java (>= 1.7R3~), fonts-ipafont-mincho, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg8-dev, libgif-dev, libpulse-dev (>= 0.9.12), libnss3-dev (>= 2:3.13.4), mauve, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils
-Architecture: alpha amd64 armel armhf arm64 i386 ia64 lpia mips mipsel powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all s390
-Standards-Version: 3.9.5
-Format: 1.0
-Files:
- 99ba48ac2b51ad2c49a0ee634ca728ba 3762 openjdk-7_7u55-2.4.7-1~deb7u1.dsc
- 7a65825b75d4f3d0eccb39f41233e600 77779144 openjdk-7_7u55-2.4.7.orig.tar.gz
- 29168b663a51d73e826aa7a152bea0e2 234872 openjdk-7_7u55-2.4.7-1~deb7u1.diff.gz
-Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk7
-Checksums-Sha1:
- bdc4875c096f866620a13370173b57a2981f0686 3762 openjdk-7_7u55-2.4.7-1~deb7u1.dsc
- d990bbd61d494dfa7729151304f22f1640bd82a1 77779144 openjdk-7_7u55-2.4.7.orig.tar.gz
- e5e8648d297912bc8b1b18041815712a7869c929 234872 openjdk-7_7u55-2.4.7-1~deb7u1.diff.gz
-Checksums-Sha256:
- 267f25ea5992090d433336492daee7a6b2d8a2c0226960760b9e1a2c3aa0acaa 3762 openjdk-7_7u55-2.4.7-1~deb7u1.dsc
- 375c5c0a1858ddd33a518fc5fe18998f4901dcafbf77235c4b52b3948e10c49b 77779144 openjdk-7_7u55-2.4.7.orig.tar.gz
- e2d82fc431c9143b0fd1f9933ab928b6ef54abcfd4184121768111e14187d3db 234872 openjdk-7_7u55-2.4.7-1~deb7u1.diff.gz
-Homepage: http://openjdk.java.net/
-Package-List: 
- icedtea-7-jre-cacao deb java extra
- icedtea-7-jre-jamvm deb java extra
- openjdk-7-dbg deb debug extra
- openjdk-7-demo deb java extra
- openjdk-7-doc deb doc extra
- openjdk-7-jdk deb java optional
- openjdk-7-jre deb java optional
- openjdk-7-jre-headless deb java optional
- openjdk-7-jre-lib deb java optional
- openjdk-7-jre-zero deb java extra
- openjdk-7-source deb java extra
-Vcs-Bzr: http://bazaar.launchpad.net/~openjdk/openjdk/openjdk7
-Directory: pool/updates/main/o/openjdk-7
-Priority: source
-Section: java
-
-Package: openjdk-7
-Binary: openjdk-7-jdk, openjdk-7-jre-headless, openjdk-7-jre, openjdk-7-jre-lib, openjdk-7-demo, openjdk-7-source, openjdk-7-doc, openjdk-7-dbg, icedtea-7-jre-cacao, icedtea-7-jre-jamvm, openjdk-7-jre-zero
 Version: 7u65-2.5.1-2~deb7u1
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Uploaders: Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
@@ -9478,6 +9482,41 @@ Package-List:
  torque-server deb utils optional
 Vcs-Svn: svn://svn.debian.org/svn/pkg-escience/torque/trunk/
 Directory: pool/updates/main/t/torque
+Priority: source
+Section: net
+
+Package: transmission
+Binary: transmission, transmission-common, transmission-dbg, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon
+Version: 2.52-3+nmu2
+Maintainer: Leo Costela <costela@debian.org>
+Build-Depends: debhelper (>= 8), autotools-dev, libgtk-3-dev, libevent-dev (>= 2.0), libglib2.0-dev, libnotify-dev (>= 0.7), libssl-dev, libcurl4-gnutls-dev | libcurl4-dev | libcurl-dev, intltool (>= 0.40), qt4-qmake, libqt4-dev, qt4-linguist-tools, libminiupnpc-dev, libnatpmp-dev (>= 20110808), dpkg-dev (>= 1.16.1~)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 16c83d02fd3d747808ee7a86084d5815 2490 transmission_2.52-3+nmu2.dsc
+ 9490ed97a03f7b8b1ac8b0822c3dce92 4125513 transmission_2.52.orig.tar.bz2
+ 266dfe31f217b7de60eb9342374ad620 21690 transmission_2.52-3+nmu2.debian.tar.bz2
+Vcs-Browser: http://git.debian.org/?p=collab-maint/transmission.git
+Vcs-Git: git://git.debian.org/git/collab-maint/transmission.git
+Checksums-Sha1:
+ 2670a5187b13eae37491d8f21e66ed2ac0bc9f7c 2490 transmission_2.52-3+nmu2.dsc
+ b9cb4d2cf50e8a476dab638d60ec9bee38b04d49 4125513 transmission_2.52.orig.tar.bz2
+ a3f5a7be9687d72756784625c295bc0c9cb72b0f 21690 transmission_2.52-3+nmu2.debian.tar.bz2
+Checksums-Sha256:
+ 2bec7f33c0de35fc207cd8129605e5680b7e35db1abd65ef0d5c197fde78e3ba 2490 transmission_2.52-3+nmu2.dsc
+ e8f7dfb70c2039d7a868dcd4c150e88bc5628b5488d24a67287b1597206a7bdc 4125513 transmission_2.52.orig.tar.bz2
+ 1846fef29f4f4caca3267dbce95c784559989e686964259b68c460dc619dd17d 21690 transmission_2.52-3+nmu2.debian.tar.bz2
+Homepage: http://www.transmissionbt.com/
+Package-List: 
+ transmission deb net optional
+ transmission-cli deb net optional
+ transmission-common deb net optional
+ transmission-daemon deb net optional
+ transmission-dbg deb debug extra
+ transmission-gtk deb net optional
+ transmission-qt deb net optional
+Directory: pool/updates/main/t/transmission
 Priority: source
 Section: net
 

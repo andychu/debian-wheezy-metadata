@@ -97,6 +97,279 @@ MD5sum: 2f1401ec5fbfa91ab046261e0fd0b6b4
 SHA1: 50339fbfc1bcefb09b3044451b9bd73cd2ab29f9
 SHA256: 66092f0710ad57df906b20434c87c5dad57a9476654a5977c72be391a58172ee
 
+Package: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 29
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Depends: apache2-mpm-worker (= 2.2.22-13+deb7u3) | apache2-mpm-prefork (= 2.2.22-13+deb7u3) | apache2-mpm-event (= 2.2.22-13+deb7u3) | apache2-mpm-itk (= 2.2.22-13+deb7u3), apache2.2-common (= 2.2.22-13+deb7u3)
+Description: Apache HTTP Server metapackage
+Homepage: http://httpd.apache.org/
+Description-md5: d24f049cd70ccfc178dd8974e4b1ed01
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2_2.2.22-13+deb7u3_amd64.deb
+Size: 1436
+MD5sum: 23f9e95109be08599f8eb407f6cae205
+SHA1: df2d1a36be1025d8f2763f29bcaa0a2ef0c96d43
+SHA256: f24716945b5bbb92b0ab7ee1947be41681cdb379d211455f4b1446d33dabe689
+
+Package: apache2-dbg
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 10204
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Depends: apache2.2-bin (= 2.2.22-13+deb7u3)
+Description: Apache debugging symbols
+Homepage: http://httpd.apache.org/
+Description-md5: 2f3f507131be576c7d6128887cd19440
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/a/apache2/apache2-dbg_2.2.22-13+deb7u3_amd64.deb
+Size: 1720524
+MD5sum: 0f82e6b792655fc89dbcd4b687010372
+SHA1: e4d3436acb08f12a0ec95454a76d766b5d46a38d
+SHA256: a2a947aca4fe83172a81d8afd882915aaeb82ecc952fa0aae4cf44ed484722ed
+
+Package: apache2-doc
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 12466
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: all
+Description: Apache HTTP Server documentation
+Homepage: http://httpd.apache.org/
+Description-md5: 268d5339b3063f1f4a1f8ba078480a2a
+Section: doc
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-doc_2.2.22-13+deb7u3_all.deb
+Size: 1774160
+MD5sum: 9183184c585b744793e4cf60d8529f69
+SHA1: 093c836eb817e7d4e2d4286f05fb7da72fb0f2d2
+SHA256: e5e53a6e908eadb48a6ca5a0774682c1fe45c2a491a1f52205d414cf334f0619
+
+Package: apache2-mpm-event
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 55
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), apache2.2-bin (= 2.2.22-13+deb7u3)
+Conflicts: apache2-common, apache2-mpm
+Description: Apache HTTP Server - event driven model
+Homepage: http://httpd.apache.org/
+Description-md5: a80d3fe69689b28f8aea325690e6e8f5
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-mpm-event_2.2.22-13+deb7u3_amd64.deb
+Size: 2306
+MD5sum: bca3e1dc2128b812fc48035cee3a1b9a
+SHA1: 57553f4cb017503bb9b0f84fac2a47638fff0671
+SHA256: 9a152e266398ed4cc52fb8cd2dda16d82493f2ebbbbfbea31ebf4f10009df63a
+
+Package: apache2-mpm-itk
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 55
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), apache2.2-bin (= 2.2.22-13+deb7u3)
+Conflicts: apache2-common, apache2-mpm
+Description: multiuser MPM for Apache 2.2
+Homepage: http://httpd.apache.org/
+Description-md5: 852c600a072cd8e2a37f461a6a0916ad
+Section: net
+Priority: extra
+Filename: pool/updates/main/a/apache2/apache2-mpm-itk_2.2.22-13+deb7u3_amd64.deb
+Size: 2334
+MD5sum: debec598eaaf8aa3efe25c25f6ce9245
+SHA1: e020d518c1a314b73e51c78c984fd3665ac82d09
+SHA256: 9775e7db86d201fbe44f5e359cfee4e59eed82266fd1e1123b673d8e87a97934
+
+Package: apache2-mpm-prefork
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 55
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), apache2.2-bin (= 2.2.22-13+deb7u3)
+Conflicts: apache2-common, apache2-mpm
+Description: Apache HTTP Server - traditional non-threaded model
+Homepage: http://httpd.apache.org/
+Description-md5: b1e3963f43f27f985efabc714e30a17e
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-mpm-prefork_2.2.22-13+deb7u3_amd64.deb
+Size: 2348
+MD5sum: 2262e08f7db997c8445f891f6abf017b
+SHA1: 2582f2dbea7a841e636306b3583e68cc8565eea6
+SHA256: 8646cb251316630321abc4d9421d732f3f9351e6423d0005e901f6b01791471e
+
+Package: apache2-mpm-worker
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 55
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Provides: apache2, apache2-mpm, httpd, httpd-cgi
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), apache2.2-bin (= 2.2.22-13+deb7u3)
+Conflicts: apache2-common, apache2-mpm
+Description: Apache HTTP Server - high speed threaded model
+Homepage: http://httpd.apache.org/
+Description-md5: 5c9df5383d0a2631ae15ced2ca0389d7
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-mpm-worker_2.2.22-13+deb7u3_amd64.deb
+Size: 2240
+MD5sum: 89543b95a11c9a227340bfc82d995d5e
+SHA1: 31250fe73adbfc8930c18a73299d0227a7d34f13
+SHA256: cb430ddee4b4bd34043da2aa102a7015271168ef73de9d35af0b4e0cdb1530e0
+
+Package: apache2-prefork-dev
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 579
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), openssl, libaprutil1-dev
+Conflicts: apache2-threaded-dev
+Description: Apache development headers - non-threaded MPM
+Homepage: http://httpd.apache.org/
+Description-md5: 131f1c35d98f8bc3fbed9f8a41149dd8
+Section: devel
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-prefork-dev_2.2.22-13+deb7u3_amd64.deb
+Size: 114500
+MD5sum: 9cb84134fbcc576b7350f0862ec30eab
+SHA1: 9878f0060f61c549791a5d0bb42b9fa061497a4e
+SHA256: 819e91e37b0575532cfa9f4f2fcefe34b6a53a42d93d53d83b7280c05a56dea0
+
+Package: apache2-suexec
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 180
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Replaces: apache2-suexec
+Depends: libc6 (>= 2.3.4), apache2.2-common
+Conflicts: apache-common, apache2-suexec
+Description: Standard suexec program for Apache 2 mod_suexec
+Homepage: http://httpd.apache.org/
+Description-md5: e83b330db3c94ec36f5e444e45447966
+Section: web
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-suexec_2.2.22-13+deb7u3_amd64.deb
+Size: 106680
+MD5sum: 81af91ec720354bedb827090f9612df4
+SHA1: bbf8048922b36f5017deea35d379a6b3bf56be29
+SHA256: 27805123bb912de24afa34ab0aa9f11275f3db10f54de0f52c6645f21cd73df1
+
+Package: apache2-suexec-custom
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 193
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Replaces: apache2-suexec
+Provides: apache2-suexec
+Depends: libc6 (>= 2.3.4), apache2.2-common
+Conflicts: apache-common, apache2-suexec
+Description: Configurable suexec program for Apache 2 mod_suexec
+Homepage: http://httpd.apache.org/
+Description-md5: a9c6f07a2dd1c93fd399fa41bfd36cee
+Section: web
+Priority: extra
+Filename: pool/updates/main/a/apache2/apache2-suexec-custom_2.2.22-13+deb7u3_amd64.deb
+Size: 108188
+MD5sum: 63a17705baa8a4e560919f4222d2a37e
+SHA1: 8f56297c70f41958836060b6e93749d6696b5102
+SHA256: d2ed80097234b6fea53e6fdca3a50b608319380d553bc129ea5bbdc88ea3d921
+
+Package: apache2-threaded-dev
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 585
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Depends: apache2.2-common (= 2.2.22-13+deb7u3), openssl, libaprutil1-dev
+Conflicts: apache2-prefork-dev
+Description: Apache development headers - threaded MPM
+Homepage: http://httpd.apache.org/
+Description-md5: dcab973a966982dea149a93e2310d0a1
+Section: devel
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-threaded-dev_2.2.22-13+deb7u3_amd64.deb
+Size: 115372
+MD5sum: d7693d1feba281daef2b25c3a74a993b
+SHA1: 2af90ca051d3ca39d2082d34b7a5707161041516
+SHA256: a1932ffcad0020154ed8d5176f00412df5601aa6b3f54532a18d6e398791c39a
+
+Package: apache2-utils
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 353
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Replaces: apache-utils (<< 1.3.33-4), apache2-common, apache2.2-bin (<< 2.2.22-1~)
+Depends: libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.4), libssl1.0.0 (>= 1.0.0)
+Conflicts: apache-common (<< 1.3.28.0.1-1)
+Description: utility programs for webservers
+Homepage: http://httpd.apache.org/
+Description-md5: 65b11c04f19387d5e961a795a115c791
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2-utils_2.2.22-13+deb7u3_amd64.deb
+Size: 163202
+MD5sum: 824986608715d108d2ff62fbc4d0f211
+SHA1: b13cc79a3b6066bfc0536b1b57442fcae9393790
+SHA256: b63ef7ed6eea550ca2a6f715643ecd0303eb481bb4983eabc5673e310b83369f
+
+Package: apache2.2-bin
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 3731
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Replaces: apache2.2-common (<< 2.2.14-2~)
+Depends: libapr1 (>= 1.4.2), libaprutil1 (>= 1.4.0), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libc6 (>= 2.4), libcap2 (>= 2.10), libldap-2.4-2 (>= 2.4.7), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4)
+Conflicts: apache2.2-common (<< 2.2.11-5~)
+Description: Apache HTTP Server common binary files
+Homepage: http://httpd.apache.org/
+Description-md5: a99a5e28b18db91922ca15fab5acb2b3
+Section: httpd
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2.2-bin_2.2.22-13+deb7u3_amd64.deb
+Size: 784934
+MD5sum: 144255c1089a4443031724a3f389e077
+SHA1: ee91b17180fbf938c740d7ca63e7919cfc612f6f
+SHA256: 8a56498d85ca47db5e48906571249da8de57bf3f78b63191374a081a1b58f60b
+
+Package: apache2.2-common
+Source: apache2
+Version: 2.2.22-13+deb7u3
+Installed-Size: 783
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: amd64
+Replaces: apache2-common
+Depends: apache2.2-bin (= 2.2.22-13+deb7u3), apache2-utils, mime-support, lsb-base, procps, perl
+Suggests: www-browser, apache2-doc, apache2-suexec | apache2-suexec-custom
+Conflicts: apache, apache2-common
+Description: Apache HTTP Server common files
+Homepage: http://httpd.apache.org/
+Description-md5: 214ca4adfc4cb3d8083d736c7fe47647
+Recommends: ssl-cert
+Section: net
+Priority: optional
+Filename: pool/updates/main/a/apache2/apache2.2-common_2.2.22-13+deb7u3_amd64.deb
+Size: 292066
+MD5sum: 727fde0474593e78cae909e35b80a9aa
+SHA1: 8ee4837b99222efc7ae1db721d39d20149032fe2
+SHA256: de75d6a6d2e2164dad463726164f1542d1e8993975e25567a06f4101c8f068d3
+
 Package: apt
 Version: 0.9.7.9+deb7u2
 Installed-Size: 3271
@@ -22575,6 +22848,141 @@ Size: 196198
 MD5sum: b16cb2277414f6d9a7d02ed5fe6b8c60
 SHA1: d44f07f387423ad8b248252f209b8121f0c5d8e4
 SHA256: 4a1d6912014afe0eac4749c41099c44edb2129c32c463545df8e784034c1e8b3
+
+Package: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 29
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: all
+Depends: transmission-gtk (>= 2.52-3+nmu2) | transmission-qt (>= 2.52-3+nmu2) | transmission-cli (>= 2.52-3+nmu2), transmission-common (>= 2.52-3+nmu2)
+Description: lightweight BitTorrent client
+Homepage: http://www.transmissionbt.com/
+Description-md5: ad4c3a4546931273694cb4f642f5341d
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission_2.52-3+nmu2_all.deb
+Size: 1096
+MD5sum: b59bf2d5f3213e4709c3b1d7a12d5f58
+SHA1: b24eba83fa512ee0132b061937e004f5688006c7
+SHA256: fe71966f693fd25a3cd9179effaf2048a1a19dfa45f9c45b29b36048ee4f52af
+
+Package: transmission-cli
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 2312
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: amd64
+Replaces: transmission-daemon (<< 1.50-1)
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2), libevent-2.0-5 (>= 2.0.10-stable), libminiupnpc5, libnatpmp1, libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), transmission-common (= 2.52-3+nmu2)
+Suggests: transmission-daemon (= 2.52-3+nmu2), transmission-gtk (= 2.52-3+nmu2)
+Breaks: transmission-daemon (<< 1.50-1)
+Description: lightweight BitTorrent client (command line programs)
+Homepage: http://www.transmissionbt.com/
+Description-md5: 2bb621d0d95ecd3582f524eb28dbf71e
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission-cli_2.52-3+nmu2_amd64.deb
+Size: 1152056
+MD5sum: 4c1114708f1d64d93f1ca6a883e2f78c
+SHA1: 8bbf858b42b73056e58f01ec863d30b0ff4332ad
+SHA256: 5cca7e94738dc2abbe85fedd8bfd3f53227cb80b58151a78c449296613335066
+
+Package: transmission-common
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 913
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: all
+Replaces: transmission-gtk (<< 2.10-1)
+Breaks: transmission-gtk (<< 2.10-1)
+Description: lightweight BitTorrent client (common files)
+Homepage: http://www.transmissionbt.com/
+Description-md5: c088436bdff78ec234e20d4cee7f3943
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission-common_2.52-3+nmu2_all.deb
+Size: 291484
+MD5sum: ae014ac923dfb7edbd86f9fac7476d78
+SHA1: 5015db8feb4e6bf4ddb61c7ffec18dbdbcc6540d
+SHA256: 7c89d42153d36173cafefa57efce778e63e44ae1b217b45589ccf1fd58171bec
+
+Package: transmission-daemon
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 538
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: amd64
+Replaces: transmission-cli (<< 1.40-1)
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2), libevent-2.0-5 (>= 2.0.10-stable), libminiupnpc5, libnatpmp1, libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), transmission-common (= 2.52-3+nmu2), lsb-base (>= 3.0)
+Breaks: transmission-cli (<< 1.40-1)
+Description: lightweight BitTorrent client (daemon)
+Homepage: http://www.transmissionbt.com/
+Description-md5: c5796eb91f75285b9af0fb5f16136e5d
+Pre-Depends: adduser
+Recommends: transmission-cli (>= 1.50-1)
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission-daemon_2.52-3+nmu2_amd64.deb
+Size: 234636
+MD5sum: 99bf0b72b2059e9e3c4f7cc070e6d801
+SHA1: dc5fcd7288b977b234b5899d072367585541421b
+SHA256: 666c7d0977e1817925d898695b66a370364d86d8a19d2abe1f8bd7f878b489ab
+
+Package: transmission-dbg
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 36721
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: amd64
+Depends: transmission-cli, transmission-gtk, transmission-qt, transmission-daemon, transmission-common
+Description: lightweight BitTorrent client (debug symbols)
+Homepage: http://www.transmissionbt.com/
+Description-md5: b093bc257efd8163683cc280c88fb97d
+Section: debug
+Priority: extra
+Filename: pool/updates/main/t/transmission/transmission-dbg_2.52-3+nmu2_amd64.deb
+Size: 12839926
+MD5sum: a3b2e7b3ebe147a99e23c85db6850d1f
+SHA1: faec8f39c30232266bf718c610941016e59cd303
+SHA256: 54952bf2f462816fa7c74c23a3341641acb48ac69e0f155c2a96538938551df7
+
+Package: transmission-gtk
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 3674
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2), libevent-2.0-5 (>= 2.0.10-stable), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk-3-0 (>= 3.0.0), libminiupnpc5, libnatpmp1, libpango1.0-0 (>= 1.14.0), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), transmission-common (= 2.52-3+nmu2)
+Description: lightweight BitTorrent client (GTK interface)
+Homepage: http://www.transmissionbt.com/
+Description-md5: 52423a3999c0f65dec056093ec8c8539
+Recommends: xdg-utils
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission-gtk_2.52-3+nmu2_amd64.deb
+Size: 1154118
+MD5sum: 0735dff2490735ecdbfd670b94483b7a
+SHA1: 361c78c6d372e8714597f7f1c73321fbfb2f3ad9
+SHA256: d2c44f2535d3a2318f4424586323f6d8b47771c487fd7042b5442a173404c169
+
+Package: transmission-qt
+Source: transmission
+Version: 2.52-3+nmu2
+Installed-Size: 1722
+Maintainer: Leo Costela <costela@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.10), libcurl3-gnutls (>= 7.16.2), libevent-2.0-5 (>= 2.0.10-stable), libgcc1 (>= 1:4.1.1), libminiupnpc5, libnatpmp1, libqt4-dbus (>= 4:4.5.3), libqt4-network (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4), transmission-common (= 2.52-3+nmu2)
+Description: lightweight BitTorrent client (Qt interface)
+Homepage: http://www.transmissionbt.com/
+Description-md5: 55875b4734dfba52b8c3483949c1215e
+Recommends: xdg-utils
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/transmission/transmission-qt_2.52-3+nmu2_amd64.deb
+Size: 677766
+MD5sum: 44da0286b043faa51568785053da68f6
+SHA1: 8bc775d4b37b42699c8d84b96d64f15a78967164
+SHA256: 1a367755176f1132d9efae29e11173bfcdbcae8c6367ef9536884e66b1b177b9
 
 Package: tryton-client
 Version: 2.2.3-1+deb7u1
