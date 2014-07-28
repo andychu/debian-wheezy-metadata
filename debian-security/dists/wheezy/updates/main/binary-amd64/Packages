@@ -1258,6 +1258,386 @@ MD5sum: 73bbec58d3448be0f7f47ab3e9a87713
 SHA1: 6941bf3bb553d2f7d33e178dc8e179de20633efa
 SHA256: 49fc703d4f93f9443d82b65078eb16643ebc6506dd03209c3f532e1015b52576
 
+Package: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 4205
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Replaces: cupsddk-drivers (<< 1.4.0), ghostscript-cups (<< 9.02~)
+Provides: cupsddk-drivers
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.7), libcups2 (= 1.5.3-5+deb7u4), libcupscgi1 (>= 1.4.2), libcupsimage2 (>= 1.4.0), libcupsmime1 (>= 1.5.0), libcupsppdc1 (>= 1.4.0), libdbus-1-3 (>= 1.0.2), libgcc1 (>= 1:4.1.1), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.8+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libpaper1, libslp1, libstdc++6 (>= 4.1.1), libusb-1.0-0 (>= 2:1.0.8), debconf (>= 1.2.9) | debconf-2.0, libc-bin (>= 2.13), poppler-utils (>= 0.12), procps, ghostscript (>= 9.02~), lsb-base (>= 3), cups-common (>= 1.5.3), cups-client (>= 1.5.3-5+deb7u4), ssl-cert (>= 1.0.11), adduser, bc, cups-ppdc, cups-filters
+Suggests: cups-bsd, foomatic-db-compressed-ppds | foomatic-db, printer-driver-hpcups, hplip, cups-pdf, udev, smbclient
+Breaks: cupsddk-drivers (<< 1.4.0), foomatic-filters (<< 4.0), ghostscript-cups (<< 9.02~)
+Description: Common UNIX Printing System(tm) - server
+Homepage: http://www.cups.org
+Description-md5: a7a1401ce90f3158b62e46f606e44e35
+Multi-Arch: foreign
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: avahi-daemon, colord, foomatic-filters (>= 4.0), printer-driver-gutenprint, ghostscript-cups (>= 9.02~)
+Section: net
+Priority: optional
+Filename: pool/updates/main/c/cups/cups_1.5.3-5+deb7u4_amd64.deb
+Size: 1402146
+MD5sum: 7691c554551f9eb2ee257b80c80c6356
+SHA1: 15b45357a3cdfd9a67b0d8951775e56127abcee0
+SHA256: 9d2c15c669da997a1197c88d90d0fdb6bcf95e5c5917d5c72fd16fdc875f90b2
+
+Package: cups-bsd
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 158
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Replaces: lpr
+Provides: lpr
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), debconf (>= 0.5) | debconf-2.0, cups-client (= 1.5.3-5+deb7u4), update-inetd, cups-common
+Suggests: cups
+Conflicts: lpr, lprng
+Description: Common UNIX Printing System(tm) - BSD commands
+Homepage: http://www.cups.org
+Description-md5: 8ca999eda442e2096dafa2745e4db8de
+Multi-Arch: foreign
+Section: net
+Priority: extra
+Filename: pool/updates/main/c/cups/cups-bsd_1.5.3-5+deb7u4_amd64.deb
+Size: 47484
+MD5sum: 1edb4daaa650e8ef399cfe67d2fd3c29
+SHA1: 4f3c95c6babf5acfb9adc4e6e7a6d4dbbe9a06df
+SHA256: 568c1aa7096a7fb412dcd61602d63a4ad5f28c72f4e0fc8db66f9d4327025329
+
+Package: cups-client
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 560
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcups2 (= 1.5.3-5+deb7u4), libcupsimage2 (>= 1.4.0), cups-common (>= 1.5.3), adduser
+Suggests: cups, xpp, cups-bsd
+Conflicts: lprng
+Description: Common UNIX Printing System(tm) - client programs (SysV)
+Homepage: http://www.cups.org
+Description-md5: 49064ce8151bc5cfbb65936322a4e2ce
+Multi-Arch: foreign
+Recommends: smbclient
+Section: net
+Priority: optional
+Filename: pool/updates/main/c/cups/cups-client_1.5.3-5+deb7u4_amd64.deb
+Size: 181438
+MD5sum: 50655aa66f765c568491c1c4641576a8
+SHA1: 28f9f0f2513a42b144ceae306e3252fd6cc8179b
+SHA256: 37727bf8b8fce91878b68eeb111e30e42cd10b76661f5473dd0c6bfcd76b898a
+
+Package: cups-common
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 4354
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: all
+Description: Common UNIX Printing System(tm) - common files
+Homepage: http://www.cups.org
+Description-md5: ae28e55960aa62a85c88769b70d73eaa
+Multi-Arch: foreign
+Section: net
+Priority: optional
+Filename: pool/updates/main/c/cups/cups-common_1.5.3-5+deb7u4_all.deb
+Size: 903492
+MD5sum: 45deed864bae3814d70979ca5d648a0e
+SHA1: 0aa3c093aa6f5b9b5b32c1a4b9665205829ea22b
+SHA256: dc10e610b5b5c8969f14113ce09dae95bffac7f31c8f6c2a00f40585a62ee913
+
+Package: cups-dbg
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 2846
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: cups (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - debugging symbols
+Homepage: http://www.cups.org
+Description-md5: 45781fd5891c0e6a36e3f989431c7203
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/c/cups/cups-dbg_1.5.3-5+deb7u4_amd64.deb
+Size: 2216384
+MD5sum: 9a62668de87af070ad5f621558cac9f7
+SHA1: b8807492ff5d126da7236761c57431c3bd76272d
+SHA256: 7065d0016a26be7bd477f687cf08fb99bb19f9bb6c43fa14bff0291e9e9b8369
+
+Package: cups-ppdc
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 228
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Replaces: cupsddk (<< 1.4.0)
+Provides: cupsddk
+Depends: libc6 (>= 2.4), libcups2 (>= 1.4.0), libcupsppdc1 (>= 1.4.0), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), cups-common
+Breaks: cupsddk (<< 1.4.0)
+Description: Common UNIX Printing System(tm) - PPD manipulation utilities
+Homepage: http://www.cups.org
+Description-md5: ba3fa27bc468a14b73280f189057f4e7
+Multi-Arch: foreign
+Section: utils
+Priority: optional
+Filename: pool/updates/main/c/cups/cups-ppdc_1.5.3-5+deb7u4_amd64.deb
+Size: 116802
+MD5sum: 4d974d1ae23769bae74cd38c4991044e
+SHA1: 31051475c118fcdcd0a87cc6f9669c0a44cbb7d0
+SHA256: 18cd997e767674cebf71480a520ebedaac419bc9604c7329d42025f2bbc1576d
+
+Package: cupsddk
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 110
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: all
+Depends: cups-ppdc
+Description: Common UNIX Printing System (transitional package)
+Homepage: http://www.cups.org
+Description-md5: 9aadce16ef37b93d56befeaf3c431717
+Section: text
+Priority: optional
+Filename: pool/updates/main/c/cups/cupsddk_1.5.3-5+deb7u4_all.deb
+Size: 87180
+MD5sum: 96fad17089cad1e3b39a0977924ea1ce
+SHA1: 30748ecfbaf402175ae43f29c064e052808d862f
+SHA256: 2e52912b894502a3151cb3e4553ab6b0c8bf9f03877510b558e4867b59d393b1
+
+Package: libcups2
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 490
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Replaces: libcupsys2
+Provides: libcupsys2
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.4), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.10+dfsg~), zlib1g (>= 1:1.1.4)
+Suggests: cups-common
+Conflicts: libcupsys2
+Breaks: cups (<< 1.5.0)
+Description: Common UNIX Printing System(tm) - Core library
+Homepage: http://www.cups.org
+Description-md5: cce9961cb86712146cb19e1b4636f79d
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcups2_1.5.3-5+deb7u4_amd64.deb
+Size: 255488
+MD5sum: 72212153b2418e54c1319ce46b782728
+SHA1: caafe8aaf16058eeba45a6641fa0a5d0af9d6aec
+SHA256: 0f4500fd273e511538c0c080c548a340e46062971651f0615ed1e42d089f4150
+
+Package: libcups2-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 932
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Provides: libcupsys2-dev
+Depends: libcups2 (= 1.5.3-5+deb7u4), libgnutls-dev, libkrb5-dev
+Description: Common UNIX Printing System(tm) - Development files CUPS library
+Homepage: http://www.cups.org
+Description-md5: bf3f385e98251c2563c3f58554d2adce
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcups2-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 327636
+MD5sum: aa1ec4f429cbb949f456d78922464b75
+SHA1: 465be856ced2e981fad71cadce4943531e6b3bbb
+SHA256: 638631719df3c04c342510e7876c9b00b4fc273aa709c8156e64659351cfa93d
+
+Package: libcupscgi1
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 178
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcups2 (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - CGI library
+Homepage: http://www.cups.org
+Description-md5: 3660b0ffb79cde60a9580ea571ecfbcb
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupscgi1_1.5.3-5+deb7u4_amd64.deb
+Size: 116122
+MD5sum: 1a3864bc54f817724953b907c03ed5f6
+SHA1: fb49be8dc63d449b5cc01467a6003c8b30cc15c6
+SHA256: 31e24e90baf16a3e424b567fd99c5c5813bf10ee75ba1b12830ff5f34833ece2
+
+Package: libcupscgi1-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 231
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libcupscgi1 (= 1.5.3-5+deb7u4), libcups2-dev (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - Development files for CGI library
+Homepage: http://www.cups.org
+Description-md5: 433b937ac75daeec3873b3445bb48090
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupscgi1-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 122002
+MD5sum: d6984752b6033eb20ccac129ca567007
+SHA1: 71846a5126d5db26fc9e2f7359342660c23dbbfd
+SHA256: 2e781e5e34d52b6b1bd76c66f64347e9784c81d42aaee75d7eb9f0fce9b5d31f
+
+Package: libcupsdriver1
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 153
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcups2 (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - Driver library
+Homepage: http://www.cups.org
+Description-md5: 248a2293c69c6678fd64f2854cf77bf6
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsdriver1_1.5.3-5+deb7u4_amd64.deb
+Size: 104074
+MD5sum: a2f18bfa25bfea369f4d32b7057d1087
+SHA1: 041c92eab57f9aec349609b81d6b941a24bd790c
+SHA256: 8bd064b67400e0aa8d017cefcb6264fcd077c61f90339e7b66b2e2a0ee7c3514
+
+Package: libcupsdriver1-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 186
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libcupsdriver1 (= 1.5.3-5+deb7u4), libcups2-dev (= 1.5.3-5+deb7u4), libcupsimage2-dev (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - Development files driver library
+Homepage: http://www.cups.org
+Description-md5: a04f5d722cdd062134dda5e803f4c7bd
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsdriver1-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 107044
+MD5sum: 9af23e1e8d62eb633d48aebe59d46cd7
+SHA1: 3661dd8fb1eed6cf155836d13a398f46bd4dc82f
+SHA256: cb94b7e90ce18af5a71c8dabb311c65038d1db29f144951e5ee218be763e0ac7
+
+Package: libcupsimage2
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 223
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libcups2 (= 1.5.3-5+deb7u4), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libtiff4 (>> 3.9.5-3~)
+Description: Common UNIX Printing System(tm) - Raster image library
+Homepage: http://www.cups.org
+Description-md5: f4451fb5498322724719d7d3a8635bf4
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsimage2_1.5.3-5+deb7u4_amd64.deb
+Size: 137768
+MD5sum: 5e80fef015fcdc6720e9bd71866c62ae
+SHA1: 18a91d93f49e133c48c31485f3a10a03f84d1255
+SHA256: 253118f0753cbcfe40e454af113e1f97095a24000d8d73ac17ecf1ca1c2a6081
+
+Package: libcupsimage2-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 236
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libcupsimage2 (= 1.5.3-5+deb7u4), libcups2-dev (= 1.5.3-5+deb7u4), libpng-dev, libtiff-dev, libjpeg8-dev | libjpeg-dev, zlib1g-dev
+Description: Common UNIX Printing System(tm) - Development files CUPS image library
+Homepage: http://www.cups.org
+Description-md5: 419c750b3360d0933e0bbc9e17913244
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsimage2-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 65316
+MD5sum: 7a8027c3016d0a4f36429b224f0fb5d6
+SHA1: 2346e986522eb76b45ce25301e2560ae0ae4ae5d
+SHA256: 98e97c1c9acc07cacc1f31c9a1c18475ede5a87cc1de69335eb3b92219022ba7
+
+Package: libcupsmime1
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 145
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcups2 (= 1.5.3-5+deb7u4)
+Breaks: cups (<< 1.5.0)
+Description: Common UNIX Printing System(tm) - MIME library
+Homepage: http://www.cups.org
+Description-md5: 3c738d1cd62835670ace55e8d83b4f80
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsmime1_1.5.3-5+deb7u4_amd64.deb
+Size: 99054
+MD5sum: 735af6e3c2c5d385577c1faad8961716
+SHA1: f60f984dd333e025dbfe9018d8aaa76eb5589b4d
+SHA256: 4d9495ecfd90d17dcd8c82e425c284d1cc7d27c1ee4c966be1e1f18b5cfa26ad
+
+Package: libcupsmime1-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 159
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libcupsmime1 (= 1.5.3-5+deb7u4), libcups2-dev (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - Development files MIME library
+Homepage: http://www.cups.org
+Description-md5: ee515191b340413216668249b8b6097b
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsmime1-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 99858
+MD5sum: c5d5da49a7d38793b5cff2190b333c7b
+SHA1: ee7883d5b576ee1b90389eb27ea3d440de06b458
+SHA256: 280bef98a48fcd526bd670a51da8f8c4b25160f027458d0a582eaeeec3baf6ca
+
+Package: libcupsppdc1
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 249
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libcups2 (= 1.5.3-5+deb7u4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Description: Common UNIX Printing System(tm) - PPD manipulation library
+Homepage: http://www.cups.org
+Description-md5: a2ce16897499bbac7df75d4d297b1713
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsppdc1_1.5.3-5+deb7u4_amd64.deb
+Size: 139264
+MD5sum: a1bc6564195d4f77e39732707509ed96
+SHA1: c3316b552726f070179a966809cb150dcc2cd6bd
+SHA256: 34a7f5ee89e6c6bf595142478544acb73cd36b46799701ce8e2dc500e51724e3
+
+Package: libcupsppdc1-dev
+Source: cups
+Version: 1.5.3-5+deb7u4
+Installed-Size: 403
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: amd64
+Depends: libcupsppdc1 (= 1.5.3-5+deb7u4), libcups2-dev (= 1.5.3-5+deb7u4)
+Description: Common UNIX Printing System(tm) - Development files PPD library
+Homepage: http://www.cups.org
+Description-md5: f1c111d7276de209cb50ebccbc551f69
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/c/cups/libcupsppdc1-dev_1.5.3-5+deb7u4_amd64.deb
+Size: 156286
+MD5sum: 839001e1935b5a077630cb60661c7188
+SHA1: d51d26d565fc493fa3d832e0f15f2b85cf0d67dd
+SHA256: 3e5aa9f1ebfdfff47b40072214ce8e8d4c05c55edf0c26e9084a3c2a8052238c
+
 Package: cups-filters
 Version: 1.0.18-2.1+deb7u1
 Installed-Size: 966
@@ -15242,6 +15622,45 @@ Size: 77444
 MD5sum: 2e9a58e2acd96357ddbc69b662b3f2ba
 SHA1: 4d4bb302b2a72c2ae3e5ce9838e1864af0ef2bc9
 SHA256: 4131711ac6499947d4831dadbd26f72447981a526f5a0131df0f290b6f242677
+
+Package: libapache-mod-security
+Source: modsecurity-apache
+Version: 2.6.6-6+deb7u2
+Installed-Size: 42
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: all
+Depends: libapache2-modsecurity
+Description: Dummy transitional package
+Homepage: http://www.modsecurity.org/
+Description-md5: 11f32e6c97d8fa0ab85f13202283619c
+Section: web
+Priority: optional
+Filename: pool/updates/main/m/modsecurity-apache/libapache-mod-security_2.6.6-6+deb7u2_all.deb
+Size: 18538
+MD5sum: ce90a6d74202cbf35aec6061980f23cc
+SHA1: 1292010d57fe27224b3a43aa387ad604916f136b
+SHA256: 6139a396887991433bbc15e11bc18e0ddb4388ad99a3707f3462ac19fd229c33
+
+Package: libapache2-modsecurity
+Source: modsecurity-apache
+Version: 2.6.6-6+deb7u2
+Installed-Size: 847
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: amd64
+Replaces: libapache-mod-security (<< 2.5.13-1), mod-security-common (<< 2.5.13-1)
+Depends: apache2.2-common, libxml2 (>= 2.8.0), libapr1 (>= 1.2.7), libaprutil1 (>= 1.2.7+dfsg), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), liblua5.1-0, libpcre3 (>= 8.10)
+Conflicts: libapache-mod-security (<< 2.5.13-1), mod-security-common (<< 2.5.13-1)
+Description: Tighten web applications security for Apache
+Homepage: http://www.modsecurity.org/
+Description-md5: 198ee1322fd8f21e7b0987f6dfb5edc3
+Recommends: modsecurity-crs
+Section: httpd
+Priority: optional
+Filename: pool/updates/main/m/modsecurity-apache/libapache2-modsecurity_2.6.6-6+deb7u2_amd64.deb
+Size: 304244
+MD5sum: d9642495bf9ff939259da12fe7ed4077
+SHA1: d081583ee491e16ab4c2b2e1ed009f65425574e5
+SHA256: 7ae2ef330fdc4c3939799df21ce955a540b12db1c134ce1c4b05a697f1cb800f
 
 Package: movabletype-opensource
 Version: 5.1.4+dfsg-4+deb7u1
