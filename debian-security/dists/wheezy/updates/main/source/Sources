@@ -5547,7 +5547,7 @@ Binary: linux-source-3.2, linux-doc-3.2, linux-manual-3.2, linux-support-3.2.0-4
  nbd-modules-3.2.0-4-sh7785lcr-di, squashfs-modules-3.2.0-4-sh7785lcr-di, speakup-modules-3.2.0-4-sh7785lcr-di, sound-modules-3.2.0-4-sh7785lcr-di, zlib-modules-3.2.0-4-sh7785lcr-di, udf-modules-3.2.0-4-sh7785lcr-di, fuse-modules-3.2.0-4-sh7785lcr-di, linux-image-3.2.0-4-sh7751r, linux-headers-3.2.0-4-sh7751r, linux-image-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-all-sparc, kernel-image-3.2.0-4-sparc64-di, nic-modules-3.2.0-4-sparc64-di, ppp-modules-3.2.0-4-sparc64-di, pata-modules-3.2.0-4-sparc64-di, cdrom-core-modules-3.2.0-4-sparc64-di, scsi-core-modules-3.2.0-4-sparc64-di, scsi-modules-3.2.0-4-sparc64-di, scsi-common-modules-3.2.0-4-sparc64-di, plip-modules-3.2.0-4-sparc64-di, btrfs-modules-3.2.0-4-sparc64-di, ext2-modules-3.2.0-4-sparc64-di, ext3-modules-3.2.0-4-sparc64-di, ext4-modules-3.2.0-4-sparc64-di, isofs-modules-3.2.0-4-sparc64-di, jfs-modules-3.2.0-4-sparc64-di, reiserfs-modules-3.2.0-4-sparc64-di,
  xfs-modules-3.2.0-4-sparc64-di, fat-modules-3.2.0-4-sparc64-di, md-modules-3.2.0-4-sparc64-di, multipath-modules-3.2.0-4-sparc64-di, usb-modules-3.2.0-4-sparc64-di, usb-storage-modules-3.2.0-4-sparc64-di, input-modules-3.2.0-4-sparc64-di, sata-modules-3.2.0-4-sparc64-di, core-modules-3.2.0-4-sparc64-di, crypto-modules-3.2.0-4-sparc64-di, crypto-dm-modules-3.2.0-4-sparc64-di, ata-modules-3.2.0-4-sparc64-di, nbd-modules-3.2.0-4-sparc64-di, squashfs-modules-3.2.0-4-sparc64-di, virtio-modules-3.2.0-4-sparc64-di, zlib-modules-3.2.0-4-sparc64-di, udf-modules-3.2.0-4-sparc64-di, fuse-modules-3.2.0-4-sparc64-di, linux-image-3.2.0-4-sparc64, linux-headers-3.2.0-4-sparc64, linux-image-3.2.0-4-sparc64-smp, linux-headers-3.2.0-4-sparc64-smp,
  linux-headers-3.2.0-4-all-sparc64
-Version: 3.2.60-1+deb7u1
+Version: 3.2.60-1+deb7u3
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
 Build-Depends: debhelper (>> 7), cpio, kmod | module-init-tools, python (>= 2.7), lzma [armel], kernel-wedge (>= 2.84), quilt, patchutils, gcc-4.6 [alpha amd64 armel armhf i386 ia64 m68k mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64], gcc-4.4 [hppa], binutils-hppa64 [hppa], gcc-4.4-hppa64 [hppa]
@@ -5555,18 +5555,18 @@ Architecture: all alpha amd64 armel armhf hppa i386 ia64 m68k mips mipsel powerp
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 6255e4622e28b5d0613b46624b05c0ae 103087 linux_3.2.60-1+deb7u1.dsc
+ da8e97e3b45009f1d3857875606af365 103062 linux_3.2.60-1+deb7u3.dsc
  75aa128624a3eb8420ac6871a0292f60 65912660 linux_3.2.60.orig.tar.xz
- 8f8909498ad2437f581124fa19533e07 3765072 linux_3.2.60-1+deb7u1.debian.tar.xz
+ 86227c11acf5af76a444d58b73c4391d 3646424 linux_3.2.60-1+deb7u3.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/viewvc/kernel/dists/trunk/linux/
 Checksums-Sha1:
- 866c32f55d977068a55d855f091e00f6d8442ac9 103087 linux_3.2.60-1+deb7u1.dsc
+ ba113e02cfff668090da981b9507b113e5a3c9a7 103062 linux_3.2.60-1+deb7u3.dsc
  07773fc3c6e4ccbbe2cbaa5b9b7b897518dabc2a 65912660 linux_3.2.60.orig.tar.xz
- 985993210d57418cf6c0ecbcc5580976d133c6bd 3765072 linux_3.2.60-1+deb7u1.debian.tar.xz
+ 65d2737bce4c49427a92f5cd3f6b172ed4545c48 3646424 linux_3.2.60-1+deb7u3.debian.tar.xz
 Checksums-Sha256:
- c996da9a2b4521050a05325ac615acee9ee43995b2cb269b2ad0392993b238d2 103087 linux_3.2.60-1+deb7u1.dsc
+ 306fb4f0d1ebf591530c0f913f506f0dd5df5b4efca03c8158fba703994883ee 103062 linux_3.2.60-1+deb7u3.dsc
  c18396c59c5734812e992b4d71282139943f79631bfde602350e98989c2d54d1 65912660 linux_3.2.60.orig.tar.xz
- a5029202aef796a85adf7547193427f83db7d4f487fc465822d514cbefd7d23f 3765072 linux_3.2.60-1+deb7u1.debian.tar.xz
+ 61a232176412ad046de2189a406c0ffadc73a5bb399755c0a3a9e383bf0eafc1 3646424 linux_3.2.60-1+deb7u3.debian.tar.xz
 Build-Depends-Indep: bzip2, xmlto
 Package-List: 
  acpi-modules-3.2.0-4-486-di udeb debian-installer extra
