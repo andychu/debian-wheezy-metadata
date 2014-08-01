@@ -16719,8 +16719,8 @@ SHA256: 896f0858d2ec1da1b76976c0bf9020cc72baad1caa36ff58d3fe8144b0e5fbc6
 
 Package: libnss3
 Source: nss
-Version: 2:3.14.5-1
-Installed-Size: 3539
+Version: 2:3.14.5-1+deb7u1
+Installed-Size: 3543
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.7), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 4.8.6), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4)
@@ -16732,73 +16732,73 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3_3.14.5-1_amd64.deb
-Size: 1063500
-MD5sum: 175cc35abc7fbba39f8d0480229ebebe
-SHA1: 89a3aed38253208c7ced1a1580f7561acea0b161
-SHA256: cd6e5e71b6ead86563a5236c9c737ea31a78ebf9744abbd9749ddb2b7e6749b4
+Filename: pool/updates/main/n/nss/libnss3_3.14.5-1+deb7u1_amd64.deb
+Size: 1060992
+MD5sum: e4c44c24919db38d5fe4e545a8f62689
+SHA1: 19a29ddff5edfd00e46e8b024ae5c63e2733b199
+SHA256: 8a03008c43e3cac92497468002795f550d44a7e13ce8f75727d2857f5cbff2ee
 
 Package: libnss3-1d
 Source: nss
-Version: 2:3.14.5-1
+Version: 2:3.14.5-1+deb7u1
 Installed-Size: 87
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libnss3 (= 2:3.14.5-1)
+Depends: libnss3 (= 2:3.14.5-1+deb7u1)
 Description: Network Security Service libraries - transitional package
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 063a04be3daa0aee83eb91fb2acc878e
 Multi-Arch: same
 Section: libs
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-1d_3.14.5-1_amd64.deb
-Size: 20036
-MD5sum: eb788f704a195efd5322edf195d5ae57
-SHA1: 601e238912666deb60b43063ae055cb9a9a6e0ec
-SHA256: 846a1ef4a0cc9548efaf75e4b3d119a3c86ce4aa36d793d4741d54b37c6ef227
+Filename: pool/updates/main/n/nss/libnss3-1d_3.14.5-1+deb7u1_amd64.deb
+Size: 20314
+MD5sum: 9ea2798d6506e239df5363c4a578f72f
+SHA1: 2d01d518f559432f5ba48f6f944ab8ef8d934ec4
+SHA256: 7c109453f3e0139f11e737ad9c8e3bfbf23c6050209c3d0542ed8ea04d6d16a9
 
 Package: libnss3-dbg
 Source: nss
-Version: 2:3.14.5-1
-Installed-Size: 5711
+Version: 2:3.14.5-1+deb7u1
+Installed-Size: 5710
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Provides: libnss3-1d-dbg
-Depends: libnss3 (= 2:3.14.5-1) | libnss3-tools (= 2:3.14.5-1)
-Conflicts: libnss3 (>> 2:3.14.5-1), libnss3 (<< 2:3.14.5-1), libnss3-tools (>> 2:3.14.5-1), libnss3-tools (<< 2:3.14.5-1)
+Depends: libnss3 (= 2:3.14.5-1+deb7u1) | libnss3-tools (= 2:3.14.5-1+deb7u1)
+Conflicts: libnss3 (>> 2:3.14.5-1+deb7u1), libnss3 (<< 2:3.14.5-1+deb7u1), libnss3-tools (>> 2:3.14.5-1+deb7u1), libnss3-tools (<< 2:3.14.5-1+deb7u1)
 Description: Debugging symbols for the Network Security Service libraries
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 2a6641a78d510ea21132933409ef387f
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nss/libnss3-dbg_3.14.5-1_amd64.deb
-Size: 4834238
-MD5sum: 1b926645321e51d469e85d18456ef77f
-SHA1: 7e43176fe7bd811a968f491a75dc9f27fc9b2aa2
-SHA256: ff5049df19421233caf463cba36e6a23d5c7f9ce41b512aa77442b4ea9655c9d
+Filename: pool/updates/main/n/nss/libnss3-dbg_3.14.5-1+deb7u1_amd64.deb
+Size: 4833442
+MD5sum: be7004f6e82faa67157a8879c8a99181
+SHA1: 99d6ae806e73d30d103cb7d18e8dbcc25d8fa60d
+SHA256: a88ad0da2587452cad3e1ad5b919e94774c920903720d12a0dfbf4ecfabdf10b
 
 Package: libnss3-dev
 Source: nss
-Version: 2:3.14.5-1
+Version: 2:3.14.5-1+deb7u1
 Installed-Size: 1203
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libnss3 (= 2:3.14.5-1), libnspr4-dev (>= 4.6.6-1)
+Depends: libnss3 (= 2:3.14.5-1+deb7u1), libnspr4-dev (>= 4.6.6-1)
 Description: Development files for the Network Security Service libraries
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 04c0a8f989d299406710231d2a99043d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-dev_3.14.5-1_amd64.deb
-Size: 219410
-MD5sum: e3e2d1d6a555dc0210b6c1a2160af5eb
-SHA1: 630d86cfb4ea22ec6fcfee16d097304f425d8074
-SHA256: 86f25915fb4ed4893fc7eebb24f1f45c7e6bfc5c56d755ee796cbe8c2387918f
+Filename: pool/updates/main/n/nss/libnss3-dev_3.14.5-1+deb7u1_amd64.deb
+Size: 219792
+MD5sum: c3d4e3f66541461d3f7b9f29e569d3b2
+SHA1: b45f2e6767cc7cb030188eb93a9e9de6efb236a9
+SHA256: e7b43771b85ba33042073bf9e42f8b371b56d308c0d3d2aedf30e3eac7464ec4
 
 Package: libnss3-tools
 Source: nss
-Version: 2:3.14.5-1
+Version: 2:3.14.5-1+deb7u1
 Installed-Size: 1056
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -16808,11 +16808,11 @@ Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
 Section: admin
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-tools_3.14.5-1_amd64.deb
-Size: 228588
-MD5sum: 03b9fe01f101e4f2a26de7100f5711fa
-SHA1: 5804479e3a5c5b2213f7775afdd5c8941c686c72
-SHA256: aa77fc42c6a74daf16ef4ae9d52a53c409f111516b42f3117ed65b0f226715f6
+Filename: pool/updates/main/n/nss/libnss3-tools_3.14.5-1+deb7u1_amd64.deb
+Size: 228332
+MD5sum: 334c2bb2ca46fe310123c776e6c68655
+SHA1: 3ed53190eba2a2ea422dd2cc379a6cb2498256db
+SHA256: 89e5ea92ef85124248d065d9b0d563f7265ae2e81036c7afa14ba9922571bdb2
 
 Package: libafsauthent1
 Source: openafs
@@ -23095,6 +23095,66 @@ Size: 37104
 MD5sum: f1edd85b0efca839ab99c4c7ce714f91
 SHA1: 2f26f69da4a93abb0d3351298b1ae60435736a73
 SHA256: ee56dfa7361295db4f4cb3f1fa86a895a655a463d3a7f89627bd1f7fc0011c35
+
+Package: tor
+Version: 0.2.4.23-1~deb7u1
+Installed-Size: 2847
+Maintainer: Peter Palfrader <weasel@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.10), libevent-2.0-5 (>= 2.0.10-stable), libssl1.0.0 (>= 1.0.1), zlib1g (>= 1:1.1.4), adduser, lsb-base
+Suggests: mixmaster, xul-ext-torbutton, socat, tor-arm, polipo (>= 1) | privoxy, apparmor-utils
+Conflicts: libssl0.9.8 (<< 0.9.8g-9)
+Description: anonymizing overlay network for TCP
+Homepage: https://www.torproject.org/
+Description-md5: 9106e8e4b3843ebd532ba2b89615a92e
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: logrotate, tor-geoipdb, torsocks
+Section: comm
+Priority: optional
+Filename: pool/updates/main/t/tor/tor_0.2.4.23-1~deb7u1_amd64.deb
+Size: 1352016
+MD5sum: 7c320422c929c7a4a446e2bf6312ca5c
+SHA1: bb0463f23f39b407e1cd463b51b22a3cf6c3ea0c
+SHA256: 22f962d111d911919373606848b9c92ca4f52b8aa59c7210db3ac1594206bd1e
+
+Package: tor-dbg
+Source: tor
+Version: 0.2.4.23-1~deb7u1
+Installed-Size: 7130
+Maintainer: Peter Palfrader <weasel@debian.org>
+Architecture: amd64
+Depends: tor (= 0.2.4.23-1~deb7u1)
+Suggests: gdb
+Description: debugging symbols for Tor
+Homepage: https://www.torproject.org/
+Description-md5: e8a546d3317d374b2fe6f8a245b9e653
+Section: comm
+Priority: extra
+Filename: pool/updates/main/t/tor/tor-dbg_0.2.4.23-1~deb7u1_amd64.deb
+Size: 2369216
+MD5sum: a27d3348ecc190a12e4c69601f101e8a
+SHA1: 0487faf016b7f0e2c1f29477b80b0e59adb126ac
+SHA256: 6af1153167ec0622ca62d151b1540f742b56d5c915cd8c161dd13645e1450515
+
+Package: tor-geoipdb
+Source: tor
+Version: 0.2.4.23-1~deb7u1
+Installed-Size: 3367
+Maintainer: Peter Palfrader <weasel@debian.org>
+Architecture: all
+Replaces: tor (<< 0.2.4.8)
+Depends: tor (>= 0.2.4.23-1~deb7u1)
+Breaks: tor (<< 0.2.4.8)
+Description: GeoIP database for Tor
+Homepage: https://www.torproject.org/
+Description-md5: d0b50c9cd91157b8c85856fd55e26d14
+Section: comm
+Priority: extra
+Filename: pool/updates/main/t/tor/tor-geoipdb_0.2.4.23-1~deb7u1_all.deb
+Size: 1065048
+MD5sum: 0d65a870b61fc49e5d3ea22279bd461f
+SHA1: 4e9911616ddd95b2fd4372c2ecf85dc5b58b64b2
+SHA256: 5f600d975038e6ef7aec1835ab2d046888ab1bb24f55cac388df328cec5a80d6
 
 Package: libtorque2
 Source: torque
