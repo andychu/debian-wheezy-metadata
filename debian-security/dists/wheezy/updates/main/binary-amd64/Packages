@@ -14647,6 +14647,45 @@ MD5sum: bc1b8c4aed483eda60f62baaf46b0df6
 SHA1: 80c75b1814e06d22d88b3e18255d25f1286493a1
 SHA256: 64924f44a9f4225b1e0d7119ae764914f1bf0603cba2b686caa95caaf81607ca
 
+Package: liblzo2-2
+Source: lzo2
+Version: 2.06-1+deb7u1
+Installed-Size: 175
+Maintainer: Peter Eisentraut <petere@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: data compression library
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Description-md5: 6acbb2b98752f4160eba6ec78c11bb54
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/l/lzo2/liblzo2-2_2.06-1+deb7u1_amd64.deb
+Size: 58984
+MD5sum: 773310e702b9baad4b494236e54e1dfe
+SHA1: 08a72dab4b95f35449c7522d38faa15cb6ead383
+SHA256: 7132fe874653504653717a392bc3ee2ab5888134bf2f2c2f1103e42ae0329c2d
+
+Package: liblzo2-dev
+Source: lzo2
+Version: 2.06-1+deb7u1
+Installed-Size: 673
+Maintainer: Peter Eisentraut <petere@debian.org>
+Architecture: amd64
+Replaces: liblzo-dev
+Depends: liblzo2-2 (= 2.06-1+deb7u1), libc6-dev
+Description: data compression library (development files)
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Description-md5: 33a9c8476074f27fdf0d1f013ef98be9
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/l/lzo2/liblzo2-dev_2.06-1+deb7u1_amd64.deb
+Size: 150312
+MD5sum: fcf479c36690150433636774b28018cf
+SHA1: 477195ee440c0f5b7dadbbd50390f66cbba11b01
+SHA256: fc36ed0de4626d40a33219f748f0aaefd9558a51ccf1bc05d384a0e42cc2af66
+
 Package: mediawiki
 Version: 1:1.19.16+dfsg-0+deb7u1
 Installed-Size: 67248

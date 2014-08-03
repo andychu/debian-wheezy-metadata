@@ -6720,6 +6720,34 @@ Directory: pool/updates/main/l/lxml
 Priority: source
 Section: python
 
+Package: lzo2
+Binary: liblzo2-dev, liblzo2-2
+Version: 2.06-1+deb7u1
+Maintainer: Peter Eisentraut <petere@debian.org>
+Build-Depends: cdbs, debhelper (>= 8.1.3)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 250b893a5c29d2fe1891f2ab2920cdf0 1749 lzo2_2.06-1+deb7u1.dsc
+ 95380bd4081f85ef08c5209f4107e9f8 583045 lzo2_2.06.orig.tar.gz
+ 18a8363b69688258739fd16a3abc5db8 4748 lzo2_2.06-1+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 11760fe72d47ea2c23b1ede243a8618968d5f746 1749 lzo2_2.06-1+deb7u1.dsc
+ a11768b8a168ec607750842bbef406f11547b904 583045 lzo2_2.06.orig.tar.gz
+ 68f113e0f5a3ebf4a6270fe1b9b7240219b855b6 4748 lzo2_2.06-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ ebc952e74af129dab589b463f8725e15209760111e81c7a6829f96da1938e80b 1749 lzo2_2.06-1+deb7u1.dsc
+ ff79e6f836d62d3f86ef6ce893ed65d07e638ef4d3cb952963471b4234d43e73 583045 lzo2_2.06.orig.tar.gz
+ 7897926494f53c73a952bf3913e23b44e65a98b3dbeaaa09d1ac5c1f74d92d90 4748 lzo2_2.06-1+deb7u1.debian.tar.gz
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Package-List: 
+ liblzo2-2 deb libs optional
+ liblzo2-dev deb libdevel optional
+Directory: pool/updates/main/l/lzo2
+Priority: source
+Section: libs
+
 Package: mediawiki
 Binary: mediawiki
 Version: 1:1.19.16+dfsg-0+deb7u1
