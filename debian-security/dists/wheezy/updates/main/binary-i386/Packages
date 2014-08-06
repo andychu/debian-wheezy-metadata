@@ -20927,6 +20927,43 @@ MD5sum: b9972e2d123a2d9c225bfcca63573c2a
 SHA1: b5ac416e25f732b77ec1ada0cebac5f2fecdffa7
 SHA256: fc9dd49c9d755e01ad96688e45815883d822b6baaa1a7460185bea1292d61b89
 
+Package: python-reportbug
+Source: reportbug
+Version: 6.4.4+deb7u1
+Installed-Size: 367
+Maintainer: Reportbug Maintainers <reportbug-maint@lists.alioth.debian.org>
+Architecture: all
+Depends: python (>= 2.6), python-support (>= 0.90.0), apt, python-debian, python-debianbts
+Suggests: reportbug
+Description: Python modules for interacting with bug tracking systems
+Homepage: http://alioth.debian.org/projects/reportbug/
+Description-md5: a3f9f8c6d3fdd866d293b889a1d6b47a
+Section: python
+Priority: standard
+Filename: pool/updates/main/r/reportbug/python-reportbug_6.4.4+deb7u1_all.deb
+Size: 135674
+MD5sum: c759ecba5a33f56e9e7a895f4bcf070d
+SHA1: c77f9ec16b22b60b91ba0792fb9ad6b9227156f2
+SHA256: 048e13e17079e39c1e2ce115366e15aa3c53c88e711857b663e8a94080934b26
+
+Package: reportbug
+Version: 6.4.4+deb7u1
+Installed-Size: 282
+Maintainer: Reportbug Maintainers <reportbug-maint@lists.alioth.debian.org>
+Architecture: all
+Depends: python (>= 2.6), apt, python-reportbug (= 6.4.4+deb7u1)
+Suggests: postfix | exim4 | mail-transport-agent, gnupg | pgp, debconf-utils (>> 1.1.0), debsums (>= 2.0.47), file (>> 1.30), dlocate, python-urwid, python-gtk2, python-vte, python-gtkspell, xdg-utils, emacs22-bin-common | emacs23-bin-common, claws-mail (>= 3.8.0)
+Description: reports bugs in the Debian distribution
+Homepage: http://alioth.debian.org/projects/reportbug/
+Description-md5: 4a2d381d008cca3087cc072953ccbd4c
+Section: utils
+Priority: standard
+Filename: pool/updates/main/r/reportbug/reportbug_6.4.4+deb7u1_all.deb
+Size: 128224
+MD5sum: 609f35534eed2ba244366d937344b238
+SHA1: 2678b05430a111705f1216d4164a2ef68ac5c223
+SHA256: 26809d446e9ead25f961a5295d27dccbaba28e40b402434b8547280a68105892
+
 Package: request-tracker4
 Version: 4.0.7-5+deb7u2
 Installed-Size: 18732

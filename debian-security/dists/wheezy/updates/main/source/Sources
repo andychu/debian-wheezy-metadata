@@ -6779,6 +6779,40 @@ Priority: source
 Section: web
 
 Package: mediawiki-extensions
+Binary: mediawiki-extensions-base, mediawiki-extensions-geshi, mediawiki-extensions-ldapauth, mediawiki-extensions-openid, mediawiki-extensions-confirmedit, mediawiki-extensions-collection, mediawiki-extensions-graphviz, mediawiki-extensions
+Version: 3.5~deb7u1
+Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
+Uploaders: Romain Beauxis <toots@rastageeks.org>, Thorsten Glaser <tg@mirbsd.de>
+Build-Depends: debhelper (>= 7.0.1), cdbs (>= 0.4.27), quilt, patchutils (>= 0.2.25)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ f4bacf202b0a288bc421986f705d3b55 2354 mediawiki-extensions_3.5~deb7u1.dsc
+ 6e978e0de1dafadfe839a983bdc7cfcc 1648124 mediawiki-extensions_3.5~deb7u1.tar.gz
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-mediawiki/mediawiki-extensions/trunk/
+Checksums-Sha1:
+ 6836deb3b63f7dfcf27769cd6973c5639f2ca559 2354 mediawiki-extensions_3.5~deb7u1.dsc
+ d9ec14d539c72c76dd78eaba135781fe71545341 1648124 mediawiki-extensions_3.5~deb7u1.tar.gz
+Checksums-Sha256:
+ 18c7ee05c266db82c8d4344377505758c69e70543246a49d9d9ab3a3c6caedb3 2354 mediawiki-extensions_3.5~deb7u1.dsc
+ fc13e5182b1112996ddb371f1f031219c78ce56093fa060e70feb84045e65649 1648124 mediawiki-extensions_3.5~deb7u1.tar.gz
+Package-List: 
+ mediawiki-extensions deb web optional
+ mediawiki-extensions-base deb web optional
+ mediawiki-extensions-collection deb web optional
+ mediawiki-extensions-confirmedit deb web optional
+ mediawiki-extensions-geshi deb web optional
+ mediawiki-extensions-graphviz deb web optional
+ mediawiki-extensions-ldapauth deb web optional
+ mediawiki-extensions-openid deb web optional
+Vcs-Svn: svn://svn.debian.org/svn/pkg-mediawiki/mediawiki-extensions/trunk/
+Extra-Source-Only: yes
+Directory: pool/updates/main/m/mediawiki-extensions
+Priority: source
+Section: web
+
+Package: mediawiki-extensions
 Binary: mediawiki-extensions-base, mediawiki-extensions-geshi, mediawiki-extensions-ldapauth, mediawiki-extensions-openid, mediawiki-extensions-collection, mediawiki-extensions-graphviz, mediawiki-extensions
 Version: 3.5~deb7u2
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
@@ -8669,6 +8703,35 @@ Testsuite: autopkgtest
 Directory: pool/updates/main/q/quagga
 Priority: source
 Section: net
+
+Package: reportbug
+Binary: reportbug, python-reportbug
+Version: 6.4.4+deb7u1
+Maintainer: Reportbug Maintainers <reportbug-maint@lists.alioth.debian.org>
+Uploaders: Sandro Tosi <morph@debian.org>, Chris Lawrence <lawrencc@debian.org>
+Build-Depends: debhelper (>= 7), python (>= 2.5)
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (native)
+Files:
+ 1194dfbb986adb4176a3bde7315762f4 1870 reportbug_6.4.4+deb7u1.dsc
+ c80e1608c50150e9cb51581474839cac 180214 reportbug_6.4.4+deb7u1.tar.bz2
+Vcs-Browser: http://git.debian.org/?p=reportbug/reportbug.git
+Vcs-Git: git://git.debian.org/git/reportbug/reportbug.git
+Checksums-Sha1:
+ 5d950290b11a4d2875b23d3ad41367374246297e 1870 reportbug_6.4.4+deb7u1.dsc
+ 146c6e44c015e8df0363e225ce462262d22e06b8 180214 reportbug_6.4.4+deb7u1.tar.bz2
+Checksums-Sha256:
+ f6f637422433df4ef6a731878a00b89d7fb08a913d1c94e6f12b8a5370b2fc29 1870 reportbug_6.4.4+deb7u1.dsc
+ 997e0726b7cdb3d4317c4bdf9362959d32409df1061e83667f5249fac88792ba 180214 reportbug_6.4.4+deb7u1.tar.bz2
+Homepage: http://alioth.debian.org/projects/reportbug/
+Build-Depends-Indep: python-support, python-nose, python-setuptools, python-mock
+Package-List: 
+ python-reportbug deb python standard
+ reportbug deb utils standard
+Directory: pool/updates/main/r/reportbug
+Priority: source
+Section: utils
 
 Package: request-tracker4
 Binary: request-tracker4, rt4-clients, rt4-fcgi, rt4-apache2, rt4-db-postgresql, rt4-db-mysql, rt4-db-sqlite
