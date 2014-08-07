@@ -7647,7 +7647,7 @@ Section: net
 
 Package: openssl
 Binary: openssl, libssl1.0.0, libcrypto1.0.0-udeb, libssl-dev, libssl-doc, libssl1.0.0-dbg
-Version: 1.0.1e-2+deb7u11
+Version: 1.0.1e-2+deb7u12
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Uploaders: Christoph Martin <christoph.martin@uni-mainz.de>, Kurt Roeckx <kurt@roeckx.be>
 Build-Depends: debhelper (>= 8.1.3), zlib1g-dev, m4, bc, dpkg-dev (>= 1.15.7)
@@ -7655,18 +7655,18 @@ Architecture: any all
 Standards-Version: 3.8.0
 Format: 3.0 (quilt)
 Files:
- 2bd140fe21d5b0a7f3c0073545bed220 2218 openssl_1.0.1e-2+deb7u11.dsc
+ b3ccafd5a1e4e23ca371aca0288ef7ff 2218 openssl_1.0.1e-2+deb7u12.dsc
  66bf6f10f060d561929de96f9dfe5b8c 4459777 openssl_1.0.1e.orig.tar.gz
- 33fc2c3e043c29babfcbf069127e0f2c 107031 openssl_1.0.1e-2+deb7u11.debian.tar.gz
+ 6c1fd4e410c6da0154759747f70d459f 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-openssl/openssl
 Checksums-Sha1:
- 5fd0a0d155aa9a8e66860bc3cd3fe4cc702b550d 2218 openssl_1.0.1e-2+deb7u11.dsc
+ 208225f91649008341fb4030e6b1e573484489ba 2218 openssl_1.0.1e-2+deb7u12.dsc
  3f1b1223c9e8189bfe4e186d86449775bd903460 4459777 openssl_1.0.1e.orig.tar.gz
- 696c96ec8dbebddaa91ef19482f831d3b08d2a26 107031 openssl_1.0.1e-2+deb7u11.debian.tar.gz
+ df60b7ccc6b316328a92d948059b4344d5dd079a 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
 Checksums-Sha256:
- 9629ccae5a85fa16134fdde8fb35f75ea619f1c3ea34196b64fd9aa1233d876c 2218 openssl_1.0.1e-2+deb7u11.dsc
+ 1435435649b8d3bdf53fd4c9e28f4699e54f1e07d856dab72fec33228cec7015 2218 openssl_1.0.1e-2+deb7u12.dsc
  f74f15e8c8ff11aa3d5bb5f276d202ec18d7246e95f961db76054199c69c1ae3 4459777 openssl_1.0.1e.orig.tar.gz
- 195640b6461ea75041e370511048c60850018fb0475434b411a0b9c6a4e6d8fc 107031 openssl_1.0.1e-2+deb7u11.debian.tar.gz
+ 0c2c7eeaa9986db1f573f46757832b0dc33e6680af3f7805f7fbf0ebf20e4758 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
 Package-List: 
  libcrypto1.0.0-udeb udeb debian-installer optional
  libssl-dev deb libdevel optional

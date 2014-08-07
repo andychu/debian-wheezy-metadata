@@ -18139,25 +18139,25 @@ SHA256: 444f55a64cb662d32b4afaee6b852962d641dd473326e2a37a348cfbd101fbe4
 
 Package: libssl-dev
 Source: openssl
-Version: 1.0.1e-2+deb7u11
-Installed-Size: 4950
+Version: 1.0.1e-2+deb7u12
+Installed-Size: 4993
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u11), zlib1g-dev
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u12), zlib1g-dev
 Description: SSL development libraries, header files and documentation
 Description-md5: 3f77df7ec43dcb3f3b73c312168c730e
 Recommends: libssl-doc
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/o/openssl/libssl-dev_1.0.1e-2+deb7u11_i386.deb
-Size: 1590964
-MD5sum: b818b579e54aa466da2471ede6ad6b8c
-SHA1: 69353f8c4e70625b9af9271a21e283d043ed390d
-SHA256: 7eb1be1297b0785ded8895ad97050d787c5d199e9d34f8f90a30e8c770947a03
+Filename: pool/updates/main/o/openssl/libssl-dev_1.0.1e-2+deb7u12_i386.deb
+Size: 1598696
+MD5sum: 7b917ece43c9a4a0f693e274e04cccad
+SHA1: d17fc9453c148622158f5c323c6dc35f13aec17c
+SHA256: 3f54b3b5df8fecfe4c90d99196ca7e83eacf7ab60627e17f47654d8dcfd7df41
 
 Package: libssl-doc
 Source: openssl
-Version: 1.0.1e-2+deb7u11
+Version: 1.0.1e-2+deb7u12
 Installed-Size: 1423
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
@@ -18167,16 +18167,16 @@ Description: SSL development documentation documentation
 Description-md5: 59333bc869a0fa9208d500d5cabc20fd
 Section: doc
 Priority: optional
-Filename: pool/updates/main/o/openssl/libssl-doc_1.0.1e-2+deb7u11_all.deb
-Size: 1198118
-MD5sum: e616cdc012f0f2dba5443823076b4d4f
-SHA1: ae0071cc8bc3bd8e9ae20494b388a3011760bddc
-SHA256: 5ac00f989b9541d5cb9fc973f5e75f2a93c94f3c309a1fc10db5081288fedaca
+Filename: pool/updates/main/o/openssl/libssl-doc_1.0.1e-2+deb7u12_all.deb
+Size: 1198264
+MD5sum: 4bfe113ed1bd5d483beea0a7345df442
+SHA1: c5aaac7af7ceb9e9ecab59d7bf45ae7440d84bc8
+SHA256: 027784dd6f99f1a9620c6dc2fa05e83e6e94b369b08d71ceaced90a8c4c3d135
 
 Package: libssl1.0.0
 Source: openssl
-Version: 1.0.1e-2+deb7u11
-Installed-Size: 6986
+Version: 1.0.1e-2+deb7u12
+Installed-Size: 7041
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0
@@ -18186,33 +18186,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: important
-Filename: pool/updates/main/o/openssl/libssl1.0.0_1.0.1e-2+deb7u11_i386.deb
-Size: 3031028
-MD5sum: fcb0c6f2a6000c6007d9895f32ad356d
-SHA1: 7fd5ce5cee085ed90f3674a5b5332a56f6ba7dc3
-SHA256: e9f48e548a1bd2836665774bf161ac6043306a2a12aabb16e3384623cf11da10
+Filename: pool/updates/main/o/openssl/libssl1.0.0_1.0.1e-2+deb7u12_i386.deb
+Size: 3036670
+MD5sum: 0e2be25ba0299ec9613269b5148fb6e9
+SHA1: 732e6d88148f1523cc352335a10c92ed6a83ff1e
+SHA256: 0eb4aceeca1d362c4a4655160d58396a4b4df3bbf27143940eb89e6a4cceb7eb
 
 Package: libssl1.0.0-dbg
 Source: openssl
-Version: 1.0.1e-2+deb7u11
-Installed-Size: 21232
+Version: 1.0.1e-2+deb7u12
+Installed-Size: 21299
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u11)
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u12)
 Description: Symbol tables for libssl and libcrypto
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/o/openssl/libssl1.0.0-dbg_1.0.1e-2+deb7u11_i386.deb
-Size: 7574614
-MD5sum: ceae0ebb6bbd25b4a29178bbf4a340a6
-SHA1: e60203903f6702aa33c16a1fc6f83c86af740460
-SHA256: 23d20708b70a625b340509d869db03e8c0c81708e332cdd1abdeb28f6262b4ff
+Filename: pool/updates/main/o/openssl/libssl1.0.0-dbg_1.0.1e-2+deb7u12_i386.deb
+Size: 7581010
+MD5sum: 823958249636837aacd7d172ed69887e
+SHA1: f51e68208566521b46df5a34a1b3565deec88bc0
+SHA256: 114b307bcbc40beccdb88db5e8203162607b445823b5b94b6d4339b0ef5c2464
 
 Package: openssl
-Version: 1.0.1e-2+deb7u11
-Installed-Size: 1002
+Version: 1.0.1e-2+deb7u12
+Installed-Size: 1075
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.1e-2+deb7u5), zlib1g (>= 1:1.1.4)
@@ -18221,11 +18221,11 @@ Description: Secure Socket Layer (SSL) binary and related cryptographic tools
 Description-md5: 977022bc5545601176b69704acc5df9b
 Section: utils
 Priority: optional
-Filename: pool/updates/main/o/openssl/openssl_1.0.1e-2+deb7u11_i386.deb
-Size: 693288
-MD5sum: ed7297522a10f3cae3c7db043cac05dc
-SHA1: 37728db10a6afe304a7f3e5a204813181054a487
-SHA256: 2da8ec0b132df11ccb57605ece8802345f863f1ff76b8724039e5ec1d64f2f2f
+Filename: pool/updates/main/o/openssl/openssl_1.0.1e-2+deb7u12_i386.deb
+Size: 693910
+MD5sum: 94a981a158fb12c6eaa270278a8fd01d
+SHA1: 1b3bd55cc5b53c3b682d76cff3b2d2f627d242e0
+SHA256: aa26b1dac220c162efccac5bc14bf8af98e9d7652cb3780e50863abeea528dc0
 
 Package: openswan
 Version: 1:2.6.37-3+deb7u1
