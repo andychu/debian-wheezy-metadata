@@ -9515,25 +9515,25 @@ SHA256: 553a87a8425aac8a55f6fc3e32ee7b285f49c6e3f9a86f8973980b1936604a01
 
 Package: krb5-admin-server
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 280
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 237
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libkrb5support0 (>= 1.7dfsg~beta2), libss2 (>= 1.01), libverto1, krb5-kdc (>= 1.10+dfsg~), lsb-base (>= 3.0-6)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libkrb5support0 (>= 1.7dfsg~beta2), libss2 (>= 1.01), libverto1, krb5-kdc (>= 1.10+dfsg~), lsb-base (>= 3.0-6)
 Description: MIT Kerberos master server (kadmind)
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: 768e84fbe9ad60b9ec2130a96ea21ea4
 Section: net
 Priority: optional
-Filename: pool/updates/main/k/krb5/krb5-admin-server_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 119854
-MD5sum: dfdfa8acbe793927c7ad037a2d3b6634
-SHA1: 048b7dfc32f3b0b51fbc542c1a31a269a1801c7d
-SHA256: 19de0ce94508fb36b7573fc29d89e847c97ad3036462d4ae1b076661568c57b6
+Filename: pool/updates/main/k/krb5/krb5-admin-server_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 120464
+MD5sum: a0700e3f5ac21b9970ca1f8d4176e417
+SHA1: 713b5a26ee4aaa7875a1e4be47bf7f855e338c55
+SHA256: 42bb1e4bf25bad61094b74f997cdd3bcc390b59b35c89c42ba1b5e744f4d7856
 
 Package: krb5-doc
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
+Version: 1.10.1+dfsg-5+deb7u2
 Installed-Size: 3181
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: all
@@ -9544,16 +9544,16 @@ Homepage: http://web.mit.edu/kerberos/
 Description-md5: 82977cdecba51fe5a20802f9dee9fabf
 Section: doc
 Priority: optional
-Filename: pool/updates/main/k/krb5/krb5-doc_1.10.1+dfsg-5+deb7u1_all.deb
-Size: 2665144
-MD5sum: 21757d2b6f667b1aeadfe97784dbd91f
-SHA1: b45a1ef5e9de52cd6528c27f9d42961ee1e754f8
-SHA256: 9ce2479952f6a3f9e448b52ef902156f7350be2391e35c56b809de0c57f867f9
+Filename: pool/updates/main/k/krb5/krb5-doc_1.10.1+dfsg-5+deb7u2_all.deb
+Size: 2668294
+MD5sum: 52cd90525d8a542cca6b78e0455aa3cb
+SHA1: 5ca44472ca56debafd4106a4347e3a76bc229e14
+SHA256: 6f4decaaa0962548810e50eb0667132b809869b26dc18580d88027786d7c021c
 
 Package: krb5-gss-samples
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 111
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 83
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkeyutils1, libkrb5-3 (>= 1.6.dfsg.2), libkrb5support0 (>= 1.7dfsg~beta2)
@@ -9562,55 +9562,55 @@ Homepage: http://web.mit.edu/kerberos/
 Description-md5: 6e4720c194d0de7a31bbd570993cac24
 Section: net
 Priority: extra
-Filename: pool/updates/main/k/krb5/krb5-gss-samples_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 50614
-MD5sum: 5a5781eadeb39fd70c3ef814dbe53cf6
-SHA1: de88080909b40248a5f15843f8b1b3bfa8fae053
-SHA256: bbe99de9178dc85961c961f24bbb9f619a6c66a78e3933261055cf6d4688629b
+Filename: pool/updates/main/k/krb5/krb5-gss-samples_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 50800
+MD5sum: 463f1c6e7a3a918b158ee4b7b7f090de
+SHA1: 6a63883aa39a83b12d2c6b97a9e9813a909f37f6
+SHA256: 843a2d62fa9b1f983345e5c4a2b7e957bc890c324ec0683b8d9272513b7ec966
 
 Package: krb5-kdc
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 525
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 427
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Replaces: krb5-doc (<= 1.6.dfsg.3-1)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5clnt-mit8, libkadm5srv-mit8 (>= 1.10+dfsg~), libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libkrb5support0 (>= 1.7dfsg~beta2), libverto1, krb5-config, krb5-user, lsb-base (>= 3.0-6)
-Suggests: openbsd-inetd | inet-superserver, krb5-admin-server, krb5-kdc-ldap (= 1.10.1+dfsg-5+deb7u1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5clnt-mit8, libkadm5srv-mit8 (>= 1.10+dfsg~), libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libkrb5support0 (>= 1.7dfsg~beta2), libverto1, krb5-config, krb5-user, lsb-base (>= 3.0-6)
+Suggests: openbsd-inetd | inet-superserver, krb5-admin-server, krb5-kdc-ldap (= 1.10.1+dfsg-5+deb7u2)
 Conflicts: krb5-doc (<= 1.6.dfsg.3-1)
 Description: MIT Kerberos key server (KDC)
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: 0a143660c97d96b64a9766db9ef769fb
 Section: net
 Priority: optional
-Filename: pool/updates/main/k/krb5/krb5-kdc_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 220050
-MD5sum: 1019475a0d4afe127dc119aa9cbb1513
-SHA1: e7fa04e00c3a907a6786f3a21294731bd74bbc43
-SHA256: 9c3ff6763ff3d3bcb3de28a23d9fa33fb2af7dd51f30b9e76ba3c1a03ad62166
+Filename: pool/updates/main/k/krb5/krb5-kdc_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 219654
+MD5sum: d4a93b5b27687ea9cbf99c5667f9bcc3
+SHA1: f9ad168bbe17f38342c6d9685c0e86b6defa6192
+SHA256: 34191d90d6b42d97e7e1c32cc146a1a7ce9c34b4bd9eb466d5e6d2ce1ef0fc53
 
 Package: krb5-kdc-ldap
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 283
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 216
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.7+dfsg), libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (>= 1.6.dfsg.2), libkrb5support0 (>= 1.7dfsg~beta2), libldap-2.4-2 (>= 2.4.7), krb5-kdc (= 1.10.1+dfsg-5+deb7u1)
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.7+dfsg), libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (>= 1.6.dfsg.2), libkrb5support0 (>= 1.7dfsg~beta2), libldap-2.4-2 (>= 2.4.7), krb5-kdc (= 1.10.1+dfsg-5+deb7u2)
 Description: MIT Kerberos key server (KDC) LDAP plugin
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: cf27e9acb56671eabef7c903664b1b10
 Section: net
 Priority: extra
-Filename: pool/updates/main/k/krb5/krb5-kdc-ldap_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 119368
-MD5sum: 28f1875ff8bc74c2a4e3f85572212716
-SHA1: 33583bace20d7ceb90aaf5d19be7b17b868ced04
-SHA256: d2be31d3b578b308ffba260e60e2ba8fa872bed46530cb4630673bab102e70a9
+Filename: pool/updates/main/k/krb5/krb5-kdc-ldap_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 119316
+MD5sum: 03b6f712bd58fbd029655604af46a6bd
+SHA1: 7efaa36a66bac5b10595dd86a95cf0b546fe609f
+SHA256: 9a315f2eb949b0cc76710bb56bbee2c7164b8f087a241399a7054be4e408401f
 
 Package: krb5-locales
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 1514
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 1515
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: all
 Description: Internationalization support for MIT Kerberos
@@ -9619,38 +9619,38 @@ Description-md5: 9832530db9d027f2921f0105bd4c102e
 Multi-Arch: foreign
 Section: localization
 Priority: standard
-Filename: pool/updates/main/k/krb5/krb5-locales_1.10.1+dfsg-5+deb7u1_all.deb
-Size: 1503134
-MD5sum: 5fc1b64357e7aa579b89e1b9fecec3d1
-SHA1: 9bbe440b60a0a6d4aead8dbda56b79e734a75137
-SHA256: 8fc5e6d6ea62e6178f5647184edcaef5e92882f9cc219e26f19b972c226f09a6
+Filename: pool/updates/main/k/krb5/krb5-locales_1.10.1+dfsg-5+deb7u2_all.deb
+Size: 1503172
+MD5sum: d885872c317280b4195c9d3e2b87c0fc
+SHA1: 8b9e8c883260dee1854f04ec98a9af0e1478a002
+SHA256: 678639a04d89a1bf8734bcf60a4adfa65a8bbf1bf1cafc092b235100edd89f82
 
 Package: krb5-multidev
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 686
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 628
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libk5crypto3 (= 1.10.1+dfsg-5+deb7u1), libgssapi-krb5-2 (= 1.10.1+dfsg-5+deb7u1), libgssrpc4 (= 1.10.1+dfsg-5+deb7u1), libkadm5srv-mit8 (= 1.10.1+dfsg-5+deb7u1), libkadm5clnt-mit8 (= 1.10.1+dfsg-5+deb7u1), comerr-dev
+Depends: libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libk5crypto3 (= 1.10.1+dfsg-5+deb7u2), libgssapi-krb5-2 (= 1.10.1+dfsg-5+deb7u2), libgssrpc4 (= 1.10.1+dfsg-5+deb7u2), libkadm5srv-mit8 (= 1.10.1+dfsg-5+deb7u2), libkadm5clnt-mit8 (= 1.10.1+dfsg-5+deb7u2), comerr-dev
 Suggests: krb5-doc
 Description: Development files for MIT Kerberos without Heimdal conflict
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: 7761820aba399b20f00deab931782fe1
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/k/krb5/krb5-multidev_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 152290
-MD5sum: 9ddd702a90be23ffc142fe62d3f60aeb
-SHA1: b9dcc93d3ad66bc78049f70341d519e0c969a124
-SHA256: 8f6c4ba6b41e504ed3180214278dcb0d4ab958df1173ae44c035a6c38107e36c
+Filename: pool/updates/main/k/krb5/krb5-multidev_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 153524
+MD5sum: e9e3204b3682c059bf51e0f3f9be5a06
+SHA1: 69097c58cc94121abca2391dc74007ac2d3742ba
+SHA256: 4b91f420bb5244a0f73872e92df052263e6164ae2426d8d4f6a8ff217ead9f82
 
 Package: krb5-pkinit
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 188
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 145
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libkrb5support0 (>= 1.7dfsg~beta2), libssl1.0.0 (>= 1.0.0)
+Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libkrb5support0 (>= 1.7dfsg~beta2), libssl1.0.0 (>= 1.0.0)
 Suggests: opensc
 Description: PKINIT plugin for MIT Kerberos
 Homepage: http://web.mit.edu/kerberos/
@@ -9658,38 +9658,38 @@ Description-md5: 5b95da6e663d16f53b0cdeb2712ed0f3
 Multi-Arch: same
 Section: net
 Priority: extra
-Filename: pool/updates/main/k/krb5/krb5-pkinit_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 81928
-MD5sum: c47cbbfe2048d0898be865da4230291c
-SHA1: b7e1def935534689673e3d555687fa02b7a909b5
-SHA256: 54af2613c84a2518df87d96f4ce35c689766a3ddce46bf73b48e4ddc55a19219
+Filename: pool/updates/main/k/krb5/krb5-pkinit_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 82036
+MD5sum: ca74bcabb8307f58df77c6f25f764f0e
+SHA1: 04cdad33be9f86a0338ba707f65e7a8cf586dc17
+SHA256: 16ae0c04a90604e557fd1da5347e1656b6cd71c41a43df4f48dd2553714f03c3
 
 Package: krb5-user
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 335
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 292
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5clnt-mit8, libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libkrb5support0 (>= 1.7dfsg~beta2), libss2 (>= 1.01), krb5-config
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.9+dfsg~beta1), libkadm5clnt-mit8, libkadm5srv-mit8, libkdb5-6, libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libkrb5support0 (>= 1.7dfsg~beta2), libss2 (>= 1.01), krb5-config
 Conflicts: heimdal-clients
 Description: Basic programs to authenticate using MIT Kerberos
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: ca243064a3a71b9425feb54097e4dfd7
 Section: net
 Priority: optional
-Filename: pool/updates/main/k/krb5/krb5-user_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 148640
-MD5sum: eeebef3c39658eecf02cf133d34878b2
-SHA1: 6d1b46fad8d16fb6b8259fd10640b26aacd0c665
-SHA256: 3afecb4b263c36aa92f77a334c7d7bc1c75ea3ae64d8c3d89caddce06f1879d9
+Filename: pool/updates/main/k/krb5/krb5-user_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 148684
+MD5sum: 2ddd7feea225d30cb8b7a5b7ee2b6dbf
+SHA1: c072918f728afa927685ad72b868daabd853a270
+SHA256: 0926e33caa58fa099092206ba31c6479d0587b3d4b53710902afa035ec3e077c
 
 Package: libgssapi-krb5-2
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 329
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 297
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.7), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u1), libkrb5support0 (>= 1.7dfsg~beta2)
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.8+dfsg), libkeyutils1, libkrb5-3 (= 1.10.1+dfsg-5+deb7u2), libkrb5support0 (>= 1.7dfsg~beta2)
 Suggests: krb5-doc, krb5-user
 Breaks: libgssglue1 (<< 0.2-2)
 Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -9699,16 +9699,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libgssapi-krb5-2_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 148586
-MD5sum: dc1ccd1e5950c3bcec0e14597275bae7
-SHA1: a848f350a2d433a8b3b925159d796940a39cc87a
-SHA256: b402ae751b4cf56d058804f1bbb073b5ce15ce9d4238ab92ced0ec8f3d992483
+Filename: pool/updates/main/k/krb5/libgssapi-krb5-2_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 148984
+MD5sum: 6860c4f0af4729c8d69e54538f42eda7
+SHA1: d06f105b3f1312f25a1f8a1eca1ba626b20b6190
+SHA256: 9d10c6234c27c0b97c68d46afc525c7cb334bd5ded87d63e2dad4ad39eab70bf
 
 Package: libgssrpc4
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 198
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 167
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2)
@@ -9721,16 +9721,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libgssrpc4_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 87252
-MD5sum: 8a5c4684cdf869c0e4f2ffe5ad4d8af7
-SHA1: 7dcc3619f461da774dbddf5d91b7ed6c816748fc
-SHA256: 9879cf74caef544ea2986fcb2a7931a0d8cce5acd92605f4b59e95599e38e928
+Filename: pool/updates/main/k/krb5/libgssrpc4_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 87222
+MD5sum: f13d075621a6739c5612215fbd3f2176
+SHA1: a9e2e4fde9377d2809b5708191fe1792c221c12a
+SHA256: e0c887c5afb6f85bd235e07f06f22f873cac20e86a70ec8581fdc963f2bd643f
 
 Package: libk5crypto3
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 240
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 208
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.4), libkeyutils1, libkrb5support0 (>= 1.7dfsg~beta2)
@@ -9744,16 +9744,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libk5crypto3_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 108656
-MD5sum: a6393e5175dc539c7d1a46142a246a76
-SHA1: 66f37d4e39bd8a737eacd194508592a1403cf80d
-SHA256: acd1455f1fc97522cb0bba74b8f344b873923655def758e744e5cbd55d67b2ed
+Filename: pool/updates/main/k/krb5/libk5crypto3_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 108590
+MD5sum: 07dd5ed17431eeb91d32e081bcba760a
+SHA1: f48d59d11387b4756790c5eb9e16b39380001af5
+SHA256: 9ad25778f8a4456a724e447bd55a083e389690068aa8414789e04aff13a686b0
 
 Package: libkadm5clnt-mit8
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 155
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 124
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.10+dfsg~), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.8+dfsg), libkrb5support0 (>= 1.7dfsg~beta2)
@@ -9765,16 +9765,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libkadm5clnt-mit8_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 67526
-MD5sum: 5d2076c6cc7f6819ace03a14d6f6c059
-SHA1: ab1f04f7b01fc540501f486ec1bf830a770cee12
-SHA256: 11bc9a929e17b156ded4b796acecd6cd9600cb17d89825a6f119e574837126c0
+Filename: pool/updates/main/k/krb5/libkadm5clnt-mit8_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 67568
+MD5sum: e8f3194f150b7dc247aeb62340061545
+SHA1: 0ee34f95fbe4bd5cc81aa67db76c67c56e2540c2
+SHA256: 6390203f459220b395b421133005ef00fd6228e3498d0d651eb17aa62ac0177d
 
 Package: libkadm5srv-mit8
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 187
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 156
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgssrpc4 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkdb5-6, libkrb5-3 (>= 1.9+dfsg~beta1), libkrb5support0 (>= 1.7dfsg~beta2)
@@ -9786,16 +9786,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libkadm5srv-mit8_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 84842
-MD5sum: f8a7e000e8d4ddc63ba792eb5362baf1
-SHA1: 205f8bb52bb5913e5c1583966845b85f7c3be39e
-SHA256: abf42bd53ca5fc546f7b6722a9712adc1b0bf62a50be344983ed3284c47b09c3
+Filename: pool/updates/main/k/krb5/libkadm5srv-mit8_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 84986
+MD5sum: b9910bc23adee0aef0ad0dfd7437d32b
+SHA1: d4b1794efd42ecb29471a1f14ec71f4b71705657
+SHA256: a6a45111dd3eb4f5bbf7ec52889a19bc3ff452f0e3095f3b92373b9773f0a8fc
 
 Package: libkdb5-6
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 147
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 116
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssrpc4 (>= 1.7dfsg~alpha1), libk5crypto3 (>= 1.7+dfsg), libkeyutils1, libkrb5-3 (>= 1.7dfsg), libkrb5support0 (>= 1.7dfsg~beta2)
@@ -9808,19 +9808,19 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libkdb5-6_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 66912
-MD5sum: 28c32e4f0708107de0a1caf139a44411
-SHA1: afa84fe81fca63dceeb4dcab0de16b8bc503a85a
-SHA256: 4836d42fbb0ad21f39b2340361f7b9ccb6049708bca7381161aca924ed9ca3e9
+Filename: pool/updates/main/k/krb5/libkdb5-6_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 66800
+MD5sum: 81fdffa58782c98d0a4b7f1e065ae5ea
+SHA1: 6d63d536d5949e51d111cfcf7fc920a0cb14f641
+SHA256: 14bd4cb52e8516f149237624ccf0ab4d4817b110802c8261ae374d1785241ca4
 
 Package: libkrb5-3
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 972
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 921
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.9), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1, libkrb5support0 (= 1.10.1+dfsg-5+deb7u1)
+Depends: libc6 (>= 2.9), libcomerr2 (>= 1.34), libk5crypto3 (>= 1.9+dfsg~beta1), libkeyutils1, libkrb5support0 (= 1.10.1+dfsg-5+deb7u2)
 Suggests: krb5-doc, krb5-user
 Conflicts: libkrb53
 Breaks: libsmbclient (<= 2:3.6.1-2), sssd (<= 1.2.1-4.3)
@@ -9832,39 +9832,39 @@ Pre-Depends: multiarch-support
 Recommends: krb5-locales
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libkrb5-3_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 402620
-MD5sum: 003dc1c837f588762930ea066ef0b2cb
-SHA1: c2ad41ea8d98a002e4ed6b688906352a064255cb
-SHA256: 072a532a3db234c13bf17ba30d2325d9d90a90560b69f276282784387194b488
+Filename: pool/updates/main/k/krb5/libkrb5-3_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 402044
+MD5sum: dca2c8fe143cee5f35a0ace1738ca6d5
+SHA1: bbd7afd69c0f7b01645d19d595ed3729ce8508f7
+SHA256: 6d4e8798a2c024d485719223759d82665b57aca61cceda2dcdbf7907a52d6bac
 
 Package: libkrb5-dbg
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 5661
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 5618
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
-Depends: libkrb5-3 (= 1.10.1+dfsg-5+deb7u1) | libk5crypto3 (= 1.10.1+dfsg-5+deb7u1) | libkrb5support0 (= 1.10.1+dfsg-5+deb7u1)
+Depends: libkrb5-3 (= 1.10.1+dfsg-5+deb7u2) | libk5crypto3 (= 1.10.1+dfsg-5+deb7u2) | libkrb5support0 (= 1.10.1+dfsg-5+deb7u2)
 Description: Debugging files for MIT Kerberos
 Homepage: http://web.mit.edu/kerberos/
 Description-md5: 5a4b785ef1af9c8f242b4f1a2d5710a0
 Multi-Arch: same
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/k/krb5/libkrb5-dbg_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 2063856
-MD5sum: a607e9381de6518b91e7257638aae65d
-SHA1: e09b8131ee0c9e9420fd7cd76c0f582d5e2022a3
-SHA256: 354e358c37d01e2b6587093f8f4c1ca7b35aaf5a1964f1fc2d147faf1a78a79f
+Filename: pool/updates/main/k/krb5/libkrb5-dbg_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 2063222
+MD5sum: 6c0ceae2be833398c4d742033ed6d7d9
+SHA1: e42d132f53e5428b774f554ac17b1e06e8073486
+SHA256: 17709ceef1d9db28c6c1ee175052cf68658f35c58a54d81d64d2055addae78cd
 
 Package: libkrb5-dev
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 123
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 57
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Replaces: krb5-multidev (<< 1.8+dfsg~alpha1-3)
-Depends: krb5-multidev (= 1.10.1+dfsg-5+deb7u1)
+Depends: krb5-multidev (= 1.10.1+dfsg-5+deb7u2)
 Suggests: krb5-doc
 Conflicts: heimdal-dev
 Description: Headers and development libraries for MIT Kerberos
@@ -9872,16 +9872,16 @@ Homepage: http://web.mit.edu/kerberos/
 Description-md5: 2ab394392864dbbc72c409c7aec58377
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/k/krb5/libkrb5-dev_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 39800
-MD5sum: bda066abe4108da4fccca4c34b0d7185
-SHA1: 408cc5d26e388371bc1f9299367259b92486b04b
-SHA256: 6377060e90b63471c35171dcaa66209d6889e4d7e89a0572c8ab483ffd90a24a
+Filename: pool/updates/main/k/krb5/libkrb5-dev_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 40350
+MD5sum: e7e1f732f3048cbaa46370aded892dc3
+SHA1: 3c1863a3ba620feda6bde3f465973a2db187b560
+SHA256: c838f5a3ad155cc7649ff875254e67857de17cf4b9d7ddd511a0732c4ece8495
 
 Package: libkrb5support0
 Source: krb5
-Version: 1.10.1+dfsg-5+deb7u1
-Installed-Size: 114
+Version: 1.10.1+dfsg-5+deb7u2
+Installed-Size: 82
 Maintainer: Sam Hartman <hartmans@debian.org>
 Architecture: i386
 Depends: libc6 (>= 2.3.4), libkeyutils1
@@ -9893,11 +9893,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/k/krb5/libkrb5support0_1.10.1+dfsg-5+deb7u1_i386.deb
-Size: 49186
-MD5sum: f76eb6b95b657ab3ff25505c39eb155a
-SHA1: f13f8f62e565ea3224b1be2eef2596c67b525843
-SHA256: 596cc671c26cc66cfd23e886b2cad0b7b98f8136d272f5e31cb4df8c074db702
+Filename: pool/updates/main/k/krb5/libkrb5support0_1.10.1+dfsg-5+deb7u2_i386.deb
+Size: 49638
+MD5sum: 9caccccf85de88d2c0dd5fe2d5808852
+SHA1: 9790be07ef4d8ab6fec30ac642e5bbb23e64f0d4
+SHA256: dbdbfde9eb230ec614b722d8117478e426b6ad4a8d52e2f9ef0b4d3b1fa665c4
 
 Package: libapache2-mod-fcgid
 Version: 1:2.3.6-1.2+deb7u1
@@ -25108,8 +25108,8 @@ SHA1: 6002a593d1640cb37aefe1d33ac48c492da67945
 SHA256: 7b0a94bbddb0ac10f345c531dd92ca73f4fb243036245c165bbea46fdd8f2a70
 
 Package: wordpress
-Version: 3.6.1+dfsg-1~deb7u3
-Installed-Size: 12475
+Version: 3.6.1+dfsg-1~deb7u4
+Installed-Size: 12478
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Architecture: all
 Depends: libjs-cropper (>= 1.2.2), libphp-phpmailer (>= 5.1), libphp-snoopy (>= 1.2.4), tinymce (<< 3.4.8+dfsg0.0~), tinymce (>= 3.4.8+dfsg0), apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, php5-gd
@@ -25120,29 +25120,29 @@ Description-md5: 3558d680fa97c6a3f32c5c5e9f4a182a
 Recommends: wordpress-l10n
 Section: web
 Priority: optional
-Filename: pool/updates/main/w/wordpress/wordpress_3.6.1+dfsg-1~deb7u3_all.deb
-Size: 3198960
-MD5sum: be518e23b0572b522530c869014dd897
-SHA1: fd2d06113fa6a07fa27bb02bfa5543d7d2a60f3e
-SHA256: 61d744ca981a16f77a4b859ba2ce968463bd59b35178af83096cdc1798a8bd10
+Filename: pool/updates/main/w/wordpress/wordpress_3.6.1+dfsg-1~deb7u4_all.deb
+Size: 3199578
+MD5sum: 855bb5a3d6f293345c10b68d3ba12008
+SHA1: 0ae10404055d32309b8d3e5662418a24dc4c9e6c
+SHA256: 5a49c0a90e79fbe9a699a154276ed313e9053994a92fe0d95c9005c88f37f520
 
 Package: wordpress-l10n
 Source: wordpress
-Version: 3.6.1+dfsg-1~deb7u3
+Version: 3.6.1+dfsg-1~deb7u4
 Installed-Size: 27391
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Architecture: all
-Depends: wordpress (= 3.6.1+dfsg-1~deb7u3)
+Depends: wordpress (= 3.6.1+dfsg-1~deb7u4)
 Description: weblog manager - language files
 Homepage: http://wordpress.org
 Description-md5: 7a442bfcb53dd9ab21ef52d5f75d013d
 Section: localization
 Priority: optional
-Filename: pool/updates/main/w/wordpress/wordpress-l10n_3.6.1+dfsg-1~deb7u3_all.deb
-Size: 3740768
-MD5sum: c624b7e2b5022ce3d784d9542ef41669
-SHA1: 213f8526511fec9084136c1a7ebf2b2c3547a1a6
-SHA256: 232e165f89b779718ee7ee930e2208996880a0fae05c306ff01c0b11b6416de7
+Filename: pool/updates/main/w/wordpress/wordpress-l10n_3.6.1+dfsg-1~deb7u4_all.deb
+Size: 3740082
+MD5sum: 6fa3a5100ab2a7a87533ec7ff6fe4b01
+SHA1: f4bb505cf10cd174a18362ea3bcf05e78b66d825
+SHA256: 1fdb498ef189397f8fcae4430a61b781a2b6ab7271950a9d60cef1d782f78613
 
 Package: xbuffy
 Version: 3.3.bl.3.dfsg-8+deb7u1

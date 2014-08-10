@@ -2989,7 +2989,7 @@ Section: kernel
 
 Package: krb5
 Binary: krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit8, libkadm5clnt-mit8, libk5crypto3, libkdb5-6, libkrb5support0, krb5-gss-samples, krb5-locales
-Version: 1.10.1+dfsg-5+deb7u1
+Version: 1.10.1+dfsg-5+deb7u2
 Maintainer: Sam Hartman <hartmans@debian.org>
 Uploaders: Russ Allbery <rra@debian.org>
 Build-Depends: debhelper (>= 8.1.3), byacc | bison, comerr-dev, docbook-to-man, libkeyutils-dev [linux-any], libldap2-dev, libncurses5-dev, libssl-dev, ss-dev, libverto-dev, pkg-config, texinfo
@@ -2997,19 +2997,19 @@ Architecture: any all
 Standards-Version: 3.9.1
 Format: 3.0 (quilt)
 Files:
- 95331e1573c997c0ef2684c4ab29fa79 3649 krb5_1.10.1+dfsg-5+deb7u1.dsc
+ 46e987369fe06081bf64b0b18014a5b1 2298 krb5_1.10.1+dfsg-5+deb7u2.dsc
  3da41835dd4df7d4f3583f82cdbf1a84 10638231 krb5_1.10.1+dfsg.orig.tar.gz
- 2ada0fe230b3f701917ec6924b7a4914 132477 krb5_1.10.1+dfsg-5+deb7u1.debian.tar.gz
+ a1759568c95f81a9937ff20cabcdd268 138587 krb5_1.10.1+dfsg-5+deb7u2.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-k5-afs/debian-krb5.git
 Vcs-Git: git://git.debian.org/git/pkg-k5-afs/debian-krb5.git
 Checksums-Sha1:
- 9c21119e529b81832f79618f7866c4d1cde8818e 3649 krb5_1.10.1+dfsg-5+deb7u1.dsc
+ f527ead4f657368dac61fd1d85c9d3cdb58af549 2298 krb5_1.10.1+dfsg-5+deb7u2.dsc
  dd4efcb604aec3f7faca0cb97e9dbd1f456c710e 10638231 krb5_1.10.1+dfsg.orig.tar.gz
- 27753e59ec70da30e90984406f40b7d21e483fe0 132477 krb5_1.10.1+dfsg-5+deb7u1.debian.tar.gz
+ 9a793ea3e2f67c0206a41bb376d90cc4209835c9 138587 krb5_1.10.1+dfsg-5+deb7u2.debian.tar.gz
 Checksums-Sha256:
- 5c1759e92aed4134816ba9e811ebc6555b968ca50fa4c55df54bb4f69c15e6a9 3649 krb5_1.10.1+dfsg-5+deb7u1.dsc
+ 9a5ea7c5a229cb81d4b7a0da9dfa1c8b827bac1211fe87be2597133b17e5e984 2298 krb5_1.10.1+dfsg-5+deb7u2.dsc
  f0b63fb8ffd0ae0bf3276da37fc55857079c75dccf78b31d628a0aeccfa8b183 10638231 krb5_1.10.1+dfsg.orig.tar.gz
- a8318cda7538299bfe5244f870633fbcf2bf763ce26fc11a4c433f5254e38bfc 132477 krb5_1.10.1+dfsg-5+deb7u1.debian.tar.gz
+ 4dfa2a5eeafc5682d7e646b8042cc6928f64299904d1ef2b3627cc1744367102 138587 krb5_1.10.1+dfsg-5+deb7u2.debian.tar.gz
 Homepage: http://web.mit.edu/kerberos/
 Build-Depends-Indep: texinfo
 Package-List: 
@@ -10016,7 +10016,7 @@ Section: net
 
 Package: wordpress
 Binary: wordpress, wordpress-l10n
-Version: 3.6.1+dfsg-1~deb7u3
+Version: 3.6.1+dfsg-1~deb7u4
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 9), dh-linktree
@@ -10024,24 +10024,24 @@ Architecture: all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- 014cdb721cedbfcfacb0670ef19eb3cf 2319 wordpress_3.6.1+dfsg-1~deb7u3.dsc
+ 13f4355918d8f6cc55903f29c010d444 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
  4fbd2c241f5d7075b115dfba1b130bfa 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- a9621e4c447d1eb294e7f28b8e432460 5155892 wordpress_3.6.1+dfsg-1~deb7u3.debian.tar.xz
+ ce48b38db5bb2148b32c1e7607faf4d1 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/wordpress.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/wordpress.git
 Checksums-Sha1:
- de8201875d0c045d4bb7a4fa168bf95fa070081a 2319 wordpress_3.6.1+dfsg-1~deb7u3.dsc
+ e2780d2bb101d9b84143d35e235f1792e3f14457 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
  997fd2158cd14bd29a5598a81c780db34f7173f7 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- a41ee9cce08bfd2fbad5f0fac3efac6f2b79a105 5155892 wordpress_3.6.1+dfsg-1~deb7u3.debian.tar.xz
+ 6390491d6b961450df20cef2e12de255bbc44cf9 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
 Checksums-Sha256:
- 1287d0954990cfc74b0247decbb3e21146e95e5ac6c629acf85adf422361c5a2 2319 wordpress_3.6.1+dfsg-1~deb7u3.dsc
+ b231b1d8fd35809a648f89f252e60b9496ea5afcac1c2a273a1a36f8c77cd964 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
  20714525a688eadd649e2e497b4cd300870445867e1f8b3305b49da5ca55b50d 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- a74a40daece5efc5faed14d31752df9941a6991d8621244ecc5306f64f4b00ab 5155892 wordpress_3.6.1+dfsg-1~deb7u3.debian.tar.xz
+ 7d751ca5c8731a11302c296ccc49e2f791d41dac86435a1dde3090543a27a05a 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
 Homepage: http://wordpress.org
 Build-Depends-Indep: perl, gettext, libphp-phpmailer (>= 5.1), libjs-prototype, libjs-scriptaculous, tinymce (>= 3.4.2), libphp-snoopy, libjs-jquery (>= 1.6.1), libjs-jquery-ui (>= 1.8.1), libjs-jquery-form, libjs-cropper, libphp-simplepie (>= 1.2), libjs-swfobject, libjs-backbone, libjs-underscore
 Package-List: 
- wordpress deb web optional
- wordpress-l10n deb localization optional
+ wordpress deb web optional arch=all
+ wordpress-l10n deb localization optional arch=all
 Directory: pool/updates/main/w/wordpress
 Priority: source
 Section: web
