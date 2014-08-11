@@ -9199,6 +9199,766 @@ MD5sum: 0e9e81808f0d17c644366264669c246b
 SHA1: 454e23a8cfba3e90d81f6b91a01d70f10ea95fb0
 SHA256: d818ade171686072b41b228ed11c9827262651de3fc54d709dbb8b6e25e3db0e
 
+Package: kdelibs-bin
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 785
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libkjsembed4 (= 4:4.8.4-4+deb7u1), libkrosscore4 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libnepomukutils4 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.4.0), libx11-6
+Conflicts: kjscmd
+Description: core executables for KDE Applications
+Homepage: http://www.kde.org/
+Description-md5: 8c1a7b51c921c425f6300691dd629da4
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/kdelibs-bin_4.8.4-4+deb7u1_i386.deb
+Size: 225178
+MD5sum: 14926cd1030004ffe4d14d690601c74f
+SHA1: 8a424664ca66c11fe2f8a864ce2acf42cf1b9d01
+SHA256: 5a19240cdc4828bb47b94d1e2a44034f78765c0b844993b901713d06f95ac23b
+
+Package: kdelibs5-data
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 6554
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: all
+Replaces: kdebase-runtime-data (<< 4:4.5.85), libplasma2
+Depends: perl, hicolor-icon-theme
+Breaks: kdebase-runtime-data (<< 4:4.5.85), libplasma2
+Description: core shared data for all KDE Applications
+Homepage: http://www.kde.org/
+Description-md5: 2bd024f64244b4a4f31312afcf299c8d
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/kdelibs5-data_4.8.4-4+deb7u1_all.deb
+Size: 2845920
+MD5sum: 821231e2f9718e7458a145dcc72fec21
+SHA1: 0e39087b153fc78eafc9f8cb3ccefa8de2245734
+SHA256: a465d78383fbb823a0cb282d552679de5c652b921a78224a07ed2455e9a205a6
+
+Package: kdelibs5-dbg
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 345197
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libkdecore5 (= 4:4.8.4-4+deb7u1), libqt4-dbg (>= 4:4.6)
+Description: debugging symbols for the KDE Development Platform libraries
+Homepage: http://www.kde.org/
+Description-md5: 5267f8d9119e5ba93ffb45270c660c6c
+Recommends: libkdeui5 (= 4:4.8.4-4+deb7u1), libkpty4 (= 4:4.8.4-4+deb7u1), libkdesu5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libkjsembed4 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkntlm4 (= 4:4.8.4-4+deb7u1), libsolid4 (= 4:4.8.4-4+deb7u1), libkde3support4 (= 4:4.8.4-4+deb7u1), libkfile4 (= 4:4.8.4-4+deb7u1), libknewstuff2-4 (= 4:4.8.4-4+deb7u1), libknewstuff3-4 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libkutils4 (= 4:4.8.4-4+deb7u1), libthreadweaver4 (= 4:4.8.4-4+deb7u1), libkhtml5 (= 4:4.8.4-4+deb7u1), libkimproxy4 (= 4:4.8.4-4+deb7u1), libkmediaplayer4 (= 4:4.8.4-4+deb7u1), libktexteditor4 (= 4:4.8.4-4+deb7u1), libknotifyconfig4 (= 4:4.8.4-4+deb7u1), libkdnssd4 (= 4:4.8.4-4+deb7u1), libkrosscore4 (= 4:4.8.4-4+deb7u1), libkrossui4 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libnepomukutils4 (= 4:4.8.4-4+deb7u1), libnepomukquery4a (= 4:4.8.4-4+deb7u1), libplasma3 (= 4:4.8.4-4+deb7u1), libkunitconversion4 (= 4:4.8.4-4+deb7u1), libkdewebkit5 (= 4:4.8.4-4+deb7u1), libkcmutils4 (= 4:4.8.4-4+deb7u1), libkemoticons4 (= 4:4.8.4-4+deb7u1), libkidletime4 (= 4:4.8.4-4+deb7u1), libkprintutils4 (= 4:4.8.4-4+deb7u1), libkdeclarative5 (= 4:4.8.4-4+deb7u1), kdelibs-bin (= 4:4.8.4-4+deb7u1)
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/k/kde4libs/kdelibs5-dbg_4.8.4-4+deb7u1_i386.deb
+Size: 79177658
+MD5sum: 72035fac2e16d45f0e336530f3733632
+SHA1: 5cffb3bbac7921c1d5ebf715522bcf1174e864be
+SHA256: 8f4e522107be1a2ca01e0717f14e8485c953ee4652680d80f6616cf7f6908707
+
+Package: kdelibs5-dev
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 8545
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Replaces: libplasma-dev (<< 4:4.1.96)
+Depends: libc6 (>= 2.4), libkde3support4 (= 4:4.8.4-4+deb7u1), libkdecore5 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), perl, libkdeui5 (= 4:4.8.4-4+deb7u1), libkpty4 (= 4:4.8.4-4+deb7u1), libkdesu5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libkjsembed4 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkntlm4 (= 4:4.8.4-4+deb7u1), libsolid4 (= 4:4.8.4-4+deb7u1), libkfile4 (= 4:4.8.4-4+deb7u1), libknewstuff2-4 (= 4:4.8.4-4+deb7u1), libknewstuff3-4 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libkutils4 (= 4:4.8.4-4+deb7u1), libthreadweaver4 (= 4:4.8.4-4+deb7u1), libkhtml5 (= 4:4.8.4-4+deb7u1), libkimproxy4 (= 4:4.8.4-4+deb7u1), libkmediaplayer4 (= 4:4.8.4-4+deb7u1), libktexteditor4 (= 4:4.8.4-4+deb7u1), libknotifyconfig4 (= 4:4.8.4-4+deb7u1), libkdnssd4 (= 4:4.8.4-4+deb7u1), libkrosscore4 (= 4:4.8.4-4+deb7u1), libkrossui4 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libnepomukutils4 (= 4:4.8.4-4+deb7u1), libnepomukquery4a (= 4:4.8.4-4+deb7u1), libplasma3 (= 4:4.8.4-4+deb7u1), libkunitconversion4 (= 4:4.8.4-4+deb7u1), libkdewebkit5 (= 4:4.8.4-4+deb7u1), libkcmutils4 (= 4:4.8.4-4+deb7u1), libkemoticons4 (= 4:4.8.4-4+deb7u1), libkidletime4 (= 4:4.8.4-4+deb7u1), libkprintutils4 (= 4:4.8.4-4+deb7u1), libkdeclarative5 (= 4:4.8.4-4+deb7u1), kdoctools (= 4:4.8.4-4+deb7u1), kdelibs-bin (= 4:4.8.4-4+deb7u1), automoc (>= 1.0~version-0.9.88), libqt4-dev (>= 4:4.8.0), libsoprano-dev (>= 2.5.63), libphonon-dev (>= 4:4.6.0really4.4.3)
+Conflicts: kdelibs4-dev, libkjsembed-dev
+Breaks: libplasma-dev (<< 4:4.1.96)
+Description: development files for the KDE Development Platform libraries
+Homepage: http://www.kde.org/
+Description-md5: 4143b0754ef485c998c2c10e78ae60ce
+Recommends: libqt4-opengl-dev (>= 4:4.7.0)
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/kdelibs5-dev_4.8.4-4+deb7u1_i386.deb
+Size: 1451772
+MD5sum: 69e69ed3dc4505250770f684b7422385
+SHA1: f588c0fa42baaede7a78cde4d45a89f84a5830a0
+SHA256: b587f68dbe453a75ff2aa6c8aa6a5c2a5b9e74f600de5931496152945b54defc
+
+Package: kdelibs5-plugins
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 4455
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Replaces: kdelibs5-data (<< 4:4.6.3-3~), kdelibs5-dev (<< 4:4.6.2)
+Depends: libacl1 (>= 2.2.51-8), libaspell15 (>= 0.60.7~20110707), libc6 (>= 2.7), libenchant1c2a (>= 1.6), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libilmbase6 (>= 1.0.1), libjasper1, libkde3support4 (= 4:4.8.4-4+deb7u1), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkdewebkit5 (= 4:4.8.4-4+deb7u1), libkemoticons4 (= 4:4.8.4-4+deb7u1), libkfile4 (= 4:4.8.4-4+deb7u1), libkhtml5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libkjsembed4 (= 4:4.8.4-4+deb7u1), libkntlm4 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libkrosscore4 (= 4:4.8.4-4+deb7u1), libopenexr6 (>= 1.6.1), libphonon4 (>= 4:4.6.0really4.3.80), libpolkit-qt-1-1 (>= 0.99.0), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-qt3support (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4-4+deb7u1), libstdc++6 (>= 4.4.0), libx11-6, zlib1g (>= 1:1.1.4), perl, kdelibs5-data (= 4:4.8.4-4+deb7u1), kdoctools (= 4:4.8.4-4+deb7u1), kdelibs-bin (= 4:4.8.4-4+deb7u1), katepart, dbus-x11, shared-mime-info (>= 0.30), xdg-utils
+Breaks: kdelibs5-data (<< 4:4.6.3-3~), kdelibs5-dev (<< 4:4.6.2), kdevelop (<< 4:4.2)
+Description: core plugins for KDE Applications
+Homepage: http://www.kde.org/
+Description-md5: 47c4a19af28fe26f79c1626027f99953
+Recommends: ttf-dejavu, kde-runtime
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/kdelibs5-plugins_4.8.4-4+deb7u1_i386.deb
+Size: 1006004
+MD5sum: 2d6ae5ab74d72fc0e80847c8d4252231
+SHA1: 2a6be55747d822040a819fbae3bad8e3155a6526
+SHA256: e62588642b668a5d5a06d4ced1723d19baa6ff2efaf93bbe70891e983ba92ee8
+
+Package: kdoctools
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 1569
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), docbook-xml, docbook-xsl, libxml2-utils
+Description: various tools for accessing application documentation
+Homepage: http://www.kde.org/
+Description-md5: 238d6e603fc4c3e7e34babe8e5e78683
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/kdoctools_4.8.4-4+deb7u1_i386.deb
+Size: 193318
+MD5sum: b12fc47fa07ac1e9d694159c2217fee0
+SHA1: 1213d12f5b453bf79ec7d4faa0cea48c337d0855
+SHA256: 448d501bcf11ed2606b694b4ff382ad52ab09163b7587e79d2a633e321752b6a
+
+Package: libkcmutils4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 391
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
+Description: utility classes for using KCM modules
+Homepage: http://www.kde.org/
+Description-md5: 0664b9af20b96f1c42e9dc3e04e67da4
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkcmutils4_4.8.4-4+deb7u1_i386.deb
+Size: 117834
+MD5sum: f42fe6043bd30981f1a4302361708397
+SHA1: 891dc41b1b4225e4fd091c8399be31d050a8c376
+SHA256: 610bcc92d5e8c19a6f50c5e533eca740d1d919d51b1a72a9234234d58a27e2dc
+
+Package: libkde3support4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 1227
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libkpty4 (= 4:4.8.4-4+deb7u1), libqt4-qt3support (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), libx11-6
+Description: KDE 3 Support Library for the KDE 4 Platform
+Homepage: http://www.kde.org/
+Description-md5: 991cc7b40c4c49f2141dd24fe02e64be
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkde3support4_4.8.4-4+deb7u1_i386.deb
+Size: 341398
+MD5sum: d48cfca5bb122a4bf8baa48e64f262f9
+SHA1: 8280ae6ea2ed2aba5c7fedfd610cc56f6b4009ef
+SHA256: 4a236ca3ebc9ab0ab53ebd8ce387f529e7ffa58cce123c6c41e4ea8539f4f0f2
+
+Package: libkdeclarative5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 192
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-declarative (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: declarative library for plasma
+Homepage: http://www.kde.org/
+Description-md5: 68aa12fd756ea17a2040ffb30a42f8ac
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdeclarative5_4.8.4-4+deb7u1_i386.deb
+Size: 60118
+MD5sum: 23a51da230d8421e78725b05bf8c0724
+SHA1: 41cf105f5e7b1f8efa44dbe6366b53de09b7b1ff
+SHA256: 6d2699c472d1e381947a60fb6a0bc1ca8ec9ec03176419e38c44d4de1f43c439
+
+Package: libkdecore5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 3357
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libbz2-1.0, libc6 (>= 2.4), libdlrestrictions1 (>= 0.14), libfam0, libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20120614), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.8.0), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), zlib1g (>= 1:1.1.4)
+Description: KDE Platform Core Library
+Homepage: http://www.kde.org/
+Description-md5: 63b72d99622f0f39483e2857c12b1ce7
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdecore5_4.8.4-4+deb7u1_i386.deb
+Size: 966916
+MD5sum: 8bc56591446ac7d3e293cfe7ecf8b5fb
+SHA1: 5d4b6bcfffc122681c40943975c8af49bac6b1bf
+SHA256: cb10f60d4a2d27c974d87fb484850ad52ed3bbcd80edaa34d092285b3e5cfe14
+
+Package: libkdesu5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 239
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkpty4 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), xauth
+Description: Console-mode Authentication Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: b0a8912323d2acc159aee09909172425
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdesu5_4.8.4-4+deb7u1_i386.deb
+Size: 73878
+MD5sum: 35963164234c1ef89039dbbec499057d
+SHA1: 916392f1d123b49504eeef88d509c9d9b4b097eb
+SHA256: d91784275fae132580979cefe59e2818fda2e24f2abba26b46fd5466d04301b3
+
+Package: libkdeui5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 4981
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libattica0 (>= 0.1.90), libc6 (>= 2.4), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libice6 (>= 1:1.0.0), libkdecore5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsm6, libstdc++6 (>= 4.1.1), libx11-6, libxrender1
+Suggests: hspell
+Description: KDE Platform User Interface Library
+Homepage: http://www.kde.org/
+Description-md5: dd888935d1059e0ffd266016dcabd53c
+Recommends: kdelibs5-data (>= 4:4.8.4-4+deb7u1)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdeui5_4.8.4-4+deb7u1_i386.deb
+Size: 1370890
+MD5sum: a88e5bdb6c3ed7b68cd2cc7f286f7333
+SHA1: 470d6b15a8e08f583e42ad053c339d9fb43c576e
+SHA256: 7755c498af0a2e910a3be8a9d40111505bf89002005db4ef99388034ebe1624b
+
+Package: libkdewebkit5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 272
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libqtwebkit4 (>= 2.1.0~2011week13), libstdc++6 (>= 4.1.1)
+Description: KDE WebKit Library
+Homepage: http://www.kde.org/
+Description-md5: 37f74b24ea041b93eceb237236a38db3
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdewebkit5_4.8.4-4+deb7u1_i386.deb
+Size: 84454
+MD5sum: 596593b955dc7984f1cc1a3666d90c17
+SHA1: 67dabe7ea8cc65f417691d807477c1a69d9e5b38
+SHA256: 312e8c3d8471b72c9f672be93630539244a8b77435ff99b969a20d5e45badff6
+
+Package: libkdnssd4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 309
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: DNS-SD Protocol Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: a67f398f302ac7c437c2db6660c0cb5d
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkdnssd4_4.8.4-4+deb7u1_i386.deb
+Size: 88594
+MD5sum: 39eb013d20d5035f73e0a74394a26850
+SHA1: b445cb32253fc166c77ec61749483c4f65bad674
+SHA256: eea7f863402ddebfe0dccb2084e398deaedc71a1968cd48f720f7395d8a9763d
+
+Package: libkemoticons4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 200
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: utility classes to deal with emoticon themes
+Homepage: http://www.kde.org/
+Description-md5: cae26d9220ef55bb5d93e6e50aaabbeb
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkemoticons4_4.8.4-4+deb7u1_i386.deb
+Size: 63456
+MD5sum: 4dcfcde3d1eedc9a29a879397eb4b53e
+SHA1: 14b7a0a53c0478ae24dc5d374f8101d10cfc0a85
+SHA256: 67b8a07d6238e98bb51ea59ba5bf8c3936837de3b0f28283ba09fcc541604ba1
+
+Package: libkfile4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 852
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.2), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libsolid4 (= 4:4.8.4-4+deb7u1), libstdc++6 (>= 4.1.1), libxrender1
+Description: File Selection Dialog Library for KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: ca6120f48cf645c62bd18c493fa976ce
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkfile4_4.8.4-4+deb7u1_i386.deb
+Size: 253404
+MD5sum: 33eae409734ddd0bf28d3dc44362c852
+SHA1: 8d22aff9646fc3394f54b640f35c037416656e95
+SHA256: 2bef71f3efcbb9fcacc3e06e36b3d468c25e9b5b932762c91cec506774efc7a1
+
+Package: libkhtml5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 7055
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libgif4 (>= 4.1.4), libjpeg8 (>= 8c), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libktexteditor4 (= 4:4.8.4-4+deb7u1), libphonon4 (>= 4:4.6.0really4.4.3), libpng12-0 (>= 1.2.13-4), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1), libx11-6, zlib1g (>= 1:1.1.4)
+Description: KHTML Web Content Rendering Engine
+Homepage: http://www.kde.org/
+Description-md5: 6fdc11e326da0a1bd495dcdc96640c27
+Recommends: kdelibs5-plugins (= 4:4.8.4-4+deb7u1)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkhtml5_4.8.4-4+deb7u1_i386.deb
+Size: 1913996
+MD5sum: 2e41867de38809e8c876ed5d90f9a58f
+SHA1: 9b5e10fc76b19c02d87507258f046054a7957697
+SHA256: 15e9fcf3ae29f57ab59b12d27dfe12713d9fbf5c35002c6fa1c00240756d51f7
+
+Package: libkidletime4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 189
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxss1
+Description: library to provide information about idle time
+Homepage: http://www.kde.org/
+Description-md5: 5eb21e2d5fd8b18292c2b04164cbd62f
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkidletime4_4.8.4-4+deb7u1_i386.deb
+Size: 59336
+MD5sum: 87985d2f71175ed6addd1d3d2462c73d
+SHA1: 9310dc13f9fbafa84089d8c52a63af5cfbc31b27
+SHA256: 8dbdf3927a9cf2fcc7ae878d0cea06811e7e439f1eae796b3be472c8e6259913
+
+Package: libkimproxy4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 212
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: Instant Messaging Interface Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: 68e45e2a7240f7aa539c55fa9670181b
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkimproxy4_4.8.4-4+deb7u1_i386.deb
+Size: 67216
+MD5sum: cde9e81e5d88557551dfe9ca9bf7dd3d
+SHA1: 7be1bd2ff49015dd80ba581d2bfffb8788bbf278
+SHA256: 6c857a8bd2455715754ec70bba1643a05db7e90dae518a5be5abce5b17df5859
+
+Package: libkio5
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 3132
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqt4-network (>= 4:4.8.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4-4+deb7u1), libstdc++6 (>= 4.1.1), libstreamanalyzer0 (>= 0.7.7), libx11-6, libxrender1
+Description: Network-enabled File Management Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: f9d64e3dda3bf4c061b02623b14ed159
+Recommends: kdelibs5-plugins (= 4:4.8.4-4+deb7u1)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkio5_4.8.4-4+deb7u1_i386.deb
+Size: 891538
+MD5sum: 0a80796ce5a5d71d517d82054cf5b2e2
+SHA1: a79982ad1571ddddb5812f37f68a142437747a17
+SHA256: 3199740fcd75edf345957d2c3a063d0b59ba40ead8c5a8065d3cad8a201e1f3d
+
+Package: libkjsapi4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 879
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libpcre3 (>= 8.10), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.2.1)
+Description: KJS API Library for the KDE Development Platform
+Homepage: http://www.kde.org/
+Description-md5: ef5d36e5444d0736d01d3dc877117014
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkjsapi4_4.8.4-4+deb7u1_i386.deb
+Size: 259182
+MD5sum: 61741557fb178dc5fc68f001aeb86ac2
+SHA1: ffb143387c1af37c5f7b3668e3fbf5fd3da2447c
+SHA256: 919319109f65967cfb6bab4047fc78d55ac02285711d6f05f7897ae65fb0cf2b
+
+Package: libkjsembed4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 1293
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libkdecore5 (= 4:4.8.4-4+deb7u1), libkjsapi4 (= 4:4.8.4-4+deb7u1), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: library for binding JavaScript objects to QObjects
+Homepage: http://www.kde.org/
+Description-md5: 7d592f95900bcda9ed863557c464d5cf
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkjsembed4_4.8.4-4+deb7u1_i386.deb
+Size: 334506
+MD5sum: f874ccf943380bc396054f9726a29464
+SHA1: 1ac3b002b66299af424150383c8d8c43bca4024e
+SHA256: 05007193c72d09737b4e40aa454ebb681f0404e82d6ecbe6f27c7149f84ca4d8
+
+Package: libkmediaplayer4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 170
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdeui5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: KMediaPlayer Interface for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: 41939bc408f0c531de5f851dcf989514
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkmediaplayer4_4.8.4-4+deb7u1_i386.deb
+Size: 51286
+MD5sum: 3ed953503cd84e47c9b9413e47362380
+SHA1: b17c6388e1ca8186cafe2c5c6119a5444fb6ad09
+SHA256: 4ba089dd4f5384222b2995b95185469a288e0a8730aab39015b4d46d08d6476a
+
+Package: libknewstuff2-4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 546
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqt4-network (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: "Get Hot New Stuff" v2 Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: 3b60147847daf44fbccfb1a682258447
+Recommends: kdelibs5-data (= 4:4.8.4-4+deb7u1), gnupg
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libknewstuff2-4_4.8.4-4+deb7u1_i386.deb
+Size: 161642
+MD5sum: 6d233b2fe2fa4e820bdcf7384d28ca02
+SHA1: 5ba17a3852f4f419f925051dc6f695450feba35f
+SHA256: 692d8bf499fccb6d6f74b02a1c462389df68550a1b2c0a18a60fa5f8a4368cd3
+
+Package: libknewstuff3-4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 615
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libattica0 (>= 0.1.90), libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: "Get Hot New Stuff" v3 Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: f38a1ea642d10041b05d41abd81c1721
+Recommends: kdelibs5-data (= 4:4.8.4-4+deb7u1), gnupg
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libknewstuff3-4_4.8.4-4+deb7u1_i386.deb
+Size: 179312
+MD5sum: 0e3eddf6f9e653130895912f1d42da6c
+SHA1: 357c48f95bac2f328f8cab6e099c081bd4d75d06
+SHA256: fbd701aec48435e6ea1c8fb29428fa9cb47fef16320123653bf88eea187e2712
+
+Package: libknotifyconfig4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 201
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libphonon4 (>= 4:4.6.0really4.3.80), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: library for configuring KDE Notifications
+Homepage: http://www.kde.org/
+Description-md5: 92a159564b8bead16419278ef73c0269
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libknotifyconfig4_4.8.4-4+deb7u1_i386.deb
+Size: 62062
+MD5sum: 6396b2e0e5fba08a7e864c3b37e0619f
+SHA1: 35593a49e5f285033bcc678cc1c5b1c08bcc3b49
+SHA256: 91181428d272ca15c89b6a035eebcbdb96895a0cf196ed250466e697af9c9c6a
+
+Package: libkntlm4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 156
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0)
+Description: NTLM Authentication Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: a4c2aefaa45147ea6933464366053951
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkntlm4_4.8.4-4+deb7u1_i386.deb
+Size: 50062
+MD5sum: f7df89da890c195094eeacc057e5d969
+SHA1: f1cf45735e08313c48b08db13c49b7860518cfea
+SHA256: 9cb38f5fca6067d812e85c06e2bbe48197763b4ffa72fa8c8f9d5672634979af
+
+Package: libkparts4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 504
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.2), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libnepomukutils4 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: Framework for the KDE Platform Graphical Components
+Homepage: http://www.kde.org/
+Description-md5: 98c676da683b1bb14ce3b6e59252a0bb
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkparts4_4.8.4-4+deb7u1_i386.deb
+Size: 143960
+MD5sum: 66ca0160bdfa51018696597ee8341f25
+SHA1: 95a26dea2d8cae4b673e1a49c0e0bdb75224fae4
+SHA256: 0dfddc72dc55aebec406eb6bd6a6a5213d33554dfc6a936d7a6d1daf99ec3b3c
+
+Package: libkprintutils4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 160
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: utility classes to deal with printing
+Homepage: http://www.kde.org/
+Description-md5: fd3d73f26788fb553bf5c5fc82981d77
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkprintutils4_4.8.4-4+deb7u1_i386.deb
+Size: 49770
+MD5sum: 29ee2c16fe17c98e340d51f313860158
+SHA1: 243cefeff0ac89ef5c13336966da0b37f959cfd2
+SHA256: b38067e42c654af21a3ad493f60e29b673088c6a5955257d480ff038456169cd
+
+Package: libkpty4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 170
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libutempter0 (>= 1.1.5)
+Description: Pseudo Terminal Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: 88650c0f22bb7f0ec349c0b6cf39f941
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkpty4_4.8.4-4+deb7u1_i386.deb
+Size: 54908
+MD5sum: ef7271d43119c65ece4daa7c4fb3ae58
+SHA1: 953a11029cc940022dc95a22532103ab502412f2
+SHA256: 23cd332c6e5cd2d4605a6bf8186fffc6b66893a9204610fb4ea41f53b59fcdab
+
+Package: libkrosscore4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 263
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-script (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: Kross Core Library
+Homepage: http://kross.dipe.org
+Description-md5: 36901388f1fca67e2a2b0d8491d66b2a
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkrosscore4_4.8.4-4+deb7u1_i386.deb
+Size: 80514
+MD5sum: a5bddcb3cf0923da3b4b5156e3163875
+SHA1: 60a51ea816e57936a6e6dae4663c7b25aec3b427
+SHA256: 5b9f8646449b0c54f1a0f447bc4e57139a93909d8e3b66c348aa77f6371599ce
+
+Package: libkrossui4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 257
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libkrosscore4 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libqtgui4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
+Description: Kross UI Library
+Homepage: http://kross.dipe.org
+Description-md5: 299663dd13172b62a97dba0a445d9342
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkrossui4_4.8.4-4+deb7u1_i386.deb
+Size: 75736
+MD5sum: e5e783bc22eb898110dd57896d050976
+SHA1: 21d77b2365602b12604a58ed7a2c222b0144761f
+SHA256: f5c5a49292d4a6487eb6effac82a03939256b9aee0eaa498ae71d5eafec8bbcc
+
+Package: libktexteditor4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 438
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkparts4 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: KTextEditor interfaces for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: 2d8e60170c0b920dc40b14f799eaf14b
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libktexteditor4_4.8.4-4+deb7u1_i386.deb
+Size: 119824
+MD5sum: 2e988d337779fc698f9a7ddaf2a496a2
+SHA1: 9f4db1806329eee5cc6a8f923a13cce473c8ade5
+SHA256: 5095c4c439075d48414642a40f31ceb9720bad7c354604296ca49b17d8be0b1e
+
+Package: libkunitconversion4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 442
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.7.0), libsolid4 (= 4:4.8.4-4+deb7u1), libstdc++6 (>= 4.1.1)
+Description: Unit Conversion library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: b9918503d482d7d829ab3df3d0dfe2e2
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkunitconversion4_4.8.4-4+deb7u1_i386.deb
+Size: 99530
+MD5sum: 26483c3174e1fe35e95e77eed1930347
+SHA1: e2e5fee19749fa48638ac7ba370d1a711bb2e2ed
+SHA256: f5f0e0de11159e2f6784c3cbd3e79d893b35194e9768d147c38af091b43f4b2c
+
+Package: libkutils4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 143
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkcmutils4 (= 4:4.8.4-4+deb7u1), libkemoticons4 (= 4:4.8.4-4+deb7u1), libkidletime4 (= 4:4.8.4-4+deb7u1), libkprintutils4 (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1)
+Description: dummy transitional library
+Homepage: http://www.kde.org/
+Description-md5: 694b339a296f5f2257295f8914329086
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libkutils4_4.8.4-4+deb7u1_i386.deb
+Size: 43776
+MD5sum: 1652c9251de4b247b7cb93d32a782ffe
+SHA1: 66b8f6b502119bcfc107bd507285bb13b1862f86
+SHA256: 66bdc140a2d3036c0768426c69ef1765d5d3b04fdb140d3e258c15df200d8c23
+
+Package: libnepomuk4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 1164
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
+Description: Nepomuk Meta Data Library
+Homepage: http://nepomuk.kde.org/
+Description-md5: b19e398b2de1071ad89678968e230e2a
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libnepomuk4_4.8.4-4+deb7u1_i386.deb
+Size: 249216
+MD5sum: ef2ec2fb2e117e3d048e725b6edec18f
+SHA1: 2b2b4443b50249b244d24928b50dfb08f669fec8
+SHA256: 0a816e76833aa58ddcca4bf2087fd70b003fcb298a6f51fcc8487a08f131477b
+
+Package: libnepomukquery4a
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 448
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Replaces: kdebase-workspace-libs4+5, libnepomukquery4
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libqt4-dbus (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libsoprano4 (>= 2.5.63), libstdc++6 (>= 4.1.1)
+Breaks: kdebase-workspace-libs4+5, libnepomukquery4
+Description: Nepomuk Query Library for the KDE Platform
+Homepage: http://nepomuk.kde.org/
+Description-md5: f817c9a2910650273d5905aa6b8bc8d7
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libnepomukquery4a_4.8.4-4+deb7u1_i386.deb
+Size: 134060
+MD5sum: 0f38bd0eb784a141e4dffb9d0735555b
+SHA1: 684d40c2041c711494dbbbe1d2a8ec848a764061
+SHA256: 754c78754cb064b769b98c961e4d71ad3d0e3fe18f112c851721a632aa31943d
+
+Package: libnepomukutils4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 378
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libnepomuk4 (= 4:4.8.4-4+deb7u1), libnepomukquery4a (= 4:4.8.4-4+deb7u1), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsoprano4 (>= 2.5.60), libstdc++6 (>= 4.1.1)
+Description: Nepomuk Utility Library
+Homepage: http://nepomuk.kde.org/
+Description-md5: 064394da7816fadaeba58ce100eb1836
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libnepomukutils4_4.8.4-4+deb7u1_i386.deb
+Size: 113108
+MD5sum: 11ba39b3016c511090b0e502c379b796
+SHA1: 2d15bfd46a5d7e2e4993ddd4d6b14e4a7accc3c0
+SHA256: 7250a30946f922f21efa58df65a0403a48632ff10511f8b620445f31f4c7206f
+
+Package: libplasma3
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 3434
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libkcmutils4 (= 4:4.8.4-4+deb7u1), libkdecore5 (= 4:4.8.4-4+deb7u1), libkdeui5 (= 4:4.8.4-4+deb7u1), libkdewebkit5 (= 4:4.8.4-4+deb7u1), libkdnssd4 (= 4:4.8.4-4+deb7u1), libkio5 (= 4:4.8.4-4+deb7u1), libknewstuff3-4 (= 4:4.8.4-4+deb7u1), libphonon4 (>= 4:4.6.0really4.3.80), libqca2 (>= 2.0.2), libqt4-declarative (>= 4:4.7.0), libqt4-network (>= 4:4.7.0), libqt4-opengl (>= 4:4.7.0), libqt4-script (>= 4:4.7.0), libqt4-sql (>= 4:4.7.0), libqt4-svg (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libsolid4 (= 4:4.8.4-4+deb7u1), libstdc++6 (>= 4.1.1), libthreadweaver4 (= 4:4.8.4-4+deb7u1), libx11-6
+Description: Plasma Library for the KDE Platform
+Homepage: http://plasma.kde.org/
+Description-md5: 069ac695b489886696dab1b47f4363b3
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libplasma3_4.8.4-4+deb7u1_i386.deb
+Size: 954080
+MD5sum: 5171fdba02edbb479ed0b2e1b576b9be
+SHA1: ce814fd2abce986ff63412efbb07df04160330db
+SHA256: 92e567250b6a8619b0fb8a45b48a9f5e411fd90254349d44b4dadd475a8405bf
+
+Package: libsolid4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 1047
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libqt4-dbus (>= 4:4.7.0), libqt4-xml (>= 4:4.7.0), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.7.0), libstdc++6 (>= 4.1.1), libudev0 (>= 146), udev
+Suggests: media-player-info
+Breaks: kde-config-tablet (<< 1.2.5)
+Description: Solid Library for KDE Platform
+Homepage: http://solid.kde.org/
+Description-md5: 8c2c3226e5dda352478cce6495d83808
+Recommends: udisks, upower
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libsolid4_4.8.4-4+deb7u1_i386.deb
+Size: 264234
+MD5sum: 1b50f9e691989a9655fd93ab315bfba3
+SHA1: 7298e977e198dae56b28f9c5e8ac4ccb2a1dd107
+SHA256: 85c59d861bf87ca649944630f5afeea09df58258d6b0a455990d30e338550710
+
+Package: libthreadweaver4
+Source: kde4libs
+Version: 4:4.8.4-4+deb7u1
+Installed-Size: 231
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.1.3), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.1.1)
+Description: ThreadWeaver Library for the KDE Platform
+Homepage: http://www.kde.org/
+Description-md5: e0f3ffffa7401f49a422fac613b125fe
+Section: libs
+Priority: optional
+Filename: pool/updates/main/k/kde4libs/libthreadweaver4_4.8.4-4+deb7u1_i386.deb
+Size: 67274
+MD5sum: 67a2464b9ab8c4b14d6cb37f0829251e
+SHA1: 21f1c549cdd874be9f14ea6846bb1d58c327a9a0
+SHA256: 9ef1eab8b3cb76c1f564c5674cb1d6bea1815495d94193ff025cd6e562ee49c6
+
 Package: kfreebsd-headers-9-486
 Source: kfreebsd-9
 Version: 9.0-10+deb70.7
@@ -9936,26 +10696,26 @@ SHA256: 083496cfb4dc130d840a2702b6f8d9f06d008bd25caa618db708828756d56b6e
 
 Package: ffmpeg
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 206
+Version: 6:0.8.15-1
+Installed-Size: 207
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libav-tools, libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libswscale2 (>= 6:0.8.3-1~)
+Depends: libav-tools, libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libswscale2 (>= 6:0.8.3-1~)
 Description: Multimedia player, server, encoder and transcoder (transitional package)
 Homepage: http://libav.org/
 Description-md5: 5ff27b47c3b68cc2af2a245c108535a8
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/liba/libav/ffmpeg_0.8.13-1_i386.deb
-Size: 147520
-MD5sum: 4da08fdc6cf9facd6b344835699e7e7a
-SHA1: 3d88e937e4bca0ebdb32748d25ec55c0cadcaac0
-SHA256: 63e860ad3e3701680bbfce7ffafaab6773b4f0124d7649f35d7118344ea1ace4
+Filename: pool/updates/main/liba/libav/ffmpeg_0.8.15-1_i386.deb
+Size: 148572
+MD5sum: 842c60b61d37b0b3cd75d942dab986cc
+SHA1: 9634168f1f88e3f91bf559b6c7ab910718c93b7a
+SHA256: d07251c4621c913a7b2d5806e0ddf59e5b35cb80137f9999fcf2d91c17ce3987
 
 Package: ffmpeg-dbg
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libav-dbg
@@ -9964,16 +10724,16 @@ Homepage: http://libav.org/
 Description-md5: 7958694bc3f3467c680b8238904f3fa8
 Section: libs
 Priority: extra
-Filename: pool/updates/main/liba/libav/ffmpeg-dbg_0.8.13-1_all.deb
-Size: 52486
-MD5sum: 23d836127bc0bb1cf15fb2d208eb8bc4
-SHA1: 1d3cc037ad365f99ae0daa5a4e9b8f04195a4b07
-SHA256: 67614d8358706b2e58f778e8e49698dcd1deeb28f2ef2366bfcfa216a90ef058
+Filename: pool/updates/main/liba/libav/ffmpeg-dbg_0.8.15-1_all.deb
+Size: 53528
+MD5sum: b1770f978412d82510d0d5c93200d68d
+SHA1: c229489bcb1d4e6b403271f33b713422be46e5f4
+SHA256: 4f1239c55448491ab356cefd28f105e257c7fd3992da2b7397b2c88cc52396da
 
 Package: ffmpeg-doc
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libav-doc
@@ -9982,55 +10742,55 @@ Homepage: http://libav.org/
 Description-md5: dd379f264f44fe4bc772202ed6f8218f
 Section: doc
 Priority: optional
-Filename: pool/updates/main/liba/libav/ffmpeg-doc_0.8.13-1_all.deb
-Size: 52550
-MD5sum: 811a1515bdf1e3cb31aeda44993e2165
-SHA1: 5836f6f3708e0044069fc98eea94f26a1c8e34f9
-SHA256: efc6b336e3756f3360838f383f80827b8de4f491d3a809d2a46683afad50de02
+Filename: pool/updates/main/liba/libav/ffmpeg-doc_0.8.15-1_all.deb
+Size: 53592
+MD5sum: ecf3363191b11f99075cd4b57e514b60
+SHA1: 6abff3443010c32e4080f657616ddb1a405a4e1b
+SHA256: cc9041f14124cd9a2b42a58e2808130070cbb4059263ef79ffda80df77c8c20e
 
 Package: libav-dbg
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 44904
+Version: 6:0.8.15-1
+Installed-Size: 44959
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: ffmpeg-dbg (<< 6:0.8.3-5), libav-extra-dbg (<< 6:0.8.3-5)
-Depends: ffmpeg (= 6:0.8.13-1), libav-tools (= 6:0.8.13-1), libavcodec53 (= 6:0.8.13-1) | libavcodec-extra-53 (= 6:0.8.13-1), libavdevice53 (= 6:0.8.13-1), libavformat53 (= 6:0.8.13-1), libavutil51 (= 6:0.8.13-1), libpostproc52 (= 6:0.8.13-1), libswscale2 (= 6:0.8.13-1)
+Depends: ffmpeg (= 6:0.8.15-1), libav-tools (= 6:0.8.15-1), libavcodec53 (= 6:0.8.15-1) | libavcodec-extra-53 (= 6:0.8.15-1), libavdevice53 (= 6:0.8.15-1), libavformat53 (= 6:0.8.15-1), libavutil51 (= 6:0.8.15-1), libpostproc52 (= 6:0.8.15-1), libswscale2 (= 6:0.8.15-1)
 Breaks: ffmpeg-dbg (<< 6:0.8.3-5), libav-extra-dbg (<< 6:0.8.3-5)
 Description: Debug symbols for Libav related packages
 Homepage: http://libav.org/
 Description-md5: 4883fccf171ba58bee24c569eb7b0345
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liba/libav/libav-dbg_0.8.13-1_i386.deb
-Size: 41269800
-MD5sum: 58118b95b3bffb4fede2f565f4bf361e
-SHA1: 06afafbb2edf1b572261840231b4bc9299284653
-SHA256: ce40c1f7279801babf08085a5ef07dc70be8edc62cb89546fc93d85f2c487e4a
+Filename: pool/updates/main/liba/libav/libav-dbg_0.8.15-1_i386.deb
+Size: 41370882
+MD5sum: bf5407de8f1ca14cfd228e7e43017b24
+SHA1: 5869310ecd2d32c5dc897ecdd4529c078fcbb40f
+SHA256: 3fd020ca37ac78d5f1766d7bb7937f24d405528bb4cd7f8fd57e7f8ca7d737ec
 
 Package: libav-doc
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 175382
+Version: 6:0.8.15-1
+Installed-Size: 175423
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
-Replaces: ffmpeg-doc (<< 6:0.8.13-1)
-Breaks: ffmpeg-doc (<< 6:0.8.13-1)
+Replaces: ffmpeg-doc (<< 6:0.8.15-1)
+Breaks: ffmpeg-doc (<< 6:0.8.15-1)
 Description: Documentation of the Libav API
 Homepage: http://libav.org/
 Description-md5: e1b6e29d8d3ee890016d0afc785a0596
 Section: doc
 Priority: optional
-Filename: pool/updates/main/liba/libav/libav-doc_0.8.13-1_all.deb
-Size: 10847904
-MD5sum: 3782caddba4344c6dbe80522b8551f43
-SHA1: b01fd8083d74e3e197af0490977082c178aa8334
-SHA256: cce5359a39efa922ad989183d842142ac91a6b1a30689efa65bd4d3d92ec9b59
+Filename: pool/updates/main/liba/libav/libav-doc_0.8.15-1_all.deb
+Size: 10851304
+MD5sum: 7e14a8835b3554fb871a4d65cffda129
+SHA1: cbf845dea1088240086e8a610f1b3f0db35b084f
+SHA256: 6e8b47d827286e92e4b52615ef57fb7f1aaef89047aa14cc0da8700a8f553bcf
 
 Package: libav-extra-dbg
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libav-dbg
@@ -10039,20 +10799,20 @@ Homepage: http://libav.org/
 Description-md5: 7958694bc3f3467c680b8238904f3fa8
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liba/libav/libav-extra-dbg_0.8.13-1_all.deb
-Size: 52488
-MD5sum: 6d259438e5f368307eaaef90cc993c3c
-SHA1: 6b7c4480585e7a75b5c6d24d2c9e3448dd52f313
-SHA256: 2ba2fae52bcdacd009596434f14b4dd475bbec4a6f51a46f1a3170c9ee4402e2
+Filename: pool/updates/main/liba/libav/libav-extra-dbg_0.8.15-1_all.deb
+Size: 53526
+MD5sum: a4e589da187bef1dcba7c32090b0b297
+SHA1: d47f400e74f079cee4ccd6a2e747fca7b1f2b61e
+SHA256: d05b35aa528361db4cec69c9402261f4602ddb68b5b50a6fec75ab7ad1de4f58
 
 Package: libav-tools
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 1487
+Version: 6:0.8.15-1
+Installed-Size: 1488
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Replaces: ffmpeg (<< 4:0.8~), libavcodec-extra-53 (<< 4:0.6~), libavcodec53 (<< 6:0.8.13-1)
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libsdl1.2debian (>= 1.2.11), libswscale2 (>= 6:0.8.3-1~)
+Replaces: ffmpeg (<< 4:0.8~), libavcodec-extra-53 (<< 4:0.6~), libavcodec53 (<< 6:0.8.15-1)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libsdl1.2debian (>= 1.2.11), libswscale2 (>= 6:0.8.3-1~)
 Conflicts: ffprobe
 Breaks: ffmpeg (<< 4:0.8~)
 Description: Multimedia player, server, encoder and transcoder
@@ -10061,35 +10821,35 @@ Description-md5: 0911282df0f4b0ccab197667699075b4
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: video
 Priority: optional
-Filename: pool/updates/main/liba/libav/libav-tools_0.8.13-1_i386.deb
-Size: 371500
-MD5sum: c479c607a0e203fc593ff2dbc462415c
-SHA1: c16daf1dc36e65cbcbde17e29f1c0739236cfb2d
-SHA256: 9368eee9220d05b96a01d9728002ef34bcb305f909154326e97d39117f888a0d
+Filename: pool/updates/main/liba/libav/libav-tools_0.8.15-1_i386.deb
+Size: 372500
+MD5sum: bcc9b06c29c692cd4f9f6f8dec0329d3
+SHA1: f923378edaaaf8f2c1411c22f27094fc6deca1db
+SHA256: 9e71e5debf6115f418f5cce08950832150285f5714ebe598b84239534af5a45a
 
 Package: libavcodec-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 9017
+Version: 6:0.8.15-1
+Installed-Size: 9022
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec53 (<= 6:0.8.13-99) | libavcodec-extra-53 (<= 6:0.8.13-99), libavcodec53 (>= 6:0.8.13-1) | libavcodec-extra-53 (>= 6:0.8.13-1), libavutil-dev (= 6:0.8.13-1)
+Depends: libavcodec53 (<= 6:0.8.15-99) | libavcodec-extra-53 (<= 6:0.8.15-99), libavcodec53 (>= 6:0.8.15-1) | libavcodec-extra-53 (>= 6:0.8.15-1), libavutil-dev (= 6:0.8.15-1)
 Suggests: libdc1394-22-dev, libgsm1-dev, libogg-dev, libraw1394-dev, libschroedinger-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libvorbis-dev, libx11-dev, libxext-dev, zlib1g-dev
 Description: Development files for libavcodec
 Homepage: http://libav.org/
 Description-md5: dbbfe8ba88ea77a86c51d6548a08bbe4
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec-dev_0.8.13-1_i386.deb
-Size: 2692136
-MD5sum: 0ad2fd802b6fc0de112f9867b65f8d77
-SHA1: b19a07b193a0ec3e34168669cc7400772be1e717
-SHA256: af58339b754aa44bdad63c85a7433662bf5b0b7665357d4de7b27267802c72a7
+Filename: pool/updates/main/liba/libav/libavcodec-dev_0.8.15-1_i386.deb
+Size: 2693064
+MD5sum: 2ac79f0c025aa40db23427591d43efcb
+SHA1: 10ea0e7fd102eec2f8570d45006e425435aa4acf
+SHA256: 5d97501cab948ea9baa3dfdd5350379627f913865de5764a992341fe0ffb050d
 
 Package: libavcodec-extra-53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 15243
+Version: 6:0.8.15-1
+Installed-Size: 15244
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavcodec53
@@ -10102,16 +10862,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec-extra-53_0.8.13-1_i386.deb
-Size: 3206808
-MD5sum: 7424de19a37e36ea87a602f689d77a2a
-SHA1: 30a243490d673d553c38729015312f5363cb5cc9
-SHA256: 4291bf4543c332adbedb256201275aa5b5a9aee0d261cacee9e47f2c9fe15f6a
+Filename: pool/updates/main/liba/libav/libavcodec-extra-53_0.8.15-1_i386.deb
+Size: 3209914
+MD5sum: 7ebe7ca2099cb81bcf569c441c2f93f5
+SHA1: 722eb48982115fc5ec5052bbdedd150d0cb22ff6
+SHA256: 6f7709a2554547af6ebec7c836a3fdeb2fd93307cd4d02237e0362a7f77b7dec
 
 Package: libavcodec53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 15226
+Version: 6:0.8.15-1
+Installed-Size: 15227
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Depends: libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-123, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
@@ -10123,34 +10883,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec53_0.8.13-1_i386.deb
-Size: 3204132
-MD5sum: 1e321d730b75e79c505b953def233e23
-SHA1: de83014096d9207ab8179f1b505a1a86afb33455
-SHA256: 7bc2da8946fc159eefc4791c74b32d0fa38e69efde358576bb676929f43d9d42
+Filename: pool/updates/main/liba/libav/libavcodec53_0.8.15-1_i386.deb
+Size: 3203992
+MD5sum: 91d65259c143f552f82f790f56c8fd35
+SHA1: ad8c1a48a0c00e32788d3b3d56da9acfccf6e072
+SHA256: 2c2699262ce9f62520135babff6821855b7c4ab52292987552d7df3385c3a843
 
 Package: libavdevice-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 139
+Version: 6:0.8.15-1
+Installed-Size: 140
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavdevice53 (= 6:0.8.13-1), libavformat-dev (= 6:0.8.13-1)
+Depends: libavdevice53 (= 6:0.8.15-1), libavformat-dev (= 6:0.8.15-1)
 Description: Development files for libavdevice
 Homepage: http://libav.org/
 Description-md5: d1a143a45e429a3ceda0d58733f017aa
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice-dev_0.8.13-1_i386.deb
-Size: 79080
-MD5sum: dd5937b2aa6a6d89eab5bdde5a6f1652
-SHA1: 95a245b63cebac8cb4b0922718e0da95977715ab
-SHA256: a517b762bc51f90adfe5eab0894098a6f888b06ee4f9af1db38a9d5d68a30eb7
+Filename: pool/updates/main/liba/libav/libavdevice-dev_0.8.15-1_i386.deb
+Size: 80084
+MD5sum: 91de8dbf8284c0bfced29490eb7a3c9f
+SHA1: ad97b59c914a21a4ed395fcaa362253242ca1247
+SHA256: b0931588443f3bf20fe494ead552154dc3b26188e01c14e4d4ffa1dcac0e1e28
 
 Package: libavdevice-extra-53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libavdevice53
@@ -10159,21 +10919,21 @@ Homepage: http://libav.org/
 Description-md5: ac04a08003801ffede73ee37b12996fc
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice-extra-53_0.8.13-1_all.deb
-Size: 52524
-MD5sum: c7aa611e60c4478f8454a5e06bd285b9
-SHA1: 067139fcbcdc7f96c4852ce42ae1ac8f01a8427b
-SHA256: 3bca2185407aeddb7a801f0755427070e30413c9d9c2b6f9c50ae8b03a67567e
+Filename: pool/updates/main/liba/libav/libavdevice-extra-53_0.8.15-1_all.deb
+Size: 53562
+MD5sum: 9fecde93b4631a704b63c0a9a26f4497
+SHA1: 53f5c223e310425c74d57e367d5731097834b524
+SHA256: 0fe99a4305b2f2769e10e1e3151091314c8321e244d245f7fea9d4a8ddf4d79e
 
 Package: libavdevice53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 187
+Version: 6:0.8.15-1
+Installed-Size: 188
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavdevice-extra-53
 Provides: libavdevice-extra-53
-Depends: libasound2 (>= 1.0.16), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libpulse0 (>= 0.99.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Depends: libasound2 (>= 1.0.16), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libpulse0 (>= 0.99.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
 Breaks: libavdevice-extra-53 (<< 5:0.8.1-2)
 Description: Libav device handling library
 Homepage: http://libav.org/
@@ -10182,34 +10942,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice53_0.8.13-1_i386.deb
-Size: 80336
-MD5sum: e424f88f767ebe28ce07d0d33719f37e
-SHA1: 3be35998c1b87d118909c67957afdea24443ea02
-SHA256: b2b3a8784d126406ed7147c511e2dc721736fc58d771b90bb4b63b3bdf9c1e21
+Filename: pool/updates/main/liba/libav/libavdevice53_0.8.15-1_i386.deb
+Size: 81364
+MD5sum: 384234b5a3664f932ef0dd0b485c8354
+SHA1: 45dc487029a48b8a61ab6bfef3a04bfe1a82d6d2
+SHA256: e12429efffaba14abdd9d1f4f4a10d4b47aad8219e36eb1f3094b7ae25360a03
 
 Package: libavfilter-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 379
+Version: 6:0.8.15-1
+Installed-Size: 380
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec-dev (= 6:0.8.13-1), libavfilter2 (= 6:0.8.13-1)
+Depends: libavcodec-dev (= 6:0.8.15-1), libavfilter2 (= 6:0.8.15-1)
 Description: Development files for libavfilter
 Homepage: http://libav.org/
 Description-md5: ecbb9d2a01e9cb4ef59f02b92dbfd55e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter-dev_0.8.13-1_i386.deb
-Size: 142092
-MD5sum: 7925e61ed7e9b0e8a89253a98c65e529
-SHA1: 57833284d84e8386e50d0e7f6827bf687a319dee
-SHA256: 1971c9746c5946250d55325544832e5416a69ec99951a53224a7b5f349faff80
+Filename: pool/updates/main/liba/libav/libavfilter-dev_0.8.15-1_i386.deb
+Size: 142856
+MD5sum: 70db3ca7498f78e7fe9767dc9205a3c1
+SHA1: c859a6025c3e246a0bbd879c8f072c86eb413ac8
+SHA256: ba52ea73bf489059d199ace694ea8ceff4f88cb51c04fcf13518f365ddc1ca54
 
 Package: libavfilter-extra-2
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libavfilter2
@@ -10218,21 +10978,21 @@ Homepage: http://libav.org/
 Description-md5: b88cecd75eb13f1620bd34dd361c6dc7
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter-extra-2_0.8.13-1_all.deb
-Size: 52516
-MD5sum: 198f836f5fe2aa389321e0275b20f1e5
-SHA1: ff50cdaab435c91db2b5c4f0de107bd568c9db89
-SHA256: 9f7f7ee9e626712f7d024926e4ea4049ea7469a395f38823656b1fc10ccd60d9
+Filename: pool/updates/main/liba/libav/libavfilter-extra-2_0.8.15-1_all.deb
+Size: 53562
+MD5sum: 424d3d838b0b76f45cfedd1859c6da69
+SHA1: d83612efd3e86a00babdb230ed7a7760193d84da
+SHA256: ab5dbda2d9b8c0cd7f527e9c9acb670132a72c8e40add98d776a9a9d7ba423d5
 
 Package: libavfilter2
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 444
+Version: 6:0.8.15-1
+Installed-Size: 445
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavfilter-extra-2
 Provides: libavfilter-extra-2
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libopencv-core2.3, libopencv-imgproc2.3, libswscale2 (>= 6:0.8.3-1~)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libopencv-core2.3, libopencv-imgproc2.3, libswscale2 (>= 6:0.8.3-1~)
 Breaks: libavfilter-extra-2 (<< 5:0.8.1-2)
 Description: Libav video filtering library
 Homepage: http://libav.org/
@@ -10241,34 +11001,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter2_0.8.13-1_i386.deb
-Size: 139590
-MD5sum: 8b954c8978771e63f019db4a252f42c6
-SHA1: fa77fb204e1be9f5b1b9926d28fed5c7c5ad6ffd
-SHA256: efe3dcb0db4794989ff79b642450dc1c73a41b04606242a9b6b6f2183e9d8030
+Filename: pool/updates/main/liba/libav/libavfilter2_0.8.15-1_i386.deb
+Size: 141452
+MD5sum: de8648cf81dbc128f54603cf84ab2818
+SHA1: 8cf823a0f096d9724152c17fc55857be0e9d7148
+SHA256: 9e9e900f3e84d9b0e9749adca600825f93dd6fa6c8df922c0f6a0407debd553e
 
 Package: libavformat-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 1829
+Version: 6:0.8.15-1
+Installed-Size: 1831
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec-dev (= 6:0.8.13-1), libavformat53 (= 6:0.8.13-1), libavutil-dev (= 6:0.8.13-1)
+Depends: libavcodec-dev (= 6:0.8.15-1), libavformat53 (= 6:0.8.15-1), libavutil-dev (= 6:0.8.15-1)
 Description: Development files for libavformat
 Homepage: http://libav.org/
 Description-md5: a12d6dbfdd1f3cd14055f14bf26eb067
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat-dev_0.8.13-1_i386.deb
-Size: 568356
-MD5sum: 1fbf5fe9f5aa06dc9acb6d5c15c382c6
-SHA1: c772ccd6527d81393d6eec32b36b69bea3ef3d18
-SHA256: 49534583a7771d1b60527102cd09b7579d8e54c4977a12f3cdbe82aec54bf4e1
+Filename: pool/updates/main/liba/libav/libavformat-dev_0.8.15-1_i386.deb
+Size: 569522
+MD5sum: 1be14fd558e4d2ee80e6b3f67cc5dfbe
+SHA1: 8e9eba44f9b4885b61387f112e88b3feb3171100
+SHA256: 2ac243d82d7f3bc7a8f5dbc89042772fddea61332f7f0fc9d0de6b8200c0b38f
 
 Package: libavformat-extra-53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libavformat53
@@ -10277,21 +11037,21 @@ Homepage: http://libav.org/
 Description-md5: 80927760d4204ba39381a430da4a1411
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat-extra-53_0.8.13-1_all.deb
-Size: 52518
-MD5sum: bf677c7b4511299aff3c0529dce5d2cb
-SHA1: 0553ef1145d3347a627ffca3a6b5966ce9415654
-SHA256: a61cc4e0803c6ffccf618d5de99ad03460609594ce9f9742c71a6f148e39e26e
+Filename: pool/updates/main/liba/libav/libavformat-extra-53_0.8.15-1_all.deb
+Size: 53566
+MD5sum: b7ecf6b2d3ea785644adc2f87a2eeafb
+SHA1: 01dfdaccec51ca699840af8a4c8355ecb351ee66
+SHA256: d0ff861d6d9f4d2dd3bcafa9276923330f555dfb52986bc0e13bb110e76cecff
 
 Package: libavformat53
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 2372
+Version: 6:0.8.15-1
+Installed-Size: 2373
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavformat-extra-53
 Provides: libavformat-extra-53
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.13), libavutil51 (>= 6:0.8.3-1~), libbz2-1.0, libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavutil51 (>= 6:0.8.3-1~), libbz2-1.0, libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
 Breaks: libavformat-extra-53 (<< 5:0.8.1-2)
 Description: Libav file format library
 Homepage: http://libav.org/
@@ -10300,34 +11060,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat53_0.8.13-1_i386.deb
-Size: 603188
-MD5sum: e53b0ea18911b0f75cd4b314ede4701a
-SHA1: 2dc136103ef9fa02041c999cc1901a14b5000b0a
-SHA256: 4dab04f1ba460964667f6da774ecb905e5242130ad12c4611f3df2fc8e95ab13
+Filename: pool/updates/main/liba/libav/libavformat53_0.8.15-1_i386.deb
+Size: 605228
+MD5sum: 74071dc12462ba8fb1988b0ec2db8edf
+SHA1: 63b646bffb1bbaa86fdd5180087650e714dae3e3
+SHA256: 1442f998b1b7506d5256537b1bc1af8b3df55f826da26c48aa98543e4a259d1a
 
 Package: libavutil-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 380
+Version: 6:0.8.15-1
+Installed-Size: 381
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil51 (= 6:0.8.13-1)
+Depends: libavutil51 (= 6:0.8.15-1)
 Description: Development files for libavutil
 Homepage: http://libav.org/
 Description-md5: 7c9bb8e9578ac880019a066991fefbcb
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil-dev_0.8.13-1_i386.deb
-Size: 141550
-MD5sum: 580c220df49927c61f887e9f7e115a42
-SHA1: 3eefa92bd97a19a24ac53c06ebd6530cd4d7ee77
-SHA256: 7aac7c87343e0df0a9d7bf214b2574800907807d24ce9acd066fee0cb2dadb73
+Filename: pool/updates/main/liba/libav/libavutil-dev_0.8.15-1_i386.deb
+Size: 142562
+MD5sum: 70808851f6c3e6f5aaf5cab8b8e5bc34
+SHA1: e6458d3aec07e8b409d6e1699c163fd93ae42457
+SHA256: 134b0e17911b163dfc55a7d973810163758cf4ff238632e69c61f7ea9f460dbf
 
 Package: libavutil-extra-51
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libavutil51
@@ -10336,16 +11096,16 @@ Homepage: http://libav.org/
 Description-md5: d37212912ce73c4325f1c0a2b60932d7
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil-extra-51_0.8.13-1_all.deb
-Size: 52524
-MD5sum: e97fadb68bc7ef242c69273aee6fa66a
-SHA1: d74ed2924c6f3d500902cccc8c76c9265c8be0cd
-SHA256: e50093492126f603a30af35858805a40ab751df4db5c9cdea5d09e48b60a2437
+Filename: pool/updates/main/liba/libav/libavutil-extra-51_0.8.15-1_all.deb
+Size: 53556
+MD5sum: b5242a32561fd695da9f93f246399644
+SHA1: 06746b7fb79da5c72027968793fd5b1d6fbd2d6d
+SHA256: 1c2622b05c77680aecd9917faeffa991656a49fc3fb36a34fb9726dd63851c93
 
 Package: libavutil51
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 307
+Version: 6:0.8.15-1
+Installed-Size: 308
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavutil-extra-51
@@ -10359,34 +11119,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil51_0.8.13-1_i386.deb
-Size: 116378
-MD5sum: d2223788b994852b401cc4ce4dec29af
-SHA1: c12e968f742f61a0dbf296a12a31bd47fafe4bf8
-SHA256: b486a98951458464a53f9ead9c902dc4ae2e8031107126475b6623e5fab88388
+Filename: pool/updates/main/liba/libav/libavutil51_0.8.15-1_i386.deb
+Size: 117350
+MD5sum: a810b0a4a0117b4f7b36e462a9a14567
+SHA1: c406b59b8fe416453205af0b3ba8ee6b7ec33236
+SHA256: 590f10b264f11356f0ffb1a9d80676b5bd67646392d6d61f53ac0866fdf7e1fe
 
 Package: libpostproc-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 206
+Version: 6:0.8.15-1
+Installed-Size: 207
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil-dev (= 6:0.8.13-1), libpostproc52 (= 6:0.8.13-1)
+Depends: libavutil-dev (= 6:0.8.15-1), libpostproc52 (= 6:0.8.15-1)
 Description: Development files for libpostproc
 Homepage: http://libav.org/
 Description-md5: 86f863657363a4743bdf715ad27d245e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc-dev_0.8.13-1_i386.deb
-Size: 94768
-MD5sum: ec4b6485cd486fb944dd2f91ea263971
-SHA1: 336dfffc05d12324c9b6b8509374e2d9a6dcfc2c
-SHA256: 105e22f9abb56fa0d5980a3028602354be8b0701ec8a0289270a8d4d71b19b55
+Filename: pool/updates/main/liba/libav/libpostproc-dev_0.8.15-1_i386.deb
+Size: 95812
+MD5sum: 65dbba230ab47df2da4b80d907d65bc6
+SHA1: 85e86f5ecd90a38b1a4a3a41a11c71797951c842
+SHA256: c6d0ff3ed40701a9dc167e5020dda69450889e891b9305f65ef1e490a1a6c859
 
 Package: libpostproc-extra-52
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libpostproc52
@@ -10395,16 +11155,16 @@ Homepage: http://libav.org/
 Description-md5: 80927760d4204ba39381a430da4a1411
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc-extra-52_0.8.13-1_all.deb
-Size: 52526
-MD5sum: 711868382b2506c46569af14bffe77a7
-SHA1: 81a7b64670c5346a0ee162ecef32d0ada8b67da9
-SHA256: 373d88129d6beb81acf3d3d698f42744842084c1c7be53de7b11202974c2d441
+Filename: pool/updates/main/liba/libav/libpostproc-extra-52_0.8.15-1_all.deb
+Size: 53566
+MD5sum: 65a143f07f5b7a0e36d85ff8cafd0b04
+SHA1: 9d3c5cc2b2d378ccdc24ca68754b5b8c454f0ffb
+SHA256: e62ed5492d468cc45163b7dff858de8f3cef41215d09dc7c578d70446d3caa90
 
 Package: libpostproc52
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 356
+Version: 6:0.8.15-1
+Installed-Size: 357
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libpostproc-extra-52
@@ -10418,34 +11178,34 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc52_0.8.13-1_i386.deb
-Size: 105574
-MD5sum: f787f064f33530806ad67615290fed41
-SHA1: 078ee607f02e73b1f3324f2d086b598a80502d83
-SHA256: f830ade2ccd75851ffab99989e6179dda3ba7cfcc7be7d8def33260053c4f15c
+Filename: pool/updates/main/liba/libav/libpostproc52_0.8.15-1_i386.deb
+Size: 106624
+MD5sum: 490875d938ea31bc6447fc1a55c3d44d
+SHA1: 18dba7de30668d9b5d033ff46330b745e33b3da3
+SHA256: 03c000fe79fbfb3fd8e571e9d4d97379d3198ec9032e77b25a03ba9411ec4901
 
 Package: libswscale-dev
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 435
+Version: 6:0.8.15-1
+Installed-Size: 436
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil-dev (= 6:0.8.13-1), libswscale2 (= 6:0.8.13-1)
+Depends: libavutil-dev (= 6:0.8.15-1), libswscale2 (= 6:0.8.15-1)
 Description: Development files for libswscale
 Homepage: http://libav.org/
 Description-md5: edcc124cb02dafb94c43a541fb77930a
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale-dev_0.8.13-1_i386.deb
-Size: 143894
-MD5sum: 13dc1dc621f61a4db5858c73b648fb22
-SHA1: a3c874c917062d48ae04e71c648a1e2ea0da5eee
-SHA256: 8af245485277b0eefbdf66628d6cc56571192b314ca1d3699afcc432192ed4f3
+Filename: pool/updates/main/liba/libav/libswscale-dev_0.8.15-1_i386.deb
+Size: 144956
+MD5sum: 546ba17a03fc56b008c4e106e7fcadd6
+SHA1: aa1ad0d4f43a32e3fbea5de244e0cda7d5cf5d92
+SHA256: 724e56f6316bd9483f585b5116a751dcb14dc7c6945ea4c7ac3d72bee5add823
 
 Package: libswscale-extra-2
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 53
+Version: 6:0.8.15-1
+Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Depends: libswscale2
@@ -10454,16 +11214,16 @@ Homepage: http://libav.org/
 Description-md5: c60d0148f7fd3ab6336dc316ff289029
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale-extra-2_0.8.13-1_all.deb
-Size: 52530
-MD5sum: 4745ab166a4f9896ceff4267223414a3
-SHA1: 29678c0c674941354fbed51701a1a68aa9746624
-SHA256: f0ba053c7307c7ab9d64eb5a8717acde1fc9b94a5f6781135f2c3819cffcf796
+Filename: pool/updates/main/liba/libav/libswscale-extra-2_0.8.15-1_all.deb
+Size: 53574
+MD5sum: d6c1766e6b9a0bb6105701415d44876c
+SHA1: 515e6dd60a1e2f90ee654a11a39b08c4cc476660
+SHA256: 0f2e6041454ebd46964a9e7e1d1e5f1c8abfa39bb5281b49d11e2fdfc01cf3f2
 
 Package: libswscale2
 Source: libav
-Version: 6:0.8.13-1
-Installed-Size: 688
+Version: 6:0.8.15-1
+Installed-Size: 689
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libswscale-extra-2
@@ -10477,11 +11237,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale2_0.8.13-1_i386.deb
-Size: 154204
-MD5sum: b90d4b0215f16c045ab47bc008efc13f
-SHA1: dae8a94d8f87b78b3ac0899ae12e525f3fe987d6
-SHA256: 0932c8d9a57cfaa83995ac802d2382a23c6351b69005de17f8ea52672499097e
+Filename: pool/updates/main/liba/libav/libswscale2_0.8.15-1_i386.deb
+Size: 155294
+MD5sum: 4cde2b2296850eed6efb2ede05ada636
+SHA1: c9e6bd990c05aeb3ea77ba4a3c192a3e9febc2ec
+SHA256: da38aa73d5fdd5fc9e00342322574bc9741c04d3bdf38cbd5c7ed6f1bd1fabbb
 
 Package: libcommons-fileupload-java
 Version: 1.2.2-1+deb7u2
@@ -24854,8 +25614,8 @@ SHA256: cf5a8bde4aa15b49dbda17807fca342e9e21de34c72b0253b0e822eecc870a8c
 
 Package: libwireshark-data
 Source: wireshark
-Version: 1.8.2-5wheezy10
-Installed-Size: 5994
+Version: 1.8.2-5wheezy11
+Installed-Size: 6047
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: all
 Replaces: wireshark-common (<< 1.4.0~rc2-1)
@@ -24866,77 +25626,77 @@ Homepage: http://www.wireshark.org/
 Description-md5: c97c84748e457d000a383c101c74e67e
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark-data_1.8.2-5wheezy10_all.deb
-Size: 1223580
-MD5sum: fa5366404b3fc65c39ec5757bec98c1a
-SHA1: 1d56f18ef3df0d42805d4f584773ed56c36abbfa
-SHA256: 2b514c1541a949fc52895771c7a4e0b4bdb7f0c21e353d194609963df16c9290
+Filename: pool/updates/main/w/wireshark/libwireshark-data_1.8.2-5wheezy11_all.deb
+Size: 1228448
+MD5sum: 489671e4556f47ba56ea0febf6dd4d4f
+SHA1: 85ec68e2493ee306bc8d26f868a45e5a20fd621c
+SHA256: 9d89a9fbfb057c8600f55fb1bfcdce041cbafe98d06a48e2c1abce3dd2fdb088
 
 Package: libwireshark-dev
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 6140
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwsutil-dev, libwireshark2 (= 1.8.2-5wheezy10)
+Depends: libwsutil-dev, libwireshark2 (= 1.8.2-5wheezy11)
 Conflicts: wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet dissection library -- development files
 Homepage: http://www.wireshark.org/
 Description-md5: 25ccc1e5a9f0de13127d7669433e7838
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark-dev_1.8.2-5wheezy10_i386.deb
-Size: 885668
-MD5sum: aa98faefa2b58495cb9178cc51e54a80
-SHA1: e4357f05e94de58010108b362029d54fc614d135
-SHA256: f54e2a316ed2abdc04a8ff3d7515ca9a617a43dbb7c00bdc923e09193d2dfe43
+Filename: pool/updates/main/w/wireshark/libwireshark-dev_1.8.2-5wheezy11_i386.deb
+Size: 885764
+MD5sum: 100041343dfe882853a6b7ca3cbc792f
+SHA1: f32df62d9894a7d5dab4825487e5179042026b4c
+SHA256: ebb9ec56db490f9dd48969e71101c9cb9ba8ecc9cc1c865f687a076f024bb27c
 
 Package: libwireshark2
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 41995
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-common (<< 1.4.0~rc2-1)
-Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.11), libcomerr2 (>= 1.01), libgcrypt11 (>= 1.4.5), libgeoip1 (>= 1.4.8+dfsg), libglib2.0-0 (>= 2.24.0), libgnutls26 (>= 2.12.17-0), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblua5.1-0, libsmi2ldbl (>= 0.4.5+dfsg0), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.2-5wheezy10), zlib1g (>= 1:1.1.4), libwireshark-data (>= 1.8.2-5wheezy10)
-Suggests: wireshark-doc (>= 1.8.2-5wheezy10)
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.11), libcomerr2 (>= 1.01), libgcrypt11 (>= 1.4.5), libgeoip1 (>= 1.4.8+dfsg), libglib2.0-0 (>= 2.24.0), libgnutls26 (>= 2.12.17-0), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblua5.1-0, libsmi2ldbl (>= 0.4.5+dfsg0), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.2-5wheezy11), zlib1g (>= 1:1.1.4), libwireshark-data (>= 1.8.2-5wheezy11)
+Suggests: wireshark-doc (>= 1.8.2-5wheezy11)
 Conflicts: wireshark-common (<< 1.4.0~rc2-1)
 Description: network packet dissection library -- shared library
 Homepage: http://www.wireshark.org/
 Description-md5: ab8eca3dff7b66974ed95f1142899d51
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark2_1.8.2-5wheezy10_i386.deb
-Size: 11207512
-MD5sum: ec5f33cc3745daccc42547426289cb50
-SHA1: dae45357262056ebafc9f48fc1dfc25fb6820d94
-SHA256: c12a1d0e9162e1283f708e9fb543aece91b3de33d8e4769e857dd3641c0ce306
+Filename: pool/updates/main/w/wireshark/libwireshark2_1.8.2-5wheezy11_i386.deb
+Size: 11207560
+MD5sum: bb62ded9c2bdfed6533d79062fb6dafd
+SHA1: dd8215a07fce70e3c2c3ba6973b071d290f15c26
+SHA256: 597260ecbe56395528b10c5e65025fb90f85b12b576cb956ddadd71f922f8889
 
 Package: libwiretap-dev
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 195
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwiretap2 (= 1.8.2-5wheezy10)
+Depends: libwiretap2 (= 1.8.2-5wheezy11)
 Conflicts: wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet capture library -- development files
 Homepage: http://www.wireshark.org/
 Description-md5: d73a1db8a1c3f10d102f6ec2bbe8ac1d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwiretap-dev_1.8.2-5wheezy10_i386.deb
-Size: 69782
-MD5sum: f4e4ff66e690d24829a54e83665b07f7
-SHA1: 4a0ded1bd9f72f0265114bd70831d9a558adcb52
-SHA256: 8792de8594004d79eb4e6067406e9951812c197423675fec7be4494a695fe9b5
+Filename: pool/updates/main/w/wireshark/libwiretap-dev_1.8.2-5wheezy11_i386.deb
+Size: 69854
+MD5sum: 31c1fda8eabd0929919e02153564afc5
+SHA1: cf63be390b4cefdca53da37ed317a3720158a551
+SHA256: e831c30b0e19c70d4d5400c4ced0eca7845b0e470cab76a1c2bc897ce3e45779
 
 Package: libwiretap2
 Source: wireshark
-Version: 1.8.2-5wheezy10
-Installed-Size: 391
+Version: 1.8.2-5wheezy11
+Installed-Size: 392
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.2.2.4)
@@ -24946,35 +25706,35 @@ Homepage: http://www.wireshark.org/
 Description-md5: 53f24fb24199bc18b3acbf46dcc09d4c
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwiretap2_1.8.2-5wheezy10_i386.deb
-Size: 197772
-MD5sum: 6dceedab4241e61a2a1ac2a05fc20859
-SHA1: 3d28a0b4cb2489f363307ae0c302817a33ba43c1
-SHA256: b85595714ba4bd7ad0e21a96ad6fc9a26a151529bc3d608e8878c70628cca0ab
+Filename: pool/updates/main/w/wireshark/libwiretap2_1.8.2-5wheezy11_i386.deb
+Size: 197888
+MD5sum: 28c7829c130453977a6d3076479a0e5d
+SHA1: 7c4354b526ce4baf3a130bf2bb47ca5a577f906a
+SHA256: 286dddbb5137c69e12dd3f33f13d8f08080e8015883e63abf9b41b9837ed25d8
 
 Package: libwsutil-dev
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 98
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: libwireshark-dev (<< 1.4.2-2), wireshark-common (<< 1.4.0~rc2-1), wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwsutil2 (= 1.8.2-5wheezy10)
+Depends: libwsutil2 (= 1.8.2-5wheezy11)
 Conflicts: libwireshark-dev (<< 1.4.2-2), wireshark-common (<< 1.4.0~rc2-1), wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet dissection utilities library -- shared library
 Homepage: http://www.wireshark.org/
 Description-md5: 4338ff9a5db3dca968546fe05e373f99
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwsutil-dev_1.8.2-5wheezy10_i386.deb
-Size: 49334
-MD5sum: d07c4ead15a3d05cd68b89e366c23355
-SHA1: dfe67bd43eb9e5dfe3c12878b7a9c54840361a8c
-SHA256: 42dde4ffa049d793047a5205badab6d3c638e8affebd0fb994e763dfac3f1663
+Filename: pool/updates/main/w/wireshark/libwsutil-dev_1.8.2-5wheezy11_i386.deb
+Size: 49412
+MD5sum: 7e8cf27b3c3edb3fcadef2d26f878d3e
+SHA1: eea14a36a5b9d47878a4f9c60f96abda7e761684
+SHA256: bb02f82d63da55ab6e7d5bafc8fd2ab1d9cc0dc2b163ea422819900dbcff49e4
 
 Package: libwsutil2
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 71
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
@@ -24986,93 +25746,93 @@ Homepage: http://www.wireshark.org/
 Description-md5: 4e45c2f2a067e24465ed693d8a935358
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwsutil2_1.8.2-5wheezy10_i386.deb
-Size: 51074
-MD5sum: c955bf886f0bd7443f44ef9612eb73e9
-SHA1: 338f462ada5570195c1d972326e76ef98b54c449
-SHA256: 48514612d3609c7e803d582fb3badab5ff91b178792decac38cf7b8216aa9700
+Filename: pool/updates/main/w/wireshark/libwsutil2_1.8.2-5wheezy11_i386.deb
+Size: 51158
+MD5sum: 214ac2b776e3d96e7891103869ffe099
+SHA1: d19a3bf32b7af478d0e5f4dea802a1bda64078a0
+SHA256: a8efd3375117d0dc641ca0f09202554607c32bc30b683eec676056f0c3d2a10d
 
 Package: tshark
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 343
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: tethereal (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libpcap0.8 (>= 0.9.8), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy10)
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libpcap0.8 (>= 0.9.8), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy11)
 Conflicts: tethereal (<< 1.0.0-3)
 Description: network traffic analyzer - console version
 Homepage: http://www.wireshark.org/
 Description-md5: 17aa46d351c7c1a5aa0e49637765c939
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/tshark_1.8.2-5wheezy10_i386.deb
-Size: 180980
-MD5sum: 43fae559b88ee7ce768ea2f7c83ad8a7
-SHA1: 1c9297c396e323b0766152fb90c7a5e0f957e50a
-SHA256: c5d2ce46dac3cea1087ce7a571c12d1d43e988f845ddcbb0e8a9a069772bf825
+Filename: pool/updates/main/w/wireshark/tshark_1.8.2-5wheezy11_i386.deb
+Size: 181084
+MD5sum: 45eaf6d5a77854a2174e62084fa4622d
+SHA1: 531343d29c64fb5d35fdf6b1a1987f232b0acce1
+SHA256: 04c50be5ff1a583b87211ff86ac5009c129418aa5043ea03426d80a2f349d862
 
 Package: wireshark
-Version: 1.8.2-5wheezy10
-Installed-Size: 2330
+Version: 1.8.2-5wheezy11
+Installed-Size: 2331
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: ethereal (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libportaudio2 (>= 19+svn20101113), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy10)
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libportaudio2 (>= 19+svn20101113), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy11)
 Conflicts: ethereal (<< 1.0.0-3)
 Description: network traffic analyzer - GTK+ version
 Homepage: http://www.wireshark.org/
 Description-md5: 205b792665989c3882b556e37286b93b
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark_1.8.2-5wheezy10_i386.deb
-Size: 950794
-MD5sum: f1a668cd9c5dd37567fd401c45eb4cbe
-SHA1: 2cc3f75e222237a02716ea687bad3b30f01b4d25
-SHA256: 3fdd01845008927b439476a015d6e18a39465361a8fe70955ee656cfea16af01
+Filename: pool/updates/main/w/wireshark/wireshark_1.8.2-5wheezy11_i386.deb
+Size: 950886
+MD5sum: c0d1140c52ed97300348d1f886b3620a
+SHA1: 7b8f2e82a9f8398890a3f1236f3459483b556845
+SHA256: 61bc12730d68d15da5bb1af9fa98dc369412709174e892b9a2db162b376dcb29
 
 Package: wireshark-common
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 418
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: ethereal-common (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.18), libpcap0.8 (>= 1.0.0), libwireshark2 (>= 1.8.2-5wheezy10), libwiretap2 (>= 1.8.2-5wheezy10), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, debconf, libcap2-bin
+Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.18), libpcap0.8 (>= 1.0.0), libwireshark2 (>= 1.8.2-5wheezy11), libwiretap2 (>= 1.8.2-5wheezy11), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, debconf, libcap2-bin
 Conflicts: ethereal-common (<< 1.0.0-3)
 Description: network traffic analyzer - common files
 Homepage: http://www.wireshark.org/
 Description-md5: 179c480769d1d5484751aefc4cde59a3
-Recommends: wireshark (>= 1.8.2-5wheezy10) | tshark (>= 1.8.2-5wheezy10)
+Recommends: wireshark (>= 1.8.2-5wheezy11) | tshark (>= 1.8.2-5wheezy11)
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark-common_1.8.2-5wheezy10_i386.deb
-Size: 228096
-MD5sum: a01cfb3bdb7180648de46f3e79ce526f
-SHA1: dcbe7fe9bfe5c7364df376d46da7957cb14b57c4
-SHA256: 8b3c1dfc19358f43472831899841646a5d0d207d439c3f7c6b66fa4b3922827a
+Filename: pool/updates/main/w/wireshark/wireshark-common_1.8.2-5wheezy11_i386.deb
+Size: 228164
+MD5sum: 6e50b3f29005895964b31a1c87321e52
+SHA1: c5b51245dae43ddfba9ee2f452edbd699be17052
+SHA256: 2b4799f7175371ad25c1364cc0dabd2f1dc84b68cb51595a1e595c3dbe3160f0
 
 Package: wireshark-dbg
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 34270
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
-Depends: wireshark-common (= 1.8.2-5wheezy10) | wireshark (= 1.8.2-5wheezy10) | tshark (= 1.8.2-5wheezy10)
+Depends: wireshark-common (= 1.8.2-5wheezy11) | wireshark (= 1.8.2-5wheezy11) | tshark (= 1.8.2-5wheezy11)
 Description: network traffic analyzer - debug symbols
 Homepage: http://www.wireshark.org/
 Description-md5: ba38ed4dbd6ce38fc32ddb8b86b6a122
 Section: debug
 Priority: extra
-Filename: pool/updates/main/w/wireshark/wireshark-dbg_1.8.2-5wheezy10_i386.deb
-Size: 25970850
-MD5sum: 57db5b1d0be9509b309df28fc13284e2
-SHA1: 3b0df9c9090ed63f18648cdb3dda60fb9f802af3
-SHA256: 1c4d35ab1b986fc0d14e7c6e2aa1691075d2802daa7ca430fdaf2d492c6fba68
+Filename: pool/updates/main/w/wireshark/wireshark-dbg_1.8.2-5wheezy11_i386.deb
+Size: 25972202
+MD5sum: e3e602f4a959ca399545517170839b10
+SHA1: 0863583f34682bb0f80534115a79ebe09b7d9a0f
+SHA256: eea851485450b30234edc0d566d706afc32c5d9f61ce2862677cbc6619fcd1bd
 
 Package: wireshark-dev
 Source: wireshark
-Version: 1.8.2-5wheezy10
+Version: 1.8.2-5wheezy11
 Installed-Size: 488
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
@@ -25084,16 +25844,16 @@ Homepage: http://www.wireshark.org/
 Description-md5: 7a344f6feb13aa3b18ede52debae4fe2
 Section: devel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark-dev_1.8.2-5wheezy10_i386.deb
-Size: 178320
-MD5sum: 62717cd62788c03bdad330c4104b8ce3
-SHA1: 905a0d510ff632cba94853f3b439979655591ee9
-SHA256: 2a60e8c653661b5c995f291e26aa1c599077eef60e2018953490b761d3ca8c67
+Filename: pool/updates/main/w/wireshark/wireshark-dev_1.8.2-5wheezy11_i386.deb
+Size: 178428
+MD5sum: 394a3ef3f2e578ab4773d0e7d6d3cb8e
+SHA1: ed3204d0014e606e2267a40e713b7757df847ee2
+SHA256: ed1ec132912b595abab51ec4560a243eed2aa27a4dc70083dd8a5f1e84839e09
 
 Package: wireshark-doc
 Source: wireshark
-Version: 1.8.2-5wheezy10
-Installed-Size: 5335
+Version: 1.8.2-5wheezy11
+Installed-Size: 5371
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: all
 Description: network traffic analyzer - documentation
@@ -25101,11 +25861,11 @@ Homepage: http://www.wireshark.org/
 Description-md5: ed8b1896882405b928131b74c90e0b57
 Section: doc
 Priority: extra
-Filename: pool/updates/main/w/wireshark/wireshark-doc_1.8.2-5wheezy10_all.deb
-Size: 3850258
-MD5sum: 9f463868cdabb4f62db0a2fff7bf7042
-SHA1: 6002a593d1640cb37aefe1d33ac48c492da67945
-SHA256: 7b0a94bbddb0ac10f345c531dd92ca73f4fb243036245c165bbea46fdd8f2a70
+Filename: pool/updates/main/w/wireshark/wireshark-doc_1.8.2-5wheezy11_all.deb
+Size: 3884714
+MD5sum: dc3a811c8f2ef4d429fd5c2c68b62792
+SHA1: 06ee22cdf79fc1d66fe37d42876716d2d6c057f3
+SHA256: c3495cb7952e0d61b415191db47386f4d129b322ef5f9d56ffdd043cddc981f0
 
 Package: wordpress
 Version: 3.6.1+dfsg-1~deb7u4
