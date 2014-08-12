@@ -26,7 +26,7 @@ Section: text
 
 Package: acpi-support
 Binary: acpi-support, acpi-support-base, acpi-fakekey
-Version: 0.140-5+deb7u1
+Version: 0.140-5+deb7u2
 Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.40)
@@ -34,19 +34,19 @@ Architecture: all i386 amd64 ia64
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- de92ff6a1622ed46a3cc3e5e72edaa00 2035 acpi-support_0.140-5+deb7u1.dsc
+ 054cdfbd132528a0de0bf7d59c945a3d 1370 acpi-support_0.140-5+deb7u2.dsc
  7accf060c8be879c8038c00e04c529e9 21433 acpi-support_0.140.orig.tar.gz
- 3e7817d2ef7583fd3a0962828fb54e71 50194 acpi-support_0.140-5+deb7u1.diff.gz
+ 65b28dc01752ae815072cc912c6a327c 50304 acpi-support_0.140-5+deb7u2.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-acpi/acpi-support.git
 Vcs-Git: git://git.debian.org/git/pkg-acpi/acpi-support.git
 Checksums-Sha1:
- 65ae6243152286dea78e8dbc4f5997f3426b387f 2035 acpi-support_0.140-5+deb7u1.dsc
+ 2184c3aef0af278f1355dc7f0b38b466849ab271 1370 acpi-support_0.140-5+deb7u2.dsc
  04f22fa42c2224a4ffdbebfd25688f366c9a5e09 21433 acpi-support_0.140.orig.tar.gz
- 22525bf101ea00350964a5c9fe70f1fb88a04ac6 50194 acpi-support_0.140-5+deb7u1.diff.gz
+ 769d687a2dee261937cc3f8e009654fab9dd620c 50304 acpi-support_0.140-5+deb7u2.diff.gz
 Checksums-Sha256:
- 3565188c1cb12d3f85c2687c8274accaf8fdc3f076341576c16fbe0a9c1f895c 2035 acpi-support_0.140-5+deb7u1.dsc
+ f936362a2468605721d0f6f0fdb5f197df87df56b281ab41a4e3c7b4c6a2e470 1370 acpi-support_0.140-5+deb7u2.dsc
  2b93d2a136abc516f390ff3c9913ac4c8c61cdb85d726c387776b2aaed7da8e5 21433 acpi-support_0.140.orig.tar.gz
- 338e98ee2817dd6771dc6f0a01815a150ca23887e7d9d0ad8e27a0eb5733e312 50194 acpi-support_0.140-5+deb7u1.diff.gz
+ 87811edd97dcf4950b978fe610004d23e446a5cd30f36a03e4b1c49a1f60438e 50304 acpi-support_0.140-5+deb7u2.diff.gz
 Package-List: 
  acpi-fakekey deb admin optional
  acpi-support deb admin optional

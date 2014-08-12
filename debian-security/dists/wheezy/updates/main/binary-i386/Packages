@@ -18,8 +18,8 @@ SHA256: a691251ea166c6642952c41e08965acb3c3ae3a602f0d621d98b117c3da396fc
 
 Package: acpi-fakekey
 Source: acpi-support
-Version: 0.140-5+deb7u1
-Installed-Size: 77
+Version: 0.140-5+deb7u2
+Installed-Size: 30
 Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
 Architecture: i386
 Replaces: acpi-support (<< 0.136-1)
@@ -29,15 +29,15 @@ Description: tool to generate fake key events
 Description-md5: 98c328b971bb36f7391aa56959f5b7b6
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/acpi-support/acpi-fakekey_0.140-5+deb7u1_i386.deb
-Size: 24000
-MD5sum: 0313a265680e030c90b22864cb229a46
-SHA1: 89f3d31357f8473f97e67c86f8f111ea0661b52c
-SHA256: 17b2ef83de3ddf799007286a53b9adbe4aa594a407cedf4db970f0f294b76b91
+Filename: pool/updates/main/a/acpi-support/acpi-fakekey_0.140-5+deb7u2_i386.deb
+Size: 24042
+MD5sum: 99dd0e9bd80271cf03354879d084e7ad
+SHA1: 6d9661617107754a8e268b8c5979947e6c65dbdd
+SHA256: abda2893f8327a17a0553e6aa6af9341da5c6c2e553382d24c0dbc1e54023d0d
 
 Package: acpi-support
-Version: 0.140-5+deb7u1
-Installed-Size: 203
+Version: 0.140-5+deb7u2
+Installed-Size: 204
 Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
 Architecture: all
 Depends: acpi-support-base (>= 0.109-1), x11-xserver-utils, acpid (>= 1.0.4), lsb-base (>= 1.3-9), pm-utils, acpi-fakekey
@@ -48,15 +48,15 @@ Description-md5: 1c6070eeef71bf603f64536f1fe139de
 Recommends: dbus, vbetool, xscreensaver | gnome-screensaver, radeontool
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/acpi-support/acpi-support_0.140-5+deb7u1_all.deb
-Size: 53966
-MD5sum: fb8b337ed30dc762a26491679f6b02f1
-SHA1: a486420c8ec6780b8bdb779fa99c22694082f921
-SHA256: c77eacc5aea962856765a941bd66f6311934f6b50cb4c58060d30b8d088bb37f
+Filename: pool/updates/main/a/acpi-support/acpi-support_0.140-5+deb7u2_all.deb
+Size: 54248
+MD5sum: 367482d72188be588f4239436a26c9ea
+SHA1: d40d7d998ba3de4dc8f254c9193d1b87e6fc4a6c
+SHA256: c583d2de689c28c68d9818ca60340d2353c31161f187cd218a798d696133ce8d
 
 Package: acpi-support-base
 Source: acpi-support
-Version: 0.140-5+deb7u1
+Version: 0.140-5+deb7u2
 Installed-Size: 66
 Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
 Architecture: all
@@ -68,11 +68,11 @@ Description-md5: cbd4bbe7bac9e5345b1e11ede16f5840
 Recommends: consolekit
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/acpi-support/acpi-support-base_0.140-5+deb7u1_all.deb
-Size: 22806
-MD5sum: c0382ee1ee92a83eff8bfcea20aa408e
-SHA1: 57c5c29a498ed00b6817f84d9f827d068edbfb81
-SHA256: b8336543ead8f83349e78e6cbd1ad778ac2d5e4b16977b18a31724e429903ee9
+Filename: pool/updates/main/a/acpi-support/acpi-support-base_0.140-5+deb7u2_all.deb
+Size: 22596
+MD5sum: 430aea07339576e6fe4f34f29b916b08
+SHA1: 5f36f60e4a39bb49f8316dce32a1a00a494dd36e
+SHA256: 40c0daf2c5138f9c92ddf56676f86c8a0e654782cbc8dd8f7c671699943f371b
 
 Package: xul-ext-adblock-plus
 Source: adblock-plus
