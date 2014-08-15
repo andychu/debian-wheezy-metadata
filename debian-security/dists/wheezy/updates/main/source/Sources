@@ -1161,6 +1161,35 @@ Directory: pool/updates/main/g/gnutls26
 Priority: source
 Section: devel
 
+Package: gpgme1.0
+Binary: libgpgme11-dev, libgpgme11
+Version: 1.2.0-1.4+deb7u1
+Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Build-Depends: debhelper (>> 5.0.0), libgpg-error-dev (>= 0.7-1), dpatch (>= 1.11), libpth-dev
+Architecture: any
+Standards-Version: 3.8.3
+Format: 1.0
+Files:
+ 91ad91fb06e22ea4cda727da9bd86662 1931 gpgme1.0_1.2.0-1.4+deb7u1.dsc
+ 3164bbbd49f94863f2849f39c343521e 1114846 gpgme1.0_1.2.0.orig.tar.gz
+ 4b6e892f75f65b99234b18bfefd25587 593932 gpgme1.0_1.2.0-1.4+deb7u1.diff.gz
+Vcs-Browser: http://git.debian.org/git/users/jsogo/gpgme1.0.git
+Vcs-Git: git://git.debian.org/git/users/jsogo/gpgme1.0.git
+Checksums-Sha1:
+ 1f40d73a32eb234c070e623594a0ae0b39d1af19 1931 gpgme1.0_1.2.0-1.4+deb7u1.dsc
+ 21ac8faf6cd47162940d576cf1b9a8c245e8424e 1114846 gpgme1.0_1.2.0.orig.tar.gz
+ 5aee0778bbcea3a742c156d9a22b54bc20715452 593932 gpgme1.0_1.2.0-1.4+deb7u1.diff.gz
+Checksums-Sha256:
+ 2108b886272fe8d5d22d9a33d38eaf5f8ee9f9c3453892b3ea143480575295cc 1931 gpgme1.0_1.2.0-1.4+deb7u1.dsc
+ b57e48e71ca507ef7ec1acc2370e007dee36a60ac26699102f35a4312c121f77 1114846 gpgme1.0_1.2.0.orig.tar.gz
+ 20a553e8ccf3254588be1b376a75d5f4fc0e0b488f14f6e98d6ccd7ba7e85cd7 593932 gpgme1.0_1.2.0-1.4+deb7u1.diff.gz
+Package-List: 
+ libgpgme11 deb libs optional
+ libgpgme11-dev deb libdevel optional
+Directory: pool/updates/main/g/gpgme1.0
+Priority: source
+Section: libs
+
 Package: graphviz
 Binary: graphviz, libgv-guile, libgv-lua, libgv-perl, libgv-php5, libgv-python, libgv-ruby, libgv-tcl, libgraph4, libcgraph5, libcdt4, libpathplan4, libgvc5, libgvc5-plugins-gtk, libgvpr1, libxdot4, libgraphviz-dev, graphviz-doc, graphviz-dev
 Version: 2.26.3-14+deb7u1

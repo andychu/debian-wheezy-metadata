@@ -3495,6 +3495,42 @@ MD5sum: 606b7a1f3c296fee3be9451c7ad111b2
 SHA1: 1055bb75983ad63dcd03662c31d43d82d63613c5
 SHA256: be7be84318e4adf194cd9c7a5f762e312ba6c2951f0de22ca6bbf27e43023d2a
 
+Package: libgpgme11
+Source: gpgme1.0
+Version: 1.2.0-1.4+deb7u1
+Installed-Size: 731
+Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.3), libgpg-error0 (>= 1.10), libpth20 (>= 2.0.7), gnupg (>= 1.4.6-2)
+Suggests: gpgsm (>= 1.9.6), gnupg2 (>= 2.0.4)
+Description: GPGME - GnuPG Made Easy
+Description-md5: e5f3df1fe0181a93b9605f156f5092a1
+Section: libs
+Priority: optional
+Filename: pool/updates/main/g/gpgme1.0/libgpgme11_1.2.0-1.4+deb7u1_amd64.deb
+Size: 349076
+MD5sum: c8b0f58acbc95ef178785bcf5c13e70b
+SHA1: ac34a3ed134f2bac1671cd94866b549ef9b0989c
+SHA256: d49c90be3857cc89b8fc200191dffba76e65f82200f64696df4e861d558ab6c0
+
+Package: libgpgme11-dev
+Source: gpgme1.0
+Version: 1.2.0-1.4+deb7u1
+Installed-Size: 1760
+Maintainer: Jose Carlos Garcia Sogo <jsogo@debian.org>
+Architecture: amd64
+Depends: libgpgme11 (= 1.2.0-1.4+deb7u1), libc6-dev, libgpg-error-dev, libpth-dev
+Conflicts: libgpgme-dev, libgpgme10-dev
+Description: GPGME - GnuPG Made Easy
+Description-md5: ebed5b97e9a7952c23ddaba333c045fe
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/g/gpgme1.0/libgpgme11-dev_1.2.0-1.4+deb7u1_amd64.deb
+Size: 586258
+MD5sum: 0277a180ace8c44e79d2a3f9f400b2d7
+SHA1: 4c82fb93c2ebc145321ab0d7a216021b74433fe3
+SHA256: c3403e8e63626a85b545ca63c006725b9aeb73c4e65140bd1ad55c974dfb34b0
+
 Package: graphviz
 Version: 2.26.3-14+deb7u1
 Installed-Size: 871
