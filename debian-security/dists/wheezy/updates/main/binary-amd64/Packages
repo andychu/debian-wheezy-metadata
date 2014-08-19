@@ -25594,8 +25594,8 @@ SHA256: 6da63e351c3b8e037b9f0fd2275febcb4b6334243f9ccfee5e2c2f34ecd5531d
 
 Package: libxen-4.1
 Source: xen
-Version: 4.1.4-3+deb7u1
-Installed-Size: 342
+Version: 4.1.4-3+deb7u2
+Installed-Size: 343
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.2.5), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4)
@@ -25603,32 +25603,32 @@ Description: Public libs for Xen
 Description-md5: cd7ad869e7a3a001fd3c7b337111e06f
 Section: libs
 Priority: optional
-Filename: pool/updates/main/x/xen/libxen-4.1_4.1.4-3+deb7u1_amd64.deb
-Size: 139794
-MD5sum: f438f17c31c6477410470ba509de6f59
-SHA1: 13710a1684a1f5f5286dd0bdf69638771c5684d8
-SHA256: 665dd0c13dc16b541379df07f9abbe6dabf2cb7de627cbc2f1a596f12a380f8b
+Filename: pool/updates/main/x/xen/libxen-4.1_4.1.4-3+deb7u2_amd64.deb
+Size: 140862
+MD5sum: 78126711a32e84dfe037174124e8b5e9
+SHA1: c4a8a5becf38df55a378a637a195a1d686d75a1d
+SHA256: b92d160a8842d32b8af028a1085667505ce9db89e67759dc8ec8ddcbc80f4ecb
 
 Package: libxen-dev
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 1148
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libxen-4.1 (= 4.1.4-3+deb7u1), libxenstore3.0 (= 4.1.4-3+deb7u1)
+Depends: libxen-4.1 (= 4.1.4-3+deb7u2), libxenstore3.0 (= 4.1.4-3+deb7u2)
 Description: Public headers and libs for Xen
 Description-md5: 16aef021d38a9f4fed58c122c9b3e1cf
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/x/xen/libxen-dev_4.1.4-3+deb7u1_amd64.deb
-Size: 292390
-MD5sum: 78815dbba896ec0f49910253250717a3
-SHA1: 92e1f07f00ce53f99eb6520a83cacfbeb8c02656
-SHA256: a55112514d389bdcbb32219aed0e3e3ac7decc60cede1d584972ee6d3bad60fb
+Filename: pool/updates/main/x/xen/libxen-dev_4.1.4-3+deb7u2_amd64.deb
+Size: 294664
+MD5sum: 1738a2c5cad645884f61e5ba41145f4a
+SHA1: 26338c9bf132d2122cbc60eba40de6a8188bf269
+SHA256: 40356b5a0ab7fd9129328dd3ba972d5fd69ef544bf3e39e6c1cc22f4d2043f68
 
 Package: libxen-ocaml
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 217
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -25638,33 +25638,33 @@ Description: OCaml libraries for controlling Xen
 Description-md5: c9c37edde6c8bfae0ec1ac70e828dbac
 Section: ocaml
 Priority: optional
-Filename: pool/updates/main/x/xen/libxen-ocaml_4.1.4-3+deb7u1_amd64.deb
-Size: 63770
-MD5sum: 56363d8ce343fc2e8cfeb1a69f6c8906
-SHA1: a7728ccdb6d479c4076765f05ec8bd5635c0c367
-SHA256: 0e1a6c111a2ddb0af0bdbcd729b9e7e70ebbbbf3e30c04941dda3f41700dce9c
+Filename: pool/updates/main/x/xen/libxen-ocaml_4.1.4-3+deb7u2_amd64.deb
+Size: 63928
+MD5sum: 8005fe7f658b6aba61d82a897f24f832
+SHA1: c53fb5441f7031b1da0004cda3e1ded3b8e83327
+SHA256: 8a8c872c91057da94f1edd25ba09d6a12fb291c3ee4d00e60bcf13645366de40
 
 Package: libxen-ocaml-dev
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 359
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: libxen-ocaml-dev-3xk69
-Depends: libxen-ocaml (= 4.1.4-3+deb7u1), libxen-dev (= 4.1.4-3+deb7u1), ocaml-nox-3.12.1
+Depends: libxen-ocaml (= 4.1.4-3+deb7u2), libxen-dev (= 4.1.4-3+deb7u2), ocaml-nox-3.12.1
 Description: OCaml libraries for controlling Xen (devel package)
 Description-md5: 9c87ca7440bf9a1fcef15be5c5ae0a2d
 Section: ocaml
 Priority: optional
-Filename: pool/updates/main/x/xen/libxen-ocaml-dev_4.1.4-3+deb7u1_amd64.deb
-Size: 89232
-MD5sum: 923273e38078b20ffc0b21097a0cc3a9
-SHA1: bc0114dade998a169da49cb719802aed1af60d9c
-SHA256: b819e74b92a5ec5b71391e6bf178710337c170f10ae8b48ce3e2ea289064cd24
+Filename: pool/updates/main/x/xen/libxen-ocaml-dev_4.1.4-3+deb7u2_amd64.deb
+Size: 89820
+MD5sum: cf7a8f9910e4867af749052dcc1e98be
+SHA1: 96be93a311aa348e610c3c93387ee3c730da5259
+SHA256: a454d5a8105177c9e1c481304265cd8a28126ac89fc8664c1296a4092ef84366
 
 Package: libxenstore3.0
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 78
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -25673,15 +25673,15 @@ Description: Xenstore communications library for Xen
 Description-md5: c2462dfd8088a311ca74072df39a0705
 Section: libs
 Priority: extra
-Filename: pool/updates/main/x/xen/libxenstore3.0_4.1.4-3+deb7u1_amd64.deb
-Size: 29608
-MD5sum: 0b07ca24f333b07951eaeaf90cc9bf89
-SHA1: b211b730495fd14988d6fdf1fba22bb7ec7cec22
-SHA256: bc0c1328b463aa995d8c434124a1bae81454d5c89aae70f3b3e8eafb9b738a06
+Filename: pool/updates/main/x/xen/libxenstore3.0_4.1.4-3+deb7u2_amd64.deb
+Size: 30060
+MD5sum: d2765e2ffc358111d7fe04352c21afc6
+SHA1: d7eb977b64afad5259744beae84f83eac629ea28
+SHA256: 9e8ac5e9e5b6d445abfc0f0fc30b5f0826f15ee3e1034f74a48ec9f18624c173
 
 Package: xen-docs-4.1
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 1176
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: all
@@ -25689,16 +25689,16 @@ Description: Documentation for Xen
 Description-md5: 6cae9b51dadf4d0824b74e2b7ff1077f
 Section: doc
 Priority: optional
-Filename: pool/updates/main/x/xen/xen-docs-4.1_4.1.4-3+deb7u1_all.deb
-Size: 1172122
-MD5sum: d54acf0f8be7b8111e2f687b22f57b0f
-SHA1: 0d4e4d38de524bf12f21d1951af11555fa7ae5ef
-SHA256: 48657ae660f82e25e2faf9ad6f797e666c29859a8f9b37f4d5a67daed19b31b0
+Filename: pool/updates/main/x/xen/xen-docs-4.1_4.1.4-3+deb7u2_all.deb
+Size: 1171882
+MD5sum: 5dfcf028876066c9d3ed1448d475bda7
+SHA1: efd18e5df68457a5ff3ff241e1cd56cfc5783c7d
+SHA256: 6da126f17a7107e003aca69cda3c72409746ebfd235ca8c68737798ec29db434
 
 Package: xen-hypervisor-4.1-amd64
 Source: xen
-Version: 4.1.4-3+deb7u1
-Installed-Size: 783
+Version: 4.1.4-3+deb7u2
+Installed-Size: 785
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: xen-hypervisor, xen-hypervisor-4.1, xen-hypervisor-amd64
@@ -25708,16 +25708,16 @@ Description-md5: 30d22c56057f827a5cc3329925199782
 Recommends: xen-utils-4.1
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/x/xen/xen-hypervisor-4.1-amd64_4.1.4-3+deb7u1_amd64.deb
-Size: 761180
-MD5sum: fcfbc4165194839a700f3f95e3f33848
-SHA1: e806d977e62748f11b65f31414dd79fb92919709
-SHA256: 4452661c078024d2b1f80d4763d6a72ea2f1c987007d2645818fb0628db1a8b2
+Filename: pool/updates/main/x/xen/xen-hypervisor-4.1-amd64_4.1.4-3+deb7u2_amd64.deb
+Size: 763502
+MD5sum: 8996d9b64443609f155a3720e8b76b86
+SHA1: 01c9a24980ed8dd1a5d3d76480f622aa5ae975a3
+SHA256: 26fe43c72d34998d74d218d224ffba79b531ad3676c5e85bda058faed5c335d7
 
 Package: xen-system-amd64
 Source: xen
-Version: 4.1.4-3+deb7u1
-Installed-Size: 49
+Version: 4.1.4-3+deb7u2
+Installed-Size: 50
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: xen-system
@@ -25726,20 +25726,20 @@ Description: Xen System on AMD64 (meta-package)
 Description-md5: f9a399da9b1f85d66b7c24b24d068efc
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/x/xen/xen-system-amd64_4.1.4-3+deb7u1_amd64.deb
-Size: 18280
-MD5sum: caba43f6e59cbf4aff5221f56bde0e2d
-SHA1: b9c8de2ef993b9ca66dc9a0a45c035f86ce93102
-SHA256: d329cbdf7bd5d758ee9f1a126ef971701a6493b08ced333782a8964c90e87a5a
+Filename: pool/updates/main/x/xen/xen-system-amd64_4.1.4-3+deb7u2_amd64.deb
+Size: 18466
+MD5sum: cfcde19e72f9ebb56a7f067670f7f6b8
+SHA1: c0ea5cdf363c8409d27805dd044044b1cc09b4e2
+SHA256: 2812a5aa845768c0f332297620d543031412717f2449cc6947c745cc506cc0bb
 
 Package: xen-utils-4.1
 Source: xen
-Version: 4.1.4-3+deb7u1
-Installed-Size: 4944
+Version: 4.1.4-3+deb7u2
+Installed-Size: 4946
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: xen-utils
-Depends: e2fslibs (>= 1.42.2), libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), libncurses5 (>= 5.5-5~), libpci3 (>= 1:3.1.9-2), libtinfo5, libuuid1 (>= 2.16), libxen-4.1 (>= 4.1.4), libxenstore3.0 (>= 4.0.1~rc4), zlib1g (>= 1:1.1.4), python2.7, python (>= 2.6.6-7~), xen-utils-common (>= 4.1.4-3+deb7u1)
+Depends: e2fslibs (>= 1.42.2), libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), libncurses5 (>= 5.5-5~), libpci3 (>= 1:3.1.9-2), libtinfo5, libuuid1 (>= 2.16), libxen-4.1 (>= 4.1.4), libxenstore3.0 (>= 4.0.1~rc4), zlib1g (>= 1:1.1.4), python2.7, python (>= 2.6.6-7~), xen-utils-common (>= 4.1.4-3+deb7u2)
 Suggests: xen-docs-4.1
 Description: XEN administrative tools
 Built-Using: ipxe (= 1.0.0+git-20120202.f6840ba-3)
@@ -25747,15 +25747,15 @@ Description-md5: bd953dd4214727fe5759b05287bffcbe
 Recommends: bridge-utils, xen-hypervisor-4.1, qemu-keymaps, qemu-utils
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/x/xen/xen-utils-4.1_4.1.4-3+deb7u1_amd64.deb
-Size: 1616538
-MD5sum: 96fcb70127b0067d6efa428f3e888748
-SHA1: deaaa9484c55c437b7a4476c3cb45605b7db5eca
-SHA256: 376adf3b78f86f3b3bbd13659f4c1fd9b802f70708f31f37de304e846650a87b
+Filename: pool/updates/main/x/xen/xen-utils-4.1_4.1.4-3+deb7u2_amd64.deb
+Size: 1619154
+MD5sum: 76f9feebac1cb5f227e19f54a525eff8
+SHA1: d2185f3bc08c779ded73bed805af4a0c701d9b3c
+SHA256: f135d8752bb2b7a41911f7eb7e8c089e7560c98298991f9e45035c6ffff3167e
 
 Package: xen-utils-common
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 263
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: all
@@ -25764,15 +25764,15 @@ Description: Xen administrative tools - common files
 Description-md5: 8af52ba7dfa8ab5d2f2013a4e86ceb1e
 Section: admin
 Priority: optional
-Filename: pool/updates/main/x/xen/xen-utils-common_4.1.4-3+deb7u1_all.deb
-Size: 80250
-MD5sum: 56ece4ec9456e21691022c95d154603e
-SHA1: cb96b6bcd5f590b15d92217ed78fe1e23dece56a
-SHA256: 40bae0db5ff567cfff64f5c90bab5f3abfeeab37b026577dedf1b56f2f8a6871
+Filename: pool/updates/main/x/xen/xen-utils-common_4.1.4-3+deb7u2_all.deb
+Size: 79474
+MD5sum: ee395beb3fc9e36409508f035a075773
+SHA1: 371a73f843fe164da5a65c97f235b4355a08c5bb
+SHA256: 10ef3dbb81fbd3b294e4ec05f5368e0360b1728cf33cf448f94fe9207654e3b6
 
 Package: xenstore-utils
 Source: xen
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Installed-Size: 175
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -25783,11 +25783,11 @@ Description: Xenstore utilities for Xen
 Description-md5: cfed1da00b837e11d5cbc87fffd781d4
 Section: admin
 Priority: extra
-Filename: pool/updates/main/x/xen/xenstore-utils_4.1.4-3+deb7u1_amd64.deb
-Size: 26882
-MD5sum: df0746ec80477526a7023ab7729f8401
-SHA1: a870e50c0b6e77adbb8451871e5ccc2db8d456f8
-SHA256: d3bd636545fe86e3dd1f396ccd299e79e82e7e1902ae6c203505bdfa18fd2f0c
+Filename: pool/updates/main/x/xen/xenstore-utils_4.1.4-3+deb7u2_amd64.deb
+Size: 26838
+MD5sum: b9eb7ed8f77625f2652a987ca62fcb36
+SHA1: 421f753485d13f4d8e3eecb422a958877b62f571
+SHA256: 639d5ba5cfa148ce8a58a383b8f808ff8b012b4c06101425808431db116cc486
 
 Package: libxml-security-c-dev
 Source: xml-security-c

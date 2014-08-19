@@ -10177,7 +10177,7 @@ Section: mail
 
 Package: xen
 Binary: xen-docs-4.1, libxen-4.1, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.1, xen-hypervisor-4.1-amd64, xen-system-amd64, xen-hypervisor-4.1-i386, xen-system-i386
-Version: 4.1.4-3+deb7u1
+Version: 4.1.4-3+deb7u2
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Uploaders: Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>
 Build-Depends: debhelper (>> 7), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc, gcc-multilib, e2fslibs-dev, iasl, ipxe-qemu, libaio-dev, libgnutls-dev, liblzma-dev, libncurses5-dev, libpci-dev, pkg-config, uuid-dev, zlib1g-dev, ocaml-nox, dh-ocaml, ocaml-findlib
@@ -10185,20 +10185,20 @@ Architecture: all amd64 i386
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- b975830f96a69a615c84e49eab09c53c 3057 xen_4.1.4-3+deb7u1.dsc
+ 1c63f96a9968483f1df62ec5939f4c46 2417 xen_4.1.4-3+deb7u2.dsc
  e46da6b762d2b66122d087e3b93388ca 3152298 xen_4.1.4.orig-qemu.tar.gz
  f6637f921ff755a2ee3b48ff8db3f6b5 6618565 xen_4.1.4.orig.tar.gz
- 899aa03d035d16ee998e8b53442ea0e7 162359 xen_4.1.4-3+deb7u1.debian.tar.gz
+ 863c37a80f7a6151ebeff2f0e08cfeff 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
 Checksums-Sha1:
- 46e3be2f1fcd7c1a36bd7e1430c8712524d77020 3057 xen_4.1.4-3+deb7u1.dsc
+ b33ffe15bf2febfbfc99d8e6f7c693bea7b2ecd1 2417 xen_4.1.4-3+deb7u2.dsc
  25ce9b87054be42db97939592a2cc7f4c02dfad7 3152298 xen_4.1.4.orig-qemu.tar.gz
  925ea343a4cd3c90e409cba5d1e8cc02305445a2 6618565 xen_4.1.4.orig.tar.gz
- 3151043f430318a5ccdf371d3853e73d9921a59a 162359 xen_4.1.4-3+deb7u1.debian.tar.gz
+ 8eafe3c566518e1800ee7217f5b1ad3a20044ee5 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
 Checksums-Sha256:
- a4fb3d1b00e8a5d0dda4588fbc0bf53cbda95e2f9d1428c878bf4b77a849816d 3057 xen_4.1.4-3+deb7u1.dsc
+ ac029f39fcfc41714d45024b4ced2e3b55dcfb18c4600642e92677b872ff5708 2417 xen_4.1.4-3+deb7u2.dsc
  dd0901aa63e7c780c4f5daa2b9079827a491e8feb64497b8a01928b9f0d1c7c7 3152298 xen_4.1.4.orig-qemu.tar.gz
  19e0b97419cafcd0b51933b3403121b4b83a5f79d293291a0a92746346a019f1 6618565 xen_4.1.4.orig.tar.gz
- 10807b937612570aca7d5a45ca971d868176ca02dce1bc4878809a04e74ddd55 162359 xen_4.1.4-3+deb7u1.debian.tar.gz
+ a8a3bc62f3e77ec09ac3b3202f2c1b1419773b339689f26dd36d23d66488aab5 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
 Build-Depends-Indep: graphviz, ghostscript, texlive-fonts-recommended, texlive-font-utils, texlive-latex-recommended
 Package-List: 
  libxen-4.1 deb libs optional
