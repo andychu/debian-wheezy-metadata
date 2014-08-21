@@ -252,7 +252,7 @@ Section: net
 
 Package: cacti
 Binary: cacti
-Version: 0.8.8a+dfsg-5+deb7u3
+Version: 0.8.8a+dfsg-5+deb7u4
 Maintainer: Cacti Maintainer <pkg-cacti-maint@lists.alioth.debian.org>
 Uploaders: Sean Finney <seanius@debian.org>, Mahyuddin Susanto <udienz@ubuntu.com>, Paul Gevers <elbrus@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), po-debconf
@@ -260,19 +260,19 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 724367875a4e43438b532c33cb59d853 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
+ 403b5abd51e6dff69eef2126c36605a3 1683 cacti_0.8.8a+dfsg-5+deb7u4.dsc
  45ef51a85ee91bf9212478cc4af1c5de 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- 8237f1100ca61743de8e0e4b2e5f2fab 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
+ c0d63abda1b79487441763de431d93ce 124924 cacti_0.8.8a+dfsg-5+deb7u4.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-cacti/cacti.git
 Vcs-Git: git://git.debian.org/pkg-cacti/cacti.git
 Checksums-Sha1:
- 9acdcd6e9e6b16603e2ee400197df3282a1e6b83 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
+ aba2dfa12596a98fe518a8cc57cfe4e2ecdaf527 1683 cacti_0.8.8a+dfsg-5+deb7u4.dsc
  4345484327a663043f2c25cc14da763ed0b10bce 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- 1d3cc0a0c7ce926893644967ee151c4c4bc65466 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
+ 59f85a6cd4e35232cbf69871fee86801e9516dae 124924 cacti_0.8.8a+dfsg-5+deb7u4.debian.tar.gz
 Checksums-Sha256:
- 329bd24accebeab86ac701788a092b090454d80ec69c9c05d8ba0e2a13a7cb93 1683 cacti_0.8.8a+dfsg-5+deb7u3.dsc
+ a7a9555d27d73df668d2e972c371ef18effd07ab4d4d0acfe73a00268faed377 1683 cacti_0.8.8a+dfsg-5+deb7u4.dsc
  18575e99b5be11edb150a5a20a8a63f8cbf50be0adb0c4892db3be68ca1fcf74 2262792 cacti_0.8.8a+dfsg.orig.tar.gz
- c105e1fd8d185a26308343a0c2575fb350aa7555bf61da488a63ff40a3b183d5 121095 cacti_0.8.8a+dfsg-5+deb7u3.debian.tar.gz
+ 43303d65ed0e6c8127713299989104de0dac1d00c0ef393ca386be8fcb0c479f 124924 cacti_0.8.8a+dfsg-5+deb7u4.debian.tar.gz
 Homepage: http://www.cacti.net/
 Dm-Upload-Allowed: yes
 Package-List: 
@@ -3586,6 +3586,36 @@ Package-List:
 Directory: pool/updates/main/libs/libssh
 Priority: source
 Section: libs
+
+Package: libstruts1.2-java
+Binary: libstruts1.2-java
+Version: 1.2.9-5+deb7u1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Koch <konqueror@gmx.de>
+Build-Depends: debhelper (>= 7), cdbs (>= 0.4.8), default-jdk, ant, ant-optional, libxerces2-java, libxalan2-java, libcommons-beanutils-java (>= 1.7.0), libcommons-digester-java (>= 1.7), libcommons-fileupload-java (>= 1.0), libcommons-logging-java, libcommons-validator-java (>= 1.1.4), liboro-java, libservlet2.5-java, antlr
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 29ee67a286b1782ce02e99ad8876d407 2312 libstruts1.2-java_1.2.9-5+deb7u1.dsc
+ b4dc28805a07f1bd3250c55b610de070 5709604 libstruts1.2-java_1.2.9.orig.tar.gz
+ 6660de30d0d46360612d544cb7ff310a 7300 libstruts1.2-java_1.2.9-5+deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-java/trunk/libstruts1.2-java/
+Checksums-Sha1:
+ 8dd96dba9a1e778261883a0910299e24191add9a 2312 libstruts1.2-java_1.2.9-5+deb7u1.dsc
+ 9c79dc5eaeaf9a76ad737c1597876504c62af21b 5709604 libstruts1.2-java_1.2.9.orig.tar.gz
+ 078d09c4f2f072cdd2f14b0e88987649cb0a2ac2 7300 libstruts1.2-java_1.2.9-5+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ f7a63d30a29acd0f30132110b956e30f6a144c78ec96c42d490021a4096aa356 2312 libstruts1.2-java_1.2.9-5+deb7u1.dsc
+ 2e4b8e6abfeddb95e18a93a6a6f332ef05604fcc6485d5e0fd2c6f6aae9f2663 5709604 libstruts1.2-java_1.2.9.orig.tar.gz
+ aff6a9ca49e337ede03727ecbaacf2f54f433552c46ed9e7a5b7b100727183fb 7300 libstruts1.2-java_1.2.9-5+deb7u1.debian.tar.gz
+Homepage: http://struts.apache.org/
+Package-List: 
+ libstruts1.2-java deb java optional
+Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/libstruts1.2-java
+Directory: pool/updates/main/libs/libstruts1.2-java
+Priority: source
+Section: devel
 
 Package: libtar
 Binary: libtar-dev, libtar0
@@ -7900,7 +7930,7 @@ Section: web
 
 Package: php5
 Binary: php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl
-Version: 5.4.4-14+deb7u12
+Version: 5.4.4-14+deb7u13
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>
 Build-Depends: apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata
@@ -7908,19 +7938,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- e7d5274936f77ef57c465782a6ed6d03 4418 php5_5.4.4-14+deb7u12.dsc
+ f7cb566e10427d53d437475ce9ba67fe 4401 php5_5.4.4-14+deb7u13.dsc
  8366c3626f2275ab8c7ef5e2d6bc5bd7 14060505 php5_5.4.4.orig.tar.gz
- fb2444052cf5168b73e3f84f12235116 270701 php5_5.4.4-14+deb7u12.diff.gz
+ 9aa1ef6002e598bca3a22339aeed404f 279203 php5_5.4.4-14+deb7u13.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-php/php.git
 Vcs-Git: git://git.debian.org/pkg-php/php.git
 Checksums-Sha1:
- c907a797173603fb1a71011f80a3e7db77ea31cc 4418 php5_5.4.4-14+deb7u12.dsc
+ 43798bc9c534facbbf0cc3e76112ae73b15e454f 4401 php5_5.4.4-14+deb7u13.dsc
  5b218c805078dca5925bef26bb3fb7a9cf98a940 14060505 php5_5.4.4.orig.tar.gz
- 01ef053cfc5e8b70bb21680c278827e414822df9 270701 php5_5.4.4-14+deb7u12.diff.gz
+ a4ecbb321f2c5c1cc3aba3d8756c6349af4e27d0 279203 php5_5.4.4-14+deb7u13.diff.gz
 Checksums-Sha256:
- dea9de060745989a238483727ef51673d30b359d5c77b1e9668c8413b59b5c0f 4418 php5_5.4.4-14+deb7u12.dsc
+ f5614cdb2f055a5a25a039389c639e908c409af7762ab1335b9de33c37d38c99 4401 php5_5.4.4-14+deb7u13.dsc
  0404b517ff938aca2c445fd61d10467e275acb031607cb09bf678241ba205edf 14060505 php5_5.4.4.orig.tar.gz
- beedf5526b47d327ad13d4a87a0cd2b64cacc4997b37811530c56ac45dec4e7c 270701 php5_5.4.4-14+deb7u12.diff.gz
+ 10157b81496865e7d7af42f1119c9cf08208fc78ebdcc75ad2352490c4dff476 279203 php5_5.4.4-14+deb7u13.diff.gz
 Homepage: http://www.php.net/
 Build-Conflicts: bind-dev
 Package-List: 
