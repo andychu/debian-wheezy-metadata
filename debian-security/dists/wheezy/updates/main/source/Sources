@@ -7930,7 +7930,7 @@ Section: web
 
 Package: php5
 Binary: php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl
-Version: 5.4.4-14+deb7u13
+Version: 5.4.4-14+deb7u14
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>
 Build-Depends: apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata
@@ -7938,19 +7938,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- f7cb566e10427d53d437475ce9ba67fe 4401 php5_5.4.4-14+deb7u13.dsc
+ 9958dc9e25bcc77c8da5ebcc364b6cb8 4401 php5_5.4.4-14+deb7u14.dsc
  8366c3626f2275ab8c7ef5e2d6bc5bd7 14060505 php5_5.4.4.orig.tar.gz
- 9aa1ef6002e598bca3a22339aeed404f 279203 php5_5.4.4-14+deb7u13.diff.gz
+ b23f412263b689177ac8b381564ee9c0 280053 php5_5.4.4-14+deb7u14.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-php/php.git
 Vcs-Git: git://git.debian.org/pkg-php/php.git
 Checksums-Sha1:
- 43798bc9c534facbbf0cc3e76112ae73b15e454f 4401 php5_5.4.4-14+deb7u13.dsc
+ 0c7a920dcce03bf814a832ff96093c074b00174a 4401 php5_5.4.4-14+deb7u14.dsc
  5b218c805078dca5925bef26bb3fb7a9cf98a940 14060505 php5_5.4.4.orig.tar.gz
- a4ecbb321f2c5c1cc3aba3d8756c6349af4e27d0 279203 php5_5.4.4-14+deb7u13.diff.gz
+ 47c3b7889a23f57a065ec04de5d3e72e0b45417a 280053 php5_5.4.4-14+deb7u14.diff.gz
 Checksums-Sha256:
- f5614cdb2f055a5a25a039389c639e908c409af7762ab1335b9de33c37d38c99 4401 php5_5.4.4-14+deb7u13.dsc
+ 088527144a2b05689f7d98d31c3e470a374a94c45d8e292b8f8b3b9adbb4faad 4401 php5_5.4.4-14+deb7u14.dsc
  0404b517ff938aca2c445fd61d10467e275acb031607cb09bf678241ba205edf 14060505 php5_5.4.4.orig.tar.gz
- 10157b81496865e7d7af42f1119c9cf08208fc78ebdcc75ad2352490c4dff476 279203 php5_5.4.4-14+deb7u13.diff.gz
+ 8940cb5794eba3b46462608e33ff1eccfe7bb729b3d68856ba8b0abe35968962 280053 php5_5.4.4-14+deb7u14.diff.gz
 Homepage: http://www.php.net/
 Build-Conflicts: bind-dev
 Package-List: 
@@ -8694,6 +8694,40 @@ Package-List:
  python3-gnupg deb python optional
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-gnupg/trunk/
 Directory: pool/updates/main/p/python-gnupg
+Priority: source
+Section: python
+
+Package: python-imaging
+Binary: python-imaging, python-imaging-dbg, python-imaging-tk, python-imaging-tk-dbg, python-imaging-sane, python-imaging-sane-dbg, python-imaging-doc
+Version: 1.1.7-4+deb7u1
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: tk8.5-dev, python-all-dev (>= 2.6.5-9~), python-all-dbg, python-tk-dbg (>= 2.5.2-1.1), libsane-dev, libfreetype6-dev, libjpeg8-dev, zlib1g-dev, liblcms1-dev, debhelper (>= 5.0.37.1)
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ 53aa337574f8190a45b2aa6f5cc1592b 2280 python-imaging_1.1.7-4+deb7u1.dsc
+ fc14a54e1ce02a0225be8854bfba478e 498749 python-imaging_1.1.7.orig.tar.gz
+ 6be7a9c8186ec5101dc25eaa997bc947 9032 python-imaging_1.1.7-4+deb7u1.diff.gz
+Checksums-Sha1:
+ a2a3a0ff74fe45050836057b025fb484e453c70d 2280 python-imaging_1.1.7-4+deb7u1.dsc
+ 76c37504251171fda8da8e63ecb8bc42a69a5c81 498749 python-imaging_1.1.7.orig.tar.gz
+ 0185b0f901b1626d3572538e2a47f70ba6bb0718 9032 python-imaging_1.1.7-4+deb7u1.diff.gz
+Checksums-Sha256:
+ dff528af0ecad64fe6b6d623a49375b9134f892efa744ae75c005f9b28832d2a 2280 python-imaging_1.1.7-4+deb7u1.dsc
+ 895bc7c2498c8e1f9b99938f1a40dc86b3f149741f105cf7c7bd2e0725405211 498749 python-imaging_1.1.7.orig.tar.gz
+ 45917f74954027c4485e41756cd0507264d4e088fec2a28a0fe3a60d5d3afcd5 9032 python-imaging_1.1.7-4+deb7u1.diff.gz
+Build-Conflicts: python-numarray
+Package-List: 
+ python-imaging deb python optional
+ python-imaging-dbg deb debug extra
+ python-imaging-doc deb doc optional
+ python-imaging-sane deb python optional
+ python-imaging-sane-dbg deb debug extra
+ python-imaging-tk deb python optional
+ python-imaging-tk-dbg deb debug extra
+Python-Version: all
+Directory: pool/updates/main/p/python-imaging
 Priority: source
 Section: python
 
