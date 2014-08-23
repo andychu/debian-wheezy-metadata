@@ -8636,7 +8636,7 @@ Section: python
 
 Package: python-django
 Binary: python-django, python-django-doc
-Version: 1.4.5-1+deb7u7
+Version: 1.4.5-1+deb7u8
 Maintainer: Chris Lamb <lamby@debian.org>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>, Raphaël Hertzog <hertzog@debian.org>, Luke Faraone <lfaraone@debian.org>
 Build-Depends: debhelper (>= 7.0.50), python (>= 2.6.6-3~), python-sphinx (>= 1.0.8), locales (>= 0)
@@ -8644,18 +8644,18 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- f5dcce7fb07759a1330e822a68874905 1945 python-django_1.4.5-1+deb7u7.dsc
+ b9141c3a0812908aa5af51617de97a6a 2239 python-django_1.4.5-1+deb7u8.dsc
  851d00905eb70e4aa6384b3b8b111fb7 7735582 python-django_1.4.5.orig.tar.gz
- 1d15ead2feaf347356c5d124fd7b8ec9 37903 python-django_1.4.5-1+deb7u7.debian.tar.gz
+ d1177a06ef4d5ae17b9083b53ee89f23 43226 python-django_1.4.5-1+deb7u8.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-django/trunk/
 Checksums-Sha1:
- b2a3dfcc9922c1c0914ec510b08f62f72e24905d 1945 python-django_1.4.5-1+deb7u7.dsc
+ d4b5aef1f2125f58cf993802cc4c76577c269e02 2239 python-django_1.4.5-1+deb7u8.dsc
  1bfaa4643c6775fbf394137f1533659be45441e7 7735582 python-django_1.4.5.orig.tar.gz
- 7f997540464e672ac22c8235616a03b8d01549e9 37903 python-django_1.4.5-1+deb7u7.debian.tar.gz
+ 373bd9b854e421cfca7b469f1d81e1a6ff86fc97 43226 python-django_1.4.5-1+deb7u8.debian.tar.gz
 Checksums-Sha256:
- 07a19a4173ff014cd900d2dfd744741f47aee959fe27356d44d5dc06e0aadcc8 1945 python-django_1.4.5-1+deb7u7.dsc
+ cd25f8656635be81ab063f73532279ae1b82c5ee4c25905f7db5feed7bf9b2d1 2239 python-django_1.4.5-1+deb7u8.dsc
  0e1e8c4217299672bbf9404994717fca2d8d4b7a4f7b8b3b74d413e1fda81428 7735582 python-django_1.4.5.orig.tar.gz
- 3834af642feec40572de10117d7457e920a0c8bd1e3c6c69580b9ba924c3050a 37903 python-django_1.4.5-1+deb7u7.debian.tar.gz
+ 355afa1a4f363a8144c748a122d32acc6891170ee17445182a6495b26a54e1bc 43226 python-django_1.4.5-1+deb7u8.debian.tar.gz
 Homepage: http://www.djangoproject.com/
 Build-Depends-Indep: libjs-jquery
 Package-List: 
