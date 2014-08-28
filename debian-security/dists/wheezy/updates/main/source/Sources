@@ -717,97 +717,6 @@ Section: web
 
 Package: eglibc
 Binary: libc-bin, libc-dev-bin, glibc-doc, eglibc-source, locales, locales-all, nscd, multiarch-support, libc6, libc6-dev, libc6-dbg, libc6-prof, libc6-pic, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-prof, libc6.1-pic, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-prof, libc0.3-pic, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-prof, libc0.1-pic, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc64, libc6-dev-sparc64, libc6-s390, libc6-dev-s390, libc6-s390x, libc6-dev-s390x, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-i686, libc6-xen, libc0.1-i686, libc0.3-i686, libc0.3-xen, libc6.1-alphaev67, libc6-loongson2f, libnss-dns-udeb, libnss-files-udeb
-Version: 2.13-38+deb7u3
-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
-Build-Depends: gettext, make (>= 3.80), dpkg-dev (>= 1.16.0), bzip2, xz-utils, file, quilt, autoconf, sed (>= 4.0.5-4), gawk, debhelper (>= 7.4.3), tar (>= 1.22), fdupes, linux-libc-dev (>= 3.2.1) [linux-any], mig (>= 1.3-2) [hurd-i386], hurd-dev (>= 20120520-2~) [hurd-i386], gnumach-dev (>= 2:1.3.99.dfsg.git20120923~) [hurd-i386], kfreebsd-kernel-headers [kfreebsd-any], binutils (>= 2.20-3), binutils (>= 2.21) [sparc sparc64], g++-4.4 (>= 4.4.2-2) [!armhf], g++-4.6 [armhf], g++-4.4-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 s390x sparc]
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 1.0
-Files:
- d60756ff6b92b998080e2ec24d0decb4 5041 eglibc_2.13-38+deb7u3.dsc
- be63a487c69b3f4198def94d7254b250 23004247 eglibc_2.13.orig.tar.gz
- 782608e23364aa861c951ad154796941 2003064 eglibc_2.13-38+deb7u3.diff.gz
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-glibc/glibc-package/
-Checksums-Sha1:
- 7e6ad8c73b811034f5c4c203dfdfe253cf501740 5041 eglibc_2.13-38+deb7u3.dsc
- 86eb6a5f77c2be9cc753ee4d74fc8c1e994d1589 23004247 eglibc_2.13.orig.tar.gz
- ea2ef387197cf9e9f80a7ae8a5f7027aa3268ea2 2003064 eglibc_2.13-38+deb7u3.diff.gz
-Checksums-Sha256:
- eb6f71ba39fb15f6666953be0aa987d03934a1da6e395b05f5d2fabf9421c0a0 5041 eglibc_2.13-38+deb7u3.dsc
- 5e6dce233f0d0f89453b369efbc1ff360956b5d2de45c03c9bc8c52eef98868f 23004247 eglibc_2.13.orig.tar.gz
- 724e6ce662de981cf37a8ed063139f09c0544e38675743c4ed366cd5acc1146c 2003064 eglibc_2.13-38+deb7u3.diff.gz
-Homepage: http://www.eglibc.org
-Build-Depends-Indep: perl, po-debconf (>= 1.0)
-Package-List: 
- eglibc-source deb devel optional
- glibc-doc deb doc optional
- libc-bin deb libs required
- libc-dev-bin deb libdevel optional
- libc0.1 deb libs required
- libc0.1-dbg deb debug extra
- libc0.1-dev deb libdevel optional
- libc0.1-dev-i386 deb libdevel optional
- libc0.1-i386 deb libs optional
- libc0.1-i686 deb libs extra
- libc0.1-pic deb libdevel optional
- libc0.1-prof deb libdevel extra
- libc0.1-udeb udeb debian-installer extra
- libc0.3 deb libs required
- libc0.3-dbg deb debug extra
- libc0.3-dev deb libdevel optional
- libc0.3-i686 deb libs extra
- libc0.3-pic deb libdevel optional
- libc0.3-prof deb libdevel extra
- libc0.3-udeb udeb debian-installer extra
- libc0.3-xen deb libs extra
- libc6 deb libs required
- libc6-amd64 deb libs optional
- libc6-dbg deb debug extra
- libc6-dev deb libdevel optional
- libc6-dev-amd64 deb libdevel optional
- libc6-dev-i386 deb libdevel optional
- libc6-dev-mips64 deb libdevel optional
- libc6-dev-mipsn32 deb libdevel optional
- libc6-dev-powerpc deb libdevel optional
- libc6-dev-ppc64 deb libdevel optional
- libc6-dev-s390 deb libdevel optional
- libc6-dev-s390x deb libdevel optional
- libc6-dev-sparc64 deb libdevel optional
- libc6-i386 deb libs optional
- libc6-i686 deb libs extra
- libc6-loongson2f deb libs extra
- libc6-mips64 deb libs optional
- libc6-mipsn32 deb libs optional
- libc6-pic deb libdevel optional
- libc6-powerpc deb libs optional
- libc6-ppc64 deb libs optional
- libc6-prof deb libdevel extra
- libc6-s390 deb libs optional
- libc6-s390x deb libs optional
- libc6-sparc64 deb libs optional
- libc6-udeb udeb debian-installer extra
- libc6-xen deb libs extra
- libc6.1 deb libs required
- libc6.1-alphaev67 deb libs extra
- libc6.1-dbg deb debug extra
- libc6.1-dev deb libdevel optional
- libc6.1-pic deb libdevel optional
- libc6.1-prof deb libdevel extra
- libc6.1-udeb udeb debian-installer extra
- libnss-dns-udeb udeb debian-installer extra
- libnss-files-udeb udeb debian-installer extra
- locales deb localization standard
- locales-all deb localization extra
- multiarch-support deb libs required
- nscd deb admin optional
-Vcs-Svn: svn://svn.debian.org/pkg-glibc/glibc-package/
-Directory: pool/updates/main/e/eglibc
-Priority: source
-Section: libs
-
-Package: eglibc
-Binary: libc-bin, libc-dev-bin, glibc-doc, eglibc-source, locales, locales-all, nscd, multiarch-support, libc6, libc6-dev, libc6-dbg, libc6-prof, libc6-pic, libc6-udeb, libc6.1, libc6.1-dev, libc6.1-dbg, libc6.1-prof, libc6.1-pic, libc6.1-udeb, libc0.3, libc0.3-dev, libc0.3-dbg, libc0.3-prof, libc0.3-pic, libc0.3-udeb, libc0.1, libc0.1-dev, libc0.1-dbg, libc0.1-prof, libc0.1-pic, libc0.1-udeb, libc6-i386, libc6-dev-i386, libc6-sparc64, libc6-dev-sparc64, libc6-s390, libc6-dev-s390, libc6-s390x, libc6-dev-s390x, libc6-amd64, libc6-dev-amd64, libc6-powerpc, libc6-dev-powerpc, libc6-ppc64, libc6-dev-ppc64, libc6-mipsn32, libc6-dev-mipsn32, libc6-mips64, libc6-dev-mips64, libc0.1-i386, libc0.1-dev-i386, libc6-i686, libc6-xen, libc0.1-i686, libc0.3-i686, libc0.3-xen, libc6.1-alphaev67, libc6-loongson2f, libnss-dns-udeb, libnss-files-udeb
 Version: 2.13-38+deb7u4
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
@@ -9366,6 +9275,37 @@ Package-List:
 Directory: pool/updates/main/r/rxvt-unicode
 Priority: source
 Section: x11
+
+Package: s3ql
+Binary: s3ql, s3ql-dbg
+Version: 1.11.1-3+deb7u1
+Maintainer: Debian Python Apps Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Nikolaus Rath <Nikolaus@rath.org>, Laszlo Boszormenyi <gcs@debian.hu>
+Build-Depends: debhelper (>= 8), python-dev (>= 2.7), python-dbg, python-setuptools (>= 0.6.14), python-apsw (>= 3.7.0), libsqlite3-dev (>= 3.7.0), python-sphinx (>= 1.0.7+dfsg), python (>= 2.7), python-unittest2, python-llfuse (>= 0.37), python-pycryptopp, python-lzma (>= 0.5.3), texlive-latex-base, texlive-latex-recommended, texlive-latex-extra, texlive-fonts-recommended, cython (>= 0.15.1)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 5928ca44450744bb9b1550b8d7c1171d 2015 s3ql_1.11.1-3+deb7u1.dsc
+ 14384bdb5eac8e9fe086c6c2199c6368 1434714 s3ql_1.11.1.orig.tar.bz2
+ 4c57a12f53f071780787d2a37e5f1278 8369 s3ql_1.11.1-3+deb7u1.debian.tar.bz2
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-apps/packages/s3ql/trunk/
+Checksums-Sha1:
+ 76732c51a3b663c27e5f7d391c10bb4ebfd4060f 2015 s3ql_1.11.1-3+deb7u1.dsc
+ d8c0b752ac8aa9376b43a01424a2afd325737162 1434714 s3ql_1.11.1.orig.tar.bz2
+ a0c39bd9225476c453f88281e02642210fa92b2d 8369 s3ql_1.11.1-3+deb7u1.debian.tar.bz2
+Checksums-Sha256:
+ 5976b8929dd173fbd9f70ecbf60949b40cc0a49f2fc2571f8ab626e9247ff86f 2015 s3ql_1.11.1-3+deb7u1.dsc
+ bb1a6bfd19bb4eccb675a0d1a60c5df24b438192efee0c264e0c1fe161828bd8 1434714 s3ql_1.11.1.orig.tar.bz2
+ d7c7b3c27cd92075b47d486c1ac72de409b63018673e4e74bb18429d0c1bfe07 8369 s3ql_1.11.1-3+deb7u1.debian.tar.bz2
+Homepage: http://code.google.com/p/s3ql/
+Package-List: 
+ s3ql deb misc optional
+ s3ql-dbg deb debug extra
+Vcs-Svn: svn://svn.debian.org/python-apps/packages/s3ql/trunk
+Directory: pool/updates/main/s/s3ql
+Priority: source
+Section: misc
 
 Package: samba
 Binary: samba, samba-common-bin, samba-common, samba-tools, smbclient, swat, samba-doc, samba-doc-pdf, libpam-smbpass, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, samba-dbg, libwbclient0, libwbclient-dev

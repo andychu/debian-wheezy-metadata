@@ -22697,6 +22697,42 @@ MD5sum: d048bbdea5162e0138b9d59be468a4de
 SHA1: 0c78630bd076fbca4937aa73d493de4a14007adb
 SHA256: bcfd25b4f00d4106c4d035852b2ad403a30b3e52b3220659b126f79bec6735f0
 
+Package: s3ql
+Version: 1.11.1-3+deb7u1
+Installed-Size: 1238
+Maintainer: Debian Python Apps Team <python-apps-team@lists.alioth.debian.org>
+Architecture: i386
+Depends: python (>= 2.7), python-apsw (>= 3.7.0), python-pycryptopp, python-llfuse (>= 0.37), python-lzma (>= 0.5.3), python2.7, libc6 (>= 2.3.6-6~), libsqlite3-0 (>= 3.7.0), libjs-sphinxdoc (>= 1.0), fuse, psmisc, python-pkg-resources
+Description: Full-featured file system for online data storage
+Homepage: http://code.google.com/p/s3ql/
+Description-md5: 53a3bb30a891b86a7ab639f4eb082b1e
+Section: misc
+Priority: optional
+Filename: pool/updates/main/s/s3ql/s3ql_1.11.1-3+deb7u1_i386.deb
+Size: 477954
+MD5sum: 6a9d88952378b2dcb2a5588c633cff3d
+SHA1: 058e8247e66277192be3e1ff2e9014eeafd97cae
+SHA256: 302d87868af34099e72918b625940a7c368b2fd73cad6bee2efba6cd48b17307
+
+Package: s3ql-dbg
+Source: s3ql
+Version: 1.11.1-3+deb7u1
+Installed-Size: 232
+Maintainer: Debian Python Apps Team <python-apps-team@lists.alioth.debian.org>
+Architecture: i386
+Depends: s3ql (= 1.11.1-3+deb7u1)
+Description: Full-featured file system for online data storage (debugging symbols)
+Homepage: http://code.google.com/p/s3ql/
+Description-md5: fe894f3cfa6d836661acc90f3319151b
+Recommends: python-dbg, python-llfuse-dbg, python-apsw-dbg, python-pycryptopp-dbg, python-lzma-dbg
+Section: debug
+Priority: extra
+Filename: pool/updates/main/s/s3ql/s3ql-dbg_1.11.1-3+deb7u1_i386.deb
+Size: 86592
+MD5sum: 31cb8c14ddd321c9af6602d90879f026
+SHA1: c90c5c13858fef05fcb126e6a49696bac9952d09
+SHA256: 18d497262501f960005994c981f825e42e707321c3e62c4c1b401506a12f1308
+
 Package: libnss-winbind
 Source: samba
 Version: 2:3.6.6-6+deb7u4
