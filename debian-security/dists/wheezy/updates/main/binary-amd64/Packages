@@ -22799,6 +22799,102 @@ MD5sum: a708de346bc654499d85e59796534f7a
 SHA1: 5cba4aa19d27464e248e494ce95e716c76ce037d
 SHA256: e63ac402b3e5a4d0193664a06bab8da99cb3755d816e0dbfa536568bb4d14039
 
+Package: squid-cgi
+Source: squid3
+Version: 3.1.20-2.2+deb7u2
+Installed-Size: 200
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: amd64
+Replaces: squid3-cgi
+Provides: squid3-cgi
+Depends: apache2 | httpd, libc6 (>= 2.4), libcap2 (>= 2.10), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0)
+Conflicts: squid3-cgi
+Description: Full featured Web Proxy cache (HTTP proxy) - control CGI
+Homepage: http://www.squid-cache.org
+Description-md5: 7be7779ed4abd43e899e43fa22fc649e
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid3/squid-cgi_3.1.20-2.2+deb7u2_amd64.deb
+Size: 116210
+MD5sum: 7c1c9a370e31c5d93375c30b00ee7418
+SHA1: 54c373f63fd3f2a2a599d5bc5bedbf5b58ee0a35
+SHA256: 8bc15e39ca97dff77e33958491e4a03beac252012ec0f2985b295cd310089963
+
+Package: squid3
+Version: 3.1.20-2.2+deb7u2
+Installed-Size: 4107
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libcomerr2 (>= 1.01), libdb5.1, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libltdl7 (>= 2.4.2), libpam0g (>= 0.99.7.1), libsasl2-2 (>= 2.1.24), libstdc++6 (>= 4.4.0), libxml2 (>= 2.7.4), netbase, adduser, logrotate (>= 3.5.4-1), squid3-common (= 3.1.20-2.2+deb7u2), lsb-base
+Suggests: squidclient, squid-cgi, resolvconf (>= 0.40), smbclient, ufw
+Description: Full featured Web Proxy cache (HTTP proxy)
+Homepage: http://www.squid-cache.org
+Description-md5: 56686f47e386eb90f86c02cb88a67889
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid3/squid3_3.1.20-2.2+deb7u2_amd64.deb
+Size: 1643226
+MD5sum: 55dbfe14aefa62c9c21c8f6a8441a100
+SHA1: 163e7b110933d045c20a2816fccef0a2dccd53ea
+SHA256: 6db9e5c2b2f19661d49fc3bb0e3f2b438fc3bc603dfcfbac5a6f0eb2bb20608f
+
+Package: squid3-common
+Source: squid3
+Version: 3.1.20-2.2+deb7u2
+Installed-Size: 336
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: all
+Depends: squid-langpack (>= 20110214-1)
+Description: Full featured Web Proxy cache (HTTP proxy) - common files
+Homepage: http://www.squid-cache.org
+Description-md5: c71540fd71e8a0771cd67cbb7cdf9ed4
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid3/squid3-common_3.1.20-2.2+deb7u2_all.deb
+Size: 203760
+MD5sum: 2fb0bb0c05d8f3600da2c90f24925aa1
+SHA1: ecc30ffaae521bd74619c6fb47880542304a2fd4
+SHA256: 513cc78ef18207ea56bdb8093aa4449f54fd211771361664b2180eca44a5069b
+
+Package: squid3-dbg
+Source: squid3
+Version: 3.1.20-2.2+deb7u2
+Installed-Size: 19800
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: amd64
+Depends: squid3 (= 3.1.20-2.2+deb7u2)
+Description: Full featured Web Proxy cache (HTTP proxy) - Debug symbols
+Homepage: http://www.squid-cache.org
+Description-md5: d5c14e1471912f644f9014560978dd12
+Section: debug
+Priority: extra
+Filename: pool/updates/main/s/squid3/squid3-dbg_3.1.20-2.2+deb7u2_amd64.deb
+Size: 6962882
+MD5sum: c3c8ac5f9433d77a16f98ad4bf7bd4a3
+SHA1: afe3c1173816f4375c91e7694bab5e65cbf3d416
+SHA256: fea395b9dafdb7791ffefb8e651e305bc55c1b816564128394b3c0229a417dc4
+
+Package: squidclient
+Source: squid3
+Version: 3.1.20-2.2+deb7u2
+Installed-Size: 184
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: amd64
+Replaces: squid3-client
+Provides: squid3-client
+Depends: libc6 (>= 2.4), libcap2 (>= 2.10), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0)
+Conflicts: squid3-client
+Description: Full featured Web Proxy cache (HTTP proxy) - control utility
+Homepage: http://www.squid-cache.org
+Description-md5: c9e6995c03d1bf142ed460e45f80e6ff
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid3/squidclient_3.1.20-2.2+deb7u2_amd64.deb
+Size: 113348
+MD5sum: 3c6b54bf2549c5eb71cd272d0effdae6
+SHA1: ba7eea88712fd7db527e8e75f94016150a680346
+SHA256: 0b9347a42600a2dade6b942db30fe3d2cf501164fe929a4385d8430812dbbda8
+
 Package: libsrtp0
 Source: srtp
 Version: 1.4.4+20100615~dfsg-2+deb7u1
