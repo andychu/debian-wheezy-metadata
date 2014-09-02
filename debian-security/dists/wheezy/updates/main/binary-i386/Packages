@@ -15572,6 +15572,198 @@ MD5sum: 96f5de032c9965a63d544ba0e9b3e5fa
 SHA1: 44dfcf29eeea21b48dfb3db3b9e790de29d8adc9
 SHA256: 23fbc71d17c308e7145b2f72dcfc6f25ec9f6fde228215d1fab48a9d25576dc1
 
+Package: liblua5.1-0
+Source: lua5.1
+Version: 5.1.5-4+deb7u1
+Installed-Size: 369
+Maintainer: John V. Belmonte <jbelmonte@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Description: Shared library for the Lua interpreter version 5.1
+Homepage: http://www.lua.org
+Description-md5: bc352b5115dff05ff2aede2bb7cb6dbb
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/l/lua5.1/liblua5.1-0_5.1.5-4+deb7u1_i386.deb
+Size: 185490
+MD5sum: d368442d42c19dedf7a03ad87261c643
+SHA1: b0b74f18c7fc66e28a983d0661af87fd588fe713
+SHA256: d566971bcd33255c2c9ee9420948466d6fa509379451ea85187be81c3cf9db58
+
+Package: liblua5.1-0-dbg
+Source: lua5.1
+Version: 5.1.5-4+deb7u1
+Installed-Size: 864
+Maintainer: John V. Belmonte <jbelmonte@debian.org>
+Architecture: i386
+Depends: liblua5.1-0 (= 5.1.5-4+deb7u1)
+Description: Debug symbols for the Lua shared library interpreter
+Homepage: http://www.lua.org
+Description-md5: 54e8189837a8abfaff0a371b2a10bb96
+Multi-Arch: same
+Section: libs
+Priority: extra
+Filename: pool/updates/main/l/lua5.1/liblua5.1-0-dbg_5.1.5-4+deb7u1_i386.deb
+Size: 815810
+MD5sum: f2dd9b60d9667a6cb92b098df696038e
+SHA1: ec2f0a12eb32b3867f394c877042b5a10b2c7052
+SHA256: 53000a4497116a572b015ba4e3d04a303a49f8af025317031572a04f7928a4f4
+
+Package: liblua5.1-0-dev
+Source: lua5.1
+Version: 5.1.5-4+deb7u1
+Installed-Size: 557
+Maintainer: John V. Belmonte <jbelmonte@debian.org>
+Architecture: i386
+Provides: liblua5.1-dev
+Depends: liblua5.1-0 (= 5.1.5-4+deb7u1), libc6-dev | libc-dev, libreadline-dev
+Conflicts: liblua5.1-dev
+Description: Development files for the Lua language version 5.1
+Homepage: http://www.lua.org
+Description-md5: 883de8c555030d5626a244d06f1d320d
+Multi-Arch: same
+Recommends: pkg-config, libtool
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/l/lua5.1/liblua5.1-0-dev_5.1.5-4+deb7u1_i386.deb
+Size: 223444
+MD5sum: 30f259e8e526200470c56c6d987fe668
+SHA1: 1f61a4d71ec8ddbb77ed5c98f8611d675f672df1
+SHA256: 32de02a13b9690630069756e00bf27b2c1ae7637097b99801bda787a2696a00e
+
+Package: lua5.1
+Version: 5.1.5-4+deb7u1
+Installed-Size: 290
+Maintainer: John V. Belmonte <jbelmonte@debian.org>
+Architecture: i386
+Provides: lua
+Depends: libc6 (>= 2.11), libreadline6 (>= 6.0)
+Description: Simple, extensible, embeddable programming language
+Homepage: http://www.lua.org
+Description-md5: 130003bb49100d21ad1dd4ef09dee02f
+Multi-Arch: foreign
+Section: interpreters
+Priority: optional
+Filename: pool/updates/main/l/lua5.1/lua5.1_5.1.5-4+deb7u1_i386.deb
+Size: 154032
+MD5sum: fea0bbf675718882588df2c3551ff2b9
+SHA1: 45dc7e4d30aab2f17670eff258066265adcc45f9
+SHA256: 738b93187d7c262ecdfec38c6cf7168facae9eac84b5a8f47d3a58cdca0a97c1
+
+Package: lua5.1-doc
+Source: lua5.1
+Version: 5.1.5-4+deb7u1
+Installed-Size: 393
+Maintainer: John V. Belmonte <jbelmonte@debian.org>
+Architecture: all
+Description: Documentation for the Lua language version 5.1
+Homepage: http://www.lua.org
+Description-md5: b77cd91c50d3e390c2f3bf168f592cab
+Section: doc
+Priority: optional
+Filename: pool/updates/main/l/lua5.1/lua5.1-doc_5.1.5-4+deb7u1_all.deb
+Size: 106604
+MD5sum: ccfd4dbfaef28daedafc0d5ffb626e38
+SHA1: 2faa5517feeb93406a93333e7f9367e574e55345
+SHA256: 91ac227f8af3ee10458c60b97d5218eed9e2585fc1323530a8e7905cf027af2e
+
+Package: liblua5.2-0
+Source: lua5.2
+Version: 5.2.1-3+deb7u1
+Installed-Size: 236
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7)
+Description: Shared library for the Lua interpreter version 5.2
+Homepage: http://www.lua.org
+Description-md5: 0e94c74e97a48f7da19ae355a7044d10
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/l/lua5.2/liblua5.2-0_5.2.1-3+deb7u1_i386.deb
+Size: 99174
+MD5sum: c98a3022a1935bae9739959467e6525a
+SHA1: 32ec1ad222dad1cff4ef343851f6a8ea0060fcea
+SHA256: 3f25d29d6fc576b77127981f958f2934af00248c85d609549bed9e891d4593ae
+
+Package: liblua5.2-0-dbg
+Source: lua5.2
+Version: 5.2.1-3+deb7u1
+Installed-Size: 748
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: i386
+Depends: liblua5.2-0 (= 5.2.1-3+deb7u1)
+Description: Debug symbols for the Lua shared library interpreter
+Homepage: http://www.lua.org
+Description-md5: 3287de5f0e8eefdb47fc353923fb8d73
+Multi-Arch: same
+Section: debug
+Priority: extra
+Filename: pool/updates/main/l/lua5.2/liblua5.2-0-dbg_5.2.1-3+deb7u1_i386.deb
+Size: 668184
+MD5sum: a9a59009a90617d58c11d14c628e0117
+SHA1: db94132203154e3ccc4d779f7626a4096736f82c
+SHA256: 6275a767744d5360833fd91486d030f8f7d9a6b16c530a4cc417985ffaee1832
+
+Package: liblua5.2-dev
+Source: lua5.2
+Version: 5.2.1-3+deb7u1
+Installed-Size: 364
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: i386
+Depends: liblua5.2-0 (= 5.2.1-3+deb7u1), libc6-dev | libc-dev, libreadline-dev
+Description: Development files for the Lua language version 5.2
+Homepage: http://www.lua.org
+Description-md5: cb939e19e8470a092c76923ad164a65d
+Multi-Arch: same
+Recommends: pkg-config, libtool
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/l/lua5.2/liblua5.2-dev_5.2.1-3+deb7u1_i386.deb
+Size: 124094
+MD5sum: 98408c3094f7182fd2e69c5c7509fb12
+SHA1: 90db2b6efe1efbfc330e0d794efe692bd37dc547
+SHA256: 057f5fcd737bd151a75a2ab5b9809c95099deca560aea2d83ca9f3afc521fc4e
+
+Package: lua5.2
+Version: 5.2.1-3+deb7u1
+Installed-Size: 349
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: i386
+Provides: lua
+Depends: libc6 (>= 2.7), libreadline6 (>= 6.0)
+Description: Simple, extensible, embeddable programming language
+Homepage: http://www.lua.org
+Description-md5: 130003bb49100d21ad1dd4ef09dee02f
+Multi-Arch: foreign
+Section: interpreters
+Priority: optional
+Filename: pool/updates/main/l/lua5.2/lua5.2_5.2.1-3+deb7u1_i386.deb
+Size: 159332
+MD5sum: 1dfdd94987b2b4d1c7460ea0135f4b68
+SHA1: 8f7251eac7afb2686739c5af90adb738cbe87e3b
+SHA256: 25cea453bd28c26b8ad26b5bf00dbaecdbd34114d48d7a285eac05adfcaf3165
+
+Package: lua5.2-doc
+Source: lua5.2
+Version: 5.2.1-3+deb7u1
+Installed-Size: 370
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: all
+Description: Documentation for the Lua language version 5.2
+Homepage: http://www.lua.org
+Description-md5: bd6938b8d0d3131c26dfff9ef799d221
+Section: doc
+Priority: optional
+Filename: pool/updates/main/l/lua5.2/lua5.2-doc_5.2.1-3+deb7u1_all.deb
+Size: 95488
+MD5sum: aca3d16f149fd071560309158e7fb239
+SHA1: c5d9e96ca9e81a5848950e5bf18239f50944ea8a
+SHA256: 4f4bf716100ee3aa7a7f3faedd942675bfe3ea3955acac8c86e0eaaf2057b634
+
 Package: liblucene3-contrib-java
 Source: lucene-solr
 Version: 3.6.0+dfsg-1+deb7u1
