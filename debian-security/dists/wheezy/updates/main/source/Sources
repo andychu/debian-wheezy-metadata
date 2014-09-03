@@ -7969,6 +7969,37 @@ Directory: pool/updates/main/p/parcimonie
 Priority: source
 Section: perl
 
+Package: php-cas
+Binary: php-cas
+Version: 1.3.1-4+deb7u1
+Maintainer: Olivier Berger <obergix@debian.org>
+Uploaders: Olivier Berger <olivier.berger@it-sudparis.eu>
+Build-Depends: debhelper (>= 8), pkg-php-tools
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 88e53bb7f09fe85618b7d32a02516a35 1593 php-cas_1.3.1-4+deb7u1.dsc
+ 90773740cc703eaa51a23901476f1042 89389 php-cas_1.3.1.orig.tar.gz
+ 9303fafc3a1232ba2cce67f9fc424774 7157 php-cas_1.3.1-4+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=users/obergix/phpcas.git
+Vcs-Git: http://anonscm.debian.org/git/users/obergix/phpcas.git
+Checksums-Sha1:
+ b5776f281fcb74e079bccd7a4b3698070f0887f7 1593 php-cas_1.3.1-4+deb7u1.dsc
+ dacf703950701f948cba6048ef033e7612b4494f 89389 php-cas_1.3.1.orig.tar.gz
+ 9a8542fe20e491824f696533b82f77318557045a 7157 php-cas_1.3.1-4+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ ff5ea9b2d9c392d227f91d9283a6ffd1b4b299a64c8dc9adca201e785a96df9a 1593 php-cas_1.3.1-4+deb7u1.dsc
+ 72308eb2f42ee5eeef3681100f1cf258a9cdc25edb38543a7f0c8c8f3bcf4129 89389 php-cas_1.3.1.orig.tar.gz
+ 8e7385cb423d6ae7a5313c9f68c6e42599d976e36b54f75b8f926e36e8b322b0 7157 php-cas_1.3.1-4+deb7u1.debian.tar.gz
+Homepage: http://wiki.jasig.org/display/CASC/phpCAS
+Build-Depends-Indep: php-pear
+Package-List: 
+ php-cas deb php optional
+Directory: pool/updates/main/p/php-cas
+Priority: source
+Section: php
+
 Package: php-radius
 Binary: php5-radius, php-radius-legacy
 Version: 1.2.5-2.3+deb7u1
