@@ -8461,6 +8461,32 @@ Directory: pool/updates/main/p/postgresql-9.1
 Priority: source
 Section: database
 
+Package: procmail
+Binary: procmail
+Version: 3.22-20+deb7u1
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 962c045cd56412abb96ba9ae622e11ef 1674 procmail_3.22-20+deb7u1.dsc
+ 1678ea99b973eb77eda4ecf6acae53f1 226817 procmail_3.22.orig.tar.gz
+ 95409a61e10cc19acb5092dd0e746c00 18848 procmail_3.22-20+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ a319689ee111c4f976a02eee136ab73915752ba6 1674 procmail_3.22-20+deb7u1.dsc
+ cd4e44c15559816453fd60349e5a32289f6f2965 226817 procmail_3.22.orig.tar.gz
+ a7aa667547579929888debf0c7b8ca1e4e28d50f 18848 procmail_3.22-20+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ ec1febf9f0aa70ad9334ac756c5c73925c39967650f1d19ca2e4df781415c698 1674 procmail_3.22-20+deb7u1.dsc
+ 087c75b34dd33d8b9df5afe9e42801c9395f4bf373a784d9bc97153b0062e117 226817 procmail_3.22.orig.tar.gz
+ 5bc938cf5fce6260b612729749461656234ce5d16defec6ed8d2393a2cacd601 18848 procmail_3.22-20+deb7u1.debian.tar.gz
+Homepage: http://www.procmail.org/
+Package-List: 
+ procmail deb mail standard
+Directory: pool/updates/main/p/procmail
+Priority: source
+Section: mail
+
 Package: proftpd-dfsg
 Binary: proftpd-basic, proftpd-dev, proftpd-doc, proftpd-mod-mysql, proftpd-mod-pgsql, proftpd-mod-ldap, proftpd-mod-odbc, proftpd-mod-sqlite
 Version: 1.3.4a-5+deb7u1

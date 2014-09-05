@@ -20735,6 +20735,25 @@ MD5sum: c5b301f585fbc0ee8356b4a43c71e806
 SHA1: 215bcd4b3e0a927c5530224462f6cdb29fbf75da
 SHA256: 7bf73f92f3984fb67584fa43b6f8f1ab179e11be48f4102d8f294f159f258f60
 
+Package: procmail
+Version: 3.22-20+deb7u1
+Installed-Size: 303
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4)
+Conflicts: suidmanager (<< 0.50)
+Description: Versatile e-mail processor
+Homepage: http://www.procmail.org/
+Description-md5: 5fe1752f436b234d8c33cb0e7484299f
+Recommends: default-mta | mail-transport-agent | fetchmail
+Section: mail
+Priority: standard
+Filename: pool/updates/main/p/procmail/procmail_3.22-20+deb7u1_i386.deb
+Size: 154144
+MD5sum: d2a8745561cc46c5dd7a213603ee0abd
+SHA1: 6bdf4e5f2b3604d2288790a02ac72e0796754ac3
+SHA256: 148c6d400c3b3a39da45de9670c4e96ad021a89d26c091abbe38604c12e54c55
+
 Package: proftpd-basic
 Source: proftpd-dfsg
 Version: 1.3.4a-5+deb7u1
