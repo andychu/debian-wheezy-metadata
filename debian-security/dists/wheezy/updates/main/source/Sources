@@ -990,7 +990,7 @@ Section: net
 
 Package: file
 Binary: file, libmagic1, libmagic-dev, python-magic, python-magic-dbg
-Version: 5.11-2+deb7u3
+Version: 5.11-2+deb7u4
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Uploaders: Judit Foglszinger <fgrfgr@freenet.de>
 Build-Depends: debhelper (>= 9), autotools-dev, python, python-all-dev, python-all-dbg, zlib1g-dev
@@ -998,17 +998,17 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- c0ebded586e969d12aa312055f37d470 1999 file_5.11-2+deb7u3.dsc
+ a3991f4f2938a9e0308fb379123b9885 2016 file_5.11-2+deb7u4.dsc
  8183e889f981708d45f8e57a2248101d 444104 file_5.11.orig.tar.xz
- 84cee60457526fd302a85713f96fcb62 26768 file_5.11-2+deb7u3.debian.tar.xz
+ f610c3660823a1dfa09f21ff8d44c369 30804 file_5.11-2+deb7u4.debian.tar.xz
 Checksums-Sha1:
- 0c596570fb7984672a36ff4a8b0a1714d4cb390e 1999 file_5.11-2+deb7u3.dsc
+ f03b4e6b178cfb4fd3cb3742a47dcea5bf1f307a 2016 file_5.11-2+deb7u4.dsc
  d3a04293b110c971fced1d6f5818c45044b8855a 444104 file_5.11.orig.tar.xz
- 271324901346430e749d63e07230e26f84cc3d82 26768 file_5.11-2+deb7u3.debian.tar.xz
+ 14ca3531ce564bb3c91ad801ba71a72800873125 30804 file_5.11-2+deb7u4.debian.tar.xz
 Checksums-Sha256:
- 1b6fb276de7fcfc15cb5e39c29393d2fab4a5b70f122361ae412b5f0e26038f6 1999 file_5.11-2+deb7u3.dsc
+ 5bc22d2e5f1d4996d9fab1c25d8328281a7a7b25906ffae15d124a8462d2e708 2016 file_5.11-2+deb7u4.dsc
  4a7c047666cf54dce00f2c5a32a6379f94203e5c886fc294bab449c1a1ae286b 444104 file_5.11.orig.tar.xz
- 12bef1da0718a56ac2fe8466452961d6453ffeee69602e845aa1c019c1428bbd 26768 file_5.11-2+deb7u3.debian.tar.xz
+ 24358f34e3000e0e34f9b2e9ab35de4eab96a599d8c7a1c3be3b4b7fc59a0db7 30804 file_5.11-2+deb7u4.debian.tar.xz
 Homepage: http://www.darwinsys.com/file/
 Package-List: 
  file deb utils standard

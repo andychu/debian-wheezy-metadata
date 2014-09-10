@@ -2998,30 +2998,30 @@ SHA1: f77ee25d8ecc7b81f986f0630046785b21f0602d
 SHA256: 815b28ffdfcfbf0c8983facad46d54edffce63df2269ef9dc79b60886e747794
 
 Package: file
-Version: 5.11-2+deb7u3
-Installed-Size: 61
+Version: 5.11-2+deb7u4
+Installed-Size: 62
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: i386
-Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u3), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u4), zlib1g (>= 1:1.1.4)
 Description: Determines file type using "magic" numbers
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 24356148df43e324f7cd0edfa5faa2fc
 Multi-Arch: foreign
 Section: utils
 Priority: standard
-Filename: pool/updates/main/f/file/file_5.11-2+deb7u3_i386.deb
-Size: 51790
-MD5sum: e54c913b60c83af188fb7dfe921f26e1
-SHA1: fb5f99395fd8da3cc265edd22f9385ca6158f8d8
-SHA256: 6af22a6edaab8027ce4847819b6bd95f28bbdbdf167ab09f50d744d10dd64450
+Filename: pool/updates/main/f/file/file_5.11-2+deb7u4_i386.deb
+Size: 52284
+MD5sum: b1f2bb4f1f6cdd3d5df5422379defae6
+SHA1: 314d514cdcf78f81dd85e82caa131035fabbd03f
+SHA256: b04305aaac5f9f9061ec245b23303fde8963ee6ebac53fcf381e3ece4cdfc2fb
 
 Package: libmagic-dev
 Source: file
-Version: 5.11-2+deb7u3
-Installed-Size: 198
+Version: 5.11-2+deb7u4
+Installed-Size: 199
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: i386
-Depends: libmagic1 (= 5.11-2+deb7u3)
+Depends: libmagic1 (= 5.11-2+deb7u4)
 Suggests: file
 Description: File type determination library using "magic" numbers (development)
 Homepage: http://www.darwinsys.com/file/
@@ -3029,15 +3029,15 @@ Description-md5: 8dfdad924ca9981a019ce4d5e66307e2
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u3_i386.deb
-Size: 90892
-MD5sum: 8bd9f7856038acdb4210196c4a56e052
-SHA1: 96d95e4f3385985f125c7bfad0d20c46d25f9a5b
-SHA256: 517b8dd41cb29c45958ece9bbe9da136fe7b46e5a3a9a3ada5e53e004f17a76b
+Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u4_i386.deb
+Size: 91382
+MD5sum: 8d94e5826d38423a94c850220688aee6
+SHA1: 07eb983a162e83eebc0f64d7fc3f8bf59e4933c8
+SHA256: 157354a837ad441c7f6778591a1c4a75374c35da57c52a3db76ec4f1f9667a93
 
 Package: libmagic1
 Source: file
-Version: 5.11-2+deb7u3
+Version: 5.11-2+deb7u4
 Installed-Size: 2381
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: i386
@@ -3050,49 +3050,49 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u3_i386.deb
-Size: 204452
-MD5sum: 70e0ff6b7012467c66f185c3dcce60f6
-SHA1: d89b0004e065287ee724f0d7daefd3364c6c7565
-SHA256: 02a32b2deba356be101d1a3c62c2b4df97b3d59322d14d2f25b36697d55b21ed
+Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u4_i386.deb
+Size: 204944
+MD5sum: c8cc7e4014332cc8818ddba50b6bd379
+SHA1: eadd321615756b422a0bddb0e8e703482e197715
+SHA256: 3f4cbaf280e422a382f7a1a1d9297d386cf13a70a30fcdeb3a1a0cebe84a05aa
 
 Package: python-magic
 Source: file
-Version: 5.11-2+deb7u3
+Version: 5.11-2+deb7u4
 Installed-Size: 45
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: i386
 Provides: python2.6-magic, python2.7-magic
-Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u3)
+Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u4)
 Suggests: python-magic-dbg
 Description: File type determination library using "magic" numbers (Python bindings)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 37a8fb9ea793ad19a0727c04e12d8d60
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u3_i386.deb
-Size: 38602
-MD5sum: 1497268a63a47946d336cb2c5cccd06e
-SHA1: 1d352ecbb48c54d68ea04b89868c10ca45e50992
-SHA256: 07faaa0e60cb40794df5a66e8749cab4985d229ee48f661eea41c1d934130e6a
+Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u4_i386.deb
+Size: 39078
+MD5sum: b150567a4b03207ce19380da2717106a
+SHA1: 1e1aaa24c8b56f8889ff1df11fa08ba028ce54f8
+SHA256: 2e0ed341769331bcb0dc3b0238f77d4ce883db0cdcce7b91fd667bfedcc5d964
 
 Package: python-magic-dbg
 Source: file
-Version: 5.11-2+deb7u3
+Version: 5.11-2+deb7u4
 Installed-Size: 1
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: i386
-Depends: python-magic (= 5.11-2+deb7u3), python-dbg
+Depends: python-magic (= 5.11-2+deb7u4), python-dbg
 Description: File type determination library using "magic" numbers (Python bindings/debug)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 16fd3ce9f3b68865b15e220bc46db154
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u3_i386.deb
-Size: 940
-MD5sum: dc326da13385c380a80ab668b9b476c0
-SHA1: 432e6f33f5212d0e57e04dc9bfb9a2ef8bf9f90b
-SHA256: e43bc4a4de11778644fe63ab9fa2449f9b59db1d07f46a2b5faae5fc6c8a90c4
+Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u4_i386.deb
+Size: 942
+MD5sum: fd4bb6f89b97ee3303942828606445ec
+SHA1: 033cac113edde0db49f9a05eb3c2ea97fa64d3cb
+SHA256: 6b7a7896ca2c8ce01e16ae088c4eca613faac08a41d7c177957b7506865248d4
 
 Package: gimp
 Version: 2.8.2-2+deb7u1
