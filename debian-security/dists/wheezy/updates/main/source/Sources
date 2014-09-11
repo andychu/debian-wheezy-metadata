@@ -26,7 +26,7 @@ Section: text
 
 Package: acpi-support
 Binary: acpi-support, acpi-support-base, acpi-fakekey
-Version: 0.140-5+deb7u2
+Version: 0.140-5+deb7u3
 Maintainer: Debian Acpi Team <pkg-acpi-devel@lists.alioth.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.40)
@@ -34,19 +34,19 @@ Architecture: all i386 amd64 ia64
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- 054cdfbd132528a0de0bf7d59c945a3d 1370 acpi-support_0.140-5+deb7u2.dsc
+ d51d04e7e63cbeef3a1f5d94ebbe745d 1370 acpi-support_0.140-5+deb7u3.dsc
  7accf060c8be879c8038c00e04c529e9 21433 acpi-support_0.140.orig.tar.gz
- 65b28dc01752ae815072cc912c6a327c 50304 acpi-support_0.140-5+deb7u2.diff.gz
+ 5967aa53c3135268e82a396abaa4f66a 50612 acpi-support_0.140-5+deb7u3.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-acpi/acpi-support.git
 Vcs-Git: git://git.debian.org/git/pkg-acpi/acpi-support.git
 Checksums-Sha1:
- 2184c3aef0af278f1355dc7f0b38b466849ab271 1370 acpi-support_0.140-5+deb7u2.dsc
+ 14dba09ed4ce9f931002c6393a18c053d0c0fbac 1370 acpi-support_0.140-5+deb7u3.dsc
  04f22fa42c2224a4ffdbebfd25688f366c9a5e09 21433 acpi-support_0.140.orig.tar.gz
- 769d687a2dee261937cc3f8e009654fab9dd620c 50304 acpi-support_0.140-5+deb7u2.diff.gz
+ 14153acdf971da9be7c0573326fbb284d2fb80ed 50612 acpi-support_0.140-5+deb7u3.diff.gz
 Checksums-Sha256:
- f936362a2468605721d0f6f0fdb5f197df87df56b281ab41a4e3c7b4c6a2e470 1370 acpi-support_0.140-5+deb7u2.dsc
+ 216e076376c33ea6c15fd780bb3d7c9e9dc8220a0cdb08469e926fb105417797 1370 acpi-support_0.140-5+deb7u3.dsc
  2b93d2a136abc516f390ff3c9913ac4c8c61cdb85d726c387776b2aaed7da8e5 21433 acpi-support_0.140.orig.tar.gz
- 87811edd97dcf4950b978fe610004d23e446a5cd30f36a03e4b1c49a1f60438e 50304 acpi-support_0.140-5+deb7u2.diff.gz
+ b4df7fb0d97fd4ac4f0570c0398d6837094c21cc53e8d88da147d5a729595dc5 50612 acpi-support_0.140-5+deb7u3.diff.gz
 Package-List: 
  acpi-fakekey deb admin optional
  acpi-support deb admin optional
@@ -456,7 +456,7 @@ Section: net
 
 Package: curl
 Binary: curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg
-Version: 7.26.0-1+wheezy9
+Version: 7.26.0-1+wheezy10
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Luk Claes <luk@debian.org>
 Build-Depends: debhelper (>= 9), autoconf, automake1.9, groff-base, libgcrypt11-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev (>= 1.2), libssl-dev, libtool, openssh-server, quilt, stunnel4, zlib1g-dev
@@ -464,19 +464,19 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- b3ca14c09cc1578c7e1d9d2ccdd3a482 2514 curl_7.26.0-1+wheezy9.dsc
+ 81e96a8508075e2938bf0dee3e8cff5c 2518 curl_7.26.0-1+wheezy10.dsc
  3fa4d5236f2a36ca5c3af6715e837691 3073624 curl_7.26.0.orig.tar.gz
- 80b65ccde47f3c2b78642632b8fb40e2 35101 curl_7.26.0-1+wheezy9.debian.tar.gz
+ 5b2de032c65c109854d33113d3030465 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/curl.git
 Vcs-Git: git://git.debian.org/collab-maint/curl.git
 Checksums-Sha1:
- 431d40bd10041ee9ef833406d502e5cf068b19b4 2514 curl_7.26.0-1+wheezy9.dsc
+ 248b3caf360d0db709362cdb796459dc7021278e 2518 curl_7.26.0-1+wheezy10.dsc
  66e1fd0312f62374b96fe02e644f66202fd6324b 3073624 curl_7.26.0.orig.tar.gz
- fbb6c7628e3d1415b1bb7162c8598b1a5a667161 35101 curl_7.26.0-1+wheezy9.debian.tar.gz
+ 906c9e1ac5caebb4b365b2b290f6757a3eb33cc1 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
 Checksums-Sha256:
- 39a17ff9e513d649d69c2b4b7748b1b82c5122bb276a35d6dbfed9ca446565ce 2514 curl_7.26.0-1+wheezy9.dsc
+ 3f71bd7c140dbf43cebdc0b132eb9a70389602fb8ca3baf385a4b0590de30302 2518 curl_7.26.0-1+wheezy10.dsc
  79ccce9edb8aee17d20ad4d75e1f83a789f8c2e71e68f468e1bf8abf8933193f 3073624 curl_7.26.0.orig.tar.gz
- ba0b15938ac47298715c1dc228d4c43628d0f45e0f84dd872970fe5797faebc0 35101 curl_7.26.0-1+wheezy9.debian.tar.gz
+ e62e1100d9e2c425a980e582b96469aa2aaca9b90544471fdf7c621bf2758575 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
 Homepage: http://curl.haxx.se
 Build-Conflicts: autoconf2.13, automake1.4
 Package-List: 
@@ -990,7 +990,7 @@ Section: net
 
 Package: file
 Binary: file, libmagic1, libmagic-dev, python-magic, python-magic-dbg
-Version: 5.11-2+deb7u4
+Version: 5.11-2+deb7u5
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Uploaders: Judit Foglszinger <fgrfgr@freenet.de>
 Build-Depends: debhelper (>= 9), autotools-dev, python, python-all-dev, python-all-dbg, zlib1g-dev
@@ -998,17 +998,17 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- a3991f4f2938a9e0308fb379123b9885 2016 file_5.11-2+deb7u4.dsc
+ d2939b304f711365e2d972e96e10a1c9 2016 file_5.11-2+deb7u5.dsc
  8183e889f981708d45f8e57a2248101d 444104 file_5.11.orig.tar.xz
- f610c3660823a1dfa09f21ff8d44c369 30804 file_5.11-2+deb7u4.debian.tar.xz
+ 980efb079329264bc6a684d3a2e395da 30848 file_5.11-2+deb7u5.debian.tar.xz
 Checksums-Sha1:
- f03b4e6b178cfb4fd3cb3742a47dcea5bf1f307a 2016 file_5.11-2+deb7u4.dsc
+ 7feabd4d314217d7411950aeb2e0a1086e74ecd2 2016 file_5.11-2+deb7u5.dsc
  d3a04293b110c971fced1d6f5818c45044b8855a 444104 file_5.11.orig.tar.xz
- 14ca3531ce564bb3c91ad801ba71a72800873125 30804 file_5.11-2+deb7u4.debian.tar.xz
+ 61020b046b3a78f03bad0450898b08b6e2778398 30848 file_5.11-2+deb7u5.debian.tar.xz
 Checksums-Sha256:
- 5bc22d2e5f1d4996d9fab1c25d8328281a7a7b25906ffae15d124a8462d2e708 2016 file_5.11-2+deb7u4.dsc
+ a19238fee31b9a7734acfece93664920893e8a0402c398455a97bef9cc52e52a 2016 file_5.11-2+deb7u5.dsc
  4a7c047666cf54dce00f2c5a32a6379f94203e5c886fc294bab449c1a1ae286b 444104 file_5.11.orig.tar.xz
- 24358f34e3000e0e34f9b2e9ab35de4eab96a599d8c7a1c3be3b4b7fc59a0db7 30804 file_5.11-2+deb7u4.debian.tar.xz
+ d6727901fd1e9d1dc12ff71b55275380e018766d8775202583080664e9d56013 30848 file_5.11-2+deb7u5.debian.tar.xz
 Homepage: http://www.darwinsys.com/file/
 Package-List: 
  file deb utils standard
