@@ -209,7 +209,7 @@ Section: comm
 
 Package: bind9
 Binary: bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-80, libdns88, libisc84, liblwres80, libisccc80, libisccfg82, dnsutils, lwresd
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Maintainer: LaMont Jones <lamont@debian.org>
 Uploaders: Bdale Garbee <bdale@gag.com>
 Build-Depends: libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5)
@@ -217,19 +217,19 @@ Architecture: any all
 Standards-Version: 3.7.3.0
 Format: 1.0
 Files:
- d070ffcc0ed62dde980b3b2321befe6a 2638 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.dsc
+ 3c2e21060065d5bd3f5a5bc6ae8a71ef 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
  96f5c03a8b42d29519c8860bea5a8353 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- 62e3d74f61bd21bc18c67fc067c14e63 672985 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.diff.gz
+ da52dd4c1b52b28f55d66eb2375d0d29 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
 Vcs-Browser: http://git.debian.org/?p=users/lamont/bind9.git
 Vcs-Git: git://git.debian.org/~lamont/bind9.git
 Checksums-Sha1:
- f876e691440c8b694857c28ef518e997767022ca 2638 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.dsc
+ 9f2c6ede9f36eb5d3ec639bead7bd7a0b33422b3 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
  3ab83667ab3ce2df6bdf558cc1e5a361fe5b539b 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- 81497ea523e93f274a1f92e146da9d52869794d5 672985 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.diff.gz
+ f43283474e506225cca966a7727dcf49c5ed5b4a 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
 Checksums-Sha256:
- 79439c2842ba2799a66f29673a7596eef3d2299b38195b47729cd5494f25087a 2638 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.dsc
+ 470d077929d5bdf32ca09c7d4b8a200469b1b28de5f450bc67ff24add26725ea 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
  de7b8ef3f5336ba2c19e7ad8cec618e1bf77fbd81cc2e45cc7f798544e843bdb 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- 2fcd0aec74b09ef8d56ce2ffe55094de282e65bc4cbeb6948cd9b3a1476fb829 672985 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1.diff.gz
+ 9be5492ab243bd7150377dc60727203338704cf1352c5ac73c348254cbc61bba 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
 Build-Conflicts: libdb4.2-dev
 Package-List: 
  bind9 deb net optional
@@ -1057,7 +1057,7 @@ Section: graphics
 
 Package: gnupg
 Binary: gnupg, gnupg-curl, gpgv, gnupg-udeb, gpgv-udeb, gpgv-win32
-Version: 1.4.12-7+deb7u4
+Version: 1.4.12-7+deb7u6
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Daniel Leidert <dleidert@debian.org>, Thijs Kinkhorst <thijs@debian.org>
 Build-Depends: debhelper (>> 7), libz-dev, libldap2-dev, libbz2-dev, libusb-dev [!hurd-i386], libreadline-dev, file, gettext, libcurl4-gnutls-dev
@@ -1065,18 +1065,18 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 580b486123beef6ea35e0927dd535301 2324 gnupg_1.4.12-7+deb7u4.dsc
+ 4154653d13cd6985d7b09155df5c4b8a 2324 gnupg_1.4.12-7+deb7u6.dsc
  f9a65ccd7166d3fdb084454cf7427564 4939171 gnupg_1.4.12.orig.tar.gz
- 25786cbe082755577e84b8fe89676abd 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
+ 8573f973e28669eb1b85f311847d599e 114790 gnupg_1.4.12-7+deb7u6.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnupg/gnupg/
 Checksums-Sha1:
- 61f290cbbafd310f455d9acac9e743b902711322 2324 gnupg_1.4.12-7+deb7u4.dsc
+ 7d51b8005e2d0d59612714c1185a994c777a64b4 2324 gnupg_1.4.12-7+deb7u6.dsc
  790587e440ec7d429b120db7a96a237badc638fd 4939171 gnupg_1.4.12.orig.tar.gz
- bf4ac31553ac27d3709ed89acf55385c6f8004ac 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
+ ef8c01dbf3da50bf86a241a911293320882c9633 114790 gnupg_1.4.12-7+deb7u6.debian.tar.gz
 Checksums-Sha256:
- 31f9cfe4e94d25311d1530c4ed9dab6e7a1dc28cc3ad10bc30719101958009eb 2324 gnupg_1.4.12-7+deb7u4.dsc
+ e68294fadb04fcd2a98a3b1e24ff49629e20da81ec0880a93383397043f6e48d 2324 gnupg_1.4.12-7+deb7u6.dsc
  bb94222fa263e55a5096fdc1c6cd60e9992602ce5067bc453a4ada77bb31e367 4939171 gnupg_1.4.12.orig.tar.gz
- 11745cb3e5c89735957b55d46b8cd36470d0dfbca300fa28134216584ef4fa84 104243 gnupg_1.4.12-7+deb7u4.debian.tar.gz
+ 145734f7cf17b93c99fc26abe30993a4ed850f8eeb008799c5cd0eaf365ed1f0 114790 gnupg_1.4.12-7+deb7u6.debian.tar.gz
 Homepage: http://www.gnupg.org
 Build-Depends-Indep: mingw-w64
 Package-List: 

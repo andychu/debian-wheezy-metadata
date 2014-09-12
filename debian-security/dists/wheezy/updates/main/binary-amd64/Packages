@@ -785,64 +785,64 @@ SHA1: 1ef69be78a1a37e0f5e21c48b086fde303f7df87
 SHA256: dc9a25772f374e5c39041f2092a5b112422946772fac8707be0cc260c373cc72
 
 Package: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 961
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind, dnsutils (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), net-tools
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), net-tools
 Suggests: dnsutils, bind9-doc, resolvconf, ufw
 Conflicts: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind
 Description: Internet Domain Name Server
 Description-md5: 4d39ed3fc4e2e72497683d779dfdcd38
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 371058
-MD5sum: 4b93867cdf2d411823985a7666df649e
-SHA1: 04e98e3c6dba64905d11726906d2c4ce6c0a942a
-SHA256: 41dffd8ede902f809a20c274565654c3beaae57e7c52d16342f9291a1912e21b
+Filename: pool/updates/main/b/bind9/bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 373318
+MD5sum: 0095347a052e51d77872f4b1422036a8
+SHA1: 8209ea2e3716c526bd1fa514550443e4847017a5
+SHA256: e60e017675cb30abb8ca407bd2f4cfad42c25c11fd14e6354e65b7f3093c1107
 
 Package: bind9-doc
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
-Installed-Size: 1266
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Installed-Size: 1267
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
 Description: Documentation for BIND
 Description-md5: 329b8ef5cf9ad3d51ce47e6d8d13d75e
 Section: doc
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9-doc_9.8.4.dfsg.P1-6+nmu2+deb7u1_all.deb
-Size: 365052
-MD5sum: 5a97a00d5c1577a9872dcd8d78c33407
-SHA1: 3aef5ad132e643e96589da0fa0453e0b4378c15c
-SHA256: f7694032bd607e35e92974495dd3108576ffa77e81e70fc049f86212ae390e90
+Filename: pool/updates/main/b/bind9/bind9-doc_9.8.4.dfsg.P1-6+nmu2+deb7u2_all.deb
+Size: 365126
+MD5sum: e6f8128c564b616dd810e9431aecfc0a
+SHA1: cb042296f78f1e162ac08bbb568103395473d2d0
+SHA256: dc84615ceccabd0365e2a107aea548153031b9a01b0eb97b8ccb0dbd77a50988
 
 Package: bind9-host
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 176
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27)
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Description: Version of 'host' bundled with BIND 9.X
 Description-md5: acdae162c721f5d2986f557bdefa1e70
 Section: net
 Priority: standard
-Filename: pool/updates/main/b/bind9/bind9-host_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 73356
-MD5sum: 0227da20a6ed117dcf447a55bcfa2f89
-SHA1: eefd98365ad7f2c644e3cfec633dd4d8f0c3a978
-SHA256: f6f2271bbaeb34bac8c3c8efe8c858a26b1ffc826949f9b9235bef1faa92fddd
+Filename: pool/updates/main/b/bind9/bind9-host_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 73486
+MD5sum: 4c4bd4a3ccf55d39cfc40d23097e50c7
+SHA1: f3fdcbeafad50eccf67b0f2b4217dc886f101538
+SHA256: f742808d73487b737224f7093fe1010ca40c878130a029bb04b992867b2b5595
 
 Package: bind9utils
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
-Installed-Size: 300
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Installed-Size: 301
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: bind9 (<= 1:9.5.0~b2-1)
@@ -851,35 +851,35 @@ Description: Utilities for BIND
 Description-md5: 5f6f5621a6edd04ef33a0fe5d2d5bff8
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9utils_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 128006
-MD5sum: eb99aee7f6527ebea9a32308fb8ff0bf
-SHA1: d988b632578df5f6330158dae6c4f8a22914c2b1
-SHA256: c55da2b19709478809be3fff975e20f622ed12ce49a43cbad255694daf1b5c88
+Filename: pool/updates/main/b/bind9/bind9utils_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 127984
+MD5sum: f3a8200c5b4383950a1014fafca67266
+SHA1: e4ec846c4ed095cc89a554e4f12a4be505e50cc0
+SHA256: aaead5519260888ef7bdb67cd32a8e20d540d4cc4f6b0f41a33b4b64a9d9a357
 
 Package: dnsutils
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 375
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27), bind9-host | host
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
 Description: Clients provided with BIND
 Description-md5: 9fac1cb37cd005e52aa0e22df64994e1
 Section: net
 Priority: standard
-Filename: pool/updates/main/b/bind9/dnsutils_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 166128
-MD5sum: 247001ddd68d62ac0c4e817d0c6ea39b
-SHA1: c744d756b099eab1e6440f0b8ec915251d7cddc7
-SHA256: 1af90894f42ad15b5fe2fb9b6e8caacbdabcb0010780a24fdfa8af9f828e6b6c
+Filename: pool/updates/main/b/bind9/dnsutils_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 166170
+MD5sum: 2bc55938503fc368aef180813c7202aa
+SHA1: 58444167057a31f4ca912ee86ccf80015b28b327
+SHA256: db659fba865cac5fc30439ef394221450e7bfee2ced1db294679768840ff7cd1
 
 Package: host
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 47
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
@@ -888,34 +888,34 @@ Description: Transitional package
 Description-md5: 3c0b6923194ef2929ab26358ef75c037
 Section: net
 Priority: extra
-Filename: pool/updates/main/b/bind9/host_9.8.4.dfsg.P1-6+nmu2+deb7u1_all.deb
-Size: 20558
-MD5sum: 280f118207a1238362df45729de972fd
-SHA1: 05b5e50700ec3fb2ad3ee884fc1da97ab4b068a1
-SHA256: 80c71a4e9dd75f19f3b134a544694abaa02ff751cd00dc7a91cfcc4461a93b53
+Filename: pool/updates/main/b/bind9/host_9.8.4.dfsg.P1-6+nmu2+deb7u2_all.deb
+Size: 20688
+MD5sum: cbe7980d3442e99b9de438abd150d16c
+SHA1: e0d1b07fd8dea41f4ec41058730d0507b28cf7cc
+SHA256: 6ebefbcf77464222182a0c3836db350de3ba92a064ed3c47868617aa69c348f9
 
 Package: libbind-dev
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 5630
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: bind-dev
-Depends: libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1)
+Depends: libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2)
 Conflicts: bind-dev
 Description: Static Libraries and Headers used by BIND
 Description-md5: 2224f8c1f8613ab53bfc2393a6add6a6
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/b/bind9/libbind-dev_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 1580518
-MD5sum: c02c157c970102d4b38882b706156e5c
-SHA1: 3fb980d052e08d4ea283fcba4f8bd31a23c8f63c
-SHA256: 3e226a731729bae94540a675d38d85b86e9e5ccd642672c4c44b96be77a26296
+Filename: pool/updates/main/b/bind9/libbind-dev_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 1580970
+MD5sum: abc23bbd15520efdeb0d4342e4ff83d3
+SHA1: edcdeb068611a7bbae83bd24eef5e95574d37dc2
+SHA256: a3b275db57d828136b60f79b27e057f39ef9fd6df5a8b1f99b5f890875dae78c
 
 Package: libbind9-80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 101
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -926,16 +926,16 @@ Description: BIND9 Shared Library used by BIND
 Description-md5: 54e2889a8502320ca468efcbd1b48934
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libbind9-80_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 42248
-MD5sum: d8a60b2f2405314a258f6439771a7db0
-SHA1: 5841b33d11d6cf5bd73290b5a1f9db066472ec3c
-SHA256: 0db781e7b35ccaa5841fd433d0a2574c7a79238030e36ec86c10cd4a5bfc814f
+Filename: pool/updates/main/b/bind9/libbind9-80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 42378
+MD5sum: a60437996449288d606ebb7b2050cf10
+SHA1: a0e3941d51463fd7ea57a15b69a7e4159fb510bd
+SHA256: bbd67d73afda5943a6d146874b43de1bbff37b146fc7a4b11705c85fdbc333a6
 
 Package: libdns88
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
-Installed-Size: 1686
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Installed-Size: 1687
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: libbind0
@@ -945,15 +945,15 @@ Description: DNS Shared Library used by BIND
 Description-md5: 08196e0b2c6fd4d0c818845ca28dbe39
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libdns88_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 750230
-MD5sum: c9015503627df62f64b915a4b5f03cb2
-SHA1: e576d5f1ca435635ecae9e51f229b567d11b9bb2
-SHA256: 247c7e1a67c64a59357b078cbd892d87f251d1e606e5479ab65340d281c89f83
+Filename: pool/updates/main/b/bind9/libdns88_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 750392
+MD5sum: 73661863ee0d11c4e004b13239cc50fe
+SHA1: beeaf1ab7069279d6e5f49ee73b293f7b4f3062f
+SHA256: 05eec85052be23e70de23f76098d2fc26a62d02938b445619a4b4bf871e3b614
 
 Package: libisc84
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 411
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -964,15 +964,15 @@ Description: ISC Shared Library used by BIND
 Description-md5: 6530db41bb53f0f9fc50d6f397950e53
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libisc84_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 182500
-MD5sum: 581da8164e8b9c0b9185cceef86b2aa7
-SHA1: 0e4077b2b354124a82482585c1fb9e014a8d04a3
-SHA256: 4e8bb71db365ca0f04747623e252c97f7688f61a53b3d6b59e51fa6ff7c722c5
+Filename: pool/updates/main/b/bind9/libisc84_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 182612
+MD5sum: fa09e0ef1822de2c0ca9b7271608b798
+SHA1: e71bea4ffd121eaafc1c184e46c1a16265bc9dca
+SHA256: 37f6e23048d2f14c692ae2b5a786008237832185ae08281810a049ed61aa66bf
 
 Package: libisccc80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 85
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -983,16 +983,16 @@ Description: Command Channel Library used by BIND
 Description-md5: da6a1a2a1fbcd8229f24523ae8ae7b33
 Section: libs
 Priority: optional
-Filename: pool/updates/main/b/bind9/libisccc80_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 35924
-MD5sum: e6e517223b78f864f341d8507e32358f
-SHA1: 034ba88365cab4d877c6848d71aa122901bd0565
-SHA256: 3932b8af411bc1261f1bc54845e4f56f43c6373e413c53a227449871bc52bfd2
+Filename: pool/updates/main/b/bind9/libisccc80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 36048
+MD5sum: 4f99e2c0b6f68843ea967861c9701a12
+SHA1: c6c0dfb329edba198211dd55ab30d619b592e553
+SHA256: bb2e8c79a5106d0f5b5f617b96cb7a57b2ba8ae2417725274c23e113499f7184
 
 Package: libisccfg82
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
-Installed-Size: 187
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Installed-Size: 188
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: libbind0
@@ -1002,15 +1002,15 @@ Description: Config File Handling Library used by BIND
 Description-md5: 3a890bff8c41bd92ac3e542818fb7f79
 Section: libs
 Priority: optional
-Filename: pool/updates/main/b/bind9/libisccfg82_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 62760
-MD5sum: cca202ad3bb2fe2b64fdee4db5e12a07
-SHA1: b37b7f57870d1dd1acff72d3b30a3fefbd6c986d
-SHA256: defa63cc8c7d0cfc7aa30d7211c8073cabafdab7e42e3d3fd275d8e6deb1a1cf
+Filename: pool/updates/main/b/bind9/libisccfg82_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 62892
+MD5sum: 63e91410d3c70f2a2dcb7a1b726e82d2
+SHA1: fb6f0740fae61fc3106965df67cdcb6486a834a9
+SHA256: 5fe12d4e638f258b1974806fffd1b1ba122a9196bb24feb713e5f8f89ea2e93e
 
 Package: liblwres80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 125
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1021,30 +1021,30 @@ Description: Lightweight Resolver Library used by BIND
 Description-md5: 73843c094de7b4dfcc9ed1e36cc6d546
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/liblwres80_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 55200
-MD5sum: 0b06f012eb6c88f01957ac0679a0925a
-SHA1: 568048984219033156e7398dd40739059aa5d7d6
-SHA256: bc46a60a3d493be7753fb7006d3e0a5ea068143b85894e7298e2bcc52ea51dc1
+Filename: pool/updates/main/b/bind9/liblwres80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 55316
+MD5sum: 8e54cd24198744cb8962063bd1af3494
+SHA1: 674ca736bd84cb1c48046a06d28da33e2b8430e6
+SHA256: 06d67368a84302376376c03651c024445d006f54ed1582e185f317f619ba87c8
 
 Package: lwresd
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u1
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
 Installed-Size: 618
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u1), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), adduser
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), adduser
 Suggests: bind9utils
 Description: Lightweight Resolver Daemon
 Description-md5: 71f952026129db86d1ca118762b06ef2
 Recommends: libnss-lwres
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/lwresd_9.8.4.dfsg.P1-6+nmu2+deb7u1_amd64.deb
-Size: 252440
-MD5sum: a231a15aebf8c74cdca96e023552fb0d
-SHA1: 87daedf122678f5fb11c4d7922b5693f2899d5f0
-SHA256: dcada8d482a320492359b5b091ee8548a572e62ad3a862ae73347d0003069a52
+Filename: pool/updates/main/b/bind9/lwresd_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
+Size: 252738
+MD5sum: 6e4a2fa5462fa16dc0f638a44ced8cf2
+SHA1: 4e1d373b69ead4608467e56a5c4a526f8cd76725
+SHA256: 3189f7147a5f2ba9ed9086c1e0cf8227e1fc13ab180280d606b3651331c251b4
 
 Package: cacti
 Version: 0.8.8a+dfsg-5+deb7u4
@@ -3173,8 +3173,8 @@ SHA1: 56c1ddd18870502cfb54b5c3d09db4113142a5ed
 SHA256: 211374d8c8c7da41cc0c880b0f7d188b770681cd68e4ffb856dc77b7a1c94adf
 
 Package: gnupg
-Version: 1.4.12-7+deb7u4
-Installed-Size: 4958
+Version: 1.4.12-7+deb7u6
+Installed-Size: 4962
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libbz2-1.0, libc6 (>= 2.4), libreadline6 (>= 6.0), libusb-0.1-4 (>= 2:0.1.12), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info, gpgv
@@ -3186,16 +3186,16 @@ Multi-Arch: foreign
 Recommends: libldap-2.4-2 (>= 2.4.7), gnupg-curl
 Section: utils
 Priority: important
-Filename: pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u4_amd64.deb
-Size: 1953538
-MD5sum: 156e30ec6d669421f6ef299cc6b639ea
-SHA1: 32ca4b4faee03b5f166372b4115753b434c33d7e
-SHA256: c5d30fb81ed2b20b8de140a6193214895dd751e223d0513f08c789276ba859ad
+Filename: pool/updates/main/g/gnupg/gnupg_1.4.12-7+deb7u6_amd64.deb
+Size: 1955022
+MD5sum: f63343f843a30db6b7b808a63c2c52c8
+SHA1: 0b75efd9db0d7a96f0b9475a576971d2bb0d3b7f
+SHA256: f9eed9289cfc3b5043fb6d3d44fde3106cdc512c7e88680c302e57e8bbdb7628
 
 Package: gnupg-curl
 Source: gnupg
-Version: 1.4.12-7+deb7u4
-Installed-Size: 129
+Version: 1.4.12-7+deb7u6
+Installed-Size: 130
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), gnupg
@@ -3205,16 +3205,16 @@ Description-md5: 55306a4e1e1fd63e577767c1b9f5161c
 Multi-Arch: foreign
 Section: utils
 Priority: optional
-Filename: pool/updates/main/g/gnupg/gnupg-curl_1.4.12-7+deb7u4_amd64.deb
-Size: 64104
-MD5sum: 4bdd3c55c2d7e0321020acd806425197
-SHA1: b5e7e7e1ed23a714feed0dda12dc92c547077ee5
-SHA256: 8f021ee545a71efc7cc7c89f98ffe1ad7520f6d19a3250c6158bc27c9cbbbbc1
+Filename: pool/updates/main/g/gnupg/gnupg-curl_1.4.12-7+deb7u6_amd64.deb
+Size: 64370
+MD5sum: 9fe0629b5598e6b2c77991384e716112
+SHA1: 447774fb9d8737c93853a32b9cd6d820d2e4b4ce
+SHA256: 25a733a99574290d5c4d3c7add5cfd32c45145437398d45566f884c4c9d2a6e8
 
 Package: gpgv
 Source: gnupg
-Version: 1.4.12-7+deb7u4
-Installed-Size: 433
+Version: 1.4.12-7+deb7u6
+Installed-Size: 438
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libbz2-1.0, libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
@@ -3225,16 +3225,16 @@ Description-md5: 19709c7fc27595437225fd34d295b347
 Multi-Arch: foreign
 Section: utils
 Priority: important
-Filename: pool/updates/main/g/gnupg/gpgv_1.4.12-7+deb7u4_amd64.deb
-Size: 226674
-MD5sum: 7cfeaee9c167eef422b4db95994be384
-SHA1: c031378a5ed0aa4ffa34f8f6245d6063749cc5d9
-SHA256: 6bae5b6125d3a1d8d453d316c6c3f7236ae154b477475c15db912c2ffe194398
+Filename: pool/updates/main/g/gnupg/gpgv_1.4.12-7+deb7u6_amd64.deb
+Size: 227718
+MD5sum: 6375677c34e0536b6f4a49b3f942cf41
+SHA1: 21d5518b696b8699a5c608620190123245159863
+SHA256: e9fddc46a70343afa369e6b9733b27a23807a0d03fbdb08dcb034fa57ee8228f
 
 Package: gpgv-win32
 Source: gnupg
-Version: 1.4.12-7+deb7u4
-Installed-Size: 1476
+Version: 1.4.12-7+deb7u6
+Installed-Size: 1478
 Maintainer: Debian GnuPG-Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 Architecture: all
 Suggests: wine
@@ -3243,11 +3243,11 @@ Homepage: http://www.gnupg.org
 Description-md5: 3f8767984a5f4b323de309446d07435d
 Section: utils
 Priority: extra
-Filename: pool/updates/main/g/gnupg/gpgv-win32_1.4.12-7+deb7u4_all.deb
-Size: 614400
-MD5sum: 0f85528f49d858ba8f10a88284d22df4
-SHA1: 0f056402e05f249064a371c2b5e29ca918f7e391
-SHA256: 2d6955dcec3ef31b02ba8d56171528c6f8f2dc9a0e274ba1b057ec372f4936d3
+Filename: pool/updates/main/g/gnupg/gpgv-win32_1.4.12-7+deb7u6_all.deb
+Size: 616192
+MD5sum: 79e758a4200178120662f93b4fcde088
+SHA1: 06af5094e18d571271287dfc507514b73629c219
+SHA256: fa4f309d4f0b46de438dd32adb895ba683af6abc709b58be887643a2f8c0e7c2
 
 Package: gnupg-agent
 Source: gnupg2
