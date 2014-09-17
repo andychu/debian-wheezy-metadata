@@ -371,27 +371,27 @@ SHA1: 8ee4837b99222efc7ae1db721d39d20149032fe2
 SHA256: de75d6a6d2e2164dad463726164f1542d1e8993975e25567a06f4101c8f068d3
 
 Package: apt
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Installed-Size: 3271
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Replaces: manpages-pl (<< 20060617-3~)
-Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u2), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
+Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u3), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
 Suggests: aptitude | synaptic | wajig, dpkg-dev, apt-doc, xz-utils, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Description: commandline package manager
 Description-md5: 9fb97a88cb7383934ef963352b53b4a7
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u2_amd64.deb
-Size: 1261084
-MD5sum: 7603385c4f7f8e2bd098bd9a79878403
-SHA1: f4129fda11b109122ebe300213d88c92cf2b45a7
-SHA256: 36997b52ad31ae481ba9be17d592b6737d29cb11b1357e2061ce5fd57b2635fe
+Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u3_amd64.deb
+Size: 1261774
+MD5sum: 5a1fbd8f199be3d0563455fe08af83a7
+SHA1: d7fe8910c646829b2e2ae9ee5aa5b24e0805cafa
+SHA256: cfd9d742f7c99d55214257fdad42ead547547c5a05af9d4569a256205af28fa7
 
 Package: apt-doc
 Source: apt
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Installed-Size: 569
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
@@ -399,15 +399,15 @@ Description: documentation for APT
 Description-md5: bc2b838ed28e60af95d78926380a3300
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u2_all.deb
-Size: 261440
-MD5sum: 0cbe517179118a12386f256575a8356b
-SHA1: 56c78ce70c079a9d55996bcf40ddb94074e38b00
-SHA256: 8b089afe469223c7b6672f266590006ff6d79ffc4f83af1f8c15b596a9aa3125
+Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u3_all.deb
+Size: 261672
+MD5sum: f2ce67116a4e8373dad84245f16d0ee1
+SHA1: 81cd551b45a42b6ba10b1a853234cae7f0ebc163
+SHA256: e2dc02c1ce880b3f7acf9caa280a2825723f3fb7801fd7abd241f1fd15a0956c
 
 Package: apt-transport-https
 Source: apt
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Installed-Size: 162
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -416,16 +416,16 @@ Description: https download transport for APT
 Description-md5: 3365a6b50bd0e4eef6e176a80c735f43
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u2_amd64.deb
-Size: 108850
-MD5sum: 3075898eaff96911425df6afd11c8631
-SHA1: 9a7a37335f0e9a9b010016b346a21875833f0af4
-SHA256: e7bcd8c319e71b06cdfe3ab2b6e67378b935194d2d3556dce383aa163a5dcd59
+Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u3_amd64.deb
+Size: 109012
+MD5sum: 6394ce2f4dae921f790e65cafc3a1aee
+SHA1: e855d94dc3697ecf3799e602def0a2d061d929e2
+SHA256: 8262b4174ac43f2e440d54b9d6eac4bb7b23d4af55fc4be53fed36d391d4fc2f
 
 Package: apt-utils
 Source: apt
-Version: 0.9.7.9+deb7u2
-Installed-Size: 1300
+Version: 0.9.7.9+deb7u3
+Installed-Size: 1301
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Depends: libapt-inst1.5 (>= 0.8.0), libapt-pkg4.12 (>= 0.8.16~exp9), libc6 (>= 2.4), libdb5.1, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0)
@@ -434,15 +434,15 @@ Description: package managment related utility programs
 Description-md5: 578941ab78e4cbae72c741e56d175708
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u2_amd64.deb
-Size: 377536
-MD5sum: dd8bc29f4b17c55a878b824568449a3e
-SHA1: 44f8ece956dbfe3f2218dead396b8890bc00cd09
-SHA256: 6c33e95f587e9a28d61fb7bf1375ec9a427636702b0cce3f7f3f030ff1193da9
+Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u3_amd64.deb
+Size: 377952
+MD5sum: 9f3ef71c662c6bafa9d36afdc6a81845
+SHA1: 55ca07edc07c141b1beacdcf208e6e8dd0ece619
+SHA256: 866953b6c849bade96a6d0fb353a273fb7f44a6d97c4b7367e23345419cccf08
 
 Package: libapt-inst1.5
 Source: apt
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Installed-Size: 699
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -453,49 +453,49 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u2_amd64.deb
-Size: 166658
-MD5sum: 782fcd67201a92589be12b474d12c086
-SHA1: 4d4fa4aba36e2a229e90c179e21c8039d0d4ef40
-SHA256: a57680fc959c7e25097bb70398860506e4c8c8d1fbc5b8bb5c637855cb7d8978
+Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u3_amd64.deb
+Size: 166906
+MD5sum: ff15c9255997cf4d372a59b43effe638
+SHA1: 84de7581a19619d1390cdd1caa2fb6294719a265
+SHA256: 7b961d8c4fc456ab1d41a168f82896f3d0203c55e0958e0c70a5eddb2fbe79f0
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 0.9.7.9+deb7u2
-Installed-Size: 476
+Version: 0.9.7.9+deb7u3
+Installed-Size: 477
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
-Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u2), libapt-inst1.5 (= 0.9.7.9+deb7u2), zlib1g-dev
+Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u3), libapt-inst1.5 (= 0.9.7.9+deb7u3), zlib1g-dev
 Description: development files for APT's libapt-pkg and libapt-inst
 Description-md5: 8e463f77664788b23a47f5ac592f4595
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u2_amd64.deb
-Size: 187028
-MD5sum: 94278e43c53af971d570c9544792237d
-SHA1: 9ec988fcc8761c2de1b92343b87266e79ed97963
-SHA256: 23af5f2a03a08350538660586c97f29b986ff629b298d7ecfe7a42c2a01d9902
+Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u3_amd64.deb
+Size: 187254
+MD5sum: 198425090440eed67c9ea965b3ce8188
+SHA1: 7263da3ebb532bc12fd8470f45151eae7754badc
+SHA256: 7371f20d17da2a6890b83b78f95465845fefd5ef11e3f3e9b965e8a7fddd1442
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 0.9.7.9+deb7u2
-Installed-Size: 6441
+Version: 0.9.7.9+deb7u3
+Installed-Size: 6460
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
 Description: documentation for APT development
 Description-md5: decce989b471f196cddabf52bee63592
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u2_all.deb
-Size: 959170
-MD5sum: d0b8099d4f9c5e19528d7fc655724b82
-SHA1: b8ad0e3aab1f19b41bae9f402f75d5c8369ff89c
-SHA256: 03117d4102bc510a4f1a6efac8dead97d3827588107ba6c1e979e998f4214c44
+Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u3_all.deb
+Size: 963694
+MD5sum: 191b3e0b9de18ac18077e973594eeefa
+SHA1: 4198766299677292b54dfc5df6b8362854ddb806
+SHA256: 23d0609c6e41f5008e61b353f86be0f8366490d2d77878f483ce9d7232763656
 
 Package: libapt-pkg4.12
 Source: apt
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Installed-Size: 2721
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -507,11 +507,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u2_amd64.deb
-Size: 889796
-MD5sum: 9437e9e1d864ece245263eca3e1cd9fd
-SHA1: 6606ac96a7bd3c15fe3138f3ef76bfdfcf7a107d
-SHA256: 89b7e28d8fef6551646760fc85e586fa3f0d5b802fd44b1168da7448acc84e8e
+Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u3_amd64.deb
+Size: 891392
+MD5sum: ee81420cf51c2f2b2f1ba6c811027b74
+SHA1: 6664a6a557ca208342ae31b0cf2c187b6cd62d90
+SHA256: 432bd0b846772e38403b02bc13a7e9fd686d81a405456a47edae210cc752ef32
 
 Package: asterisk
 Version: 1:1.8.13.1~dfsg1-3+deb7u3
@@ -1892,8 +1892,8 @@ SHA1: 7e34566e71559fb4e44e525a666399199755f9c0
 SHA256: 563b4182d50de63c14a40243a19f1e2eb994bacecbc0d2b19ec6548d88bb2780
 
 Package: dbus
-Version: 1.6.8-1+deb7u3
-Installed-Size: 820
+Version: 1.6.8-1+deb7u4
+Installed-Size: 825
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.10), libdbus-1-3 (>= 1.0.2), libexpat1 (>= 2.0.1), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), adduser, lsb-base (>= 3.2-14)
@@ -1904,34 +1904,34 @@ Description-md5: 8317e43242716ec7f7692a3ac5895e1c
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u3_amd64.deb
-Size: 398872
-MD5sum: 00dcc71939f1061a7fd34175b69327d4
-SHA1: b5e8e233f8fadcf11fd92d6d461ce8212438e0f7
-SHA256: 6de730e6ed44e09886ef33e5160c298d76fb4cf35de4e97b62842bf33eb92e1f
+Filename: pool/updates/main/d/dbus/dbus_1.6.8-1+deb7u4_amd64.deb
+Size: 400028
+MD5sum: aa78f6477b8a8e7ebc03e70eedc32c42
+SHA1: aff5819cd99c0bb0ae4277c3ea9df28e6e7108e2
+SHA256: 894bf3308448e7ae8b713f23ca973710f70b7cea6e046b666739acfd6d29181f
 
 Package: dbus-1-dbg
 Source: dbus
-Version: 1.6.8-1+deb7u3
-Installed-Size: 12805
+Version: 1.6.8-1+deb7u4
+Installed-Size: 12824
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), dbus (= 1.6.8-1+deb7u3), dbus-x11 (= 1.6.8-1+deb7u3), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u4), dbus (= 1.6.8-1+deb7u4), dbus-x11 (= 1.6.8-1+deb7u4), libc6 (>= 2.10), libdbus-glib-1-2 (>= 0.78), libexpat1 (>= 2.0.1), libglib2.0-0 (>= 2.31.8), libselinux1 (>= 1.32), libsystemd-login0 (>= 31), libx11-6
 Description: simple interprocess messaging system (debug symbols)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 8e652fad9ff7afdabd20cb27b87476a9
 Section: debug
 Priority: extra
-Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u3_amd64.deb
-Size: 8284268
-MD5sum: c309a7147eae5a3713a5df3bc6bdb720
-SHA1: 8e45553348fa26596426451cc6b0004b38350cfd
-SHA256: eda53a76c0755718e4d9aaf90045282ec5b7f8e348659bc3665e74c938ce196d
+Filename: pool/updates/main/d/dbus/dbus-1-dbg_1.6.8-1+deb7u4_amd64.deb
+Size: 8301164
+MD5sum: b017f1bb94e6743f26515a56200b7d7d
+SHA1: cadc372b79426958347917ab73ac5b37f4116112
+SHA256: 0f2f7d12da1677c2e96c187bc45346b19d8cacac0f5c938d0c878b4aa635d56e
 
 Package: dbus-1-doc
 Source: dbus
-Version: 1.6.8-1+deb7u3
-Installed-Size: 19034
+Version: 1.6.8-1+deb7u4
+Installed-Size: 19075
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: all
 Suggests: libdbus-1-dev
@@ -1940,16 +1940,16 @@ Homepage: http://dbus.freedesktop.org/
 Description-md5: 4ff746780e6dca0a27147236301ca4fd
 Section: doc
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u3_all.deb
-Size: 2287234
-MD5sum: 10267bb96f0982be29f8b6ab84a0be3c
-SHA1: 85e326e8d38a5b0dd05fe95855692a6e6aca6550
-SHA256: dd877e7a85988990edb1cb77d1a9250d7b29cce2b60038481f30aba9803f0dcb
+Filename: pool/updates/main/d/dbus/dbus-1-doc_1.6.8-1+deb7u4_all.deb
+Size: 2292644
+MD5sum: 16646197a3c1873bae9b7bdb8ccccb8f
+SHA1: 299b93d6614895f83988991e8528b15bbef0b91e
+SHA256: af721f08a55300db64af57a1a7dea4b22fef8c3839a5352fd64b4f14484c6e32
 
 Package: dbus-x11
 Source: dbus
-Version: 1.6.8-1+deb7u3
-Installed-Size: 78
+Version: 1.6.8-1+deb7u4
+Installed-Size: 79
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.4), libx11-6, dbus
@@ -1960,15 +1960,15 @@ Description-md5: 101d13ea029d06116b86761850faa2f3
 Multi-Arch: foreign
 Section: x11
 Priority: optional
-Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u3_amd64.deb
-Size: 58998
-MD5sum: 5977d43bef972c321c8d98396b118574
-SHA1: 09213315bbb247fd4ef0cd0d6f7fb9d8bd9d158f
-SHA256: 6b035d3492bdb8f78f2d3d5066e1e4c11d227763a8f3192b417bfccbaa8bbef4
+Filename: pool/updates/main/d/dbus/dbus-x11_1.6.8-1+deb7u4_amd64.deb
+Size: 59350
+MD5sum: 620e596398e9bdae931137c820e14f5e
+SHA1: bd7321d3436b95eaf1d97d92b6a3669434ed7ab3
+SHA256: 196bb9d2e3b47da043c81c13f7ace8732493873b919e921e625efa358aec9f4f
 
 Package: libdbus-1-3
 Source: dbus
-Version: 1.6.8-1+deb7u3
+Version: 1.6.8-1+deb7u4
 Installed-Size: 337
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -1982,29 +1982,29 @@ Pre-Depends: multiarch-support
 Recommends: dbus
 Section: libs
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u3_amd64.deb
-Size: 172046
-MD5sum: 9cec0a9f08314cc6cdae22bdde8196e5
-SHA1: 848fcaf11a232d6a0ebb6b6c6d02814dd0fb7414
-SHA256: 4bfccbb32e71e6d9e9e3932a5a6cc237100e94839327e7a956793f0d3caf3a6a
+Filename: pool/updates/main/d/dbus/libdbus-1-3_1.6.8-1+deb7u4_amd64.deb
+Size: 172600
+MD5sum: 7f0631acca3501f64b7ad3ea22b8e1e7
+SHA1: f26f2d24ef3ff101cae23920411c4981fc0e2ee6
+SHA256: 5d956bf89dec4c11be4f7dc844fa82fa9456f35b510a0ac6fd8b16af51c2aea7
 
 Package: libdbus-1-dev
 Source: dbus
-Version: 1.6.8-1+deb7u3
-Installed-Size: 801
+Version: 1.6.8-1+deb7u4
+Installed-Size: 803
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libdbus-1-3 (= 1.6.8-1+deb7u3), pkg-config
+Depends: libdbus-1-3 (= 1.6.8-1+deb7u4), pkg-config
 Description: simple interprocess messaging system (development headers)
 Homepage: http://dbus.freedesktop.org/
 Description-md5: 59e71e7e764b950dc1184788af416a7e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u3_amd64.deb
-Size: 246442
-MD5sum: c815d45afa0d95513ccc07f32962419b
-SHA1: 46110a9ece1aa71033e840be9163f955401c5e27
-SHA256: 0615ff68218bcc89f3e4ee42624a55288bbe468ddde45cf1d327be1a1d15cc39
+Filename: pool/updates/main/d/dbus/libdbus-1-dev_1.6.8-1+deb7u4_amd64.deb
+Size: 247302
+MD5sum: a9700db097147bec46bf1170304cc22b
+SHA1: 17a8b931c3e18049788c4363494c755ac46d4d00
+SHA256: 05cbefca3f2085d96355aff1517d6bc9a794b82ef64f4348b73976d8f8c68aad
 
 Package: denyhosts
 Version: 2.6-10+deb7u3

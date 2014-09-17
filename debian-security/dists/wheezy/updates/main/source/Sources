@@ -131,7 +131,7 @@ Section: net
 
 Package: apt
 Binary: apt, libapt-pkg4.12, libapt-inst1.5, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https
-Version: 0.9.7.9+deb7u2
+Version: 0.9.7.9+deb7u3
 Maintainer: APT Development Team <deity@lists.debian.org>
 Uploaders: Michael Vogt <mvo@debian.org>, Otavio Salvador <otavio@debian.org>, Christian Perrier <bubulle@debian.org>, Daniel Burrows <dburrows@debian.org>, Julian Andres Klode <jak@debian.org>
 Build-Depends: dpkg-dev (>= 1.15.8), debhelper (>= 8.1.3~), libdb-dev, gettext (>= 0.12), libcurl4-gnutls-dev (>= 7.19.4~), zlib1g-dev, libbz2-dev, xsltproc, docbook-xsl, docbook-xml, po4a (>= 0.34-2), autotools-dev, autoconf, automake
@@ -139,15 +139,15 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 794d53bb8bc41c625fe3837a11fd5d17 1707 apt_0.9.7.9+deb7u2.dsc
- 11742f10404fca4c56669f2804af3764 3399785 apt_0.9.7.9+deb7u2.tar.gz
+ 956569e118e0f6f7427b5a73c0ef068f 1724 apt_0.9.7.9+deb7u3.dsc
+ 7fc9bb670a351aaaac76b69b4737c463 3401392 apt_0.9.7.9+deb7u3.tar.gz
 Vcs-Browser: http://bzr.debian.org/loggerhead/apt/debian-wheezy/
 Checksums-Sha1:
- cb8ceff4ac6843de5712f13597ce33eb3360ce3e 1707 apt_0.9.7.9+deb7u2.dsc
- bb1d29fa2b799868a909c822e250c14be055f763 3399785 apt_0.9.7.9+deb7u2.tar.gz
+ 3ad56afea094c83da13ecd9b9d1c916dff437c1a 1724 apt_0.9.7.9+deb7u3.dsc
+ 8e01a6f4460ada05178394e9fde70484dc4eb38e 3401392 apt_0.9.7.9+deb7u3.tar.gz
 Checksums-Sha256:
- 3175904abac4645d07662035cfa97718321f6a3cf78dfa2849b34977bb24c565 1707 apt_0.9.7.9+deb7u2.dsc
- 3f665cb0e1304681212a292a25fe27f8555ee344c110b7ed6dbdd636c19e8686 3399785 apt_0.9.7.9+deb7u2.tar.gz
+ 3386050f24ea790fb289d66b3a5ce5c0d301685361a9e47e9faffa23f3cd66ad 1724 apt_0.9.7.9+deb7u3.dsc
+ f83368772470b6e0787dd7910dfbe1c736f64ed09a5874a5685aa76c8774d762 3401392 apt_0.9.7.9+deb7u3.tar.gz
 Build-Conflicts: autoconf2.13, automake1.4
 Build-Depends-Indep: doxygen, debiandoc-sgml
 Package-List: 
@@ -521,7 +521,7 @@ Section: utils
 
 Package: dbus
 Binary: dbus, dbus-x11, libdbus-1-3, dbus-1-doc, libdbus-1-dev, dbus-1-dbg
-Version: 1.6.8-1+deb7u3
+Version: 1.6.8-1+deb7u4
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>
 Build-Depends: automake (>= 1:1.10), autotools-dev, debhelper (>= 9), dh-autoreconf, doxygen, dpkg-dev (>= 1.16.1), libexpat-dev, libdbus-glib-1-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-daemon-dev (>= 32) [linux-any], libsystemd-login-dev (>= 32) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, xmlto, xsltproc
@@ -529,19 +529,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 6a538a48859a06f4df247407b0d101b3 2535 dbus_1.6.8-1+deb7u3.dsc
+ 55c66ea492381d8038515dff9e51c2f1 2535 dbus_1.6.8-1+deb7u4.dsc
  3bf059c7dd5eda5f539a1b7cfe7a14a2 1929630 dbus_1.6.8.orig.tar.gz
- a57f1f5839d3eb82682c5a9bdd6d5d16 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
+ 37f4d8804b7f7298d1a83ac68ad06e53 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-utopia/dbus.git
 Vcs-Git: git://anonscm.debian.org/pkg-utopia/dbus.git
 Checksums-Sha1:
- eae19db12443455fe04408ac0b9130a09cd09870 2535 dbus_1.6.8-1+deb7u3.dsc
+ edfb1e042e124db574c0aae5fb2963fdea2936e6 2535 dbus_1.6.8-1+deb7u4.dsc
  d9634807d1de9b64727ae2178e3af2227fca0fca 1929630 dbus_1.6.8.orig.tar.gz
- 3385d6058f8be043c484d7c019a63cafd92a2a37 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
+ 608b0fcc08fc99f3274636e093d702dfd838c8a4 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
 Checksums-Sha256:
- ad879cfc34a7040ac3195cdf6e74059a61e1f79cb085257c61bc0586a6a3b08e 2535 dbus_1.6.8-1+deb7u3.dsc
+ d6530499a91c420ffcd371c311baba464ffbcf15a589a20869b27308a0f8a456 2535 dbus_1.6.8-1+deb7u4.dsc
  fc1370ef38abeeb13f55c905ec002e60705fb0bfde3b8d21c8d6eb8056c11bac 1929630 dbus_1.6.8.orig.tar.gz
- b26f704c955e453ecdcb5c6be8233bf7c15817c87f6c5fb600a73cfeddb063b5 39434 dbus_1.6.8-1+deb7u3.debian.tar.gz
+ d5af1015a5876b863276829f1cfd0a0b419a49011748e265ad2dab0b3b02be89 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
 Homepage: http://dbus.freedesktop.org/
 Package-List: 
  dbus deb admin optional
