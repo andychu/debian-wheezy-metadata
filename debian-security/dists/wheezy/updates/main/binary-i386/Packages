@@ -4204,7 +4204,7 @@ SHA256: 3a4e37bfdd84d7703e4be2bb950fb8a96f006d7321e390aded0729dc666609a4
 
 Package: calendar-google-provider
 Source: icedove
-Version: 24.7.0-1~deb7u1
+Version: 24.8.0-1~deb7u1
 Installed-Size: 337
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
@@ -4213,79 +4213,79 @@ Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 1d5c421bd910ae5a7fa3285f31c40130
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/calendar-google-provider_24.7.0-1~deb7u1_all.deb
-Size: 89010
-MD5sum: ff0b1805085919d655f20008b39a069d
-SHA1: 4b5acc83cd737afb5feb6239588c2c351dac78ac
-SHA256: 1fd29621a4a693c76671f99bd1b8eda5d0710f2806afba9b4acc503b1c2098e8
+Filename: pool/updates/main/i/icedove/calendar-google-provider_24.8.0-1~deb7u1_all.deb
+Size: 89050
+MD5sum: 57821ff5237b38d4a8d72c37cbf195ab
+SHA1: 6e28316e7abe0fde29de6835fb1a9ccae3073ed5
+SHA256: e849882d3eb4649f645c69257d8c247be898008619e11cca3e40a700554e11fc
 
 Package: icedove
-Version: 24.7.0-1~deb7u1
-Installed-Size: 56269
+Version: 24.8.0-1~deb7u1
+Installed-Size: 56276
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: icedove-gnome-support (<< 3.0-1~)
 Provides: mail-reader
 Depends: fontconfig, psmisc, debianutils (>= 1.16), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.10.2-2~), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi5 (>= 3.0.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libhunspell-1.3-0, libpango1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.18.0), libsqlite3-0 (>= 3.7.7), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libvpx1 (>= 1.0.0), libx11-6, libxext6, libxrender1, libxt6, zlib1g (>= 1:1.2.0)
 Suggests: fonts-lyx, libgssapi-krb5-2, libglib2.0-0 (>= 2.20.0)
-Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 24.7.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
+Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 24.8.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
 Description: mail/news client with RSS and integrated spam filter support
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: a3f8f79f513675ddae7177832763ff0d
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove_24.7.0-1~deb7u1_i386.deb
-Size: 23438442
-MD5sum: 381791dd79aab811983ae069e80439e6
-SHA1: 1d339bb1394bf07c9aac39c297078f1405f7d48f
-SHA256: 6ecc7b1ff081cdf0052fccadee080c5a4a60487f31b6252cd54d581915fb8ba2
+Filename: pool/updates/main/i/icedove/icedove_24.8.0-1~deb7u1_i386.deb
+Size: 23431086
+MD5sum: d0342966438970f4ef8da78ea209c98f
+SHA1: 1875f962cc8295f59d41dc2e1202f353dfcd1f5b
+SHA256: 16d44cb02e1f692a9bab8f9c21b002fe96ea671f5706c27b3ef1aac1ac6151e5
 
 Package: icedove-dbg
 Source: icedove
-Version: 24.7.0-1~deb7u1
+Version: 24.8.0-1~deb7u1
 Installed-Size: 964317
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 24.7.0-1~deb7u1)
+Depends: icedove (= 24.8.0-1~deb7u1)
 Description: Debug Symbols for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 99fce9c8b37fcb1fdae080cd71939b95
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dbg_24.7.0-1~deb7u1_i386.deb
-Size: 241195398
-MD5sum: 53451e4b5971dcab117212b08b8fb119
-SHA1: 77bdb571ac7cd407f21292e066baf6855f317526
-SHA256: a9ad54bb717a178af7c78bf002b3f8d18bd3695b8064d3835460826dcc06bc42
+Filename: pool/updates/main/i/icedove/icedove-dbg_24.8.0-1~deb7u1_i386.deb
+Size: 241168798
+MD5sum: 1fde2371e6ee55098eb960f6dcd3ca0b
+SHA1: 623d25140b87b58405891fec6e07b260f14501c7
+SHA256: 90b44145b8de48505785f9312d97b1c3eb16cc7e23e8a4ad25d004f5ca244c93
 
 Package: icedove-dev
 Source: icedove
-Version: 24.7.0-1~deb7u1
+Version: 24.8.0-1~deb7u1
 Installed-Size: 35349
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 24.7.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
+Depends: icedove (= 24.8.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
 Description: Development files for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: e5dc915b9a4390b041790032893a56e6
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dev_24.7.0-1~deb7u1_i386.deb
-Size: 4863930
-MD5sum: ea6c78a5828b66e6d8fb0f71bdd98b9a
-SHA1: 268e7d3630797cca80ed9a7498069e5026c607dc
-SHA256: 217b7ab73570588b462528e4d9b1d3e40943f3f5e6ac2a38e49af7f0a832085a
+Filename: pool/updates/main/i/icedove/icedove-dev_24.8.0-1~deb7u1_i386.deb
+Size: 4863804
+MD5sum: 4c3009b9dedab8fc758c05cdb72b5eb4
+SHA1: 94207b67d068e16b8fbf9d14503e5c407bbf7a0c
+SHA256: 3841251dae1e639fed9e8df771a726f33cd2af4bbb055c90bbf3b662d9d6b39c
 
 Package: iceowl-extension
 Source: icedove
-Version: 24.7.0-1~deb7u1
+Version: 24.8.0-1~deb7u1
 Installed-Size: 4722
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: calendar-timezones
 Provides: calendar-timezones
-Depends: icedove (>= 24.7.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: icedove (>= 24.8.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Suggests: fonts-lyx
 Breaks: calendar-timezones
 Description: Calendar Extension for Thunderbird/Icedove
@@ -4294,11 +4294,11 @@ Description-md5: 2c79304e1b2fc02602bc7d1adffd404d
 Recommends: calendar-google-provider
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/iceowl-extension_24.7.0-1~deb7u1_i386.deb
-Size: 992346
-MD5sum: df6aa2158a09af50167f1b9e66a735ca
-SHA1: acf99b304c942004e51d80ed7d68418119a9b2be
-SHA256: 5a61153ff9067ef33644eafe364de4dfb7557b29f8f9a6c2cec6e16ca39c6fe3
+Filename: pool/updates/main/i/icedove/iceowl-extension_24.8.0-1~deb7u1_i386.deb
+Size: 991704
+MD5sum: 3a22bd58ed872c44a852dccfa6869f3d
+SHA1: f434484823f16306adf3c0f294596ec9ddecc8ac
+SHA256: 35686d8f9878e8d00f4bf780fbe10f880df1302b0dd584e9c2130392ac8b1d79
 
 Package: icedove-l10n-all
 Source: icedove-l10n
@@ -10732,25 +10732,25 @@ SHA256: 083496cfb4dc130d840a2702b6f8d9f06d008bd25caa618db708828756d56b6e
 
 Package: ffmpeg
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 207
+Version: 6:0.8.16-1
+Installed-Size: 208
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libav-tools, libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libswscale2 (>= 6:0.8.3-1~)
+Depends: libav-tools, libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libswscale2 (>= 6:0.8.3-1~)
 Description: Multimedia player, server, encoder and transcoder (transitional package)
 Homepage: http://libav.org/
 Description-md5: 5ff27b47c3b68cc2af2a245c108535a8
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/liba/libav/ffmpeg_0.8.15-1_i386.deb
-Size: 148572
-MD5sum: 842c60b61d37b0b3cd75d942dab986cc
-SHA1: 9634168f1f88e3f91bf559b6c7ab910718c93b7a
-SHA256: d07251c4621c913a7b2d5806e0ddf59e5b35cb80137f9999fcf2d91c17ce3987
+Filename: pool/updates/main/liba/libav/ffmpeg_0.8.16-1_i386.deb
+Size: 149388
+MD5sum: 6cb7cb0c1067cefa4dbfa7cf6246d0b4
+SHA1: 59f836f4786d69c5001aee240ed948580a66e7b6
+SHA256: 2aa365b0e07eb2ceb59dcbadc1356bd9cc2b802e229bd0be671b3084cdec3569
 
 Package: ffmpeg-dbg
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -10760,15 +10760,15 @@ Homepage: http://libav.org/
 Description-md5: 7958694bc3f3467c680b8238904f3fa8
 Section: libs
 Priority: extra
-Filename: pool/updates/main/liba/libav/ffmpeg-dbg_0.8.15-1_all.deb
-Size: 53528
-MD5sum: b1770f978412d82510d0d5c93200d68d
-SHA1: c229489bcb1d4e6b403271f33b713422be46e5f4
-SHA256: 4f1239c55448491ab356cefd28f105e257c7fd3992da2b7397b2c88cc52396da
+Filename: pool/updates/main/liba/libav/ffmpeg-dbg_0.8.16-1_all.deb
+Size: 54238
+MD5sum: 842fae43d418dee6d6c1600d832af5e2
+SHA1: dfa9f3842ba9a92495f76b1250dd7f5f3af7849f
+SHA256: 6a181836e74762ac2c676e3baf1a53da6fa7bc3e508e0a935615e4511132bcba
 
 Package: ffmpeg-doc
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -10778,54 +10778,54 @@ Homepage: http://libav.org/
 Description-md5: dd379f264f44fe4bc772202ed6f8218f
 Section: doc
 Priority: optional
-Filename: pool/updates/main/liba/libav/ffmpeg-doc_0.8.15-1_all.deb
-Size: 53592
-MD5sum: ecf3363191b11f99075cd4b57e514b60
-SHA1: 6abff3443010c32e4080f657616ddb1a405a4e1b
-SHA256: cc9041f14124cd9a2b42a58e2808130070cbb4059263ef79ffda80df77c8c20e
+Filename: pool/updates/main/liba/libav/ffmpeg-doc_0.8.16-1_all.deb
+Size: 54308
+MD5sum: 0ea07599ef239d17ffb20bc45e0cf2e7
+SHA1: f0f8758545a1da19c7b458a20876b1d161b59d73
+SHA256: 0413ffd511013435e783006bdfbbc136a904d5b71df4b5ae608c952264129ff5
 
 Package: libav-dbg
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 44959
+Version: 6:0.8.16-1
+Installed-Size: 44961
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: ffmpeg-dbg (<< 6:0.8.3-5), libav-extra-dbg (<< 6:0.8.3-5)
-Depends: ffmpeg (= 6:0.8.15-1), libav-tools (= 6:0.8.15-1), libavcodec53 (= 6:0.8.15-1) | libavcodec-extra-53 (= 6:0.8.15-1), libavdevice53 (= 6:0.8.15-1), libavformat53 (= 6:0.8.15-1), libavutil51 (= 6:0.8.15-1), libpostproc52 (= 6:0.8.15-1), libswscale2 (= 6:0.8.15-1)
+Depends: ffmpeg (= 6:0.8.16-1), libav-tools (= 6:0.8.16-1), libavcodec53 (= 6:0.8.16-1) | libavcodec-extra-53 (= 6:0.8.16-1), libavdevice53 (= 6:0.8.16-1), libavformat53 (= 6:0.8.16-1), libavutil51 (= 6:0.8.16-1), libpostproc52 (= 6:0.8.16-1), libswscale2 (= 6:0.8.16-1)
 Breaks: ffmpeg-dbg (<< 6:0.8.3-5), libav-extra-dbg (<< 6:0.8.3-5)
 Description: Debug symbols for Libav related packages
 Homepage: http://libav.org/
 Description-md5: 4883fccf171ba58bee24c569eb7b0345
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liba/libav/libav-dbg_0.8.15-1_i386.deb
-Size: 41370882
-MD5sum: bf5407de8f1ca14cfd228e7e43017b24
-SHA1: 5869310ecd2d32c5dc897ecdd4529c078fcbb40f
-SHA256: 3fd020ca37ac78d5f1766d7bb7937f24d405528bb4cd7f8fd57e7f8ca7d737ec
+Filename: pool/updates/main/liba/libav/libav-dbg_0.8.16-1_i386.deb
+Size: 41368960
+MD5sum: ecb9624cb56c80277b2513a8f5b97b80
+SHA1: e0157712ba69e479de5246b8c2e046c633a4cef7
+SHA256: 2f4701c3727b0a80cb14dca72ebfcecd93b0e25cc524c3d372d3bda2b6bb5e35
 
 Package: libav-doc
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 175423
+Version: 6:0.8.16-1
+Installed-Size: 175432
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
-Replaces: ffmpeg-doc (<< 6:0.8.15-1)
-Breaks: ffmpeg-doc (<< 6:0.8.15-1)
+Replaces: ffmpeg-doc (<< 6:0.8.16-1)
+Breaks: ffmpeg-doc (<< 6:0.8.16-1)
 Description: Documentation of the Libav API
 Homepage: http://libav.org/
 Description-md5: e1b6e29d8d3ee890016d0afc785a0596
 Section: doc
 Priority: optional
-Filename: pool/updates/main/liba/libav/libav-doc_0.8.15-1_all.deb
-Size: 10851304
-MD5sum: 7e14a8835b3554fb871a4d65cffda129
-SHA1: cbf845dea1088240086e8a610f1b3f0db35b084f
-SHA256: 6e8b47d827286e92e4b52615ef57fb7f1aaef89047aa14cc0da8700a8f553bcf
+Filename: pool/updates/main/liba/libav/libav-doc_0.8.16-1_all.deb
+Size: 10852926
+MD5sum: 7dcbe9c352c706d75eb021ac3eca6012
+SHA1: 31db8ee26cc923ebb50c5baac7b9d2237b16da4c
+SHA256: 5f1cfd857922f6adb81e4031dd5de556d5d0a700e0f4b866a54f9935dd5d8315
 
 Package: libav-extra-dbg
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -10835,20 +10835,20 @@ Homepage: http://libav.org/
 Description-md5: 7958694bc3f3467c680b8238904f3fa8
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liba/libav/libav-extra-dbg_0.8.15-1_all.deb
-Size: 53526
-MD5sum: a4e589da187bef1dcba7c32090b0b297
-SHA1: d47f400e74f079cee4ccd6a2e747fca7b1f2b61e
-SHA256: d05b35aa528361db4cec69c9402261f4602ddb68b5b50a6fec75ab7ad1de4f58
+Filename: pool/updates/main/liba/libav/libav-extra-dbg_0.8.16-1_all.deb
+Size: 54240
+MD5sum: ed0d346e1c5df6d4e06839b1a429c22a
+SHA1: afb8c80dca89e76928dc0868ccb1d880e3a98501
+SHA256: 0eda17b3dce0a07cddba30a1bce62639d5733787cbe9593939a62746499ba692
 
 Package: libav-tools
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 1488
+Version: 6:0.8.16-1
+Installed-Size: 1489
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Replaces: ffmpeg (<< 4:0.8~), libavcodec-extra-53 (<< 4:0.6~), libavcodec53 (<< 6:0.8.15-1)
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libsdl1.2debian (>= 1.2.11), libswscale2 (>= 6:0.8.3-1~)
+Replaces: ffmpeg (<< 4:0.8~), libavcodec-extra-53 (<< 4:0.6~), libavcodec53 (<< 6:0.8.16-1)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavdevice53 (>= 6:0.8.3-1~), libavfilter2 (>= 6:0.8.3-1~), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libpostproc52 (>= 6:0.8.3-1~), libsdl1.2debian (>= 1.2.11), libswscale2 (>= 6:0.8.3-1~)
 Conflicts: ffprobe
 Breaks: ffmpeg (<< 4:0.8~)
 Description: Multimedia player, server, encoder and transcoder
@@ -10857,35 +10857,35 @@ Description-md5: 0911282df0f4b0ccab197667699075b4
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: video
 Priority: optional
-Filename: pool/updates/main/liba/libav/libav-tools_0.8.15-1_i386.deb
-Size: 372500
-MD5sum: bcc9b06c29c692cd4f9f6f8dec0329d3
-SHA1: f923378edaaaf8f2c1411c22f27094fc6deca1db
-SHA256: 9e71e5debf6115f418f5cce08950832150285f5714ebe598b84239534af5a45a
+Filename: pool/updates/main/liba/libav/libav-tools_0.8.16-1_i386.deb
+Size: 373188
+MD5sum: b1f8e81afaf870b463e8c3f407886c23
+SHA1: 34ae5c328a8a5d95af20ede41fd4fa7c2f54367b
+SHA256: 3dc7aecd7208b5ad648ec6d6f11ad60843dfad29333d221f16cb7d4b4b5a5f01
 
 Package: libavcodec-dev
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 9022
+Version: 6:0.8.16-1
+Installed-Size: 9023
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec53 (<= 6:0.8.15-99) | libavcodec-extra-53 (<= 6:0.8.15-99), libavcodec53 (>= 6:0.8.15-1) | libavcodec-extra-53 (>= 6:0.8.15-1), libavutil-dev (= 6:0.8.15-1)
+Depends: libavcodec53 (<= 6:0.8.16-99) | libavcodec-extra-53 (<= 6:0.8.16-99), libavcodec53 (>= 6:0.8.16-1) | libavcodec-extra-53 (>= 6:0.8.16-1), libavutil-dev (= 6:0.8.16-1)
 Suggests: libdc1394-22-dev, libgsm1-dev, libogg-dev, libraw1394-dev, libschroedinger-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libvorbis-dev, libx11-dev, libxext-dev, zlib1g-dev
 Description: Development files for libavcodec
 Homepage: http://libav.org/
 Description-md5: dbbfe8ba88ea77a86c51d6548a08bbe4
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec-dev_0.8.15-1_i386.deb
-Size: 2693064
-MD5sum: 2ac79f0c025aa40db23427591d43efcb
-SHA1: 10ea0e7fd102eec2f8570d45006e425435aa4acf
-SHA256: 5d97501cab948ea9baa3dfdd5350379627f913865de5764a992341fe0ffb050d
+Filename: pool/updates/main/liba/libav/libavcodec-dev_0.8.16-1_i386.deb
+Size: 2694806
+MD5sum: 6b973b3ed1d3bd4330384361d6d00f20
+SHA1: 0e1d5cf662975960b5fea6b41f929a49646e370c
+SHA256: af73520de7189939c2ae0a6c4b6750580cfe6af5adba7a9604767131487e3e9c
 
 Package: libavcodec-extra-53
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 15244
+Version: 6:0.8.16-1
+Installed-Size: 15245
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavcodec53
@@ -10898,16 +10898,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec-extra-53_0.8.15-1_i386.deb
-Size: 3209914
-MD5sum: 7ebe7ca2099cb81bcf569c441c2f93f5
-SHA1: 722eb48982115fc5ec5052bbdedd150d0cb22ff6
-SHA256: 6f7709a2554547af6ebec7c836a3fdeb2fd93307cd4d02237e0362a7f77b7dec
+Filename: pool/updates/main/liba/libav/libavcodec-extra-53_0.8.16-1_i386.deb
+Size: 3210694
+MD5sum: 5a2361f2f3b97a53e2ad64e6f2e57210
+SHA1: e937f0d2274b8280d8c81701e3f063000eb65e1c
+SHA256: 63a03084b8d0e09d4f04be2d597bc382b17421297b320446f448d26dac7ffcb3
 
 Package: libavcodec53
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 15227
+Version: 6:0.8.16-1
+Installed-Size: 15228
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Depends: libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libdirac-encoder0, libgsm1 (>= 1.0.13), libmp3lame0, libopenjpeg2, libschroedinger-1.0-0 (>= 1.0.0), libspeex1 (>= 1.2~beta3-1), libtheora0 (>= 1.0), libva1 (>> 1.0.15~), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx1 (>= 1.0.0), libx264-123, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0)
@@ -10919,33 +10919,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavcodec53_0.8.15-1_i386.deb
-Size: 3203992
-MD5sum: 91d65259c143f552f82f790f56c8fd35
-SHA1: ad8c1a48a0c00e32788d3b3d56da9acfccf6e072
-SHA256: 2c2699262ce9f62520135babff6821855b7c4ab52292987552d7df3385c3a843
+Filename: pool/updates/main/liba/libav/libavcodec53_0.8.16-1_i386.deb
+Size: 3205020
+MD5sum: 836a038ceb308d5adb214433fb9c450d
+SHA1: 080120723a6e6aca8633211d711072dca38fc1d4
+SHA256: 6aa71712cd5bbde89eefe068529c819abccd75574fe64c5bd9746ae6fdb791b9
 
 Package: libavdevice-dev
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 140
+Version: 6:0.8.16-1
+Installed-Size: 141
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavdevice53 (= 6:0.8.15-1), libavformat-dev (= 6:0.8.15-1)
+Depends: libavdevice53 (= 6:0.8.16-1), libavformat-dev (= 6:0.8.16-1)
 Description: Development files for libavdevice
 Homepage: http://libav.org/
 Description-md5: d1a143a45e429a3ceda0d58733f017aa
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice-dev_0.8.15-1_i386.deb
-Size: 80084
-MD5sum: 91de8dbf8284c0bfced29490eb7a3c9f
-SHA1: ad97b59c914a21a4ed395fcaa362253242ca1247
-SHA256: b0931588443f3bf20fe494ead552154dc3b26188e01c14e4d4ffa1dcac0e1e28
+Filename: pool/updates/main/liba/libav/libavdevice-dev_0.8.16-1_i386.deb
+Size: 80818
+MD5sum: 7fa105d4e0bc8fbf0495957ac4058ee4
+SHA1: bdadfb3cb163ea3fd6169f8589ce8899825437ed
+SHA256: 883ecacf019d80cd9309ef9083ee473200d5b992586408386f4e3aa716650b5a
 
 Package: libavdevice-extra-53
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -10955,21 +10955,21 @@ Homepage: http://libav.org/
 Description-md5: ac04a08003801ffede73ee37b12996fc
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice-extra-53_0.8.15-1_all.deb
-Size: 53562
-MD5sum: 9fecde93b4631a704b63c0a9a26f4497
-SHA1: 53f5c223e310425c74d57e367d5731097834b524
-SHA256: 0fe99a4305b2f2769e10e1e3151091314c8321e244d245f7fea9d4a8ddf4d79e
+Filename: pool/updates/main/liba/libav/libavdevice-extra-53_0.8.16-1_all.deb
+Size: 54282
+MD5sum: c543787908ba653256ad6f717649dc42
+SHA1: dd62d323bd1263be39a9401bf803323f979180e0
+SHA256: a71eb95cee05bd0abebbb7f84e8dbc6d5fd7ed27285c6695dada5f22dec016f6
 
 Package: libavdevice53
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 188
+Version: 6:0.8.16-1
+Installed-Size: 189
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavdevice-extra-53
 Provides: libavdevice-extra-53
-Depends: libasound2 (>= 1.0.16), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libpulse0 (>= 0.99.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
+Depends: libasound2 (>= 1.0.16), libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libdc1394-22, libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, libpulse0 (>= 0.99.1), libx11-6 (>= 2:1.4.99.1), libxext6, libxfixes3
 Breaks: libavdevice-extra-53 (<< 5:0.8.1-2)
 Description: Libav device handling library
 Homepage: http://libav.org/
@@ -10978,33 +10978,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavdevice53_0.8.15-1_i386.deb
-Size: 81364
-MD5sum: 384234b5a3664f932ef0dd0b485c8354
-SHA1: 45dc487029a48b8a61ab6bfef3a04bfe1a82d6d2
-SHA256: e12429efffaba14abdd9d1f4f4a10d4b47aad8219e36eb1f3094b7ae25360a03
+Filename: pool/updates/main/liba/libav/libavdevice53_0.8.16-1_i386.deb
+Size: 82086
+MD5sum: 3891af4522f7f17f3b8b90f79c79bf95
+SHA1: 24db0516982c4d68532b46e97d1b26d570fbfdf6
+SHA256: 6f1dc06c7fd89bc2608688fcbefc027d9b4f3e1d8442eaacd2743bfa4fde3136
 
 Package: libavfilter-dev
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 380
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec-dev (= 6:0.8.15-1), libavfilter2 (= 6:0.8.15-1)
+Depends: libavcodec-dev (= 6:0.8.16-1), libavfilter2 (= 6:0.8.16-1)
 Description: Development files for libavfilter
 Homepage: http://libav.org/
 Description-md5: ecbb9d2a01e9cb4ef59f02b92dbfd55e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter-dev_0.8.15-1_i386.deb
-Size: 142856
-MD5sum: 70db3ca7498f78e7fe9767dc9205a3c1
-SHA1: c859a6025c3e246a0bbd879c8f072c86eb413ac8
-SHA256: ba52ea73bf489059d199ace694ea8ceff4f88cb51c04fcf13518f365ddc1ca54
+Filename: pool/updates/main/liba/libav/libavfilter-dev_0.8.16-1_i386.deb
+Size: 143604
+MD5sum: 34251ff696f058c4bb491c821ecf3731
+SHA1: 4856c59d7b263f2137f98c2e199de3c29f439134
+SHA256: 13bd6aaa02da4ab22932f4193b60321ab0a6d3bdb2ec20d6865d03e21213428c
 
 Package: libavfilter-extra-2
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -11014,21 +11014,21 @@ Homepage: http://libav.org/
 Description-md5: b88cecd75eb13f1620bd34dd361c6dc7
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter-extra-2_0.8.15-1_all.deb
-Size: 53562
-MD5sum: 424d3d838b0b76f45cfedd1859c6da69
-SHA1: d83612efd3e86a00babdb230ed7a7760193d84da
-SHA256: ab5dbda2d9b8c0cd7f527e9c9acb670132a72c8e40add98d776a9a9d7ba423d5
+Filename: pool/updates/main/liba/libav/libavfilter-extra-2_0.8.16-1_all.deb
+Size: 54278
+MD5sum: a48820943cf0c5c682419cc416215889
+SHA1: 5fe897b16fa3b84807dbaadcae5b9e2ff5ee0ed5
+SHA256: b58891649a4c50d958d7327decaf0ca9a15eab70e48e5e3c0ea44ee710f8c120
 
 Package: libavfilter2
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 445
+Version: 6:0.8.16-1
+Installed-Size: 446
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavfilter-extra-2
 Provides: libavfilter-extra-2
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libopencv-core2.3, libopencv-imgproc2.3, libswscale2 (>= 6:0.8.3-1~)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.7), libfreetype6 (>= 2.2.1), libopencv-core2.3, libopencv-imgproc2.3, libswscale2 (>= 6:0.8.3-1~)
 Breaks: libavfilter-extra-2 (<< 5:0.8.1-2)
 Description: Libav video filtering library
 Homepage: http://libav.org/
@@ -11037,33 +11037,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavfilter2_0.8.15-1_i386.deb
-Size: 141452
-MD5sum: de8648cf81dbc128f54603cf84ab2818
-SHA1: 8cf823a0f096d9724152c17fc55857be0e9d7148
-SHA256: 9e9e900f3e84d9b0e9749adca600825f93dd6fa6c8df922c0f6a0407debd553e
+Filename: pool/updates/main/liba/libav/libavfilter2_0.8.16-1_i386.deb
+Size: 142156
+MD5sum: 82304acf62ce09ace05b7cf8290ffe03
+SHA1: 113ac68b4550f11db9d17a93696ef1f5163441f1
+SHA256: 7c35068349a2987756106453199f657305e5a40f48ccf365cddfc465556203f7
 
 Package: libavformat-dev
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 1831
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavcodec-dev (= 6:0.8.15-1), libavformat53 (= 6:0.8.15-1), libavutil-dev (= 6:0.8.15-1)
+Depends: libavcodec-dev (= 6:0.8.16-1), libavformat53 (= 6:0.8.16-1), libavutil-dev (= 6:0.8.16-1)
 Description: Development files for libavformat
 Homepage: http://libav.org/
 Description-md5: a12d6dbfdd1f3cd14055f14bf26eb067
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat-dev_0.8.15-1_i386.deb
-Size: 569522
-MD5sum: 1be14fd558e4d2ee80e6b3f67cc5dfbe
-SHA1: 8e9eba44f9b4885b61387f112e88b3feb3171100
-SHA256: 2ac243d82d7f3bc7a8f5dbc89042772fddea61332f7f0fc9d0de6b8200c0b38f
+Filename: pool/updates/main/liba/libav/libavformat-dev_0.8.16-1_i386.deb
+Size: 570200
+MD5sum: 0c43a0ca644f212261b25135e80d206b
+SHA1: 92f5dcb3f905fd85a61acf4c344f2dee76273c44
+SHA256: d89aee2e193dbe1d3fc2605bbd3b28b16a69ce6299d9c47207551f2f34fedaed
 
 Package: libavformat-extra-53
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -11073,21 +11073,21 @@ Homepage: http://libav.org/
 Description-md5: 80927760d4204ba39381a430da4a1411
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat-extra-53_0.8.15-1_all.deb
-Size: 53566
-MD5sum: b7ecf6b2d3ea785644adc2f87a2eeafb
-SHA1: 01dfdaccec51ca699840af8a4c8355ecb351ee66
-SHA256: d0ff861d6d9f4d2dd3bcafa9276923330f555dfb52986bc0e13bb110e76cecff
+Filename: pool/updates/main/liba/libav/libavformat-extra-53_0.8.16-1_all.deb
+Size: 54282
+MD5sum: 1c21b140354d29fcb3ea432da16464c3
+SHA1: 4df53b46a66514d6be1b7a58fd51d6ae3ce7669b
+SHA256: 1f6e6cec221ce347d963d456307f6d31297bc27546f79e296e3efbe11ee8fc8b
 
 Package: libavformat53
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 2373
+Version: 6:0.8.16-1
+Installed-Size: 2374
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libavformat-extra-53
 Provides: libavformat-extra-53
-Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.15), libavutil51 (>= 6:0.8.3-1~), libbz2-1.0, libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavutil51 (>= 6:0.8.3-1~), libbz2-1.0, libc6 (>= 2.7), libgnutls26 (>= 2.12.17-0), librtmp0 (>= 2.3), zlib1g (>= 1:1.1.4)
 Breaks: libavformat-extra-53 (<< 5:0.8.1-2)
 Description: Libav file format library
 Homepage: http://libav.org/
@@ -11096,33 +11096,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavformat53_0.8.15-1_i386.deb
-Size: 605228
-MD5sum: 74071dc12462ba8fb1988b0ec2db8edf
-SHA1: 63b646bffb1bbaa86fdd5180087650e714dae3e3
-SHA256: 1442f998b1b7506d5256537b1bc1af8b3df55f826da26c48aa98543e4a259d1a
+Filename: pool/updates/main/liba/libav/libavformat53_0.8.16-1_i386.deb
+Size: 605504
+MD5sum: 0241ac3090cb3d731c9b2b19bec015c8
+SHA1: 15642bb196c89671c089e9264a47cf0f6923d05a
+SHA256: f3f224011c3b3e511a795b5fed3036fd2178aa53c3054a2c916f471c21e03e7d
 
 Package: libavutil-dev
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 381
+Version: 6:0.8.16-1
+Installed-Size: 382
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil51 (= 6:0.8.15-1)
+Depends: libavutil51 (= 6:0.8.16-1)
 Description: Development files for libavutil
 Homepage: http://libav.org/
 Description-md5: 7c9bb8e9578ac880019a066991fefbcb
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil-dev_0.8.15-1_i386.deb
-Size: 142562
-MD5sum: 70808851f6c3e6f5aaf5cab8b8e5bc34
-SHA1: e6458d3aec07e8b409d6e1699c163fd93ae42457
-SHA256: 134b0e17911b163dfc55a7d973810163758cf4ff238632e69c61f7ea9f460dbf
+Filename: pool/updates/main/liba/libav/libavutil-dev_0.8.16-1_i386.deb
+Size: 143316
+MD5sum: bba708b93b412f7d366f0610a50eb44f
+SHA1: f7da495848aba55df2e99407b7239a1f2acebc0f
+SHA256: 2a7ff6aae5b67ee183f954eb79382c86db13397c58062f217862e7de79dded2a
 
 Package: libavutil-extra-51
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -11132,15 +11132,15 @@ Homepage: http://libav.org/
 Description-md5: d37212912ce73c4325f1c0a2b60932d7
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil-extra-51_0.8.15-1_all.deb
-Size: 53556
-MD5sum: b5242a32561fd695da9f93f246399644
-SHA1: 06746b7fb79da5c72027968793fd5b1d6fbd2d6d
-SHA256: 1c2622b05c77680aecd9917faeffa991656a49fc3fb36a34fb9726dd63851c93
+Filename: pool/updates/main/liba/libav/libavutil-extra-51_0.8.16-1_all.deb
+Size: 54278
+MD5sum: 7ed8a47b4d177e2515d8aed2da2f8ede
+SHA1: ae08ee53ddc71243143d557a111eb4eddec2bedb
+SHA256: 36701e10c09382a73c1f03d4cdda402f4ea23fcd84901c861b4c0f36d3fa0440
 
 Package: libavutil51
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 308
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
@@ -11155,33 +11155,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libavutil51_0.8.15-1_i386.deb
-Size: 117350
-MD5sum: a810b0a4a0117b4f7b36e462a9a14567
-SHA1: c406b59b8fe416453205af0b3ba8ee6b7ec33236
-SHA256: 590f10b264f11356f0ffb1a9d80676b5bd67646392d6d61f53ac0866fdf7e1fe
+Filename: pool/updates/main/liba/libav/libavutil51_0.8.16-1_i386.deb
+Size: 118078
+MD5sum: 1e72abb49c3bd338cc109caa7f91e4ff
+SHA1: c14504673fd19db61b6224511029519fb228eb7b
+SHA256: 0acb5c49d39adcbaa5873000017c80a8fae8087de179b88ee14f3e2be6fc7dd2
 
 Package: libpostproc-dev
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 207
+Version: 6:0.8.16-1
+Installed-Size: 208
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil-dev (= 6:0.8.15-1), libpostproc52 (= 6:0.8.15-1)
+Depends: libavutil-dev (= 6:0.8.16-1), libpostproc52 (= 6:0.8.16-1)
 Description: Development files for libpostproc
 Homepage: http://libav.org/
 Description-md5: 86f863657363a4743bdf715ad27d245e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc-dev_0.8.15-1_i386.deb
-Size: 95812
-MD5sum: 65dbba230ab47df2da4b80d907d65bc6
-SHA1: 85e86f5ecd90a38b1a4a3a41a11c71797951c842
-SHA256: c6d0ff3ed40701a9dc167e5020dda69450889e891b9305f65ef1e490a1a6c859
+Filename: pool/updates/main/liba/libav/libpostproc-dev_0.8.16-1_i386.deb
+Size: 96534
+MD5sum: 3ebfdc61d0ac5b5b01f91214e3e3744c
+SHA1: 1b1bd3ae29ded6375302c8cb86be272e57d3fbea
+SHA256: 8ac87af5092dac5a76d695ab6181eedd7d53d38a46c9c03dff01ab814506e001
 
 Package: libpostproc-extra-52
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -11191,16 +11191,16 @@ Homepage: http://libav.org/
 Description-md5: 80927760d4204ba39381a430da4a1411
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc-extra-52_0.8.15-1_all.deb
-Size: 53566
-MD5sum: 65a143f07f5b7a0e36d85ff8cafd0b04
-SHA1: 9d3c5cc2b2d378ccdc24ca68754b5b8c454f0ffb
-SHA256: e62ed5492d468cc45163b7dff858de8f3cef41215d09dc7c578d70446d3caa90
+Filename: pool/updates/main/liba/libav/libpostproc-extra-52_0.8.16-1_all.deb
+Size: 54284
+MD5sum: 82eaa5b1a8f62dcaa5e49dfdd92c5f95
+SHA1: 41deb9ff95e2dea52ba85acb6f857acf6cbe25eb
+SHA256: 8dbec893c992adca71e048b2ff938831c356f9e9be7ed3d57dd583a89c6fce16
 
 Package: libpostproc52
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 357
+Version: 6:0.8.16-1
+Installed-Size: 358
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libpostproc-extra-52
@@ -11214,33 +11214,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libpostproc52_0.8.15-1_i386.deb
-Size: 106624
-MD5sum: 490875d938ea31bc6447fc1a55c3d44d
-SHA1: 18dba7de30668d9b5d033ff46330b745e33b3da3
-SHA256: 03c000fe79fbfb3fd8e571e9d4d97379d3198ec9032e77b25a03ba9411ec4901
+Filename: pool/updates/main/liba/libav/libpostproc52_0.8.16-1_i386.deb
+Size: 107336
+MD5sum: f04d9a58e05dbb98db5eac44a2dc5e61
+SHA1: 0188680717c050536ab16ad4a23fa88f7e180002
+SHA256: 768047a3032be6bc24c0287b1d2700f539f457d77df90395a7c1d927eb684389
 
 Package: libswscale-dev
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 436
+Version: 6:0.8.16-1
+Installed-Size: 437
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libavutil-dev (= 6:0.8.15-1), libswscale2 (= 6:0.8.15-1)
+Depends: libavutil-dev (= 6:0.8.16-1), libswscale2 (= 6:0.8.16-1)
 Description: Development files for libswscale
 Homepage: http://libav.org/
 Description-md5: edcc124cb02dafb94c43a541fb77930a
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale-dev_0.8.15-1_i386.deb
-Size: 144956
-MD5sum: 546ba17a03fc56b008c4e106e7fcadd6
-SHA1: aa1ad0d4f43a32e3fbea5de244e0cda7d5cf5d92
-SHA256: 724e56f6316bd9483f585b5116a751dcb14dc7c6945ea4c7ac3d72bee5add823
+Filename: pool/updates/main/liba/libav/libswscale-dev_0.8.16-1_i386.deb
+Size: 145674
+MD5sum: f1cb8c8d0dc1397121fd66429d11303d
+SHA1: 6239ad48f5cd49c6cd00dd938f0837873eb427d6
+SHA256: 55a3884ec78075712d1abfa49ea9fa01a2bca399fb0b204ffdeb7d683880efdd
 
 Package: libswscale-extra-2
 Source: libav
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Installed-Size: 54
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -11250,16 +11250,16 @@ Homepage: http://libav.org/
 Description-md5: c60d0148f7fd3ab6336dc316ff289029
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale-extra-2_0.8.15-1_all.deb
-Size: 53574
-MD5sum: d6c1766e6b9a0bb6105701415d44876c
-SHA1: 515e6dd60a1e2f90ee654a11a39b08c4cc476660
-SHA256: 0f2e6041454ebd46964a9e7e1d1e5f1c8abfa39bb5281b49d11e2fdfc01cf3f2
+Filename: pool/updates/main/liba/libav/libswscale-extra-2_0.8.16-1_all.deb
+Size: 54288
+MD5sum: 46477b91994514b793f187a8ae9f0825
+SHA1: fa2635b6da5fd10e8c8a8efb4024b03e5fb47315
+SHA256: 528ed2e4a93fde6d993d815d06a6199b5af1ad664e0d1bd2e03b0edfad6e868e
 
 Package: libswscale2
 Source: libav
-Version: 6:0.8.15-1
-Installed-Size: 689
+Version: 6:0.8.16-1
+Installed-Size: 690
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libswscale-extra-2
@@ -11273,11 +11273,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liba/libav/libswscale2_0.8.15-1_i386.deb
-Size: 155294
-MD5sum: 4cde2b2296850eed6efb2ede05ada636
-SHA1: c9e6bd990c05aeb3ea77ba4a3c192a3e9febc2ec
-SHA256: da38aa73d5fdd5fc9e00342322574bc9741c04d3bdf38cbd5c7ed6f1bd1fabbb
+Filename: pool/updates/main/liba/libav/libswscale2_0.8.16-1_i386.deb
+Size: 155980
+MD5sum: 144f2496f0f559ad377b287a475095df
+SHA1: 3357f2f9f6cea6c8c5faf7676cafd2facd601e69
+SHA256: e05492886912010a1edacdc675beeca6d6eb6c74d057a190663e9698a65999bf
 
 Package: libcommons-fileupload-java
 Version: 1.2.2-1+deb7u2

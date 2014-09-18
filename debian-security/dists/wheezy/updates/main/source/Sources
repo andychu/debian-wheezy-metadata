@@ -1353,7 +1353,7 @@ Section: mail
 
 Package: icedove
 Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
-Version: 24.7.0-1~deb7u1
+Version: 24.8.0-1~deb7u1
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Uploaders: Guido Günther <agx@sigxcpu.org>
 Build-Depends: bzip2, debhelper (>= 5), autoconf2.13, autotools-dev, libgtk2.0-dev (>= 2.12), libglib2.0-dev (>= 2.16.0), zip, unzip, zlib1g-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libbz2-dev, libxft-dev, libfontconfig1-dev, libidl-dev (>= 0.8.0), libxt-dev, libxau-dev, libcairo2-dev (>= 1.10.2-1.1~), libgnomeui-dev (>= 2.16), libhunspell-dev (>= 1.2), libstartup-notification0-dev, libdbus-glib-1-dev (>= 0.60), libsqlite3-dev (>= 3.7.7.1), libasound2-dev [linux-any], libiw-dev [linux-any], python, python-ply, python-virtualenv, cdbs (>= 0.4.27), libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, libreadline-dev, yasm, libjs-jquery, libjs-jquery-ui
@@ -1361,19 +1361,19 @@ Architecture: any all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- c92d34432d73f2993f16d14a5dc41bb7 2818 icedove_24.7.0-1~deb7u1.dsc
- 518e837f64c521405820e92eccf50faa 115044524 icedove_24.7.0.orig.tar.xz
- 1e6edd10bdf5e73ada25405eacf107ee 501523 icedove_24.7.0-1~deb7u1.debian.tar.gz
+ 4b7b63a144cd19d652beab08ec33e60d 2818 icedove_24.8.0-1~deb7u1.dsc
+ dd7ebaa538254bf2ff14c1700020c280 115166908 icedove_24.8.0.orig.tar.xz
+ db97345d2788fff1512f2ebbfa11488e 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
 Checksums-Sha1:
- c94544189f263bb71d33a9d427bce7dadd4757d0 2818 icedove_24.7.0-1~deb7u1.dsc
- 992b33c68718c821f87e4569ec08ce334f1e6b97 115044524 icedove_24.7.0.orig.tar.xz
- 867849e10a0f1b8569635568ea985dd86199118f 501523 icedove_24.7.0-1~deb7u1.debian.tar.gz
+ d8ef7e46a78a5302ec2474e9d6b02d36fb7990d9 2818 icedove_24.8.0-1~deb7u1.dsc
+ 7bd6934563469d460120fef10cc3e151c0f3a309 115166908 icedove_24.8.0.orig.tar.xz
+ 6d8f465e171b7b9905bd061962f53bfbf71e4777 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
 Checksums-Sha256:
- 8f5c5252e3e91a743fab8eb71b553424b829aebe1b0a927aa09146c12a8328b1 2818 icedove_24.7.0-1~deb7u1.dsc
- 63bfbef1b615cc4ff4df663c52d80aa0ad2c258029ad04b3f6b8b9b99ba3db0e 115044524 icedove_24.7.0.orig.tar.xz
- 72fa704e1017254ef80cf0b6ddd4f08a5a8e1d92d851ac537a8d9ff02fd2550b 501523 icedove_24.7.0-1~deb7u1.debian.tar.gz
+ afcadb4db8c9ed342189bcfa4180186b0902400cc9794bf17fcefbfe7699d40e 2818 icedove_24.8.0-1~deb7u1.dsc
+ 4b5e68e4d3b6bdb13eb2551ed2eeedd1e8c22ec909b1129cd763e30d24d629f1 115166908 icedove_24.8.0.orig.tar.xz
+ 5985ac93da0f244261e6e0c73fd26d65c69067fb270016a966e60635b74d68b7 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
 Homepage: http://www.mozilla.org/thunderbird/
 Package-List: 
  calendar-google-provider deb mail optional
@@ -3167,7 +3167,7 @@ Section: web
 
 Package: libav
 Binary: libav-tools, ffmpeg, ffmpeg-dbg, libav-dbg, libav-extra-dbg, ffmpeg-doc, libav-doc, libavutil51, libavcodec53, libavdevice53, libavformat53, libavfilter2, libpostproc52, libswscale2, libavutil-dev, libavcodec-dev, libavdevice-dev, libavformat-dev, libavfilter-dev, libpostproc-dev, libswscale-dev, libavutil-extra-51, libavcodec-extra-53, libavdevice-extra-53, libavfilter-extra-2, libpostproc-extra-52, libavformat-extra-53, libswscale-extra-2
-Version: 6:0.8.15-1
+Version: 6:0.8.16-1
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Uploaders: Sam Hocevar (Debian packages) <sam+deb@zoy.org>, Loïc Minier <lool@debian.org>, Reinhard Tartler <siretart@tauware.de>, Fabian Greffrath <fabian+debian@greffrath.com>, Andres Mejia <amejia@debian.org>, Jonas Smedegaard <dr@jones.dk>
 Build-Depends: debhelper (>= 8.1.3~), frei0r-plugins-dev, libasound2-dev [linux-any], libbz2-dev, libcdio-cdda-dev, libcdio-dev, libcdio-paranoia-dev, libcv-dev, libdc1394-22-dev [linux-any], libdirac-dev, libfreetype6-dev, libgnutls-dev, libgsm1-dev, libimlib2-dev, libjack-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libopencv-dev, libopenjpeg-dev, libpulse-dev, libraw1394-dev [linux-any], librtmp-dev (>= 2.2e-4), libschroedinger-dev, libsdl1.2-dev, libspeex-dev, libtheora-dev (>> 0.0.0.alpha4), libtiff4-dev | libtiff-dev, libva-dev [!hurd-any], libvdpau-dev, libvo-aacenc-dev, libvo-amrwbenc-dev, libvorbis-dev, libvpx-dev, libx11-dev, libx264-dev, libxext-dev, libxfixes-dev, libxvidcore-dev, libxvmc-dev, texi2html, yasm [any-amd64 any-i386], zlib1g-dev
@@ -3175,19 +3175,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 7b31abafca41ab156a288502fdead5cc 4114 libav_0.8.15-1.dsc
- 7d7fb8948f98d6c0d5b88ca139cf7c90 5303710 libav_0.8.15.orig.tar.gz
- 20e5f60b73cb2a8efb24d47019f674a4 46943 libav_0.8.15-1.debian.tar.gz
+ c60edcc58239100817715e0794d3684a 4112 libav_0.8.16-1.dsc
+ 88a59df539bd7f78c54053496da79309 5304950 libav_0.8.16.orig.tar.gz
+ b16196425d5c41f79cef27b145aa0f8e 46626 libav_0.8.16-1.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/libav.git;a=summary
 Vcs-Git: git://git.debian.org/git/pkg-multimedia/libav.git
 Checksums-Sha1:
- 886ec35049afdcc268f0484e0e1449d1a86bd30f 4114 libav_0.8.15-1.dsc
- 1096164f7769eef29a9bbf4d437836ae437d6cc0 5303710 libav_0.8.15.orig.tar.gz
- 3285146562f343f3a5f136233a72004927da20fb 46943 libav_0.8.15-1.debian.tar.gz
+ e04970afb99544bf6afba78c2fe018646dc50342 4112 libav_0.8.16-1.dsc
+ 944df91668d57b82c9b7395056931d6f8b48b773 5304950 libav_0.8.16.orig.tar.gz
+ 9e3586dd57bcc91c1cf2dfbb53a86c801aa87622 46626 libav_0.8.16-1.debian.tar.gz
 Checksums-Sha256:
- e4a3957286b17c88ab3abf5eb330958a395ac32fc60db8fc07a41e8f79ce9236 4114 libav_0.8.15-1.dsc
- 4e4e0b77fb295cbe43197aef7f658d35500e2e37c756e3b4aefd87c6574d3d39 5303710 libav_0.8.15.orig.tar.gz
- a6fc5ac3ba5e2100a63376f49e37122ea1de5292cbc813fd5276861bf310623d 46943 libav_0.8.15-1.debian.tar.gz
+ 2fe2a193cda64163db2dbd8bd17ce290e3aa889614041d9ba30ab3e40ec20383 4112 libav_0.8.16-1.dsc
+ 95b630c6274fbfcd0ae7a4a7eea83550dd7687a032bcb8de6f90851f2282665d 5304950 libav_0.8.16.orig.tar.gz
+ 263f431603dbd26269cf9e2287079d4cb2b2314dc10ef5b7737f912514b9717c 46626 libav_0.8.16-1.debian.tar.gz
 Homepage: http://libav.org/
 Build-Depends-Indep: doxygen
 Dm-Upload-Allowed: yes
