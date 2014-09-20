@@ -17817,7 +17817,7 @@ SHA1: 169423e47421bbe651da6ca5d0640df5107bcbbe
 SHA256: 86ce18f8db7d09f99414ff2cd0f0871f0aee1c0ef9491446c202b126944aeec4
 
 Package: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 87
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
@@ -17827,15 +17827,15 @@ Homepage: http://nginx.net
 Description-md5: 19a4ea43e33eae4a46abf8a78966deb5
 Section: web
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx_1.2.1-2.2+wheezy2_all.deb
-Size: 61254
-MD5sum: fa5f86939aace1957b1fc846573cd2b1
-SHA1: 05e521a9ec7854ed706aabcb0c0ea83fdee980d2
-SHA256: 846905a046608aded2d29e05409ec3c0024717e6446cd0bdb544396a9652644d
+Filename: pool/updates/main/n/nginx/nginx_1.2.1-2.2+wheezy3_all.deb
+Size: 61374
+MD5sum: 25ae5234388762babbfbe3632dbdcc57
+SHA1: 34d7ff8f24cc47960688ae84d6d98f92275ad453
+SHA256: 516d33cf93f20ca070a203bafacc6f7ceb04bd3ae221d5a9a59f90e2ab828245
 
 Package: nginx-common
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 203
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
@@ -17847,15 +17847,15 @@ Homepage: http://nginx.net
 Description-md5: 9e23931d84d07adbee5412aefdad8a90
 Section: httpd
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx-common_1.2.1-2.2+wheezy2_all.deb
-Size: 73168
-MD5sum: 1236190d03645e26d1a0160215bd2763
-SHA1: 7ea09699a4290e30f029eb7df9c67268fc0c239e
-SHA256: cd25dcaa5e6492a474aa1fb77180c705a04fba6ea085cb617dbf3466a724acab
+Filename: pool/updates/main/n/nginx/nginx-common_1.2.1-2.2+wheezy3_all.deb
+Size: 72790
+MD5sum: 45164faa28f8937d2864d1ccb5a8787f
+SHA1: ff54c828017f7866cc84cf23eb54e516a07f81a8
+SHA256: 3c87c9377d66c574c45c977a602fa01d26e57b89b7cb1a8751fee4ab8f0e1225
 
 Package: nginx-doc
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 110
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
@@ -17865,176 +17865,176 @@ Homepage: http://nginx.net
 Description-md5: fd841a2b53e39ae89ec191f0e1278a05
 Section: doc
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx-doc_1.2.1-2.2+wheezy2_all.deb
-Size: 74622
-MD5sum: 7421008f82a8e53b68c00980312a615f
-SHA1: 3d04a970032c1376ada32241db94dd3797533145
-SHA256: 2ffdf03b79a2b87e745bd7a66d07c2e3891fa0703021e077c9f39bf6339c9fc2
+Filename: pool/updates/main/n/nginx/nginx-doc_1.2.1-2.2+wheezy3_all.deb
+Size: 74214
+MD5sum: 3c9a98c55c59b0efb55628afded48383
+SHA1: 31bdd7730d33415e980a32019a70ffc9982c9f8d
+SHA256: a7edf3e2d31ef6972259076d3d3c26c458a6c02fd36380823bd3ede7d2c7ff61
 
 Package: nginx-extras
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 1231
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2), perl (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libc6 (>= 2.11), libexpat1 (>= 2.0.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.2.1-2.2+wheezy3), perl (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libc6 (>= 2.11), libexpat1 (>= 2.0.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), liblua5.1-0, libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libperl5.14 (>= 5.14.2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-full, nginx-light, nginx-naxsi
 Description: nginx web/proxy server (extended version)
 Homepage: http://nginx.net
 Description-md5: 5b3494bcc5c46937a8b11b44469c77b3
 Section: httpd
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx-extras_1.2.1-2.2+wheezy2_i386.deb
-Size: 606894
-MD5sum: f7449a09f637555070687aa1adcdbebc
-SHA1: 5ae182d975a5d249340b9cc24512ac92157ce170
-SHA256: b7bbee42030cf59a17a9fa28d9bc3aa07dd7e328a5bd002ac7fa3698c5456f1b
+Filename: pool/updates/main/n/nginx/nginx-extras_1.2.1-2.2+wheezy3_i386.deb
+Size: 607066
+MD5sum: 028dc513ccfc0f75bccd21f54b5073c1
+SHA1: 593b6d48304b7f746dac55e3c04abdd9ebe369ff
+SHA256: 38bca15603b6b83db25b9fbac81142ee4b4b6b84ba7827298c0cb91764181438
 
 Package: nginx-extras-dbg
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
-Installed-Size: 8841
+Version: 1.2.1-2.2+wheezy3
+Installed-Size: 8844
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
-Depends: nginx-extras (= 1.2.1-2.2+wheezy2)
+Depends: nginx-extras (= 1.2.1-2.2+wheezy3)
 Conflicts: nginx-full-dbg, nginx-light-dbg, nginx-naxsi-dbg
 Description: nginx web/proxy server (extended version) - debugging symbols
 Homepage: http://nginx.net
 Description-md5: dfe40e4b526a7896997294d525c6e22f
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-extras-dbg_1.2.1-2.2+wheezy2_i386.deb
-Size: 4450540
-MD5sum: 4e7009234d9b2d284b8986e7ffbe2846
-SHA1: fe254aca7d88d7b0f42ef5951ab4e4013e147958
-SHA256: 2b2901cd6fac19b06bd8750ce6dd337306e76fdf5ae27b5693702b41fb96ad1b
+Filename: pool/updates/main/n/nginx/nginx-extras-dbg_1.2.1-2.2+wheezy3_i386.deb
+Size: 4451358
+MD5sum: b734250ab47312bdb804b600cd702a14
+SHA1: 884f086be034e031bce897d85fb0dbf608c254d1
+SHA256: 975a16d7156d26b4b93dba9329d734436e0fb2268f4857229cc1dda3c3cc6bba
 
 Package: nginx-full
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 850
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2), libc6 (>= 2.10), libexpat1 (>= 2.0.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.2.1-2.2+wheezy3), libc6 (>= 2.10), libexpat1 (>= 2.0.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgeoip1 (>= 1.4.8+dfsg), libpam0g (>= 0.99.7.1), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-light, nginx-naxsi
 Description: nginx web/proxy server (standard version)
 Homepage: http://nginx.net
 Description-md5: b334eec6202adf5e9045cc6066a082d1
 Section: httpd
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx-full_1.2.1-2.2+wheezy2_i386.deb
-Size: 436754
-MD5sum: ff5b358e566eb99d28852bddbccc52fb
-SHA1: 54c8b86ded23eee7f937f3df5df11f1f1941189b
-SHA256: 71c3c1afd263b312b51ee06462f06d95b7021ce04302693b4f1b1f5c4d66c273
+Filename: pool/updates/main/n/nginx/nginx-full_1.2.1-2.2+wheezy3_i386.deb
+Size: 436930
+MD5sum: a6e283d9c1bc71ac8295fe44f5ef6c00
+SHA1: 4cadc3c1b600dc6062268b9523511808283b2b38
+SHA256: 72b590a6b24cc8d44cc99db7660c7c3d3e0b8f06c9b016d32eddcbad363b860e
 
 Package: nginx-full-dbg
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
-Installed-Size: 6038
+Version: 1.2.1-2.2+wheezy3
+Installed-Size: 6040
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
-Depends: nginx-full (= 1.2.1-2.2+wheezy2)
+Depends: nginx-full (= 1.2.1-2.2+wheezy3)
 Conflicts: nginx-extras-dbg, nginx-light-dbg, nginx-naxsi-dbg
 Description: nginx web/proxy server (standard version) - debugging symbols
 Homepage: http://nginx.net
 Description-md5: 4fc48d7c2fc05abcfaf9ba94a20baab2
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-full-dbg_1.2.1-2.2+wheezy2_i386.deb
-Size: 2999022
-MD5sum: 45b90759146f0f2bcfba97a8246e5f10
-SHA1: 378dd031b770b116b9cfe82ae3c5a134c6c45ef2
-SHA256: 455d065464b6a808af63dc33fc722129e79a3c99897eb0fabf5bac2f5b87d876
+Filename: pool/updates/main/n/nginx/nginx-full-dbg_1.2.1-2.2+wheezy3_i386.deb
+Size: 2998222
+MD5sum: daf3a4a0040fd26e31c6d462c7501e05
+SHA1: 894f22e22a4d9d5c66cd27aa77967eb2e684ee7a
+SHA256: fb07e45a007377c01d98365344509d316cd444a14c314b41c3be5ff34b03a232
 
 Package: nginx-light
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
-Installed-Size: 583
+Version: 1.2.1-2.2+wheezy3
+Installed-Size: 584
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.2.1-2.2+wheezy3), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-full, nginx-naxsi
 Description: nginx web/proxy server (basic version)
 Homepage: http://nginx.net
 Description-md5: 58688ce5740ab964dd765536c7dab1be
 Section: httpd
 Priority: optional
-Filename: pool/updates/main/n/nginx/nginx-light_1.2.1-2.2+wheezy2_i386.deb
-Size: 320774
-MD5sum: 162e8ede12b42e9673ef579d28ae2fe6
-SHA1: fab160df949083e646ca22fe90eccee1f9967c40
-SHA256: 72015abce85bb4c67284d60517d1a603c954e774c7429856cc0be6d5399b27e2
+Filename: pool/updates/main/n/nginx/nginx-light_1.2.1-2.2+wheezy3_i386.deb
+Size: 320968
+MD5sum: 101d4a9d34914dc9491c01c682fc9a03
+SHA1: da4948012e44b71e7ceca75169dd414742034fc1
+SHA256: c87a151e961a801e265c827d557bb5690929ecae1d791be0267d9a6e509c5196
 
 Package: nginx-light-dbg
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
-Installed-Size: 4141
+Version: 1.2.1-2.2+wheezy3
+Installed-Size: 4142
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
-Depends: nginx-light (= 1.2.1-2.2+wheezy2)
+Depends: nginx-light (= 1.2.1-2.2+wheezy3)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-naxsi-dbg
 Description: nginx web/proxy server (basic version) - debugging symbols
 Homepage: http://nginx.net
 Description-md5: edb5bef4d4f6057eb92dd3469c513461
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-light-dbg_1.2.1-2.2+wheezy2_i386.deb
-Size: 2085298
-MD5sum: c17bbf54250b8846e874119658b66813
-SHA1: f8e24f03f0dacf4f85ba0c8176d794a0fb636101
-SHA256: 7fd96f2e956fb3d3cd6a20347a09dd7874201544035f5f7d4469bcaea57934f2
+Filename: pool/updates/main/n/nginx/nginx-light-dbg_1.2.1-2.2+wheezy3_i386.deb
+Size: 2086442
+MD5sum: 74baae4a140ee337c2ce037b3c8a81eb
+SHA1: d949b921b06979f04bcbc4c3266dd37191a2b7f8
+SHA256: 212bf4ced97976e17be244b2ea6980eb025aec38fe8e100a5cb3ea35f58800d6
 
 Package: nginx-naxsi
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 660
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
 Provides: httpd, nginx
-Depends: nginx-common (= 1.2.1-2.2+wheezy2), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Depends: nginx-common (= 1.2.1-2.2+wheezy3), libc6 (>= 2.10), libpcre3 (>= 8.10), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
 Conflicts: nginx-extras, nginx-full, nginx-light
 Description: nginx web/proxy server (version with naxsi)
 Homepage: http://nginx.net
 Description-md5: d66ebbd23f51430c6ae3de35dde3b291
 Section: httpd
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-naxsi_1.2.1-2.2+wheezy2_i386.deb
-Size: 358586
-MD5sum: b145912579b89a7b1e715f16a792fd0b
-SHA1: 93e0e91ad4886825315e241fa3ad0808a56e8546
-SHA256: becbe211ce862bee596e38e7980e3794bbd6c2d7e3076d972c60487c24552466
+Filename: pool/updates/main/n/nginx/nginx-naxsi_1.2.1-2.2+wheezy3_i386.deb
+Size: 358772
+MD5sum: 79a03ef8651a15454339419d171ff238
+SHA1: 3e4c47496c23fdfe1a51d92a89ca0c17d73ca47e
+SHA256: 8656083740182a680765dd3cc3dc2ce77cf09560d4681d0e619df55e80d51d52
 
 Package: nginx-naxsi-dbg
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
-Installed-Size: 4409
+Version: 1.2.1-2.2+wheezy3
+Installed-Size: 4411
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: i386
-Depends: nginx-naxsi (= 1.2.1-2.2+wheezy2)
+Depends: nginx-naxsi (= 1.2.1-2.2+wheezy3)
 Conflicts: nginx-extras-dbg, nginx-full-dbg, nginx-light-dbg
 Description: nginx web/proxy server (version with naxsi) - debugging symbols
 Homepage: http://nginx.net
 Description-md5: 41b4fdf0b0c301cbe552d080920cce9e
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-naxsi-dbg_1.2.1-2.2+wheezy2_i386.deb
-Size: 2209724
-MD5sum: 9adff5084696625d9f005e4c301335f8
-SHA1: c807b7c62d0398a70177c52ba7be943e3624203d
-SHA256: 87ab800e819d4b8e2b749f491bc5fa98018b8721d7772fa0cf6f9318caaf6c69
+Filename: pool/updates/main/n/nginx/nginx-naxsi-dbg_1.2.1-2.2+wheezy3_i386.deb
+Size: 2210874
+MD5sum: 8bad51a8e1371d7d1c663ff13c3472b7
+SHA1: 6f8b1ea344c8774a8860c5cf8215df2581c8adfd
+SHA256: 08a8f1fc13ba3dd581ad9378042692ab76153576cf38d84eb10709d3660f1bce
 
 Package: nginx-naxsi-ui
 Source: nginx
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Installed-Size: 1152
 Maintainer: Kartik Mistry <kartik@debian.org>
 Architecture: all
 Provides: httpd, naxsi, nginx
-Depends: daemon, dbconfig-common, nginx-naxsi (>= 1.2.1-2.2+wheezy2), python-mysqldb, python-twisted-web, debconf (>= 0.5) | debconf-2.0
+Depends: daemon, dbconfig-common, nginx-naxsi (>= 1.2.1-2.2+wheezy3), python-mysqldb, python-twisted-web, debconf (>= 0.5) | debconf-2.0
 Conflicts: nginx-extras, nginx-full, nginx-light
 Description: nginx web/proxy server - naxsi configuration front-end
 Homepage: http://nginx.net
@@ -18042,11 +18042,11 @@ Description-md5: 76b310dfbfdb9a001aa49435bb2e29b1
 Recommends: mysql-server
 Section: httpd
 Priority: extra
-Filename: pool/updates/main/n/nginx/nginx-naxsi-ui_1.2.1-2.2+wheezy2_all.deb
-Size: 341370
-MD5sum: ada5a4c1b56bb9b5d2863fd669b82c53
-SHA1: 4e291e30dcbefc3c4a7c5024d289441cc7ae8b3e
-SHA256: 85d8edc835537dfc71e98c36100e34b1d01ef669b1a03c52d888e3d261207eda
+Filename: pool/updates/main/n/nginx/nginx-naxsi-ui_1.2.1-2.2+wheezy3_all.deb
+Size: 343250
+MD5sum: 6cc1a2f067b3eb15e490091f11563d47
+SHA1: 46626e63d9abe525e7c3c50b109e7e12158b6582
+SHA256: d60b77f60f11a35c30ad83a1f486a5b76f32170eb2a5731e2a9eac7e49f26353
 
 Package: libnspr4
 Source: nspr

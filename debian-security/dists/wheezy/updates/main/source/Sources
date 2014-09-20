@@ -7465,7 +7465,7 @@ Section: admin
 
 Package: nginx
 Binary: nginx, nginx-doc, nginx-common, nginx-full, nginx-full-dbg, nginx-light, nginx-light-dbg, nginx-extras, nginx-extras-dbg, nginx-naxsi, nginx-naxsi-dbg, nginx-naxsi-ui
-Version: 1.2.1-2.2+wheezy2
+Version: 1.2.1-2.2+wheezy3
 Maintainer: Kartik Mistry <kartik@debian.org>
 Uploaders: Jose Parrella <bureado@debian.org>, Fabio Tranchitella <kobold@debian.org>, Michael Lustfield <michael@lustfield.net>, Dmitry E. Oboukhov <unera@debian.org>, Cyril Lavier <cyril.lavier@davromaniak.eu>, Christos Trochalakis <yatiohi@ideopolis.gr>
 Build-Depends: autotools-dev, debhelper (>= 7), dpkg-dev (>= 1.15.7), libexpat-dev, libgd2-noxpm-dev, libgeoip-dev, liblua5.1-dev, libmhash-dev, libpam0g-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, zlib1g-dev
@@ -7473,19 +7473,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 3438a85deb93c960be47e38365ec9808 2177 nginx_1.2.1-2.2+wheezy2.dsc
+ 495ec39c9f83878b66cfba9f54d4ab31 2800 nginx_1.2.1-2.2+wheezy3.dsc
  ceacae12d66d1f021bf3737a0269b6f4 718161 nginx_1.2.1.orig.tar.gz
- 974efaa91c88a83d52d29d777334dd6e 1360861 nginx_1.2.1-2.2+wheezy2.debian.tar.gz
+ 66d69da43e5a9490573c494c4f9723de 1357986 nginx_1.2.1-2.2+wheezy3.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/nginx.git;a=summary
 Vcs-Git: git://anonscm.debian.org/collab-maint/nginx.git
 Checksums-Sha1:
- 7be65dab485e702c762937fb5a6f2a5ce0d2125b 2177 nginx_1.2.1-2.2+wheezy2.dsc
+ 5382ab336c2021d61e58a79db6aeb26acfb8cd9d 2800 nginx_1.2.1-2.2+wheezy3.dsc
  4fb69411f6c3ebb5818005955a085e891e77b2d8 718161 nginx_1.2.1.orig.tar.gz
- d89208a9c140790d1eec70eee18bdbfd5868a777 1360861 nginx_1.2.1-2.2+wheezy2.debian.tar.gz
+ 8132d5799990250726a966bf7bb8a65bc367639b 1357986 nginx_1.2.1-2.2+wheezy3.debian.tar.gz
 Checksums-Sha256:
- 6fe6eb88e27481a63f640bda4457150635d2d012aa6eea314c7387096a0e0bac 2177 nginx_1.2.1-2.2+wheezy2.dsc
+ f3781e4a57edc48439dcf356efb5a426b37d0c3fe530bb0349f40e50f96f4cf8 2800 nginx_1.2.1-2.2+wheezy3.dsc
  994ad97cbf6f7045f95ea9d6d401aad1e95766671e402c48af85aba5235a2dd7 718161 nginx_1.2.1.orig.tar.gz
- 8b861f8c94de3b4bc5affb85a5a0c0d29a3ec9dbfdc0e21b552375c1ff86cff0 1360861 nginx_1.2.1-2.2+wheezy2.debian.tar.gz
+ cef63ba0fd6482da75d81221bc2e451aa42411090b7acf8f56b1a6bc579dd3fb 1357986 nginx_1.2.1-2.2+wheezy3.debian.tar.gz
 Homepage: http://nginx.net
 Package-List: 
  nginx deb httpd optional
