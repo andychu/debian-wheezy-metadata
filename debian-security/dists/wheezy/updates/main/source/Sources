@@ -6946,6 +6946,36 @@ Directory: pool/updates/main/l/lzo2
 Priority: source
 Section: libs
 
+Package: mantis
+Binary: mantis
+Version: 1.2.11-1.2+deb7u1
+Maintainer: Silvia Alvarez <sils@powered-by-linux.com>
+Uploaders: Dario Minnucci <midget@debian.org>
+Build-Depends: debhelper (>= 9), po-debconf
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 9837ff08d717b56a94371b17cc9e60a9 1887 mantis_1.2.11-1.2+deb7u1.dsc
+ 52fbb9f05fd3ea8994957b28731edf5d 3439675 mantis_1.2.11.orig.tar.gz
+ 2d9dba5a70685593d46799fe77132555 63698 mantis_1.2.11-1.2+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/mantis.git
+Vcs-Git: git://git.debian.org/collab-maint/mantis.git
+Checksums-Sha1:
+ 7a67d0fb55e2de66dda6ea59f120d352609e343b 1887 mantis_1.2.11-1.2+deb7u1.dsc
+ 57f755342aa0f01015e21388b2ed01a9c72d38af 3439675 mantis_1.2.11.orig.tar.gz
+ e2eae45760a86eae0e74fd82291ac5a56d1a9caf 63698 mantis_1.2.11-1.2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 90bc6925b94b6b39e11b2c64bc6f9ceceb344715537fb63188918c8cc2585531 1887 mantis_1.2.11-1.2+deb7u1.dsc
+ abe5be37ea6e94796986a0bb2933bcb8945487b8e82b5414041c700fbf9de503 3439675 mantis_1.2.11.orig.tar.gz
+ 8652a79dbd23af22f7b2edd5ad7d52527288db2b7b5850f0307c8010ece59b59 63698 mantis_1.2.11-1.2+deb7u1.debian.tar.gz
+Homepage: http://www.mantisbt.org
+Package-List: 
+ mantis deb web optional
+Directory: pool/updates/main/m/mantis
+Priority: source
+Section: web
+
 Package: mediawiki
 Binary: mediawiki
 Version: 1:1.19.18+dfsg-0+deb7u1

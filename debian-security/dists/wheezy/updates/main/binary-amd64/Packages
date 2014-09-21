@@ -15691,6 +15691,25 @@ MD5sum: fcf479c36690150433636774b28018cf
 SHA1: 477195ee440c0f5b7dadbbd50390f66cbba11b01
 SHA256: fc36ed0de4626d40a33219f748f0aaefd9558a51ccf1bc05d384a0e42cc2af66
 
+Package: mantis
+Version: 1.2.11-1.2+deb7u1
+Installed-Size: 9449
+Maintainer: Silvia Alvarez <sils@powered-by-linux.com>
+Architecture: all
+Depends: debconf, apache2 | httpd, apache2-utils, libapache2-mod-php5 | php5-cli, libphp-adodb, libphp-phpmailer, ucf (>= 0.28), libnusoap-php, libjs-prototype, libjs-scriptaculous, debconf (>= 0.5) | debconf-2.0
+Suggests: php5-cli, mysql-server
+Description: web-based bug tracking system
+Homepage: http://www.mantisbt.org
+Description-md5: ae5ff8aea61e9158d762aeafe05bdd78
+Recommends: php5-mysql, mysql-client
+Section: web
+Priority: optional
+Filename: pool/updates/main/m/mantis/mantis_1.2.11-1.2+deb7u1_all.deb
+Size: 2211584
+MD5sum: 2bb8689d4a3336a3f1c2b18f238268cb
+SHA1: 13b0b8706c081c431c8c1f97c733acd5d7ff6565
+SHA256: 245d5bde2790ab827273597b47d5de7ad3868e1aef5fc166de64018d10836643
+
 Package: mediawiki
 Version: 1:1.19.18+dfsg-0+deb7u1
 Installed-Size: 67249
