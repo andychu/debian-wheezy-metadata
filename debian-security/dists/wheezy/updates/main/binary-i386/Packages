@@ -371,27 +371,27 @@ SHA1: c6ff26be20fa8d30af84c73b2574984abe8899d0
 SHA256: 0f5cb91ad330828da5c62b37cbcddcdd7def406b83e421d0f6beaf7dd86ee1d6
 
 Package: apt
-Version: 0.9.7.9+deb7u4
-Installed-Size: 2642
+Version: 0.9.7.9+deb7u5
+Installed-Size: 2638
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
 Replaces: manpages-pl (<< 20060617-3~)
-Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u4), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
+Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u5), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
 Suggests: aptitude | synaptic | wajig, dpkg-dev, apt-doc, xz-utils, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Description: commandline package manager
 Description-md5: 9fb97a88cb7383934ef963352b53b4a7
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u4_i386.deb
-Size: 1256200
-MD5sum: f4d7655a46c271725122aeade54194db
-SHA1: c174614a1d962a8c97e4734165a6ba451a07b40d
-SHA256: ccc5732948d4f67eda56414b3af376ff942a2740887b175dba4584de16430b21
+Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u5_i386.deb
+Size: 1255920
+MD5sum: ea0d2b7936b425135a6df12f65b37496
+SHA1: a974dd639eec9ace8837170fc7f471f4067a069d
+SHA256: b595903de7f50ccc1896f08a50c0b7de9847515a0221e60972efd51ee3c888af
 
 Package: apt-doc
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 569
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
@@ -399,15 +399,15 @@ Description: documentation for APT
 Description-md5: bc2b838ed28e60af95d78926380a3300
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u4_all.deb
-Size: 261614
-MD5sum: dbfdc1eb398545be9691bd91dc67f74e
-SHA1: 73547b3e8ccf5bddd64b036f1c8e54236bded507
-SHA256: b71d73298ef2288bb27a7b0d3c3c45458727108993d0ef8d301548473dfff07c
+Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u5_all.deb
+Size: 261746
+MD5sum: 39d0f20bc16987da79f16dda3c81041d
+SHA1: cc1ea58cb95f1f54df1f3e3ef108e2fb688c2b2a
+SHA256: 1d45222f95ac6e2d89aed7c0ccc113ab6b72bb6e2dd295d048319cfe551e4bb9
 
 Package: apt-transport-https
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 126
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
@@ -416,16 +416,16 @@ Description: https download transport for APT
 Description-md5: 3365a6b50bd0e4eef6e176a80c735f43
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u4_i386.deb
-Size: 108816
-MD5sum: ecb5cacbf76f7825dd2a4e250ac0d0e6
-SHA1: ee7d95a104d7fe01e4af6369b952aadc707cf8c7
-SHA256: 190d772df4ca956dad8991c879d01df5d988c5e1573dcc0a0842d3dc8333f1ae
+Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u5_i386.deb
+Size: 108914
+MD5sum: 7854578fd17649dcbfe832dd1461dc82
+SHA1: 9ad95c016b4d79a7b9dee2e479f2f29448df33c4
+SHA256: 75baf0b69a36fe46e58f38f8603a458b377cbd5e4cc2bc270da2e3fa8c9353ae
 
 Package: apt-utils
 Source: apt
-Version: 0.9.7.9+deb7u4
-Installed-Size: 851
+Version: 0.9.7.9+deb7u5
+Installed-Size: 852
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
 Depends: libapt-inst1.5 (>= 0.8.0), libapt-pkg4.12 (>= 0.8.16~exp9), libc6 (>= 2.4), libdb5.1, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.4.0)
@@ -434,15 +434,15 @@ Description: package managment related utility programs
 Description-md5: 578941ab78e4cbae72c741e56d175708
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u4_i386.deb
-Size: 374994
-MD5sum: ecc1268455b7c6f97fd9262a1eeb4b74
-SHA1: 2f9297a4d490e4e29e8d666c3f1afb1579898abd
-SHA256: a3828090cc62424cdf4c80d3ccb2c3ee9c9b9240f9c5d31e6af4908827b96544
+Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u5_i386.deb
+Size: 375094
+MD5sum: 260ae5a7528a1d0881ab51859e3a9941
+SHA1: 2d8c2082878c58ac7077000194bcbc7348443d98
+SHA256: a4288baf64b40d5eeb3f7da2a8e3c7c4e51e88eb0d0be7fd92ef67348c75d9aa
 
 Package: libapt-inst1.5
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 329
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
@@ -453,33 +453,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u4_i386.deb
-Size: 165946
-MD5sum: 1d4ef9ffd4dc8c6d94c6f49e0d4ec84d
-SHA1: bd594231d1e18ed94af191a1ac8a0fd56f9fcbbf
-SHA256: 0b12fc5879965678a7442fc4915dc44d410c7c06fbb41b5a0d1e33619c842921
+Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u5_i386.deb
+Size: 166048
+MD5sum: 37452b8aa696226f9b772511936f9292
+SHA1: 37efffda923207bded114176b0110695ece9403a
+SHA256: f09e6ae1b6158b1d8e1e7226a59f9c595deb021d652d8a46c449be19ae55a0f1
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 439
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
-Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u4), libapt-inst1.5 (= 0.9.7.9+deb7u4), zlib1g-dev
+Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u5), libapt-inst1.5 (= 0.9.7.9+deb7u5), zlib1g-dev
 Description: development files for APT's libapt-pkg and libapt-inst
 Description-md5: 8e463f77664788b23a47f5ac592f4595
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u4_i386.deb
-Size: 184570
-MD5sum: 7b4c6204d059ef6c038f1e67dc218dd2
-SHA1: 3ee7571ec6bf624779f196b68221b7fe0a39fdb9
-SHA256: 21639066af8a205a9daffb8c7ea26d195c918e95e2b0e9a09e73f90de268be60
+Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u5_i386.deb
+Size: 184664
+MD5sum: 3280185c276a614c43d3759c45b9a4a4
+SHA1: fb8b809242b1638f8652e0e982a38568f9427148
+SHA256: 0d1b89eedadae23e8464e2afc5688895b9a18ea4adb787ff896a1ae4513a9137
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 6461
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
@@ -487,15 +487,15 @@ Description: documentation for APT development
 Description-md5: decce989b471f196cddabf52bee63592
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u4_all.deb
-Size: 963870
-MD5sum: f31636993120345a1b4c4025f59d2587
-SHA1: 58f66e31dc55008e60296cb0ad0eb69340d97892
-SHA256: cf8893675e9c775d463f086b95f9c91604e537955ec8564f3d6c9dfec8190229
+Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u5_all.deb
+Size: 964220
+MD5sum: c28c8bfbb4e84d0db202e1844f6103ef
+SHA1: 633301137d829701e5e84b2bbf9348334788bec2
+SHA256: 55564d52387c3a24fd0f0e322b98e50c4f728eb40fb011f54ab7876cc0e503d9
 
 Package: libapt-pkg4.12
 Source: apt
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Installed-Size: 2342
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: i386
@@ -507,11 +507,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u4_i386.deb
-Size: 902284
-MD5sum: 3b2bfaf5bbbc3e18bf5fce3227741e71
-SHA1: a666d91ae2426608a8d65e0f31b75e7059a6de71
-SHA256: 5d3b9ca1876f3f7e6ebe6cf4ee768f3a75b1a222bc9012af6bd148f6d98ee722
+Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u5_i386.deb
+Size: 902544
+MD5sum: 8eccb46eb2ad9670bd28371fa1adce38
+SHA1: f3b388450a3f30ff3facd5572d3b644170bb43bf
+SHA256: 5c76db959a27f4c2487d10260986c15163ab3351a7acab1c7c25541c97374667
 
 Package: asterisk
 Version: 1:1.8.13.1~dfsg1-3+deb7u3

@@ -131,7 +131,7 @@ Section: net
 
 Package: apt
 Binary: apt, libapt-pkg4.12, libapt-inst1.5, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https
-Version: 0.9.7.9+deb7u4
+Version: 0.9.7.9+deb7u5
 Maintainer: APT Development Team <deity@lists.debian.org>
 Uploaders: Michael Vogt <mvo@debian.org>, Otavio Salvador <otavio@debian.org>, Christian Perrier <bubulle@debian.org>, Daniel Burrows <dburrows@debian.org>, Julian Andres Klode <jak@debian.org>
 Build-Depends: dpkg-dev (>= 1.15.8), debhelper (>= 8.1.3~), libdb-dev, gettext (>= 0.12), libcurl4-gnutls-dev (>= 7.19.4~), zlib1g-dev, libbz2-dev, xsltproc, docbook-xsl, docbook-xml, po4a (>= 0.34-2), autotools-dev, autoconf, automake
@@ -139,15 +139,15 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 38b9e67ef37db2c028705a6cf24ec702 1724 apt_0.9.7.9+deb7u4.dsc
- b78b20d5738d9e1c317c45a243003386 3402321 apt_0.9.7.9+deb7u4.tar.gz
+ 7fc9e059dac553d7293d02f995785423 2364 apt_0.9.7.9+deb7u5.dsc
+ 6d3cdf9a5c57e67a7564eb0d980aa1db 3387096 apt_0.9.7.9+deb7u5.tar.gz
 Vcs-Browser: http://bzr.debian.org/loggerhead/apt/debian-wheezy/
 Checksums-Sha1:
- eaa86818c0ff29f5e310d7b0a83fb14d249b9484 1724 apt_0.9.7.9+deb7u4.dsc
- 40a6f14e3d265985ec194db778be0d43c8479267 3402321 apt_0.9.7.9+deb7u4.tar.gz
+ 62736ce6b979f8979262b788863adddf7818f4c4 2364 apt_0.9.7.9+deb7u5.dsc
+ 07443ad2fdeae339e7b65e1a61c8a97126caaabd 3387096 apt_0.9.7.9+deb7u5.tar.gz
 Checksums-Sha256:
- 42616884b9c3d9b3dd8de6a77f4f9e63a0a377a487b65c92a576cb757c794ec1 1724 apt_0.9.7.9+deb7u4.dsc
- b3ddc48bdd3e5908f2fec8c94326c9cc7d2abb0e3b0d0a28827fd9af6fd5a799 3402321 apt_0.9.7.9+deb7u4.tar.gz
+ ea217d60486d41a25401631c66e705b29733e0c92b13503c0103c6b74095d17b 2364 apt_0.9.7.9+deb7u5.dsc
+ 69b45a86607cb178e5892522d66bcf95307145181dc8b5101aafeb79d8298d71 3387096 apt_0.9.7.9+deb7u5.tar.gz
 Build-Conflicts: autoconf2.13, automake1.4
 Build-Depends-Indep: doxygen, debiandoc-sgml
 Package-List: 
