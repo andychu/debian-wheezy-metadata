@@ -785,8 +785,8 @@ SHA1: 1ef69be78a1a37e0f5e21c48b086fde303f7df87
 SHA256: dc9a25772f374e5c39041f2092a5b112422946772fac8707be0cc260c373cc72
 
 Package: bash
-Version: 4.2+dfsg-0.1+deb7u1
-Installed-Size: 3651
+Version: 4.2+dfsg-0.1+deb7u3
+Installed-Size: 3941
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
@@ -802,34 +802,34 @@ Pre-Depends: dash (>= 0.5.5.1-2.2), libc6 (>= 2.11), libtinfo5
 Recommends: bash-completion (>= 20060301-0)
 Section: shells
 Priority: required
-Filename: pool/updates/main/b/bash/bash_4.2+dfsg-0.1+deb7u1_amd64.deb
-Size: 1498300
-MD5sum: 03036a315adb989615c040cbacb44a8b
-SHA1: b791eca1aae267881dd9466c785ed46e48bc61d0
-SHA256: 5f9b9785fe227e18a603f25a33e3143f6018638e473bf21af64d3888c2f3e2db
+Filename: pool/updates/main/b/bash/bash_4.2+dfsg-0.1+deb7u3_amd64.deb
+Size: 1500594
+MD5sum: 0485742eacebc3b64a09a93e8b8f47fa
+SHA1: 3b8f5bbc81b0885c9703526fafe8e815ca1718fc
+SHA256: f237486ebcdff43cc09bd93960316e02a9a7381145b9c9128e0e766d0522f000
 
 Package: bash-builtins
 Source: bash
-Version: 4.2+dfsg-0.1+deb7u1
-Installed-Size: 457
+Version: 4.2+dfsg-0.1+deb7u3
+Installed-Size: 505
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
-Depends: bash (= 4.2+dfsg-0.1+deb7u1)
+Depends: bash (= 4.2+dfsg-0.1+deb7u3)
 Description: Bash loadable builtins - headers & examples
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Description-md5: af509aa37177542db29bd85c79695512
 Section: utils
 Priority: optional
-Filename: pool/updates/main/b/bash/bash-builtins_4.2+dfsg-0.1+deb7u1_amd64.deb
-Size: 110482
-MD5sum: e851a4978c8c5a089d522eb27990e61f
-SHA1: aac749c1e18c02044ce48b1b6d9c78fba6224c2e
-SHA256: 19c7ceb52575b4a11a674b981c2d1d0e96424f5ce991b13f50027149bd2523da
+Filename: pool/updates/main/b/bash/bash-builtins_4.2+dfsg-0.1+deb7u3_amd64.deb
+Size: 112636
+MD5sum: 48ff090a26c00735b6ce437f5f0c60b7
+SHA1: 8ac15616cb0b3f3d471b32829a2e574d34c48a17
+SHA256: 069a3bf9833f4757bbd03e42a4aae4e227d33debc039238f73d86af826d22a38
 
 Package: bash-doc
 Source: bash
-Version: 4.2+dfsg-0.1+deb7u1
-Installed-Size: 1353
+Version: 4.2+dfsg-0.1+deb7u3
+Installed-Size: 1396
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: all
 Replaces: bash (<< 3.2-1)
@@ -839,16 +839,16 @@ Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Description-md5: 87bcd31a74f29447890330d831edb1f7
 Section: doc
 Priority: optional
-Filename: pool/updates/main/b/bash/bash-doc_4.2+dfsg-0.1+deb7u1_all.deb
-Size: 695626
-MD5sum: 9558492f6b3d3d0749a66b32c4b074a3
-SHA1: ade72818dd72be8c7f9c020136cfba656b1ab95c
-SHA256: a6b6efeca72da9136cbbb950a1584b4f26ed403a72c6158c8e0a24f45a9bcec3
+Filename: pool/updates/main/b/bash/bash-doc_4.2+dfsg-0.1+deb7u3_all.deb
+Size: 695834
+MD5sum: 92c257b4950e2bd938a33f6331ee4329
+SHA1: f56bbb313ab53ecdc04f905bd3dd68b83af69685
+SHA256: 4a198411771a5ce4d061a4f7c3d1e6a330d2354a1cd8b3f86438995775b65f8c
 
 Package: bash-static
 Source: bash
-Version: 4.2+dfsg-0.1+deb7u1
-Installed-Size: 1870
+Version: 4.2+dfsg-0.1+deb7u3
+Installed-Size: 1914
 Maintainer: Matthias Klose <doko@debian.org>
 Architecture: amd64
 Depends: passwd (>= 1:4.0.3-10)
@@ -859,11 +859,11 @@ Description-md5: ae0b688f32951bcf52b5c025ab588a4c
 Multi-Arch: foreign
 Section: shells
 Priority: optional
-Filename: pool/updates/main/b/bash/bash-static_4.2+dfsg-0.1+deb7u1_amd64.deb
-Size: 939372
-MD5sum: 1f0e23a3e9b077fe763f136f6e630b3f
-SHA1: 17d0b899509fd377805ecd165d78f52983ece5c1
-SHA256: d42cff985dfc4102dd134321a1d2272843bcfb02171cc0fbbd155bdfb9b0b494
+Filename: pool/updates/main/b/bash/bash-static_4.2+dfsg-0.1+deb7u3_amd64.deb
+Size: 939538
+MD5sum: 1665d05c380a90ac0704fdd758b56b53
+SHA1: cb24f0f0a0d18e0be16e24c75b07155ddbb7ec58
+SHA256: df2a3c82cc720f666cc212815c699630cd9fc069f2b79bb24bebec7c57224083
 
 Package: bind9
 Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
@@ -15792,8 +15792,8 @@ SHA1: 13b0b8706c081c431c8c1f97c733acd5d7ff6565
 SHA256: 245d5bde2790ab827273597b47d5de7ad3868e1aef5fc166de64018d10836643
 
 Package: mediawiki
-Version: 1:1.19.18+dfsg-0+deb7u1
-Installed-Size: 67249
+Version: 1:1.19.19+dfsg-0+deb7u1
+Installed-Size: 67254
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Architecture: all
 Replaces: mediawiki-extensions-confirmedit
@@ -15807,11 +15807,11 @@ Description-md5: ddcc60dd7124e88ede95f0010ec0906b
 Recommends: mysql-server | postgresql-contrib, php5-cli, python, php-wikidiff2, mediawiki-extensions-base
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.18+dfsg-0+deb7u1_all.deb
-Size: 17863216
-MD5sum: ecb6b02ebe8f45f408a75c38dbab2ba1
-SHA1: 03c59f9561b7bdc4dfc6b4223be8a878d2659345
-SHA256: ed97eb0f1c4942889d88a01a337ede9c3f2125ca59d2dfe6179d9d7a4d6d11c2
+Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.19+dfsg-0+deb7u1_all.deb
+Size: 17873282
+MD5sum: 0092ec8d3ef6e98e23697567b05c583c
+SHA1: 03b18574cc77d9df41371a923d2e4de7d6dcc22b
+SHA256: d1ba76fa1c48c57cf04cc760df06da92b744f8bb9faee2b2aae5bfa6a092a00e
 
 Package: mediawiki-extensions
 Version: 3.5~deb7u2

@@ -209,25 +209,25 @@ Section: comm
 
 Package: bash
 Binary: bash, bash-static, bash-builtins, bash-doc
-Version: 4.2+dfsg-0.1+deb7u1
+Version: 4.2+dfsg-0.1+deb7u3
 Maintainer: Matthias Klose <doko@debian.org>
 Build-Depends: autoconf, autotools-dev, quilt, bison, libncurses5-dev, texinfo, debhelper (>= 5), texi2html, locales, gettext, sharutils, time, xz-utils, dpkg-dev (>= 1.16.1)
 Architecture: any all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- aa3d1a32b2e45083a4156e1a88360af4 1838 bash_4.2+dfsg-0.1+deb7u1.dsc
+ e704f91102b0ef990723bf92520131d6 2169 bash_4.2+dfsg-0.1+deb7u3.dsc
  e7a8e913a13cd11e859c26bb6a83ccc7 2749569 bash_4.2+dfsg.orig.tar.gz
- c663d1ad26d095bce2ff7b7a0c0344b2 89972 bash_4.2+dfsg-0.1+deb7u1.diff.gz
+ 9551393e3335126aab576af0ceef4eb8 92118 bash_4.2+dfsg-0.1+deb7u3.diff.gz
 Vcs-Browser: https://code.launchpad.net/~doko/+junk/pkg-bash-debian
 Checksums-Sha1:
- 37997abe1de7a5dfdc1179bf77eb71e3c48267c2 1838 bash_4.2+dfsg-0.1+deb7u1.dsc
+ 844a62b35b0c1b1b50ebad5c616df81e0015718a 2169 bash_4.2+dfsg-0.1+deb7u3.dsc
  ef3fb45c962f6fc29784745f354bbd1ba8c2dc26 2749569 bash_4.2+dfsg.orig.tar.gz
- 82b93f0975e0cf7ac703db2ac17ae55b51dbc5de 89972 bash_4.2+dfsg-0.1+deb7u1.diff.gz
+ 18a4ead2956ebdbd00428377ef4261c99be38ea3 92118 bash_4.2+dfsg-0.1+deb7u3.diff.gz
 Checksums-Sha256:
- 0b896782b847a541d59f58b5d641a2e8696ad613eb90da96bd8bf6e208214e49 1838 bash_4.2+dfsg-0.1+deb7u1.dsc
+ c1b9ab8a687eefc7ed59a0011901ff829ec09400866671ba6be87d82b93a892e 2169 bash_4.2+dfsg-0.1+deb7u3.dsc
  a8cdf3d4e526d626ae42c11fde79f9f8ba323ec3b3745510410fc5f50463ccff 2749569 bash_4.2+dfsg.orig.tar.gz
- 8f89111e9d604014ee6b59e6504fa396fa00fbf11813629a3e127511048642e5 89972 bash_4.2+dfsg-0.1+deb7u1.diff.gz
+ 8761f0532fcdc1b09ecb659107943454bc827e33412c64ca51582f75a1c4438f 92118 bash_4.2+dfsg-0.1+deb7u3.diff.gz
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Build-Depends-Indep: texlive-latex-base, ghostscript
 Package-List: 
@@ -7407,26 +7407,26 @@ Section: web
 
 Package: mediawiki
 Binary: mediawiki
-Version: 1:1.19.18+dfsg-0+deb7u1
+Version: 1:1.19.19+dfsg-0+deb7u1
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
-Uploaders: Romain Beauxis <toots@rastageeks.org>, Jonathan Wiltshire <jmw@debian.org>, Thorsten Glaser <tg@mirbsd.de>
+Uploaders: Jonathan Wiltshire <jmw@debian.org>, Thorsten Glaser <tg@mirbsd.de>
 Build-Depends: debhelper (>= 9), dh-buildinfo, ocaml-nox | ocaml, xsltproc, docbook-xml, docbook-xsl, po-debconf
 Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 93c62e445fffe6efc76ffaa7978b6733 2174 mediawiki_1.19.18+dfsg-0+deb7u1.dsc
- 3601fc9c9f802d3071164c590ce31312 18200184 mediawiki_1.19.18+dfsg.orig.tar.gz
- d3d7b6c88aec04d10f381472770e04ef 65507 mediawiki_1.19.18+dfsg-0+deb7u1.debian.tar.gz
+ 1bc8dc2d971a2bd5de7e8d664ae18454 2149 mediawiki_1.19.19+dfsg-0+deb7u1.dsc
+ f3aec02b0853a5ae1efe55846c2e9354 11634356 mediawiki_1.19.19+dfsg.orig.tar.xz
+ 384a30853493f03f01d301327c891dcf 65510 mediawiki_1.19.19+dfsg-0+deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-mediawiki/mediawiki/branches/wheezy/
 Checksums-Sha1:
- 4e694b8a86603a53cf397335727506535c7413a2 2174 mediawiki_1.19.18+dfsg-0+deb7u1.dsc
- 1c594a9ce796288cf27a8eba1d40fc871c0d554c 18200184 mediawiki_1.19.18+dfsg.orig.tar.gz
- c0def12bff95bbe9596b04059d2f740b0aeb625b 65507 mediawiki_1.19.18+dfsg-0+deb7u1.debian.tar.gz
+ ca66c81f470ba5654100274299e0a4063148b268 2149 mediawiki_1.19.19+dfsg-0+deb7u1.dsc
+ c47d002928d15df630a35a863c03666bdc6d716c 11634356 mediawiki_1.19.19+dfsg.orig.tar.xz
+ b9eedfd0330c75a6d0f2245d1a58f8acb595e43e 65510 mediawiki_1.19.19+dfsg-0+deb7u1.debian.tar.gz
 Checksums-Sha256:
- d6ca508c3571a85e698e05e901452cfcd9bc617d4f901e229c818a413f01017f 2174 mediawiki_1.19.18+dfsg-0+deb7u1.dsc
- 080709401f2ddea6127cd77d5e28b9e5c13b0db32a7848791f097b5d6c56c7a8 18200184 mediawiki_1.19.18+dfsg.orig.tar.gz
- 465f0f6e9e376b1d63979f1d21426a761bae00b32999efae867b66cfa69ad536 65507 mediawiki_1.19.18+dfsg-0+deb7u1.debian.tar.gz
+ 009caa61605c55f6bb1fe4aeb6e6e5814485ddce18d836f8b5686919da5ab078 2149 mediawiki_1.19.19+dfsg-0+deb7u1.dsc
+ 359338697e598abd5b87b155b17074ed420c66ad694c90def551485e1ccbdbd1 11634356 mediawiki_1.19.19+dfsg.orig.tar.xz
+ fffe4c4a53f85554e88c6a6d621b39913fb93b05ebbcd5e1f553567b30612eb0 65510 mediawiki_1.19.19+dfsg-0+deb7u1.debian.tar.gz
 Homepage: http://www.mediawiki.org/
 Package-List: 
  mediawiki deb web optional
