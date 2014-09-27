@@ -1352,7 +1352,7 @@ Section: mail
 
 Package: icedove
 Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
-Version: 24.5.0-1~deb7u1
+Version: 24.8.1-1~deb7u1
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Uploaders: Guido Günther <agx@sigxcpu.org>
 Build-Depends: bzip2, debhelper (>= 5), autoconf2.13, autotools-dev, libgtk2.0-dev (>= 2.12), libglib2.0-dev (>= 2.16.0), zip, unzip, zlib1g-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libbz2-dev, libxft-dev, libfontconfig1-dev, libidl-dev (>= 0.8.0), libxt-dev, libxau-dev, libcairo2-dev (>= 1.10.2-1.1~), libgnomeui-dev (>= 2.16), libhunspell-dev (>= 1.2), libstartup-notification0-dev, libdbus-glib-1-dev (>= 0.60), libsqlite3-dev (>= 3.7.7.1), libasound2-dev [linux-any], libiw-dev [linux-any], python, python-ply, python-virtualenv, cdbs (>= 0.4.27), libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, libreadline-dev, yasm, libjs-jquery, libjs-jquery-ui
@@ -1360,53 +1360,19 @@ Architecture: any all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- 350ffc7b9153d2da7f5f833d7351c1ef 2818 icedove_24.5.0-1~deb7u1.dsc
- f5fdb857b1da3e7419acbd5922b4966d 114790688 icedove_24.5.0.orig.tar.xz
- 74e3bdb5552f13092ecfc51fddf66122 499259 icedove_24.5.0-1~deb7u1.debian.tar.gz
+ 178f59f1aa88484a846213a60f896f4e 2475 icedove_24.8.1-1~deb7u1.dsc
+ 972b48865b4be268c5922befdb4b35be 139539011 icedove_24.8.1.orig.tar.bz2
+ 59cca33436cc6f3ae8e139c11f4bfc5f 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
 Checksums-Sha1:
- da258606394d2d2ebe10e43801c86cc5716a3591 2818 icedove_24.5.0-1~deb7u1.dsc
- a1ad359824d7ad6058c1cb21987781ab8e50766a 114790688 icedove_24.5.0.orig.tar.xz
- 91669d78c745b8e57d36bacee351a8052cfc2086 499259 icedove_24.5.0-1~deb7u1.debian.tar.gz
+ 950be614d1cfff5d4ba68dcb2257f21ef473e5b6 2475 icedove_24.8.1-1~deb7u1.dsc
+ 9299201591571abd9ec475c8102c04a51055a59a 139539011 icedove_24.8.1.orig.tar.bz2
+ 5fa45367616e17bc73e38701eb86b4e83159bcc5 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
 Checksums-Sha256:
- 433a889eff78ec700490f74f6637e989ee22dfe4e034018120692598e81b8dee 2818 icedove_24.5.0-1~deb7u1.dsc
- 0b67d376b193d9f8bc866f07f3ba74f3c0722ee074674177dd425a5d555d78af 114790688 icedove_24.5.0.orig.tar.xz
- 1a9fdef226b80e2ba2fd366e64189da0551a75dab02fb614d2704f45186ffccd 499259 icedove_24.5.0-1~deb7u1.debian.tar.gz
-Homepage: http://www.mozilla.org/thunderbird/
-Package-List: 
- calendar-google-provider deb mail optional
- icedove deb mail optional
- icedove-dbg deb debug extra
- icedove-dev deb mail optional
- iceowl-extension deb mail optional
-Directory: pool/updates/main/i/icedove
-Priority: source
-Section: mail
-
-Package: icedove
-Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
-Version: 24.8.0-1~deb7u1
-Maintainer: Christoph Goehre <chris@sigxcpu.org>
-Uploaders: Guido Günther <agx@sigxcpu.org>
-Build-Depends: bzip2, debhelper (>= 5), autoconf2.13, autotools-dev, libgtk2.0-dev (>= 2.12), libglib2.0-dev (>= 2.16.0), zip, unzip, zlib1g-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libbz2-dev, libxft-dev, libfontconfig1-dev, libidl-dev (>= 0.8.0), libxt-dev, libxau-dev, libcairo2-dev (>= 1.10.2-1.1~), libgnomeui-dev (>= 2.16), libhunspell-dev (>= 1.2), libstartup-notification0-dev, libdbus-glib-1-dev (>= 0.60), libsqlite3-dev (>= 3.7.7.1), libasound2-dev [linux-any], libiw-dev [linux-any], python, python-ply, python-virtualenv, cdbs (>= 0.4.27), libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, libreadline-dev, yasm, libjs-jquery, libjs-jquery-ui
-Architecture: any all
-Standards-Version: 3.9.4
-Format: 3.0 (quilt)
-Files:
- 4b7b63a144cd19d652beab08ec33e60d 2818 icedove_24.8.0-1~deb7u1.dsc
- dd7ebaa538254bf2ff14c1700020c280 115166908 icedove_24.8.0.orig.tar.xz
- db97345d2788fff1512f2ebbfa11488e 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
-Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
-Checksums-Sha1:
- d8ef7e46a78a5302ec2474e9d6b02d36fb7990d9 2818 icedove_24.8.0-1~deb7u1.dsc
- 7bd6934563469d460120fef10cc3e151c0f3a309 115166908 icedove_24.8.0.orig.tar.xz
- 6d8f465e171b7b9905bd061962f53bfbf71e4777 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
-Checksums-Sha256:
- afcadb4db8c9ed342189bcfa4180186b0902400cc9794bf17fcefbfe7699d40e 2818 icedove_24.8.0-1~deb7u1.dsc
- 4b5e68e4d3b6bdb13eb2551ed2eeedd1e8c22ec909b1129cd763e30d24d629f1 115166908 icedove_24.8.0.orig.tar.xz
- 5985ac93da0f244261e6e0c73fd26d65c69067fb270016a966e60635b74d68b7 500435 icedove_24.8.0-1~deb7u1.debian.tar.gz
+ acd93efff54336de23a6bc56bea3436bd8c8befb6f8617f7a00914c0c7294692 2475 icedove_24.8.1-1~deb7u1.dsc
+ e70cb77fe93c63496a427fb0baff4cfd9906fa204afb7d054a6ae902934371e4 139539011 icedove_24.8.1.orig.tar.bz2
+ 4ec23e4b6b8cab5e6ab83b7857d24bd93f165fd7de8ae6d1a7fa6b06eefbd1a1 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
 Homepage: http://www.mozilla.org/thunderbird/
 Package-List: 
  calendar-google-provider deb mail optional
