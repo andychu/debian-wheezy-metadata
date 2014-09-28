@@ -4079,6 +4079,43 @@ Directory: pool/updates/main/libv/libvirt
 Priority: source
 Section: devel
 
+Package: libvirt
+Binary: libvirt-bin, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, python-libvirt
+Version: 0.9.12.3-1+deb7u1
+Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>
+Build-Depends: cdbs (>= 0.4.90~), debhelper (>= 7), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt11-dev, libgnutls-dev, python-all-dev (>= 2.6.6-3~), libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libhal-dev [!linux-any], libpciaccess-dev, module-init-tools [linux-any], policykit-1, libcap-ng-dev [linux-any], libnl-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev [linux-any], dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 7e993254a104a604d2dbbacde4f69151 2941 libvirt_0.9.12.3-1+deb7u1.dsc
+ 0f596bceec120df4cd5aecb8f0128d5d 19576862 libvirt_0.9.12.3.orig.tar.gz
+ 52ac0bccb5d52345e6465634b6768522 39209 libvirt_0.9.12.3-1+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-libvirt/libvirt.git
+Vcs-Git: git://git.debian.org/git/pkg-libvirt/libvirt.git
+Checksums-Sha1:
+ d1619868930a7aac25679d47716116b5388b1076 2941 libvirt_0.9.12.3-1+deb7u1.dsc
+ 73e72812a3d3c1a096b515dc01803bdbff7c595a 19576862 libvirt_0.9.12.3.orig.tar.gz
+ a6fc086920ca9f57a7bc4150463e9a9f59f340af 39209 libvirt_0.9.12.3-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 6ddc9bbd07f55b1d2761814790f1c1a137045dd33cd024b06ba4b4cec56bf453 2941 libvirt_0.9.12.3-1+deb7u1.dsc
+ 404afb7fdd23d8f36645cffc77fecfed40d60617f8bcae707ac3b9f7925fc0fb 19576862 libvirt_0.9.12.3.orig.tar.gz
+ a1eec1dc828e6b64c8296df8685958a99059e583f928b44a95b9115224764011 39209 libvirt_0.9.12.3-1+deb7u1.debian.tar.gz
+Homepage: http://libvirt.org
+Build-Conflicts: dpkg-dev (= 1.15.3)
+Dm-Upload-Allowed: yes
+Package-List: 
+ libvirt-bin deb admin optional
+ libvirt-dev deb libdevel optional
+ libvirt-doc deb doc optional
+ libvirt0 deb libs optional
+ libvirt0-dbg deb debug extra
+ python-libvirt deb python optional
+Directory: pool/updates/main/libv/libvirt
+Priority: source
+Section: devel
+
 Package: libx11
 Binary: libx11-6, libx11-6-udeb, libx11-data, libx11-6-dbg, libx11-dev, libx11-xcb1, libx11-xcb1-dbg, libx11-xcb-dev, libx11-doc
 Version: 2:1.5.0-1+deb7u1

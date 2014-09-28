@@ -12237,11 +12237,11 @@ SHA256: dc3d590d546841412a29c5e4c4cd24d3d1a8cd7154ff2e399e32408ff6a40974
 
 Package: libvirt-bin
 Source: libvirt
-Version: 0.9.12.3-1
-Installed-Size: 5116
+Version: 0.9.12.3-1+deb7u1
+Installed-Size: 4933
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.11), libcap-ng0, libdbus-1-3 (>= 1.1.1), libdevmapper1.02.1 (>= 2:1.02.20), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libnetcf1, libnl1 (>= 1.1), libnuma1 (>= 2.0.8~rc4), libparted0debian1 (>= 2.2-1), libpcap0.8 (>= 0.9.8), libpciaccess0, libreadline6 (>= 6.0), libsasl2-2 (>= 2.1.24), libudev0 (>= 0.140), libvirt0 (= 0.9.12.3-1), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), adduser, logrotate, gettext-base
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.11), libcap-ng0, libdbus-1-3 (>= 1.1.1), libdevmapper1.02.1 (>= 2:1.02.20), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libnetcf1, libnl1 (>= 1.1), libnuma1 (>= 2.0.8~rc4), libparted0debian1 (>= 2.2-1), libpcap0.8 (>= 0.9.8), libpciaccess0, libreadline6 (>= 6.0), libsasl2-2 (>= 2.1.24), libudev0 (>= 0.140), libvirt0 (= 0.9.12.3-1+deb7u1), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), adduser, logrotate, gettext-base
 Suggests: policykit-1, radvd
 Description: programs for the libvirt library
 Homepage: http://libvirt.org
@@ -12250,34 +12250,34 @@ Enhances: qemu, qemu-kvm, xen
 Recommends: netcat-openbsd, bridge-utils, dnsmasq-base (>= 2.46-1), iptables (>= 1.4.10), qemu-kvm | qemu (>= 0.9.1), libxml2-utils, gawk, ebtables, dmidecode, iproute, parted
 Section: admin
 Priority: optional
-Filename: pool/updates/main/libv/libvirt/libvirt-bin_0.9.12.3-1_i386.deb
-Size: 2500248
-MD5sum: bcf0058d65185c0fb39431f09ada8d8a
-SHA1: 371e0c3b63aae1fd15ec7171f57a95312e74c160
-SHA256: bfa06a08cb3a01e06186833985707b6c3d651eae29a394cba3e6b6a47b185233
+Filename: pool/updates/main/libv/libvirt/libvirt-bin_0.9.12.3-1+deb7u1_i386.deb
+Size: 2500076
+MD5sum: b34bd886af349c5cf8a45d97495d5022
+SHA1: e092cf870355a9b5801eade304fbbf2d64b16333
+SHA256: 3d3def9f119f085fe2c35e08bda9c6b50dcf3521a00068732741b5249744ebf8
 
 Package: libvirt-dev
 Source: libvirt
-Version: 0.9.12.3-1
-Installed-Size: 5352
+Version: 0.9.12.3-1+deb7u1
+Installed-Size: 5315
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libvirt0 (= 0.9.12.3-1), libxen-dev
+Depends: libvirt0 (= 0.9.12.3-1+deb7u1), libxen-dev
 Description: development files for the libvirt library
 Homepage: http://libvirt.org
 Description-md5: 7e0bab852c890b732dbbdd941dc00165
 Recommends: pkg-config
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/libv/libvirt/libvirt-dev_0.9.12.3-1_i386.deb
-Size: 2514934
-MD5sum: 8525d062646d5782855c289086070250
-SHA1: 42807187658e88a3cd9434cd76908417efe9e670
-SHA256: 3f9abeae8209af2a6df60a3050eabf24bc29257c8f9a9e19f9f916bdd61c6c82
+Filename: pool/updates/main/libv/libvirt/libvirt-dev_0.9.12.3-1+deb7u1_i386.deb
+Size: 2516824
+MD5sum: ee050afb6f8d99055081780b947a2478
+SHA1: 04dd7fe01400e33864102f405612181264d3b7a0
+SHA256: fb68f1f9069a42d622b240a961044be590d77b27428fdbaf7ccfabad2e80a701
 
 Package: libvirt-doc
 Source: libvirt
-Version: 0.9.12.3-1
+Version: 0.9.12.3-1+deb7u1
 Installed-Size: 5073
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -12287,16 +12287,16 @@ Homepage: http://libvirt.org
 Description-md5: 6a786cd039fea1d6785874bfff0aac5f
 Section: doc
 Priority: optional
-Filename: pool/updates/main/libv/libvirt/libvirt-doc_0.9.12.3-1_all.deb
-Size: 2190468
-MD5sum: f1169e17159ae16860318710276a6b75
-SHA1: 53de06026213246da78804bf8e581f2cb314cd4c
-SHA256: 82f1888ff877ce6c6843e1985ca3d854185186c926494adbd9fd8394d6c30ccf
+Filename: pool/updates/main/libv/libvirt/libvirt-doc_0.9.12.3-1+deb7u1_all.deb
+Size: 2187404
+MD5sum: d2e63c57664fdcdc8655ebdc9b1d5401
+SHA1: 472bc66d3748fefde3ebdf32017661f521477975
+SHA256: b045c0899163cf3f10ad0cae81b22f92fb97ea3a878e2213490cbbd140f71bab
 
 Package: libvirt0
 Source: libvirt
-Version: 0.9.12.3-1
-Installed-Size: 3883
+Version: 0.9.12.3-1+deb7u1
+Installed-Size: 3860
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.9), libcap-ng0, libdbus-1-3 (>= 1.1.1), libdevmapper1.02.1 (>= 2:1.02.20), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libnetcf1, libnl1 (>= 1.1), libnuma1 (>= 2.0.8~rc4), libpcap0.8 (>= 0.9.8), libsasl2-2 (>= 2.1.24), libxenstore3.0 (>= 3.2.0), libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4)
@@ -12306,49 +12306,49 @@ Description-md5: 048e37ae97123b1566015795d54596dc
 Recommends: lvm2
 Section: libs
 Priority: optional
-Filename: pool/updates/main/libv/libvirt/libvirt0_0.9.12.3-1_i386.deb
-Size: 2135130
-MD5sum: df5b3860600ca2d4972d86d8b3d9bdab
-SHA1: 7a4fc2bd552e88672394cb00326b4dbf6f2ad643
-SHA256: 62b4b81befa01db6fb042173f13087fafc75850c0d50acf1f2bb3ccd8fd1cc8b
+Filename: pool/updates/main/libv/libvirt/libvirt0_0.9.12.3-1+deb7u1_i386.deb
+Size: 2133962
+MD5sum: f0e25123ead31a50a4de0e61646ed09a
+SHA1: 6c7d174ce58658374624df6bce3550acccc0d67d
+SHA256: 394201d6a6a50bacf266051d5c0ad048b1ab5d6e83bf17261bd927c4b608bb15
 
 Package: libvirt0-dbg
 Source: libvirt
-Version: 0.9.12.3-1
-Installed-Size: 16995
+Version: 0.9.12.3-1+deb7u1
+Installed-Size: 16947
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libvirt0 (= 0.9.12.3-1)
+Depends: libvirt0 (= 0.9.12.3-1+deb7u1)
 Description: library for interfacing with different virtualization systems
 Homepage: http://libvirt.org
 Description-md5: 5f02416fd3220b9d10c0d33b4cab8a63
 Section: libs
 Priority: extra
-Filename: pool/updates/main/libv/libvirt/libvirt0-dbg_0.9.12.3-1_i386.deb
-Size: 7851842
-MD5sum: 20e4fb90d342a6fd9a9b1337bae33fde
-SHA1: b21540107d1b2ee816f2c3695f5798ffa0ba61b2
-SHA256: dde1ec326bc050a3ea3a74f5ea5fda2530e43aecd0bf504d071892685c1fb8bb
+Filename: pool/updates/main/libv/libvirt/libvirt0-dbg_0.9.12.3-1+deb7u1_i386.deb
+Size: 7851488
+MD5sum: 8fa7f6e1e8f337c0300e24cc225f0013
+SHA1: db968bad22786e55cf6c681715da09f0ebd3f020
+SHA256: df775df757680d9651d070365435621c2fc1f2da2e54fe4d7bc7b4e820727732
 
 Package: python-libvirt
 Source: libvirt
-Version: 0.9.12.3-1
-Installed-Size: 2143
+Version: 0.9.12.3-1+deb7u1
+Installed-Size: 2089
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Provides: python2.6-libvirt, python2.7-libvirt
-Depends: libc6 (>= 2.9), libvirt0 (= 0.9.12.3-1), python (>= 2.6.6-7~), python (<< 2.8)
+Depends: libc6 (>= 2.9), libvirt0 (= 0.9.12.3-1+deb7u1), python (>= 2.6.6-7~), python (<< 2.8)
 Description: libvirt Python bindings
 Homepage: http://libvirt.org
 Description-md5: 1ea09e4ec81e360f28623d96cfd449ff
 Recommends: libvirt-bin
 Section: python
 Priority: optional
-Filename: pool/updates/main/libv/libvirt/python-libvirt_0.9.12.3-1_i386.deb
-Size: 1432330
-MD5sum: 25131a9f7e3f6b681c4d4f647e389465
-SHA1: 162fe6e4944e33baa72f088f3db306cfacc1f10b
-SHA256: 99f6d25202997a77dad95312f8e54919c2250147036d14943dd146e49f819105
+Filename: pool/updates/main/libv/libvirt/python-libvirt_0.9.12.3-1+deb7u1_i386.deb
+Size: 1430116
+MD5sum: 776e684a3ed4242d28f105349e9df875
+SHA1: a57525da691b4d736f0cef8068f283627d9fed33
+SHA256: 886a8f68ec78e45930f4a92bcce504321d0b3c1ad77759e466325970fe0f2406
 
 Package: libx11-6
 Source: libx11
