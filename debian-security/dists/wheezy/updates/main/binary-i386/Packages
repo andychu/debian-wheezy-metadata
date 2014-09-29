@@ -1165,13 +1165,13 @@ SHA256: 5b24da60ca3efa52cf3b122b379c1a9ddc72662b3e3db52d83f5fd16c7ab9af5
 
 Package: chromium
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 129639
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 140681
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: chromium-browser (<< 10.0.648.82~r75062-1~), chromium-codecs-ffmpeg, chromium-codecs-ffmpeg-extra, chromium-testsuite
 Provides: chromium-testsuite, gnome-www-browser, www-browser
-Depends: gconf-service, libasound2 (>= 1.0.16), libc6 (>= 2.11), libcairo2 (>= 1.6.0), libcap2 (>= 2.10), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 2.31.1), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.14.3), libpango1.0-0 (>= 1.22.0), libspeechd2, libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.6), libudev0 (>= 146), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, libxtst6, xdg-utils, chromium-inspector
+Depends: gconf-service, libasound2 (>= 1.0.16), libc6 (>= 2.11), libcairo2 (>= 1.6.0), libcap2 (>= 2.10), libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.2.14), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 2.31.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgnome-keyring0 (>= 3.2.2-2~), libgtk2.0-0 (>= 2.24.0), libjpeg8 (>= 8c), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.14.3), libpango1.0-0 (>= 1.22.0), libspeechd2, libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 4.6), libudev0 (>= 146), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.2.99.4), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.2), libxrender1, libxslt1.1 (>= 1.1.25), libxss1, libxtst6, xdg-utils, chromium-inspector
 Suggests: chromium-l10n
 Conflicts: chromium-browser (<< 10.0.648.82~r75062-1~), chromium-codecs-ffmpeg, chromium-codecs-ffmpeg-extra, chromium-testsuite
 Description: Google's open source chromium web browser
@@ -1179,15 +1179,15 @@ Homepage: http://www.chromium.org/Home
 Description-md5: 3f87c5bcfd7b39991068637ef7724890
 Section: games
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium_35.0.1916.153-1~deb7u1_i386.deb
-Size: 50787636
-MD5sum: 92370ef5f0cc31a019b5b542a2c62a37
-SHA1: 111d45ac1ff911ed6fdc9ceac829a3bf753515b4
-SHA256: e98eee720056797aee48b08d8e94e7bde273c6ba737798aeeb42a261ebc8bd0d
+Filename: pool/updates/main/c/chromium-browser/chromium_37.0.2062.120-1~deb7u1_i386.deb
+Size: 55699138
+MD5sum: 7ca0dcea183b4ca402a1b6d4bbe3525a
+SHA1: c1145d491648f7b64e939f93e5755949cf237b0c
+SHA256: 4056a38131db2e25f5e61b75642610dad7e686092041016c4602c15aa3829f4e
 
 Package: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 1686
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 1693
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Replaces: chromium (<< 13.0.782.215~r97094-1)
@@ -1198,16 +1198,16 @@ Homepage: http://www.chromium.org/Home
 Description-md5: a3cca84948c287f5c01b8b5e9f7e67ed
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-browser_35.0.1916.153-1~deb7u1_all.deb
-Size: 163858
-MD5sum: 80191310dbb74d9a6a1ffdbfae8e2e3d
-SHA1: 64efc7ef357349158387b48f34592488826183b1
-SHA256: a0e1f79b499a7acf7080e7f4e38d736def502022e046b165060a3f07dfb6562f
+Filename: pool/updates/main/c/chromium-browser/chromium-browser_37.0.2062.120-1~deb7u1_all.deb
+Size: 171526
+MD5sum: 58c6c6d6edc015001833642deecd22e1
+SHA1: ed23c2239051424e200ef6fdffeacab5212ee162
+SHA256: 0292de24f4ce92a02212fb618f7b26047f1062b0f7397cb8de04c66aa8780abc
 
 Package: chromium-browser-dbg
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 1669
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 1677
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: chromium-dbg, chromium
@@ -1216,16 +1216,16 @@ Homepage: http://www.chromium.org/Home
 Description-md5: 2659207230964c8131a722e0e00da948
 Section: debug
 Priority: extra
-Filename: pool/updates/main/c/chromium-browser/chromium-browser-dbg_35.0.1916.153-1~deb7u1_all.deb
-Size: 163246
-MD5sum: 7203b2eac97dd249a37e4a81683bbb3d
-SHA1: 4a057ad2e7e06d2c922be298c4a647c1fd7d627e
-SHA256: 8dd238fc0f47a635011aa826435d1dcca587521227e9b5e2147e424efd8cbc41
+Filename: pool/updates/main/c/chromium-browser/chromium-browser-dbg_37.0.2062.120-1~deb7u1_all.deb
+Size: 170914
+MD5sum: 770ea8e03171b9831f5e6b146b71763d
+SHA1: 54811f0fc5ab5dca9d6cb20ed1450edb658c9ca1
+SHA256: 1a2a05edca3979e257dd6fc1142c1221ae712581631559dc2b90a1f251e713fe
 
 Package: chromium-browser-inspector
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 1669
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 1677
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: chromium-inspector
@@ -1234,16 +1234,16 @@ Homepage: http://www.chromium.org/Home
 Description-md5: 5112d7103dc5a42e80e83e5aa4372b61
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-browser-inspector_35.0.1916.153-1~deb7u1_all.deb
-Size: 163286
-MD5sum: 4e936e3e9f59d9d281f52e456a5bf5a6
-SHA1: 6bff8ee89b4eba8d424bce72617ec14643ff6eb1
-SHA256: cdd37c0f2063888c9243f26dcdbfa4e74785a5842cff6ff8e8f3ec0402fb4a8a
+Filename: pool/updates/main/c/chromium-browser/chromium-browser-inspector_37.0.2062.120-1~deb7u1_all.deb
+Size: 170970
+MD5sum: 743ea65c49211e085d5d367bc50bbbe1
+SHA1: 9ba2a64ab19036bfb8bd17c3963687db2e31c0bf
+SHA256: ed0e79e7b6091a66f18f958d9eefd96ff4a4dfc28ad86729d6577e253f03c798
 
 Package: chromium-browser-l10n
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 1669
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 1677
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: chromium-l10n
@@ -1252,72 +1252,72 @@ Homepage: http://www.chromium.org/Home
 Description-md5: 8f8ccd28c0e69b4acf6add1c66f7e71a
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-browser-l10n_35.0.1916.153-1~deb7u1_all.deb
-Size: 163340
-MD5sum: c680f5767e5f5581338f4302e67ceb2f
-SHA1: cfe70b308beb1a9584a9d576b09428cd1ece5a4c
-SHA256: bac5b863479075f9437cdda1c32538bc9b36b61963766334615316b23e3cd2a7
+Filename: pool/updates/main/c/chromium-browser/chromium-browser-l10n_37.0.2062.120-1~deb7u1_all.deb
+Size: 171042
+MD5sum: 4cce3d96b4c12d48b6e9bcf0c7aff3ce
+SHA1: b2d3ba437f7a2af33326455297633fbaa39aca9d
+SHA256: 2bf5baa4f28636dfaf6c76e5a8998047f0e85dda4850f18aa6ffe806b499b1c7
 
 Package: chromium-dbg
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 2216188
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 2490192
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: chromium-browser-dbg (<< 10.0.648.82~r75062-1~), chromium-testsuite-dbg
 Provides: chromium-testsuite-dbg
-Depends: chromium (= 35.0.1916.153-1~deb7u1)
+Depends: chromium (= 37.0.2062.120-1~deb7u1)
 Conflicts: chromium-browser-dbg (<< 10.0.648.82~r75062-1~), chromium-testsuite-dbg
 Description: Debugging symbols for the chromium web browser
 Homepage: http://www.chromium.org/Home
 Description-md5: ba9cb915d85d812965b36f5726985a11
 Section: debug
 Priority: extra
-Filename: pool/updates/main/c/chromium-browser/chromium-dbg_35.0.1916.153-1~deb7u1_i386.deb
-Size: 569723040
-MD5sum: 1dea3036e70cd91852759943a98f2cb6
-SHA1: cb6a005583048bed473d6119b6b273ec651cbbc1
-SHA256: b043ed508332a47ec0056712af0e9ee1bff983e78c0e510d427979f74272b2de
+Filename: pool/updates/main/c/chromium-browser/chromium-dbg_37.0.2062.120-1~deb7u1_i386.deb
+Size: 637491684
+MD5sum: e571d1c3630b74d25775f2afccc531c5
+SHA1: 0b8e0379ec83226eb5216c95abbda9d8890cc424
+SHA256: d6164cc51d19aa2a8e06dd519c333794977792b0c12f48de0d69f4cde33fc118
 
 Package: chromium-inspector
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 4926
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 5325
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Replaces: chromium-browser-inspector (<< 10.0.648.82~r75062-1~)
-Conflicts: chromium (<< 35.0.1916.153-1~deb7u1), chromium-browser-inspector (<< 10.0.648.82~r75062-1~)
+Conflicts: chromium (<< 37.0.2062.120-1~deb7u1), chromium-browser-inspector (<< 10.0.648.82~r75062-1~)
 Description: page inspector for the chromium browser
 Homepage: http://www.chromium.org/Home
 Description-md5: 93cc0974004cc6f5c30852a1d577d506
 Recommends: chromium (>= 10)
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-inspector_35.0.1916.153-1~deb7u1_all.deb
-Size: 723224
-MD5sum: bea2eb73ed67601a257fc4a5b66fd9b6
-SHA1: 833267aec1d646481c6c004a2f8b90a934792288
-SHA256: 2aa623b02ec83cdcc244dd7320b274785e45cd675f15a88101c70b67da814d4a
+Filename: pool/updates/main/c/chromium-browser/chromium-inspector_37.0.2062.120-1~deb7u1_all.deb
+Size: 777558
+MD5sum: 2563d19784da568aa471c98d0b70e162
+SHA1: ed2106dc11ff6044fbea3b04ff88752f14ae22ca
+SHA256: c5149729da871c35d428d5cddb8bc0d9a8c03e3933a2eb165a6b2ab824b2d79a
 
 Package: chromium-l10n
 Source: chromium-browser
-Version: 35.0.1916.153-1~deb7u1
-Installed-Size: 16393
+Version: 37.0.2062.120-1~deb7u1
+Installed-Size: 15915
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Architecture: all
 Replaces: chromium-browser-l10n (<< 10.0.648.82~r75062-1~)
-Depends: chromium (>= 35.0.1916.153-1~deb7u1), chromium (<< 35.0.1916.153-1~deb7u1.1~)
+Depends: chromium (>= 37.0.2062.120-1~deb7u1), chromium (<< 37.0.2062.120-1~deb7u1.1~)
 Conflicts: chromium-browser-l10n (<< 10.0.648.82~r75062-1~)
 Description: chromium-browser language packages
 Homepage: http://www.chromium.org/Home
 Description-md5: f10b9192809a5c0e88c8ff02b43e7f0b
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/chromium-browser/chromium-l10n_35.0.1916.153-1~deb7u1_all.deb
-Size: 2953746
-MD5sum: fc434b99999061d68efcfd98f5d10122
-SHA1: e574bd8911937a8404262e721544bbd58e27d39f
-SHA256: f6140526ff42d36d6fc29b159e33812bb22bf9fab6ff0cc5fbce842b2bea2a04
+Filename: pool/updates/main/c/chromium-browser/chromium-l10n_37.0.2062.120-1~deb7u1_all.deb
+Size: 2874058
+MD5sum: 8912c83108483b368bfc3ffd8eb25b27
+SHA1: 46403ba2eb42e2a26342ab24d582718e76ddc1e3
+SHA256: e46941193fae85c401cd1c4dbe4ddf0c274cf08a7f345f399fc7d236d75595e1
 
 Package: chrony
 Version: 1.24-3.1+deb7u2

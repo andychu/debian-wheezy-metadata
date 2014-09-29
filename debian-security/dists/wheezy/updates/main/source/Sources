@@ -346,27 +346,27 @@ Section: misc
 
 Package: chromium-browser
 Binary: chromium-browser, chromium-browser-dbg, chromium-browser-l10n, chromium-browser-inspector, chromium, chromium-dbg, chromium-l10n, chromium-inspector
-Version: 35.0.1916.153-1~deb7u1
+Version: 37.0.2062.120-1~deb7u1
 Maintainer: Debian Chromium Maintainers <pkg-chromium-maint@lists.alioth.debian.org>
 Uploaders: Giuseppe Iuculano <iuculano@debian.org>, Michael Gilbert <michael.s.gilbert@gmail.com>
-Build-Depends: cdbs, debhelper (>= 7), g++-4.6, pkg-config, lsb-release, gyp (>= 0.1~svn1119), patchutils (>= 0.2.25), python, bison, flex, gperf, gdb, wdiff, coreutils (>= 7.5) | timeout, xvfb, x11-apps, xfonts-base, ttf-kochi-gothic, ttf-kochi-mincho, libjpeg-dev, libpng-dev, libbz2-dev, zlib1g-dev, libxml2-dev, libxslt1-dev, lzma-dev, libhunspell-dev, libsqlite3-dev, libasound2-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9-2~), libgl1-mesa-dri, mesa-common-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxss-dev, libpango1.0-dev, libglib2.0-dev, libgtk2.0-dev, libdbus-glib-1-dev, libgconf2-dev, libicu-dev (>= 4.2.1), libevent-dev (>= 1.4.13), yasm, libprotobuf-dev, protobuf-compiler, libglewmx-dev, libvpx-dev, libcups2-dev (>= 1.5.0), libgnome-keyring-dev, libspeex-dev, libspeechd-dev, hardening-wrapper, libxt-dev, libxtst-dev, libpam0g-dev, libflac-dev, libwebp-dev, autotools-dev, libv8-dev (>= 3.8), libpulse-dev, libavcodec-dev (>= 4:0.7.1), libavformat-dev (>= 4:0.7.1), libavutil-dev (>= 4:0.7.1), scons, libelf-dev, python-simplejson, libegl1-mesa-dev, libgles2-mesa-dev, subversion, libudev-dev, libssl-dev, libpci-dev, libcap-dev
+Build-Depends: cdbs, debhelper (>= 7), pkg-config, lsb-release, gyp (>= 0.1~svn1119), patchutils (>= 0.2.25), python, bison, flex, gperf, gdb, wdiff, coreutils (>= 7.5) | timeout, xvfb, x11-apps, xfonts-base, ttf-kochi-gothic, ttf-kochi-mincho, libexif-dev, libjpeg-dev, libpng-dev, libbz2-dev, zlib1g-dev, libxml2-dev, libxslt1-dev, lzma-dev, libhunspell-dev, libsqlite3-dev, libasound2-dev, libnss3-dev (>= 3.12.3), libnspr4-dev (>= 2:4.9-2~), libgl1-mesa-dri, mesa-common-dev, libgl1-mesa-dev, libglu1-mesa-dev, libxss-dev, libpango1.0-dev, libglib2.0-dev, libgtk2.0-dev, libdbus-glib-1-dev, libgconf2-dev, libicu-dev (>= 4.2.1), libevent-dev (>= 1.4.13), yasm, libprotobuf-dev, protobuf-compiler, libglewmx-dev, libvpx-dev, libcups2-dev (>= 1.5.0), libgnome-keyring-dev, libspeex-dev, libspeechd-dev, hardening-wrapper, libxt-dev, libxtst-dev, libpam0g-dev, libflac-dev, libwebp-dev, autotools-dev, libv8-dev (>= 3.8), libpulse-dev, libavcodec-dev (>= 4:0.7.1), libavformat-dev (>= 4:0.7.1), libavutil-dev (>= 4:0.7.1), scons, libelf-dev, python-simplejson, libegl1-mesa-dev, libgles2-mesa-dev, subversion, libudev-dev, libssl-dev, libpci-dev, libcap-dev
 Architecture: all i386 amd64
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 107936c8b8ab991e3c412bd3375491b3 4355 chromium-browser_35.0.1916.153-1~deb7u1.dsc
- 739989f3035b33620382f044134c0c2d 817863088 chromium-browser_35.0.1916.153.orig.tar.xz
- 286f69e4b34567671911c05361186b79 260251 chromium-browser_35.0.1916.153-1~deb7u1.debian.tar.gz
+ 89cf63c2bf4caf130a1d5b2c0a2419de 4359 chromium-browser_37.0.2062.120-1~deb7u1.dsc
+ 733541eb61e2625900173462eabfe203 223332628 chromium-browser_37.0.2062.120.orig.tar.xz
+ d088a9ac2923b7ebb2bbbfbb75bfcbcb 235882 chromium-browser_37.0.2062.120-1~deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-chromium/pkg-chromium.git
 Vcs-Git: git://git.debian.org/git/pkg-chromium/pkg-chromium.git
 Checksums-Sha1:
- 03368c1da0628a610146af2eaab930554da00a1b 4355 chromium-browser_35.0.1916.153-1~deb7u1.dsc
- 566504d27ac173ab6d7e1354d410852c5b4c9233 817863088 chromium-browser_35.0.1916.153.orig.tar.xz
- b12d7f3894ca42ffa451fb6a9ac6b236470bb2d8 260251 chromium-browser_35.0.1916.153-1~deb7u1.debian.tar.gz
+ 168513be1d3a249f54498e277f289fb72fa33583 4359 chromium-browser_37.0.2062.120-1~deb7u1.dsc
+ 23795ec3bd1a5d090e3b46a2bf77a701124756c6 223332628 chromium-browser_37.0.2062.120.orig.tar.xz
+ caa0642e1609ca347e5f78ba9cd3d34de82eb329 235882 chromium-browser_37.0.2062.120-1~deb7u1.debian.tar.gz
 Checksums-Sha256:
- 0d1af1769ad1e79621a221596c1420f188d2490c8773f5e4b86acbc836ff8bb2 4355 chromium-browser_35.0.1916.153-1~deb7u1.dsc
- 750ae12d66663d9f7df061d12f6304ada6c692acfd0a0d4c4ebe93b717c13340 817863088 chromium-browser_35.0.1916.153.orig.tar.xz
- 7bfeb8cb6f4ef8a184d09dcd734ef72b068658768b76dc2b18db9af8408bf46b 260251 chromium-browser_35.0.1916.153-1~deb7u1.debian.tar.gz
+ 1e20fdfb743327317b8127c3f2e80075cf8492ce491a8c2847ed450b806deb2a 4359 chromium-browser_37.0.2062.120-1~deb7u1.dsc
+ b3073758b6caf384d30de20ba7514ee52cce5c1460bc768cd28d15f53f0c6efb 223332628 chromium-browser_37.0.2062.120.orig.tar.xz
+ d2a90d7e9bed1ddc37be2abdc635d48c27ccdf29e15595652ac4228364349f79 235882 chromium-browser_37.0.2062.120-1~deb7u1.debian.tar.gz
 Homepage: http://www.chromium.org/Home
 Package-List: 
  chromium deb web optional
