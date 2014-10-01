@@ -9592,6 +9592,41 @@ Directory: pool/updates/main/r/roundcube
 Priority: source
 Section: web
 
+Package: rsyslog
+Binary: rsyslog, rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-gssapi, rsyslog-gnutls, rsyslog-relp
+Version: 5.8.11-3+deb7u1
+Maintainer: Michael Biebl <biebl@debian.org>
+Build-Depends: debhelper (>= 8), dpkg-dev (>= 1.16.1), autotools-dev (>= 20100122.1), zlib1g-dev, libmysqlclient-dev, libpq-dev, libkrb5-dev, libgnutls-dev, librelp-dev, pkg-config
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 0fc1ac847088de32ac98d9709b401856 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ 0e5ea5228310bebc0f9f6ddf0c3f5a84 2393222 rsyslog_5.8.11.orig.tar.gz
+ 0865f0eecd5ff1910925f6dd23ba6e6c 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
+Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
+Checksums-Sha1:
+ b66ffc59320eea63a24f637ce6c182251cbe034c 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ eabba672b9cace696207028da703cf073956d505 2393222 rsyslog_5.8.11.orig.tar.gz
+ b45aa8aa783b8aee930dd5c9cc8bef5548cb5dfe 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 5ff1c6f84e4b56c9a11a82c7640afa45c56389604e5ba4671265eb5b6418371e 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ f75b39cf22506f7a28d986d0a446a09a0806f253dba661f125a241a1b47d6285 2393222 rsyslog_5.8.11.orig.tar.gz
+ fc9234ecd026c00ca52bfd7d0490233ad0e5d3949e01fa5421d96f7f577b1c5a 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+Homepage: http://www.rsyslog.com/
+Package-List: 
+ rsyslog deb admin important
+ rsyslog-doc deb doc extra
+ rsyslog-gnutls deb admin extra
+ rsyslog-gssapi deb admin extra
+ rsyslog-mysql deb admin extra
+ rsyslog-pgsql deb admin extra
+ rsyslog-relp deb admin extra
+Directory: pool/updates/main/r/rsyslog
+Priority: source
+Section: admin
+
 Package: ruby-actionmailer-3.2
 Binary: ruby-actionmailer-3.2
 Version: 3.2.6-2+deb7u1

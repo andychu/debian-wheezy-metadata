@@ -22099,6 +22099,143 @@ MD5sum: 9f3c8f5247ffd69da5863c28092c890a
 SHA1: 1478c97e6536775fa7d0fe5463a3173063976626
 SHA256: ef16f3042b223a4fb1ee8dbc46bccd33fd607c57a2d177ab86fc7ef6058d92e3
 
+Package: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 1304
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Provides: linux-kernel-log-daemon, system-log-daemon
+Depends: libc6 (>= 2.9), zlib1g (>= 1:1.1.4), lsb-base (>= 3.2-14), initscripts (>= 2.88dsf-13.3)
+Suggests: rsyslog-mysql | rsyslog-pgsql, rsyslog-doc, rsyslog-gnutls, rsyslog-gssapi, rsyslog-relp
+Conflicts: linux-kernel-log-daemon, system-log-daemon
+Description: reliable system and kernel logging daemon
+Homepage: http://www.rsyslog.com/
+Description-md5: c25fbd9bcc88ab95bcc33eea4228fd42
+Recommends: logrotate
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog_5.8.11-3+deb7u1_amd64.deb
+Size: 545684
+MD5sum: 88b5b30ff29fcfd970f897f581b3158c
+SHA1: 67c5210502490cb72ddf0e26e12ea8f360495f70
+SHA256: 95fcb7816287b5b86c2d53831fb224353d404641a39f7b867389f5d031e6e244
+
+Package: rsyslog-doc
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 1656
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: all
+Replaces: rsyslog (<< 2.0.1-2)
+Suggests: doc-base, www-browser
+Breaks: rsyslog (<< 2.0.1-2)
+Description: documentation for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: 56e2e21af4e89d546589f2ecfa2f6bdc
+Section: doc
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-doc_5.8.11-3+deb7u1_all.deb
+Size: 1106292
+MD5sum: ae439a59b9ef716283ada0bef2d7537a
+SHA1: d8ee904d422f02bc6866d54b92b937c5ba137c60
+SHA256: 171059af5b9d54558702e6ff7c02657412c76250d8ea1b435f3ead913876ea65
+
+Package: rsyslog-gnutls
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 182
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgnutls26 (>= 2.12.17-0), rsyslog (= 5.8.11-3+deb7u1)
+Suggests: gnutls-bin
+Description: TLS protocol support for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: fc6fc1bbbfb8c8031b58f3abd48d4c1c
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-gnutls_5.8.11-3+deb7u1_amd64.deb
+Size: 128366
+MD5sum: 66509d4a53378dca1734a12866637e69
+SHA1: 5eb4cac5c8289771ef6bef6e34b3eedd73237396
+SHA256: 0caa7edec66c75da5aaacc9fb381fb05e938088b268beb7b3d3680eec87b2e05
+
+Package: rsyslog-gssapi
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 186
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.11-3+deb7u1)
+Suggests: krb5-user
+Description: GSSAPI authentication and encryption support for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: 79a6e301e123c9629e0c4e9aaa191cae
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-gssapi_5.8.11-3+deb7u1_amd64.deb
+Size: 129078
+MD5sum: bc193cc0af5907c862a262499c82c5da
+SHA1: 8e3af066a7eebf9e940fec16ac5972aca95681eb
+SHA256: 5a6b0782f96396fb4a930cbc5e3bb1ed6382a267bb536a6ab3ff87464c167df9
+
+Package: rsyslog-mysql
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 184
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u1), dbconfig-common, ucf
+Suggests: mysql-server
+Description: MySQL output plugin for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: 29be7857de256cc7e3546c2c5296e26a
+Recommends: mysql-client
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-mysql_5.8.11-3+deb7u1_amd64.deb
+Size: 121324
+MD5sum: 25a1847440c3abd3f7c00349b1c421c3
+SHA1: 613705735e36fa5e7cef98e733d880ee7a4dce45
+SHA256: 2b6d4cba28a7f3c5c44dec3594dbb5819e7b5709d85a52219eabea014d22d383
+
+Package: rsyslog-pgsql
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 184
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u1), dbconfig-common, ucf
+Suggests: postgresql
+Description: PostgreSQL output plugin for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: a299b67a4fcecd70438a9eb9d0cafbf8
+Recommends: postgresql-client
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-pgsql_5.8.11-3+deb7u1_amd64.deb
+Size: 121108
+MD5sum: b2f40dafbdc704a60784ccca2cefbb58
+SHA1: 084e52c670fade6c82e6c57166ff2f140f929d40
+SHA256: e1a5b746c4c33598fab2a3d8f5f283e48f5d19ee279733a10c726bc3909eb6cd
+
+Package: rsyslog-relp
+Source: rsyslog
+Version: 5.8.11-3+deb7u1
+Installed-Size: 171
+Maintainer: Michael Biebl <biebl@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.3.4), librelp0 (>= 0.1.1), rsyslog (= 5.8.11-3+deb7u1)
+Description: RELP protocol support for rsyslog
+Homepage: http://www.rsyslog.com/
+Description-md5: 89cdf90f04ac20a7dd663a762584b93c
+Section: admin
+Priority: extra
+Filename: pool/updates/main/r/rsyslog/rsyslog-relp_5.8.11-3+deb7u1_amd64.deb
+Size: 121354
+MD5sum: 4ab525835c172acc0d26ece4387569e2
+SHA1: 22e5702c139db8429e3c4fc394ea7dd2a4a0816d
+SHA256: 5d4f9eb4d186342fd4e6e6178d58020494ab22a8a1d69e5a9587b95436571439
+
 Package: ruby-actionmailer-3.2
 Version: 3.2.6-2+deb7u1
 Installed-Size: 137
