@@ -4044,43 +4044,6 @@ Section: libs
 
 Package: libvirt
 Binary: libvirt-bin, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, python-libvirt
-Version: 0.9.12.3-1
-Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
-Uploaders: Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>
-Build-Depends: cdbs (>= 0.4.90~), debhelper (>= 7), libxml2-dev, libncurses5-dev, libreadline-dev, zlib1g-dev, libgcrypt11-dev, libgnutls-dev, python-all-dev (>= 2.6.6-3~), libavahi-client-dev, libsasl2-dev, libxen-dev [i386 amd64], lvm2 [linux-any], open-iscsi [linux-any], libparted0-dev (>= 2.2), parted (>= 2.2), libdevmapper-dev [linux-any], uuid-dev, libudev-dev [linux-any], libhal-dev [!linux-any], libpciaccess-dev, module-init-tools [linux-any], policykit-1, libcap-ng-dev [linux-any], libnl-dev [linux-any], libyajl-dev, libpcap0.8-dev, libnuma-dev [amd64 i386 ia64 mips mipsel powerpc], radvd [linux-any], libnetcf-dev [linux-any], dwarves, libxml2-utils, dnsmasq-base, openssh-client, netcat-openbsd
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 3.0 (quilt)
-Files:
- f84d1e8622b2b1f3a04d2100fea044af 2290 libvirt_0.9.12.3-1.dsc
- 0f596bceec120df4cd5aecb8f0128d5d 19576862 libvirt_0.9.12.3.orig.tar.gz
- fb20bdca06c39f20b062fd15a03e4490 37957 libvirt_0.9.12.3-1.debian.tar.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-libvirt/libvirt.git
-Vcs-Git: git://git.debian.org/git/pkg-libvirt/libvirt.git
-Checksums-Sha1:
- fe62aa19c8610e2eb6297479ecfea650423a9fa4 2290 libvirt_0.9.12.3-1.dsc
- 73e72812a3d3c1a096b515dc01803bdbff7c595a 19576862 libvirt_0.9.12.3.orig.tar.gz
- f2fc688790c8ddc2a78ffda44a19b2184360d48d 37957 libvirt_0.9.12.3-1.debian.tar.gz
-Checksums-Sha256:
- 98ef20adac7c3b2b0c1174a57c0b6aeb24a95ed4b1f2d4b4d61f09bb5eee598a 2290 libvirt_0.9.12.3-1.dsc
- 404afb7fdd23d8f36645cffc77fecfed40d60617f8bcae707ac3b9f7925fc0fb 19576862 libvirt_0.9.12.3.orig.tar.gz
- 6b6123ef81c63b0c443965784581fad9a315f76731fbef885b786abffa42643c 37957 libvirt_0.9.12.3-1.debian.tar.gz
-Homepage: http://libvirt.org
-Build-Conflicts: dpkg-dev (= 1.15.3)
-Dm-Upload-Allowed: yes
-Package-List: 
- libvirt-bin deb admin optional
- libvirt-dev deb libdevel optional
- libvirt-doc deb doc optional
- libvirt0 deb libs optional
- libvirt0-dbg deb debug extra
- python-libvirt deb python optional
-Directory: pool/updates/main/libv/libvirt
-Priority: source
-Section: devel
-
-Package: libvirt
-Binary: libvirt-bin, libvirt0, libvirt0-dbg, libvirt-doc, libvirt-dev, python-libvirt
 Version: 0.9.12.3-1+deb7u1
 Maintainer: Debian Libvirt Maintainers <pkg-libvirt-maintainers@lists.alioth.debian.org>
 Uploaders: Guido Günther <agx@sigxcpu.org>, Laurent Léonard <laurent@open-minds.org>
@@ -10925,7 +10888,7 @@ Section: mail
 
 Package: xen
 Binary: xen-docs-4.1, libxen-4.1, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.1, xen-hypervisor-4.1-amd64, xen-system-amd64, xen-hypervisor-4.1-i386, xen-system-i386
-Version: 4.1.4-3+deb7u2
+Version: 4.1.4-3+deb7u3
 Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
 Uploaders: Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>
 Build-Depends: debhelper (>> 7), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc, gcc-multilib, e2fslibs-dev, iasl, ipxe-qemu, libaio-dev, libgnutls-dev, liblzma-dev, libncurses5-dev, libpci-dev, pkg-config, uuid-dev, zlib1g-dev, ocaml-nox, dh-ocaml, ocaml-findlib
@@ -10933,20 +10896,20 @@ Architecture: all amd64 i386
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 1c63f96a9968483f1df62ec5939f4c46 2417 xen_4.1.4-3+deb7u2.dsc
+ 70bfefcc98c61eaed4e16e7cb85004a1 2417 xen_4.1.4-3+deb7u3.dsc
  e46da6b762d2b66122d087e3b93388ca 3152298 xen_4.1.4.orig-qemu.tar.gz
  f6637f921ff755a2ee3b48ff8db3f6b5 6618565 xen_4.1.4.orig.tar.gz
- 863c37a80f7a6151ebeff2f0e08cfeff 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
+ 1782c62aa1a6165582240728c8347c3c 232780 xen_4.1.4-3+deb7u3.debian.tar.gz
 Checksums-Sha1:
- b33ffe15bf2febfbfc99d8e6f7c693bea7b2ecd1 2417 xen_4.1.4-3+deb7u2.dsc
+ 0c74ec23a49f836bd74f592459a15fdbccc12d64 2417 xen_4.1.4-3+deb7u3.dsc
  25ce9b87054be42db97939592a2cc7f4c02dfad7 3152298 xen_4.1.4.orig-qemu.tar.gz
  925ea343a4cd3c90e409cba5d1e8cc02305445a2 6618565 xen_4.1.4.orig.tar.gz
- 8eafe3c566518e1800ee7217f5b1ad3a20044ee5 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
+ c009e42ab0e0303274719114010ba5d13c8b4abe 232780 xen_4.1.4-3+deb7u3.debian.tar.gz
 Checksums-Sha256:
- ac029f39fcfc41714d45024b4ced2e3b55dcfb18c4600642e92677b872ff5708 2417 xen_4.1.4-3+deb7u2.dsc
+ 8e52e833f71474cdcfed57562f504aa6d997dd6d5094b21b0635af5a3a8b796b 2417 xen_4.1.4-3+deb7u3.dsc
  dd0901aa63e7c780c4f5daa2b9079827a491e8feb64497b8a01928b9f0d1c7c7 3152298 xen_4.1.4.orig-qemu.tar.gz
  19e0b97419cafcd0b51933b3403121b4b83a5f79d293291a0a92746346a019f1 6618565 xen_4.1.4.orig.tar.gz
- a8a3bc62f3e77ec09ac3b3202f2c1b1419773b339689f26dd36d23d66488aab5 229991 xen_4.1.4-3+deb7u2.debian.tar.gz
+ dc8f970527d619135c64f5324a81ad4ec936c98062bb0be7df057cb64bc1ca47 232780 xen_4.1.4-3+deb7u3.debian.tar.gz
 Build-Depends-Indep: graphviz, ghostscript, texlive-fonts-recommended, texlive-font-utils, texlive-latex-recommended
 Package-List: 
  libxen-4.1 deb libs optional
