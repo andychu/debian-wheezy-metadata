@@ -990,6 +990,32 @@ Directory: pool/updates/main/e/extplorer
 Priority: source
 Section: web
 
+Package: exuberant-ctags
+Binary: exuberant-ctags
+Version: 1:5.9~svn20110310-4+deb7u1
+Maintainer: Colin Watson <cjwatson@debian.org>
+Build-Depends: dpkg (>= 1.16.1~), debhelper (>= 9)
+Architecture: any
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Files:
+ 15f9eb5421c98b24f27c70a3366cbf41 1887 exuberant-ctags_5.9~svn20110310-4+deb7u1.dsc
+ d029eb7f61bf18e70fee603019ae829e 497076 exuberant-ctags_5.9~svn20110310.orig.tar.gz
+ 2f67a115fd0c4ef8b9875050eac88cd0 12083 exuberant-ctags_5.9~svn20110310-4+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 47ab2e09cd994fa08ef61a8ff2a44c01cd46e1a5 1887 exuberant-ctags_5.9~svn20110310-4+deb7u1.dsc
+ 8d2a9214b26e2b9046f9264ade2f2a528eaf6e23 497076 exuberant-ctags_5.9~svn20110310.orig.tar.gz
+ a5290970f72c6fb518a5c2c09d3f55e93132f25e 12083 exuberant-ctags_5.9~svn20110310-4+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 6dd2f2900764856ed1f461e0c41e35c423e40b38f8f67bf785134cb5c69cd31a 1887 exuberant-ctags_5.9~svn20110310-4+deb7u1.dsc
+ 7348e21502454a1331c58d5eec5c18a546395acd5628599a7a55dc77b48ffd2f 497076 exuberant-ctags_5.9~svn20110310.orig.tar.gz
+ cb18c59623e44e8a4a3079c29633b4b81d0e6b8d47db70edb8756c00e3300676 12083 exuberant-ctags_5.9~svn20110310-4+deb7u1.debian.tar.gz
+Package-List: 
+ exuberant-ctags deb editors optional
+Directory: pool/updates/main/e/exuberant-ctags
+Priority: source
+Section: editors
+
 Package: fail2ban
 Binary: fail2ban
 Version: 0.8.6-3wheezy3
@@ -9320,7 +9346,7 @@ Section: python
 
 Package: qemu
 Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
-Version: 1.1.2+dfsg-6a+deb7u3
+Version: 1.1.2+dfsg-6a+deb7u4
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
 Build-Depends: debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]
@@ -9328,19 +9354,19 @@ Architecture: amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- a26b49333208d0108dfa5d35185f3b10 2631 qemu_1.1.2+dfsg-6a+deb7u3.dsc
+ dc97eac69c5c1b2548af943b26ff565b 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
  e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- ddf8a75f1f31dfa944edcc60fa204977 68335 qemu_1.1.2+dfsg-6a+deb7u3.debian.tar.gz
+ 3ae68603159e2acdd3028e082e95114d 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-qemu/qemu.git
 Vcs-Git: git://git.debian.org/git/pkg-qemu/qemu.git
 Checksums-Sha1:
- 4fbbedb8b198b04e13fabcba98b5c9b2928dea04 2631 qemu_1.1.2+dfsg-6a+deb7u3.dsc
+ 75418972e5f851c7f2f2f97fd9fbbfc4cdf4f9e8 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
  65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- c002603527a36d63d47a069231b631df7fa8330b 68335 qemu_1.1.2+dfsg-6a+deb7u3.debian.tar.gz
+ 1a379a34bad6c0367455c250ea41bd9562420919 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
 Checksums-Sha256:
- 33a6695852cdc6ebf68cdcba5b100817b74bf89a943966039a8c537ea352602d 2631 qemu_1.1.2+dfsg-6a+deb7u3.dsc
+ 41175101b3ca819b13fd8fb43decbedc6d932243e7124d31b2242ce0234a6011 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
  8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- 81c57cf87ea019c58794e1627978db70b5a380df1c6f3023372c6357428ec9aa 68335 qemu_1.1.2+dfsg-6a+deb7u3.debian.tar.gz
+ 9897dc09173d8b748616da8efb116e06068e93b30ef1386223bb5a2ba31a1d1e 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
 Homepage: http://www.qemu.org/
 Build-Conflicts: oss4-dev
 Dm-Upload-Allowed: yes
@@ -9357,7 +9383,7 @@ Section: misc
 
 Package: qemu-kvm
 Binary: qemu-kvm, qemu-kvm-dbg, kvm
-Version: 1.1.2+dfsg-6+deb7u3
+Version: 1.1.2+dfsg-6+deb7u4
 Maintainer: Michael Tokarev <mjt@tls.msk.ru>
 Uploaders: Guido Günther <agx@sigxcpu.org>, Jan Lübbe <jluebbe@debian.org>
 Build-Depends: debhelper (>= 8), pkg-config, texinfo, python, libaio-dev, libasound2-dev, libattr1-dev, libbluetooth-dev, libbrlapi-dev, libcap-dev, libcurl4-gnutls-dev, libglib2.0-dev, libgnutls-dev, libiscsi-dev, libjpeg-dev, libncurses5-dev, libpci-dev, libpulse-dev, libpng12-dev, libsasl2-dev, libsdl1.2-dev, libspice-protocol-dev, libspice-server-dev (>> 0.8.2-1), libusbredirhost-dev, libvdeplug-dev | libvdeplug2-dev, linux-libc-dev (>= 2.6.32), uuid-dev, xfslibs-dev, zlib1g-dev
@@ -9365,19 +9391,19 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 24f6761ef2ddf5183908e723f69ce360 2151 qemu-kvm_1.1.2+dfsg-6+deb7u3.dsc
+ c388554c24916995ee9ded2fe8f10ceb 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
  2c2c78c14294c177b697ac0544c7634d 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 4c21cecadfb0c76e45f18256728b1cee 56168 qemu-kvm_1.1.2+dfsg-6+deb7u3.debian.tar.gz
+ 5f035b9aaa4bc4d3b6b22fc55252791c 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/qemu-kvm.git
 Vcs-Git: git://git.debian.org/git/collab-maint/qemu-kvm.git
 Checksums-Sha1:
- 4494ac43f6af9decaa5aafef40a988ecd7daeadd 2151 qemu-kvm_1.1.2+dfsg-6+deb7u3.dsc
+ 033d9670de8d69175df276e8db54018d530ce57c 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
  5363df6f46c1931dfeabb34ff3f54468f5e8d141 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 765bb6f9c7a3c05916a787e0de07518122c8001e 56168 qemu-kvm_1.1.2+dfsg-6+deb7u3.debian.tar.gz
+ 5e961540c44528340281ffa8cd84125a984a88a0 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
 Checksums-Sha256:
- 183e2c907f8dda3f74218dd5d6feb5b488c7edc50f64e562b80aa1bb11c5c2c6 2151 qemu-kvm_1.1.2+dfsg-6+deb7u3.dsc
+ 2c18102ccc6c4e80d714f23149e63c2fc96fd83c2e8941ac1f04f192b5ad757e 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
  82065673c5c6e785c4c692c1899ec1420f0753fbe2cd278bdaa1c9c7a262a019 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 59a9397e3df877315fff723efb3b373a969a55496870d4d229b8d9be3cd03bcd 56168 qemu-kvm_1.1.2+dfsg-6+deb7u3.debian.tar.gz
+ 70303a2c4e188c05f0aa1d99d7e11b7798044c5437413b4b840f00db27997b66 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
 Homepage: http://www.linux-kvm.org/
 Package-List: 
  kvm deb oldlibs extra
@@ -10558,6 +10584,37 @@ Dm-Upload-Allowed: yes
 Package-List: 
  tryton-client deb python optional
 Directory: pool/updates/main/t/tryton-client
+Priority: source
+Section: python
+
+Package: tryton-server
+Binary: tryton-server
+Version: 2.2.4-1+deb7u2
+Maintainer: Debian Tryton Maintainers <maintainers@debian.tryton.org>
+Uploaders: Daniel Baumann <daniel@debian.org>, Mathias Behrle <mathiasb@m9s.biz>
+Build-Depends: debhelper (>= 9), python (>= 2.6.6-3~), python-setuptools
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ f67f10e6751ba591496cd5f82baab13d 2059 tryton-server_2.2.4-1+deb7u2.dsc
+ 690903b5f0b4c6706ca18ddb36e2f69d 283376 tryton-server_2.2.4.orig.tar.xz
+ cb604539b37a5b908f88fc5e8d657b04 17404 tryton-server_2.2.4-1+deb7u2.debian.tar.xz
+Vcs-Browser: http://debian.tryton.org/gitweb/?p=packages/tryton-server.git
+Vcs-Git: git://debian.tryton.org/git/packages/tryton-server.git
+Checksums-Sha1:
+ 4777267a40863d8a029c626addf712885a9cb95d 2059 tryton-server_2.2.4-1+deb7u2.dsc
+ 218ce50b2255ec4886a6925f06283e7342be5e59 283376 tryton-server_2.2.4.orig.tar.xz
+ ed4c37c9dda346110c4b68fbfca33826aad83e05 17404 tryton-server_2.2.4-1+deb7u2.debian.tar.xz
+Checksums-Sha256:
+ e8e300ed2923852c82c3cde84ff656d0acf641d96728a1f0d91b5a83c6be3934 2059 tryton-server_2.2.4-1+deb7u2.dsc
+ 74d3db176788d054f06aaabf9d30f4fa8772329ac6d93bf046515040cf2c0251 283376 tryton-server_2.2.4.orig.tar.xz
+ 8011e9a377968d4255d7d76ac4c3faef8fca919e119859569dd88af8f5b3a9c5 17404 tryton-server_2.2.4-1+deb7u2.debian.tar.xz
+Homepage: http://www.tryton.org/
+Dm-Upload-Allowed: yes
+Package-List: 
+ tryton-server deb python optional
+Directory: pool/updates/main/t/tryton-server
 Priority: source
 Section: python
 
