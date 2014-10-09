@@ -131,7 +131,7 @@ Section: net
 
 Package: apt
 Binary: apt, libapt-pkg4.12, libapt-inst1.5, apt-doc, libapt-pkg-dev, libapt-pkg-doc, apt-utils, apt-transport-https
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Maintainer: APT Development Team <deity@lists.debian.org>
 Uploaders: Michael Vogt <mvo@debian.org>, Otavio Salvador <otavio@debian.org>, Christian Perrier <bubulle@debian.org>, Daniel Burrows <dburrows@debian.org>, Julian Andres Klode <jak@debian.org>
 Build-Depends: dpkg-dev (>= 1.15.8), debhelper (>= 8.1.3~), libdb-dev, gettext (>= 0.12), libcurl4-gnutls-dev (>= 7.19.4~), zlib1g-dev, libbz2-dev, xsltproc, docbook-xsl, docbook-xml, po4a (>= 0.34-2), autotools-dev, autoconf, automake
@@ -139,15 +139,15 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 7fc9e059dac553d7293d02f995785423 2364 apt_0.9.7.9+deb7u5.dsc
- 6d3cdf9a5c57e67a7564eb0d980aa1db 3387096 apt_0.9.7.9+deb7u5.tar.gz
+ 4a7b9abc9825c89b633bc2b434f73a76 2347 apt_0.9.7.9+deb7u6.dsc
+ f6983bfa37375b4529cdc737a4ad316b 3387114 apt_0.9.7.9+deb7u6.tar.gz
 Vcs-Browser: http://bzr.debian.org/loggerhead/apt/debian-wheezy/
 Checksums-Sha1:
- 62736ce6b979f8979262b788863adddf7818f4c4 2364 apt_0.9.7.9+deb7u5.dsc
- 07443ad2fdeae339e7b65e1a61c8a97126caaabd 3387096 apt_0.9.7.9+deb7u5.tar.gz
+ 2a63b4b9e1baf1e5a688509bfed9b0d62845e7a1 2347 apt_0.9.7.9+deb7u6.dsc
+ c87899f8ec4e97daebf438bf9ea47dc7a501ccde 3387114 apt_0.9.7.9+deb7u6.tar.gz
 Checksums-Sha256:
- ea217d60486d41a25401631c66e705b29733e0c92b13503c0103c6b74095d17b 2364 apt_0.9.7.9+deb7u5.dsc
- 69b45a86607cb178e5892522d66bcf95307145181dc8b5101aafeb79d8298d71 3387096 apt_0.9.7.9+deb7u5.tar.gz
+ 1b5ea94f7e6bde35160eb30bdc7f182cae106d31c274fbab249aa8093e5d073d 2347 apt_0.9.7.9+deb7u6.dsc
+ d1e61d2cc71dedc08cae0cb48f25b008b14979aa253c1ab72df620a125f388f4 3387114 apt_0.9.7.9+deb7u6.tar.gz
 Build-Conflicts: autoconf2.13, automake1.4
 Build-Depends-Indep: doxygen, debiandoc-sgml
 Package-List: 
@@ -9583,26 +9583,26 @@ Section: web
 
 Package: rsyslog
 Binary: rsyslog, rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-gssapi, rsyslog-gnutls, rsyslog-relp
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Maintainer: Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 8), dpkg-dev (>= 1.16.1), autotools-dev (>= 20100122.1), zlib1g-dev, libmysqlclient-dev, libpq-dev, libkrb5-dev, libgnutls-dev, librelp-dev, pkg-config
 Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 0fc1ac847088de32ac98d9709b401856 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ 83dca76494939311a09491f56553b921 2266 rsyslog_5.8.11-3+deb7u2.dsc
  0e5ea5228310bebc0f9f6ddf0c3f5a84 2393222 rsyslog_5.8.11.orig.tar.gz
- 0865f0eecd5ff1910925f6dd23ba6e6c 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+ 5766f13d56db21bcb6db9c2a3ec2010c 34467 rsyslog_5.8.11-3+deb7u2.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/rsyslog.git;a=summary
 Vcs-Git: git://git.debian.org/git/collab-maint/rsyslog.git
 Checksums-Sha1:
- b66ffc59320eea63a24f637ce6c182251cbe034c 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ 7a642d6efd15a226894392277c7b5a8df6dcbf11 2266 rsyslog_5.8.11-3+deb7u2.dsc
  eabba672b9cace696207028da703cf073956d505 2393222 rsyslog_5.8.11.orig.tar.gz
- b45aa8aa783b8aee930dd5c9cc8bef5548cb5dfe 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+ d8e0322cfb3e7f1b572434e1863fb208ae52e42a 34467 rsyslog_5.8.11-3+deb7u2.debian.tar.gz
 Checksums-Sha256:
- 5ff1c6f84e4b56c9a11a82c7640afa45c56389604e5ba4671265eb5b6418371e 2266 rsyslog_5.8.11-3+deb7u1.dsc
+ c8725af69468aee4021932e9c37318eaee53d75192cc53b9c06e38d6c6c9cc65 2266 rsyslog_5.8.11-3+deb7u2.dsc
  f75b39cf22506f7a28d986d0a446a09a0806f253dba661f125a241a1b47d6285 2393222 rsyslog_5.8.11.orig.tar.gz
- fc9234ecd026c00ca52bfd7d0490233ad0e5d3949e01fa5421d96f7f577b1c5a 34295 rsyslog_5.8.11-3+deb7u1.debian.tar.gz
+ f08fda53aa12aa806c01bb41ffe3289b15de2add54eea0cb8c786b127743e5b0 34467 rsyslog_5.8.11-3+deb7u2.debian.tar.gz
 Homepage: http://www.rsyslog.com/
 Package-List: 
  rsyslog deb admin important

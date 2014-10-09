@@ -371,27 +371,27 @@ SHA1: 8ee4837b99222efc7ae1db721d39d20149032fe2
 SHA256: de75d6a6d2e2164dad463726164f1542d1e8993975e25567a06f4101c8f068d3
 
 Package: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 3271
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
 Replaces: manpages-pl (<< 20060617-3~)
-Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u5), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
+Depends: libapt-pkg4.12 (>= 0.9.7.9+deb7u6), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), debian-archive-keyring, gnupg
 Suggests: aptitude | synaptic | wajig, dpkg-dev, apt-doc, xz-utils, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Description: commandline package manager
 Description-md5: 9fb97a88cb7383934ef963352b53b4a7
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u5_amd64.deb
-Size: 1261662
-MD5sum: f105122b977dfeb41b788997dee2b377
-SHA1: 4eca7305ca25d2607d510516e34715ed60933195
-SHA256: a2ae022c424f8e38a261fb428a92885fab5a1facafbe019a4c362345aadb1b09
+Filename: pool/updates/main/a/apt/apt_0.9.7.9+deb7u6_amd64.deb
+Size: 1261708
+MD5sum: 41607b095765b47920210feec2e4e4d4
+SHA1: 096d891dc03dafb3506d2a41a797e2bd9187b9a1
+SHA256: dc117d06f259ecbb1c8ededef8fbd97be68f7414bb4bc6b9f9b16913b3761b45
 
 Package: apt-doc
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 569
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
@@ -399,15 +399,15 @@ Description: documentation for APT
 Description-md5: bc2b838ed28e60af95d78926380a3300
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u5_all.deb
-Size: 261746
-MD5sum: 39d0f20bc16987da79f16dda3c81041d
-SHA1: cc1ea58cb95f1f54df1f3e3ef108e2fb688c2b2a
-SHA256: 1d45222f95ac6e2d89aed7c0ccc113ab6b72bb6e2dd295d048319cfe551e4bb9
+Filename: pool/updates/main/a/apt/apt-doc_0.9.7.9+deb7u6_all.deb
+Size: 261818
+MD5sum: 25c7d151ab8308e4ab4bda075b6616c0
+SHA1: 5f16648907d3d3cff8a02d7d53380284f02359d8
+SHA256: c97f534563ea9c283887a154f2b2b045f56fc652cb3007a1dd5bdc16e060c07b
 
 Package: apt-transport-https
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 162
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -416,15 +416,15 @@ Description: https download transport for APT
 Description-md5: 3365a6b50bd0e4eef6e176a80c735f43
 Section: admin
 Priority: optional
-Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u5_amd64.deb
-Size: 109112
-MD5sum: 408d0eb61aa48ac2e017482bba0bec6e
-SHA1: 08ac2b7f5192ea0f04017a91e3e3f2cf4612ca1b
-SHA256: 3033b5402357539d957e4b6ce0813f1d5a0d399d5d49ef138dea7a58e703b815
+Filename: pool/updates/main/a/apt/apt-transport-https_0.9.7.9+deb7u6_amd64.deb
+Size: 109178
+MD5sum: ea4e232c8054624c54fad1481184f9b8
+SHA1: ee6216a5061dcb0f375059c2794148eee6aab54e
+SHA256: 488a0c5c86bdd7e40565b80f521ab394079d0bcf4f08eabc90c8dd1ede94bd14
 
 Package: apt-utils
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 1301
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -434,15 +434,15 @@ Description: package managment related utility programs
 Description-md5: 578941ab78e4cbae72c741e56d175708
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u5_amd64.deb
-Size: 377764
-MD5sum: 3235d760eeec6186d5c8bef5261c8358
-SHA1: 596e87c7e2c59dc0b4778b2fb4fdcc84465d2db2
-SHA256: 53b41771c2898e63fa54cae023a4e9e6393b08b3d2313ed45cf1959cf422acda
+Filename: pool/updates/main/a/apt/apt-utils_0.9.7.9+deb7u6_amd64.deb
+Size: 377876
+MD5sum: 495334b1055ecb1688f907a6f8ab4892
+SHA1: 2a07ef767b1d6ea49076d3c66ebde5cea3314673
+SHA256: a2eb66d024722f892106bcb93d535eeedcf044266021871434b6241613f568d5
 
 Package: libapt-inst1.5
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 700
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -453,33 +453,33 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u5_amd64.deb
-Size: 166942
-MD5sum: 4b455ccda772776f7fcaa4e1fb8f5a3b
-SHA1: b9bc6e62aca0f0df094bce4715f35cd5a3c574e9
-SHA256: 4ad87b5c9d9951e666dd877da241632643c18079bae5055e9fe75fc836b7ff5f
+Filename: pool/updates/main/a/apt/libapt-inst1.5_0.9.7.9+deb7u6_amd64.deb
+Size: 166984
+MD5sum: 0aee893ef22af23f7bf761a0680737f7
+SHA1: 39e8e5b149b16e5bfc52e4fc6e65b9475e939a80
+SHA256: 89439f14a1637b03e77b4d1b84e4d1f0ee51d3bdd18ca8b798219b65305e6df5
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 477
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
-Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u5), libapt-inst1.5 (= 0.9.7.9+deb7u5), zlib1g-dev
+Depends: libapt-pkg4.12 (= 0.9.7.9+deb7u6), libapt-inst1.5 (= 0.9.7.9+deb7u6), zlib1g-dev
 Description: development files for APT's libapt-pkg and libapt-inst
 Description-md5: 8e463f77664788b23a47f5ac592f4595
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u5_amd64.deb
-Size: 187296
-MD5sum: 868c365e4bcd1a0eaedabee4f679d572
-SHA1: b4cd2716407882863c7b8bd4beeb154b2b309b40
-SHA256: babf380caff6f115530789b66b3a9794dd6e7a9733ac17fa71784fc6cdf75973
+Filename: pool/updates/main/a/apt/libapt-pkg-dev_0.9.7.9+deb7u6_amd64.deb
+Size: 187368
+MD5sum: 4f49ba10c31778e2bed381fbb4540ec5
+SHA1: e9ea660bd19a0c2d681f948c010312abd47ee8a8
+SHA256: 37d96a2bdd737d3589663299ae671b0be1e6f0d08f089b97ce602f7706bb31d9
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 6461
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: all
@@ -487,15 +487,15 @@ Description: documentation for APT development
 Description-md5: decce989b471f196cddabf52bee63592
 Section: doc
 Priority: optional
-Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u5_all.deb
-Size: 964220
-MD5sum: c28c8bfbb4e84d0db202e1844f6103ef
-SHA1: 633301137d829701e5e84b2bbf9348334788bec2
-SHA256: 55564d52387c3a24fd0f0e322b98e50c4f728eb40fb011f54ab7876cc0e503d9
+Filename: pool/updates/main/a/apt/libapt-pkg-doc_0.9.7.9+deb7u6_all.deb
+Size: 964088
+MD5sum: 3cdf50cb06c2c505194c357d31627ab0
+SHA1: 80f78b6dd7a0ce2808798cc664a27fff5057d960
+SHA256: ea91787dea036a46c44b2b57244f0fcb3e44874b9adcda161252a59fcaf72a58
 
 Package: libapt-pkg4.12
 Source: apt
-Version: 0.9.7.9+deb7u5
+Version: 0.9.7.9+deb7u6
 Installed-Size: 2721
 Maintainer: APT Development Team <deity@lists.debian.org>
 Architecture: amd64
@@ -507,11 +507,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: admin
 Priority: important
-Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u5_amd64.deb
-Size: 891260
-MD5sum: 363b8ffb80eeee750f3ac7a7fa9c358e
-SHA1: fde1fbe3072354a2ada678391a6eff9a666ce7f8
-SHA256: 034fdb30dbeef9e31cff6acc24fce82ece27a8c2d372fecadbba3976733e7535
+Filename: pool/updates/main/a/apt/libapt-pkg4.12_0.9.7.9+deb7u6_amd64.deb
+Size: 891534
+MD5sum: f9045f0922fd4a3e9eecafd340ed9c9b
+SHA1: 8ef95ef954c3fc1b83b9bbf1b9ab68a205b5cd50
+SHA256: e331f949a26d3134bba4ab152230302e360abf544e2018e497768511bea879ff
 
 Package: asterisk
 Version: 1:1.8.13.1~dfsg1-3+deb7u3
@@ -22120,7 +22120,7 @@ SHA1: 1478c97e6536775fa7d0fe5463a3173063976626
 SHA256: ef16f3042b223a4fb1ee8dbc46bccd33fd607c57a2d177ab86fc7ef6058d92e3
 
 Package: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 1304
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
@@ -22134,16 +22134,16 @@ Description-md5: c25fbd9bcc88ab95bcc33eea4228fd42
 Recommends: logrotate
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog_5.8.11-3+deb7u1_amd64.deb
-Size: 545684
-MD5sum: 88b5b30ff29fcfd970f897f581b3158c
-SHA1: 67c5210502490cb72ddf0e26e12ea8f360495f70
-SHA256: 95fcb7816287b5b86c2d53831fb224353d404641a39f7b867389f5d031e6e244
+Filename: pool/updates/main/r/rsyslog/rsyslog_5.8.11-3+deb7u2_amd64.deb
+Size: 545826
+MD5sum: 05c555d730ac92cd151981c21d557a6a
+SHA1: 6c755b0e215889f849dd72abf3b4bf1f2d132e93
+SHA256: d039524e905abf49a2d1f5f46d1e52b28c5157fe0573f2d2cf1e0d4b646fcfba
 
 Package: rsyslog-doc
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
-Installed-Size: 1656
+Version: 5.8.11-3+deb7u2
+Installed-Size: 1657
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: all
 Replaces: rsyslog (<< 2.0.1-2)
@@ -22154,57 +22154,57 @@ Homepage: http://www.rsyslog.com/
 Description-md5: 56e2e21af4e89d546589f2ecfa2f6bdc
 Section: doc
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-doc_5.8.11-3+deb7u1_all.deb
-Size: 1106292
-MD5sum: ae439a59b9ef716283ada0bef2d7537a
-SHA1: d8ee904d422f02bc6866d54b92b937c5ba137c60
-SHA256: 171059af5b9d54558702e6ff7c02657412c76250d8ea1b435f3ead913876ea65
+Filename: pool/updates/main/r/rsyslog/rsyslog-doc_5.8.11-3+deb7u2_all.deb
+Size: 1106390
+MD5sum: 073f7a28f1640668c676c9207c831fa5
+SHA1: ce5a6c479e05861cbbf22319307198544ca19c51
+SHA256: d6c8203dc5a5ed29e5a02d89fb212f42c300e9aeba7d74b12fefe1f7008f304e
 
 Package: rsyslog-gnutls
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 182
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libgnutls26 (>= 2.12.17-0), rsyslog (= 5.8.11-3+deb7u1)
+Depends: libc6 (>= 2.4), libgnutls26 (>= 2.12.17-0), rsyslog (= 5.8.11-3+deb7u2)
 Suggests: gnutls-bin
 Description: TLS protocol support for rsyslog
 Homepage: http://www.rsyslog.com/
 Description-md5: fc6fc1bbbfb8c8031b58f3abd48d4c1c
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-gnutls_5.8.11-3+deb7u1_amd64.deb
-Size: 128366
-MD5sum: 66509d4a53378dca1734a12866637e69
-SHA1: 5eb4cac5c8289771ef6bef6e34b3eedd73237396
-SHA256: 0caa7edec66c75da5aaacc9fb381fb05e938088b268beb7b3d3680eec87b2e05
+Filename: pool/updates/main/r/rsyslog/rsyslog-gnutls_5.8.11-3+deb7u2_amd64.deb
+Size: 128462
+MD5sum: 83d05b431c3968a8cfd0cb8b375e1074
+SHA1: 66314c0a1aa55782eeade1bb6d322796a50e78ed
+SHA256: 0388c78b825c64c0bd32dc24da1811dd4bb7230e2790e571c58019fb78f82966
 
 Package: rsyslog-gssapi
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 186
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.11-3+deb7u1)
+Depends: libc6 (>= 2.4), libgssapi-krb5-2 (>= 1.10+dfsg~), rsyslog (= 5.8.11-3+deb7u2)
 Suggests: krb5-user
 Description: GSSAPI authentication and encryption support for rsyslog
 Homepage: http://www.rsyslog.com/
 Description-md5: 79a6e301e123c9629e0c4e9aaa191cae
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-gssapi_5.8.11-3+deb7u1_amd64.deb
-Size: 129078
-MD5sum: bc193cc0af5907c862a262499c82c5da
-SHA1: 8e3af066a7eebf9e940fec16ac5972aca95681eb
-SHA256: 5a6b0782f96396fb4a930cbc5e3bb1ed6382a267bb536a6ab3ff87464c167df9
+Filename: pool/updates/main/r/rsyslog/rsyslog-gssapi_5.8.11-3+deb7u2_amd64.deb
+Size: 129176
+MD5sum: e462bdc2787cbc58efa012e3a2a86733
+SHA1: b630879872257c90dadb1176fbdd58bd92c6e9b8
+SHA256: c0671e6bee5f54f0607e6f2a9e934c33f734c950fc8cc53cec5beb92f767f471
 
 Package: rsyslog-mysql
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 184
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u1), dbconfig-common, ucf
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u2), dbconfig-common, ucf
 Suggests: mysql-server
 Description: MySQL output plugin for rsyslog
 Homepage: http://www.rsyslog.com/
@@ -22212,19 +22212,19 @@ Description-md5: 29be7857de256cc7e3546c2c5296e26a
 Recommends: mysql-client
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-mysql_5.8.11-3+deb7u1_amd64.deb
-Size: 121324
-MD5sum: 25a1847440c3abd3f7c00349b1c421c3
-SHA1: 613705735e36fa5e7cef98e733d880ee7a4dce45
-SHA256: 2b6d4cba28a7f3c5c44dec3594dbb5819e7b5709d85a52219eabea014d22d383
+Filename: pool/updates/main/r/rsyslog/rsyslog-mysql_5.8.11-3+deb7u2_amd64.deb
+Size: 121422
+MD5sum: 702d57e442dba959210fca4bf5e1c01c
+SHA1: 915c72610808444c9b8619317c5a9305ce01d442
+SHA256: f95b845f8e1f26a72ba8b0b3048a36946b70ea653ac1e33421160876518f4ff3
 
 Package: rsyslog-pgsql
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 184
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u1), dbconfig-common, ucf
+Depends: libc6 (>= 2.4), libpq5, debconf (>= 0.5) | debconf-2.0, rsyslog (= 5.8.11-3+deb7u2), dbconfig-common, ucf
 Suggests: postgresql
 Description: PostgreSQL output plugin for rsyslog
 Homepage: http://www.rsyslog.com/
@@ -22232,29 +22232,29 @@ Description-md5: a299b67a4fcecd70438a9eb9d0cafbf8
 Recommends: postgresql-client
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-pgsql_5.8.11-3+deb7u1_amd64.deb
-Size: 121108
-MD5sum: b2f40dafbdc704a60784ccca2cefbb58
-SHA1: 084e52c670fade6c82e6c57166ff2f140f929d40
-SHA256: e1a5b746c4c33598fab2a3d8f5f283e48f5d19ee279733a10c726bc3909eb6cd
+Filename: pool/updates/main/r/rsyslog/rsyslog-pgsql_5.8.11-3+deb7u2_amd64.deb
+Size: 121196
+MD5sum: 9fd3e282eb41c8db3aaf8e6cce1a56c9
+SHA1: a8e63fa3ebb00f2620a84de72fbb965c542f51f0
+SHA256: 89183b192875ddaf11c63b863cbdf8f58ec0cfc6e4d7855fe86f35511617a4e4
 
 Package: rsyslog-relp
 Source: rsyslog
-Version: 5.8.11-3+deb7u1
+Version: 5.8.11-3+deb7u2
 Installed-Size: 171
 Maintainer: Michael Biebl <biebl@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.3.4), librelp0 (>= 0.1.1), rsyslog (= 5.8.11-3+deb7u1)
+Depends: libc6 (>= 2.3.4), librelp0 (>= 0.1.1), rsyslog (= 5.8.11-3+deb7u2)
 Description: RELP protocol support for rsyslog
 Homepage: http://www.rsyslog.com/
 Description-md5: 89cdf90f04ac20a7dd663a762584b93c
 Section: admin
 Priority: extra
-Filename: pool/updates/main/r/rsyslog/rsyslog-relp_5.8.11-3+deb7u1_amd64.deb
-Size: 121354
-MD5sum: 4ab525835c172acc0d26ece4387569e2
-SHA1: 22e5702c139db8429e3c4fc394ea7dd2a4a0816d
-SHA256: 5d4f9eb4d186342fd4e6e6178d58020494ab22a8a1d69e5a9587b95436571439
+Filename: pool/updates/main/r/rsyslog/rsyslog-relp_5.8.11-3+deb7u2_amd64.deb
+Size: 121442
+MD5sum: bfc5806893d138e22fab82af87e586a3
+SHA1: 695e770e2efc081c64a3695b125620b8b20a5844
+SHA256: 6a6fc3223cb499f151f7a9ad204375103d0ff22d7cf710e67557aba7fa178994
 
 Package: ruby-actionmailer-3.2
 Version: 3.2.6-2+deb7u1
