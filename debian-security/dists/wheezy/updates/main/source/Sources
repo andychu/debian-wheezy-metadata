@@ -10882,6 +10882,49 @@ Directory: pool/updates/main/w/wireshark
 Priority: source
 Section: net
 
+Package: wireshark
+Binary: wireshark-common, wireshark, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark2, libwsutil2, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap2, libwiretap-dev
+Version: 1.8.2-5wheezy12
+Maintainer: Balint Reczey <balint@balintreczey.hu>
+Build-Depends: libgtk2.0-dev (>= 2.4.0-0), libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, automake, autoconf, autotools-dev, libc-ares-dev, xsltproc, docbook-xsl (>= 1.64.1.0-0), libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], bison, libgnutls-dev, portaudio19-dev, libkrb5-dev, liblua5.1-0-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ ae23b98e3365857f1f8db9c0e3b6e685 2952 wireshark_1.8.2-5wheezy12.dsc
+ 5e3ea7eed50dace479e12f49d24506f4 24121798 wireshark_1.8.2.orig.tar.bz2
+ 30fe1eefcb9555ad4e0e5246197d05e6 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/ext-maint/wireshark/trunk/
+Checksums-Sha1:
+ 1ab0d5716415dc90b6ea6487d147c649aeb3923a 2952 wireshark_1.8.2-5wheezy12.dsc
+ 4737d9745dbf002444ea42615243abf3bb80b943 24121798 wireshark_1.8.2.orig.tar.bz2
+ a1603f065a1b13eeece36d5d9e551128d6053506 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+Checksums-Sha256:
+ 01c4070fc2af0dd73f944a0d650cfa76125d097d72423846a7a629624578cec8 2952 wireshark_1.8.2-5wheezy12.dsc
+ 3f0e688d889345033e0a7e4f36aea78248e5c7b32d0dfc19eac044188aac11cc 24121798 wireshark_1.8.2.orig.tar.bz2
+ 747e7e97768c7a22b32c8d969c164666aa16e3ac8584058f10b46b9b4df5f943 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+Homepage: http://www.wireshark.org/
+Build-Conflicts: libsnmp-dev, libsnmp4.2-dev
+Dm-Upload-Allowed: yes
+Package-List: 
+ libwireshark-data deb libs optional
+ libwireshark-dev deb libdevel optional
+ libwireshark2 deb libs optional
+ libwiretap-dev deb libdevel optional
+ libwiretap2 deb libs optional
+ libwsutil-dev deb libdevel optional
+ libwsutil2 deb libs optional
+ tshark deb net optional
+ wireshark deb net optional
+ wireshark-common deb net optional
+ wireshark-dbg deb debug extra
+ wireshark-dev deb devel optional
+ wireshark-doc deb doc extra
+Vcs-Svn: svn://svn.debian.org/svn/collab-maint/ext-maint/wireshark/trunk
+Directory: pool/updates/main/w/wireshark
+Priority: source
+Section: net
+
 Package: wordpress
 Binary: wordpress, wordpress-l10n
 Version: 3.6.1+dfsg-1~deb7u4

@@ -26436,8 +26436,8 @@ SHA256: cf5a8bde4aa15b49dbda17807fca342e9e21de34c72b0253b0e822eecc870a8c
 
 Package: libwireshark-data
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 6047
+Version: 1.8.2-5wheezy12
+Installed-Size: 6048
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: all
 Replaces: wireshark-common (<< 1.4.0~rc2-1)
@@ -26448,77 +26448,77 @@ Homepage: http://www.wireshark.org/
 Description-md5: c97c84748e457d000a383c101c74e67e
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark-data_1.8.2-5wheezy11_all.deb
-Size: 1228448
-MD5sum: 489671e4556f47ba56ea0febf6dd4d4f
-SHA1: 85ec68e2493ee306bc8d26f868a45e5a20fd621c
-SHA256: 9d89a9fbfb057c8600f55fb1bfcdce041cbafe98d06a48e2c1abce3dd2fdb088
+Filename: pool/updates/main/w/wireshark/libwireshark-data_1.8.2-5wheezy12_all.deb
+Size: 1228538
+MD5sum: bb57dc933bd75e6d2b8518d4613ab9b8
+SHA1: bfa4ad5d9f7d68b2035d51dcacec3eb79fd7ab1d
+SHA256: 13a65ac2a993110550798ab390aacdc8544f0679be6ca2e1b418ee0ce729a262
 
 Package: libwireshark-dev
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 6140
+Version: 1.8.2-5wheezy12
+Installed-Size: 6201
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwsutil-dev, libwireshark2 (= 1.8.2-5wheezy11)
+Depends: libwsutil-dev, libwireshark2 (= 1.8.2-5wheezy12)
 Conflicts: wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet dissection library -- development files
 Homepage: http://www.wireshark.org/
 Description-md5: 25ccc1e5a9f0de13127d7669433e7838
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark-dev_1.8.2-5wheezy11_i386.deb
-Size: 885764
-MD5sum: 100041343dfe882853a6b7ca3cbc792f
-SHA1: f32df62d9894a7d5dab4825487e5179042026b4c
-SHA256: ebb9ec56db490f9dd48969e71101c9cb9ba8ecc9cc1c865f687a076f024bb27c
+Filename: pool/updates/main/w/wireshark/libwireshark-dev_1.8.2-5wheezy12_i386.deb
+Size: 907188
+MD5sum: 95cd9e15ea4f294d516a9a6bc4e59b61
+SHA1: 0f5fb4efeb545910cb088d7d862acebb24df6189
+SHA256: e6cabe6447ecc96e104a88d77da5173f4cf968e9f5007c9d80d94d81e221e2a4
 
 Package: libwireshark2
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 41995
+Version: 1.8.2-5wheezy12
+Installed-Size: 42042
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-common (<< 1.4.0~rc2-1)
-Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.11), libcomerr2 (>= 1.01), libgcrypt11 (>= 1.4.5), libgeoip1 (>= 1.4.8+dfsg), libglib2.0-0 (>= 2.24.0), libgnutls26 (>= 2.12.17-0), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblua5.1-0, libsmi2ldbl (>= 0.4.5+dfsg0), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.2-5wheezy11), zlib1g (>= 1:1.1.4), libwireshark-data (>= 1.8.2-5wheezy11)
-Suggests: wireshark-doc (>= 1.8.2-5wheezy11)
+Depends: libc-ares2 (>= 1.7.0), libc6 (>= 2.11), libcomerr2 (>= 1.01), libgcrypt11 (>= 1.4.5), libgeoip1 (>= 1.4.8+dfsg), libglib2.0-0 (>= 2.24.0), libgnutls26 (>= 2.12.17-0), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblua5.1-0, libsmi2ldbl (>= 0.4.5+dfsg0), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.2-5wheezy12), zlib1g (>= 1:1.1.4), libwireshark-data (>= 1.8.2-5wheezy12)
+Suggests: wireshark-doc (>= 1.8.2-5wheezy12)
 Conflicts: wireshark-common (<< 1.4.0~rc2-1)
 Description: network packet dissection library -- shared library
 Homepage: http://www.wireshark.org/
 Description-md5: ab8eca3dff7b66974ed95f1142899d51
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwireshark2_1.8.2-5wheezy11_i386.deb
-Size: 11207560
-MD5sum: bb62ded9c2bdfed6533d79062fb6dafd
-SHA1: dd8215a07fce70e3c2c3ba6973b071d290f15c26
-SHA256: 597260ecbe56395528b10c5e65025fb90f85b12b576cb956ddadd71f922f8889
+Filename: pool/updates/main/w/wireshark/libwireshark2_1.8.2-5wheezy12_i386.deb
+Size: 11209722
+MD5sum: 75a894d35380f0714b3fcb1b8112eb7c
+SHA1: 3d239ce2097592b46ccc7d91d68fe1de5d1b6b8a
+SHA256: 1a5f6f4beffdab1ac6eb4df728850ea2479a92e7c9479177413c2d63982ff516
 
 Package: libwiretap-dev
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 195
+Version: 1.8.2-5wheezy12
+Installed-Size: 233
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwiretap2 (= 1.8.2-5wheezy11)
+Depends: libwiretap2 (= 1.8.2-5wheezy12)
 Conflicts: wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet capture library -- development files
 Homepage: http://www.wireshark.org/
 Description-md5: d73a1db8a1c3f10d102f6ec2bbe8ac1d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwiretap-dev_1.8.2-5wheezy11_i386.deb
-Size: 69854
-MD5sum: 31c1fda8eabd0929919e02153564afc5
-SHA1: cf63be390b4cefdca53da37ed317a3720158a551
-SHA256: e831c30b0e19c70d4d5400c4ced0eca7845b0e470cab76a1c2bc897ce3e45779
+Filename: pool/updates/main/w/wireshark/libwiretap-dev_1.8.2-5wheezy12_i386.deb
+Size: 70156
+MD5sum: eb472d04ebaf4e5a65ff146e19ac14c1
+SHA1: b3cc9e40540df4b38f56551558517d2ba8116c80
+SHA256: 9be72fa199b77c24af5f247ffdddcd2ee2f82bc237d0434d9541746084c55e2f
 
 Package: libwiretap2
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 392
+Version: 1.8.2-5wheezy12
+Installed-Size: 419
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.2.2.4)
@@ -26528,36 +26528,36 @@ Homepage: http://www.wireshark.org/
 Description-md5: 53f24fb24199bc18b3acbf46dcc09d4c
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwiretap2_1.8.2-5wheezy11_i386.deb
-Size: 197888
-MD5sum: 28c7829c130453977a6d3076479a0e5d
-SHA1: 7c4354b526ce4baf3a130bf2bb47ca5a577f906a
-SHA256: 286dddbb5137c69e12dd3f33f13d8f08080e8015883e63abf9b41b9837ed25d8
+Filename: pool/updates/main/w/wireshark/libwiretap2_1.8.2-5wheezy12_i386.deb
+Size: 198012
+MD5sum: 571d9b880d8b8c52de7466c57b770acf
+SHA1: 3d81f47dfcf737634b43b56790e93a2725efa619
+SHA256: 745868b02e9f6bd9c8f751db32494d5f3a5564146b14f381c04ff71efefb5740
 
 Package: libwsutil-dev
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 98
+Version: 1.8.2-5wheezy12
+Installed-Size: 137
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: libwireshark-dev (<< 1.4.2-2), wireshark-common (<< 1.4.0~rc2-1), wireshark-dev (<< 1.4.0~rc2-1)
-Depends: libwsutil2 (= 1.8.2-5wheezy11)
+Depends: libwsutil2 (= 1.8.2-5wheezy12)
 Conflicts: libwireshark-dev (<< 1.4.2-2), wireshark-common (<< 1.4.0~rc2-1), wireshark-dev (<< 1.4.0~rc2-1)
 Description: network packet dissection utilities library -- shared library
 Homepage: http://www.wireshark.org/
 Description-md5: 4338ff9a5db3dca968546fe05e373f99
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwsutil-dev_1.8.2-5wheezy11_i386.deb
-Size: 49412
-MD5sum: 7e8cf27b3c3edb3fcadef2d26f878d3e
-SHA1: eea14a36a5b9d47878a4f9c60f96abda7e761684
-SHA256: bb02f82d63da55ab6e7d5bafc8fd2ab1d9cc0dc2b163ea422819900dbcff49e4
+Filename: pool/updates/main/w/wireshark/libwsutil-dev_1.8.2-5wheezy12_i386.deb
+Size: 49466
+MD5sum: 2d827ffc4f20ca05bdd8b88d56721881
+SHA1: 0d5a9386868d2ac08383624411e39ce8cc1032d4
+SHA256: a83d6971fcc75862a7b0d9bee3eefc05cc1e452e4458b6152a454080ffbd4f6b
 
 Package: libwsutil2
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 71
+Version: 1.8.2-5wheezy12
+Installed-Size: 106
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: libwireshark1 (<< 1.4.2-2), wireshark-common (<< 1.4.0~rc2-1)
@@ -26568,94 +26568,94 @@ Homepage: http://www.wireshark.org/
 Description-md5: 4e45c2f2a067e24465ed693d8a935358
 Section: libs
 Priority: optional
-Filename: pool/updates/main/w/wireshark/libwsutil2_1.8.2-5wheezy11_i386.deb
-Size: 51158
-MD5sum: 214ac2b776e3d96e7891103869ffe099
-SHA1: d19a3bf32b7af478d0e5f4dea802a1bda64078a0
-SHA256: a8efd3375117d0dc641ca0f09202554607c32bc30b683eec676056f0c3d2a10d
+Filename: pool/updates/main/w/wireshark/libwsutil2_1.8.2-5wheezy12_i386.deb
+Size: 51084
+MD5sum: 80bb9aaed924088785f53b6e76b1ee0c
+SHA1: b41b020f1b2ecfc323ff4e1e9c7acfb7e28a1175
+SHA256: aa9b7328035bf610b0901f07528f1328e035e3d1e9f8348f4c3b469412d409a1
 
 Package: tshark
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 343
+Version: 1.8.2-5wheezy12
+Installed-Size: 379
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: tethereal (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libpcap0.8 (>= 0.9.8), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy11)
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libpcap0.8 (>= 0.9.8), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy12)
 Conflicts: tethereal (<< 1.0.0-3)
 Description: network traffic analyzer - console version
 Homepage: http://www.wireshark.org/
 Description-md5: 17aa46d351c7c1a5aa0e49637765c939
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/tshark_1.8.2-5wheezy11_i386.deb
-Size: 181084
-MD5sum: 45eaf6d5a77854a2174e62084fa4622d
-SHA1: 531343d29c64fb5d35fdf6b1a1987f232b0acce1
-SHA256: 04c50be5ff1a583b87211ff86ac5009c129418aa5043ea03426d80a2f349d862
+Filename: pool/updates/main/w/wireshark/tshark_1.8.2-5wheezy12_i386.deb
+Size: 180062
+MD5sum: 35f25a0d1b0ed7c7f21a6cfc8094a5ec
+SHA1: c4f27ca3560e6c8e2b035f82731c9a0ea88584b2
+SHA256: ef11c855fb6eaa0640423c59b960085ac1564683cb9610f8e98326bcf7507af7
 
 Package: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 2331
+Version: 1.8.2-5wheezy12
+Installed-Size: 2401
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: ethereal (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libportaudio2 (>= 19+svn20101113), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy11)
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libpango1.0-0 (>= 1.14.0), libpcap0.8 (>= 0.9.8), libportaudio2 (>= 19+svn20101113), libwireshark2 (>= 1.8.0~rc1-1), libwiretap2 (>= 1.8.0~rc1-1), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), wireshark-common (= 1.8.2-5wheezy12)
 Conflicts: ethereal (<< 1.0.0-3)
 Description: network traffic analyzer - GTK+ version
 Homepage: http://www.wireshark.org/
 Description-md5: 205b792665989c3882b556e37286b93b
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark_1.8.2-5wheezy11_i386.deb
-Size: 950886
-MD5sum: c0d1140c52ed97300348d1f886b3620a
-SHA1: 7b8f2e82a9f8398890a3f1236f3459483b556845
-SHA256: 61bc12730d68d15da5bb1af9fa98dc369412709174e892b9a2db162b376dcb29
+Filename: pool/updates/main/w/wireshark/wireshark_1.8.2-5wheezy12_i386.deb
+Size: 952762
+MD5sum: d73e0b76f611f46809ee196200193212
+SHA1: 65ad1d7f317763dd79b5db13c5634a69bb016cb4
+SHA256: 742087c83380ec2516c139e19b640d7b44464dd285a5a683b089b28c6b0f5c51
 
 Package: wireshark-common
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 418
+Version: 1.8.2-5wheezy12
+Installed-Size: 465
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: ethereal-common (<< 1.0.0-3)
-Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.18), libpcap0.8 (>= 1.0.0), libwireshark2 (>= 1.8.2-5wheezy11), libwiretap2 (>= 1.8.2-5wheezy11), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, debconf, libcap2-bin
+Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.31.18), libpcap0.8 (>= 1.0.0), libwireshark2 (>= 1.8.2-5wheezy12), libwiretap2 (>= 1.8.2-5wheezy12), libwsutil2 (>= 1.8.0~rc1-1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, debconf, libcap2-bin
 Conflicts: ethereal-common (<< 1.0.0-3)
 Description: network traffic analyzer - common files
 Homepage: http://www.wireshark.org/
 Description-md5: 179c480769d1d5484751aefc4cde59a3
-Recommends: wireshark (>= 1.8.2-5wheezy11) | tshark (>= 1.8.2-5wheezy11)
+Recommends: wireshark (>= 1.8.2-5wheezy12) | tshark (>= 1.8.2-5wheezy12)
 Section: net
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark-common_1.8.2-5wheezy11_i386.deb
-Size: 228164
-MD5sum: 6e50b3f29005895964b31a1c87321e52
-SHA1: c5b51245dae43ddfba9ee2f452edbd699be17052
-SHA256: 2b4799f7175371ad25c1364cc0dabd2f1dc84b68cb51595a1e595c3dbe3160f0
+Filename: pool/updates/main/w/wireshark/wireshark-common_1.8.2-5wheezy12_i386.deb
+Size: 227840
+MD5sum: b2086883e31afd17caacbf67a5451c55
+SHA1: ecec95246eae38d9c33c9e3c79697715c82fa63b
+SHA256: 75663c2a62eae32fb5abc4aa6712047170f201f6c4ea17ca5f3c4f5edfba9f2e
 
 Package: wireshark-dbg
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 34270
+Version: 1.8.2-5wheezy12
+Installed-Size: 34388
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
-Depends: wireshark-common (= 1.8.2-5wheezy11) | wireshark (= 1.8.2-5wheezy11) | tshark (= 1.8.2-5wheezy11)
+Depends: wireshark-common (= 1.8.2-5wheezy12) | wireshark (= 1.8.2-5wheezy12) | tshark (= 1.8.2-5wheezy12)
 Description: network traffic analyzer - debug symbols
 Homepage: http://www.wireshark.org/
 Description-md5: ba38ed4dbd6ce38fc32ddb8b86b6a122
 Section: debug
 Priority: extra
-Filename: pool/updates/main/w/wireshark/wireshark-dbg_1.8.2-5wheezy11_i386.deb
-Size: 25972202
-MD5sum: e3e602f4a959ca399545517170839b10
-SHA1: 0863583f34682bb0f80534115a79ebe09b7d9a0f
-SHA256: eea851485450b30234edc0d566d706afc32c5d9f61ce2862677cbc6619fcd1bd
+Filename: pool/updates/main/w/wireshark/wireshark-dbg_1.8.2-5wheezy12_i386.deb
+Size: 25971966
+MD5sum: 0da19791a745d2b205870a013312b6eb
+SHA1: 22db6a45ea6bbc1774eb5c572b3b0b007797af06
+SHA256: 0f614b3a117ea5fdbf3352ca13011ec2e629c457e0169c9e1c5127775bdb4d16
 
 Package: wireshark-dev
 Source: wireshark
-Version: 1.8.2-5wheezy11
-Installed-Size: 488
+Version: 1.8.2-5wheezy12
+Installed-Size: 546
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: i386
 Replaces: ethereal-dev (<< 1.0.0-3)
@@ -26666,15 +26666,15 @@ Homepage: http://www.wireshark.org/
 Description-md5: 7a344f6feb13aa3b18ede52debae4fe2
 Section: devel
 Priority: optional
-Filename: pool/updates/main/w/wireshark/wireshark-dev_1.8.2-5wheezy11_i386.deb
-Size: 178428
-MD5sum: 394a3ef3f2e578ab4773d0e7d6d3cb8e
-SHA1: ed3204d0014e606e2267a40e713b7757df847ee2
-SHA256: ed1ec132912b595abab51ec4560a243eed2aa27a4dc70083dd8a5f1e84839e09
+Filename: pool/updates/main/w/wireshark/wireshark-dev_1.8.2-5wheezy12_i386.deb
+Size: 179330
+MD5sum: 6e7153fa6deb635f84feb6a9e706de14
+SHA1: 5d52eaee8b0142035b7c527ee368f91a2eb8d2f5
+SHA256: ccb74f4578d85a27f686a531dd6c0d66e62ecae4ad1c8dd0479980141b9938c5
 
 Package: wireshark-doc
 Source: wireshark
-Version: 1.8.2-5wheezy11
+Version: 1.8.2-5wheezy12
 Installed-Size: 5371
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Architecture: all
@@ -26683,11 +26683,11 @@ Homepage: http://www.wireshark.org/
 Description-md5: ed8b1896882405b928131b74c90e0b57
 Section: doc
 Priority: extra
-Filename: pool/updates/main/w/wireshark/wireshark-doc_1.8.2-5wheezy11_all.deb
-Size: 3884714
-MD5sum: dc3a811c8f2ef4d429fd5c2c68b62792
-SHA1: 06ee22cdf79fc1d66fe37d42876716d2d6c057f3
-SHA256: c3495cb7952e0d61b415191db47386f4d129b322ef5f9d56ffdd043cddc981f0
+Filename: pool/updates/main/w/wireshark/wireshark-doc_1.8.2-5wheezy12_all.deb
+Size: 3884804
+MD5sum: 19cff687fdd660cd2c0c2a7ca7da651d
+SHA1: e15eb45035a45ce08894f1c23bdc531c7c80c6ab
+SHA256: 988d477a25b295fa3e76160f29ca2910e30ffac765551fe04f4963bb7f0e3d4b
 
 Package: wordpress
 Version: 3.6.1+dfsg-1~deb7u4
