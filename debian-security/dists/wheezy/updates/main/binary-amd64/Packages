@@ -2526,8 +2526,8 @@ SHA1: 47c95b017e2d3f914921bbf721e264312d815f0b
 SHA256: 18a40e9f826f7ada39a03356924b86f14cc342e2ee0209459e394c89095b8073
 
 Package: drupal7
-Version: 7.14-2+deb7u6
-Installed-Size: 12075
+Version: 7.14-2+deb7u7
+Installed-Size: 12076
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: all
 Depends: debconf (>= 0.5) | debconf-2.0, apache2 | httpd, php5, php5-mysql | php5-pgsql, php5-gd, default-mta | mail-transport-agent, wwwconfig-common (>= 0.0.37), mysql-client | virtual-mysql-client | postgresql-client, dbconfig-common, curl
@@ -2537,11 +2537,11 @@ Description-md5: dd7e5186ca307310e24c18e49f63e5d9
 Recommends: mysql-server | postgresql
 Section: web
 Priority: extra
-Filename: pool/updates/main/d/drupal7/drupal7_7.14-2+deb7u6_all.deb
-Size: 3182150
-MD5sum: 1a0babfb4a86b2a9400f34e41804a79e
-SHA1: 98b5e2ed6a1eca85c8d820365ee64e6152109e68
-SHA256: 56fbc2f1d648c05f5fbb7faafc8ebcb8a81ad56cd9ee3a279fe25a16ae820d6e
+Filename: pool/updates/main/d/drupal7/drupal7_7.14-2+deb7u7_all.deb
+Size: 3183714
+MD5sum: afb39cb52ecf4e6052dd8927f98cb220
+SHA1: e54ceb5bcdf074c920957016562eb58e820f9528
+SHA256: 1caf102ea418786fcd2e39a8ac4b065b6f1aa639c09b39c4ed826b399fb0f6ed
 
 Package: eglibc-source
 Source: eglibc
@@ -26360,6 +26360,65 @@ Size: 3740082
 MD5sum: 6fa3a5100ab2a7a87533ec7ff6fe4b01
 SHA1: f4bb505cf10cd174a18362ea3bcf05e78b66d825
 SHA256: 1fdb498ef189397f8fcae4430a61b781a2b6ab7271950a9d60cef1d782f78613
+
+Package: hostapd
+Source: wpa (1.0-3+deb7u1)
+Version: 1:1.0-3+deb7u1
+Installed-Size: 1055
+Maintainer: Debian/Ubuntu wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl1.0.0 (>= 1.0.0), lsb-base (>= 3.2-13), initscripts (>= 2.88dsf-13.3)
+Description: user space IEEE 802.11 AP and IEEE 802.1X/WPA/WPA2/EAP Authenticator
+Homepage: http://w1.fi/wpa_supplicant/
+Description-md5: 0ccc71eb40c66d3955853f36e0eb3b68
+Multi-Arch: foreign
+Section: net
+Priority: optional
+Filename: pool/updates/main/w/wpa/hostapd_1.0-3+deb7u1_amd64.deb
+Size: 476162
+MD5sum: acf58b2cdfe625a4977ea6c038c884a4
+SHA1: d5e724d8042f681205052e7d749d63362410a9c2
+SHA256: c46d6012820a589a16063d42590e93fcc0fb7694186808772c61f3e6d4eada38
+
+Package: wpagui
+Source: wpa
+Version: 1.0-3+deb7u1
+Installed-Size: 790
+Maintainer: Debian/Ubuntu wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libstdc++6 (>= 4.1.1), wpasupplicant (>= 0.7.3~), libqt4-svg
+Description: graphical user interface for wpa_supplicant
+Homepage: http://w1.fi/wpa_supplicant/
+Description-md5: ff6f6b78c6e933f8b6abafcd0fce9276
+Multi-Arch: foreign
+Recommends: menu
+Section: net
+Priority: optional
+Filename: pool/updates/main/w/wpa/wpagui_1.0-3+deb7u1_amd64.deb
+Size: 368680
+MD5sum: 9e3c2b534f4c99bbfdaa09cbe820840c
+SHA1: 65be775a80baee10623991807a9c3b9788b9f0ff
+SHA256: 318df62d73e7752da8f648d17f11b089b63a2ee81cf3dccc13a3fb23b5227282
+
+Package: wpasupplicant
+Source: wpa
+Version: 1.0-3+deb7u1
+Installed-Size: 1364
+Maintainer: Debian/Ubuntu wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libdbus-1-3 (>= 1.1.4), libncurses5 (>= 5.5-5~), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libpcsclite1, libreadline5 (>= 5.2), libssl1.0.0 (>= 1.0.0), libtinfo5, lsb-base (>= 3.0-6), adduser, initscripts (>= 2.88dsf-13.3)
+Suggests: wpagui, libengine-pkcs11-openssl
+Description: client support for WPA and WPA2 (IEEE 802.11i)
+Homepage: http://w1.fi/wpa_supplicant/
+Description-md5: db096b22f8ec5f5c7a8ec614d12ca20a
+Multi-Arch: foreign
+Section: net
+Priority: optional
+Filename: pool/updates/main/w/wpa/wpasupplicant_1.0-3+deb7u1_amd64.deb
+Size: 608696
+MD5sum: 553a32d8ce1ae7b5a281cceddd49ea36
+SHA1: cbe50b4186ff2d254c342e287060dad20edf4d46
+SHA256: 9e734bed8ac6b92742df5fcdf6d9359b7c9b6a15d784c8c774796dbd2ab07e62
 
 Package: xbuffy
 Version: 3.3.bl.3.dfsg-8+deb7u1

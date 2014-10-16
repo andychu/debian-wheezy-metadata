@@ -721,25 +721,25 @@ Section: admin
 
 Package: drupal7
 Binary: drupal7
-Version: 7.14-2+deb7u6
+Version: 7.14-2+deb7u7
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 0d975b7621900bedcadb1e214628e042 1832 drupal7_7.14-2+deb7u6.dsc
+ 362d6bfa7d6bf7c20aeeb911d815a4c8 1832 drupal7_7.14-2+deb7u7.dsc
  af7abd95c03ecad4e1567ed94a438334 3128473 drupal7_7.14.orig.tar.gz
- 33929eeaebec1d02bfc14ea2c2adf743 225138 drupal7_7.14-2+deb7u6.debian.tar.gz
+ edc81a00bd61c91ca7721ee8577d4134 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-drupal/branches/drupal7
 Checksums-Sha1:
- 65bb712c3d78473efb1e205861f46c79fb2077f1 1832 drupal7_7.14-2+deb7u6.dsc
+ 5527c926c01252ed2271710b3625b970da7d3034 1832 drupal7_7.14-2+deb7u7.dsc
  ab33bea454fed20c535e37a71cea6004599488c3 3128473 drupal7_7.14.orig.tar.gz
- 447f51dd5007f7c0b0b800e1104147adaa7b133d 225138 drupal7_7.14-2+deb7u6.debian.tar.gz
+ f8bd2ba7561af4f78054a1eaf40d08a330a84443 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
 Checksums-Sha256:
- 17f9eaef3c2ebfd4e96b28a003149fc75d67ae1855951519ba683dcaa0fe60bf 1832 drupal7_7.14-2+deb7u6.dsc
+ 4c17a4a3ec06658edd7922c4d88e9db94c02d05545f1aa51d6ba2bf8b72a696d 1832 drupal7_7.14-2+deb7u7.dsc
  17db094aaa78d76ec6a3517171f1d8c158745eee2e19006d5ed97b7ffc2c54da 3128473 drupal7_7.14.orig.tar.gz
- dab15bdc3380aae196ca141a26ce59a2f3512def82907ca73653187f612e5c43 225138 drupal7_7.14-2+deb7u6.debian.tar.gz
+ 331c502d3cc0c0b803683d50258cf9a2e17b2c18f9555781eaec8d6bfbc92f4c 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
 Homepage: http://www.drupal.org/
 Package-List: 
  drupal7 deb web extra
@@ -10956,6 +10956,40 @@ Package-List:
 Directory: pool/updates/main/w/wordpress
 Priority: source
 Section: web
+
+Package: wpa
+Binary: hostapd, wpagui, wpasupplicant, wpasupplicant-udeb
+Version: 1.0-3+deb7u1
+Maintainer: Debian/Ubuntu wpasupplicant Maintainers <pkg-wpa-devel@lists.alioth.debian.org>
+Uploaders: Kel Modderman <kel@otaku42.de>, Stefan Lippers-Hollmann <s.l-h@gmx.de>, Jan Dittberner <jandd@debian.org>
+Build-Depends: debhelper (>> 9.20120115), libdbus-glib-1-dev, libssl-dev, libqt4-dev, libdbus-1-dev, libncurses5-dev, libpcsclite-dev, libnl-3-dev (>= 3.2.3-2~) [linux-any], libnl-genl-3-dev (>= 3.2.3-2~) [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-gplv2-dev, pkg-config, qt4-qmake, docbook-to-man, docbook-utils
+Architecture: linux-any kfreebsd-any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ c450f24b3f15fd82463e3dd74912494d 3157 wpa_1.0-3+deb7u1.dsc
+ e10f984c2ad1b1401292fe842d6169c0 1973926 wpa_1.0.orig.tar.gz
+ 1c10fe0ca0cf37622e2c1775ee002795 88566 wpa_1.0-3+deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-wpa/wpa/trunk/
+Checksums-Sha1:
+ 280c90ff1ede69932f3d78efb01c1ce185a5f573 3157 wpa_1.0-3+deb7u1.dsc
+ f89b69e4795eec697e4542309430b3003473704c 1973926 wpa_1.0.orig.tar.gz
+ e273fe1731694119a74f08ffb4a60ab241815551 88566 wpa_1.0-3+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 35cb768a6613d1528798f0e7b54aac5f553b3430fe3751fb614cef9772c29ac8 3157 wpa_1.0-3+deb7u1.dsc
+ f2e91686ed250850b4929d8b48a8eae0b7b13c333ebbf4230d173379964240ef 1973926 wpa_1.0.orig.tar.gz
+ ddab9c5bc1f69ae64f4e916f4e2af90bef9f946ea4f9ac69e11c7e460d096069 88566 wpa_1.0-3+deb7u1.debian.tar.gz
+Homepage: http://w1.fi/wpa_supplicant/
+Build-Conflicts: libqt3-dev
+Package-List: 
+ hostapd deb net optional
+ wpagui deb net optional
+ wpasupplicant deb net optional
+ wpasupplicant-udeb udeb debian-installer standard
+Vcs-Svn: svn://anonscm.debian.org/svn/pkg-wpa/wpa/trunk/
+Directory: pool/updates/main/w/wpa
+Priority: source
+Section: net
 
 Package: xbuffy
 Binary: xbuffy
