@@ -18899,25 +18899,25 @@ SHA256: 444f55a64cb662d32b4afaee6b852962d641dd473326e2a37a348cfbd101fbe4
 
 Package: libssl-dev
 Source: openssl
-Version: 1.0.1e-2+deb7u12
-Installed-Size: 6321
+Version: 1.0.1e-2+deb7u13
+Installed-Size: 6323
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u12), zlib1g-dev
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u13), zlib1g-dev
 Description: SSL development libraries, header files and documentation
 Description-md5: 3f77df7ec43dcb3f3b73c312168c730e
 Recommends: libssl-doc
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/o/openssl/libssl-dev_1.0.1e-2+deb7u12_amd64.deb
-Size: 1753906
-MD5sum: 03d843dcfb4bdbfd10baec3610d1651b
-SHA1: a8251d6f516bb87a3935223d09ac34c0444a181d
-SHA256: 8848d21f98c24e5f1bc369febacad3958480340249ed5f09c40d677970c841f8
+Filename: pool/updates/main/o/openssl/libssl-dev_1.0.1e-2+deb7u13_amd64.deb
+Size: 1754786
+MD5sum: dbe81f7bf4ee93a2418f20243f5e947f
+SHA1: d76215f4394d83fc89ffcd68547aabdb20d75f36
+SHA256: a940f95ad00af955182d2edf60fb7a631b6e3078002c7c45ced8e006f2472152
 
 Package: libssl-doc
 Source: openssl
-Version: 1.0.1e-2+deb7u12
+Version: 1.0.1e-2+deb7u13
 Installed-Size: 1423
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: all
@@ -18927,15 +18927,15 @@ Description: SSL development documentation documentation
 Description-md5: 59333bc869a0fa9208d500d5cabc20fd
 Section: doc
 Priority: optional
-Filename: pool/updates/main/o/openssl/libssl-doc_1.0.1e-2+deb7u12_all.deb
-Size: 1198264
-MD5sum: 4bfe113ed1bd5d483beea0a7345df442
-SHA1: c5aaac7af7ceb9e9ecab59d7bf45ae7440d84bc8
-SHA256: 027784dd6f99f1a9620c6dc2fa05e83e6e94b369b08d71ceaced90a8c4c3d135
+Filename: pool/updates/main/o/openssl/libssl-doc_1.0.1e-2+deb7u13_all.deb
+Size: 1198370
+MD5sum: b3f833b63b3263bc3388ee0ff41ddb23
+SHA1: 5b6cede0798157800ff3f6f1f001297704c04bf6
+SHA256: f405e31715ae133437736ab58ff26c4339bdb94b4d332fd40e2ab89f467a2e0a
 
 Package: libssl1.0.0
 Source: openssl
-Version: 1.0.1e-2+deb7u12
+Version: 1.0.1e-2+deb7u13
 Installed-Size: 3042
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -18946,32 +18946,32 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: important
-Filename: pool/updates/main/o/openssl/libssl1.0.0_1.0.1e-2+deb7u12_amd64.deb
-Size: 1258872
-MD5sum: f520c2970892d22a89e472fe9a49f52c
-SHA1: 06918b139a20f931432a5180b94dcd3fa2a85842
-SHA256: 6ea07fbd447bb43b44179d26a3af9d46cb9525a9d8c0f661a3b1e20afdc13cde
+Filename: pool/updates/main/o/openssl/libssl1.0.0_1.0.1e-2+deb7u13_amd64.deb
+Size: 1259306
+MD5sum: b2a9bee4ea8d15b77f8155ccd1da98ed
+SHA1: a18212f47e1d714df0849e3c16abb4d32ef5f770
+SHA256: 1138c3f6a32fc23f32a07d27cab196343f152c1815484e4bdafaf4cd9f4acf42
 
 Package: libssl1.0.0-dbg
 Source: openssl
-Version: 1.0.1e-2+deb7u12
+Version: 1.0.1e-2+deb7u13
 Installed-Size: 9663
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libssl1.0.0 (= 1.0.1e-2+deb7u12)
+Depends: libssl1.0.0 (= 1.0.1e-2+deb7u13)
 Description: Symbol tables for libssl and libcrypto
 Description-md5: fedfa89ced3aa67317f9dac7ba5308da
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/o/openssl/libssl1.0.0-dbg_1.0.1e-2+deb7u12_amd64.deb
-Size: 3079950
-MD5sum: fdc3f37782e7513e9b49bb81c3a3da67
-SHA1: b199cbf827da87ac04c2a8d712564695905bfdeb
-SHA256: 5e9726b8b2bb666cb3c24950ce15094512e39e1d3ff15dcbd17c6a864eca9e5c
+Filename: pool/updates/main/o/openssl/libssl1.0.0-dbg_1.0.1e-2+deb7u13_amd64.deb
+Size: 3079836
+MD5sum: 6940d4313fc37086e4887d578e8620d0
+SHA1: 0ec0f8b6c2d77aceca6cc8078206163980761d1d
+SHA256: 7c8a5dfe8c9506946ef55efd8ebc5bbc4338108ccb3d356f717273813dcbe9e3
 
 Package: openssl
-Version: 1.0.1e-2+deb7u12
+Version: 1.0.1e-2+deb7u13
 Installed-Size: 1082
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -18981,11 +18981,11 @@ Description: Secure Socket Layer (SSL) binary and related cryptographic tools
 Description-md5: 977022bc5545601176b69704acc5df9b
 Section: utils
 Priority: optional
-Filename: pool/updates/main/o/openssl/openssl_1.0.1e-2+deb7u12_amd64.deb
-Size: 700646
-MD5sum: b0bc3f80b3b9fd7016243ed623387128
-SHA1: b01e36c0656bad0c3de6e09976e32417a62e1131
-SHA256: 3d31dfe08bce2918f5101c7c7a1a436a36939d8d77845bac12b2872229318185
+Filename: pool/updates/main/o/openssl/openssl_1.0.1e-2+deb7u13_amd64.deb
+Size: 700820
+MD5sum: c038983367e17bdcafe79b39cd994679
+SHA1: 9bef65bfed1e78486feaed5ca5171d186dbb4e39
+SHA256: 720572b6a124549bcecb520b8d13ee6092cc7a7f2141033a4365995183636383
 
 Package: openswan
 Version: 1:2.6.37-3+deb7u1
