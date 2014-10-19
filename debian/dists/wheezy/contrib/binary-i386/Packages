@@ -874,12 +874,12 @@ SHA1: 0e8c83dfc7dfa6575d3d2380cb25b620c18ecf74
 SHA256: ea717cff0ff49feb10e05821caaa42f1ac67b2d9291f80d9f64b92f081812d8e
 
 Package: flashplugin-nonfree
-Version: 1:3.2
-Installed-Size: 177
+Version: 1:3.2+wheezy1
+Installed-Size: 29
 Maintainer: Bart Martens <bartm@debian.org>
 Architecture: i386
 Replaces: flashplugin (<< 6)
-Depends: debconf | debconf-2.0, wget, gnupg, libatk1.0-0, libcairo2, libfontconfig1, libfreetype6, libgcc1, libglib2.0-0, libgtk2.0-0 (>= 2.14), libnspr4, libnss3, libpango1.0-0, libstdc++6, libx11-6, libxext6, libxt6, libcurl3-gnutls, binutils
+Depends: debconf | debconf-2.0, wget, gnupg, libatk1.0-0, libcairo2, libfontconfig1, libfreetype6, libgcc1, libglib2.0-0, libgtk2.0-0 (>= 2.14), libnspr4, libnss3, libpango1.0-0, libstdc++6, libx11-6, libxext6, libxt6, libcurl3-gnutls, binutils, ca-certificates
 Suggests: iceweasel, konqueror-nsplugins, ttf-mscorefonts-installer, ttf-dejavu, ttf-xfree86-nonfree, flashplugin-nonfree-extrasound, hal
 Conflicts: flashplayer-mozilla, flashplugin (<< 6), libflash-mozplugin, xfs (<< 1:1.0.1-5)
 Description: Adobe Flash Player - browser plugin
@@ -890,11 +890,11 @@ Tag: interface::x11, role::plugin, uitoolkit::gtk, use::browsing,
  works-with::video
 Section: contrib/web
 Priority: optional
-Filename: pool/contrib/f/flashplugin-nonfree/flashplugin-nonfree_3.2_i386.deb
-Size: 20126
-MD5sum: ac5583da4a414b80c521921fe94b2449
-SHA1: 7783cf8ae2d9bb0f56ad738863161673f0e61129
-SHA256: 62a235552b5a214191deb99a483bd723605532dd6a7979ffe10c01589bbbc9f1
+Filename: pool/contrib/f/flashplugin-nonfree/flashplugin-nonfree_3.2+wheezy1_i386.deb
+Size: 18344
+MD5sum: 8070b84e05177f04c6105b348f728949
+SHA1: aa2c77f1118cf0ab730ceca037febe90270ff0ce
+SHA256: e16ad561c50da17ed51ba1186d3c2d9302abfd503bc12b7f63767a58a13e5b24
 
 Package: flashplugin-nonfree-extrasound
 Version: 0.0.svn2431-3
