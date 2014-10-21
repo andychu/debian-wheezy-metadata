@@ -8243,6 +8243,47 @@ Directory: pool/updates/main/m/mysql-5.5
 Priority: source
 Section: misc
 
+Package: mysql-5.5
+Binary: libmysqlclient18, libmysqld-pic, libmysqld-dev, libmysqlclient-dev, mysql-common, mysql-client-5.5, mysql-server-core-5.5, mysql-server-5.5, mysql-server, mysql-client, mysql-testsuite-5.5, mysql-source-5.5
+Version: 5.5.40-0+wheezy1
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Uploaders: Norbert Tretkowski <norbert@tretkowski.de>, Clint Byrum <clint@ubuntu.com>, Nicholas Bamber <nicholas@periapt.co.uk>
+Build-Depends: debhelper (>= 8.1.3~), libaio-dev [linux-any], libncurses5-dev (>= 5.0-6), perl, libwrap0-dev (>= 7.6-8.3), zlib1g-dev (>= 1:1.1.3-5), libreadline-dev, po-debconf, psmisc, chrpath, doxygen-latex, ghostscript, gawk, bison, lsb-release, hardening-wrapper, cmake, gcc-4.4 [any-i386], g++-4.4 [any-i386]
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 7d8065cb802d09b1e5f11dcefd4a3b72 2938 mysql-5.5_5.5.40-0+wheezy1.dsc
+ 90c5a7b69e833c393de5f07659b786bd 21727672 mysql-5.5_5.5.40.orig.tar.gz
+ 5fa39b908460d9149e508fdbfb393eb0 375655 mysql-5.5_5.5.40-0+wheezy1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-mysql/mysql-5.5.git
+Vcs-Git: git://git.debian.org/git/pkg-mysql/mysql-5.5.git
+Checksums-Sha1:
+ 2f88649ebc27eb93f1513bd16ae4d15c8df6fd7c 2938 mysql-5.5_5.5.40-0+wheezy1.dsc
+ b93a1b14ab2de390014e99b4293e7835da133196 21727672 mysql-5.5_5.5.40.orig.tar.gz
+ c280068b4b3a84fbefa844fec9ce2530c3cbb14e 375655 mysql-5.5_5.5.40-0+wheezy1.debian.tar.gz
+Checksums-Sha256:
+ b5527f053ea1919e36ae39911222f884b8eecc845be506b4c000873e86a7393a 2938 mysql-5.5_5.5.40-0+wheezy1.dsc
+ 4d3721761a31c28866e8ee0fde47558a3e9047aaef3b89135ae8d45eebb74960 21727672 mysql-5.5_5.5.40.orig.tar.gz
+ 81631a228730cc8db0f0c1b3519b42df644dbd1fae8d2402a90974743dc263a7 375655 mysql-5.5_5.5.40-0+wheezy1.debian.tar.gz
+Homepage: http://dev.mysql.com/
+Package-List: 
+ libmysqlclient-dev deb libdevel optional
+ libmysqlclient18 deb libs optional
+ libmysqld-dev deb libdevel optional
+ libmysqld-pic deb libdevel optional
+ mysql-client deb database optional
+ mysql-client-5.5 deb database optional
+ mysql-common deb database optional
+ mysql-server deb database optional
+ mysql-server-5.5 deb database optional
+ mysql-server-core-5.5 deb database optional
+ mysql-source-5.5 deb database optional
+ mysql-testsuite-5.5 deb database optional
+Directory: pool/updates/main/m/mysql-5.5
+Priority: source
+Section: misc
+
 Package: nas
 Binary: libaudio2, nas, libaudio-dev, nas-bin, nas-doc
 Version: 1.9.3-5wheezy1
