@@ -21812,45 +21812,45 @@ SHA256: 2898de095dbe576e4c2cf81914e1660c5d42b971be8c34f67d15c03123ab9600
 
 Package: finch
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 732
+Version: 2.10.10-1~deb7u1
+Installed-Size: 733
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: i386
-Depends: pidgin-data (>= 2.10.9), pidgin-data (<< 2.10.9-z), libc6 (>= 2.7), libglib2.0-0 (>= 2.24.0), libgstreamer0.10-0 (>= 0.10.10), libncursesw5 (>= 5.6+20070908), libpurple0 (>= 2.8.0), libtinfo5, libxml2 (>= 2.7.4)
+Depends: pidgin-data (>= 2.10.10), pidgin-data (<< 2.10.10-z), libc6 (>= 2.7), libglib2.0-0 (>= 2.24.0), libgstreamer0.10-0 (>= 0.10.10), libncursesw5 (>= 5.6+20070908), libpurple0 (>= 2.8.0), libtinfo5, libxml2 (>= 2.7.4)
 Suggests: libx11-6
 Description: text-based multi-protocol instant messaging client
 Homepage: http://www.pidgin.im
 Description-md5: 6ddcf2f478810ed1b861f2343495f79b
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/pidgin/finch_2.10.9-1~deb7u1_i386.deb
-Size: 309404
-MD5sum: 9ecd6e7fd1539de698522ebb7c6fef91
-SHA1: f37727e534f925cc2d615569adebe7f920957fcf
-SHA256: 1c27699bacf3a2cb3b62edbdaa67b7054e415f829a12b08766becd54b641249a
+Filename: pool/updates/main/p/pidgin/finch_2.10.10-1~deb7u1_i386.deb
+Size: 310552
+MD5sum: 8685e24136500e850f54fe386e14aafe
+SHA1: ef652f8bdebae8eb9189b089ad9d54f42719a2de
+SHA256: ff64e628404485488fb5129732e2cd6e27e5150ad9085e0428906851744202f6
 
 Package: finch-dev
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 338
+Version: 2.10.10-1~deb7u1
+Installed-Size: 339
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: all
-Depends: finch (>= 2.10.9), finch (<< 2.10.9+1~), pkg-config, libpurple-dev, libglib2.0-dev, libncursesw5-dev
+Depends: finch (>= 2.10.10), finch (<< 2.10.10+1~), pkg-config, libpurple-dev, libglib2.0-dev, libncursesw5-dev
 Description: text-based multi-protocol instant messaging client - development
 Homepage: http://www.pidgin.im
 Description-md5: 6a61ea06da490e4c5dc81a62a7ae4a2d
 Section: devel
 Priority: optional
-Filename: pool/updates/main/p/pidgin/finch-dev_2.10.9-1~deb7u1_all.deb
-Size: 141026
-MD5sum: da0565cdb569f04e4c166a3a61c90470
-SHA1: 8299a497288e4e5c534fc15f3e2034d0bad289a1
-SHA256: 18bee393e76ad98902cb1463fd73ea9509a72a79a9494eb8359695f93d265c8a
+Filename: pool/updates/main/p/pidgin/finch-dev_2.10.10-1~deb7u1_all.deb
+Size: 141786
+MD5sum: 97a0139df562fc3aa5c4f46bc59c8c94
+SHA1: 61cca1fe46b80b0bff2eff5639981d582b29f812
+SHA256: daf2e702739473c86b0da12c8018444ca49f5e47cd96db6e1cf063e0c091ef32
 
 Package: libpurple-bin
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 175
+Version: 2.10.10-1~deb7u1
+Installed-Size: 176
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: all
 Depends: libpurple0, python, python-dbus
@@ -21859,37 +21859,37 @@ Homepage: http://www.pidgin.im
 Description-md5: 0bb5fd55724d9d7cf0369b3935f345b1
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/pidgin/libpurple-bin_2.10.9-1~deb7u1_all.deb
-Size: 119382
-MD5sum: 7b5b94d140389f6fe414427ff0f2dbfe
-SHA1: fec121c0538e0429fa17a9dcd30b1b3a0170cc1f
-SHA256: 3650ea91187317842e8cd33f692c9618661307a0a352a8468350b9ff89092806
+Filename: pool/updates/main/p/pidgin/libpurple-bin_2.10.10-1~deb7u1_all.deb
+Size: 120294
+MD5sum: 33ea8d821535fbd8654b9d4803d1bc4c
+SHA1: b5d09aa4872d216972ff614916a29eb33e5e764d
+SHA256: 1c478e866b365ed3b15b78eacf218be71ac8d028556435542a09c55e86c35d9a
 
 Package: libpurple-dev
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 1085
+Version: 2.10.10-1~deb7u1
+Installed-Size: 1088
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: all
-Depends: libpurple0 (>= 2.10.9), libpurple0 (<< 2.10.9+1~), pkg-config, libglib2.0-dev, libdbus-glib-1-dev
+Depends: libpurple0 (>= 2.10.10), libpurple0 (<< 2.10.10+1~), pkg-config, libglib2.0-dev, libdbus-glib-1-dev
 Description: multi-protocol instant messaging library - development files
 Homepage: http://www.pidgin.im
 Description-md5: b17a06afcbe53ddca5dc2a149cb2f24d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/p/pidgin/libpurple-dev_2.10.9-1~deb7u1_all.deb
-Size: 252164
-MD5sum: ed5a0e23384ca2b2b501355c4dcbc8ed
-SHA1: 19fa245f7f52fbc400f68d866aec69993643eddf
-SHA256: bc2f6c74ddb5b9a324891eda15d40ff3bf70a8b0807e1f07731861179187b649
+Filename: pool/updates/main/p/pidgin/libpurple-dev_2.10.10-1~deb7u1_all.deb
+Size: 253552
+MD5sum: 6a126a5b0b5d8f769939ce15918ff816
+SHA1: 65bfdae949a9d707cf5460b06c3aa35f2782715c
+SHA256: 96f2cc79971b1b6b5d0809d751d76990982869e12619ca9020490abdee8a9539
 
 Package: libpurple0
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 4923
+Version: 2.10.10-1~deb7u1
+Installed-Size: 5048
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: i386
-Depends: pidgin-data (>= 2.10.9), pidgin-data (<< 2.10.9-z), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.7), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfarstream-0.1-0 (>= 0.1.1), libglib2.0-0 (>= 2.30.0), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.20), libidn11 (>= 1.13), libmeanwhile1 (>= 1.0.2), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libperl5.14 (>= 5.14.2), libsasl2-2 (>= 2.1.24), libxml2 (>= 2.7.4), libzephyr4, perl-base (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libsasl2-modules
+Depends: pidgin-data (>= 2.10.10), pidgin-data (<< 2.10.10-z), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.7), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfarstream-0.1-0 (>= 0.1.1), libglib2.0-0 (>= 2.31.8), libgstreamer-plugins-base0.10-0 (>= 0.10.0), libgstreamer0.10-0 (>= 0.10.20), libidn11 (>= 1.13), libmeanwhile1 (>= 1.0.2), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.14), libperl5.14 (>= 5.14.2), libsasl2-2 (>= 2.1.24), libxml2 (>= 2.7.4), libzephyr4, perl-base (>= 5.14.2-21+deb7u2), perlapi-5.14.2, libsasl2-modules
 Suggests: tcl8.5 (>= 8.5.0), tk8.5 (>= 8.5.0)
 Conflicts: network-manager (<< 0.9.0)
 Description: multi-protocol instant messaging library
@@ -21898,18 +21898,18 @@ Description-md5: b13d02b517b424bf47518267ff7ea6d0
 Recommends: ca-certificates, libpurple-bin
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/pidgin/libpurple0_2.10.9-1~deb7u1_i386.deb
-Size: 1432014
-MD5sum: eddce8a5e10d63cd86b226ff7c7b0c33
-SHA1: 85ed998217c9e8561e151600ba161fe949e2d64c
-SHA256: 879c8601145826e901caf9192079762d556e779b376ae417f73d0089249fc5d7
+Filename: pool/updates/main/p/pidgin/libpurple0_2.10.10-1~deb7u1_i386.deb
+Size: 1469862
+MD5sum: b7544c8f7ec36e8a9139bd9c2863fb03
+SHA1: 757c0c6b9c615ec794f1af3405371d3009a5b8f4
+SHA256: 218cf2cc63ca5cbf91c8cb48e55095f0cb39f522ea76d86b2aa762e73887ff00
 
 Package: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 2150
+Version: 2.10.10-1~deb7u1
+Installed-Size: 2156
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: i386
-Depends: pidgin-data (>= 2.10.9), pidgin-data (<< 2.10.9-z), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgstreamer0.10-0 (>= 0.10.10), libgtk2.0-0 (>= 2.24.0), libgtkspell0 (>= 2.0.10), libice6 (>= 1:1.0.0), libpango1.0-0 (>= 1.18.0), libpurple0 (>= 2.8.0), libsm6, libx11-6, libxml2 (>= 2.6.27), libxss1, gconf2 (>= 2.28.1-2), perl-base (>= 5.14.2-21+deb7u1), perlapi-5.14.2
+Depends: pidgin-data (>= 2.10.10), pidgin-data (<< 2.10.10-z), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgstreamer0.10-0 (>= 0.10.10), libgtk2.0-0 (>= 2.24.0), libgtkspell0 (>= 2.0.10), libice6 (>= 1:1.0.0), libpango1.0-0 (>= 1.18.0), libpurple0 (>= 2.8.0), libsm6, libx11-6, libxml2 (>= 2.6.27), libxss1, gconf2 (>= 2.28.1-2), perl-base (>= 5.14.2-21+deb7u2), perlapi-5.14.2
 Suggests: libsqlite3-0 (>= 3.5.9)
 Description: graphical multi-protocol instant messaging client for X
 Homepage: http://www.pidgin.im
@@ -21917,16 +21917,16 @@ Description-md5: 79f07cc44080fa3a42bfffeea8c5ef50
 Recommends: gstreamer0.10-plugins-base, gstreamer0.10-plugins-good
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/pidgin/pidgin_2.10.9-1~deb7u1_i386.deb
-Size: 612346
-MD5sum: bda7927bf4741b254baa1d8023ceac62
-SHA1: 77530df6deb92361ee908ce915adfd1d8ef53fc1
-SHA256: a0e5d3d9f74c6d333dee1545b97a02a4bf8ee8cfd44682db072b8aafc6c368a8
+Filename: pool/updates/main/p/pidgin/pidgin_2.10.10-1~deb7u1_i386.deb
+Size: 613834
+MD5sum: 597a4301321d32034fcc9b4395edeafc
+SHA1: 8780f929245bb57bca7ac6f9779e49947a7bd40d
+SHA256: 2a9ac3e5e7afae609bdc0950863eec4319eba91b7eb2d405172ad8df79513bac
 
 Package: pidgin-data
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 25916
+Version: 2.10.10-1~deb7u1
+Installed-Size: 26174
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: all
 Replaces: pidgin-facebookchat (<< 1.69-2)
@@ -21937,48 +21937,48 @@ Description-md5: b04891790b198f3fe5e5df56c5acb3ab
 Enhances: finch, libpurple0, pidgin
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/pidgin/pidgin-data_2.10.9-1~deb7u1_all.deb
-Size: 4606106
-MD5sum: 9537d1af12f7d297c6602951c1acc121
-SHA1: 9dd4d0a8f05f5d72bbd413bfcba1ad07eb11accd
-SHA256: 28406a5c83814f99bad4d994f51c5430335b06ec387c256bd225144fda3e5584
+Filename: pool/updates/main/p/pidgin/pidgin-data_2.10.10-1~deb7u1_all.deb
+Size: 4614078
+MD5sum: 35236ffa76f4f13a26c6b879484e7d91
+SHA1: 4f0e18ecc93353efdf056b5877736abbac59bc3c
+SHA256: 94f3053e4b43da979d20cad464e5d8b634549ba98b83ce5b2cd1bd6bc6343ac3
 
 Package: pidgin-dbg
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 19079
+Version: 2.10.10-1~deb7u1
+Installed-Size: 19437
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: i386
-Depends: pidgin (= 2.10.9-1~deb7u1) | finch (= 2.10.9-1~deb7u1) | libpurple0 (= 2.10.9-1~deb7u1), pidgin-data (= 2.10.9-1~deb7u1)
+Depends: pidgin (= 2.10.10-1~deb7u1) | finch (= 2.10.10-1~deb7u1) | libpurple0 (= 2.10.10-1~deb7u1), pidgin-data (= 2.10.10-1~deb7u1)
 Description: Debugging symbols for Pidgin
 Homepage: http://www.pidgin.im
 Description-md5: 15d3420aeefc0ac3b2345f312c94f6c4
 Section: net
 Priority: extra
-Filename: pool/updates/main/p/pidgin/pidgin-dbg_2.10.9-1~deb7u1_i386.deb
-Size: 5291638
-MD5sum: b1b9d84a4a2152cb9b7df797bb37f5e7
-SHA1: 01b0a43bddbe5d813e12becce1b1d4f37baf0e16
-SHA256: 48c62fd8113e32d9e6bd9f150bb2762070e2ed03591b2a477d47c1dd7fe57345
+Filename: pool/updates/main/p/pidgin/pidgin-dbg_2.10.10-1~deb7u1_i386.deb
+Size: 5404160
+MD5sum: e1938ea0d8b1291b79dec59af1295f52
+SHA1: 22481aa9881abb444055467d00549fd2a2c88400
+SHA256: 602d54336b8f93f2d3fa6452ac16120e2f85eff1ac044ef1759a961c06ee359c
 
 Package: pidgin-dev
 Source: pidgin
-Version: 2.10.9-1~deb7u1
-Installed-Size: 14649
+Version: 2.10.10-1~deb7u1
+Installed-Size: 14674
 Maintainer: Ari Pollak <ari@debian.org>
 Architecture: all
-Depends: pidgin (>= 2.10.9), pidgin (<< 2.10.9+1~), pkg-config, libpurple-dev, libgtk2.0-dev
+Depends: pidgin (>= 2.10.10), pidgin (<< 2.10.10+1~), pkg-config, libpurple-dev, libgtk2.0-dev
 Suggests: doc-base
 Description: multi-protocol instant messaging client - development files
 Homepage: http://www.pidgin.im
 Description-md5: af83e0e901b4b7dc8524c8bb96a1c5d2
 Section: devel
 Priority: optional
-Filename: pool/updates/main/p/pidgin/pidgin-dev_2.10.9-1~deb7u1_all.deb
-Size: 2169284
-MD5sum: ec764c636d1f31ec718c62f90ecef9c0
-SHA1: a71fdebec6b8fdfac33107b5e5d304fcfe689739
-SHA256: a1d94f5b3aedfce63a55ddd1398b0685c9c433a86081f051b83a846edf3668a8
+Filename: pool/updates/main/p/pidgin/pidgin-dev_2.10.10-1~deb7u1_all.deb
+Size: 2171078
+MD5sum: ee0c47eec4adde49d3f8367170105558
+SHA1: e496baa012fe2a5054d55a15b915b90ddc3a4587
+SHA256: ae5b97a443148b444442e57e93c0c389bd270d912db3e913599d6530c88e5c53
 
 Package: libpixman-1-0
 Source: pixman

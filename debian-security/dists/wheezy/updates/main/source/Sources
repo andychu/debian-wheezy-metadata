@@ -9241,6 +9241,43 @@ Directory: pool/updates/main/p/pidgin
 Priority: source
 Section: net
 
+Package: pidgin
+Binary: libpurple0, pidgin, pidgin-data, pidgin-dev, pidgin-dbg, finch, finch-dev, libpurple-dev, libpurple-bin
+Version: 2.10.10-1~deb7u1
+Maintainer: Ari Pollak <ari@debian.org>
+Build-Depends: cdbs (>= 0.4.53), debhelper (>= 7), intltool, gconf2, hardening-wrapper, libgtk2.0-dev (>= 2.10.0), libxss-dev, libmeanwhile-dev, libnss3-dev (>= 3.11.7), tcl-dev, tk-dev, libgstreamer0.10-dev, libgtkspell-dev, libltdl3-dev, libperl-dev, libstartup-notification0-dev, libzephyr-dev, libxml2-dev, libdbus-glib-1-dev, dbus, python (>= 2.4), libavahi-client-dev, libavahi-glib-dev, libxml-parser-perl, libncursesw5-dev, libsasl2-dev, xsltproc, doxygen, libfarstream-0.1-dev, libgstreamer-plugins-base0.10-dev, network-manager-dev (>= 0.9.0) [linux-any], libsqlite3-dev (>= 3.3), libidn11-dev, ca-certificates
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ b773bad077c1d608d0da682bb160f95c 2748 pidgin_2.10.10-1~deb7u1.dsc
+ 5030d4750c73b211c7e82bb67ea3d016 9409485 pidgin_2.10.10.orig.tar.bz2
+ d153855b4ce5ca517a38a53989fb2d3a 72543 pidgin_2.10.10-1~deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/pidgin.git
+Vcs-Git: git://git.debian.org/git/collab-maint/pidgin.git
+Checksums-Sha1:
+ c4d2ac01ffe3e4361c2849425b86587904d42e0f 2748 pidgin_2.10.10-1~deb7u1.dsc
+ 81267c35c8d27f2c62320b564fc11af2cc1f3a4a 9409485 pidgin_2.10.10.orig.tar.bz2
+ 27b2b9c8d656340e083b822f690b5cdc8cea9dd4 72543 pidgin_2.10.10-1~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ e9b4b8e5cac1fed56a81729c8ebe214eb1fdbece71e5ace9220f2e2e667634f6 2748 pidgin_2.10.10-1~deb7u1.dsc
+ dc6b95512eaec75aef170aabce471491fc70584932599dfead20f1f1c45c822d 9409485 pidgin_2.10.10.orig.tar.bz2
+ fbfd72a9bd9a59f3f2703d853694a4385adf6189f5d52970f651d0607e0e0808 72543 pidgin_2.10.10-1~deb7u1.debian.tar.gz
+Homepage: http://www.pidgin.im
+Package-List: 
+ finch deb net optional
+ finch-dev deb devel optional
+ libpurple-bin deb net optional
+ libpurple-dev deb libdevel optional
+ libpurple0 deb net optional
+ pidgin deb net optional
+ pidgin-data deb net optional
+ pidgin-dbg deb debug extra
+ pidgin-dev deb devel optional
+Directory: pool/updates/main/p/pidgin
+Priority: source
+Section: net
+
 Package: pixman
 Binary: libpixman-1-0, libpixman-1-0-udeb, libpixman-1-0-dbg, libpixman-1-dev
 Version: 0.26.0-4+deb7u1
