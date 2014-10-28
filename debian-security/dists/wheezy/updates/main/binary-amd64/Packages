@@ -26437,7 +26437,7 @@ SHA256: 5f600d975038e6ef7aec1835ab2d046888ab1bb24f55cac388df328cec5a80d6
 
 Package: libtorque2
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 248
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26447,35 +26447,35 @@ Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: 453f4529518a275311b05026cd4aa974
 Section: libs
 Priority: optional
-Filename: pool/updates/main/t/torque/libtorque2_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 120584
-MD5sum: fcdafb813883124edb9a3daab81889cd
-SHA1: 6b45e194857a49981a93ce601733a6f25b627ac3
-SHA256: c9c8b9f7d8999516b111c5e8ba357d83042d4349846924cc3fcd8231e66d1d02
+Filename: pool/updates/main/t/torque/libtorque2_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 120880
+MD5sum: 42227a1fde42e8ad959252d2f837efdc
+SHA1: 4bf2ef48bd9c527d0f9880d076c12d86201aedc6
+SHA256: 55ddfc477f32cf7e74914d2ca27e717c04e9cd61a5b7b7f89680f1ed65648b1d
 
 Package: libtorque2-dev
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 137
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
 Provides: libtorque-dev
-Depends: libtorque2 (= 2.4.16+dfsg-1+deb7u3)
+Depends: libtorque2 (= 2.4.16+dfsg-1+deb7u4)
 Conflicts: libtorque-dev
 Description: header files for libtorque2
 Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: bbe0f81113b561c4e0c05b41833d670e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/t/torque/libtorque2-dev_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 49794
-MD5sum: 39d0177c4f77dfba7e97e34e30a5077a
-SHA1: 9e2be568f88b8c48c691388aa4b0bd6f88a6a6b4
-SHA256: a993a78d334eaa9c391d0793a6e44d677a01b682d00f2af5c1c0ba5b223ed4a6
+Filename: pool/updates/main/t/torque/libtorque2-dev_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 49974
+MD5sum: a9dc51540a2d288acdcdd65504d78127
+SHA1: fb08409b882d5df09dae5c5f9cead65d6b23332c
+SHA256: 9709472fce748cc0cdb715ac86486421a83db73192690d1906be2500f509c69f
 
 Package: torque-client
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 804
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26486,16 +26486,16 @@ Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: bdfcf3b42675ab705e1a030683f97224
 Section: utils
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-client_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 398860
-MD5sum: e4151fb79251f5c23bf3b88264d8d0d2
-SHA1: 8996f042b56fdbf1f2ae123440fa2293d88b3d4b
-SHA256: cc6055716229da69696b7418d515128d3a58c2b14dd268ded710151968482ebf
+Filename: pool/updates/main/t/torque/torque-client_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 399188
+MD5sum: 4d0a0a401aac7221acfdb91dc8bc3db3
+SHA1: c4e97adebfaa69ad93d5825e8b1afd989d1fd6c3
+SHA256: c9b160fd74940fdeafa25c128e4a23728e3c1eac9c71f99d1ceef7cc608e94a6
 
 Package: torque-client-x11
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
-Installed-Size: 2205
+Version: 2.4.16+dfsg-1+deb7u4
+Installed-Size: 2206
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
 Replaces: torque-gui
@@ -26507,16 +26507,16 @@ Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: 443948ca7b4b01db0a63ded9832cdf6f
 Section: x11
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-client-x11_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 648160
-MD5sum: a69342e62fd5b1dfc3576e3e8b444ddc
-SHA1: 16d1941847a243e5c32c3397018cacd918dd7c9e
-SHA256: 51205ef2e58d04e6a97850f84e643efbce84122bf776720060831e06f5faa894
+Filename: pool/updates/main/t/torque/torque-client-x11_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 648548
+MD5sum: d1d63a937438d60726be49564df66cc3
+SHA1: 0387347ea597b0574014c35f2efae289379ce7ff
+SHA256: 2a892be53e0b44cf6435a07e4e18c96fdc231e8e068151abee585c82659a9366
 
 Package: torque-common
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
-Installed-Size: 124
+Version: 2.4.16+dfsg-1+deb7u4
+Installed-Size: 125
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
 Description: Torque Queueing System shared files
@@ -26525,15 +26525,15 @@ Description-md5: f336f7250fce29afad012cf985de1dd8
 Recommends: torque-client | torque-server | torque-mom, openssh-client
 Section: utils
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-common_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 41994
-MD5sum: 6fb3a66dd1087f4e989c01f817b6cd95
-SHA1: 4767ae99600834d49bec3fe433ab68ab6df91a2a
-SHA256: e12bc5b9cf18f1993f942c1ac565cf7de69f6dea2fc4120434e9fe392ab3e06e
+Filename: pool/updates/main/t/torque/torque-common_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 42258
+MD5sum: 85f13aa802c2c63019ec9d03bdac6027
+SHA1: c83f827a300b448bf2dfdde5456df465fbee9335
+SHA256: 413bd818404273307b6066bf8b120ba89fdd6bbee1a13f3a8145abf37213f99e
 
 Package: torque-mom
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 473
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26543,15 +26543,15 @@ Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: ebba4272d26d43af22cb566403cfffc0
 Section: utils
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-mom_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 200630
-MD5sum: 28f289a6d8e9384ac0a67dcaba51b873
-SHA1: ba9eb03010643b734213aa2a1b786d9f9760217c
-SHA256: fe5cabf35837058af954e8078fea9890270f0f9b918152abff514879e7e602c4
+Filename: pool/updates/main/t/torque/torque-mom_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 200848
+MD5sum: 7d8a0fc73fc8b950102c571f8e06be5e
+SHA1: 1a3e9e1e3db77d30f32ee756fa3c528de7e93a1c
+SHA256: f22a11869494bb3a01f23b2d4cb5087d3bdef84c0c4c202a01cd783cd09cbcf2
 
 Package: torque-pam
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 76
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26562,15 +26562,15 @@ Description-md5: 7c1ac7895332c426263e9f43dec1486f
 Recommends: torque-client | torque-client-x11
 Section: utils
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-pam_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 38414
-MD5sum: df30ff4c0838571d1f4d89b90f1e09a2
-SHA1: b0a41a267f591f666fe117a4840d3e1d2b0c9915
-SHA256: 42768c5ea6e708f7243869c727e1a58742adef217b7b3af5167a51dcb1e9eaf2
+Filename: pool/updates/main/t/torque/torque-pam_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 38608
+MD5sum: 3e6c33cd1b191d8d3569ed0390f18a94
+SHA1: a2f153ff74b0b785a6871dfd5105466fc38c0230
+SHA256: 8bdb477a4c518fa1e29c2e4186e9cd2a203569b97f5b4af99d26435acb0da377
 
 Package: torque-scheduler
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 231
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26580,15 +26580,15 @@ Homepage: http://www.clusterresources.com/pages/products/torque/
 Description-md5: 1015dd1193b88bd31d4d4ed768644981
 Section: net
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-scheduler_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 97028
-MD5sum: ba7601dd6af35baed038b71bcbe1cecc
-SHA1: 488a36aab45d139dcd8b57fc9d79b508e9469163
-SHA256: c96b388f70bcb9dbf719d1a03b0830cee0452fa2a0d66d0096ef54b25e2beb9e
+Filename: pool/updates/main/t/torque/torque-scheduler_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 97310
+MD5sum: c74b9c0a884713e2f99c0cd580018308
+SHA1: 33d1116ffea3a05d2ae05c228616b324057dcb38
+SHA256: 7aa47b905d77bf931ae3cffc6fefa988caa9e3fd66ebd07d6c367ca73ba08d31
 
 Package: torque-server
 Source: torque
-Version: 2.4.16+dfsg-1+deb7u3
+Version: 2.4.16+dfsg-1+deb7u4
 Installed-Size: 493
 Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
 Architecture: amd64
@@ -26601,11 +26601,11 @@ Description-md5: 96074e29d5898cc0d973b933d22ac055
 Recommends: torque-scheduler, torque-client | torque-client-x11
 Section: utils
 Priority: optional
-Filename: pool/updates/main/t/torque/torque-server_2.4.16+dfsg-1+deb7u3_amd64.deb
-Size: 196198
-MD5sum: b16cb2277414f6d9a7d02ed5fe6b8c60
-SHA1: d44f07f387423ad8b248252f209b8121f0c5d8e4
-SHA256: 4a1d6912014afe0eac4749c41099c44edb2129c32c463545df8e784034c1e8b3
+Filename: pool/updates/main/t/torque/torque-server_2.4.16+dfsg-1+deb7u4_amd64.deb
+Size: 196486
+MD5sum: 4efa69b51643dc16afc85c1a693b76b4
+SHA1: 91ee1393b2283de83261dad11daca121f2f6ba21
+SHA256: 5d86b1fcb831e1f374e823a757a95e599820ef2b7b0f8e9e28b77a9db45f01a8
 
 Package: transmission
 Version: 2.52-3+nmu2

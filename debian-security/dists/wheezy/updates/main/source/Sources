@@ -11093,6 +11093,46 @@ Directory: pool/updates/main/t/torque
 Priority: source
 Section: net
 
+Package: torque
+Binary: torque-common, torque-server, torque-pam, torque-scheduler, torque-client, torque-mom, torque-client-x11, libtorque2, libtorque2-dev
+Version: 2.4.16+dfsg-1+deb7u4
+Maintainer: Morten Kjeldgaard <mok@bioxray.au.dk>
+Uploaders: Dominique Belhachemi <domibel@debian.org>, Jordi Mallach <jordi@debian.org>, Steffen Moeller <moeller@debian.org>
+Build-Depends: autotools-dev (>= 20100122.1~), chrpath, debhelper (>= 7), libpam0g-dev, libkvm-dev [kfreebsd-any], openssh-client, tcl8.5-dev, tk8.5-dev, libreadline-dev
+Architecture: any
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ 61b75cd5d922858e319f241d00dba89b 2612 torque_2.4.16+dfsg-1+deb7u4.dsc
+ b9432930c92d36872330336665ce9b66 3296401 torque_2.4.16+dfsg.orig.tar.gz
+ 3587206e92c92734aae4f8db0456b90d 24405 torque_2.4.16+dfsg-1+deb7u4.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-escience/torque/trunk/?rev=0&sc=0
+Checksums-Sha1:
+ 76d5b8d42165052b692eca99445461731fb9cec8 2612 torque_2.4.16+dfsg-1+deb7u4.dsc
+ 794273109ce7af072761b85e21a6f8925319ab5a 3296401 torque_2.4.16+dfsg.orig.tar.gz
+ 7cd23abd399fbec5b778a6677598d9c2ff064ca1 24405 torque_2.4.16+dfsg-1+deb7u4.debian.tar.gz
+Checksums-Sha256:
+ 205559c6baf2399574fc67709b330f6b5c43480b968b4dd32011a659264c49ee 2612 torque_2.4.16+dfsg-1+deb7u4.dsc
+ c3607ab17018180d0570c62c596c56449dc907875c84cd58ef5b46623d80add3 3296401 torque_2.4.16+dfsg.orig.tar.gz
+ 93e2c90072162242ab14921055ce51c9eecdd09c9cfaec6ae40016f6093daebd 24405 torque_2.4.16+dfsg-1+deb7u4.debian.tar.gz
+Homepage: http://www.clusterresources.com/pages/products/torque/
+Autobuild: yes
+Dm-Upload-Allowed: yes
+Package-List: 
+ libtorque2 deb libs optional
+ libtorque2-dev deb libdevel optional
+ torque-client deb utils optional
+ torque-client-x11 deb x11 optional
+ torque-common deb utils optional
+ torque-mom deb utils optional
+ torque-pam deb utils optional
+ torque-scheduler deb net optional
+ torque-server deb utils optional
+Vcs-Svn: svn://svn.debian.org/svn/pkg-escience/torque/trunk/
+Directory: pool/updates/main/t/torque
+Priority: source
+Section: net
+
 Package: transmission
 Binary: transmission, transmission-common, transmission-dbg, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon
 Version: 2.52-3+nmu2
