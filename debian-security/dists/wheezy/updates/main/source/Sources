@@ -2326,402 +2326,6 @@ Package: iceweasel
 Binary: iceweasel, iceweasel-dbg, xulrunner-24.0, libmozjs24d, libmozjs-dev, libmozjs24d-dbg, spidermonkey-bin, xulrunner-dev, xulrunner-24.0-dbg, iceweasel-l10n-all, iceweasel-l10n-ach, iceweasel-l10n-af, iceweasel-l10n-ak, iceweasel-l10n-ar, iceweasel-l10n-as, iceweasel-l10n-ast, iceweasel-l10n-be, iceweasel-l10n-bg, iceweasel-l10n-bn-bd, iceweasel-l10n-bn-in, iceweasel-l10n-br, iceweasel-l10n-bs, iceweasel-l10n-ca, iceweasel-l10n-cs, iceweasel-l10n-csb, iceweasel-l10n-cy, iceweasel-l10n-da, iceweasel-l10n-de, iceweasel-l10n-el, iceweasel-l10n-en-gb, iceweasel-l10n-en-za, iceweasel-l10n-eo, iceweasel-l10n-es-ar, iceweasel-l10n-es-cl, iceweasel-l10n-es-es, iceweasel-l10n-es-mx, iceweasel-l10n-et, iceweasel-l10n-eu, iceweasel-l10n-fa, iceweasel-l10n-ff, iceweasel-l10n-fi, iceweasel-l10n-fr, iceweasel-l10n-fy-nl, iceweasel-l10n-ga-ie, iceweasel-l10n-gd, iceweasel-l10n-gl, iceweasel-l10n-gu-in, iceweasel-l10n-he, iceweasel-l10n-hi-in, iceweasel-l10n-hr, iceweasel-l10n-hu,
  iceweasel-l10n-hy-am, iceweasel-l10n-id, iceweasel-l10n-is, iceweasel-l10n-it, iceweasel-l10n-ja, iceweasel-l10n-kk, iceweasel-l10n-km, iceweasel-l10n-kn, iceweasel-l10n-ko, iceweasel-l10n-ku, iceweasel-l10n-lg, iceweasel-l10n-lij, iceweasel-l10n-lt, iceweasel-l10n-lv, iceweasel-l10n-mai, iceweasel-l10n-mk, iceweasel-l10n-ml, iceweasel-l10n-mr, iceweasel-l10n-nb-no, iceweasel-l10n-nl, iceweasel-l10n-nn-no, iceweasel-l10n-nso, iceweasel-l10n-or, iceweasel-l10n-pa-in, iceweasel-l10n-pl, iceweasel-l10n-pt-br, iceweasel-l10n-pt-pt, iceweasel-l10n-rm, iceweasel-l10n-ro, iceweasel-l10n-ru, iceweasel-l10n-si, iceweasel-l10n-sk, iceweasel-l10n-sl, iceweasel-l10n-son, iceweasel-l10n-sq, iceweasel-l10n-sr, iceweasel-l10n-sv-se, iceweasel-l10n-ta, iceweasel-l10n-ta-lk, iceweasel-l10n-te, iceweasel-l10n-th, iceweasel-l10n-tr, iceweasel-l10n-uk, iceweasel-l10n-vi, iceweasel-l10n-zh-cn, iceweasel-l10n-zh-tw,
  iceweasel-l10n-zu
-Version: 24.8.0esr-1~deb7u1
-Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
-Uploaders: Mike Hommey <glandium@debian.org>
-Build-Depends: autotools-dev, debhelper (>= 7.2.3), libx11-dev, libxt-dev, libgtk2.0-dev (>= 2.10), libglib2.0-dev (>= 2.16.0), libstartup-notification0-dev, libgnomevfs2-dev, libgnome2-dev, libgnomeui-dev, libjpeg-dev, zlib1g-dev, libbz2-dev, libreadline-dev | libreadline5-dev, python2.7, python-minimal (>= 2.6.6-13~), python-ply, dpkg-dev (>= 1.16.1.1~), libhunspell-dev (>= 1.2), libdbus-glib-1-dev, libasound2-dev [linux-any], libiw-dev [linux-any], libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, yasm (>= 1.1), zip, unzip, locales, xvfb, xfonts-base, xauth, ttf-bitstream-vera, fonts-freefont-ttf | ttf-freefont, fonts-dejima-mincho | ttf-dejima-mincho, imagemagick, librsvg2-bin, xsltproc, iso-codes
-Architecture: any all
-Standards-Version: 3.9.2.0
-Format: 3.0 (quilt)
-Files:
- d2719fea7e1d814c45a70cd2ea715f5a 34770 iceweasel_24.8.0esr-1~deb7u1.dsc
- 80dd4a702302fb36719c67445b487895 29270 iceweasel_24.8.0esr.orig-compare-locales.tar.bz2
- c99d7605c0e0bb0d77e71cd54f305a9a 161923 iceweasel_24.8.0esr.orig-l10n-ach.tar.bz2
- 9f15d0d4781a1c53ec974a2e03b7298b 246025 iceweasel_24.8.0esr.orig-l10n-af.tar.bz2
- cb9cc5f721d81442f1a93d134054f23c 169834 iceweasel_24.8.0esr.orig-l10n-ak.tar.bz2
- 36648f3422f323c9b51d987b26fce083 289273 iceweasel_24.8.0esr.orig-l10n-ar.tar.bz2
- 5908ae414476f5ccd06b6d782196513b 180146 iceweasel_24.8.0esr.orig-l10n-as.tar.bz2
- 876d22964333858b70775196d4e0267f 223565 iceweasel_24.8.0esr.orig-l10n-ast.tar.bz2
- 753aba344c32c6d0caca1dccba733077 587978 iceweasel_24.8.0esr.orig-l10n-be.tar.bz2
- 43083070824032e6d623a8cccd262211 599471 iceweasel_24.8.0esr.orig-l10n-bg.tar.bz2
- 59fe3a573510193073f5ec02f4f3235d 282491 iceweasel_24.8.0esr.orig-l10n-bn-BD.tar.bz2
- 740667ba651f0562b45bbfe63b8ec84e 646783 iceweasel_24.8.0esr.orig-l10n-bn-IN.tar.bz2
- 24099d669765ffdc8c0f6adae48b6792 1655213 iceweasel_24.8.0esr.orig-l10n-br.tar.bz2
- c1962851cd2f4d6444a06dc3e56b6a41 167624 iceweasel_24.8.0esr.orig-l10n-bs.tar.bz2
- 1d2ad2d1cbad7d1d63ec71dcc039739c 746634 iceweasel_24.8.0esr.orig-l10n-ca.tar.bz2
- fc28e0c4cd3191569be4bedf54df9642 719939 iceweasel_24.8.0esr.orig-l10n-cs.tar.bz2
- 369ee8023cf14d5e85ef474233d1fa72 156282 iceweasel_24.8.0esr.orig-l10n-csb.tar.bz2
- 5b91d7a095de8e0f92d480e811a08e49 332743 iceweasel_24.8.0esr.orig-l10n-cy.tar.bz2
- b1f1b3b96d91ff63679801bd25029194 997301 iceweasel_24.8.0esr.orig-l10n-da.tar.bz2
- c0213a3743f549387ce5046116af8e58 768575 iceweasel_24.8.0esr.orig-l10n-de.tar.bz2
- 884bf051aa3b20fbb647fd76e485a21f 2052441 iceweasel_24.8.0esr.orig-l10n-el.tar.bz2
- f75566e9a2e26b55520b7459a19d3b7f 703026 iceweasel_24.8.0esr.orig-l10n-en-GB.tar.bz2
- 2d76fa94c9b6f4b28504155d63b28247 226678 iceweasel_24.8.0esr.orig-l10n-en-ZA.tar.bz2
- 49ba5c022cafccaf4cbac2a8233e884b 161878 iceweasel_24.8.0esr.orig-l10n-eo.tar.bz2
- 08d5f3539d755e339cef75d89504e941 700983 iceweasel_24.8.0esr.orig-l10n-es-AR.tar.bz2
- ae7598b6287a3852190e198027463305 166206 iceweasel_24.8.0esr.orig-l10n-es-CL.tar.bz2
- 2baa7873638e5908eb476ba1187db421 647754 iceweasel_24.8.0esr.orig-l10n-es-ES.tar.bz2
- c6dde21438789ccf4c666afc22ee713c 115136 iceweasel_24.8.0esr.orig-l10n-es-MX.tar.bz2
- 932481c47b1d5aa2c0a765d3d9a045b9 1214094 iceweasel_24.8.0esr.orig-l10n-et.tar.bz2
- 9f64c0dde9fdf46462b7b799c954fe33 337420 iceweasel_24.8.0esr.orig-l10n-eu.tar.bz2
- 44988dd49c5a1ee91d1274d7444cbe1f 264277 iceweasel_24.8.0esr.orig-l10n-fa.tar.bz2
- 3e48bb05a3e4df00e458d92f4a2085b8 154178 iceweasel_24.8.0esr.orig-l10n-ff.tar.bz2
- accd9914393abd21e2fa9e16c8a00345 732949 iceweasel_24.8.0esr.orig-l10n-fi.tar.bz2
- c37e6fb247f473b2ce22f926504db7d2 1107303 iceweasel_24.8.0esr.orig-l10n-fr.tar.bz2
- 7989b2e770556708aecad25e997f279c 667946 iceweasel_24.8.0esr.orig-l10n-fy-NL.tar.bz2
- a5adbab3fac55389a06b675083b21dfd 363095 iceweasel_24.8.0esr.orig-l10n-ga-IE.tar.bz2
- d531901064c0fba29887da291eaa82ab 361989 iceweasel_24.8.0esr.orig-l10n-gd.tar.bz2
- 373924ae1e74d1cd3a4a6fb6c5bb896e 654641 iceweasel_24.8.0esr.orig-l10n-gl.tar.bz2
- a3f4251507da2685ac72d91b77f6bf13 279063 iceweasel_24.8.0esr.orig-l10n-gu-IN.tar.bz2
- 770dcdf1a8d6d2db64dadb6e4f6149fb 655088 iceweasel_24.8.0esr.orig-l10n-he.tar.bz2
- c14375fc597ce55695b93be4432d8e93 271729 iceweasel_24.8.0esr.orig-l10n-hi-IN.tar.bz2
- c430170d38785aed0764be951a3367ae 328689 iceweasel_24.8.0esr.orig-l10n-hr.tar.bz2
- ecaf1c1d5d9f6696baaf285699e29c73 1338233 iceweasel_24.8.0esr.orig-l10n-hu.tar.bz2
- 0601e097f3f9853c28751e2c35f85fa5 318199 iceweasel_24.8.0esr.orig-l10n-hy-AM.tar.bz2
- 9e789d9f297d19d3aca234c495a0c6ce 462291 iceweasel_24.8.0esr.orig-l10n-id.tar.bz2
- 08efab6c2d89a3ac5dc166567f4c6cb0 313256 iceweasel_24.8.0esr.orig-l10n-is.tar.bz2
- a66e262a4fca3d3ae01494fa56831cad 599302 iceweasel_24.8.0esr.orig-l10n-it.tar.bz2
- cc4011a0a0b659d86119ba506535f85a 990116 iceweasel_24.8.0esr.orig-l10n-ja.tar.bz2
- b3d9ae1afa3bb61a3e2a92a2bd6a3504 166351 iceweasel_24.8.0esr.orig-l10n-kk.tar.bz2
- 74fd2aa44a0a9bf8e811740fcc80d625 767275 iceweasel_24.8.0esr.orig-l10n-km.tar.bz2
- ee314382ddf8d6f9c0dad7bee8d64aed 179429 iceweasel_24.8.0esr.orig-l10n-kn.tar.bz2
- 18449cf30522f567153cd8a89af416f2 313606 iceweasel_24.8.0esr.orig-l10n-ko.tar.bz2
- 4476b94e676b3cfb309f972f7c42da1b 412135 iceweasel_24.8.0esr.orig-l10n-ku.tar.bz2
- 792700b40ba53de7de5b48187b604b29 175134 iceweasel_24.8.0esr.orig-l10n-lg.tar.bz2
- c28b0030279387d45da52bb3a741ca3a 680741 iceweasel_24.8.0esr.orig-l10n-lij.tar.bz2
- e6064bca3ac73fae08be8559f11244c4 1039782 iceweasel_24.8.0esr.orig-l10n-lt.tar.bz2
- 76e0bfcc3115e57c3328ce9d8fc7c00a 823719 iceweasel_24.8.0esr.orig-l10n-lv.tar.bz2
- d9bc167bcb8f335e36ff43e284708ea4 187747 iceweasel_24.8.0esr.orig-l10n-mai.tar.bz2
- c1e9f00071b1645628d6b644d6341a04 998727 iceweasel_24.8.0esr.orig-l10n-mk.tar.bz2
- da1decf57a1e8f1705a75dc375f470a4 193336 iceweasel_24.8.0esr.orig-l10n-ml.tar.bz2
- 07b1977eeb61281c03be178456b740de 169185 iceweasel_24.8.0esr.orig-l10n-mr.tar.bz2
- 3fe8fdaae49c848fd7186f01d1e916f6 727630 iceweasel_24.8.0esr.orig-l10n-nb-NO.tar.bz2
- c551f9db0c48de2229747fd6789fa39a 1466612 iceweasel_24.8.0esr.orig-l10n-nl.tar.bz2
- f2aae3fd83f0deacbba1ca0991d665c4 338639 iceweasel_24.8.0esr.orig-l10n-nn-NO.tar.bz2
- b62c3bcdc6c6586075f0e0f3c125e924 279118 iceweasel_24.8.0esr.orig-l10n-nso.tar.bz2
- 389e49edb8141b89e69bcf24e4072458 396040 iceweasel_24.8.0esr.orig-l10n-or.tar.bz2
- 7aad7889d68c8ae91e4d324a8f032c52 339598 iceweasel_24.8.0esr.orig-l10n-pa-IN.tar.bz2
- c8e7aecf227be4c5aae06dcdb5a5e873 1802406 iceweasel_24.8.0esr.orig-l10n-pl.tar.bz2
- 8b65b8deafda1002aad84114ba05c83a 874340 iceweasel_24.8.0esr.orig-l10n-pt-BR.tar.bz2
- 63fa1e9bafaea98df3220407ef25bf35 972525 iceweasel_24.8.0esr.orig-l10n-pt-PT.tar.bz2
- 01fbc0bc29422995a6313716d524e44d 285735 iceweasel_24.8.0esr.orig-l10n-rm.tar.bz2
- f417be680d0223244d037de69cd8d744 1429389 iceweasel_24.8.0esr.orig-l10n-ro.tar.bz2
- ab727038bee77b237bbde4b7ab347e0f 1164457 iceweasel_24.8.0esr.orig-l10n-ru.tar.bz2
- 9ee935f09dc89b42db9ad8db3473717d 646596 iceweasel_24.8.0esr.orig-l10n-si.tar.bz2
- 3ba3f6e2f3836ed600e7ed5018dce133 1672177 iceweasel_24.8.0esr.orig-l10n-sk.tar.bz2
- d27a1a4d4d2856c553dbeebd75ca232e 355539 iceweasel_24.8.0esr.orig-l10n-sl.tar.bz2
- 224f504d70e5ec4e6f93ef60d5b68951 173320 iceweasel_24.8.0esr.orig-l10n-son.tar.bz2
- 2d1f2c65f994154216c86c0c7a531cf0 356620 iceweasel_24.8.0esr.orig-l10n-sq.tar.bz2
- f7a347a3d5679d82340d227474de938f 2218004 iceweasel_24.8.0esr.orig-l10n-sr.tar.bz2
- 3dcb474b5503528ea62c29d8dfd0bcb3 1100919 iceweasel_24.8.0esr.orig-l10n-sv-SE.tar.bz2
- 73bead055152cd4885b9834691c9066a 263426 iceweasel_24.8.0esr.orig-l10n-ta-LK.tar.bz2
- f53a81e17295d5887dd8635b741837a3 536033 iceweasel_24.8.0esr.orig-l10n-ta.tar.bz2
- b7925f6e8f6a91160fd28f55038722a0 190558 iceweasel_24.8.0esr.orig-l10n-te.tar.bz2
- c584737fe9ba39e42614031787e948ed 176687 iceweasel_24.8.0esr.orig-l10n-th.tar.bz2
- c26739ad98f98bb9936442a8dcae863f 697874 iceweasel_24.8.0esr.orig-l10n-tr.tar.bz2
- a89c8687db9e6f4381929f596c972fbd 1113067 iceweasel_24.8.0esr.orig-l10n-uk.tar.bz2
- a06c2dea8fb74f0e8a312e51ac025d50 353844 iceweasel_24.8.0esr.orig-l10n-vi.tar.bz2
- 87490a4b0462d30de0a837265f182f72 648149 iceweasel_24.8.0esr.orig-l10n-zh-CN.tar.bz2
- 28e6fad47541e5ed7212e46c8cc797d8 938627 iceweasel_24.8.0esr.orig-l10n-zh-TW.tar.bz2
- 1ddf17214711d42e3622fc2d863c9889 246459 iceweasel_24.8.0esr.orig-l10n-zu.tar.bz2
- b6f846f8bb5fcdcacbafc0e57775491f 119327126 iceweasel_24.8.0esr.orig.tar.bz2
- 702510a84a62c2ac5c272d46364c75b7 304375 iceweasel_24.8.0esr-1~deb7u1.debian.tar.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-mozilla/iceweasel.git
-Vcs-Git: git://git.debian.org/git/pkg-mozilla/iceweasel.git
-Checksums-Sha1:
- e079f00216562698c39997c4d7415278b4b1aa7b 34770 iceweasel_24.8.0esr-1~deb7u1.dsc
- 54bc15e01fb8d0d8cbab79b92a9288fdc90619c8 29270 iceweasel_24.8.0esr.orig-compare-locales.tar.bz2
- a152e5e0f799cb2f4e57141e1d87c82780896f1a 161923 iceweasel_24.8.0esr.orig-l10n-ach.tar.bz2
- 08f46973a787a5ae800911c3f285243a1e864c0a 246025 iceweasel_24.8.0esr.orig-l10n-af.tar.bz2
- 8ea106e2d80ebd6cc7606bd56f2fb01d89ee31e5 169834 iceweasel_24.8.0esr.orig-l10n-ak.tar.bz2
- 31ae2ac805fb658b2b58b8f44d7931785edb4f32 289273 iceweasel_24.8.0esr.orig-l10n-ar.tar.bz2
- 279c7f48b9915d778c8b1679b7929f8fdf1be012 180146 iceweasel_24.8.0esr.orig-l10n-as.tar.bz2
- e4f8297c88ecc6f047c6c9db06a905798c04809d 223565 iceweasel_24.8.0esr.orig-l10n-ast.tar.bz2
- d6ee6b57a7ee21a2b8ed0315aeeca6ca698c4c4a 587978 iceweasel_24.8.0esr.orig-l10n-be.tar.bz2
- fb1e80bc54f1f3d4b5a82e0871e97d89bb5e1162 599471 iceweasel_24.8.0esr.orig-l10n-bg.tar.bz2
- 3578c0d93005e8764540c3d55552d8b10205abbd 282491 iceweasel_24.8.0esr.orig-l10n-bn-BD.tar.bz2
- 361805b8f66491b90a6dcb3bbf2a299a8bd207e0 646783 iceweasel_24.8.0esr.orig-l10n-bn-IN.tar.bz2
- 7354600ce0313197212f8fa0f6ac3a74bd2b120c 1655213 iceweasel_24.8.0esr.orig-l10n-br.tar.bz2
- 025dc7f1dd5a1861ddb0294e5e688bd9cb87a628 167624 iceweasel_24.8.0esr.orig-l10n-bs.tar.bz2
- 9c66d92d634807b6865b3cd1b8d9ef3d65c3a177 746634 iceweasel_24.8.0esr.orig-l10n-ca.tar.bz2
- bac018f04f85c8888b3165e79557bb85f034974e 719939 iceweasel_24.8.0esr.orig-l10n-cs.tar.bz2
- 1df4084662c8b0422f8d4adcdd3113a1a42857b1 156282 iceweasel_24.8.0esr.orig-l10n-csb.tar.bz2
- bcb141c884871c4e84fbd17a0eccbe850e167bc2 332743 iceweasel_24.8.0esr.orig-l10n-cy.tar.bz2
- 1d0322390e32dfca5337c38a2ff4a1cb8bc97552 997301 iceweasel_24.8.0esr.orig-l10n-da.tar.bz2
- 0a8a9ba1d170a9f945684e5794e112a29fe3c6ed 768575 iceweasel_24.8.0esr.orig-l10n-de.tar.bz2
- 976a50e864daea8e1f75f872337c70678ebeeb97 2052441 iceweasel_24.8.0esr.orig-l10n-el.tar.bz2
- 0abd5ac13a768cae54399b1c5bfaaa501690d6eb 703026 iceweasel_24.8.0esr.orig-l10n-en-GB.tar.bz2
- 8fc75a957e7662c60dcf9509863f56490bbb64cd 226678 iceweasel_24.8.0esr.orig-l10n-en-ZA.tar.bz2
- db51be588eb877dcd29647c6466981b3a83a8b4d 161878 iceweasel_24.8.0esr.orig-l10n-eo.tar.bz2
- eb3b51ef0d5779ae27441f188bde155485796c07 700983 iceweasel_24.8.0esr.orig-l10n-es-AR.tar.bz2
- 03690cbd05ecf5a9a8a8610b268415045850ba1f 166206 iceweasel_24.8.0esr.orig-l10n-es-CL.tar.bz2
- 26a82f81c300bbf8b4483d38eda1b5d53fe82935 647754 iceweasel_24.8.0esr.orig-l10n-es-ES.tar.bz2
- 84bc38abdef4efcf96286f4edb54f3c37a145ddf 115136 iceweasel_24.8.0esr.orig-l10n-es-MX.tar.bz2
- a2ea0bd099440517334bdc5f8e730cff28e306be 1214094 iceweasel_24.8.0esr.orig-l10n-et.tar.bz2
- 458d84f830368475af6df114acd4a45464a8be06 337420 iceweasel_24.8.0esr.orig-l10n-eu.tar.bz2
- 4619a9915a5f72782fbe4ac0ae06c7ca98f23e19 264277 iceweasel_24.8.0esr.orig-l10n-fa.tar.bz2
- 705e7944931bf13b3dea0fce9bd4e6d8ee60c7ba 154178 iceweasel_24.8.0esr.orig-l10n-ff.tar.bz2
- 4cfd5d6c54c77e56ea56f105e86916d9e9d1bfd8 732949 iceweasel_24.8.0esr.orig-l10n-fi.tar.bz2
- 5fd74ae995b19f73c2f868fd379f7a8dac5be340 1107303 iceweasel_24.8.0esr.orig-l10n-fr.tar.bz2
- ed1121955f2cd9b2a2dfa39b916a2059b54e7ca0 667946 iceweasel_24.8.0esr.orig-l10n-fy-NL.tar.bz2
- 9a0c82cff04be49682652963da12b79fa62fdb4b 363095 iceweasel_24.8.0esr.orig-l10n-ga-IE.tar.bz2
- df5080ae0daa3b3cc0c3bd5f797afc820544f6ba 361989 iceweasel_24.8.0esr.orig-l10n-gd.tar.bz2
- 6ed938fcd3115762fe504e12b2dc1b7a44201ca0 654641 iceweasel_24.8.0esr.orig-l10n-gl.tar.bz2
- 4473efca66ad33b16276aa0b89c9ddfe3c9bb186 279063 iceweasel_24.8.0esr.orig-l10n-gu-IN.tar.bz2
- 865a6555d423b116e0fb2dd8841fe01e39b34181 655088 iceweasel_24.8.0esr.orig-l10n-he.tar.bz2
- 28673889954d181122cc9b34dddbd43f3464f80e 271729 iceweasel_24.8.0esr.orig-l10n-hi-IN.tar.bz2
- 505d19878f1e1abcbabe03bef4d647e14a47c4a5 328689 iceweasel_24.8.0esr.orig-l10n-hr.tar.bz2
- 6cb9272667e5053727ab5593889dab6667d13cfa 1338233 iceweasel_24.8.0esr.orig-l10n-hu.tar.bz2
- b1d05432da938985822c6831b3507e0ffc4460bb 318199 iceweasel_24.8.0esr.orig-l10n-hy-AM.tar.bz2
- 6dd33f81bae301451bce8a0ff640a1394ae04564 462291 iceweasel_24.8.0esr.orig-l10n-id.tar.bz2
- 5198a62b07ceab35f694066ebc17ebcf028a1634 313256 iceweasel_24.8.0esr.orig-l10n-is.tar.bz2
- ce04dae60ea97b61947858b2f5fd07410388b048 599302 iceweasel_24.8.0esr.orig-l10n-it.tar.bz2
- 6752c3e31eaeecbb036c98cff77c61c37f73f090 990116 iceweasel_24.8.0esr.orig-l10n-ja.tar.bz2
- 3010b06ecf5a1e903d9e1952a7de664ab0cb2699 166351 iceweasel_24.8.0esr.orig-l10n-kk.tar.bz2
- 498435d5ccf8ca540ba7f986dc1ca83eed4577ca 767275 iceweasel_24.8.0esr.orig-l10n-km.tar.bz2
- 76c1e0685f47cf5ac4a36c6f29cb98e948e508e6 179429 iceweasel_24.8.0esr.orig-l10n-kn.tar.bz2
- 5ba5abd081f0cd2411ff4efbffd78af1fcbafbd1 313606 iceweasel_24.8.0esr.orig-l10n-ko.tar.bz2
- 116a09c2c8bafa0d6647c90b54ef5ca089716cf4 412135 iceweasel_24.8.0esr.orig-l10n-ku.tar.bz2
- d3c82dbdd93bfe731e3ee3485c1d0b9193debde4 175134 iceweasel_24.8.0esr.orig-l10n-lg.tar.bz2
- b7fc455213176e320dc7667fe2f31fd7c344c7ea 680741 iceweasel_24.8.0esr.orig-l10n-lij.tar.bz2
- 4989c85c272692acb5daa573822cca60b9ecd6d7 1039782 iceweasel_24.8.0esr.orig-l10n-lt.tar.bz2
- b7593cd5e6e97fd02bc4e304c8de19e04627d0a8 823719 iceweasel_24.8.0esr.orig-l10n-lv.tar.bz2
- ed1701c77121e6eef0b4d0de1707712569506158 187747 iceweasel_24.8.0esr.orig-l10n-mai.tar.bz2
- 609926f0c0d6eda0d9c6a3c4e14438df7b43349e 998727 iceweasel_24.8.0esr.orig-l10n-mk.tar.bz2
- 51dd03108f9c7c46b8f7cc0634793bec3a91ed0a 193336 iceweasel_24.8.0esr.orig-l10n-ml.tar.bz2
- 8656c39fc9171dca5fd29eaad7600fab826d7980 169185 iceweasel_24.8.0esr.orig-l10n-mr.tar.bz2
- eca40f8cc116582d9e901c3bc3c4abf78dafa958 727630 iceweasel_24.8.0esr.orig-l10n-nb-NO.tar.bz2
- 605504634fd48c22d12ba64b153fda5edcbafac7 1466612 iceweasel_24.8.0esr.orig-l10n-nl.tar.bz2
- d1f218968ac5c0fdd85543b53e2916ada7a48f15 338639 iceweasel_24.8.0esr.orig-l10n-nn-NO.tar.bz2
- f4e8d75524267c2ea2cc50b4bba0c54f46e672c2 279118 iceweasel_24.8.0esr.orig-l10n-nso.tar.bz2
- e3e3853679f272424838da031ef06a185534845c 396040 iceweasel_24.8.0esr.orig-l10n-or.tar.bz2
- 5459c49be625edfe7815d2e419678e6cd85ffa4e 339598 iceweasel_24.8.0esr.orig-l10n-pa-IN.tar.bz2
- 4d2ad50add5a8974ebc53b17f955cd3e8411b5c9 1802406 iceweasel_24.8.0esr.orig-l10n-pl.tar.bz2
- 04a384dfcef7a5b3e0c6257a4fbbf946c0401f0e 874340 iceweasel_24.8.0esr.orig-l10n-pt-BR.tar.bz2
- 15a1916d50d55009075b0557d2e75a43049d557f 972525 iceweasel_24.8.0esr.orig-l10n-pt-PT.tar.bz2
- 6586e0f012ddfe0ca6452c846e3c95c06066f4b4 285735 iceweasel_24.8.0esr.orig-l10n-rm.tar.bz2
- 00dc5990f4aa9fd245a27630f1da1ab0617f9e8b 1429389 iceweasel_24.8.0esr.orig-l10n-ro.tar.bz2
- 8adde6543caeab90e1091ee8249fda71e461de40 1164457 iceweasel_24.8.0esr.orig-l10n-ru.tar.bz2
- 49a3752423ab3b6fe6bcfcb8faa489b5a9578601 646596 iceweasel_24.8.0esr.orig-l10n-si.tar.bz2
- 7579595783827965d5a79f16598eaf90f7090c83 1672177 iceweasel_24.8.0esr.orig-l10n-sk.tar.bz2
- 2da089ff7756af85c396d2a6f4b0d2e63c14e230 355539 iceweasel_24.8.0esr.orig-l10n-sl.tar.bz2
- 27c6f222c50ed578f76672d4ad35ef9df2bb265c 173320 iceweasel_24.8.0esr.orig-l10n-son.tar.bz2
- 6b6019316015134c3a7bce33ec563442f3a5dca5 356620 iceweasel_24.8.0esr.orig-l10n-sq.tar.bz2
- ceb7e9adf824fbeab4c5abf2c6a80979c5f267fe 2218004 iceweasel_24.8.0esr.orig-l10n-sr.tar.bz2
- 8ddc71323922d66979c63067efb2354a2b2a9b77 1100919 iceweasel_24.8.0esr.orig-l10n-sv-SE.tar.bz2
- 6a6ee511b5cbdcb9b7c4f8665d8a15fd7870182e 263426 iceweasel_24.8.0esr.orig-l10n-ta-LK.tar.bz2
- 0f9e2de59af4d3d9d10e1224f9eb05c80d9823cf 536033 iceweasel_24.8.0esr.orig-l10n-ta.tar.bz2
- 574b8f2fb0b736f82659c3f76902b025a35c4fa2 190558 iceweasel_24.8.0esr.orig-l10n-te.tar.bz2
- 3c139cf818586c303822885755ef7f848db68459 176687 iceweasel_24.8.0esr.orig-l10n-th.tar.bz2
- f2759dc44479c839073de5be5f55cfce3099c1ff 697874 iceweasel_24.8.0esr.orig-l10n-tr.tar.bz2
- 2d17b8c86ab58003f4fc72069eb993b3d8c89db4 1113067 iceweasel_24.8.0esr.orig-l10n-uk.tar.bz2
- 7e350fa2e95d1a15d2ea47a3efdbb2160a198010 353844 iceweasel_24.8.0esr.orig-l10n-vi.tar.bz2
- c62b09fb30f71f64da73271ddcd145f507764af7 648149 iceweasel_24.8.0esr.orig-l10n-zh-CN.tar.bz2
- a49b43453db6b2d563417833d8b1794634b67c0a 938627 iceweasel_24.8.0esr.orig-l10n-zh-TW.tar.bz2
- 2633d5a7f07995375ccd966a1b6365c9d2cd4e66 246459 iceweasel_24.8.0esr.orig-l10n-zu.tar.bz2
- c3ee1e08f0414d0ede29458cd96c3a6a135fbfb8 119327126 iceweasel_24.8.0esr.orig.tar.bz2
- ad2254d46b57fff5428f698068cdaa8abd2c99d1 304375 iceweasel_24.8.0esr-1~deb7u1.debian.tar.gz
-Checksums-Sha256:
- e285851c9d9402448a485ac9ecce6b63c4056bbabe27ab00ea3be2e6b11756e7 34770 iceweasel_24.8.0esr-1~deb7u1.dsc
- e68159fc14c58466e1fc9fbce172b19eb927c03c45650566dc34c16fd2eaf5f2 29270 iceweasel_24.8.0esr.orig-compare-locales.tar.bz2
- bbc68ed571b3c222b079611031f86ef9c0e500acb8078113844d3bd174f9e36c 161923 iceweasel_24.8.0esr.orig-l10n-ach.tar.bz2
- 2a5a5dfd67b24d7948bc43590907938321fca600331002d036c1449c52a05156 246025 iceweasel_24.8.0esr.orig-l10n-af.tar.bz2
- 383258b6e485e251932d1c61af722795e68685bbc4fafb6c0a72b63cd7336e8b 169834 iceweasel_24.8.0esr.orig-l10n-ak.tar.bz2
- ee6a7e555a20d2b3b3fbcd14e574d3ab4f382df799fd22c3f33c981f04c2ecba 289273 iceweasel_24.8.0esr.orig-l10n-ar.tar.bz2
- 07fc70cd8dddee9acf4436a37fa90183088a29bba9b0713ac195729b1827e024 180146 iceweasel_24.8.0esr.orig-l10n-as.tar.bz2
- 0e5f93f24025179e4b9ba071ce296334c086ffc46042f81d89880c218e71a2e3 223565 iceweasel_24.8.0esr.orig-l10n-ast.tar.bz2
- 82084b344f25682dd02eb044eabd955e21b163993e34a9ee3f12d3443ef6c96e 587978 iceweasel_24.8.0esr.orig-l10n-be.tar.bz2
- 272924294b90e44ca6f4c520ee31d54d66965a7918e68677ffba821e994d328c 599471 iceweasel_24.8.0esr.orig-l10n-bg.tar.bz2
- 04fd91b4e116c1eee539372992dd4f2f570ff717f36b2269bf09654fae67915e 282491 iceweasel_24.8.0esr.orig-l10n-bn-BD.tar.bz2
- 5fcf8739300ba72943f418655c823622f4414db4dd5c6bcb703cad50d5ad5b12 646783 iceweasel_24.8.0esr.orig-l10n-bn-IN.tar.bz2
- 077d4f92d189e75ad7c3d246c2c2899ea5b3e0bcfc78cf0b42a77d55d04135a0 1655213 iceweasel_24.8.0esr.orig-l10n-br.tar.bz2
- 82353a81f69232d1112f6a5536a82d9df029ae38649d61c3e560ef0a6c569597 167624 iceweasel_24.8.0esr.orig-l10n-bs.tar.bz2
- d25cf095967e4c1d8dc412d6b9f193a4084daa6d79ec1cea6650e0959dce99b3 746634 iceweasel_24.8.0esr.orig-l10n-ca.tar.bz2
- f68ca3eb431e6db89198e5e000f4a0e5e3c3b1a1d183cf0a9aacbf8eedf058b2 719939 iceweasel_24.8.0esr.orig-l10n-cs.tar.bz2
- fc0dd87218af792fc66d4c7b91d2bcd26db10b2e8fcba23d5b5ade3ce180b2dd 156282 iceweasel_24.8.0esr.orig-l10n-csb.tar.bz2
- 9c5975063688d091d9b026fcba9f84d4a6122a329b169180318f9f6a53cf110e 332743 iceweasel_24.8.0esr.orig-l10n-cy.tar.bz2
- b065c0f74ff437ce4f5b240e8cfb09b2f7f81d135cb02f286ad81a400810ba25 997301 iceweasel_24.8.0esr.orig-l10n-da.tar.bz2
- 3b0f23c5028e14d29bd1a2d2e179896a33192bd665f914b72240ae12617b05fb 768575 iceweasel_24.8.0esr.orig-l10n-de.tar.bz2
- 473f03172aad5e6e0ee63fbfc1b1e9aa199dc88bce19abd4d56a1e0c6ddb5b64 2052441 iceweasel_24.8.0esr.orig-l10n-el.tar.bz2
- d2bb4ceee081987750087bb945c02c77abf38f554467d1a9b7836f5e150a4e26 703026 iceweasel_24.8.0esr.orig-l10n-en-GB.tar.bz2
- 334a6a29967506fb599abb50be3bdd63ad59e262243d2d93b6742e36eec4b50a 226678 iceweasel_24.8.0esr.orig-l10n-en-ZA.tar.bz2
- 8b8ab50482bf23ceeca6f4cabf016fa187a3cd1e946ae00aab46929d1fe490a5 161878 iceweasel_24.8.0esr.orig-l10n-eo.tar.bz2
- b2012a4ba2a99d310dcfccdc2e339fef2370691f3820b18d52b27a4dc31d45c5 700983 iceweasel_24.8.0esr.orig-l10n-es-AR.tar.bz2
- 566192ec28f3e89d9938d18ff82616e60ca1a843b4624c412133e40b9939942e 166206 iceweasel_24.8.0esr.orig-l10n-es-CL.tar.bz2
- 1b985ce139698a6cf7faf4577d8671353ba0838a6cba95f05a56a42aba966e19 647754 iceweasel_24.8.0esr.orig-l10n-es-ES.tar.bz2
- dcd9e0ae9418c8cc23eeeefc43f2a38d918a89aba03ac63e69bc117ed505934a 115136 iceweasel_24.8.0esr.orig-l10n-es-MX.tar.bz2
- b1bbbdbbab17bc8b035b8b10e9b13e8f241043b63bd76b02a1312f127a641b80 1214094 iceweasel_24.8.0esr.orig-l10n-et.tar.bz2
- ed509fa3732c38b7d4dea045cad7180af5ea694bf23ee9cc6063d974b6c055f4 337420 iceweasel_24.8.0esr.orig-l10n-eu.tar.bz2
- dbf11ceff41cc3511022b683e9677198d14cde9a91d3dd5090dfdd059b00b18c 264277 iceweasel_24.8.0esr.orig-l10n-fa.tar.bz2
- 063cc51915b7a668e16d5ae6c6837b1fa5eefbc331e71f1922c508f3e39d4b7d 154178 iceweasel_24.8.0esr.orig-l10n-ff.tar.bz2
- ee0e374b808b2469a68f23a1da2e096d35e3a8da95e72c79551b6bd2f02fccd1 732949 iceweasel_24.8.0esr.orig-l10n-fi.tar.bz2
- 6a9b525f9d393a5de69274b57daaf70be19e0a6ea2b3a104c75cfd3857affcd5 1107303 iceweasel_24.8.0esr.orig-l10n-fr.tar.bz2
- 49e8bfaf547cb6f58d94113034f09d97387f531ab42891991cfbc2e82258110b 667946 iceweasel_24.8.0esr.orig-l10n-fy-NL.tar.bz2
- 07c0ecdd3c1c663495d25c5174c4200f61e041f0a1d4458a3c329ecd6a1bc1ec 363095 iceweasel_24.8.0esr.orig-l10n-ga-IE.tar.bz2
- 16ff43eddc4eb00be35d54d9d8590c24448fa3cec1d4c26ce5aabc8c07738bce 361989 iceweasel_24.8.0esr.orig-l10n-gd.tar.bz2
- 44ccc9921613e6b936371fbdde61bfee40739fd024d6ac6dd6fcbefa3e5229f7 654641 iceweasel_24.8.0esr.orig-l10n-gl.tar.bz2
- de8bee132760946490d50cf1bf7b484f442380ae33e58eebb141f33e6395207d 279063 iceweasel_24.8.0esr.orig-l10n-gu-IN.tar.bz2
- e8eacd6143dcb32ec2069116b53049030cc305a14a5ad26bc8790003387ed3ba 655088 iceweasel_24.8.0esr.orig-l10n-he.tar.bz2
- 375c88ad34d4769ff3b4e67547e9750798f8bc932df18ebf3cbdbed8dd3472d1 271729 iceweasel_24.8.0esr.orig-l10n-hi-IN.tar.bz2
- 425e56fdb3c42370bb935c9885f273409cd221b30f3ce6100d425664347b5492 328689 iceweasel_24.8.0esr.orig-l10n-hr.tar.bz2
- 931164ed08497d2ccbe1c209c8b51f9ec59b3bf5acf93389ad8351bb11c000d2 1338233 iceweasel_24.8.0esr.orig-l10n-hu.tar.bz2
- 8108ad3414a8e470e093e3f2a477b61b34655078aa1d9bd283fb8b60435444e0 318199 iceweasel_24.8.0esr.orig-l10n-hy-AM.tar.bz2
- 01cce1a9090e4d2287491c7619abd0b9acdf0ffe04fc2c8fe6943705a078605b 462291 iceweasel_24.8.0esr.orig-l10n-id.tar.bz2
- 1333b493cc3d907d1d8ca6ce01435b9f4f91d92144858a556246d791cc71c231 313256 iceweasel_24.8.0esr.orig-l10n-is.tar.bz2
- a5191cfaff52656d2a8d664f745ab8b26a25837170b368c3cd65c1803e668b39 599302 iceweasel_24.8.0esr.orig-l10n-it.tar.bz2
- adad4161071f0430369e750deb8863609182477320e99bc0dd746dc75dd93a5c 990116 iceweasel_24.8.0esr.orig-l10n-ja.tar.bz2
- 0be1338b5671175b329563aee9b264f07ff71105821a4b265565ab7f26dcaa6d 166351 iceweasel_24.8.0esr.orig-l10n-kk.tar.bz2
- 8c2599deaa366ae23dd0eded26da39be5f9e22b51168d14013a78306dde5725d 767275 iceweasel_24.8.0esr.orig-l10n-km.tar.bz2
- de64bfac1f72788f8d7f1605d809487a0e2b8f9dacf2100d659297a5221e9b27 179429 iceweasel_24.8.0esr.orig-l10n-kn.tar.bz2
- 24c1b4927bbb8f610c5308940e5b909b14a39cae5fad00be771e9cb77526cac0 313606 iceweasel_24.8.0esr.orig-l10n-ko.tar.bz2
- e6e334d60f9d5c5f9886b6be6c6a917583351bd1c6bcecbd1b3ee746650b6d5d 412135 iceweasel_24.8.0esr.orig-l10n-ku.tar.bz2
- 4ba1f2c7a720cc3925ca7206e1bcaf283a27295bf6dd965a33116cd3d04d6c67 175134 iceweasel_24.8.0esr.orig-l10n-lg.tar.bz2
- 734fe1c7f677dc55d715d97cc5f45d137ca0818b615d062994b6c13b5211e397 680741 iceweasel_24.8.0esr.orig-l10n-lij.tar.bz2
- 4bc4b758eb5f87a934477fd2cbe0c9ef24dcb2a01831c32cf3a4fab0c1e2c6de 1039782 iceweasel_24.8.0esr.orig-l10n-lt.tar.bz2
- 5410d00bf419aabc2dfe76df4b18b0b7cf7a4547b8dae9e6f200224a67f7403d 823719 iceweasel_24.8.0esr.orig-l10n-lv.tar.bz2
- 92ef69ae2da73e06b9048c4df82e6e93300182a559b8eea1729f35d1c8ce8c08 187747 iceweasel_24.8.0esr.orig-l10n-mai.tar.bz2
- 6ce0111494921415927910f4322d02ca388d0236e80c650d8c6b4cff87efb8f1 998727 iceweasel_24.8.0esr.orig-l10n-mk.tar.bz2
- 60e47ef672a4fd4bb7fb2401602b5280113aa4e00dcce76919a0e8bb1496ed1e 193336 iceweasel_24.8.0esr.orig-l10n-ml.tar.bz2
- 1194069b76110edd62fd8b9ba012ab14afe3d4fe4d746a74213c63c17b6ccd41 169185 iceweasel_24.8.0esr.orig-l10n-mr.tar.bz2
- 75588a73ae45e688e60b0f65f5b81b56a698d01a215809e389ddc107089d9188 727630 iceweasel_24.8.0esr.orig-l10n-nb-NO.tar.bz2
- 5feebed1fd067da52e3f1522d379a48b0f1d3139b555f1926773439ad228ccc6 1466612 iceweasel_24.8.0esr.orig-l10n-nl.tar.bz2
- bb8476577be32ce7665511b109ae99efceab4a2dcb2a54b3c4889d0c35ed3442 338639 iceweasel_24.8.0esr.orig-l10n-nn-NO.tar.bz2
- d97a5c89bcb69ba2dd4a5c7039186919fe36d544c0090763e9b97c9240f458f6 279118 iceweasel_24.8.0esr.orig-l10n-nso.tar.bz2
- 27bc252895309dfc2a7a477689e868ceaebcd39326386e2a247a469a7d55af62 396040 iceweasel_24.8.0esr.orig-l10n-or.tar.bz2
- c7033cd514ad87ac285e5fe2badfbfbe0c3baa8628407015320adaaeac303e3a 339598 iceweasel_24.8.0esr.orig-l10n-pa-IN.tar.bz2
- 69188ded1c67d281d2faf2719b80c3b6075ebdee0953fcf5b5a2fffb225bb6f8 1802406 iceweasel_24.8.0esr.orig-l10n-pl.tar.bz2
- d766759408b825a77b8d218ba11d450156ee48d08f5d8f2b36c627228265f2ec 874340 iceweasel_24.8.0esr.orig-l10n-pt-BR.tar.bz2
- e74667e7caf3eedc37667aa846e2f067c90af28502ad2911ca2ca5ef09afc4ea 972525 iceweasel_24.8.0esr.orig-l10n-pt-PT.tar.bz2
- 6bda16168c157f0294ded0ff808cdc271c6e76d37b38e714e6a89bd07b3bafe0 285735 iceweasel_24.8.0esr.orig-l10n-rm.tar.bz2
- 316b96360ac97ca58ff9a53083fba7434dcb862a2933ff5dd71eea3f934420ea 1429389 iceweasel_24.8.0esr.orig-l10n-ro.tar.bz2
- 5d5c4f26e7b11ef3d28781483108d0e9d9da31be5764453509ee8c236f6e604d 1164457 iceweasel_24.8.0esr.orig-l10n-ru.tar.bz2
- 042c4efa1996418a6b1485fbc6c1691793d740856a128260bda2d6cd7ed6d015 646596 iceweasel_24.8.0esr.orig-l10n-si.tar.bz2
- 5e32a48ecbd7b3fc2f65480cb076b60130228923dbe995cf5ebdae4a2cdf9aa7 1672177 iceweasel_24.8.0esr.orig-l10n-sk.tar.bz2
- e7098c05e2ceeea40bd8012ed82883d92a9a300dd261aab55e80b77725095185 355539 iceweasel_24.8.0esr.orig-l10n-sl.tar.bz2
- f7e6abc33e3d5a72ad3def66ca1111b4f4a59edd8aadd2d5acebcc36cb5afb22 173320 iceweasel_24.8.0esr.orig-l10n-son.tar.bz2
- 942a52a62e8a1667e53fa90a92223ace915f3d9e23ac77ca8bebf34a1901ce07 356620 iceweasel_24.8.0esr.orig-l10n-sq.tar.bz2
- e9805c9ec9bcb532ae6b2aeee6d427eb4520d62967a50e8fb5b6bb0c4589ab68 2218004 iceweasel_24.8.0esr.orig-l10n-sr.tar.bz2
- 6494c0661444263bab88d33dbd99338067a69172126bec8d4e74b5d2e165cb40 1100919 iceweasel_24.8.0esr.orig-l10n-sv-SE.tar.bz2
- f04ed0043600e65cf37438aa7d73c14492872cf1adec5cd37e5a4485870721d0 263426 iceweasel_24.8.0esr.orig-l10n-ta-LK.tar.bz2
- cdabbd4e7949e854bf416753cff4f8917fd060dfc5f2f8f2460c80845625df8a 536033 iceweasel_24.8.0esr.orig-l10n-ta.tar.bz2
- 15d8ca11efe606f4af4a2352f5bb6262e1d0aa68807111c25302b5593623a662 190558 iceweasel_24.8.0esr.orig-l10n-te.tar.bz2
- 93b37ec7cd59cdf82dfed811a393382aac811af2444b4e32d4f0f7bab0922342 176687 iceweasel_24.8.0esr.orig-l10n-th.tar.bz2
- 16db3d7b6f88178e0f763828180694e0dcea469e5b9bca3598a21e967dd4d9a0 697874 iceweasel_24.8.0esr.orig-l10n-tr.tar.bz2
- 184f48adc583aefb5209e38c8d82008548c634618c5531cf9a7ec5319367d1e2 1113067 iceweasel_24.8.0esr.orig-l10n-uk.tar.bz2
- c22a21b0deb88db6d3547044b574f24c56f4140a041d0a9cc8773e5d88b99773 353844 iceweasel_24.8.0esr.orig-l10n-vi.tar.bz2
- 7bb38e161dc7b249b577f290527eb900f12a467413110277ee76087f76d0869f 648149 iceweasel_24.8.0esr.orig-l10n-zh-CN.tar.bz2
- ea6a513bb1b9fbfb668b7e17abc55f4fe459a66f940a01c2e8ee9c5ce7f1cdf5 938627 iceweasel_24.8.0esr.orig-l10n-zh-TW.tar.bz2
- e85fa1f406509803ab7a27216a6089acb10270b4bc68e12929db9f85c2082bb8 246459 iceweasel_24.8.0esr.orig-l10n-zu.tar.bz2
- ca51f001f3b9e24b1eca22e393046ff15b8f9e82d275e6902248e5c598f4a3b9 119327126 iceweasel_24.8.0esr.orig.tar.bz2
- c0605262b893b72fa024c6ff177c5c88d982bb92ade49b629295484d71fd19f1 304375 iceweasel_24.8.0esr-1~deb7u1.debian.tar.gz
-Build-Conflicts: graphicsmagick-imagemagick-compat, libhildonmime-dev, liboss4-salsa-dev, libosso-dev
-Package-List: 
- iceweasel deb web optional
- iceweasel-dbg deb debug extra
- iceweasel-l10n-ach deb localization optional
- iceweasel-l10n-af deb localization optional
- iceweasel-l10n-ak deb localization optional
- iceweasel-l10n-all deb localization optional
- iceweasel-l10n-ar deb localization optional
- iceweasel-l10n-as deb localization optional
- iceweasel-l10n-ast deb localization optional
- iceweasel-l10n-be deb localization optional
- iceweasel-l10n-bg deb localization optional
- iceweasel-l10n-bn-bd deb localization optional
- iceweasel-l10n-bn-in deb localization optional
- iceweasel-l10n-br deb localization optional
- iceweasel-l10n-bs deb localization optional
- iceweasel-l10n-ca deb localization optional
- iceweasel-l10n-cs deb localization optional
- iceweasel-l10n-csb deb localization optional
- iceweasel-l10n-cy deb localization optional
- iceweasel-l10n-da deb localization optional
- iceweasel-l10n-de deb localization optional
- iceweasel-l10n-el deb localization optional
- iceweasel-l10n-en-gb deb localization optional
- iceweasel-l10n-en-za deb localization optional
- iceweasel-l10n-eo deb localization optional
- iceweasel-l10n-es-ar deb localization optional
- iceweasel-l10n-es-cl deb localization optional
- iceweasel-l10n-es-es deb localization optional
- iceweasel-l10n-es-mx deb localization optional
- iceweasel-l10n-et deb localization optional
- iceweasel-l10n-eu deb localization optional
- iceweasel-l10n-fa deb localization optional
- iceweasel-l10n-ff deb localization optional
- iceweasel-l10n-fi deb localization optional
- iceweasel-l10n-fr deb localization optional
- iceweasel-l10n-fy-nl deb localization optional
- iceweasel-l10n-ga-ie deb localization optional
- iceweasel-l10n-gd deb localization optional
- iceweasel-l10n-gl deb localization optional
- iceweasel-l10n-gu-in deb localization optional
- iceweasel-l10n-he deb localization optional
- iceweasel-l10n-hi-in deb localization optional
- iceweasel-l10n-hr deb localization optional
- iceweasel-l10n-hu deb localization optional
- iceweasel-l10n-hy-am deb localization optional
- iceweasel-l10n-id deb localization optional
- iceweasel-l10n-is deb localization optional
- iceweasel-l10n-it deb localization optional
- iceweasel-l10n-ja deb localization optional
- iceweasel-l10n-kk deb localization optional
- iceweasel-l10n-km deb localization optional
- iceweasel-l10n-kn deb localization optional
- iceweasel-l10n-ko deb localization optional
- iceweasel-l10n-ku deb localization optional
- iceweasel-l10n-lg deb localization optional
- iceweasel-l10n-lij deb localization optional
- iceweasel-l10n-lt deb localization optional
- iceweasel-l10n-lv deb localization optional
- iceweasel-l10n-mai deb localization optional
- iceweasel-l10n-mk deb localization optional
- iceweasel-l10n-ml deb localization optional
- iceweasel-l10n-mr deb localization optional
- iceweasel-l10n-nb-no deb localization optional
- iceweasel-l10n-nl deb localization optional
- iceweasel-l10n-nn-no deb localization optional
- iceweasel-l10n-nso deb localization optional
- iceweasel-l10n-or deb localization optional
- iceweasel-l10n-pa-in deb localization optional
- iceweasel-l10n-pl deb localization optional
- iceweasel-l10n-pt-br deb localization optional
- iceweasel-l10n-pt-pt deb localization optional
- iceweasel-l10n-rm deb localization optional
- iceweasel-l10n-ro deb localization optional
- iceweasel-l10n-ru deb localization optional
- iceweasel-l10n-si deb localization optional
- iceweasel-l10n-sk deb localization optional
- iceweasel-l10n-sl deb localization optional
- iceweasel-l10n-son deb localization optional
- iceweasel-l10n-sq deb localization optional
- iceweasel-l10n-sr deb localization optional
- iceweasel-l10n-sv-se deb localization optional
- iceweasel-l10n-ta deb localization optional
- iceweasel-l10n-ta-lk deb localization optional
- iceweasel-l10n-te deb localization optional
- iceweasel-l10n-th deb localization optional
- iceweasel-l10n-tr deb localization optional
- iceweasel-l10n-uk deb localization optional
- iceweasel-l10n-vi deb localization optional
- iceweasel-l10n-zh-cn deb localization optional
- iceweasel-l10n-zh-tw deb localization optional
- iceweasel-l10n-zu deb localization optional
- libmozjs-dev deb libdevel optional
- libmozjs24d deb libs optional
- libmozjs24d-dbg deb debug extra
- spidermonkey-bin deb interpreters optional
- xulrunner-24.0 deb libs optional
- xulrunner-24.0-dbg deb debug extra
- xulrunner-dev deb libdevel optional
-Directory: pool/updates/main/i/iceweasel
-Priority: source
-Section: web
-
-Package: iceweasel
-Binary: iceweasel, iceweasel-dbg, xulrunner-24.0, libmozjs24d, libmozjs-dev, libmozjs24d-dbg, spidermonkey-bin, xulrunner-dev, xulrunner-24.0-dbg, iceweasel-l10n-all, iceweasel-l10n-ach, iceweasel-l10n-af, iceweasel-l10n-ak, iceweasel-l10n-ar, iceweasel-l10n-as, iceweasel-l10n-ast, iceweasel-l10n-be, iceweasel-l10n-bg, iceweasel-l10n-bn-bd, iceweasel-l10n-bn-in, iceweasel-l10n-br, iceweasel-l10n-bs, iceweasel-l10n-ca, iceweasel-l10n-cs, iceweasel-l10n-csb, iceweasel-l10n-cy, iceweasel-l10n-da, iceweasel-l10n-de, iceweasel-l10n-el, iceweasel-l10n-en-gb, iceweasel-l10n-en-za, iceweasel-l10n-eo, iceweasel-l10n-es-ar, iceweasel-l10n-es-cl, iceweasel-l10n-es-es, iceweasel-l10n-es-mx, iceweasel-l10n-et, iceweasel-l10n-eu, iceweasel-l10n-fa, iceweasel-l10n-ff, iceweasel-l10n-fi, iceweasel-l10n-fr, iceweasel-l10n-fy-nl, iceweasel-l10n-ga-ie, iceweasel-l10n-gd, iceweasel-l10n-gl, iceweasel-l10n-gu-in, iceweasel-l10n-he, iceweasel-l10n-hi-in, iceweasel-l10n-hr, iceweasel-l10n-hu,
- iceweasel-l10n-hy-am, iceweasel-l10n-id, iceweasel-l10n-is, iceweasel-l10n-it, iceweasel-l10n-ja, iceweasel-l10n-kk, iceweasel-l10n-km, iceweasel-l10n-kn, iceweasel-l10n-ko, iceweasel-l10n-ku, iceweasel-l10n-lg, iceweasel-l10n-lij, iceweasel-l10n-lt, iceweasel-l10n-lv, iceweasel-l10n-mai, iceweasel-l10n-mk, iceweasel-l10n-ml, iceweasel-l10n-mr, iceweasel-l10n-nb-no, iceweasel-l10n-nl, iceweasel-l10n-nn-no, iceweasel-l10n-nso, iceweasel-l10n-or, iceweasel-l10n-pa-in, iceweasel-l10n-pl, iceweasel-l10n-pt-br, iceweasel-l10n-pt-pt, iceweasel-l10n-rm, iceweasel-l10n-ro, iceweasel-l10n-ru, iceweasel-l10n-si, iceweasel-l10n-sk, iceweasel-l10n-sl, iceweasel-l10n-son, iceweasel-l10n-sq, iceweasel-l10n-sr, iceweasel-l10n-sv-se, iceweasel-l10n-ta, iceweasel-l10n-ta-lk, iceweasel-l10n-te, iceweasel-l10n-th, iceweasel-l10n-tr, iceweasel-l10n-uk, iceweasel-l10n-vi, iceweasel-l10n-zh-cn, iceweasel-l10n-zh-tw,
- iceweasel-l10n-zu
 Version: 24.8.1esr-1~deb7u1
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
@@ -11778,4 +11382,40 @@ Package-List:
 Directory: pool/updates/main/x/xserver-xorg-video-openchrome
 Priority: source
 Section: x11
+
+Package: xulrunner
+Binary: xulrunner-24.0, libmozjs24d, libmozjs-dev, libmozjs24d-dbg, spidermonkey-bin, xulrunner-dev, xulrunner-24.0-dbg
+Version: 24.8.1esr-2~deb7u1
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Uploaders: Mike Hommey <glandium@debian.org>
+Build-Depends: autotools-dev, debhelper (>= 7.2.3), libx11-dev, libxt-dev, libgtk2.0-dev (>= 2.10), libglib2.0-dev (>= 2.16.0), libstartup-notification0-dev, libgnomevfs2-dev, libgnome2-dev, libgnomeui-dev, libjpeg-dev, zlib1g-dev, libbz2-dev, libreadline-dev | libreadline5-dev, python2.7, python-minimal (>= 2.6.6-13~), python-ply, dpkg-dev (>= 1.16.1.1~), libhunspell-dev (>= 1.2), libdbus-glib-1-dev, libasound2-dev [linux-any], libiw-dev [linux-any], libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, yasm (>= 1.1), zip, unzip, locales, xvfb, xfonts-base, xauth, ttf-bitstream-vera, fonts-freefont-ttf | ttf-freefont, fonts-dejima-mincho | ttf-dejima-mincho, imagemagick, librsvg2-bin, xsltproc, iso-codes
+Architecture: any
+Standards-Version: 3.9.2.0
+Format: 3.0 (quilt)
+Files:
+ 1a04e81e08e47677fc4211ee12d9bd80 3099 xulrunner_24.8.1esr-2~deb7u1.dsc
+ 35856711063a501edb41d670afea1076 119512431 xulrunner_24.8.1esr.orig.tar.bz2
+ 20805b858b47de9f5fe860e389de08f4 186673 xulrunner_24.8.1esr-2~deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-mozilla/iceweasel.git
+Vcs-Git: git://git.debian.org/git/pkg-mozilla/iceweasel.git
+Checksums-Sha1:
+ 19d2a266eb3304ca3c10568bc2626b7575b12f02 3099 xulrunner_24.8.1esr-2~deb7u1.dsc
+ da432fd2e42750e76ee4d1490dc1a106ff39b63b 119512431 xulrunner_24.8.1esr.orig.tar.bz2
+ 0c06eba7eb17c29e3e47f4770ebe57e045c066c7 186673 xulrunner_24.8.1esr-2~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 310fe92fdd08ebcc1c169c644c8b1ab45bc6e309334b7008ce0044e57e68152f 3099 xulrunner_24.8.1esr-2~deb7u1.dsc
+ 44a4a6b986d108a23642349114973fc2d66ab5b8ad9e85be9bbd982cb0c4a14e 119512431 xulrunner_24.8.1esr.orig.tar.bz2
+ bae35cfcafa798990ef93d698e0bdc04e2314877d62e1acd60e61fe22e0b0bfd 186673 xulrunner_24.8.1esr-2~deb7u1.debian.tar.gz
+Build-Conflicts: graphicsmagick-imagemagick-compat, libhildonmime-dev, liboss4-salsa-dev, libosso-dev
+Package-List: 
+ libmozjs-dev deb libdevel optional
+ libmozjs24d deb libs optional
+ libmozjs24d-dbg deb debug extra
+ spidermonkey-bin deb interpreters optional
+ xulrunner-24.0 deb libs optional
+ xulrunner-24.0-dbg deb debug extra
+ xulrunner-dev deb libdevel optional
+Directory: pool/updates/main/x/xulrunner
+Priority: source
+Section: devel
 
