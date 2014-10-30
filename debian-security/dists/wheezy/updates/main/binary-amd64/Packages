@@ -2124,6 +2124,25 @@ MD5sum: 6041ea075b0e3b0a86565fa0b7ce6fbb
 SHA1: 3f0ae2ceb64d2f60f8c8e5aa2344631166fd5181
 SHA256: 8cd1f811b2f3d6e657f1d759c1e92c8eeb0852e4f5456be96169e05ee4775fb5
 
+Package: dokuwiki
+Version: 0.0.20120125b-2+deb7u1
+Installed-Size: 7335
+Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0, ucf, php5 (>= 5.1.2), php-geshi, libphp-simplepie, libjs-jquery, libjs-jquery-cookie, libjs-jquery-ui, javascript-common
+Suggests: libapache2-mod-xsendfile
+Description: standards compliant simple to use wiki
+Homepage: http://www.dokuwiki.org/
+Description-md5: 9be110fceaa730acc784dd3b3fd4abdb
+Recommends: imagemagick | php5-gd, php5-cli (>= 5.1.2)
+Section: web
+Priority: optional
+Filename: pool/updates/main/d/dokuwiki/dokuwiki_0.0.20120125b-2+deb7u1_all.deb
+Size: 1332480
+MD5sum: 154ce67e790eeced0ab06edaf171d609
+SHA1: 714bdf800223574ac32f1151b0fca0ad11886141
+SHA256: 720501acf33680f97baf57a94d1cf356649dae48ad389dc20454d72be82ac67b
+
 Package: dovecot-common
 Source: dovecot
 Version: 1:2.1.7-7+deb7u1

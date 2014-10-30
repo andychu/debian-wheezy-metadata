@@ -643,6 +643,36 @@ Directory: pool/updates/main/d/devscripts
 Priority: source
 Section: devel
 
+Package: dokuwiki
+Binary: dokuwiki
+Version: 0.0.20120125b-2+deb7u1
+Maintainer: Tanguy Ortolo <tanguy+debian@ortolo.eu>
+Uploaders: Mohammed Adnène Trojette <adn+deb@diwi.org>, Tanguy Ortolo <tanguy@ortolo.eu>
+Build-Depends: debhelper (>= 7.0.50~), po-debconf
+Architecture: all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ ae81d05fb27ebe44f1dec2fb5004a13b 2023 dokuwiki_0.0.20120125b-2+deb7u1.dsc
+ 6bceed04c3c38b3b251c70dfe2f9fca0 2507783 dokuwiki_0.0.20120125b.orig.tar.gz
+ db70d09ad14b56a0d311fd16b665e331 75876 dokuwiki_0.0.20120125b-2+deb7u1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/dokuwiki.git
+Vcs-Git: git://git.debian.org/collab-maint/dokuwiki.git/
+Checksums-Sha1:
+ fe7d6433f0273ca3435c4720526286bfb3a4d9a9 2023 dokuwiki_0.0.20120125b-2+deb7u1.dsc
+ 662c805de802e5889820eb911e3431f18003328a 2507783 dokuwiki_0.0.20120125b.orig.tar.gz
+ c7ec1338e2a2adb690045bbec9215af14ed33adf 75876 dokuwiki_0.0.20120125b-2+deb7u1.debian.tar.xz
+Checksums-Sha256:
+ 5f79f20bfb94639636e31ab9c65855fa25746731d3ae36442a1c61b5b037d7d8 2023 dokuwiki_0.0.20120125b-2+deb7u1.dsc
+ 0231fd4fabdb14a05628fad60a6d68017b7664b645662d4dfdb5f2f704ca165a 2507783 dokuwiki_0.0.20120125b.orig.tar.gz
+ 177117eba8840768d486b8f79bddd784c07b873505f61e7e28dab0fbc547db7d 75876 dokuwiki_0.0.20120125b-2+deb7u1.debian.tar.xz
+Homepage: http://www.dokuwiki.org/
+Package-List: 
+ dokuwiki deb web optional arch=all
+Directory: pool/updates/main/d/dokuwiki
+Priority: source
+Section: web
+
 Package: dovecot
 Binary: dovecot-common, dovecot-core, dovecot-dev, dovecot-imapd, dovecot-pop3d, dovecot-lmtpd, dovecot-managesieved, dovecot-pgsql, dovecot-mysql, dovecot-sqlite, dovecot-ldap, dovecot-gssapi, dovecot-sieve, dovecot-solr, dovecot-dbg
 Version: 1:2.1.7-7+deb7u1
