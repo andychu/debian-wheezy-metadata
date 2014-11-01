@@ -929,30 +929,30 @@ Section: mail
 
 Package: enigmail
 Binary: enigmail
-Version: 2:1.6-4~deb7u1
+Version: 2:1.7.2-1~deb7u1
 Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
 Uploaders: Alexander Sack <asac@debian.org>, Willi Mann <willi@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>
-Build-Depends: debhelper (>= 9), mozilla-devscripts, icedove-dev (<< 25.0), zip, python-ply, python
+Build-Depends: debhelper (>= 9), mozilla-devscripts, zip, perl, python
 Architecture: any
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Format: 3.0 (quilt)
 Files:
- 805019ae42b9cd75fbff1e0589f674b9 2067 enigmail_1.6-4~deb7u1.dsc
- 4a2bbcb020bdb282a660fda8c70d5608 1231111 enigmail_1.6.orig.tar.gz
- 33be397f76e9b78c326d4cab2a4465d4 64370 enigmail_1.6-4~deb7u1.debian.tar.gz
+ 21d7ac3544af9163905dfed1d887c5f3 2187 enigmail_1.7.2-1~deb7u1.dsc
+ d506093139dbeed51c70f00dfe308bc2 1420346 enigmail_1.7.2.orig.tar.gz
+ 1735921524351d255dc332b1d68f6bbc 47068 enigmail_1.7.2-1~deb7u1.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozext/enigmail.git
 Vcs-Git: git://git.debian.org/pkg-mozext/enigmail.git
 Checksums-Sha1:
- 05a8ebebb564fa3caac4e7d3a6ba2fac4c2d5c75 2067 enigmail_1.6-4~deb7u1.dsc
- 51a7eb7d86ce24d8199f741a0079f0d56ecd6368 1231111 enigmail_1.6.orig.tar.gz
- ef0ae901b91f857d7952822082f45b8cc650ea5a 64370 enigmail_1.6-4~deb7u1.debian.tar.gz
+ 59dbcf4b3cadfefa7d9f45f7d3e56516a7c6df5d 2187 enigmail_1.7.2-1~deb7u1.dsc
+ e72eeff5a47491267981090129b0b2594b5dc96f 1420346 enigmail_1.7.2.orig.tar.gz
+ 17b4787031cfd9bc1b1aad84c4de5a6139de5a30 47068 enigmail_1.7.2-1~deb7u1.debian.tar.xz
 Checksums-Sha256:
- c7be8e0cf9a8cc9258900aa37df8d8672f05dd6c7c28f91350134c47fc5e50bd 2067 enigmail_1.6-4~deb7u1.dsc
- 10d5eb7ba364b9b6e6275aae8bba1d0e4321ed7d55a715337d566ccf2a56ea4d 1231111 enigmail_1.6.orig.tar.gz
- 6ed85a4d7efb66d62bff08b0ea5ed937480094dbcc1572a78254c8ac0df81340 64370 enigmail_1.6-4~deb7u1.debian.tar.gz
+ 2f9e26794faed806cfc76684579fc208305c2bb096f97ce7bcd180a82bd6b95c 2187 enigmail_1.7.2-1~deb7u1.dsc
+ 7b3a62e83961bafec1cdac60075aa6c317c8f655a837e31a7d1f3ce6a49fc7d6 1420346 enigmail_1.7.2.orig.tar.gz
+ d3a36855074dee4f1d70abfb659ecfd45d7d491a0c0fff9c295fc786ff278ff3 47068 enigmail_1.7.2-1~deb7u1.debian.tar.xz
 Homepage: https://www.enigmail.net/
 Package-List: 
- enigmail deb mail optional
+ enigmail deb mail optional arch=any
 Directory: pool/updates/main/e/enigmail
 Priority: source
 Section: mail
@@ -1408,27 +1408,27 @@ Section: mail
 
 Package: icedove
 Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
-Version: 24.8.1-1~deb7u1
+Version: 31.2.0-1~deb7u1
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Uploaders: Guido Günther <agx@sigxcpu.org>
-Build-Depends: bzip2, debhelper (>= 5), autoconf2.13, autotools-dev, libgtk2.0-dev (>= 2.12), libglib2.0-dev (>= 2.16.0), zip, unzip, zlib1g-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libbz2-dev, libxft-dev, libfontconfig1-dev, libidl-dev (>= 0.8.0), libxt-dev, libxau-dev, libcairo2-dev (>= 1.10.2-1.1~), libgnomeui-dev (>= 2.16), libhunspell-dev (>= 1.2), libstartup-notification0-dev, libdbus-glib-1-dev (>= 0.60), libsqlite3-dev (>= 3.7.7.1), libasound2-dev [linux-any], libiw-dev [linux-any], python, python-ply, python-virtualenv, cdbs (>= 0.4.27), libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), libvpx-dev (>= 1.0.0), mesa-common-dev, libreadline-dev, yasm, libjs-jquery, libjs-jquery-ui
+Build-Depends: autoconf2.13, autotools-dev, bzip2, debhelper (>= 7.0.50~), dpkg-dev (>= 1.16.1~), libasound2-dev [linux-any], libbz2-dev, libcairo2-dev (>= 1.10.2-1.1~), libdbus-glib-1-dev (>= 0.60), libevent-dev (>= 1.4.1), libffi-dev, libfontconfig1-dev, libglib2.0-dev (>= 2.16.0), libgnomeui-dev (>= 2.16), libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk2.0-dev (>= 2.12), libhunspell-dev (>= 1.2), libidl-dev (>= 0.8.0), libiw-dev [linux-any], libjs-jquery, libjs-jquery-ui, libreadline-dev, libpulse-dev, libsqlite3-dev (>= 3.7.13~), libstartup-notification0-dev, libxau-dev, libxft-dev, libxt-dev, mesa-common-dev, python-minimal (>= 2.6.6-13~), python-ply, python2.7, unzip, yasm (>= 1.1), zip, zlib1g-dev
 Architecture: any all
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Files:
- 178f59f1aa88484a846213a60f896f4e 2475 icedove_24.8.1-1~deb7u1.dsc
- 972b48865b4be268c5922befdb4b35be 139539011 icedove_24.8.1.orig.tar.bz2
- 59cca33436cc6f3ae8e139c11f4bfc5f 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
+ 5b05cfe5582297c63fa63776854bf073 2829 icedove_31.2.0-1~deb7u1.dsc
+ 7d1d5d9e5381468f5e8fb89a15578342 139858784 icedove_31.2.0.orig.tar.xz
+ d432e7889d2a8ab1f4b5540fae429a9f 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
 Checksums-Sha1:
- 950be614d1cfff5d4ba68dcb2257f21ef473e5b6 2475 icedove_24.8.1-1~deb7u1.dsc
- 9299201591571abd9ec475c8102c04a51055a59a 139539011 icedove_24.8.1.orig.tar.bz2
- 5fa45367616e17bc73e38701eb86b4e83159bcc5 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
+ 4052e0378d07bfd6f3c3b99f406cdc0b5655e40c 2829 icedove_31.2.0-1~deb7u1.dsc
+ f920d369d4e45615c3b44770a99e7a481a5fd8d1 139858784 icedove_31.2.0.orig.tar.xz
+ c86d9fafb5ed10081c049f0bc4d789a7c386baeb 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
 Checksums-Sha256:
- acd93efff54336de23a6bc56bea3436bd8c8befb6f8617f7a00914c0c7294692 2475 icedove_24.8.1-1~deb7u1.dsc
- e70cb77fe93c63496a427fb0baff4cfd9906fa204afb7d054a6ae902934371e4 139539011 icedove_24.8.1.orig.tar.bz2
- 4ec23e4b6b8cab5e6ab83b7857d24bd93f165fd7de8ae6d1a7fa6b06eefbd1a1 503628 icedove_24.8.1-1~deb7u1.debian.tar.gz
+ 9feedada6e3079ef05c2eb7fda4813d47581942c1c7b8b46a105806ec7c4fa71 2829 icedove_31.2.0-1~deb7u1.dsc
+ 6a3c877b2c4ff2811914df2aa7deb76da2003db3b02c0341abb8eb0b402cf852 139858784 icedove_31.2.0.orig.tar.xz
+ abb08b7d1b7e0d53bf8e8ba3124c4ab0133a690b17b11fc39dc7fe683b611624 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
 Homepage: http://www.mozilla.org/thunderbird/
 Package-List: 
  calendar-google-provider deb mail optional
@@ -1443,7 +1443,7 @@ Section: mail
 Package: icedove-l10n
 Binary: icedove-l10n-all, icedove-l10n-ar, icedove-l10n-ast, icedove-l10n-be, icedove-l10n-bg, icedove-l10n-bn-bd, icedove-l10n-br, icedove-l10n-ca, icedove-l10n-cs, icedove-l10n-da, icedove-l10n-de, icedove-l10n-el, icedove-l10n-en-gb, icedove-l10n-es-ar, icedove-l10n-es-es, icedove-l10n-et, icedove-l10n-eu, icedove-l10n-fi, icedove-l10n-fr, icedove-l10n-fy-nl, icedove-l10n-ga-ie, icedove-l10n-gd, icedove-l10n-gl, icedove-l10n-he, icedove-l10n-hr, icedove-l10n-hu, icedove-l10n-hy-am, icedove-l10n-id, icedove-l10n-is, icedove-l10n-it, icedove-l10n-ja, icedove-l10n-ko, icedove-l10n-lt, icedove-l10n-nb-no, icedove-l10n-nl, icedove-l10n-nn-no, icedove-l10n-pa-in, icedove-l10n-pl, icedove-l10n-pt-br, icedove-l10n-pt-pt, icedove-l10n-rm, icedove-l10n-ro, icedove-l10n-ru, icedove-l10n-si, icedove-l10n-sk, icedove-l10n-sl, icedove-l10n-sq, icedove-l10n-sr, icedove-l10n-sv-se, icedove-l10n-ta-lk, icedove-l10n-tr, icedove-l10n-uk, icedove-l10n-vi, icedove-l10n-zh-cn,
  icedove-l10n-zh-tw
-Version: 1:24.3.0-1~deb7u1
+Version: 1:31.2.0-1~deb7u1
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Uploaders: Carsten Schoenert <c.schoenert@t-online.de>
 Build-Depends: debhelper (>= 7.0.50~)
@@ -1451,19 +1451,19 @@ Architecture: all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- 4b6e049cbfc27d410ecd1591be365c86 5343 icedove-l10n_24.3.0-1~deb7u1.dsc
- f0e5babd614391e040a93bc46c9cedb2 6551300 icedove-l10n_24.3.0.orig.tar.xz
- 68e2bb5358f1091d157d45ff476cb3d5 19915 icedove-l10n_24.3.0-1~deb7u1.debian.tar.gz
+ cb70e2b6b96cda92153aef863eecf61d 5343 icedove-l10n_31.2.0-1~deb7u1.dsc
+ c6b7ecc10ed00a28514a62c4d4de69e5 6771304 icedove-l10n_31.2.0.orig.tar.xz
+ b5ebd7317757a18c009cc3a1e0330f8b 20094 icedove-l10n_31.2.0-1~deb7u1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove-l10n.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove-l10n.git
 Checksums-Sha1:
- d83232d280e8571fead2bf9c0672119576405dfd 5343 icedove-l10n_24.3.0-1~deb7u1.dsc
- b9efc864c862bcfab191228fd71b98050adac5e0 6551300 icedove-l10n_24.3.0.orig.tar.xz
- 790725517051d95dca219809c3b21a08f73bc254 19915 icedove-l10n_24.3.0-1~deb7u1.debian.tar.gz
+ 8b460711bbc1034c936d313ed680f23ce499b20f 5343 icedove-l10n_31.2.0-1~deb7u1.dsc
+ 370c27acd71e53b76da588639c7a80c4bb4fa6bf 6771304 icedove-l10n_31.2.0.orig.tar.xz
+ 23fed5976e2f4c9de720feaa4251aa783e478c9f 20094 icedove-l10n_31.2.0-1~deb7u1.debian.tar.gz
 Checksums-Sha256:
- 5594523e269e07847141d85dd852f5c4a6d355539e3ee4e1af5e558652f55bed 5343 icedove-l10n_24.3.0-1~deb7u1.dsc
- 272eef9318a4b28e5463c7c02967a296b2b6ebeee4aed75609d322b35d3954cd 6551300 icedove-l10n_24.3.0.orig.tar.xz
- bc7687a5ae91d8afa30462e0c29c6f70729758800424d94436f63e077d8823db 19915 icedove-l10n_24.3.0-1~deb7u1.debian.tar.gz
+ 695958acd00d47db99d11d8972f4c81c9a4ba701720cd1f893bd13c5a2bb02ab 5343 icedove-l10n_31.2.0-1~deb7u1.dsc
+ b99ebc8ebb8f8a75e7b6408b41b45817d8b6562b17f1e213d34cf8b1718106e5 6771304 icedove-l10n_31.2.0.orig.tar.xz
+ 9379b411f39454b5617806689dc7e52727ffe317ec6906a3f9ae2fee8bc08208 20094 icedove-l10n_31.2.0-1~deb7u1.debian.tar.gz
 Build-Depends-Indep: unzip, zip, mozilla-devscripts
 Package-List: 
  icedove-l10n-all deb localization optional
@@ -6212,6 +6212,1119 @@ Checksums-Sha256:
  306fb4f0d1ebf591530c0f913f506f0dd5df5b4efca03c8158fba703994883ee 103062 linux_3.2.60-1+deb7u3.dsc
  c18396c59c5734812e992b4d71282139943f79631bfde602350e98989c2d54d1 65912660 linux_3.2.60.orig.tar.xz
  61a232176412ad046de2189a406c0ffadc73a5bb399755c0a3a9e383bf0eafc1 3646424 linux_3.2.60-1+deb7u3.debian.tar.xz
+Build-Depends-Indep: bzip2, xmlto
+Package-List: 
+ acpi-modules-3.2.0-4-486-di udeb debian-installer extra
+ acpi-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ acpi-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ affs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ affs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ ata-modules-3.2.0-4-486-di udeb debian-installer extra
+ ata-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ ata-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ ata-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ ata-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ ata-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ ata-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ ata-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ ata-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-486-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-atari-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-mac-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ btrfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ cdrom-core-modules-3.2.0-4-486-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-amiga-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-atari-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-mac-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ cdrom-core-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ core-modules-3.2.0-4-486-di udeb debian-installer standard
+ core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ core-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ core-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ core-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ core-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ core-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ core-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ crc-modules-3.2.0-4-486-di udeb debian-installer extra
+ crc-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ crc-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ crc-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ crc-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ crc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ crc-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ crc-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ crc-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ crc-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ crc-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ crc-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ crc-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ crc-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-486-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ crypto-dm-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-486-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-atari-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-mac-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ crypto-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ dasd-extra-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ dasd-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ efi-modules-3.2.0-4-486-di udeb debian-installer extra
+ efi-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ efi-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ event-modules-3.2.0-4-486-di udeb debian-installer extra
+ event-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ event-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ event-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ event-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ event-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ event-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ event-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ event-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ ext2-modules-3.2.0-4-486-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ ext2-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-486-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ ext3-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-486-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ ext4-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ fancontrol-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ fat-modules-3.2.0-4-486-di udeb debian-installer standard
+ fat-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ fat-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ fat-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ fat-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ fat-modules-3.2.0-4-atari-di udeb debian-installer extra
+ fat-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ fat-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ fat-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ fat-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ fat-modules-3.2.0-4-mac-di udeb debian-installer extra
+ fat-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ fat-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ fat-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ fat-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ fat-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ fat-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ fat-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ fat-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ fat-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ fat-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ fat-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ fat-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ fat-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ fat-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ fb-modules-3.2.0-4-486-di udeb debian-installer extra
+ fb-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ fb-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ fb-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ fb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ fb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ firewire-core-modules-3.2.0-4-486-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ firewire-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ floppy-modules-3.2.0-4-486-di udeb debian-installer standard
+ floppy-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ floppy-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ floppy-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ floppy-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ fuse-modules-3.2.0-4-486-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-atari-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-mac-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ fuse-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ hfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ hfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ hyperv-modules-3.2.0-4-486-di udeb debian-installer extra
+ hyperv-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ hyperv-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ hypervisor-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ i2c-modules-3.2.0-4-486-di udeb debian-installer extra
+ i2c-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ i2c-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ i2c-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ ide-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ ide-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ input-modules-3.2.0-4-486-di udeb debian-installer extra
+ input-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ input-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ input-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ input-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ input-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ input-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ input-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ input-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ input-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ input-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ input-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ input-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ input-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ input-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-atari-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-mac-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ ipv6-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ irda-modules-3.2.0-4-486-di udeb debian-installer extra
+ irda-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ irda-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ irda-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ irda-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ irda-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ isofs-modules-3.2.0-4-486-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-amiga-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-atari-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-mac-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ isofs-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ jffs2-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ jffs2-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ jfs-modules-3.2.0-4-486-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-amiga-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-atari-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-mac-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ jfs-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ kernel-image-3.2.0-4-486-di udeb debian-installer extra
+ kernel-image-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ kernel-image-3.2.0-4-686-pae-di udeb debian-installer extra
+ kernel-image-3.2.0-4-amd64-di udeb debian-installer extra
+ kernel-image-3.2.0-4-amiga-di udeb debian-installer extra
+ kernel-image-3.2.0-4-atari-di udeb debian-installer extra
+ kernel-image-3.2.0-4-iop32x-di udeb debian-installer extra
+ kernel-image-3.2.0-4-itanium-di udeb debian-installer extra
+ kernel-image-3.2.0-4-kirkwood-di udeb debian-installer extra
+ kernel-image-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ kernel-image-3.2.0-4-mac-di udeb debian-installer extra
+ kernel-image-3.2.0-4-mx5-di udeb debian-installer extra
+ kernel-image-3.2.0-4-orion5x-di udeb debian-installer extra
+ kernel-image-3.2.0-4-parisc-di udeb debian-installer extra
+ kernel-image-3.2.0-4-parisc64-di udeb debian-installer extra
+ kernel-image-3.2.0-4-powerpc-di udeb debian-installer extra
+ kernel-image-3.2.0-4-powerpc64-di udeb debian-installer extra
+ kernel-image-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ kernel-image-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ kernel-image-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ kernel-image-3.2.0-4-s390x-di udeb debian-installer extra
+ kernel-image-3.2.0-4-s390x-tape-di udeb debian-installer extra
+ kernel-image-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ kernel-image-3.2.0-4-sh7751r-di udeb debian-installer extra
+ kernel-image-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ kernel-image-3.2.0-4-sparc64-di udeb debian-installer extra
+ kernel-image-3.2.0-4-versatile-di udeb debian-installer extra
+ kernel-image-3.2.0-4-vexpress-di udeb debian-installer extra
+ leds-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ linux-doc-3.2 deb doc optional
+ linux-headers-3.2.0-4-486 deb kernel optional
+ linux-headers-3.2.0-4-4kc-malta deb kernel optional
+ linux-headers-3.2.0-4-5kc-malta deb kernel optional
+ linux-headers-3.2.0-4-686-pae deb kernel optional
+ linux-headers-3.2.0-4-all deb kernel optional
+ linux-headers-3.2.0-4-all-alpha deb kernel optional
+ linux-headers-3.2.0-4-all-amd64 deb kernel optional
+ linux-headers-3.2.0-4-all-armel deb kernel optional
+ linux-headers-3.2.0-4-all-armhf deb kernel optional
+ linux-headers-3.2.0-4-all-hppa deb kernel optional
+ linux-headers-3.2.0-4-all-i386 deb kernel optional
+ linux-headers-3.2.0-4-all-ia64 deb kernel optional
+ linux-headers-3.2.0-4-all-m68k deb kernel optional
+ linux-headers-3.2.0-4-all-mips deb kernel optional
+ linux-headers-3.2.0-4-all-mipsel deb kernel optional
+ linux-headers-3.2.0-4-all-powerpc deb kernel optional
+ linux-headers-3.2.0-4-all-ppc64 deb kernel optional
+ linux-headers-3.2.0-4-all-s390 deb kernel optional
+ linux-headers-3.2.0-4-all-s390x deb kernel optional
+ linux-headers-3.2.0-4-all-sh4 deb kernel optional
+ linux-headers-3.2.0-4-all-sparc deb kernel optional
+ linux-headers-3.2.0-4-all-sparc64 deb kernel optional
+ linux-headers-3.2.0-4-alpha-generic deb kernel optional
+ linux-headers-3.2.0-4-alpha-legacy deb kernel optional
+ linux-headers-3.2.0-4-alpha-smp deb kernel optional
+ linux-headers-3.2.0-4-amd64 deb kernel optional
+ linux-headers-3.2.0-4-amiga deb kernel optional
+ linux-headers-3.2.0-4-atari deb kernel optional
+ linux-headers-3.2.0-4-bvme6000 deb kernel optional
+ linux-headers-3.2.0-4-common deb kernel optional
+ linux-headers-3.2.0-4-common-rt deb kernel optional
+ linux-headers-3.2.0-4-iop32x deb kernel optional
+ linux-headers-3.2.0-4-itanium deb kernel optional
+ linux-headers-3.2.0-4-ixp4xx deb kernel optional
+ linux-headers-3.2.0-4-kirkwood deb kernel optional
+ linux-headers-3.2.0-4-loongson-2f deb kernel optional
+ linux-headers-3.2.0-4-mac deb kernel optional
+ linux-headers-3.2.0-4-mckinley deb kernel optional
+ linux-headers-3.2.0-4-mv78xx0 deb kernel optional
+ linux-headers-3.2.0-4-mvme147 deb kernel optional
+ linux-headers-3.2.0-4-mvme16x deb kernel optional
+ linux-headers-3.2.0-4-mx5 deb kernel optional
+ linux-headers-3.2.0-4-octeon deb kernel optional
+ linux-headers-3.2.0-4-omap deb kernel optional
+ linux-headers-3.2.0-4-orion5x deb kernel optional
+ linux-headers-3.2.0-4-parisc deb kernel optional
+ linux-headers-3.2.0-4-parisc-smp deb kernel optional
+ linux-headers-3.2.0-4-parisc64 deb kernel optional
+ linux-headers-3.2.0-4-parisc64-smp deb kernel optional
+ linux-headers-3.2.0-4-powerpc deb kernel optional
+ linux-headers-3.2.0-4-powerpc-smp deb kernel optional
+ linux-headers-3.2.0-4-powerpc64 deb kernel optional
+ linux-headers-3.2.0-4-r4k-ip22 deb kernel optional
+ linux-headers-3.2.0-4-r5k-cobalt deb kernel optional
+ linux-headers-3.2.0-4-r5k-ip32 deb kernel optional
+ linux-headers-3.2.0-4-rt-686-pae deb kernel optional
+ linux-headers-3.2.0-4-rt-amd64 deb kernel optional
+ linux-headers-3.2.0-4-s390x deb kernel optional
+ linux-headers-3.2.0-4-sb1-bcm91250a deb kernel optional
+ linux-headers-3.2.0-4-sb1a-bcm91480b deb kernel optional
+ linux-headers-3.2.0-4-sh7751r deb kernel optional
+ linux-headers-3.2.0-4-sh7785lcr deb kernel optional
+ linux-headers-3.2.0-4-sparc64 deb kernel optional
+ linux-headers-3.2.0-4-sparc64-smp deb kernel optional
+ linux-headers-3.2.0-4-versatile deb kernel optional
+ linux-headers-3.2.0-4-vexpress deb kernel optional
+ linux-image-3.2.0-4-486 deb kernel optional
+ linux-image-3.2.0-4-4kc-malta deb kernel optional
+ linux-image-3.2.0-4-5kc-malta deb kernel optional
+ linux-image-3.2.0-4-686-pae deb kernel optional
+ linux-image-3.2.0-4-686-pae-dbg deb debug extra
+ linux-image-3.2.0-4-alpha-generic deb kernel optional
+ linux-image-3.2.0-4-alpha-legacy deb kernel optional
+ linux-image-3.2.0-4-alpha-smp deb kernel optional
+ linux-image-3.2.0-4-amd64 deb kernel optional
+ linux-image-3.2.0-4-amd64-dbg deb debug extra
+ linux-image-3.2.0-4-amiga deb kernel optional
+ linux-image-3.2.0-4-atari deb kernel optional
+ linux-image-3.2.0-4-bvme6000 deb kernel optional
+ linux-image-3.2.0-4-iop32x deb kernel optional
+ linux-image-3.2.0-4-itanium deb kernel optional
+ linux-image-3.2.0-4-ixp4xx deb kernel optional
+ linux-image-3.2.0-4-kirkwood deb kernel optional
+ linux-image-3.2.0-4-loongson-2f deb kernel optional
+ linux-image-3.2.0-4-mac deb kernel optional
+ linux-image-3.2.0-4-mckinley deb kernel optional
+ linux-image-3.2.0-4-mv78xx0 deb kernel optional
+ linux-image-3.2.0-4-mvme147 deb kernel optional
+ linux-image-3.2.0-4-mvme16x deb kernel optional
+ linux-image-3.2.0-4-mx5 deb kernel optional
+ linux-image-3.2.0-4-octeon deb kernel optional
+ linux-image-3.2.0-4-omap deb kernel optional
+ linux-image-3.2.0-4-orion5x deb kernel optional
+ linux-image-3.2.0-4-parisc deb kernel optional
+ linux-image-3.2.0-4-parisc-smp deb kernel optional
+ linux-image-3.2.0-4-parisc64 deb kernel optional
+ linux-image-3.2.0-4-parisc64-smp deb kernel optional
+ linux-image-3.2.0-4-powerpc deb kernel optional
+ linux-image-3.2.0-4-powerpc-smp deb kernel optional
+ linux-image-3.2.0-4-powerpc64 deb kernel optional
+ linux-image-3.2.0-4-r4k-ip22 deb kernel optional
+ linux-image-3.2.0-4-r5k-cobalt deb kernel optional
+ linux-image-3.2.0-4-r5k-ip32 deb kernel optional
+ linux-image-3.2.0-4-rt-686-pae deb kernel optional
+ linux-image-3.2.0-4-rt-686-pae-dbg deb debug extra
+ linux-image-3.2.0-4-rt-amd64 deb kernel optional
+ linux-image-3.2.0-4-rt-amd64-dbg deb debug extra
+ linux-image-3.2.0-4-s390x deb kernel optional
+ linux-image-3.2.0-4-s390x-dbg deb debug extra
+ linux-image-3.2.0-4-s390x-tape deb kernel optional
+ linux-image-3.2.0-4-sb1-bcm91250a deb kernel optional
+ linux-image-3.2.0-4-sb1a-bcm91480b deb kernel optional
+ linux-image-3.2.0-4-sh7751r deb kernel optional
+ linux-image-3.2.0-4-sh7785lcr deb kernel optional
+ linux-image-3.2.0-4-sparc64 deb kernel optional
+ linux-image-3.2.0-4-sparc64-smp deb kernel optional
+ linux-image-3.2.0-4-versatile deb kernel optional
+ linux-image-3.2.0-4-vexpress deb kernel optional
+ linux-libc-dev deb devel optional
+ linux-manual-3.2 deb doc optional
+ linux-source-3.2 deb kernel optional
+ linux-support-3.2.0-4 deb devel optional
+ loop-modules-3.2.0-4-486-di udeb debian-installer standard
+ loop-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ loop-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ loop-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ loop-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ loop-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ loop-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ loop-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ loop-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ loop-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ loop-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ loop-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ loop-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ loop-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ loop-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
+ loop-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
+ loop-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
+ loop-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ loop-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ loop-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ loop-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ loop-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ md-modules-3.2.0-4-486-di udeb debian-installer extra
+ md-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ md-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ md-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ md-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ md-modules-3.2.0-4-atari-di udeb debian-installer extra
+ md-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ md-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ md-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ md-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ md-modules-3.2.0-4-mac-di udeb debian-installer extra
+ md-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ md-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ md-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ md-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ md-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ md-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ md-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ md-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ md-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ md-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ md-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ md-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ md-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ md-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ md-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ md-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ minix-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ minix-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ minix-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ minix-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ minix-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ mmc-core-modules-3.2.0-4-486-di udeb debian-installer extra
+ mmc-core-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ mmc-core-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-486-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ mmc-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-486-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ mouse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ mtd-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-486-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ multipath-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-486-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-atari-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-mac-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ nbd-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ nfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ nic-extra-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ nic-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ nic-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ nic-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ nic-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ nic-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ nic-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ nic-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ nic-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ nic-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ nic-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ nic-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ nic-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ nic-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ nic-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ nic-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ nic-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ nic-pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ nic-pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-amiga-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-atari-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-mac-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ nic-shared-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ nic-usb-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ nic-wireless-modules-3.2.0-4-486-di udeb debian-installer standard
+ nic-wireless-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ nic-wireless-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ nic-wireless-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ nic-wireless-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ ntfs-modules-3.2.0-4-486-di udeb debian-installer extra
+ ntfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ ntfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ ntfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ parport-modules-3.2.0-4-486-di udeb debian-installer extra
+ parport-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ parport-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ parport-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ parport-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ parport-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ pata-modules-3.2.0-4-486-di udeb debian-installer standard
+ pata-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ pata-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ pata-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ pata-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ pata-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ pata-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ pata-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ pata-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ pata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ pata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ pata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ pata-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ pcmcia-storage-modules-3.2.0-4-486-di udeb debian-installer standard
+ pcmcia-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ pcmcia-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ pcmcia-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ pcmcia-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ plip-modules-3.2.0-4-486-di udeb debian-installer optional
+ plip-modules-3.2.0-4-686-pae-di udeb debian-installer optional
+ plip-modules-3.2.0-4-amd64-di udeb debian-installer optional
+ plip-modules-3.2.0-4-itanium-di udeb debian-installer optional
+ plip-modules-3.2.0-4-sparc64-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-486-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-4kc-malta-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-686-pae-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-amd64-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-amiga-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-atari-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-iop32x-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-itanium-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-kirkwood-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-loongson-2f-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-mac-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-orion5x-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-parisc-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-parisc64-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-powerpc-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-sh7751r-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-sparc64-di udeb debian-installer optional
+ ppp-modules-3.2.0-4-versatile-di udeb debian-installer optional
+ qnx4-modules-3.2.0-4-486-di udeb debian-installer extra
+ qnx4-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ qnx4-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-486-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-atari-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-mac-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ reiserfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ rtc-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ sata-modules-3.2.0-4-486-di udeb debian-installer standard
+ sata-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ sata-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ sata-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ sata-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ sata-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ sata-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ sata-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ sata-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ sata-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ sata-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ sata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ sata-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ sata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ sata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ sata-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ sata-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-486-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ scsi-common-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-486-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ scsi-core-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ scsi-extra-modules-3.2.0-4-486-di udeb debian-installer standard
+ scsi-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ scsi-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ scsi-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ scsi-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-486-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-amiga-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-atari-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-mac-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ scsi-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ serial-modules-3.2.0-4-486-di udeb debian-installer optional
+ serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional
+ serial-modules-3.2.0-4-amd64-di udeb debian-installer optional
+ serial-modules-3.2.0-4-itanium-di udeb debian-installer optional
+ serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional
+ serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
+ sn-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ sound-modules-3.2.0-4-486-di udeb debian-installer extra
+ sound-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ sound-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ sound-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ sound-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ speakup-modules-3.2.0-4-486-di udeb debian-installer extra
+ speakup-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ speakup-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ speakup-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ speakup-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-486-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-atari-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-mac-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ squashfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ udf-modules-3.2.0-4-486-di udeb debian-installer extra
+ udf-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ udf-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ udf-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ udf-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ udf-modules-3.2.0-4-atari-di udeb debian-installer extra
+ udf-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ udf-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ udf-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ udf-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ udf-modules-3.2.0-4-mac-di udeb debian-installer extra
+ udf-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ udf-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ udf-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ udf-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ udf-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ udf-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ udf-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ udf-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ udf-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ udf-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ udf-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ udf-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-486-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ ufs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-486-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-mx5-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ uinput-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ usb-modules-3.2.0-4-486-di udeb debian-installer extra
+ usb-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ usb-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ usb-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ usb-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ usb-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ usb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
+ usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ usb-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ usb-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ usb-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ usb-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ usb-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ usb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ usb-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ usb-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ usb-modules-3.2.0-4-vexpress-di udeb debian-installer extra
+ usb-serial-modules-3.2.0-4-486-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-amd64-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-iop32x-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-kirkwood-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-orion5x-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-sh7751r-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional
+ usb-serial-modules-3.2.0-4-versatile-di udeb debian-installer optional
+ usb-storage-modules-3.2.0-4-486-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-iop32x-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-mx5-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-orion5x-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-parisc-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-parisc64-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-versatile-di udeb debian-installer standard
+ usb-storage-modules-3.2.0-4-vexpress-di udeb debian-installer standard
+ virtio-modules-3.2.0-4-486-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-s390x-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ virtio-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ xen-linux-system-3.2.0-4-686-pae deb kernel optional
+ xen-linux-system-3.2.0-4-amd64 deb kernel optional
+ xfs-modules-3.2.0-4-486-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-amd64-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-itanium-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-s390x-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
+ xfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
+ zlib-modules-3.2.0-4-486-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-686-pae-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-amd64-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-amiga-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-atari-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-iop32x-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-itanium-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-mac-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-orion5x-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-parisc-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-parisc64-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-powerpc-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-sparc64-di udeb debian-installer extra
+ zlib-modules-3.2.0-4-versatile-di udeb debian-installer extra
+Vcs-Svn: svn://svn.debian.org/svn/kernel/dists/trunk/linux/
+Directory: pool/updates/main/l/linux
+Priority: source
+Section: kernel
+
+Package: linux
+Binary: linux-source-3.2, linux-doc-3.2, linux-manual-3.2, linux-support-3.2.0-4, linux-libc-dev, linux-headers-3.2.0-4-all, linux-headers-3.2.0-4-all-alpha, linux-headers-3.2.0-4-common, linux-image-3.2.0-4-alpha-generic, linux-headers-3.2.0-4-alpha-generic, linux-image-3.2.0-4-alpha-smp, linux-headers-3.2.0-4-alpha-smp, linux-image-3.2.0-4-alpha-legacy, linux-headers-3.2.0-4-alpha-legacy, linux-headers-3.2.0-4-all-amd64, kernel-image-3.2.0-4-amd64-di, nic-modules-3.2.0-4-amd64-di, nic-extra-modules-3.2.0-4-amd64-di, nic-wireless-modules-3.2.0-4-amd64-di, nic-shared-modules-3.2.0-4-amd64-di, serial-modules-3.2.0-4-amd64-di, usb-serial-modules-3.2.0-4-amd64-di, ppp-modules-3.2.0-4-amd64-di, pata-modules-3.2.0-4-amd64-di, cdrom-core-modules-3.2.0-4-amd64-di, firewire-core-modules-3.2.0-4-amd64-di, scsi-core-modules-3.2.0-4-amd64-di, scsi-modules-3.2.0-4-amd64-di, scsi-common-modules-3.2.0-4-amd64-di, scsi-extra-modules-3.2.0-4-amd64-di, plip-modules-3.2.0-4-amd64-di,
+ floppy-modules-3.2.0-4-amd64-di, loop-modules-3.2.0-4-amd64-di, btrfs-modules-3.2.0-4-amd64-di, ext2-modules-3.2.0-4-amd64-di, ext3-modules-3.2.0-4-amd64-di, ext4-modules-3.2.0-4-amd64-di, isofs-modules-3.2.0-4-amd64-di, jfs-modules-3.2.0-4-amd64-di, ntfs-modules-3.2.0-4-amd64-di, reiserfs-modules-3.2.0-4-amd64-di, xfs-modules-3.2.0-4-amd64-di, fat-modules-3.2.0-4-amd64-di, ufs-modules-3.2.0-4-amd64-di, qnx4-modules-3.2.0-4-amd64-di, md-modules-3.2.0-4-amd64-di, multipath-modules-3.2.0-4-amd64-di, usb-modules-3.2.0-4-amd64-di, usb-storage-modules-3.2.0-4-amd64-di, pcmcia-storage-modules-3.2.0-4-amd64-di, fb-modules-3.2.0-4-amd64-di, input-modules-3.2.0-4-amd64-di, event-modules-3.2.0-4-amd64-di, mouse-modules-3.2.0-4-amd64-di, irda-modules-3.2.0-4-amd64-di, parport-modules-3.2.0-4-amd64-di, nic-pcmcia-modules-3.2.0-4-amd64-di, pcmcia-modules-3.2.0-4-amd64-di, nic-usb-modules-3.2.0-4-amd64-di, sata-modules-3.2.0-4-amd64-di, core-modules-3.2.0-4-amd64-di,
+ acpi-modules-3.2.0-4-amd64-di, i2c-modules-3.2.0-4-amd64-di, crc-modules-3.2.0-4-amd64-di, crypto-modules-3.2.0-4-amd64-di, crypto-dm-modules-3.2.0-4-amd64-di, efi-modules-3.2.0-4-amd64-di, ata-modules-3.2.0-4-amd64-di, mmc-core-modules-3.2.0-4-amd64-di, mmc-modules-3.2.0-4-amd64-di, nbd-modules-3.2.0-4-amd64-di, squashfs-modules-3.2.0-4-amd64-di, speakup-modules-3.2.0-4-amd64-di, virtio-modules-3.2.0-4-amd64-di, uinput-modules-3.2.0-4-amd64-di, sound-modules-3.2.0-4-amd64-di, zlib-modules-3.2.0-4-amd64-di, hyperv-modules-3.2.0-4-amd64-di, udf-modules-3.2.0-4-amd64-di, fuse-modules-3.2.0-4-amd64-di, linux-image-3.2.0-4-amd64, linux-headers-3.2.0-4-amd64, linux-image-3.2.0-4-amd64-dbg, xen-linux-system-3.2.0-4-amd64, linux-headers-3.2.0-4-common-rt, linux-image-3.2.0-4-rt-amd64, linux-headers-3.2.0-4-rt-amd64, linux-image-3.2.0-4-rt-amd64-dbg, linux-headers-3.2.0-4-all-armel, kernel-image-3.2.0-4-iop32x-di, nic-modules-3.2.0-4-iop32x-di,
+ nic-shared-modules-3.2.0-4-iop32x-di, usb-serial-modules-3.2.0-4-iop32x-di, ppp-modules-3.2.0-4-iop32x-di, pata-modules-3.2.0-4-iop32x-di, cdrom-core-modules-3.2.0-4-iop32x-di, scsi-core-modules-3.2.0-4-iop32x-di, loop-modules-3.2.0-4-iop32x-di, ipv6-modules-3.2.0-4-iop32x-di, btrfs-modules-3.2.0-4-iop32x-di, ext2-modules-3.2.0-4-iop32x-di, ext3-modules-3.2.0-4-iop32x-di, ext4-modules-3.2.0-4-iop32x-di, isofs-modules-3.2.0-4-iop32x-di, jffs2-modules-3.2.0-4-iop32x-di, jfs-modules-3.2.0-4-iop32x-di, reiserfs-modules-3.2.0-4-iop32x-di, fat-modules-3.2.0-4-iop32x-di, md-modules-3.2.0-4-iop32x-di, multipath-modules-3.2.0-4-iop32x-di, usb-modules-3.2.0-4-iop32x-di, usb-storage-modules-3.2.0-4-iop32x-di, event-modules-3.2.0-4-iop32x-di, nic-usb-modules-3.2.0-4-iop32x-di, sata-modules-3.2.0-4-iop32x-di, core-modules-3.2.0-4-iop32x-di, crc-modules-3.2.0-4-iop32x-di, crypto-modules-3.2.0-4-iop32x-di, crypto-dm-modules-3.2.0-4-iop32x-di, ata-modules-3.2.0-4-iop32x-di,
+ nbd-modules-3.2.0-4-iop32x-di, squashfs-modules-3.2.0-4-iop32x-di, zlib-modules-3.2.0-4-iop32x-di, udf-modules-3.2.0-4-iop32x-di, fuse-modules-3.2.0-4-iop32x-di, kernel-image-3.2.0-4-kirkwood-di, nic-modules-3.2.0-4-kirkwood-di, nic-shared-modules-3.2.0-4-kirkwood-di, usb-serial-modules-3.2.0-4-kirkwood-di, ppp-modules-3.2.0-4-kirkwood-di, cdrom-core-modules-3.2.0-4-kirkwood-di, scsi-core-modules-3.2.0-4-kirkwood-di, loop-modules-3.2.0-4-kirkwood-di, ipv6-modules-3.2.0-4-kirkwood-di, btrfs-modules-3.2.0-4-kirkwood-di, ext2-modules-3.2.0-4-kirkwood-di, ext3-modules-3.2.0-4-kirkwood-di, ext4-modules-3.2.0-4-kirkwood-di, isofs-modules-3.2.0-4-kirkwood-di, jfs-modules-3.2.0-4-kirkwood-di, reiserfs-modules-3.2.0-4-kirkwood-di, fat-modules-3.2.0-4-kirkwood-di, minix-modules-3.2.0-4-kirkwood-di, md-modules-3.2.0-4-kirkwood-di, multipath-modules-3.2.0-4-kirkwood-di, usb-modules-3.2.0-4-kirkwood-di, usb-storage-modules-3.2.0-4-kirkwood-di, fb-modules-3.2.0-4-kirkwood-di,
+ input-modules-3.2.0-4-kirkwood-di, event-modules-3.2.0-4-kirkwood-di, mouse-modules-3.2.0-4-kirkwood-di, nic-usb-modules-3.2.0-4-kirkwood-di, sata-modules-3.2.0-4-kirkwood-di, core-modules-3.2.0-4-kirkwood-di, crc-modules-3.2.0-4-kirkwood-di, crypto-modules-3.2.0-4-kirkwood-di, crypto-dm-modules-3.2.0-4-kirkwood-di, mmc-modules-3.2.0-4-kirkwood-di, nbd-modules-3.2.0-4-kirkwood-di, squashfs-modules-3.2.0-4-kirkwood-di, uinput-modules-3.2.0-4-kirkwood-di, leds-modules-3.2.0-4-kirkwood-di, udf-modules-3.2.0-4-kirkwood-di, fuse-modules-3.2.0-4-kirkwood-di, kernel-image-3.2.0-4-orion5x-di, nic-modules-3.2.0-4-orion5x-di, nic-shared-modules-3.2.0-4-orion5x-di, usb-serial-modules-3.2.0-4-orion5x-di, ppp-modules-3.2.0-4-orion5x-di, cdrom-core-modules-3.2.0-4-orion5x-di, scsi-core-modules-3.2.0-4-orion5x-di, loop-modules-3.2.0-4-orion5x-di, ipv6-modules-3.2.0-4-orion5x-di, btrfs-modules-3.2.0-4-orion5x-di, ext2-modules-3.2.0-4-orion5x-di, ext3-modules-3.2.0-4-orion5x-di,
+ ext4-modules-3.2.0-4-orion5x-di, isofs-modules-3.2.0-4-orion5x-di, jffs2-modules-3.2.0-4-orion5x-di, jfs-modules-3.2.0-4-orion5x-di, reiserfs-modules-3.2.0-4-orion5x-di, fat-modules-3.2.0-4-orion5x-di, minix-modules-3.2.0-4-orion5x-di, md-modules-3.2.0-4-orion5x-di, multipath-modules-3.2.0-4-orion5x-di, usb-modules-3.2.0-4-orion5x-di, usb-storage-modules-3.2.0-4-orion5x-di, event-modules-3.2.0-4-orion5x-di, nic-usb-modules-3.2.0-4-orion5x-di, sata-modules-3.2.0-4-orion5x-di, core-modules-3.2.0-4-orion5x-di, crc-modules-3.2.0-4-orion5x-di, crypto-modules-3.2.0-4-orion5x-di, crypto-dm-modules-3.2.0-4-orion5x-di, nbd-modules-3.2.0-4-orion5x-di, squashfs-modules-3.2.0-4-orion5x-di, zlib-modules-3.2.0-4-orion5x-di, udf-modules-3.2.0-4-orion5x-di, fuse-modules-3.2.0-4-orion5x-di, kernel-image-3.2.0-4-versatile-di, nic-modules-3.2.0-4-versatile-di, nic-shared-modules-3.2.0-4-versatile-di, usb-serial-modules-3.2.0-4-versatile-di, ppp-modules-3.2.0-4-versatile-di,
+ cdrom-core-modules-3.2.0-4-versatile-di, scsi-core-modules-3.2.0-4-versatile-di, scsi-common-modules-3.2.0-4-versatile-di, loop-modules-3.2.0-4-versatile-di, ipv6-modules-3.2.0-4-versatile-di, btrfs-modules-3.2.0-4-versatile-di, ext2-modules-3.2.0-4-versatile-di, ext3-modules-3.2.0-4-versatile-di, ext4-modules-3.2.0-4-versatile-di, isofs-modules-3.2.0-4-versatile-di, reiserfs-modules-3.2.0-4-versatile-di, fat-modules-3.2.0-4-versatile-di, md-modules-3.2.0-4-versatile-di, multipath-modules-3.2.0-4-versatile-di, usb-modules-3.2.0-4-versatile-di, usb-storage-modules-3.2.0-4-versatile-di, nic-usb-modules-3.2.0-4-versatile-di, sata-modules-3.2.0-4-versatile-di, core-modules-3.2.0-4-versatile-di, crc-modules-3.2.0-4-versatile-di, crypto-modules-3.2.0-4-versatile-di, crypto-dm-modules-3.2.0-4-versatile-di, nbd-modules-3.2.0-4-versatile-di, squashfs-modules-3.2.0-4-versatile-di, virtio-modules-3.2.0-4-versatile-di, zlib-modules-3.2.0-4-versatile-di,
+ udf-modules-3.2.0-4-versatile-di, fuse-modules-3.2.0-4-versatile-di, linux-image-3.2.0-4-iop32x, linux-headers-3.2.0-4-iop32x, linux-image-3.2.0-4-ixp4xx, linux-headers-3.2.0-4-ixp4xx, linux-image-3.2.0-4-kirkwood, linux-headers-3.2.0-4-kirkwood, linux-image-3.2.0-4-mv78xx0, linux-headers-3.2.0-4-mv78xx0, linux-image-3.2.0-4-orion5x, linux-headers-3.2.0-4-orion5x, linux-image-3.2.0-4-versatile, linux-headers-3.2.0-4-versatile, linux-headers-3.2.0-4-all-armhf, kernel-image-3.2.0-4-mx5-di, nic-wireless-modules-3.2.0-4-mx5-di, nic-shared-modules-3.2.0-4-mx5-di, pata-modules-3.2.0-4-mx5-di, scsi-core-modules-3.2.0-4-mx5-di, loop-modules-3.2.0-4-mx5-di, ipv6-modules-3.2.0-4-mx5-di, btrfs-modules-3.2.0-4-mx5-di, ext2-modules-3.2.0-4-mx5-di, ext3-modules-3.2.0-4-mx5-di, ext4-modules-3.2.0-4-mx5-di, isofs-modules-3.2.0-4-mx5-di, jfs-modules-3.2.0-4-mx5-di, reiserfs-modules-3.2.0-4-mx5-di, fat-modules-3.2.0-4-mx5-di, minix-modules-3.2.0-4-mx5-di, md-modules-3.2.0-4-mx5-di,
+ multipath-modules-3.2.0-4-mx5-di, usb-storage-modules-3.2.0-4-mx5-di, input-modules-3.2.0-4-mx5-di, nic-usb-modules-3.2.0-4-mx5-di, sata-modules-3.2.0-4-mx5-di, core-modules-3.2.0-4-mx5-di, crc-modules-3.2.0-4-mx5-di, crypto-modules-3.2.0-4-mx5-di, crypto-dm-modules-3.2.0-4-mx5-di, ata-modules-3.2.0-4-mx5-di, mmc-modules-3.2.0-4-mx5-di, nbd-modules-3.2.0-4-mx5-di, squashfs-modules-3.2.0-4-mx5-di, uinput-modules-3.2.0-4-mx5-di, udf-modules-3.2.0-4-mx5-di, fuse-modules-3.2.0-4-mx5-di, mtd-modules-3.2.0-4-mx5-di, kernel-image-3.2.0-4-vexpress-di, nic-modules-3.2.0-4-vexpress-di, nic-wireless-modules-3.2.0-4-vexpress-di, nic-shared-modules-3.2.0-4-vexpress-di, scsi-core-modules-3.2.0-4-vexpress-di, loop-modules-3.2.0-4-vexpress-di, ipv6-modules-3.2.0-4-vexpress-di, btrfs-modules-3.2.0-4-vexpress-di, ext2-modules-3.2.0-4-vexpress-di, ext3-modules-3.2.0-4-vexpress-di, ext4-modules-3.2.0-4-vexpress-di, isofs-modules-3.2.0-4-vexpress-di, jfs-modules-3.2.0-4-vexpress-di,
+ fat-modules-3.2.0-4-vexpress-di, md-modules-3.2.0-4-vexpress-di, multipath-modules-3.2.0-4-vexpress-di, usb-modules-3.2.0-4-vexpress-di, usb-storage-modules-3.2.0-4-vexpress-di, input-modules-3.2.0-4-vexpress-di, nic-usb-modules-3.2.0-4-vexpress-di, core-modules-3.2.0-4-vexpress-di, crc-modules-3.2.0-4-vexpress-di, crypto-modules-3.2.0-4-vexpress-di, crypto-dm-modules-3.2.0-4-vexpress-di, mmc-modules-3.2.0-4-vexpress-di, nbd-modules-3.2.0-4-vexpress-di, squashfs-modules-3.2.0-4-vexpress-di, uinput-modules-3.2.0-4-vexpress-di, udf-modules-3.2.0-4-vexpress-di, fuse-modules-3.2.0-4-vexpress-di, linux-image-3.2.0-4-mx5, linux-headers-3.2.0-4-mx5, linux-image-3.2.0-4-omap, linux-headers-3.2.0-4-omap, linux-image-3.2.0-4-vexpress, linux-headers-3.2.0-4-vexpress, linux-headers-3.2.0-4-all-hppa, kernel-image-3.2.0-4-parisc-di, nic-modules-3.2.0-4-parisc-di, ppp-modules-3.2.0-4-parisc-di, pata-modules-3.2.0-4-parisc-di, cdrom-core-modules-3.2.0-4-parisc-di,
+ scsi-core-modules-3.2.0-4-parisc-di, scsi-modules-3.2.0-4-parisc-di, loop-modules-3.2.0-4-parisc-di, ipv6-modules-3.2.0-4-parisc-di, btrfs-modules-3.2.0-4-parisc-di, ext3-modules-3.2.0-4-parisc-di, ext4-modules-3.2.0-4-parisc-di, fat-modules-3.2.0-4-parisc-di, md-modules-3.2.0-4-parisc-di, multipath-modules-3.2.0-4-parisc-di, usb-modules-3.2.0-4-parisc-di, usb-storage-modules-3.2.0-4-parisc-di, input-modules-3.2.0-4-parisc-di, crypto-modules-3.2.0-4-parisc-di, crypto-dm-modules-3.2.0-4-parisc-di, nbd-modules-3.2.0-4-parisc-di, zlib-modules-3.2.0-4-parisc-di, fuse-modules-3.2.0-4-parisc-di, kernel-image-3.2.0-4-parisc64-di, nic-modules-3.2.0-4-parisc64-di, ppp-modules-3.2.0-4-parisc64-di, pata-modules-3.2.0-4-parisc64-di, cdrom-core-modules-3.2.0-4-parisc64-di, scsi-core-modules-3.2.0-4-parisc64-di, scsi-modules-3.2.0-4-parisc64-di, loop-modules-3.2.0-4-parisc64-di, ipv6-modules-3.2.0-4-parisc64-di, btrfs-modules-3.2.0-4-parisc64-di, ext3-modules-3.2.0-4-parisc64-di,
+ ext4-modules-3.2.0-4-parisc64-di, fat-modules-3.2.0-4-parisc64-di, md-modules-3.2.0-4-parisc64-di, multipath-modules-3.2.0-4-parisc64-di, usb-modules-3.2.0-4-parisc64-di, usb-storage-modules-3.2.0-4-parisc64-di, input-modules-3.2.0-4-parisc64-di, crypto-modules-3.2.0-4-parisc64-di, crypto-dm-modules-3.2.0-4-parisc64-di, nbd-modules-3.2.0-4-parisc64-di, zlib-modules-3.2.0-4-parisc64-di, fuse-modules-3.2.0-4-parisc64-di, linux-image-3.2.0-4-parisc, linux-headers-3.2.0-4-parisc, linux-image-3.2.0-4-parisc-smp, linux-headers-3.2.0-4-parisc-smp, linux-image-3.2.0-4-parisc64, linux-headers-3.2.0-4-parisc64, linux-image-3.2.0-4-parisc64-smp, linux-headers-3.2.0-4-parisc64-smp, linux-headers-3.2.0-4-all-i386, kernel-image-3.2.0-4-486-di, nic-modules-3.2.0-4-486-di, nic-extra-modules-3.2.0-4-486-di, nic-wireless-modules-3.2.0-4-486-di, nic-shared-modules-3.2.0-4-486-di, serial-modules-3.2.0-4-486-di, usb-serial-modules-3.2.0-4-486-di, ppp-modules-3.2.0-4-486-di,
+ pata-modules-3.2.0-4-486-di, cdrom-core-modules-3.2.0-4-486-di, firewire-core-modules-3.2.0-4-486-di, scsi-core-modules-3.2.0-4-486-di, scsi-modules-3.2.0-4-486-di, scsi-common-modules-3.2.0-4-486-di, scsi-extra-modules-3.2.0-4-486-di, plip-modules-3.2.0-4-486-di, floppy-modules-3.2.0-4-486-di, loop-modules-3.2.0-4-486-di, btrfs-modules-3.2.0-4-486-di, ext2-modules-3.2.0-4-486-di, ext3-modules-3.2.0-4-486-di, ext4-modules-3.2.0-4-486-di, isofs-modules-3.2.0-4-486-di, jfs-modules-3.2.0-4-486-di, ntfs-modules-3.2.0-4-486-di, reiserfs-modules-3.2.0-4-486-di, xfs-modules-3.2.0-4-486-di, fat-modules-3.2.0-4-486-di, ufs-modules-3.2.0-4-486-di, qnx4-modules-3.2.0-4-486-di, md-modules-3.2.0-4-486-di, multipath-modules-3.2.0-4-486-di, usb-modules-3.2.0-4-486-di, usb-storage-modules-3.2.0-4-486-di, pcmcia-storage-modules-3.2.0-4-486-di, fb-modules-3.2.0-4-486-di, input-modules-3.2.0-4-486-di, event-modules-3.2.0-4-486-di, mouse-modules-3.2.0-4-486-di,
+ irda-modules-3.2.0-4-486-di, parport-modules-3.2.0-4-486-di, nic-pcmcia-modules-3.2.0-4-486-di, pcmcia-modules-3.2.0-4-486-di, nic-usb-modules-3.2.0-4-486-di, sata-modules-3.2.0-4-486-di, core-modules-3.2.0-4-486-di, acpi-modules-3.2.0-4-486-di, i2c-modules-3.2.0-4-486-di, crc-modules-3.2.0-4-486-di, crypto-modules-3.2.0-4-486-di, crypto-dm-modules-3.2.0-4-486-di, efi-modules-3.2.0-4-486-di, ata-modules-3.2.0-4-486-di, mmc-core-modules-3.2.0-4-486-di, mmc-modules-3.2.0-4-486-di, nbd-modules-3.2.0-4-486-di, squashfs-modules-3.2.0-4-486-di, speakup-modules-3.2.0-4-486-di, virtio-modules-3.2.0-4-486-di, uinput-modules-3.2.0-4-486-di, sound-modules-3.2.0-4-486-di, zlib-modules-3.2.0-4-486-di, hyperv-modules-3.2.0-4-486-di, udf-modules-3.2.0-4-486-di, fuse-modules-3.2.0-4-486-di, kernel-image-3.2.0-4-686-pae-di, nic-modules-3.2.0-4-686-pae-di, nic-extra-modules-3.2.0-4-686-pae-di, nic-wireless-modules-3.2.0-4-686-pae-di, nic-shared-modules-3.2.0-4-686-pae-di,
+ serial-modules-3.2.0-4-686-pae-di, usb-serial-modules-3.2.0-4-686-pae-di, ppp-modules-3.2.0-4-686-pae-di, pata-modules-3.2.0-4-686-pae-di, cdrom-core-modules-3.2.0-4-686-pae-di, firewire-core-modules-3.2.0-4-686-pae-di, scsi-core-modules-3.2.0-4-686-pae-di, scsi-modules-3.2.0-4-686-pae-di, scsi-common-modules-3.2.0-4-686-pae-di, scsi-extra-modules-3.2.0-4-686-pae-di, plip-modules-3.2.0-4-686-pae-di, floppy-modules-3.2.0-4-686-pae-di, loop-modules-3.2.0-4-686-pae-di, btrfs-modules-3.2.0-4-686-pae-di, ext2-modules-3.2.0-4-686-pae-di, ext3-modules-3.2.0-4-686-pae-di, ext4-modules-3.2.0-4-686-pae-di, isofs-modules-3.2.0-4-686-pae-di, jfs-modules-3.2.0-4-686-pae-di, ntfs-modules-3.2.0-4-686-pae-di, reiserfs-modules-3.2.0-4-686-pae-di, xfs-modules-3.2.0-4-686-pae-di, fat-modules-3.2.0-4-686-pae-di, ufs-modules-3.2.0-4-686-pae-di, qnx4-modules-3.2.0-4-686-pae-di, md-modules-3.2.0-4-686-pae-di, multipath-modules-3.2.0-4-686-pae-di, usb-modules-3.2.0-4-686-pae-di,
+ usb-storage-modules-3.2.0-4-686-pae-di, pcmcia-storage-modules-3.2.0-4-686-pae-di, fb-modules-3.2.0-4-686-pae-di, input-modules-3.2.0-4-686-pae-di, event-modules-3.2.0-4-686-pae-di, mouse-modules-3.2.0-4-686-pae-di, irda-modules-3.2.0-4-686-pae-di, parport-modules-3.2.0-4-686-pae-di, nic-pcmcia-modules-3.2.0-4-686-pae-di, pcmcia-modules-3.2.0-4-686-pae-di, nic-usb-modules-3.2.0-4-686-pae-di, sata-modules-3.2.0-4-686-pae-di, core-modules-3.2.0-4-686-pae-di, acpi-modules-3.2.0-4-686-pae-di, i2c-modules-3.2.0-4-686-pae-di, crc-modules-3.2.0-4-686-pae-di, crypto-modules-3.2.0-4-686-pae-di, crypto-dm-modules-3.2.0-4-686-pae-di, efi-modules-3.2.0-4-686-pae-di, ata-modules-3.2.0-4-686-pae-di, mmc-core-modules-3.2.0-4-686-pae-di, mmc-modules-3.2.0-4-686-pae-di, nbd-modules-3.2.0-4-686-pae-di, squashfs-modules-3.2.0-4-686-pae-di, speakup-modules-3.2.0-4-686-pae-di, virtio-modules-3.2.0-4-686-pae-di, uinput-modules-3.2.0-4-686-pae-di, sound-modules-3.2.0-4-686-pae-di,
+ zlib-modules-3.2.0-4-686-pae-di, hyperv-modules-3.2.0-4-686-pae-di, udf-modules-3.2.0-4-686-pae-di, fuse-modules-3.2.0-4-686-pae-di, linux-image-3.2.0-4-486, linux-headers-3.2.0-4-486, linux-image-3.2.0-4-686-pae, linux-headers-3.2.0-4-686-pae, linux-image-3.2.0-4-686-pae-dbg, xen-linux-system-3.2.0-4-686-pae, linux-image-3.2.0-4-rt-686-pae, linux-headers-3.2.0-4-rt-686-pae, linux-image-3.2.0-4-rt-686-pae-dbg, linux-headers-3.2.0-4-all-ia64, kernel-image-3.2.0-4-itanium-di, nic-modules-3.2.0-4-itanium-di, nic-shared-modules-3.2.0-4-itanium-di, serial-modules-3.2.0-4-itanium-di, ppp-modules-3.2.0-4-itanium-di, ide-modules-3.2.0-4-itanium-di, pata-modules-3.2.0-4-itanium-di, ide-core-modules-3.2.0-4-itanium-di, cdrom-core-modules-3.2.0-4-itanium-di, firewire-core-modules-3.2.0-4-itanium-di, scsi-core-modules-3.2.0-4-itanium-di, scsi-modules-3.2.0-4-itanium-di, plip-modules-3.2.0-4-itanium-di, loop-modules-3.2.0-4-itanium-di, btrfs-modules-3.2.0-4-itanium-di,
+ ext2-modules-3.2.0-4-itanium-di, ext3-modules-3.2.0-4-itanium-di, ext4-modules-3.2.0-4-itanium-di, isofs-modules-3.2.0-4-itanium-di, jfs-modules-3.2.0-4-itanium-di, ntfs-modules-3.2.0-4-itanium-di, reiserfs-modules-3.2.0-4-itanium-di, xfs-modules-3.2.0-4-itanium-di, fat-modules-3.2.0-4-itanium-di, ufs-modules-3.2.0-4-itanium-di, md-modules-3.2.0-4-itanium-di, multipath-modules-3.2.0-4-itanium-di, usb-modules-3.2.0-4-itanium-di, usb-storage-modules-3.2.0-4-itanium-di, fb-modules-3.2.0-4-itanium-di, input-modules-3.2.0-4-itanium-di, event-modules-3.2.0-4-itanium-di, mouse-modules-3.2.0-4-itanium-di, irda-modules-3.2.0-4-itanium-di, parport-modules-3.2.0-4-itanium-di, pcmcia-modules-3.2.0-4-itanium-di, nic-usb-modules-3.2.0-4-itanium-di, sata-modules-3.2.0-4-itanium-di, core-modules-3.2.0-4-itanium-di, crc-modules-3.2.0-4-itanium-di, crypto-modules-3.2.0-4-itanium-di, crypto-dm-modules-3.2.0-4-itanium-di, ata-modules-3.2.0-4-itanium-di, nbd-modules-3.2.0-4-itanium-di,
+ squashfs-modules-3.2.0-4-itanium-di, uinput-modules-3.2.0-4-itanium-di, zlib-modules-3.2.0-4-itanium-di, udf-modules-3.2.0-4-itanium-di, fuse-modules-3.2.0-4-itanium-di, sn-modules-3.2.0-4-itanium-di, linux-image-3.2.0-4-itanium, linux-headers-3.2.0-4-itanium, linux-image-3.2.0-4-mckinley, linux-headers-3.2.0-4-mckinley, linux-headers-3.2.0-4-all-m68k, kernel-image-3.2.0-4-amiga-di, nic-shared-modules-3.2.0-4-amiga-di, ppp-modules-3.2.0-4-amiga-di, cdrom-core-modules-3.2.0-4-amiga-di, scsi-modules-3.2.0-4-amiga-di, ipv6-modules-3.2.0-4-amiga-di, btrfs-modules-3.2.0-4-amiga-di, isofs-modules-3.2.0-4-amiga-di, jfs-modules-3.2.0-4-amiga-di, reiserfs-modules-3.2.0-4-amiga-di, fat-modules-3.2.0-4-amiga-di, md-modules-3.2.0-4-amiga-di, crypto-modules-3.2.0-4-amiga-di, nbd-modules-3.2.0-4-amiga-di, squashfs-modules-3.2.0-4-amiga-di, zlib-modules-3.2.0-4-amiga-di, udf-modules-3.2.0-4-amiga-di, fuse-modules-3.2.0-4-amiga-di, kernel-image-3.2.0-4-atari-di,
+ nic-shared-modules-3.2.0-4-atari-di, ppp-modules-3.2.0-4-atari-di, cdrom-core-modules-3.2.0-4-atari-di, scsi-modules-3.2.0-4-atari-di, ipv6-modules-3.2.0-4-atari-di, btrfs-modules-3.2.0-4-atari-di, isofs-modules-3.2.0-4-atari-di, jfs-modules-3.2.0-4-atari-di, reiserfs-modules-3.2.0-4-atari-di, fat-modules-3.2.0-4-atari-di, md-modules-3.2.0-4-atari-di, crypto-modules-3.2.0-4-atari-di, nbd-modules-3.2.0-4-atari-di, squashfs-modules-3.2.0-4-atari-di, zlib-modules-3.2.0-4-atari-di, udf-modules-3.2.0-4-atari-di, fuse-modules-3.2.0-4-atari-di, kernel-image-3.2.0-4-mac-di, nic-shared-modules-3.2.0-4-mac-di, ppp-modules-3.2.0-4-mac-di, cdrom-core-modules-3.2.0-4-mac-di, scsi-modules-3.2.0-4-mac-di, ipv6-modules-3.2.0-4-mac-di, btrfs-modules-3.2.0-4-mac-di, isofs-modules-3.2.0-4-mac-di, jfs-modules-3.2.0-4-mac-di, reiserfs-modules-3.2.0-4-mac-di, fat-modules-3.2.0-4-mac-di, md-modules-3.2.0-4-mac-di, crypto-modules-3.2.0-4-mac-di, nbd-modules-3.2.0-4-mac-di,
+ squashfs-modules-3.2.0-4-mac-di, zlib-modules-3.2.0-4-mac-di, udf-modules-3.2.0-4-mac-di, fuse-modules-3.2.0-4-mac-di, linux-image-3.2.0-4-amiga, linux-headers-3.2.0-4-amiga, linux-image-3.2.0-4-atari, linux-headers-3.2.0-4-atari, linux-image-3.2.0-4-bvme6000, linux-headers-3.2.0-4-bvme6000, linux-image-3.2.0-4-mac, linux-headers-3.2.0-4-mac, linux-image-3.2.0-4-mvme147, linux-headers-3.2.0-4-mvme147, linux-image-3.2.0-4-mvme16x, linux-headers-3.2.0-4-mvme16x, linux-headers-3.2.0-4-all-mips, kernel-image-3.2.0-4-sb1-bcm91250a-di, nic-shared-modules-3.2.0-4-sb1-bcm91250a-di, ppp-modules-3.2.0-4-sb1-bcm91250a-di, cdrom-core-modules-3.2.0-4-sb1-bcm91250a-di, scsi-core-modules-3.2.0-4-sb1-bcm91250a-di, scsi-modules-3.2.0-4-sb1-bcm91250a-di, scsi-common-modules-3.2.0-4-sb1-bcm91250a-di, loop-modules-3.2.0-4-sb1-bcm91250a-di, ipv6-modules-3.2.0-4-sb1-bcm91250a-di, btrfs-modules-3.2.0-4-sb1-bcm91250a-di, isofs-modules-3.2.0-4-sb1-bcm91250a-di,
+ jfs-modules-3.2.0-4-sb1-bcm91250a-di, reiserfs-modules-3.2.0-4-sb1-bcm91250a-di, xfs-modules-3.2.0-4-sb1-bcm91250a-di, fat-modules-3.2.0-4-sb1-bcm91250a-di, md-modules-3.2.0-4-sb1-bcm91250a-di, multipath-modules-3.2.0-4-sb1-bcm91250a-di, usb-modules-3.2.0-4-sb1-bcm91250a-di, usb-storage-modules-3.2.0-4-sb1-bcm91250a-di, fb-modules-3.2.0-4-sb1-bcm91250a-di, input-modules-3.2.0-4-sb1-bcm91250a-di, sata-modules-3.2.0-4-sb1-bcm91250a-di, crypto-modules-3.2.0-4-sb1-bcm91250a-di, crypto-dm-modules-3.2.0-4-sb1-bcm91250a-di, nbd-modules-3.2.0-4-sb1-bcm91250a-di, squashfs-modules-3.2.0-4-sb1-bcm91250a-di, rtc-modules-3.2.0-4-sb1-bcm91250a-di, zlib-modules-3.2.0-4-sb1-bcm91250a-di, udf-modules-3.2.0-4-sb1-bcm91250a-di, fuse-modules-3.2.0-4-sb1-bcm91250a-di, kernel-image-3.2.0-4-r4k-ip22-di, nic-shared-modules-3.2.0-4-r4k-ip22-di, loop-modules-3.2.0-4-r4k-ip22-di, ipv6-modules-3.2.0-4-r4k-ip22-di, btrfs-modules-3.2.0-4-r4k-ip22-di, isofs-modules-3.2.0-4-r4k-ip22-di,
+ jfs-modules-3.2.0-4-r4k-ip22-di, reiserfs-modules-3.2.0-4-r4k-ip22-di, xfs-modules-3.2.0-4-r4k-ip22-di, md-modules-3.2.0-4-r4k-ip22-di, multipath-modules-3.2.0-4-r4k-ip22-di, crypto-modules-3.2.0-4-r4k-ip22-di, crypto-dm-modules-3.2.0-4-r4k-ip22-di, nbd-modules-3.2.0-4-r4k-ip22-di, squashfs-modules-3.2.0-4-r4k-ip22-di, zlib-modules-3.2.0-4-r4k-ip22-di, udf-modules-3.2.0-4-r4k-ip22-di, fuse-modules-3.2.0-4-r4k-ip22-di, kernel-image-3.2.0-4-r5k-ip32-di, nic-shared-modules-3.2.0-4-r5k-ip32-di, loop-modules-3.2.0-4-r5k-ip32-di, ipv6-modules-3.2.0-4-r5k-ip32-di, btrfs-modules-3.2.0-4-r5k-ip32-di, isofs-modules-3.2.0-4-r5k-ip32-di, jfs-modules-3.2.0-4-r5k-ip32-di, reiserfs-modules-3.2.0-4-r5k-ip32-di, xfs-modules-3.2.0-4-r5k-ip32-di, md-modules-3.2.0-4-r5k-ip32-di, multipath-modules-3.2.0-4-r5k-ip32-di, crypto-modules-3.2.0-4-r5k-ip32-di, crypto-dm-modules-3.2.0-4-r5k-ip32-di, nbd-modules-3.2.0-4-r5k-ip32-di, squashfs-modules-3.2.0-4-r5k-ip32-di,
+ zlib-modules-3.2.0-4-r5k-ip32-di, udf-modules-3.2.0-4-r5k-ip32-di, fuse-modules-3.2.0-4-r5k-ip32-di, kernel-image-3.2.0-4-4kc-malta-di, ppp-modules-3.2.0-4-4kc-malta-di, cdrom-core-modules-3.2.0-4-4kc-malta-di, loop-modules-3.2.0-4-4kc-malta-di, ipv6-modules-3.2.0-4-4kc-malta-di, btrfs-modules-3.2.0-4-4kc-malta-di, isofs-modules-3.2.0-4-4kc-malta-di, jfs-modules-3.2.0-4-4kc-malta-di, reiserfs-modules-3.2.0-4-4kc-malta-di, xfs-modules-3.2.0-4-4kc-malta-di, fat-modules-3.2.0-4-4kc-malta-di, md-modules-3.2.0-4-4kc-malta-di, multipath-modules-3.2.0-4-4kc-malta-di, usb-modules-3.2.0-4-4kc-malta-di, usb-storage-modules-3.2.0-4-4kc-malta-di, input-modules-3.2.0-4-4kc-malta-di, sata-modules-3.2.0-4-4kc-malta-di, crypto-modules-3.2.0-4-4kc-malta-di, crypto-dm-modules-3.2.0-4-4kc-malta-di, nbd-modules-3.2.0-4-4kc-malta-di, squashfs-modules-3.2.0-4-4kc-malta-di, virtio-modules-3.2.0-4-4kc-malta-di, zlib-modules-3.2.0-4-4kc-malta-di, udf-modules-3.2.0-4-4kc-malta-di,
+ fuse-modules-3.2.0-4-4kc-malta-di, linux-image-3.2.0-4-r4k-ip22, linux-headers-3.2.0-4-r4k-ip22, linux-image-3.2.0-4-r5k-ip32, linux-headers-3.2.0-4-r5k-ip32, linux-image-3.2.0-4-sb1-bcm91250a, linux-headers-3.2.0-4-sb1-bcm91250a, linux-image-3.2.0-4-sb1a-bcm91480b, linux-headers-3.2.0-4-sb1a-bcm91480b, linux-image-3.2.0-4-4kc-malta, linux-headers-3.2.0-4-4kc-malta, linux-image-3.2.0-4-5kc-malta, linux-headers-3.2.0-4-5kc-malta, linux-image-3.2.0-4-octeon, linux-headers-3.2.0-4-octeon, linux-headers-3.2.0-4-all-mipsel, kernel-image-3.2.0-4-r5k-cobalt-di, nic-shared-modules-3.2.0-4-r5k-cobalt-di, ppp-modules-3.2.0-4-r5k-cobalt-di, loop-modules-3.2.0-4-r5k-cobalt-di, ipv6-modules-3.2.0-4-r5k-cobalt-di, btrfs-modules-3.2.0-4-r5k-cobalt-di, jfs-modules-3.2.0-4-r5k-cobalt-di, reiserfs-modules-3.2.0-4-r5k-cobalt-di, xfs-modules-3.2.0-4-r5k-cobalt-di, fat-modules-3.2.0-4-r5k-cobalt-di, nfs-modules-3.2.0-4-r5k-cobalt-di, md-modules-3.2.0-4-r5k-cobalt-di,
+ multipath-modules-3.2.0-4-r5k-cobalt-di, crypto-modules-3.2.0-4-r5k-cobalt-di, crypto-dm-modules-3.2.0-4-r5k-cobalt-di, nbd-modules-3.2.0-4-r5k-cobalt-di, squashfs-modules-3.2.0-4-r5k-cobalt-di, zlib-modules-3.2.0-4-r5k-cobalt-di, fuse-modules-3.2.0-4-r5k-cobalt-di, kernel-image-3.2.0-4-loongson-2f-di, nic-modules-3.2.0-4-loongson-2f-di, nic-shared-modules-3.2.0-4-loongson-2f-di, ppp-modules-3.2.0-4-loongson-2f-di, cdrom-core-modules-3.2.0-4-loongson-2f-di, loop-modules-3.2.0-4-loongson-2f-di, ipv6-modules-3.2.0-4-loongson-2f-di, btrfs-modules-3.2.0-4-loongson-2f-di, isofs-modules-3.2.0-4-loongson-2f-di, jfs-modules-3.2.0-4-loongson-2f-di, reiserfs-modules-3.2.0-4-loongson-2f-di, xfs-modules-3.2.0-4-loongson-2f-di, fat-modules-3.2.0-4-loongson-2f-di, md-modules-3.2.0-4-loongson-2f-di, multipath-modules-3.2.0-4-loongson-2f-di, usb-modules-3.2.0-4-loongson-2f-di, usb-storage-modules-3.2.0-4-loongson-2f-di, input-modules-3.2.0-4-loongson-2f-di,
+ nic-usb-modules-3.2.0-4-loongson-2f-di, sata-modules-3.2.0-4-loongson-2f-di, crypto-modules-3.2.0-4-loongson-2f-di, crypto-dm-modules-3.2.0-4-loongson-2f-di, nbd-modules-3.2.0-4-loongson-2f-di, squashfs-modules-3.2.0-4-loongson-2f-di, virtio-modules-3.2.0-4-loongson-2f-di, zlib-modules-3.2.0-4-loongson-2f-di, udf-modules-3.2.0-4-loongson-2f-di, fuse-modules-3.2.0-4-loongson-2f-di, linux-image-3.2.0-4-r5k-cobalt, linux-headers-3.2.0-4-r5k-cobalt, linux-image-3.2.0-4-loongson-2f, linux-headers-3.2.0-4-loongson-2f, linux-headers-3.2.0-4-all-powerpc, kernel-image-3.2.0-4-powerpc-di, nic-modules-3.2.0-4-powerpc-di, nic-extra-modules-3.2.0-4-powerpc-di, nic-shared-modules-3.2.0-4-powerpc-di, serial-modules-3.2.0-4-powerpc-di, usb-serial-modules-3.2.0-4-powerpc-di, ppp-modules-3.2.0-4-powerpc-di, pata-modules-3.2.0-4-powerpc-di, cdrom-core-modules-3.2.0-4-powerpc-di, firewire-core-modules-3.2.0-4-powerpc-di, scsi-core-modules-3.2.0-4-powerpc-di,
+ scsi-modules-3.2.0-4-powerpc-di, scsi-common-modules-3.2.0-4-powerpc-di, scsi-extra-modules-3.2.0-4-powerpc-di, floppy-modules-3.2.0-4-powerpc-di, loop-modules-3.2.0-4-powerpc-di, btrfs-modules-3.2.0-4-powerpc-di, ext2-modules-3.2.0-4-powerpc-di, ext3-modules-3.2.0-4-powerpc-di, ext4-modules-3.2.0-4-powerpc-di, isofs-modules-3.2.0-4-powerpc-di, jfs-modules-3.2.0-4-powerpc-di, reiserfs-modules-3.2.0-4-powerpc-di, xfs-modules-3.2.0-4-powerpc-di, fat-modules-3.2.0-4-powerpc-di, hfs-modules-3.2.0-4-powerpc-di, affs-modules-3.2.0-4-powerpc-di, ufs-modules-3.2.0-4-powerpc-di, md-modules-3.2.0-4-powerpc-di, multipath-modules-3.2.0-4-powerpc-di, usb-modules-3.2.0-4-powerpc-di, usb-storage-modules-3.2.0-4-powerpc-di, pcmcia-storage-modules-3.2.0-4-powerpc-di, input-modules-3.2.0-4-powerpc-di, event-modules-3.2.0-4-powerpc-di, mouse-modules-3.2.0-4-powerpc-di, irda-modules-3.2.0-4-powerpc-di, nic-pcmcia-modules-3.2.0-4-powerpc-di, pcmcia-modules-3.2.0-4-powerpc-di,
+ sata-modules-3.2.0-4-powerpc-di, core-modules-3.2.0-4-powerpc-di, crc-modules-3.2.0-4-powerpc-di, crypto-modules-3.2.0-4-powerpc-di, crypto-dm-modules-3.2.0-4-powerpc-di, ata-modules-3.2.0-4-powerpc-di, nbd-modules-3.2.0-4-powerpc-di, squashfs-modules-3.2.0-4-powerpc-di, virtio-modules-3.2.0-4-powerpc-di, uinput-modules-3.2.0-4-powerpc-di, zlib-modules-3.2.0-4-powerpc-di, udf-modules-3.2.0-4-powerpc-di, fuse-modules-3.2.0-4-powerpc-di, kernel-image-3.2.0-4-powerpc64-di, nic-modules-3.2.0-4-powerpc64-di, nic-extra-modules-3.2.0-4-powerpc64-di, nic-shared-modules-3.2.0-4-powerpc64-di, serial-modules-3.2.0-4-powerpc64-di, usb-serial-modules-3.2.0-4-powerpc64-di, ppp-modules-3.2.0-4-powerpc64-di, pata-modules-3.2.0-4-powerpc64-di, cdrom-core-modules-3.2.0-4-powerpc64-di, firewire-core-modules-3.2.0-4-powerpc64-di, scsi-core-modules-3.2.0-4-powerpc64-di, scsi-modules-3.2.0-4-powerpc64-di, scsi-common-modules-3.2.0-4-powerpc64-di, scsi-extra-modules-3.2.0-4-powerpc64-di,
+ floppy-modules-3.2.0-4-powerpc64-di, loop-modules-3.2.0-4-powerpc64-di, btrfs-modules-3.2.0-4-powerpc64-di, ext2-modules-3.2.0-4-powerpc64-di, ext3-modules-3.2.0-4-powerpc64-di, ext4-modules-3.2.0-4-powerpc64-di, isofs-modules-3.2.0-4-powerpc64-di, jfs-modules-3.2.0-4-powerpc64-di, reiserfs-modules-3.2.0-4-powerpc64-di, xfs-modules-3.2.0-4-powerpc64-di, fat-modules-3.2.0-4-powerpc64-di, hfs-modules-3.2.0-4-powerpc64-di, affs-modules-3.2.0-4-powerpc64-di, ufs-modules-3.2.0-4-powerpc64-di, md-modules-3.2.0-4-powerpc64-di, multipath-modules-3.2.0-4-powerpc64-di, usb-modules-3.2.0-4-powerpc64-di, usb-storage-modules-3.2.0-4-powerpc64-di, pcmcia-storage-modules-3.2.0-4-powerpc64-di, input-modules-3.2.0-4-powerpc64-di, event-modules-3.2.0-4-powerpc64-di, mouse-modules-3.2.0-4-powerpc64-di, irda-modules-3.2.0-4-powerpc64-di, nic-pcmcia-modules-3.2.0-4-powerpc64-di, pcmcia-modules-3.2.0-4-powerpc64-di, sata-modules-3.2.0-4-powerpc64-di, core-modules-3.2.0-4-powerpc64-di,
+ crc-modules-3.2.0-4-powerpc64-di, crypto-modules-3.2.0-4-powerpc64-di, crypto-dm-modules-3.2.0-4-powerpc64-di, ata-modules-3.2.0-4-powerpc64-di, nbd-modules-3.2.0-4-powerpc64-di, squashfs-modules-3.2.0-4-powerpc64-di, virtio-modules-3.2.0-4-powerpc64-di, uinput-modules-3.2.0-4-powerpc64-di, udf-modules-3.2.0-4-powerpc64-di, fuse-modules-3.2.0-4-powerpc64-di, hypervisor-modules-3.2.0-4-powerpc64-di, fancontrol-modules-3.2.0-4-powerpc64-di, linux-image-3.2.0-4-powerpc, linux-headers-3.2.0-4-powerpc, linux-image-3.2.0-4-powerpc-smp, linux-headers-3.2.0-4-powerpc-smp, linux-image-3.2.0-4-powerpc64, linux-headers-3.2.0-4-powerpc64, linux-headers-3.2.0-4-all-ppc64, linux-headers-3.2.0-4-all-s390, kernel-image-3.2.0-4-s390x-di, nic-modules-3.2.0-4-s390x-di, scsi-core-modules-3.2.0-4-s390x-di, scsi-modules-3.2.0-4-s390x-di, ext2-modules-3.2.0-4-s390x-di, ext3-modules-3.2.0-4-s390x-di, ext4-modules-3.2.0-4-s390x-di, xfs-modules-3.2.0-4-s390x-di, fat-modules-3.2.0-4-s390x-di,
+ md-modules-3.2.0-4-s390x-di, multipath-modules-3.2.0-4-s390x-di, core-modules-3.2.0-4-s390x-di, crypto-modules-3.2.0-4-s390x-di, crypto-dm-modules-3.2.0-4-s390x-di, nbd-modules-3.2.0-4-s390x-di, virtio-modules-3.2.0-4-s390x-di, fuse-modules-3.2.0-4-s390x-di, dasd-modules-3.2.0-4-s390x-di, dasd-extra-modules-3.2.0-4-s390x-di, kernel-image-3.2.0-4-s390x-tape-di, linux-image-3.2.0-4-s390x, linux-headers-3.2.0-4-s390x, linux-image-3.2.0-4-s390x-dbg, linux-image-3.2.0-4-s390x-tape, linux-headers-3.2.0-4-all-s390x, linux-headers-3.2.0-4-all-sh4, kernel-image-3.2.0-4-sh7751r-di, nic-modules-3.2.0-4-sh7751r-di, usb-serial-modules-3.2.0-4-sh7751r-di, ppp-modules-3.2.0-4-sh7751r-di, pata-modules-3.2.0-4-sh7751r-di, cdrom-core-modules-3.2.0-4-sh7751r-di, firewire-core-modules-3.2.0-4-sh7751r-di, scsi-core-modules-3.2.0-4-sh7751r-di, loop-modules-3.2.0-4-sh7751r-di, ipv6-modules-3.2.0-4-sh7751r-di, btrfs-modules-3.2.0-4-sh7751r-di, ext2-modules-3.2.0-4-sh7751r-di,
+ ext4-modules-3.2.0-4-sh7751r-di, isofs-modules-3.2.0-4-sh7751r-di, jfs-modules-3.2.0-4-sh7751r-di, reiserfs-modules-3.2.0-4-sh7751r-di, xfs-modules-3.2.0-4-sh7751r-di, fat-modules-3.2.0-4-sh7751r-di, ufs-modules-3.2.0-4-sh7751r-di, minix-modules-3.2.0-4-sh7751r-di, md-modules-3.2.0-4-sh7751r-di, multipath-modules-3.2.0-4-sh7751r-di, usb-storage-modules-3.2.0-4-sh7751r-di, parport-modules-3.2.0-4-sh7751r-di, nic-usb-modules-3.2.0-4-sh7751r-di, sata-modules-3.2.0-4-sh7751r-di, i2c-modules-3.2.0-4-sh7751r-di, crc-modules-3.2.0-4-sh7751r-di, crypto-modules-3.2.0-4-sh7751r-di, crypto-dm-modules-3.2.0-4-sh7751r-di, nbd-modules-3.2.0-4-sh7751r-di, squashfs-modules-3.2.0-4-sh7751r-di, speakup-modules-3.2.0-4-sh7751r-di, virtio-modules-3.2.0-4-sh7751r-di, sound-modules-3.2.0-4-sh7751r-di, zlib-modules-3.2.0-4-sh7751r-di, udf-modules-3.2.0-4-sh7751r-di, fuse-modules-3.2.0-4-sh7751r-di, kernel-image-3.2.0-4-sh7785lcr-di, nic-modules-3.2.0-4-sh7785lcr-di,
+ usb-serial-modules-3.2.0-4-sh7785lcr-di, ppp-modules-3.2.0-4-sh7785lcr-di, pata-modules-3.2.0-4-sh7785lcr-di, cdrom-core-modules-3.2.0-4-sh7785lcr-di, firewire-core-modules-3.2.0-4-sh7785lcr-di, scsi-core-modules-3.2.0-4-sh7785lcr-di, loop-modules-3.2.0-4-sh7785lcr-di, ipv6-modules-3.2.0-4-sh7785lcr-di, btrfs-modules-3.2.0-4-sh7785lcr-di, ext2-modules-3.2.0-4-sh7785lcr-di, ext4-modules-3.2.0-4-sh7785lcr-di, isofs-modules-3.2.0-4-sh7785lcr-di, jfs-modules-3.2.0-4-sh7785lcr-di, reiserfs-modules-3.2.0-4-sh7785lcr-di, xfs-modules-3.2.0-4-sh7785lcr-di, fat-modules-3.2.0-4-sh7785lcr-di, ufs-modules-3.2.0-4-sh7785lcr-di, minix-modules-3.2.0-4-sh7785lcr-di, md-modules-3.2.0-4-sh7785lcr-di, multipath-modules-3.2.0-4-sh7785lcr-di, parport-modules-3.2.0-4-sh7785lcr-di, nic-usb-modules-3.2.0-4-sh7785lcr-di, sata-modules-3.2.0-4-sh7785lcr-di, crc-modules-3.2.0-4-sh7785lcr-di, crypto-modules-3.2.0-4-sh7785lcr-di, crypto-dm-modules-3.2.0-4-sh7785lcr-di,
+ nbd-modules-3.2.0-4-sh7785lcr-di, squashfs-modules-3.2.0-4-sh7785lcr-di, speakup-modules-3.2.0-4-sh7785lcr-di, sound-modules-3.2.0-4-sh7785lcr-di, zlib-modules-3.2.0-4-sh7785lcr-di, udf-modules-3.2.0-4-sh7785lcr-di, fuse-modules-3.2.0-4-sh7785lcr-di, linux-image-3.2.0-4-sh7751r, linux-headers-3.2.0-4-sh7751r, linux-image-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-all-sparc, kernel-image-3.2.0-4-sparc64-di, nic-modules-3.2.0-4-sparc64-di, ppp-modules-3.2.0-4-sparc64-di, pata-modules-3.2.0-4-sparc64-di, cdrom-core-modules-3.2.0-4-sparc64-di, scsi-core-modules-3.2.0-4-sparc64-di, scsi-modules-3.2.0-4-sparc64-di, scsi-common-modules-3.2.0-4-sparc64-di, plip-modules-3.2.0-4-sparc64-di, btrfs-modules-3.2.0-4-sparc64-di, ext2-modules-3.2.0-4-sparc64-di, ext3-modules-3.2.0-4-sparc64-di, ext4-modules-3.2.0-4-sparc64-di, isofs-modules-3.2.0-4-sparc64-di, jfs-modules-3.2.0-4-sparc64-di, reiserfs-modules-3.2.0-4-sparc64-di,
+ xfs-modules-3.2.0-4-sparc64-di, fat-modules-3.2.0-4-sparc64-di, md-modules-3.2.0-4-sparc64-di, multipath-modules-3.2.0-4-sparc64-di, usb-modules-3.2.0-4-sparc64-di, usb-storage-modules-3.2.0-4-sparc64-di, input-modules-3.2.0-4-sparc64-di, sata-modules-3.2.0-4-sparc64-di, core-modules-3.2.0-4-sparc64-di, crypto-modules-3.2.0-4-sparc64-di, crypto-dm-modules-3.2.0-4-sparc64-di, ata-modules-3.2.0-4-sparc64-di, nbd-modules-3.2.0-4-sparc64-di, squashfs-modules-3.2.0-4-sparc64-di, virtio-modules-3.2.0-4-sparc64-di, zlib-modules-3.2.0-4-sparc64-di, udf-modules-3.2.0-4-sparc64-di, fuse-modules-3.2.0-4-sparc64-di, linux-image-3.2.0-4-sparc64, linux-headers-3.2.0-4-sparc64, linux-image-3.2.0-4-sparc64-smp, linux-headers-3.2.0-4-sparc64-smp,
+ linux-headers-3.2.0-4-all-sparc64
+Version: 3.2.63-2+deb7u1
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Uploaders: Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
+Build-Depends: debhelper (>> 7), cpio, kmod | module-init-tools, python (>= 2.7), lzma [armel], kernel-wedge (>= 2.84), quilt, patchutils, gcc-4.6 [alpha amd64 armel armhf i386 ia64 m68k mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64], gcc-4.4 [hppa], binutils-hppa64 [hppa], gcc-4.4-hppa64 [hppa]
+Architecture: all alpha amd64 armel armhf hppa i386 ia64 m68k mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 7c2d1311b2abbafab8ac5269bc09fb84 103062 linux_3.2.63-2+deb7u1.dsc
+ 923bf49991e0fef2418e00fbb5b5e891 65919780 linux_3.2.63.orig.tar.xz
+ 1c02bcdff236df039225cc18731deeda 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/viewvc/kernel/dists/trunk/linux/
+Checksums-Sha1:
+ 1c0d2a80e673040650049534d22f9f955f0e4d82 103062 linux_3.2.63-2+deb7u1.dsc
+ 378c1420cc82b3c00786d3a6e65e8bb82e5aa385 65919780 linux_3.2.63.orig.tar.xz
+ a3595063396cca60d7b37427f1e6f167b0d1ffc9 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
+Checksums-Sha256:
+ 38d53b3e18ef970cd12bd9e3fba3f9f64718e29047c02c5f6d9142dce6acff06 103062 linux_3.2.63-2+deb7u1.dsc
+ bad50f8e053466f9f50984ee75b2cf19c81388df38764c58e80db23245707cb1 65919780 linux_3.2.63.orig.tar.xz
+ 5cb2213e1b1957ae7445c82ddbec8bc8501f8b2a43e17158ecacba494a2fe0d7 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
 Build-Depends-Indep: bzip2, xmlto
 Package-List: 
  acpi-modules-3.2.0-4-486-di udeb debian-installer extra

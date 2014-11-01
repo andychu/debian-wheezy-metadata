@@ -2891,13 +2891,13 @@ SHA1: 2abdd30864cf6c6eb292175e9da073657a907587
 SHA256: ab1ac1bd7d2ab3ff432f1c67d79542303eab97f3331c45072e018c8665bb2c01
 
 Package: enigmail
-Version: 2:1.6-4~deb7u1
-Installed-Size: 2068
+Version: 2:1.7.2-1~deb7u1
+Installed-Size: 4687
 Maintainer: Debian Mozilla Extension Maintainers <pkg-mozext-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Provides: iceape-enigmail, icedove-enigmail, xul-ext-enigmail
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), icedove (>= 17.0) | iceape (>= 2.14.0), gnupg
-Breaks: iceape (>> 2.24+), iceape (<< 2.14.0), icedove (>> 27.0+), icedove (<< 17.0)
+Depends: libc6 (>= 2.2.5), icedove (>= 24.0) | iceape (>= 2.19.0), gnupg
+Breaks: iceape (>> 2.27+), iceape (<< 2.19.0), icedove (>> 32.0+), icedove (<< 24.0)
 Description: GPG support for Thunderbird and Debian Icedove
 Homepage: https://www.enigmail.net/
 Description-md5: 1f1e67ab816cad117d3c812e71e25f82
@@ -2905,11 +2905,11 @@ Enhances: iceape, icedove
 Recommends: gnupg-agent
 Section: mail
 Priority: optional
-Filename: pool/updates/main/e/enigmail/enigmail_1.6-4~deb7u1_amd64.deb
-Size: 1472164
-MD5sum: ac9b401bee0652f363a9916b740e5e4f
-SHA1: 8eaea5dde5821f89cc2c847c8110b6d22e6a00cd
-SHA256: c18f001d441ad524a27f8fbae0e25b6f18ec049b247ff14f225b020ad13c916e
+Filename: pool/updates/main/e/enigmail/enigmail_1.7.2-1~deb7u1_amd64.deb
+Size: 1290608
+MD5sum: 2f7965a1241b7089f1d0010aaf62acbe
+SHA1: ebcabfac599d171f0e934da21703810f7df1fa86
+SHA256: 2324c6b5f3325c51e5536cc7dacdf1b60a0b6196613443c7552545727d894bea
 
 Package: edisplay
 Source: exactimage
@@ -4286,105 +4286,106 @@ SHA256: 3a4e37bfdd84d7703e4be2bb950fb8a96f006d7321e390aded0729dc666609a4
 
 Package: calendar-google-provider
 Source: icedove
-Version: 24.8.1-1~deb7u1
-Installed-Size: 337
+Version: 31.2.0-1~deb7u1
+Installed-Size: 331
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
 Description: Google Calendar support for lightning- and iceowl-extension
 Homepage: http://www.mozilla.org/thunderbird/
-Description-md5: 1d5c421bd910ae5a7fa3285f31c40130
+Description-md5: 357c83f9399f837c99c158cc2de15566
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/calendar-google-provider_24.8.1-1~deb7u1_all.deb
-Size: 89050
-MD5sum: df68425d146cd18d153944459b526955
-SHA1: 7a049ac94f474ae2b673b2443cb5a01f82680851
-SHA256: 54d987e33bb3fee1a75375f33b6a3bc474311c518e59b2d7e972aafa0b8f5652
+Filename: pool/updates/main/i/icedove/calendar-google-provider_31.2.0-1~deb7u1_all.deb
+Size: 82688
+MD5sum: 8f93b0faf649af6c2dbf5e3918139f99
+SHA1: f8fb16efb2a8c378538a3ffb8bb6e4e822945d1e
+SHA256: d1c8a72b41608d94220c3fc1222e6b04f9a1831e241488ab43a1ea0f772afe6c
 
 Package: icedove
-Version: 24.8.1-1~deb7u1
-Installed-Size: 55484
+Version: 31.2.0-1~deb7u1
+Installed-Size: 69658
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: amd64
 Replaces: icedove-gnome-support (<< 3.0-1~)
 Provides: mail-reader
-Depends: fontconfig, psmisc, debianutils (>= 1.16), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.10.2-2~), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi5 (>= 3.0.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libhunspell-1.3-0, libpango1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.18.0), libsqlite3-0 (>= 3.7.7), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libvpx1 (>= 1.0.0), libx11-6, libxext6, libxrender1, libxt6, zlib1g (>= 1:1.2.0)
+Depends: fontconfig, psmisc, debianutils (>= 1.16), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.10.2-2~), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi5 (>= 3.0.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libhunspell-1.3-0, libpango1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.25.2), libsqlite3-0 (>= 3.7.7), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6, zlib1g (>= 1:1.2.0)
 Suggests: fonts-lyx, libgssapi-krb5-2, libglib2.0-0 (>= 2.20.0)
-Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 24.8.1-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
+Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 31.2.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
 Description: mail/news client with RSS and integrated spam filter support
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: a3f8f79f513675ddae7177832763ff0d
 Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
+Xul-Appid: {3550f703-e582-4d05-9a08-453d09bdfdc6}
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove_24.8.1-1~deb7u1_amd64.deb
-Size: 22959746
-MD5sum: fbb90bc2e435e5d1613d53c9e85c2b9d
-SHA1: 03f76ca9896de9ae651a212b6cc9006c037887f6
-SHA256: a0833c02e4c17880632bb30db09c3a76f6b482a28cb39d98f81dc5cb5808779c
+Filename: pool/updates/main/i/icedove/icedove_31.2.0-1~deb7u1_amd64.deb
+Size: 27849356
+MD5sum: 3cd22ce2b98090c7203796abdea2f28e
+SHA1: 2ff2024f8116918387da833142832ddbe6e918b3
+SHA256: 6a11142b2587bd82d4c7b9d6142914e7534b4cad249c7d09292dfa6d6dd68e06
 
 Package: icedove-dbg
 Source: icedove
-Version: 24.8.1-1~deb7u1
-Installed-Size: 1073915
+Version: 31.2.0-1~deb7u1
+Installed-Size: 1014332
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: amd64
-Depends: icedove (= 24.8.1-1~deb7u1)
+Depends: icedove (= 31.2.0-1~deb7u1)
 Description: Debug Symbols for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 99fce9c8b37fcb1fdae080cd71939b95
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dbg_24.8.1-1~deb7u1_amd64.deb
-Size: 246583444
-MD5sum: 5b03f08a0008348102c05a73dea97223
-SHA1: d0c8a54d29fa837a808ab14896ffb7a84e4f788b
-SHA256: fc1e3f00300e63e2b2cdf17d3cc21c5e87bc5c56f49a52ee793939e958abc868
+Filename: pool/updates/main/i/icedove/icedove-dbg_31.2.0-1~deb7u1_amd64.deb
+Size: 237691654
+MD5sum: 3a5c2fc9b3ec3a1a1c03c724a555e05f
+SHA1: 3559f2fd06d75bb7810f183cdb718e89ac5f2b2f
+SHA256: 61f2bde90934015969cca4cffc8d9d5fbc8771f9327bba3e59cadc31e497d217
 
 Package: icedove-dev
 Source: icedove
-Version: 24.8.1-1~deb7u1
-Installed-Size: 35990
+Version: 31.2.0-1~deb7u1
+Installed-Size: 38907
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: amd64
-Depends: icedove (= 24.8.1-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
+Depends: icedove (= 31.2.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
 Description: Development files for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: e5dc915b9a4390b041790032893a56e6
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dev_24.8.1-1~deb7u1_amd64.deb
-Size: 4970078
-MD5sum: 8b279aaf5b5dc55f944ec5ea8c3c2f7b
-SHA1: 544470633f76b8dd7e10ef219da5d13f3819ea8d
-SHA256: 0a145dc83eedc2ffad5467a259c821d490782563685f244f9cb07ab8ef549432
+Filename: pool/updates/main/i/icedove/icedove-dev_31.2.0-1~deb7u1_amd64.deb
+Size: 5476254
+MD5sum: b0b4aaf0f2400c0ba13fea7133735822
+SHA1: 86c2b1e0abb97f5c124d1e0f834bd00bb2d439b0
+SHA256: 186f27b8b1fea126535ec56b5e1324af4d7220282ff3b985100918100733f1f9
 
 Package: iceowl-extension
 Source: icedove
-Version: 24.8.1-1~deb7u1
-Installed-Size: 4878
+Version: 31.2.0-1~deb7u1
+Installed-Size: 5702
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: amd64
 Replaces: calendar-timezones
 Provides: calendar-timezones
-Depends: icedove (>= 24.8.1-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: icedove (>= 31.2.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Suggests: fonts-lyx
 Breaks: calendar-timezones
 Description: Calendar Extension for Thunderbird/Icedove
 Homepage: http://www.mozilla.org/thunderbird/
-Description-md5: 2c79304e1b2fc02602bc7d1adffd404d
+Description-md5: 65836c12ff9dc4d09cb7aaa996e47d9c
 Recommends: calendar-google-provider
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/iceowl-extension_24.8.1-1~deb7u1_amd64.deb
-Size: 991018
-MD5sum: 7a1a795395a5e18505dce847f373c38c
-SHA1: fb880c3165ea91b5fefb60133740803c1f7c88ac
-SHA256: 0fe1b887e53c633ca62c7108dafb7727c18cad6ff5475841b2646a2c29416831
+Filename: pool/updates/main/i/icedove/iceowl-extension_31.2.0-1~deb7u1_amd64.deb
+Size: 1540662
+MD5sum: 7e4c79ae00b2180677fedaba5ef7a463
+SHA1: b6d032ad87c541a860aa213d03465ffccbe02bb6
+SHA256: 32ddb468bd3b6bac1fcbb4716149619836d2fb7ac9f943c16a662d77c8222589
 
 Package: icedove-l10n-all
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
+Version: 1:31.2.0-1~deb7u1
 Installed-Size: 32
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
@@ -4393,964 +4394,964 @@ Description: All language packages for Icedove (meta)
 Description-md5: 6a3fa5233915297dac04a085a357f345
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-all_24.3.0-1~deb7u1_all.deb
-Size: 7986
-MD5sum: f39b9310a0671a1b56688194c96123c4
-SHA1: 2fd5fdb907ee0f13ff49f186b6c6d5103614d881
-SHA256: 59a44995bd5484180a5acc1e3dec9f6282f2dd6e63cd256d1aea251987a39712
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-all_31.2.0-1~deb7u1_all.deb
+Size: 8056
+MD5sum: 7b65d7e3a91822833875f2329264255d
+SHA1: cb8af08db0310c63cbc5dbc2b876d8a3174f159e
+SHA256: 6f8451aa7aeac2ec5dcf3d3b3742fc21deb3c074517718720e30729b69676c7a
 
 Package: icedove-l10n-ar
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 511
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 525
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Arabic language package for Icedove
 Description-md5: 11d8cae11b1ac25187f91497461e4a49
 Recommends: hunspell-ar
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ar_24.3.0-1~deb7u1_all.deb
-Size: 399758
-MD5sum: 456a76a9c083885777d779adca43ae14
-SHA1: ebcf7220684e37da84abbd7ae5b9efc43f622cad
-SHA256: 61737399d383b513978d1914b6bbc7c10745a1a2bc9339fbe62965cff25c57b9
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ar_31.2.0-1~deb7u1_all.deb
+Size: 414112
+MD5sum: 6f18a1c023919acda1934f30b0e18c6d
+SHA1: 02d5afa8701b28bced3726dd62e9426895febc27
+SHA256: 1c9b9e5a262b994719e0d214ef3041574b0782a35b12a262f7b340fda464836f
 
 Package: icedove-l10n-ast
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 429
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 448
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Asturian language package for Icedove
 Description-md5: 8918239e11309f4e961f95f7916d32f7
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ast_24.3.0-1~deb7u1_all.deb
-Size: 312634
-MD5sum: 812c7fbc7cf78fca430c028c106f476c
-SHA1: 922eef555ff5711c31cfb857e600b2b4d44fe0b4
-SHA256: 45fa587bf0cdfc8cc3846ee698230de573519605d765e9ef19537c5bdf9f52ed
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ast_31.2.0-1~deb7u1_all.deb
+Size: 331436
+MD5sum: dd7e56b050de70d5409e1df6dbf8666e
+SHA1: 5606a63daa0c4a99d5132e28845f7d3233ab9b47
+SHA256: b414b03ca9e87e24657c07a10b33b96e7db59262b7a24cfe51ee3c2daf139bd5
 
 Package: icedove-l10n-be
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 471
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 481
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Belarusian language package for Icedove
 Description-md5: 5825dbe81ce7ecffcae0f3fd7773bf4b
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-be_24.3.0-1~deb7u1_all.deb
-Size: 357778
-MD5sum: 0effb24830bde6841c735033f33371ec
-SHA1: ea70d6d706c8e40c14ed864f119afa9d9851bc7d
-SHA256: d5d8365981b2ad3519ba664ff9dc516c98249a2f09986038def34a0e8dfc6fba
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-be_31.2.0-1~deb7u1_all.deb
+Size: 367210
+MD5sum: 5e0343a7f8ea7c6185007c9bf9f9f859
+SHA1: e1e2013f2cf82779d476144c3e2083d4eff90be1
+SHA256: bfcb17631335796b4ab673838b193bcf97ff2fe1fab39da67c18613b3bcfdbaa
 
 Package: icedove-l10n-bg
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 538
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 546
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Bulgarian language package for Icedove
 Description-md5: 0a6f87133f46d63c1ceaaf21e8d7c67d
 Recommends: myspell-bg
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-bg_24.3.0-1~deb7u1_all.deb
-Size: 427574
-MD5sum: b9f4306ede15ff96e6e71e5bb1645067
-SHA1: 67999e97aede354486cec2fad233e696472ba61a
-SHA256: 9c6d822aed3f3995cfe92d0563d1e26850b6fe1bd561d4a4a2b58c076714e6d2
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-bg_31.2.0-1~deb7u1_all.deb
+Size: 433978
+MD5sum: 948da95d00ea5ec85e623530d5b32c88
+SHA1: 2e2098f692286c48c958685c9194802b1b0a844c
+SHA256: e3b05781196ffe9cd2ac18e82ee207afdebdeb2b61ee5a17d4eb2762b83bc8fd
 
 Package: icedove-l10n-bn-bd
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 590
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 608
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Bengali language package for Icedove
 Description-md5: 9e4f38f73aa4d63118884ae398f65166
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-bn-bd_24.3.0-1~deb7u1_all.deb
-Size: 476578
-MD5sum: 448fad37e64c496c5a21d5bab89b3847
-SHA1: d89332393a3d6638878e8612688ad989cd8501a0
-SHA256: b474ef1ab93d7e19b3999aa3894539ed4617f350cd73891bd3dd45e5567f1e81
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-bn-bd_31.2.0-1~deb7u1_all.deb
+Size: 493974
+MD5sum: 7270e02f647af7519e441a60d04307f3
+SHA1: 0431c28ba7c28d0c87ce32d5fc04f67c6cabc860
+SHA256: cb5813d1acee4efa52b4836d4d3c39432f2316aaad5508ed42f7ad5c4cec6523
 
 Package: icedove-l10n-br
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 481
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 495
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Breton language package for Icedove
 Description-md5: 75da6b0a72876bc020eb3d5703fb449d
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-br_24.3.0-1~deb7u1_all.deb
-Size: 368936
-MD5sum: 49c21e1e3d7b7b99773e4e44432b5f8b
-SHA1: 1599dcfefedf4a18eb17f142a461e993bb4e0871
-SHA256: 5807255d9d6b29436ee09ab130407ea7e09a808935bea2c49a6c06d9c55ae043
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-br_31.2.0-1~deb7u1_all.deb
+Size: 381890
+MD5sum: 377e9a9993885b5bbc1cf3eff69fa2bf
+SHA1: 6626ca2b81eb59a8a4cbe5dcbcb8c4c5384a15ce
+SHA256: bc497b6f56d1525d05cb5e7164384a1adb954ebde0dddf3377797732bf3d10e6
 
 Package: icedove-l10n-ca
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 484
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 495
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Catalan/Valencian language package for Icedove
 Description-md5: 5f978efea64d5356281124ad13c2718c
 Recommends: myspell-ca
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ca_24.3.0-1~deb7u1_all.deb
-Size: 371416
-MD5sum: 03f882c822ff73208a64546409689044
-SHA1: b0141b4c77bb284f65d8d0535da0b39a961e7b92
-SHA256: 3aa7aee5180f5201297ad8f4dab7ba2e6a6a07e6dc05a88699741193f263a2a2
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ca_31.2.0-1~deb7u1_all.deb
+Size: 382404
+MD5sum: bf76386ced3351103af07a20799beeec
+SHA1: 0483cdc7a9eab72b48a4e8c8d2913cb0e711ad64
+SHA256: b4e44041cd47bc698a8e408d8d3f15fa997d57e7b303203151dd473897025698
 
 Package: icedove-l10n-cs
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 485
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 498
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Czech language package for Icedove
 Description-md5: 6aa72a2fccbccd03514767fdf0ab6bac
 Recommends: myspell-cs-cz
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-cs_24.3.0-1~deb7u1_all.deb
-Size: 373074
-MD5sum: c40c0bd5f83f0c8560c43a0b4ca2baf9
-SHA1: c6b7889cc7dbe3cc85323ab19d971d8c72089825
-SHA256: 3e143de807171d4fb470d4e33ddba93a2d46847e2ae76727b8e8b37a124fc764
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-cs_31.2.0-1~deb7u1_all.deb
+Size: 384850
+MD5sum: 085bd4e3650448bfbc45c259b47336ec
+SHA1: 41fb43284c47bf77e27dd0a91c03680690838cac
+SHA256: d6aaf132b8600282604e434e66ef5eba862b59b9149ae4e648b503baa386153f
 
 Package: icedove-l10n-da
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 464
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 476
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Danish language package for Icedove
 Description-md5: b67323819066345ba1a5de41cbe8aad3
 Recommends: myspell-da | hunspell-da
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-da_24.3.0-1~deb7u1_all.deb
-Size: 350922
-MD5sum: a04fc892827611677033523c20d61577
-SHA1: c8f3cef7fc4acfea87baa3190c2cb9b8faf23f50
-SHA256: a68e49e5e2beecadc68d1f544c6487dfc66b81cc62bef784ed3f136f68aaacdf
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-da_31.2.0-1~deb7u1_all.deb
+Size: 362484
+MD5sum: 0d730fdbefffb7789775a2f815901348
+SHA1: 717c0c373386e1627ca94388d37f964a779ccf7b
+SHA256: daefd2e18cdfedb97fee56cbf10e1935f0c7b696e00dc394cf35934e785803e0
 
 Package: icedove-l10n-de
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 463
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 478
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: German language package for Icedove
 Description-md5: bf8a07e43463a287fae0d41b6eb4004d
 Recommends: myspell-de-de | myspell-de-at | myspell-de-ch | hunspell-de-de | hunspell-de-at | hunspell-de-ch
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-de_24.3.0-1~deb7u1_all.deb
-Size: 350080
-MD5sum: 58ec26dced034a038f5e1832a0c3368c
-SHA1: 93a9890d52a0af5a93a0cf9113cb12be374cd00d
-SHA256: 4d2b6051185893ed199f3512e3d3c8177d67e64faecf90b9b7970a57d047a33a
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-de_31.2.0-1~deb7u1_all.deb
+Size: 365086
+MD5sum: c53f2d7a8c5243cf6b9ea26fd13c7580
+SHA1: c0066e3928c1da5f47b6876f7190e96bd449076d
+SHA256: 8b5267756defce2469604b8e1fbb4b876a5cab1039870d51db4988c446c7d722
 
 Package: icedove-l10n-el
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 517
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 537
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Greek language package for Icedove
 Description-md5: d96d01fb8528b7ee3dcfa461a9848a42
 Recommends: myspell-el-gr
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-el_24.3.0-1~deb7u1_all.deb
-Size: 406994
-MD5sum: a22197ff74dec9459b5391d3bb868e6f
-SHA1: f025f91b7e5f7b9a3cddc6b41ad26114a27d99e2
-SHA256: ae5a364d1e709bcfb508697a62eab279978f42f325a4a979ff7ddd152599ee57
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-el_31.2.0-1~deb7u1_all.deb
+Size: 426562
+MD5sum: 2e557b983cd925f30dbefdacb67f3a62
+SHA1: 4e9b490aabe4c34d82282faf5fc4551dd670a4aa
+SHA256: a9474d26fb06dcbee10251860720b5dbe0d79d4babf7141e61c3ed245c7910af
 
 Package: icedove-l10n-en-gb
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 456
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 467
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: English (Great Britain) language package for Icedove
 Description-md5: 3ac2e5f86c3c63a47a9501a8871d2d58
 Recommends: myspell-en-gb | myspell-en-us | hunspell-en-us
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-en-gb_24.3.0-1~deb7u1_all.deb
-Size: 337196
-MD5sum: 58da5a150c0442bf5427d355ba4ac1a1
-SHA1: f3685465003ec36fda1e06f5883b2e9add0dab1c
-SHA256: fb3146682d04f7edb13c0f88de9f6ca1ac09e5b247365cefe70e84993c343360
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-en-gb_31.2.0-1~deb7u1_all.deb
+Size: 347774
+MD5sum: b82ba5152de3e9bb71fd7dc832df191f
+SHA1: c75c94f68088928eadcf4ae67efce37bcac3faf9
+SHA256: 64fc0674f26bc1e32307374b6bd9aa42c24c170ee14b27ac389dd9f252e48269
 
 Package: icedove-l10n-es-ar
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 480
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 493
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Spanish (Argentina) language package for Icedove
 Description-md5: 37b128243eb4ed33af86308503527760
 Recommends: myspell-es
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-es-ar_24.3.0-1~deb7u1_all.deb
-Size: 363284
-MD5sum: bb4e273e8a803cc096a0a26938692574
-SHA1: 785e57aba3d46e10503399e172870cf43c6c44c0
-SHA256: 896e3c3bc06d67b2ea124fd42d6f50bcc7003b08f00137bfeaaebad88ff23cbe
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-es-ar_31.2.0-1~deb7u1_all.deb
+Size: 375178
+MD5sum: 712cf623e8d80cc31e4976284a570dba
+SHA1: b515aa75cdb054613fbcd37de42d28546df7490d
+SHA256: 0628fffce75a85f15816b439cbded01db248a3feac2205edf55d7786c82424a7
 
 Package: icedove-l10n-es-es
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 422
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 430
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Spanish (Spain) language package for Icedove
 Description-md5: 2e2bc573cbddfd94fb62670b6f52580f
 Recommends: myspell-es
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-es-es_24.3.0-1~deb7u1_all.deb
-Size: 302414
-MD5sum: 20b672833f320ffcd6d329eceb2d59d9
-SHA1: f3898ffb8fa73e059b91e562313000ae4955b766
-SHA256: dcd108e65c3c9a40c4ce9e9a11c1a23368069c8ac5908911c7bd4402857180bf
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-es-es_31.2.0-1~deb7u1_all.deb
+Size: 310032
+MD5sum: e6d19dfbc31e1237fd75f2fb84e42753
+SHA1: 3f9a09d3d087ca4ca226e9b297ef15d5ad1a6431
+SHA256: f8a9bb7956ba16e3cfacdb03e312bae163c9c57af99e061594dddcc1fd0b7e7b
 
 Package: icedove-l10n-et
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 477
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 488
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Estonian language package for Icedove
 Description-md5: 4b00746823591e590bda1d7d39820f58
 Recommends: myspell-et
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-et_24.3.0-1~deb7u1_all.deb
-Size: 364994
-MD5sum: c92396cd409568c3dd0c694d62d3df60
-SHA1: ae1dd0a82c60e21500c6b8190a67dc04980edd87
-SHA256: df6e8350a2f1a10ec5f5b96b4ad680082e68dd448b37def4bfbb9ba09372806a
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-et_31.2.0-1~deb7u1_all.deb
+Size: 375020
+MD5sum: c50b3e8960d38521f8c1f0474f654937
+SHA1: 1fc9ab4a1902349280a2668edb706863beeb8925
+SHA256: 942dae80b643a454c88efa1f42dbd22d5963a347d06d8e688b87687adc3e40cd
 
 Package: icedove-l10n-eu
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 473
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 485
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Basque language package for Icedove
 Description-md5: 8fba8483bff96bbdeecb9006283845b1
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-eu_24.3.0-1~deb7u1_all.deb
-Size: 359742
-MD5sum: 34e5351469466897d71f34719f4abc66
-SHA1: f1d1d51d56f1debc162f5d73c67b20fcfad3ecb5
-SHA256: c82faa9d5cb51ad928f2b1484daff4e2b17c2923b109063e0cc3f05e93e75d2e
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-eu_31.2.0-1~deb7u1_all.deb
+Size: 371500
+MD5sum: 02851fea2ee8edbe057f55f8f52964fd
+SHA1: 69bce5de81cf9d2f052dfd5bbb48bbfc3ebe90f7
+SHA256: 232432680e0bae85e15bbbc01908d96311c945cebb1385e301b6829bec8b8e7b
 
 Package: icedove-l10n-fi
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 478
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 489
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Finnish language package for Icedove
 Description-md5: 5176d1dfb72b00d3b6f5b8683c1d404d
 Recommends: myspell-fi
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fi_24.3.0-1~deb7u1_all.deb
-Size: 365604
-MD5sum: e6abeaddd1721ba690ed4395cd36e5ce
-SHA1: 9eac0fc4e71d638b9e77e725996ecdb89f75b341
-SHA256: 3ce726b2c83d8d7dbc6ee3e460f54c37bc5c0b0cd807b7a8339cdeb0edb46983
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fi_31.2.0-1~deb7u1_all.deb
+Size: 376150
+MD5sum: 96afec8e72929c6198679e8cfbc5eba0
+SHA1: bbc3359e2f512f1cc2bdbabae63acb1703121841
+SHA256: 665ac0f3c6bb6e9d9557686f5063674410c2dde597a498d06fd19454286c12ad
 
 Package: icedove-l10n-fr
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 485
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 497
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: French language package for Icedove
 Description-md5: b4b58be2e1572f09a7ba5c43f4ee7583
 Recommends: myspell-fr | myspell-fr-gut | hunspell-fr
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fr_24.3.0-1~deb7u1_all.deb
-Size: 371916
-MD5sum: 9ea247adb7ae3f24f1a0c611bb4b2ed0
-SHA1: d77a9481450e4b164df15b33e12b6555c21b7ade
-SHA256: ffa414dbddfceea35ca6cdb2da431aa8d11006059cabe2927417f87625bc57ed
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fr_31.2.0-1~deb7u1_all.deb
+Size: 384160
+MD5sum: 98238c44f453c2c651aebc3f812e2a4b
+SHA1: edccc585a235ca4149fca92b80678e41697f7e9c
+SHA256: 2fabe33b4edc42506587ffd9f4f90923574c8eaadd036ecc4edd3d2043c34568
 
 Package: icedove-l10n-fy-nl
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 481
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 493
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Frisian language package for Icedove
 Description-md5: e49217d44d27e9d6cb7cc2f6f227d342
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fy-nl_24.3.0-1~deb7u1_all.deb
-Size: 362434
-MD5sum: ea34e1cd9dfe2d6e17ca2169b60bf30a
-SHA1: b531d5c326c76afd7b49d85153ad17ceef066ab4
-SHA256: 9e32dea0cf0167cec2cf9b4ed59813d6227ff22ef05536fc04610d719c4569c3
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-fy-nl_31.2.0-1~deb7u1_all.deb
+Size: 373688
+MD5sum: bba09708aeabb4f0c925305ad83786b5
+SHA1: 0125b529cc6f87b8de3edbb752e551aa481b1b5e
+SHA256: 70ad1e982bd7d2b499c9deaeded913fbb893c00d740d28df33d94c6e9d747e34
 
 Package: icedove-l10n-ga-ie
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 491
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 503
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Irish (Ireland) language package for Icedove
 Description-md5: 36c7711b6991b25e6ba961301df2505d
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ga-ie_24.3.0-1~deb7u1_all.deb
-Size: 374010
-MD5sum: 8ffc882bd4e3dd59d4b60f7c3a480187
-SHA1: 3f55017ddf4709e4b690b0abb0e260893f90837e
-SHA256: 3d8efb1e20663c8f16d51f1954ea3f86c3326a0ceceb69716e70c07bb865e629
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ga-ie_31.2.0-1~deb7u1_all.deb
+Size: 384752
+MD5sum: dfa5a466b810f8f6f2836fbc48d46916
+SHA1: 79dbf02940a5defc1b85c7714099983c8b8f6793
+SHA256: 1e87412c6efa58b5d05e1f032b48c2cabf32fd71fd4c5b857bd9d15c7c832532
 
 Package: icedove-l10n-gd
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 494
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 506
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Gaelic (Scottish) language package for Icedove
 Description-md5: b6fb5e89a347f4d59b073e9e28c8badd
 Recommends: myspell-gd
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-gd_24.3.0-1~deb7u1_all.deb
-Size: 382214
-MD5sum: 6c1487d36352d0e47f04e51bda2b0ebd
-SHA1: 45bee67db8cc6008f17eb6da0e0ac6ba15fbf2b5
-SHA256: 3edeb0e1ca4f4104717dc2430c84d70ed229360a81d6e2f7fae8eec187fcecf1
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-gd_31.2.0-1~deb7u1_all.deb
+Size: 393664
+MD5sum: a05d520c605b9ee73e12423d988bb6fa
+SHA1: 72dd0854cf9767d18b982eaeebb34d285a253975
+SHA256: d7d44aa53acaa2297f91c823d3732fa4961a873f8f6ec49d70ccc44630d6a7d6
 
 Package: icedove-l10n-gl
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 481
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 500
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Galician language package for Icedove
 Description-md5: daed5e5b8ae15cb06f633c9d910e18ac
 Recommends: hunspell-gl-es
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-gl_24.3.0-1~deb7u1_all.deb
-Size: 369256
-MD5sum: 4eee8f6a09b283ea250f9dd3d8ee973c
-SHA1: d365122b1562f4a36fd803133d51114e93a105a9
-SHA256: ed33deb89e01b0e94e38b0232d4c4a057b3fa017ca5e3728752e768d367f03d5
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-gl_31.2.0-1~deb7u1_all.deb
+Size: 388058
+MD5sum: d81c8c83a37a777c99d72826b16dd54e
+SHA1: 27396927bd3041f182df7fdd9d1d7c2659ccf3f2
+SHA256: a4875e0a816865964b7cb44c250b230919840bee9521b9160e4042af0c356163
 
 Package: icedove-l10n-he
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 510
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 529
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Hebrew language package for Icedove
 Description-md5: 0719288bc9ad817c45de848e2112daef
 Recommends: myspell-he
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-he_24.3.0-1~deb7u1_all.deb
-Size: 399850
-MD5sum: 1d85885befee194b2894d0d4496a7b98
-SHA1: f48f8ef8c8388a76b36b8c7c20d1e1270fef4bb1
-SHA256: 02f069f31f2972018a75a307001d0f156ef5e7c71d0e64575e77dcb77a19e4a7
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-he_31.2.0-1~deb7u1_all.deb
+Size: 417944
+MD5sum: 71701848b2a48d29b7d59c101987960c
+SHA1: 2524d088e5235b907645f3f85ef98ca89fcb4beb
+SHA256: 9c4c2c9d3b01b3d53d9a1e74e1eb79df71125b31134b7fceb66671db94a8447a
 
 Package: icedove-l10n-hr
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 476
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 490
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 17.0.8), icedove (<< 25)
+Depends: icedove (>= 17.0.8), icedove (<< 32)
 Description: Croatian language package for Icedove
 Description-md5: ec6bcbeae320f471e5d7d4885b7a7166
 Recommends: myspell-hr
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hr_24.3.0-1~deb7u1_all.deb
-Size: 364368
-MD5sum: 2697235d1204429574e68dabe6ea5081
-SHA1: 05f7134f55b6d22cf910f1b7139b575d4d7e7110
-SHA256: fd6d5275118f4b69e2bda5cf5ea43526400b5daf0e014e40b7af765e09f674c2
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hr_31.2.0-1~deb7u1_all.deb
+Size: 377284
+MD5sum: 03b9fe4f122be137c5ab48dd62f1ca98
+SHA1: 2ec9852251dc4db40db60fe297023d8fb6e947fd
+SHA256: f10731057ddf7d2a8275bb371b4101867be1e1da6c0db785d9393108b55e43c8
 
 Package: icedove-l10n-hu
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 495
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 508
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Hungarian language package for Icedove
 Description-md5: 7914a64892c5de343a127094aa95525c
 Recommends: myspell-hu | hunspell-hu
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hu_24.3.0-1~deb7u1_all.deb
-Size: 382906
-MD5sum: 2aa2fa7366dc1fc69fd1dde9f4a79156
-SHA1: 2b570e93db7ca52949661adb708b4abed01ffc01
-SHA256: a88b24e3ee69f87ba06bb02518116be4365a1e4a2a98574fdec8835bf1070559
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hu_31.2.0-1~deb7u1_all.deb
+Size: 395108
+MD5sum: 8cb56d5aa5c8ec6d9e53950e77f9cca3
+SHA1: ee7f7d2125651e34d50f2643e6ed33aa31ddb169
+SHA256: f1d6a912577551796b80f56c2642ebe20419d05051ff3cfe566fdc37146ac4c4
 
 Package: icedove-l10n-hy-am
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 531
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 546
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 17.0.8), icedove (<< 25)
+Depends: icedove (>= 17.0.8), icedove (<< 32)
 Description: Armenian language package for Icedove
 Description-md5: b3ed993ef04427f0f7eb6a8e0678bfd0
 Recommends: myspell-hy
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hy-am_24.3.0-1~deb7u1_all.deb
-Size: 415612
-MD5sum: dab164b28a15a3736612ee41bf9ec605
-SHA1: ba62309b63c58ca3c7c8895abc83633237da2ba3
-SHA256: c3db550b50bd5359fe9f33484abb96516bbb2819fd58dc8d2fafdbff69f54438
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-hy-am_31.2.0-1~deb7u1_all.deb
+Size: 429306
+MD5sum: 21817ba82ff36f3e6b829dd12b3742c7
+SHA1: a41697d23c43b8c47fd94366f0baa86f84c9f442
+SHA256: c95e004d01e2235181145497bee39b1b22f9bd704721de5dc87edbc43170db56
 
 Package: icedove-l10n-id
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 511
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 528
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Indonesian language package for Icedove
 Description-md5: 688fdb9a2712be89d0f405ec0795cdd5
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-id_24.3.0-1~deb7u1_all.deb
-Size: 399454
-MD5sum: caaebf1014faf4c36acd9c003ce0f1e4
-SHA1: fdcc9b82c0a8850bbb5e33fd82963efbd3c74f6a
-SHA256: f0393d0a55dd05da7b62c438c11ab11bdb330ebd5b382e972b3980bcc40b7586
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-id_31.2.0-1~deb7u1_all.deb
+Size: 416816
+MD5sum: 3d4f6ed26450d603d9818b70e803c340
+SHA1: d12f566dc41c8d27127024b4b4e1f05c783d3756
+SHA256: a9e5f8432d77557d9e77cf73e36b4ea3bba703445df53192bfbf00b219216187
 
 Package: icedove-l10n-is
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 479
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 491
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Icelandic language package for Icedove
 Description-md5: 7c39f6d8542e09cbf85e88225f528f8c
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-is_24.3.0-1~deb7u1_all.deb
-Size: 366902
-MD5sum: 6528173a7a5cc4b5ec9885f09897a946
-SHA1: f133e023ba92fc7c29a65106614d813a84f49b92
-SHA256: a454001e8672d15ce852fb40c913c54094b5a1861f5890398419e56ebfd71ce8
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-is_31.2.0-1~deb7u1_all.deb
+Size: 377974
+MD5sum: 7ddafa90814f32b8746039473a0703c2
+SHA1: 0be2aa096b3d8b604e97b57e0670eb443e32be5e
+SHA256: 0e83eb55a7b3ff5eae91ecd4ce46ee7350381b5709d649e28c7461654b6ad8cb
 
 Package: icedove-l10n-it
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 413
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 423
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Italian language package for Icedove
 Description-md5: ea6468753c4d90d85f161e149a4ec9c3
 Recommends: myspell-it
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-it_24.3.0-1~deb7u1_all.deb
-Size: 298750
-MD5sum: 51b7a1d26d18cb82792b171350a14a37
-SHA1: 7f681a59e3fd88cef031a66f81f7bdd01504c144
-SHA256: 7ea77b0dd55e598d8046091843d3539924ca7ad5fc1931fb15e97abe048ef25e
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-it_31.2.0-1~deb7u1_all.deb
+Size: 307416
+MD5sum: eb9b875b8edebd03c02195a6e7447cd1
+SHA1: 8ecf125283e766b60e9fa67b9b802a9856c9eb3c
+SHA256: f72ffa3df2d9a7b631ea6ca785bfd51c19968e6449b88c28c174ebce983a755c
 
 Package: icedove-l10n-ja
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 528
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 541
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Japanese language package for Icedove
 Description-md5: 0ce9d2db41fb2d74b0ce286285d7e529
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ja_24.3.0-1~deb7u1_all.deb
-Size: 417390
-MD5sum: 0720c90814ff0fc6b155f96f41f661b8
-SHA1: a6a5849a2e444614c474ef80ae008a0cd94fb344
-SHA256: ac0c4dbdf581e296783d78514217a17de10e71e8ac3aeb864d7dd79488350fdb
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ja_31.2.0-1~deb7u1_all.deb
+Size: 430520
+MD5sum: 34884089e8989f0d6982096dc4cab793
+SHA1: 9f345d39e81731287a721bea16379cfb8f49e83b
+SHA256: 152dbb3e4f69220b46434a76b0043a532fc95e6154fca39e819caade972340fb
 
 Package: icedove-l10n-ko
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 482
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 502
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Korean language package for Icedove
 Description-md5: 28f9349bdb289c2330c60cc80ddb3a33
 Recommends: hunspell-ko
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ko_24.3.0-1~deb7u1_all.deb
-Size: 368980
-MD5sum: 7e32258e79da20f4ad97ff86d5497997
-SHA1: 9a0b7673c47094332bf1424b91244e1c4fca7e8c
-SHA256: 0811d58dc4652f344af9552d684062ec6bb60d0c886c064388425cd889ef9270
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ko_31.2.0-1~deb7u1_all.deb
+Size: 389072
+MD5sum: ac40f6a300a2992a9272aee9f3db91aa
+SHA1: c07823c3dcacbb1a7f203531ca2635f059aa9f48
+SHA256: 6e4f63bf4807803c40d9847970b713793adf9e6615ae74970a72287450ab4ed5
 
 Package: icedove-l10n-lt
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 497
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 509
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Lithuanian language package for Icedove
 Description-md5: 171cabe07e13a0c8ca42cb1d32ff253b
 Recommends: myspell-lt
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-lt_24.3.0-1~deb7u1_all.deb
-Size: 384804
-MD5sum: 36a0724c188993f6a3aa3af2474030a0
-SHA1: 82c5b28e93f3b2c99bf8e11d59c2d86ae0e43b9e
-SHA256: c90eb05006f99f6e99487d649db3e6de20f5efec273b7026d1b28f4cd3c47dc2
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-lt_31.2.0-1~deb7u1_all.deb
+Size: 396774
+MD5sum: 19874100a4cffd60ece0f2acc704c44f
+SHA1: 4d7123b1bca564e5db2cd5235c2245d26a90d9d9
+SHA256: 1c6a6f204816e69924b83529161fcdf7734990b5c836d9c72ce5e6af40f6beda
 
 Package: icedove-l10n-nb-no
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 474
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 485
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Bokmaal (Norway) language package for Icedove
 Description-md5: 71d73229b90264b75ac671abf94ce82f
 Recommends: myspell-nb
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nb-no_24.3.0-1~deb7u1_all.deb
-Size: 355770
-MD5sum: e82781e839ec19d28497455cbc44f254
-SHA1: 8945e6fde45f13026e396199d35deaabe262ace8
-SHA256: 0c98f3a9e3543fdaf099d6c9d36af5f9251ffdcd90d5560d73d382dc9a368411
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nb-no_31.2.0-1~deb7u1_all.deb
+Size: 366840
+MD5sum: 295f60a305607ec41fe7d47ec89dc76d
+SHA1: 7a5d3a360772ec6fb9269ae5e28b7fe03f81cd2a
+SHA256: 3e1f40ad3300ee80a137572a86fd2b84f5abdb4042e6e34e116bae37956f12d5
 
 Package: icedove-l10n-nl
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 473
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 485
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Dutch language package for Icedove
 Description-md5: 032f4017821afe16201fb8bc4512bdfa
 Recommends: myspell-nl
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nl_24.3.0-1~deb7u1_all.deb
-Size: 360132
-MD5sum: 66663c8f3ae89036b0b33ded3e3b178b
-SHA1: 68209c762913c84fdcfab7fbef797bbac5f6a002
-SHA256: 9ba2a2b24a5c40c0dd2740891018014b781cd6464837a6fd0513ebb62b70803f
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nl_31.2.0-1~deb7u1_all.deb
+Size: 372030
+MD5sum: ee1b434d189cb8d90d7dc40e4e55f8ef
+SHA1: 4945d17803dabe1729bbabdefd5a7204bfb13adb
+SHA256: 619c1de067f42ddafe3f839208e4d53fee49a20edd0b802469fd432163fb9b61
 
 Package: icedove-l10n-nn-no
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 476
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 487
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Nynorsk (Norway) language package for Icedove
 Description-md5: 5d35c626da58e26d98ab0c1ab7abfc28
 Recommends: myspell-nn
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nn-no_24.3.0-1~deb7u1_all.deb
-Size: 358538
-MD5sum: bdbea4b56eb5fd5b48298cb54f7a3c75
-SHA1: f490dce6de00d2a76306a4171657f9bc2304575e
-SHA256: df9603441a12a74825b84b645be73542321eb47a527d66539dfc24933f1b6cd9
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-nn-no_31.2.0-1~deb7u1_all.deb
+Size: 368740
+MD5sum: 42f6e1b781ae454487e0f8eb9d199a9b
+SHA1: f7390c698bd0d205f920685a5cdb03fb8ccdeb0d
+SHA256: c4eb0261aa1523c815eb963586738558acfe0871bef06bd37580489f21f19bfd
 
 Package: icedove-l10n-pa-in
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 561
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 578
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Punjabi (India) language package for Icedove
 Description-md5: 0204e8235afb5683c9265f59417fffea
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pa-in_24.3.0-1~deb7u1_all.deb
-Size: 447504
-MD5sum: 5644b6d4f162b0e5db1a5fa796eb6eea
-SHA1: cef4891b0d450181ed11cabd8541e5cbbd50d23d
-SHA256: 45cd37804e0f064e9075c5ff989849bfabc4645ccdc32100953a13eed69af3df
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pa-in_31.2.0-1~deb7u1_all.deb
+Size: 463308
+MD5sum: 3fee517489723a94c5d3eef2cce213c9
+SHA1: 30af6910263b4f137e6b8ce42f13aa21a36a2887
+SHA256: 6642b0174131cdef02203e5c1ef9d3ef628fce19f642b43ce256a08815c1a7b7
 
 Package: icedove-l10n-pl
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 456
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 465
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Polish language package for Icedove
 Description-md5: 5e20e25ef3589ce6730a5bad49a8a58f
 Recommends: myspell-pl
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pl_24.3.0-1~deb7u1_all.deb
-Size: 342838
-MD5sum: 6c663385dd6e882437a00896bf85de57
-SHA1: 7d1a7bdf712136115bcfcc2aa6d51fdc5ad4c4c5
-SHA256: b13bdc48e4c67ad77f75777fdae330db93a7cf71f58b8c6643aa1103820b833b
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pl_31.2.0-1~deb7u1_all.deb
+Size: 350600
+MD5sum: c11049ceaf794a070fab22e914fdbeea
+SHA1: d54e4f45c0471e064102e38e2be53d3c939c4843
+SHA256: 15b3bd8b552da6905b8e4a56382d0a48afbd6502605ba53849886c75ba4a263d
 
 Package: icedove-l10n-pt-br
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 485
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 504
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Portuguese (Brazil) language package for Icedove
 Description-md5: fac7e0693fb8a7ee348d6464c6358d55
 Recommends: myspell-pt-br | myspell-pt
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pt-br_24.3.0-1~deb7u1_all.deb
-Size: 368074
-MD5sum: 4510254f7698b87a4733d3186fd1263e
-SHA1: 45dcfbd5a7cf783ed95927ec1631811c67035bb5
-SHA256: 6c71f7582477aae35eb9657ff07b6c5c34f02afd52eb5d1818e8f019790a8f76
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pt-br_31.2.0-1~deb7u1_all.deb
+Size: 386518
+MD5sum: 3796dff98eddc25469e5675f0cc1bf92
+SHA1: 61ed910541855cf0b3ab629e72720c3668437b93
+SHA256: a6d9c2a91497d22e7664fe95b5f28702a86439715ecc9115b44761f446c82e18
 
 Package: icedove-l10n-pt-pt
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 480
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 494
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Portuguese (Portugal) language package for Icedove
 Description-md5: 42a735f9da6bbb121c7fc449991c1262
 Recommends: myspell-pt-pt | myspell-pt
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pt-pt_24.3.0-1~deb7u1_all.deb
-Size: 361928
-MD5sum: 46da7e9a1973c23fba7de0122a95799b
-SHA1: 9e404413f958a93afc061c75de282979d60f11a4
-SHA256: a082a90ec3bf71bad8e9df2af6af83584aef127334db630dfa1f52a32febe596
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-pt-pt_31.2.0-1~deb7u1_all.deb
+Size: 375372
+MD5sum: 320cb56ea0a808d24b0928afcbe0c924
+SHA1: eae6da0630b7b09fa804ed1a81e9aafef3581107
+SHA256: e9b1f565582918bcbff4ea93522ebc34010765bb00dcfe12a3d4152e9273e0cc
 
 Package: icedove-l10n-rm
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 486
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 493
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Romansh language package for Icedove
 Description-md5: f12c9c86131df856569a2b8185395424
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-rm_24.3.0-1~deb7u1_all.deb
-Size: 374250
-MD5sum: e86959310dad2b8689c63b05c58079ed
-SHA1: 882bcb4278df6fb2735f01b121743935e8f0a1df
-SHA256: 7118cb705ec21784d580584f488513b86084449b77757ede176e12c432764f87
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-rm_31.2.0-1~deb7u1_all.deb
+Size: 379682
+MD5sum: bb30a782567d3d111224dbd0d10e29e7
+SHA1: 977ba4583cf6e37d2d6f3b43d12283a68554d10d
+SHA256: 7274f5b519d933473a0356658b9268ed61f2aed2c18a92115ee67ae43e29ee54
 
 Package: icedove-l10n-ro
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 550
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 532
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Romania language package for Icedove
 Description-md5: d14063a5df589cab034f453baddfdd7e
 Recommends: hunspell-ro
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ro_24.3.0-1~deb7u1_all.deb
-Size: 439522
-MD5sum: f852e1211f3fdc1844ae6116e575fc13
-SHA1: 9de76f67dc89d0bd474c482beef048e3ad86adb6
-SHA256: a084f2423e7b8b8ea3bac24abaa4e0d658fa208e435bd233b0e20fff93e26242
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ro_31.2.0-1~deb7u1_all.deb
+Size: 420134
+MD5sum: 93d0ff410b685dd0b856e3f4e1b05095
+SHA1: b880fdc24890837fa6558e9ddacdd840a43a7bd8
+SHA256: a27d4a538fd1d1ef51fea2a686e3834b6c2a438555d4f17350f3c4436971fa0e
 
 Package: icedove-l10n-ru
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 479
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 489
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Russian language package for Icedove
 Description-md5: 6ee99c88335f58daa4560fa35f3fa362
 Recommends: myspell-ru
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ru_24.3.0-1~deb7u1_all.deb
-Size: 366502
-MD5sum: 33b8fa08c9f22b020d460f4a1c20f1ab
-SHA1: a777ea5c602e35a9a267bdafae6dae000d20205a
-SHA256: 6b10f9b7d354957121d35d18c9c8af8860e6db8c2c18b7b8e53f4214d8742e9c
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ru_31.2.0-1~deb7u1_all.deb
+Size: 376038
+MD5sum: 6004ae35ec2b58f7dd19cfc85c0a597a
+SHA1: 21c4e76d6793dad5f5c70ccf3089f9076decb5c6
+SHA256: fce3128521fd59d9436092151e27da444208908c2921b76f8220324efe268a62
 
 Package: icedove-l10n-si
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 563
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 581
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Sinhala language package for Icedove
 Description-md5: c959a3749e0299388520f38f1bb59d91
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-si_24.3.0-1~deb7u1_all.deb
-Size: 454228
-MD5sum: 45c3d0264b12851bfca673146699d324
-SHA1: f291f7fe620a2347023295552983611d4e3f1059
-SHA256: f24d226c08188ed8b03c4873ae4254efc1eeb5028858aa91b40dcf2e39b99fc5
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-si_31.2.0-1~deb7u1_all.deb
+Size: 470974
+MD5sum: 2124a740f5cbcbfcd242b22bb795e8f6
+SHA1: cbc18d8ec268fdce567467bdfb83a3a52dcf6081
+SHA256: b4a59f69587c697e1eeecd1fd2e907e6592ae5308f245b5654cf585a3691b730
 
 Package: icedove-l10n-sk
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 494
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 506
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Slovak language package for Icedove
 Description-md5: 26e01199533b84342e0f8c1253d9ec32
 Recommends: myspell-sk
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sk_24.3.0-1~deb7u1_all.deb
-Size: 381870
-MD5sum: d4927b48e6f9a1454712c6832e3bf9dc
-SHA1: 3cb6f5831407a1556072479aa9972df89dd3726f
-SHA256: 83289668170119eb2b61e7fdf2c5d2fe673b420b08b4dbcc1c85ffdf0183c532
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sk_31.2.0-1~deb7u1_all.deb
+Size: 393558
+MD5sum: 00ea1d0b352e01ba4a31e634e06173de
+SHA1: 8c6a13c090becd7ccccb3859f0508aa8cfb727b4
+SHA256: 5359f7dc50593f703dbb46c4e573f949d92f4f4be1d9f8718666b6ced811f6e0
 
 Package: icedove-l10n-sl
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 476
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 487
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Slovenian language package for Icedove
 Description-md5: eded4df0a1c006c06c8a9844fc590d86
 Recommends: myspell-sl
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sl_24.3.0-1~deb7u1_all.deb
-Size: 363570
-MD5sum: 131b2c1fe2919641c9a4b069b0dc125f
-SHA1: d4dc7d23b6076a18082c89cd060fbd4f19e9cc7b
-SHA256: aefa9e5895d5a09593bd5fd83e549197b150b46e1af8c13d11bbc7f0713b1518
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sl_31.2.0-1~deb7u1_all.deb
+Size: 374188
+MD5sum: cbd006ca29faf0c8151382550a01a856
+SHA1: c9fc8a252c460316b23fde76a6e803acdc7d3cda
+SHA256: 5ab91c40280f8d587389cb25df63ec215356c88cbefa342818c996948be0c0d1
 
 Package: icedove-l10n-sq
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 489
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 508
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Albanian language package for Icedove
 Description-md5: 18957b9413653325c3f3e22b079fbed8
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sq_24.3.0-1~deb7u1_all.deb
-Size: 377712
-MD5sum: 04a137cb8e92566147216cf5bb2bdcd1
-SHA1: 2204d092479583e1513f32e9f05bc7f7d38075a1
-SHA256: c2dd8f74db5b1c2a4ef5e0e319276b8174bcba7bc571cb587e6b8c13728f1489
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sq_31.2.0-1~deb7u1_all.deb
+Size: 396542
+MD5sum: c66696427b8b67bc5fa5b8593734b961
+SHA1: 096b9986ccfb89720fbed47c6f21fd1215885028
+SHA256: cfd7b1e146aa73f40417bce4d14d00d6294e04675ee2deb32fb77e18dae87a8d
 
 Package: icedove-l10n-sr
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 571
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 589
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Serbian language package for Icedove
 Description-md5: 517ffd544f384aba431d5b43b07f44c3
 Recommends: hunspell-se
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sr_24.3.0-1~deb7u1_all.deb
-Size: 461744
-MD5sum: 3fc6fdb3b1d30c9395d24bd0397e4783
-SHA1: 2c9bc896cd535c2b27da6788b49f30b2bac5f9ad
-SHA256: 0fa249800a297564df181a41c6cedc55d0635a7e591c08972b0bf323317453f2
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sr_31.2.0-1~deb7u1_all.deb
+Size: 479390
+MD5sum: b97aeb01bfa81b6851ce63ad53a2077d
+SHA1: 468610f72ca065cb944da519df4688414a5440ae
+SHA256: 8c5b879a64286d88842267c9fbc835c5a0c3964a21f42505ab2854ed482e572a
 
 Package: icedove-l10n-sv-se
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 478
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 490
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Swedish (Sweden) language package for Icedove
 Description-md5: a86240ee4025776d71ef7e02d27d90c3
 Recommends: myspell-sv-se
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sv-se_24.3.0-1~deb7u1_all.deb
-Size: 360840
-MD5sum: 6b2cab0477bb725a4bd3db70fe8268c1
-SHA1: 3192a97ec3b0110a681b3e1783e2256a42cef221
-SHA256: 98a4757fb11153b43e9310463749268b9dcc41fdc45b04546f7b36eaafefdabe
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-sv-se_31.2.0-1~deb7u1_all.deb
+Size: 371706
+MD5sum: 26c01f9e34dea71e4bed498ced9f1eb2
+SHA1: b5a3a0b2669b4d37c4a6819a3bf0ebaf6c559972
+SHA256: 3b1aeaf1508fb89ead3a11f9308029f5e4cdfca2deb4689fee0219bfc4289796
 
 Package: icedove-l10n-ta-lk
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 588
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 606
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Tamil language package for Icedove
 Description-md5: 5e3fd98b870402c2ff5ce8d5d1de17a9
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ta-lk_24.3.0-1~deb7u1_all.deb
-Size: 474606
-MD5sum: 930e07bc3413466678213b387d0c9b90
-SHA1: e2bf7b29d2cf620963364833fc33e9618df67b8c
-SHA256: 1403e6fcfb977a03ae054ecd73be0b8fe2b3d41df3c57c3d885586a497cee53b
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-ta-lk_31.2.0-1~deb7u1_all.deb
+Size: 491956
+MD5sum: 83f7531c213e82f08a786f078012ff1c
+SHA1: 2d92a5257c5cefb188dac6f0d0e3889e68b57c35
+SHA256: bb74028898203eb27dd529b8f1d7bd10dd48918105172c4653c66bcb8c87d285
 
 Package: icedove-l10n-tr
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 492
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 510
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Turkish language package for Icedove
 Description-md5: c18c29696c624a0ce41c0f7bf091ec76
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-tr_24.3.0-1~deb7u1_all.deb
-Size: 379874
-MD5sum: d82a42f589d68bfa0940dd63068efc62
-SHA1: 5d0421c645029dd2e66ce67d6a5e5404a5e04b73
-SHA256: f718169f12f8d796d71afb6e45e02f397781b49fa5f7df275e24c3bb0ddc1b35
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-tr_31.2.0-1~deb7u1_all.deb
+Size: 398416
+MD5sum: 8fda8a298fefc6b3d1ae4b7c1b34e236
+SHA1: 464443273eb05f2079cd2ace0b4036d2df354065
+SHA256: 155497ef1237663a0e20664a24423dd28acfb2639338c1bc87fb8359152b527e
 
 Package: icedove-l10n-uk
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 534
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 552
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Ukrainian language package for Icedove
 Description-md5: 3b72df78d59f61c2e958326cfff88c5a
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-uk_24.3.0-1~deb7u1_all.deb
-Size: 422856
-MD5sum: 4ea8e932a6325c479f8feafcf19aae9a
-SHA1: d41384c1f1e168a70e332c831d8f18be50cda9fe
-SHA256: a778326d410eb0dbbbb26a42db69d74dd590cde8b8f4303716ac01ea8a39de57
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-uk_31.2.0-1~deb7u1_all.deb
+Size: 441000
+MD5sum: c85c17d0dc04ea6faf8c4d01523ff101
+SHA1: ac08d68b77ffc6e797402262118aacc2707b3bfd
+SHA256: 808e1f6fcda293fe31c94542ccaa68da8a6d57a59fea1a4d57b82f93d9965d45
 
 Package: icedove-l10n-vi
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 548
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 566
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Vietnamese language package for Icedove
 Description-md5: 470d0671dde933aa1a204b0bc41c04b0
 Recommends: hunspell-vi
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-vi_24.3.0-1~deb7u1_all.deb
-Size: 438292
-MD5sum: 9b8756d1a03ac22a9ea423cc527f7d8a
-SHA1: 1bf62ef3d9449110f7a7e07592baf89447b91a16
-SHA256: 208178e810003201b8a5ac5888d009ae45371ed30d73fb0154472e0b2fa89ff8
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-vi_31.2.0-1~deb7u1_all.deb
+Size: 455488
+MD5sum: e6b55adf5b56acde652a955d5c44bc7c
+SHA1: 23f3d1fd2b6fc792076601869c5548cbf3426033
+SHA256: 9bed31b6dcbab13f01f887c621ab9cd9fc22a0201b111f0fdae9283031eb7d53
 
 Package: icedove-l10n-zh-cn
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 503
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 516
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Chinese (China) language package for Icedove
 Description-md5: b1c21e834eb304824894698a9169cd28
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-zh-cn_24.3.0-1~deb7u1_all.deb
-Size: 386124
-MD5sum: 5081ec1da28647c576c30a062b807c51
-SHA1: ee1f3f9911c3455ddea901e87cfd62ea56f71046
-SHA256: 90f9d1dac16f248540088e8be372047e85b6101d0fdc00bdb1ab4a026fc42cab
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-zh-cn_31.2.0-1~deb7u1_all.deb
+Size: 398492
+MD5sum: a7667febb98f39dfe041959c329bc1f8
+SHA1: 0e50cf90ce6d9dbe7860d0a5d4e60050380268d0
+SHA256: c04c706ea90d699a996a471ce38cc0d3bd2a8cfb6298dffa3149d8114adce9bc
 
 Package: icedove-l10n-zh-tw
 Source: icedove-l10n
-Version: 1:24.3.0-1~deb7u1
-Installed-Size: 504
+Version: 1:31.2.0-1~deb7u1
+Installed-Size: 517
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
-Depends: icedove (>= 24.3.0), icedove (<< 25)
+Depends: icedove (>= 31.2.0), icedove (<< 32)
 Description: Chinese (Taiwan) language package for Icedove
 Description-md5: 7d11915259b3063d8637663a10cb3eec
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-zh-tw_24.3.0-1~deb7u1_all.deb
-Size: 386494
-MD5sum: 32e97d4cd41992a6b997c9a13bff3919
-SHA1: d8f8ec46d6aa1905eaf01fc91730a18baad0b555
-SHA256: b075a02acf7d79b6d4f40687833f5c13485a6e0fbac96799b034ea6875d15156
+Filename: pool/updates/main/i/icedove-l10n/icedove-l10n-zh-tw_31.2.0-1~deb7u1_all.deb
+Size: 399274
+MD5sum: ff5a93f680b077b3e57e80f93e917f19
+SHA1: 1d91effcc7bf4401892974724b7b87d54cf56490
+SHA256: ae899bac37069819f33ce91832142259bf4952bb2d890bbfebdcb965dd9a1e6e
 
 Package: icedtea-6-plugin
 Source: icedtea-web
@@ -14941,8 +14942,8 @@ SHA256: 071dfa6fc81de5f6b74f5834f0e0c6cc85c31f5dcd4195fd5e54bf20fd09aa69
 
 Package: linux-doc-3.2
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 23549
+Version: 3.2.63-2+deb7u1
+Installed-Size: 23550
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Description: Linux kernel specific documentation for version 3.2
@@ -14950,118 +14951,118 @@ Description-md5: 9d0588de7683f536dc67ac15b80e62ae
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.60-1+deb7u3_all.deb
-Size: 6435420
-MD5sum: 20aa1b0309134c308aee48d6a259116a
-SHA1: fc6aa18673028b730d191e7a101e1685a008405d
-SHA256: 61cd5157925448f37334311d192255f34b51197d73737598854190f27688a651
+Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.63-2+deb7u1_all.deb
+Size: 6429784
+MD5sum: 5fba6d743b7ab880281c094bf452b033
+SHA1: f536d65fce517e2001b39da4c10a5784c0364835
+SHA256: a21eabcafbcc5f2303aca0df80ffdc9b475ca645d0c68cfce3f997dbdcc630f0
 
 Package: linux-headers-3.2.0-4-all
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 213
+Version: 3.2.63-2+deb7u1
+Installed-Size: 218
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-headers-3.2.0-4-all-amd64 (= 3.2.60-1+deb7u3)
+Depends: linux-headers-3.2.0-4-all-amd64 (= 3.2.63-2+deb7u1)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.60-1+deb7u3_amd64.deb
-Size: 218404
-MD5sum: 88c7de4d19d53543e125011d79deb6f1
-SHA1: 1a1fd5640b4607f03a29c25064c91de1201248b1
-SHA256: e40bddabbe222f060e69351d6125627abc59db51cbd938c5479e87c849026985
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.63-2+deb7u1_amd64.deb
+Size: 223086
+MD5sum: f995457e19dc53a247f302b7d5be9bf7
+SHA1: d893ec32fc9b327b459b25862c9ddb488760e2f7
+SHA256: 165dd69aef57269e3d0e16dbff95ce0b5ce0850e94b0ee7db1ff6bfdf3b0ea5e
 
 Package: linux-headers-3.2.0-4-all-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 213
+Version: 3.2.63-2+deb7u1
+Installed-Size: 218
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-headers-3.2.0-4-amd64 (= 3.2.60-1+deb7u3), linux-headers-3.2.0-4-rt-amd64 (= 3.2.60-1+deb7u3)
+Depends: linux-headers-3.2.0-4-amd64 (= 3.2.63-2+deb7u1), linux-headers-3.2.0-4-rt-amd64 (= 3.2.63-2+deb7u1)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 218418
-MD5sum: 5d321b2dbd0305a563c10afa0429df85
-SHA1: e21fca222a871893b62ca5e733097039d289e2b1
-SHA256: 292f9c4f98d05e75f323f8aafe230c967ae829c872b755a470ed6f21deebbb77
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 223096
+MD5sum: c0bada84d6331e6aae2a5c5aeebf741a
+SHA1: 568314e5a60bb7ea21aeaab5f35e7c710ab651f6
+SHA256: 9c4b01f94411368d4a16ea5e6fcb308824f49e48d49de2b5bc29e214ad45c04f
 
 Package: linux-headers-3.2.0-4-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 2645
+Version: 3.2.63-2+deb7u1
+Installed-Size: 2650
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common (= 3.2.60-1+deb7u3), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common (= 3.2.63-2+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-amd64
 Description-md5: fe94eb6b59de35294465939a68e4f856
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 618098
-MD5sum: a0889701e76a9880860119b8bba67038
-SHA1: e5152a4256996b3be7eae1d341f5158f5d48cee6
-SHA256: 9cf0939c7ee45c67df02794bf9e78350d728005f57dc4f0650e26b3cc8ed450b
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 622780
+MD5sum: 5a5e805b5dfdb12d9ed6dc726b032c81
+SHA1: cfa22710199af480d8201787484fb4b70a681dde
+SHA256: 2221e289b757759f5d7f80064131f57a11117c8766ee8c99d2e6b5a5d09a0a29
 
 Package: linux-headers-3.2.0-4-common
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 17183
+Version: 3.2.63-2+deb7u1
+Installed-Size: 17190
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Description: Common header files for Linux 3.2.0-4
 Description-md5: f56cc30cc35383027484d37eb0066029
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.60-1+deb7u3_amd64.deb
-Size: 3581456
-MD5sum: 4ab169af43237532d0208690be58a1f9
-SHA1: 9505a1a1e829cf37a1e46d624814cea76725152a
-SHA256: 2a86050ab8b8aec9ad9e9f2526552e26ddba6310cb5f0421b0440c7053fc3e17
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.63-2+deb7u1_amd64.deb
+Size: 3586252
+MD5sum: 13e52f76b5518cf30a9f846b67d0fbe1
+SHA1: e67ff58a6824a452407f32103851fb838c2e800d
+SHA256: 19f64b13c20ffc0564581a597bdb86e06e103041c1e6f34af2566c34eb71e1a9
 
 Package: linux-headers-3.2.0-4-common-rt
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 17233
+Version: 3.2.63-2+deb7u1
+Installed-Size: 17240
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Description: Common header files for Linux 3.2.0-4-rt
 Description-md5: 9c3f511c4bc9ffb18b416cc8e4b8da4a
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.60-1+deb7u3_amd64.deb
-Size: 3585940
-MD5sum: 291e6c56ee530949afe3b058b9e6689e
-SHA1: ff5c0266eeb03df19edc7eae107c7410458ba1ef
-SHA256: 44416424c8321eebfe185d67e9535f05f74ebed810ce47c17a50c256cde99275
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.63-2+deb7u1_amd64.deb
+Size: 3590884
+MD5sum: c7607584d6369702423aed094c7dcd25
+SHA1: fe622554202c15c1c1b61aeebbe11a332febf5fe
+SHA256: 4878a00f56ab9e999911b3971725af4c768e4887bad509c95aa5089cc38fa793
 
 Package: linux-headers-3.2.0-4-rt-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 2653
+Version: 3.2.63-2+deb7u1
+Installed-Size: 2658
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common-rt (= 3.2.60-1+deb7u3), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common-rt (= 3.2.63-2+deb7u1), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-rt-amd64
 Description-md5: 306553a73213037f93341d07c615b0a7
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 618382
-MD5sum: 2544aff37cd0f998c9af034c85ce60cf
-SHA1: b8a491786a6dd2542092ad3139cfdf2347a138da
-SHA256: 067cc051e2478d5fe8ae2751054b5fe722c999bc105169234c8c3c41a4fb524d
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 623682
+MD5sum: f47d2a5727b78ce0abf524c846332161
+SHA1: 8cc87aa242860f2dff0034ef1d076612a3e2915e
+SHA256: 9f4382a4ee33277914dd2c38f2258c40eb41a85c9e74b64680b2937febb1d43f
 
 Package: linux-image-3.2.0-4-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 103335
+Version: 3.2.63-2+deb7u1
+Installed-Size: 103360
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-image, linux-modules-3.2.0-4-amd64
@@ -15074,16 +15075,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 23416520
-MD5sum: 0acc405e52cad21f9587e7790d1da20b
-SHA1: 352296cf1378211dc38f3571eae42289e3e0552f
-SHA256: 0e6e5185d996f573508d51b74f56e33f88d28f886582b22fb3247e1a92c68413
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 23436524
+MD5sum: 957a6c2c05b26cd60d49239350cb40ef
+SHA1: 2301dff42e42e4dd5dd0c234dbbc674fe1818a89
+SHA256: ce2db36830cfdaecf5b7ba1fd51d5dec9f1cdc0edf999a65a36703c015523f00
 
 Package: linux-image-3.2.0-4-amd64-dbg
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 1816509
+Version: 3.2.63-2+deb7u1
+Installed-Size: 1740880
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Depends: linux-image-3.2.0-4-amd64
@@ -15091,16 +15092,16 @@ Description: Debugging symbols for Linux 3.2.0-4-amd64
 Description-md5: 61fb0dc17e37158668c778cfad6f1b15
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64-dbg_3.2.60-1+deb7u3_amd64.deb
-Size: 254996516
-MD5sum: 7d7df2d1871886a15a7f39b4bd57d70e
-SHA1: 190a6008a5566887534613dd8d916ed8328a62db
-SHA256: 1cadb069f84b2df7fc76a747ecfc4870560a86dfe081c1af78cfe57662263a99
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64-dbg_3.2.63-2+deb7u1_amd64.deb
+Size: 245981140
+MD5sum: 47f9633fcedd808ce15c85557e0d3d0d
+SHA1: 8b24d1dcfff9fb98fc771258e70ec1d60ad22fd8
+SHA256: 9a30f101e417f9fdeba6fac505ce68ffbb8a15df5999f0a749e4bce9f6261c84
 
 Package: linux-image-3.2.0-4-rt-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 106220
+Version: 3.2.63-2+deb7u1
+Installed-Size: 106245
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-image, linux-modules-3.2.0-4-rt-amd64
@@ -15113,16 +15114,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 23703146
-MD5sum: 44d09c598e3b2f4d823a9984e9728354
-SHA1: 2d396cff41cfff40dcf6cb3c65526e191e86db3b
-SHA256: a6598b58aba69f2e4d9c86c950813b8cf9bc9b2401e25dd43e64e8327fc7b2a7
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 23713552
+MD5sum: ffdcddcebb48261c2227928e93ab633b
+SHA1: be1c1daaed6f19f0f2c0c6f83eaa7e4cff425220
+SHA256: 9f2f5a7a7ed6fe33eace96ff7e346cb402c19ebdfd64c1e0a8022e6dadc324db
 
 Package: linux-image-3.2.0-4-rt-amd64-dbg
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 1814191
+Version: 3.2.63-2+deb7u1
+Installed-Size: 1742708
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Depends: linux-image-3.2.0-4-rt-amd64
@@ -15130,16 +15131,16 @@ Description: Debugging symbols for Linux 3.2.0-4-rt-amd64
 Description-md5: a7f670736bf83489793f72cf4a1884f4
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64-dbg_3.2.60-1+deb7u3_amd64.deb
-Size: 253362458
-MD5sum: e08c5b28d1cfb7278450a44f7b914157
-SHA1: 3fb4692598e6a892f7c699226a90a7823d41e6fd
-SHA256: 47c01a0aa49693002ae1bbd8b8281473a864a7a1500507c091f40c0f0845b7a3
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64-dbg_3.2.63-2+deb7u1_amd64.deb
+Size: 244935524
+MD5sum: 58ea93d63eb94b93edf3afb133a685ce
+SHA1: 80f106796fe1a5152f7753a7a40ec064b278c59e
+SHA256: 1437807aa72b2176d2bd8a2a7be8f3b0320f1580f89b23417421d7a2325bef31
 
 Package: linux-libc-dev
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 2796
+Version: 3.2.63-2+deb7u1
+Installed-Size: 2801
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Replaces: linux-kernel-headers
@@ -15150,16 +15151,16 @@ Description-md5: f310daf8fb891639ee6eeeb4020a7c13
 Multi-Arch: same
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.60-1+deb7u3_amd64.deb
-Size: 826494
-MD5sum: 332f300283d8844a5a5ec1419a7e9998
-SHA1: c025abdd1acdb7268cc2e32434555169b322a7c4
-SHA256: 32ce2bc430ec4a1d6de1f02a869b0ada5912bec55b6b5f584caf8dae1a3fead9
+Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.63-2+deb7u1_amd64.deb
+Size: 831140
+MD5sum: 3cf6db8be55bb501b849ad7b857f329e
+SHA1: fb21a64cfe87d15a3beb6a58eadbcd30720aa96f
+SHA256: 9773345121e7ecbaf452634274aecca9adb9265aedab6f5acbd7f42c99cf8db5
 
 Package: linux-manual-3.2
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 3263
+Version: 3.2.63-2+deb7u1
+Installed-Size: 3261
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Replaces: linux-manual
@@ -15170,16 +15171,16 @@ Description-md5: 6d4c33116b6fa28acef9783d3bbd6ea9
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.60-1+deb7u3_all.deb
-Size: 2970888
-MD5sum: 17967ada0feddcaa2a6981aedca83ff3
-SHA1: 37dad68c6b392bf6a1558b1a780010cf33f626fd
-SHA256: 901695bcf60fec1a0c917ae38d4d5747f8c5f547be07a586401211bed1f51085
+Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.63-2+deb7u1_all.deb
+Size: 2965396
+MD5sum: 74a3b4bc7a914b1a3a3fcdc298329a66
+SHA1: a73bc405a724c510f1efaedc4b72c15631503f34
+SHA256: c1f917c85b2fd435a99690348bb4ed722eb4005f97108bb8f59ddae8f2c73380
 
 Package: linux-source-3.2
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 75781
+Version: 3.2.63-2+deb7u1
+Installed-Size: 75733
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Provides: linux-source
@@ -15191,16 +15192,16 @@ Multi-Arch: foreign
 Recommends: libc6-dev | libc-dev, gcc, make
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.60-1+deb7u3_all.deb
-Size: 77534260
-MD5sum: 7813b024a6f67ee3f10b689bac511eff
-SHA1: 0541248942bf2daf76c04d27983fd578e6402e1e
-SHA256: 7aee5c976a49c0fdf4aa7c3218553857678502c9f430dba6f0e59304b56697bc
+Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.63-2+deb7u1_all.deb
+Size: 77485764
+MD5sum: 7f5d61956fe7539fc90124f549004935
+SHA1: 14df882b009599e5ca877c9ced5e6b6a96c37d46
+SHA256: ac3aa2a63a52ef14a069162b9bf6b1dbad33cd27cd4e7e54cc821f6df1b2004a
 
 Package: linux-support-3.2.0-4
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 335
+Version: 3.2.63-2+deb7u1
+Installed-Size: 339
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Depends: python (>= 2.6.6-7~)
@@ -15209,28 +15210,28 @@ Description-md5: d281db896aa88c6dbb13d747cdb40db2
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.60-1+deb7u3_all.deb
-Size: 234798
-MD5sum: ea84a15b85d0617b11d21036c0be06b1
-SHA1: 8028996e55a4ef9c276dc29824bb116d67de9c5e
-SHA256: 81fc62f6d0780b2952d619f1647bbcdd80d29c37b878d0344b047c378e21a139
+Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.63-2+deb7u1_all.deb
+Size: 239500
+MD5sum: d9b3945dc6b3a3b4e4b9a21e5b8e4ae6
+SHA1: 4f5a94f0c041ea26ac54cea04e172fe2fcbc008a
+SHA256: d311299810c101bedf5418b415d26091a55a5779c690d157e29ec474577f0265
 
 Package: xen-linux-system-3.2.0-4-amd64
 Source: linux
-Version: 3.2.60-1+deb7u3
-Installed-Size: 213
+Version: 3.2.63-2+deb7u1
+Installed-Size: 218
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-image-3.2.0-4-amd64 (= 3.2.60-1+deb7u3), xen-system-amd64
+Depends: linux-image-3.2.0-4-amd64 (= 3.2.63-2+deb7u1), xen-system-amd64
 Description: Xen system with Linux 3.2 on 64-bit PCs (meta-package)
 Description-md5: 418c015fc0380f08f5de8b1abd0e2969
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.60-1+deb7u3_amd64.deb
-Size: 218388
-MD5sum: a41dcbdbc0776d3759edd833a260024f
-SHA1: 7ff7fa8f543265fd870d5e77575bd23dcacb82d3
-SHA256: 11d6a402f0b8942cad70447d233eae4d592fb3033ed4ce32cfd8a5dd34beafed
+Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
+Size: 223064
+MD5sum: 7db7bda1b5ffddbfd304d33f6d85c9d2
+SHA1: 1c40e7d01cab47065855fb5fc9e229551ef8f4c8
+SHA256: ba1179e8911482129d8adb65421de4c0e548c5d01e2b08bd3cff0cd26e52cdfc
 
 Package: liblua5.1-expat-dev
 Source: lua-expat
