@@ -10763,6 +10763,40 @@ Directory: pool/updates/main/q/quagga
 Priority: source
 Section: net
 
+Package: quassel
+Binary: quassel-core, quassel-client, quassel, quassel-data, quassel-client-kde4, quassel-kde4, quassel-data-kde4
+Version: 0.8.0-1+deb7u3
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Build-Depends: debhelper (>= 7.0.50~), libqt4-dev, cmake, libfontconfig1-dev, libfreetype6-dev, libpng-dev, libsm-dev, libice-dev, libxi-dev, libxrandr-dev, libxrender-dev, zlib1g-dev, libssl-dev, libdbus-1-dev, pkg-kde-tools, kdelibs5-dev, libqca2-dev, qt4-dev-tools, libqtwebkit-dev, libindicate-qt-dev, libdbusmenu-qt-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 97cabb01c3ebc933cfe56f286db5f24f 2347 quassel_0.8.0-1+deb7u3.dsc
+ 546e2a950f44c4c0262c09d48f14e998 2663465 quassel_0.8.0.orig.tar.bz2
+ 2593832712a00e658b9c9027f9f1bbc2 19739 quassel_0.8.0-1+deb7u3.debian.tar.gz
+Checksums-Sha1:
+ 6a8edeed9893f85f8bb8d7facce015f51c912cc3 2347 quassel_0.8.0-1+deb7u3.dsc
+ b74967fa9f19b5d7c708279075cc0ef3a3dbbe8b 2663465 quassel_0.8.0.orig.tar.bz2
+ 13abdf229f1fe027776a22614b6437d2614965dd 19739 quassel_0.8.0-1+deb7u3.debian.tar.gz
+Checksums-Sha256:
+ 3c89ef81e3002b1806ee7e97524a09102cc2f240624f1b0143ddd9691823bc82 2347 quassel_0.8.0-1+deb7u3.dsc
+ a3515bd18e2b100eb9a72480e76b1faefaa5e84cdb236b6af1f05b477a1e9071 2663465 quassel_0.8.0.orig.tar.bz2
+ e9bf33f7e37fc448ef24509174874206992789d69c32772901531f69d5166484 19739 quassel_0.8.0-1+deb7u3.debian.tar.gz
+Homepage: http://www.quassel-irc.org
+Dm-Upload-Allowed: yes
+Package-List: 
+ quassel deb net optional
+ quassel-client deb net optional
+ quassel-client-kde4 deb net optional
+ quassel-core deb net optional
+ quassel-data deb net optional
+ quassel-data-kde4 deb net optional
+ quassel-kde4 deb net optional
+Directory: pool/updates/main/q/quassel
+Priority: source
+Section: net
+
 Package: reportbug
 Binary: reportbug, python-reportbug
 Version: 6.4.4+deb7u1
@@ -12197,6 +12231,33 @@ Package-List:
 Directory: pool/updates/main/v/vlc
 Priority: source
 Section: graphics
+
+Package: wget
+Binary: wget
+Version: 1.13.4-3+deb7u2
+Maintainer: Noël Köthe <noel@debian.org>
+Build-Depends: debhelper (>> 5.0.0), gettext, texinfo, libgnutls-dev, autotools-dev, libidn11-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 488661697697d7a5624d503df047ec0d 1754 wget_1.13.4-3+deb7u2.dsc
+ 1df489976a118b9cbe1b03502adbfc27 2815185 wget_1.13.4.orig.tar.gz
+ 7e62afc54ce4db48da68c9204081116f 25405 wget_1.13.4-3+deb7u2.debian.tar.gz
+Checksums-Sha1:
+ efdf939f4764e85fac468d3bb931cafe8bd797fb 1754 wget_1.13.4-3+deb7u2.dsc
+ e25e1b487026ddd9026ca7d26af21f044c884d28 2815185 wget_1.13.4.orig.tar.gz
+ 881086ffa767edae77ebc480fd7550f57e7a56cf 25405 wget_1.13.4-3+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 15405a84e1cacb1d8135777a4aa2b6dd8430b176e964c631c99b11be2fed841a 1754 wget_1.13.4-3+deb7u2.dsc
+ 24c7710bc9f220ce23d8a9e0f5673b0efc1cace62db6de0239b5863ecc934dcd 2815185 wget_1.13.4.orig.tar.gz
+ c6e4cfe876ac8e453d92a0ffb39af4a1af04254d5c95667371b283279020911c 25405 wget_1.13.4-3+deb7u2.debian.tar.gz
+Homepage: http://www.gnu.org/software/wget/
+Package-List: 
+ wget deb web important
+Directory: pool/updates/main/w/wget
+Priority: source
+Section: web
 
 Package: wireshark
 Binary: wireshark-common, wireshark, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark2, libwsutil2, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap2, libwiretap-dev

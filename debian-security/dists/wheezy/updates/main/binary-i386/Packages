@@ -22209,6 +22209,138 @@ MD5sum: b9972e2d123a2d9c225bfcca63573c2a
 SHA1: b5ac416e25f732b77ec1ada0cebac5f2fecdffa7
 SHA256: fc9dd49c9d755e01ad96688e45815883d822b6baaa1a7460185bea1292d61b89
 
+Package: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 5950
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: i386
+Depends: libc6 (>= 2.3.6-6~), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libindicate-qt1 (>= 0.2.5), libphonon4 (>= 4:4.2.0), libqca2 (>= 2.0.2), libqt4-dbus (>= 4:4.6.1), libqt4-network (>= 4:4.5.3), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-xmlpatterns (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libstdc++6 (>= 4.4.0), phonon, libqt4-sql-sqlite, quassel-data (= 0.8.0-1+deb7u3), dbus-x11, gawk
+Conflicts: quassel-kde4
+Description: distributed IRC client - Qt-based monolithic core+client
+Homepage: http://www.quassel-irc.org
+Description-md5: 895fde5962f3c5e85f45a82407dfbbd9
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel_0.8.0-1+deb7u3_i386.deb
+Size: 3070192
+MD5sum: 437b7542061c86e2b1d846b33370cc8e
+SHA1: be7bb63a9a3748b5513ce4f43299ab046a3dcc49
+SHA256: 4203f118c36d05837ffeb1c309ffee8391cdcb894ba2ab968ef7ffad52b1f267
+
+Package: quassel-client
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 4723
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: i386
+Replaces: quassel (<< 0.3.1-1)
+Depends: libc6 (>= 2.3.6-6~), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libindicate-qt1 (>= 0.2.5), libphonon4 (>= 4:4.2.0), libqt4-dbus (>= 4:4.6.1), libqt4-network (>= 4:4.5.3), libqt4-xmlpatterns (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libstdc++6 (>= 4.4.0), phonon, quassel-data (= 0.8.0-1+deb7u3), dbus-x11, gawk
+Conflicts: quassel (<< 0.3.1-1), quassel-client-kde4
+Description: distributed IRC client - Qt-based client component
+Homepage: http://www.quassel-irc.org
+Description-md5: c79fd37117c43fe28c16016957a03419
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-client_0.8.0-1+deb7u3_i386.deb
+Size: 2581686
+MD5sum: b0e0db952bf786aaff4fd68e73776526
+SHA1: f5ea6e1477e3ce136f37c155b5048cf24d6aa1ce
+SHA256: 6056eb441e1e1c9f327ada4d267fb0ce6eafe99f6cc26088b035a1998f68fd76
+
+Package: quassel-client-kde4
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 2347
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: i386
+Depends: kde-runtime, libc6 (>= 2.3.6-6~), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libindicate-qt1 (>= 0.2.5), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.4.0), libknotifyconfig4 (>= 4:4.3.4), libqt4-dbus (>= 4:4.6.1), libqt4-network (>= 4:4.5.3), libqt4-svg (>= 4:4.5.3), libqt4-xmlpatterns (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libsolid4 (>= 4:4.3.4), libstdc++6 (>= 4.4.0), quassel-data-kde4 (= 0.8.0-1+deb7u3), dbus-x11, gawk
+Conflicts: quassel-client
+Description: distributed IRC client - KDE-based client
+Homepage: http://www.quassel-irc.org
+Description-md5: 3991931bd9619c6ed84800046c662f7f
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-client-kde4_0.8.0-1+deb7u3_i386.deb
+Size: 929624
+MD5sum: 87e48837ba2e740cea49774458360a71
+SHA1: ed6064cec825960e49e042761fa6b38d4c9452d8
+SHA256: 18681e35f0dc2f52742947a5ff45b31402b4d66e32a33218dadc17d8958676f1
+
+Package: quassel-core
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 2819
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: i386
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libqca2 (>= 2.0.2), libqt4-network (>= 4:4.5.3), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libstdc++6 (>= 4.4.0), adduser, libqt4-sql-sqlite, lsb-base (>= 3.2-14), openssl
+Description: distributed IRC client - core component
+Homepage: http://www.quassel-irc.org
+Description-md5: dc445da5529f886d5b9c5e6220e2cdd2
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-core_0.8.0-1+deb7u3_i386.deb
+Size: 1626296
+MD5sum: fb59afec24764059c18b05e5e0f19085
+SHA1: 85271674776e2e9db576bf24de1f630c567430e3
+SHA256: 3b819a3cc4508f9d97043df89ea9e7dbf9343269eac57d02340fb316911ae7f8
+
+Package: quassel-data
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 82
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: all
+Replaces: quassel (<< 0.3.1-1)
+Conflicts: quassel (<< 0.3.1-1), quassel-data-kde4
+Description: distributed IRC client - shared data (Qt version)
+Homepage: http://www.quassel-irc.org
+Description-md5: 87da8a88e17cea3d86bea739f2170836
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-data_0.8.0-1+deb7u3_all.deb
+Size: 19490
+MD5sum: 4944ce516e1d6227e22311bd40444d2b
+SHA1: 696ab808e6a1408b95b4e2a5bf2c0262275f8593
+SHA256: 0605834f71e631e7f4555b8a6af1ce852b79b3464b00dea95e18010cc088007c
+
+Package: quassel-data-kde4
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 3472
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: all
+Replaces: quassel (<< 0.3.1-1)
+Conflicts: quassel (<< 0.3.1-1), quassel-data
+Description: distributed IRC client - shared data (KDE4 version)
+Homepage: http://www.quassel-irc.org
+Description-md5: 006a5902d457988572bce6eb03676aa2
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-data-kde4_0.8.0-1+deb7u3_all.deb
+Size: 1047556
+MD5sum: cbefbedd79c71f578a0539f8a4caf62b
+SHA1: 9796b87ae6b6fae33f1822c2f1e90e7bb5073923
+SHA256: 050bbdcc3d4d21a6859b0af2d171b514f86546f1504654cdd2270d0c88f449a8
+
+Package: quassel-kde4
+Source: quassel
+Version: 0.8.0-1+deb7u3
+Installed-Size: 3152
+Maintainer: Thomas Mueller <thomas.mueller@tmit.eu>
+Architecture: i386
+Depends: kde-runtime, libc6 (>= 2.3.6-6~), libdbusmenu-qt2 (>= 0.3.2), libgcc1 (>= 1:4.1.1), libindicate-qt1 (>= 0.2.5), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.4.0), libknotifyconfig4 (>= 4:4.3.4), libqca2 (>= 2.0.2), libqt4-dbus (>= 4:4.6.1), libqt4-network (>= 4:4.5.3), libqt4-script (>= 4:4.5.3), libqt4-sql (>= 4:4.5.3), libqt4-svg (>= 4:4.5.3), libqt4-xmlpatterns (>= 4:4.5.3), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libqtwebkit4 (>= 2.1.0~2011week13), libsolid4 (>= 4:4.3.4), libstdc++6 (>= 4.4.0), libqt4-sql-sqlite, quassel-data-kde4 (= 0.8.0-1+deb7u3), dbus-x11, gawk
+Conflicts: quassel
+Description: distributed IRC client - KDE-based monolithic core+client
+Homepage: http://www.quassel-irc.org
+Description-md5: 431a062c3177397d15e80f06a81bf969
+Section: net
+Priority: optional
+Filename: pool/updates/main/q/quassel/quassel-kde4_0.8.0-1+deb7u3_i386.deb
+Size: 1211368
+MD5sum: 611f2603049f319bc59bbac204718dec
+SHA1: 028cfb7e180b80259bb409c359ec6948a3acd1b9
+SHA256: 6ff32695871e271b55f5e27069a6e47de0b8bd44ac7c71662db0d08112506e92
+
 Package: python-reportbug
 Source: reportbug
 Version: 6.4.4+deb7u1
@@ -26421,6 +26553,25 @@ Size: 8650
 MD5sum: 5c85ffb646cb1001595cdbeba0bb81f7
 SHA1: 5ff9c08e6fb8e27bfcba724738398e0872b3e922
 SHA256: cf5a8bde4aa15b49dbda17807fca342e9e21de34c72b0253b0e822eecc870a8c
+
+Package: wget
+Version: 1.13.4-3+deb7u2
+Installed-Size: 2171
+Maintainer: Noël Köthe <noel@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libgpg-error0 (>= 1.10), libidn11 (>= 1.13), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Conflicts: wget-ssl
+Description: retrieves files from the web
+Homepage: http://www.gnu.org/software/wget/
+Description-md5: 63a4a740bcd9e8e94bf661e4f1806e02
+Multi-Arch: foreign
+Section: web
+Priority: important
+Filename: pool/updates/main/w/wget/wget_1.13.4-3+deb7u2_i386.deb
+Size: 764326
+MD5sum: 8bf16fc1986e5ef03eb9ab62f8ac2092
+SHA1: ab3b793b0bcb1587169b25d4b34b4ecb9151e399
+SHA256: bcbbcf4da42d49ea039418656c213b1dd2c740e54128805aeb025e9a44b71368
 
 Package: libwireshark-data
 Source: wireshark
