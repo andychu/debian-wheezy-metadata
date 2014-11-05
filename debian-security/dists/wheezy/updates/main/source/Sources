@@ -4526,43 +4526,6 @@ Section: x11
 
 Package: libxml2
 Binary: libxml2, libxml2-utils, libxml2-utils-dbg, libxml2-dev, libxml2-dbg, libxml2-doc, python-libxml2, python-libxml2-dbg
-Version: 2.8.0+dfsg1-7+wheezy1
-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
-Build-Depends: debhelper (>= 9), perl, dh-autoreconf, autotools-dev, binutils (>= 2.14.90.0.7), python-all-dev (>= 2.6.6-3~), python-all-dbg, zlib1g-dev | libz-dev, liblzma-dev, libreadline-dev | libreadline6-dev
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 3.0 (quilt)
-Files:
- a98b103c7e4125746272d897fd79639b 2169 libxml2_2.8.0+dfsg1-7+wheezy1.dsc
- 008920f545a36da4eca363d0c1a0ffee 3554683 libxml2_2.8.0+dfsg1.orig.tar.gz
- 6d834b47be63790855a9f6c12c961094 38887 libxml2_2.8.0+dfsg1-7+wheezy1.debian.tar.gz
-Vcs-Browser: http://git.debian.org/?p=debian-xml-sgml/libxml2.git
-Vcs-Git: git://git.debian.org/debian-xml-sgml/libxml2.git
-Checksums-Sha1:
- c685e8e295d7ba1e127fd0500912ff98ce2c4753 2169 libxml2_2.8.0+dfsg1-7+wheezy1.dsc
- fcc1bca14d2c7dd73c71556cf0a223a73bd92305 3554683 libxml2_2.8.0+dfsg1.orig.tar.gz
- 1562b67bb4d51268344ef3e5e25981385918bff4 38887 libxml2_2.8.0+dfsg1-7+wheezy1.debian.tar.gz
-Checksums-Sha256:
- 2e47ce36091c9197cdd22d061131fbf3fd66734233e6749fef2c34fbaf290b99 2169 libxml2_2.8.0+dfsg1-7+wheezy1.dsc
- 46f339843967e861e81f8427373ff2a3d0a8cb608022dea16aa1d345ddcee338 3554683 libxml2_2.8.0+dfsg1.orig.tar.gz
- f223988c7616dcbf16124240023767af6098e2935af2691744d22e2f9e44e655 38887 libxml2_2.8.0+dfsg1-7+wheezy1.debian.tar.gz
-Homepage: http://xmlsoft.org/
-Package-List: 
- libxml2 deb libs standard
- libxml2-dbg deb debug extra
- libxml2-dev deb libdevel optional
- libxml2-doc deb doc optional
- libxml2-utils deb text optional
- libxml2-utils-dbg deb debug extra
- python-libxml2 deb python optional
- python-libxml2-dbg deb debug extra
-Directory: pool/updates/main/libx/libxml2
-Priority: source
-Section: libs
-
-Package: libxml2
-Binary: libxml2, libxml2-utils, libxml2-utils-dbg, libxml2-dev, libxml2-dbg, libxml2-doc, python-libxml2, python-libxml2-dbg
 Version: 2.8.0+dfsg1-7+wheezy2
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Uploaders: Aron Xu <aron@debian.org>, YunQiang Su <wzssyqa@gmail.com>
@@ -9544,40 +9507,6 @@ Section: net
 
 Package: openssl
 Binary: openssl, libssl1.0.0, libcrypto1.0.0-udeb, libssl-dev, libssl-doc, libssl1.0.0-dbg
-Version: 1.0.1e-2+deb7u12
-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
-Uploaders: Christoph Martin <christoph.martin@uni-mainz.de>, Kurt Roeckx <kurt@roeckx.be>
-Build-Depends: debhelper (>= 8.1.3), zlib1g-dev, m4, bc, dpkg-dev (>= 1.15.7)
-Architecture: any all
-Standards-Version: 3.8.0
-Format: 3.0 (quilt)
-Files:
- b3ccafd5a1e4e23ca371aca0288ef7ff 2218 openssl_1.0.1e-2+deb7u12.dsc
- 66bf6f10f060d561929de96f9dfe5b8c 4459777 openssl_1.0.1e.orig.tar.gz
- 6c1fd4e410c6da0154759747f70d459f 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-openssl/openssl
-Checksums-Sha1:
- 208225f91649008341fb4030e6b1e573484489ba 2218 openssl_1.0.1e-2+deb7u12.dsc
- 3f1b1223c9e8189bfe4e186d86449775bd903460 4459777 openssl_1.0.1e.orig.tar.gz
- df60b7ccc6b316328a92d948059b4344d5dd079a 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
-Checksums-Sha256:
- 1435435649b8d3bdf53fd4c9e28f4699e54f1e07d856dab72fec33228cec7015 2218 openssl_1.0.1e-2+deb7u12.dsc
- f74f15e8c8ff11aa3d5bb5f276d202ec18d7246e95f961db76054199c69c1ae3 4459777 openssl_1.0.1e.orig.tar.gz
- 0c2c7eeaa9986db1f573f46757832b0dc33e6680af3f7805f7fbf0ebf20e4758 119667 openssl_1.0.1e-2+deb7u12.debian.tar.gz
-Package-List: 
- libcrypto1.0.0-udeb udeb debian-installer optional
- libssl-dev deb libdevel optional
- libssl-doc deb doc optional
- libssl1.0.0 deb libs important
- libssl1.0.0-dbg deb debug extra
- openssl deb utils optional
-Vcs-Svn: svn://svn.debian.org/pkg-openssl/openssl/
-Directory: pool/updates/main/o/openssl
-Priority: source
-Section: libs
-
-Package: openssl
-Binary: openssl, libssl1.0.0, libcrypto1.0.0-udeb, libssl-dev, libssl-doc, libssl1.0.0-dbg
 Version: 1.0.1e-2+deb7u13
 Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
 Uploaders: Christoph Martin <christoph.martin@uni-mainz.de>, Kurt Roeckx <kurt@roeckx.be>
@@ -9783,6 +9712,68 @@ Checksums-Sha256:
  088527144a2b05689f7d98d31c3e470a374a94c45d8e292b8f8b3b9adbb4faad 4401 php5_5.4.4-14+deb7u14.dsc
  0404b517ff938aca2c445fd61d10467e275acb031607cb09bf678241ba205edf 14060505 php5_5.4.4.orig.tar.gz
  8940cb5794eba3b46462608e33ff1eccfe7bb729b3d68856ba8b0abe35968962 280053 php5_5.4.4-14+deb7u14.diff.gz
+Homepage: http://www.php.net/
+Build-Conflicts: bind-dev
+Package-List: 
+ libapache2-mod-php5 deb httpd optional
+ libapache2-mod-php5filter deb httpd extra
+ libphp5-embed deb php optional
+ php-pear deb php optional
+ php5 deb php optional
+ php5-cgi deb php optional
+ php5-cli deb php optional
+ php5-common deb php optional
+ php5-curl deb php optional
+ php5-dbg deb debug extra
+ php5-dev deb php optional
+ php5-enchant deb php optional
+ php5-fpm deb php optional
+ php5-gd deb php optional
+ php5-gmp deb php optional
+ php5-imap deb php optional
+ php5-interbase deb php optional
+ php5-intl deb php optional
+ php5-ldap deb php optional
+ php5-mcrypt deb php optional
+ php5-mysql deb php optional
+ php5-mysqlnd deb php extra
+ php5-odbc deb php optional
+ php5-pgsql deb php optional
+ php5-pspell deb php optional
+ php5-recode deb php optional
+ php5-snmp deb php optional
+ php5-sqlite deb php optional
+ php5-sybase deb php optional
+ php5-tidy deb php optional
+ php5-xmlrpc deb php optional
+ php5-xsl deb php optional
+Directory: pool/updates/main/p/php5
+Priority: source
+Section: web
+
+Package: php5
+Binary: php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl
+Version: 5.4.34-0+deb7u1
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Uploaders: Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>
+Build-Depends: apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ 5bda070b2057e0bb95414394eed2c37e 4530 php5_5.4.34-0+deb7u1.dsc
+ 718ce85dc1bca0c925a9013638be4ae9 15333397 php5_5.4.34.orig.tar.gz
+ 417b6aae2df83e62fade1cd26a8450c9 146232 php5_5.4.34-0+deb7u1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-php/php.git
+Vcs-Git: git://git.debian.org/pkg-php/php.git
+Checksums-Sha1:
+ ca146d7a20e52480e51fec3edf62440e1ca58c26 4530 php5_5.4.34-0+deb7u1.dsc
+ 31a420e622a5bf6e47331548f772a2a8334bca00 15333397 php5_5.4.34.orig.tar.gz
+ cbadad1b8562a31e0d524a2279a42e89a4317f02 146232 php5_5.4.34-0+deb7u1.diff.gz
+Checksums-Sha256:
+ f79d415b8cb454f3dfa1294f7e632e162930e1de776568d6e0d2c0ffe0ea8be2 4530 php5_5.4.34-0+deb7u1.dsc
+ c8d909062ad7616cedb54dc03d85b40d40f6d4adce986ec8cabd9b8b94872096 15333397 php5_5.4.34.orig.tar.gz
+ 0de9a55c6cbe73274a2884522ba814379e01a7d6a45ceb91169827dd7f48df9b 146232 php5_5.4.34-0+deb7u1.diff.gz
 Homepage: http://www.php.net/
 Build-Conflicts: bind-dev
 Package-List: 
@@ -12258,49 +12249,6 @@ Package-List:
 Directory: pool/updates/main/w/wget
 Priority: source
 Section: web
-
-Package: wireshark
-Binary: wireshark-common, wireshark, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark2, libwsutil2, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap2, libwiretap-dev
-Version: 1.8.2-5wheezy11
-Maintainer: Balint Reczey <balint@balintreczey.hu>
-Build-Depends: libgtk2.0-dev (>= 2.4.0-0), libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, automake, autoconf, autotools-dev, libc-ares-dev, xsltproc, docbook-xsl (>= 1.64.1.0-0), libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], bison, libgnutls-dev, portaudio19-dev, libkrb5-dev, liblua5.1-0-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~)
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 3.0 (quilt)
-Files:
- 92bcff7b24a1f587353b80c03562a475 2952 wireshark_1.8.2-5wheezy11.dsc
- 5e3ea7eed50dace479e12f49d24506f4 24121798 wireshark_1.8.2.orig.tar.bz2
- a782107e097fc62ece78640cfe69af52 125855 wireshark_1.8.2-5wheezy11.debian.tar.gz
-Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/ext-maint/wireshark/trunk/
-Checksums-Sha1:
- aa121448e01af7026b95166a111be66b50b8051e 2952 wireshark_1.8.2-5wheezy11.dsc
- 4737d9745dbf002444ea42615243abf3bb80b943 24121798 wireshark_1.8.2.orig.tar.bz2
- 07b530825c13e0c27f78ed88afd13ab1accf8256 125855 wireshark_1.8.2-5wheezy11.debian.tar.gz
-Checksums-Sha256:
- 3ddbe0e6b4dc9165f999a48eb48ccb9666e5538b0dc3d0d253050fe407970ee5 2952 wireshark_1.8.2-5wheezy11.dsc
- 3f0e688d889345033e0a7e4f36aea78248e5c7b32d0dfc19eac044188aac11cc 24121798 wireshark_1.8.2.orig.tar.bz2
- 6a8de5637c227935fea5a5f3b4d278097bc50cbb154041150f336c410f58a5f9 125855 wireshark_1.8.2-5wheezy11.debian.tar.gz
-Homepage: http://www.wireshark.org/
-Build-Conflicts: libsnmp-dev, libsnmp4.2-dev
-Dm-Upload-Allowed: yes
-Package-List: 
- libwireshark-data deb libs optional
- libwireshark-dev deb libdevel optional
- libwireshark2 deb libs optional
- libwiretap-dev deb libdevel optional
- libwiretap2 deb libs optional
- libwsutil-dev deb libdevel optional
- libwsutil2 deb libs optional
- tshark deb net optional
- wireshark deb net optional
- wireshark-common deb net optional
- wireshark-dbg deb debug extra
- wireshark-dev deb devel optional
- wireshark-doc deb doc extra
-Vcs-Svn: svn://svn.debian.org/svn/collab-maint/ext-maint/wireshark/trunk
-Directory: pool/updates/main/w/wireshark
-Priority: source
-Section: net
 
 Package: wireshark
 Binary: wireshark-common, wireshark, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark2, libwsutil2, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap2, libwiretap-dev
