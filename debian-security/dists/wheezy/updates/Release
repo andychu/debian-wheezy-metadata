@@ -3,8 +3,8 @@ Label: Debian-Security
 Suite: stable
 Version: 7.0
 Codename: wheezy
-Date: Wed, 05 Nov 2014 01:52:04 UTC
-Valid-Until: Sat, 15 Nov 2014 01:52:04 UTC
+Date: Thu, 06 Nov 2014 06:32:05 UTC
+Valid-Until: Sun, 16 Nov 2014 06:32:05 UTC
 Architectures: amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 Components: updates/main updates/contrib updates/non-free
 Description: Debian 7.0 Security Updates
@@ -127,9 +127,9 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e        0 contrib/source/Sources
  4059d198768f9f8dc9372dc1c54bc3c3       14 contrib/source/Sources.bz2
  4a4dd3598707603b3f76a2378a4504aa       20 contrib/source/Sources.gz
- 9388e9a145492d538f757faf8f13e689   548853 main/binary-all/Packages
- fcef922672bf34001deb1093a4b9567c   100880 main/binary-all/Packages.bz2
- 57f355b22946a7a5501ad32e9b7ee15e   120630 main/binary-all/Packages.gz
+ 79ddc226e14e030f0c74056753628076   539279 main/binary-all/Packages
+ 0801392072c94920b399d80b89706fd9    99195 main/binary-all/Packages.bz2
+ 016351ff8952fbb523d0852f058c3f4c   118839 main/binary-all/Packages.gz
  64c60b3e00ff791c06c56b7ff83dee7e       97 main/binary-all/Release
  5d548941cff2f5d8684a865b44bafc1a  1118379 main/binary-amd64/Packages
  5df7ec850102529488839f590cf1c328   220899 main/binary-amd64/Packages.bz2
@@ -147,17 +147,17 @@ MD5Sum:
  a2609b10aa93cfa0acc27decd2f81db4   223082 main/binary-i386/Packages.bz2
  01c7b00f1ef67260ff011e51ccc7787b   277431 main/binary-i386/Packages.gz
  eca792c2e6a9c6164a4bcd4745f6ccb8       98 main/binary-i386/Release
- 9916d5a14b0fd16a5ec9796258973ed7   992656 main/binary-ia64/Packages
- 7e8570b0364371b208fb36fa55316369   198681 main/binary-ia64/Packages.bz2
- 2c0093f5e67853a3ad0a270b65a6a0f3   250137 main/binary-ia64/Packages.gz
+ 03668d26ca004aba322680929190381a  1003930 main/binary-ia64/Packages
+ d198655d4694263bb3b146035c933246   201043 main/binary-ia64/Packages.bz2
+ 7465e39a3e7170c49e96e9d4554fba0b   252911 main/binary-ia64/Packages.gz
  13bfa23e54c559e4503d7df1c2b9c8ec       98 main/binary-ia64/Release
- b1be93f18d13893d3fbaa9f0795f89cb  1046548 main/binary-kfreebsd-amd64/Packages
- e8bf883d8154ac27ac52dd1e590bf482   203623 main/binary-kfreebsd-amd64/Packages.bz2
- 722cf5224a0e7a7e759cc36e1233487e   252991 main/binary-kfreebsd-amd64/Packages.gz
+ 5e4c205fed5761c6d693bf0758cc1e7e  1043957 main/binary-kfreebsd-amd64/Packages
+ 1089aca531945449970b978dd5a37913   203017 main/binary-kfreebsd-amd64/Packages.bz2
+ 10fd5e55274f994ea5cb70b56a81811a   252483 main/binary-kfreebsd-amd64/Packages.gz
  d33cc1770ad3c5be02e3c33daa63ad81      108 main/binary-kfreebsd-amd64/Release
- 097d742e524bd702f726f3e7bb9e86e2  1053589 main/binary-kfreebsd-i386/Packages
- bb3116b0cbe14d0663270f5841703c63   205120 main/binary-kfreebsd-i386/Packages.bz2
- 99f6b2da421c2f2eca1897f84edb10fd   254143 main/binary-kfreebsd-i386/Packages.gz
+ a2505b01986282f793326d81ccabbb2f  1050998 main/binary-kfreebsd-i386/Packages
+ da4c3030b43ddbd162469ffa37fe0530   204549 main/binary-kfreebsd-i386/Packages.bz2
+ 1614e41fcf9669d2e2cd8b9bd4749637   253604 main/binary-kfreebsd-i386/Packages.gz
  d39311275471170f193b56952b6827ac      107 main/binary-kfreebsd-i386/Release
  362561c5905de5538824606eb125e226  1004640 main/binary-mips/Packages
  96f7fbce18b9e0a0e6663b9d4d424d05   200987 main/binary-mips/Packages.bz2
@@ -203,9 +203,9 @@ MD5Sum:
  475296ad0b7ff5519aea13ea86f0a84b    19542 main/debian-installer/binary-i386/Packages.bz2
  b4993c2e7700691267ce0ca869aec065    22685 main/debian-installer/binary-i386/Packages.gz
  eca792c2e6a9c6164a4bcd4745f6ccb8       98 main/debian-installer/binary-i386/Release
- 27f020a3d90bcf3c80e45d37657a8931    49722 main/debian-installer/binary-ia64/Packages
- 6ecfefcbb7bbfc0d63af7bd1618e9b46    10474 main/debian-installer/binary-ia64/Packages.bz2
- eaf85345ea2bf0ad823d59f588fa63e0    12176 main/debian-installer/binary-ia64/Packages.gz
+ f6d14d7848e3f9b1909fb8f16612a9a5    50463 main/debian-installer/binary-ia64/Packages
+ 69f2c95b907eed45b4797d08193d7f19    10705 main/debian-installer/binary-ia64/Packages.bz2
+ 5528af3b200b893c9ecac758f73f432b    12435 main/debian-installer/binary-ia64/Packages.gz
  13bfa23e54c559e4503d7df1c2b9c8ec       98 main/debian-installer/binary-ia64/Release
  0bae3dd1cf8f3409fce4b74e185e0dbd    39284 main/debian-installer/binary-kfreebsd-amd64/Packages
  fcee18aab1d51918c452620b3e7c3029     8608 main/debian-installer/binary-kfreebsd-amd64/Packages.bz2
@@ -242,9 +242,9 @@ MD5Sum:
  120a81475566a4d5fec11aedba1a5b33   750457 main/i18n/Translation-en
  59d223b4712b6d4a7d3ab6e414ba34fb   124738 main/i18n/Translation-en.bz2
  055946fede5c13e49af442c5b8b6f91a      100 main/source/Release
- 871456ab1b998094911d4b3e81103a2d   869316 main/source/Sources
- 7691b19ccb71f478f5b3a5b60228d91f   140476 main/source/Sources.bz2
- a5cac88f144b276b3108bd5242447bba   195027 main/source/Sources.gz
+ 76dd6f1339ae1466376d3a47e364a490   754853 main/source/Sources
+ 188568babd37875e140b08a6f1de8566   137929 main/source/Sources.bz2
+ f5ef7c50a8cb163353a4649ec343dc49   183817 main/source/Sources.gz
  d41d8cd98f00b204e9800998ecf8427e        0 non-free/binary-all/Packages
  4059d198768f9f8dc9372dc1c54bc3c3       14 non-free/binary-all/Packages.bz2
  4a4dd3598707603b3f76a2378a4504aa       20 non-free/binary-all/Packages.gz
@@ -482,9 +482,9 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 contrib/source/Sources
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2       14 contrib/source/Sources.bz2
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 contrib/source/Sources.gz
- f009725d8b51dc687d75ac81daca7fa5b41a49d0   548853 main/binary-all/Packages
- 4676a4f7059b2546d3670b90c5db9ca1e90e70d3   100880 main/binary-all/Packages.bz2
- 57c048be0e88c7ce9a27a32c6a5dcd6c2a685d63   120630 main/binary-all/Packages.gz
+ 02a26387257c06620ec86684b1fbecc701caecd1   539279 main/binary-all/Packages
+ 899072c05f861ddb93a0e86353864dc89187057a    99195 main/binary-all/Packages.bz2
+ 65c4f41cd12cf8ee55be114448023a299fe6efd2   118839 main/binary-all/Packages.gz
  adfcb50c0428a6c73505d04c4db63293139970f0       97 main/binary-all/Release
  0f35dbe6b0641de3be696c6419ba92af689c9027  1118379 main/binary-amd64/Packages
  76fe641ae65c88afd38d224e6732bacb9f43840e   220899 main/binary-amd64/Packages.bz2
@@ -502,17 +502,17 @@ SHA1:
  82468193a23820e5588989d6c90cdd3cf3612f7d   223082 main/binary-i386/Packages.bz2
  fba2eff15c99db803f5702820a7619e329495a9e   277431 main/binary-i386/Packages.gz
  5cf74480ad1e1473473972c01af3d50b653c5c99       98 main/binary-i386/Release
- 5a7162c7b1e4a75df568b0483425383989b50d69   992656 main/binary-ia64/Packages
- 43b55dcffc0afd82c34907272123d3b2d0a62e34   198681 main/binary-ia64/Packages.bz2
- a601a2622d6ba1f8084101bf48d9e90e317c8c89   250137 main/binary-ia64/Packages.gz
+ c27c179d3fd9050ea3f89ebff1eec4b6abb81269  1003930 main/binary-ia64/Packages
+ 21ec1c47c128480ee0c9b0338b72ac98b1175362   201043 main/binary-ia64/Packages.bz2
+ bf83d650474222f13fe70646cb44708ec4e75180   252911 main/binary-ia64/Packages.gz
  5210f4e018a43a4ee1ed98a3bf15a703ccbad10e       98 main/binary-ia64/Release
- 3bc8cab4c64c508ed8e586c41fb3795af23d9a9f  1046548 main/binary-kfreebsd-amd64/Packages
- cc79c6da2780d6090edbbe6302795efa7513574a   203623 main/binary-kfreebsd-amd64/Packages.bz2
- 8eb1443bee1418f820e4688784d829fb2420959e   252991 main/binary-kfreebsd-amd64/Packages.gz
+ e99ae5ea56139f22d302f8852dc5f96e8746afd3  1043957 main/binary-kfreebsd-amd64/Packages
+ 9cdbb0b78745d5859a5dccd4017b4d0c1d7d7eae   203017 main/binary-kfreebsd-amd64/Packages.bz2
+ 49447b3195e443d2a1f3fe62cf0abfa413c2fcc7   252483 main/binary-kfreebsd-amd64/Packages.gz
  63a4f1667df1e6863cb59fb4f257936eeabf1e9a      108 main/binary-kfreebsd-amd64/Release
- fa4518b1b11ede6ce345fb08b6d1fc9adbf2a4ad  1053589 main/binary-kfreebsd-i386/Packages
- 9ef933b6210208bb8768b2de3d7cce5d37e54db2   205120 main/binary-kfreebsd-i386/Packages.bz2
- 3ad9ca2b15bfa40bd43cdf8f76ed9ac1469790c8   254143 main/binary-kfreebsd-i386/Packages.gz
+ 0f4ad5023350ef9385abebf69617b04aaefd1055  1050998 main/binary-kfreebsd-i386/Packages
+ 1be4d02f9bc132e1f88c8431a97e5ab558d639b0   204549 main/binary-kfreebsd-i386/Packages.bz2
+ 1690b7ffbeb5ea128ddf19b3b9b772b7573ccea8   253604 main/binary-kfreebsd-i386/Packages.gz
  48d8b0c9dfea9eb658ac15fa7e46f6fe59b85c6c      107 main/binary-kfreebsd-i386/Release
  231a9cc9d5cffed871327a32cd68f75e75b84b78  1004640 main/binary-mips/Packages
  a4a722c9fd1683b4e186ee14621c59d44020c830   200987 main/binary-mips/Packages.bz2
@@ -558,9 +558,9 @@ SHA1:
  73582b590db278fe1ac820a901d154ef949472ae    19542 main/debian-installer/binary-i386/Packages.bz2
  41a1401fe863912f9c283d4c583f72f549c2f27c    22685 main/debian-installer/binary-i386/Packages.gz
  5cf74480ad1e1473473972c01af3d50b653c5c99       98 main/debian-installer/binary-i386/Release
- b0273055ce5ae517d8735c9e49ba4388134714ec    49722 main/debian-installer/binary-ia64/Packages
- 9ca11719a34d4eff0d9d234592b73a60b7f7666d    10474 main/debian-installer/binary-ia64/Packages.bz2
- 6c0ec89d3e0bd29301d254681b1ba34ea03f206e    12176 main/debian-installer/binary-ia64/Packages.gz
+ afd8f6eaa4929f6c3ed3a61e5f931ed5cd07ab60    50463 main/debian-installer/binary-ia64/Packages
+ 4e394513e2d48f577019d00a348eff39aeeca919    10705 main/debian-installer/binary-ia64/Packages.bz2
+ 5aa3a449a3a0ba5e50ca05ae10f02a96e3d02463    12435 main/debian-installer/binary-ia64/Packages.gz
  5210f4e018a43a4ee1ed98a3bf15a703ccbad10e       98 main/debian-installer/binary-ia64/Release
  c5021a2edc50243dd40730d4e54dfa9e33c78053    39284 main/debian-installer/binary-kfreebsd-amd64/Packages
  cfe95f3eee10043b2b5e173ea73b178aa678e7ce     8608 main/debian-installer/binary-kfreebsd-amd64/Packages.bz2
@@ -597,9 +597,9 @@ SHA1:
  e3429a98b6e9c740545da015756b387ee3302840   750457 main/i18n/Translation-en
  374f8201887043f877c7af7c0837a9f69fefe614   124738 main/i18n/Translation-en.bz2
  c2034a9ac76d914a1addf3589b622a54fc44b4d3      100 main/source/Release
- 676239d16fe1da713a30f450b812c2c00ce3c011   869316 main/source/Sources
- 084c5a69438afd2ccd6541811d33fbdd32e6951e   140476 main/source/Sources.bz2
- 45c776f28c7b5e126d9b4a186ac6b1320953f7a2   195027 main/source/Sources.gz
+ 0126fa440c26659e2be00187eff1abaab4ede598   754853 main/source/Sources
+ 7a1e8b9d83a5c2ef2601e5775e950b2d26e40c0e   137929 main/source/Sources.bz2
+ 386e9701faf7dab252b69d3d7236c6ce7958f1be   183817 main/source/Sources.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 non-free/binary-all/Packages
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2       14 non-free/binary-all/Packages.bz2
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 non-free/binary-all/Packages.gz
@@ -837,9 +837,9 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 contrib/source/Sources
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058       14 contrib/source/Sources.bz2
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 contrib/source/Sources.gz
- cef29b5aac40d99fc4e53b509d4cd6a68811a5cc4d26a1af7a686ca914de0c43   548853 main/binary-all/Packages
- 3a440ee315d4daff4144d914748af22aab38fa297822cfd9532d8bfe6b8c326d   100880 main/binary-all/Packages.bz2
- 84aa0ae6336dba988e204ecf8edfb48e12f07cfc3c672864ef623ef4fd42318a   120630 main/binary-all/Packages.gz
+ 517f3d75c4baa0fa23017f8d353148d77f9f00de59b447e9b0de54e89b1d686c   539279 main/binary-all/Packages
+ 435943891a2934b5b397cc03cb5caf031ff209be7d6be9a91d67a8a39e0bbba5    99195 main/binary-all/Packages.bz2
+ 65c14281ca5a7fe29c2374b4f57a8a2e460c91ccd066ef91f4df509ed3da41ca   118839 main/binary-all/Packages.gz
  3095f0b4e001ecfc3f54785f9c19ec115cebc9f708d3567b7a30d70d834bac9a       97 main/binary-all/Release
  c4aaef2f4250e497c247babc47fdc12f2d10815a0fc2c1fae4913216db4d536a  1118379 main/binary-amd64/Packages
  2540cfc35a78ae48ee4c86aee843140a8912fa4ceeaaf5f707eac729bfd0bb4c   220899 main/binary-amd64/Packages.bz2
@@ -857,17 +857,17 @@ SHA256:
  f03e451998b3d0cd99fe25d6208567bcf29aaa2509ce3fb31855b8a3384030ec   223082 main/binary-i386/Packages.bz2
  08018d110221ba63a3cff9dcbd6271145b727e45c42d64b6b0bfcae9aca78adf   277431 main/binary-i386/Packages.gz
  c098eb27ff1a6c1990e7b7a54bd53dd47de7796747f9ad2e6ef62752fc9781aa       98 main/binary-i386/Release
- 2af3340a336d9435f95c72c7a3cd13c5c585c923b6ead33c9072340044254d47   992656 main/binary-ia64/Packages
- 969bd96a7ca8b298019c54c8636c028d880865031af7bf74f9bcd61de3bfcde3   198681 main/binary-ia64/Packages.bz2
- f19e396642b4c64a93991997bd0179a44bcf9064add7d59dfacc25a0340e9fe6   250137 main/binary-ia64/Packages.gz
+ 57ac859a6cbd95ee36564030deb6a37bc37dcdf678b50153b261d0cdad8634c4  1003930 main/binary-ia64/Packages
+ 2c41b23e8ee386094981daca1fcfd7e1d6fb724e192fed9b47580081b0e45dc0   201043 main/binary-ia64/Packages.bz2
+ e4c4787220918aa8f5d1c2b6d25e7619a6b45007e323a8e9b45582984c739f8a   252911 main/binary-ia64/Packages.gz
  70bfae406d23ac124af10ed403ee2447eade8d52a344059a7cb150bb16ffca04       98 main/binary-ia64/Release
- 5cba2daca52e6b9ca0f8d2d547ca36f0f9de56ea8de8bb6cbda733b5d626df97  1046548 main/binary-kfreebsd-amd64/Packages
- 370c872f0d79b7db42a53abb11272ed40da876b493348144cf35310493e8d818   203623 main/binary-kfreebsd-amd64/Packages.bz2
- 269f2e59359d373ea380bc7a7fdd0912dc2d7a8941836fc939d73058efc2f273   252991 main/binary-kfreebsd-amd64/Packages.gz
+ 9326033022acd05b81558ec0a7d6ba3439a5e7715d1bae5aefad5f42c85c22cf  1043957 main/binary-kfreebsd-amd64/Packages
+ e5ea014862ab6ae3b0844faa5e7333f99533573541711b908d6b1f93c0e4c244   203017 main/binary-kfreebsd-amd64/Packages.bz2
+ d1b20fe9598174d5688e4e096b195d37230f1cde3aa5aa199f148e9975d7a4bb   252483 main/binary-kfreebsd-amd64/Packages.gz
  54adac6e44c22ce6074a672b8df8f9502fae6acb01423782d64d79e0381117b4      108 main/binary-kfreebsd-amd64/Release
- a028928bc518ca011b8e61064570d03f5f7ce8c72803f75c5d477e3b9558b8b7  1053589 main/binary-kfreebsd-i386/Packages
- ef2f6f891e80c628bc1d94e31955bd66a4c39fe2de1f9fb9b8dd3552246ce1cb   205120 main/binary-kfreebsd-i386/Packages.bz2
- 4419122fcd1ccb407d141137dd084f7253dee371dc0e4d981f1c9e5cbcbd067c   254143 main/binary-kfreebsd-i386/Packages.gz
+ 32ab757c00bd72183e08e9ce900256ccc18b62fc14cdcb3a7341b4ba27470f57  1050998 main/binary-kfreebsd-i386/Packages
+ b2c34a0b73cb6d65984c3af608c0cbc25421f53c1d0f93d54a556a58466bf53f   204549 main/binary-kfreebsd-i386/Packages.bz2
+ 78009a33d3c02f0d11404ec6b390b4f734dd1ef0102c85f283330e5ae2765302   253604 main/binary-kfreebsd-i386/Packages.gz
  e04f56cee17c8f610f0ac7369b0578e2b396d56873c41484abd483cb27d8385d      107 main/binary-kfreebsd-i386/Release
  47b67dd430f49ecf73d8acaeb55a09280263d91b16182a0f8e06c6b3d7163527  1004640 main/binary-mips/Packages
  4344cdf764d18c30e3a9696e21e8eee086775cc133e5fc8e26ad1c97889e30d5   200987 main/binary-mips/Packages.bz2
@@ -913,9 +913,9 @@ SHA256:
  3722000cf22e5beb07749b1cbf2dc78e79925becabda19941d82ce3ac1e4b871    19542 main/debian-installer/binary-i386/Packages.bz2
  9019643a71585e945744c26edbf6abdbb530a1ec7c6703d4b15bc47967501723    22685 main/debian-installer/binary-i386/Packages.gz
  c098eb27ff1a6c1990e7b7a54bd53dd47de7796747f9ad2e6ef62752fc9781aa       98 main/debian-installer/binary-i386/Release
- 51dd28810e5ffba2bc5b4e0604b544398a6007f533f32474a506c93692db6666    49722 main/debian-installer/binary-ia64/Packages
- 58e031c56f2bbf0b03ef49860913d22f70e58812466cbaae9565a2954b6eea4c    10474 main/debian-installer/binary-ia64/Packages.bz2
- 9a81981a058fb4478849c2efe64815b037cc828a91e4e1888b84836721a26dd7    12176 main/debian-installer/binary-ia64/Packages.gz
+ b665aafcf85f271c316803a7651244dc50fe0c8e2dc23a6eef6348461b7b9b4c    50463 main/debian-installer/binary-ia64/Packages
+ e22fdd5a225c78b63c776d4416ac430eb63a89be980cf1595ee1fb25e4bb4349    10705 main/debian-installer/binary-ia64/Packages.bz2
+ 429739d19e0e942b48d2f4e6a067be1bb5f23d3d8c11dbb43ee3fafc54ce2bea    12435 main/debian-installer/binary-ia64/Packages.gz
  70bfae406d23ac124af10ed403ee2447eade8d52a344059a7cb150bb16ffca04       98 main/debian-installer/binary-ia64/Release
  c01756ebba22089fe7d516184d500dd172baf86ea02fda9c587b911182c781ff    39284 main/debian-installer/binary-kfreebsd-amd64/Packages
  5236374323d15bc169b03f59bca385d49bf901771e7df17e669f390e105918fc     8608 main/debian-installer/binary-kfreebsd-amd64/Packages.bz2
@@ -952,9 +952,9 @@ SHA256:
  2a818fd0f20956c125b51857569aa39509d531c46ddafedfd73851fc77449459   750457 main/i18n/Translation-en
  4c87e345d2181986b505c08208c8ab0d1cd560490314bc306ae132bf33d6c8c9   124738 main/i18n/Translation-en.bz2
  b8b4789f90c6e0d7d8c4a926fa149ed5cfb55f96c34bcd16794edfb97161a85d      100 main/source/Release
- 9169746139daf5322bd3c8ff027185f2c8f4fc3dab1739071d9cbda3ec33cf6f   869316 main/source/Sources
- 761a4a6c8be1e3a9838dc28a8bc968516fbb304bf2970a4dcf43c318e7f182ab   140476 main/source/Sources.bz2
- 9a7272489cf303376672a3bb005a1cb50672099691bd05bc6c03b186c0e8c662   195027 main/source/Sources.gz
+ 0668ab027b3aa952251fbfabfcbd513210ab8cbbce9eee22d82d53b9fc944281   754853 main/source/Sources
+ 7c483b333e6243ddb2de61197aaef01786b632a7b69650b96589fa0e99ac3a2a   137929 main/source/Sources.bz2
+ 721d2e66ad6e9e86af5583bc3ec12011589e4b66d4a256c5109886a259a0e672   183817 main/source/Sources.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 non-free/binary-all/Packages
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058       14 non-free/binary-all/Packages.bz2
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 non-free/binary-all/Packages.gz
