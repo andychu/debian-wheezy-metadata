@@ -4496,6 +4496,38 @@ Directory: pool/updates/main/libx/libxinerama
 Priority: source
 Section: x11
 
+Package: libxml-security-java
+Binary: libxml-security-java, libxml-security-java-doc
+Version: 1.4.5-1+deb7u1
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Varun Hiremath <varun@debian.org>, Torsten Werner <twerner@debian.org>, Michael Koch <konqueror@gmx.de>, Niels Thykier <niels@thykier.net>
+Build-Depends: debhelper (>= 7), cdbs, default-jdk, maven-debian-helper (>= 1.4)
+Architecture: all
+Standards-Version: 3.9.1
+Format: 3.0 (quilt)
+Files:
+ ca6cc38b7be0c735e76c6e43f154e699 2157 libxml-security-java_1.4.5-1+deb7u1.dsc
+ 19e6ac5ad1e3ab7756cefec1f8aec2c1 1205867 libxml-security-java_1.4.5.orig.tar.gz
+ b1f12b1a6a9509244d95586d54a60532 5297 libxml-security-java_1.4.5-1+deb7u1.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-java/trunk/libxml-security-java
+Checksums-Sha1:
+ 0bd069615846b12dc8b9d077947ccf49818841fb 2157 libxml-security-java_1.4.5-1+deb7u1.dsc
+ db2122074ad86cee1d0763d7aaffe9e6815470f0 1205867 libxml-security-java_1.4.5.orig.tar.gz
+ 45c5450050b99a9486886abe27cd5fc4ebad29b7 5297 libxml-security-java_1.4.5-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ cba683a21107e516939966eeeab56cd4fe8fdcf222d3178bba308a1a8f638b78 2157 libxml-security-java_1.4.5-1+deb7u1.dsc
+ 8774f7680548d1768f383eff3f74f6151ea9144a4e1a6591a121b34ddbb08242 1205867 libxml-security-java_1.4.5.orig.tar.gz
+ ff6dcb874495bcaa9fa8d96a7fb273be46ec2a9314d3e1029129e8800d0c9e2a 5297 libxml-security-java_1.4.5-1+deb7u1.debian.tar.gz
+Homepage: http://santuario.apache.org/
+Build-Depends-Indep: libmaven-dependency-plugin-java, libcommons-logging-java, libjaxp1.3-java, libxalan2-java, libxerces2-java, junit4, default-jdk-doc, libcommons-logging-java-doc, libxalan2-java-doc, libmaven-javadoc-plugin-java
+Package-List: 
+ libxml-security-java deb java optional
+ libxml-security-java-doc deb doc optional
+Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/libxml-security-java
+Directory: pool/updates/main/libx/libxml-security-java
+Priority: source
+Section: libs
+
 Package: libxml2
 Binary: libxml2, libxml2-utils, libxml2-utils-dbg, libxml2-dev, libxml2-dbg, libxml2-doc, python-libxml2, python-libxml2-dbg
 Version: 2.8.0+dfsg1-7+wheezy2
@@ -9410,9 +9442,46 @@ Directory: pool/updates/main/q/qemu
 Priority: source
 Section: misc
 
+Package: qemu
+Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
+Version: 1.1.2+dfsg-6a+deb7u5
+Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
+Build-Depends: debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]
+Architecture: amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64 all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ fc01f87ed3beeacdb23b3a8fc7d85d5d 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
+ e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
+ 875eb959d82afb232768bb7b84a8feaf 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-qemu/qemu.git
+Vcs-Git: git://git.debian.org/git/pkg-qemu/qemu.git
+Checksums-Sha1:
+ 97b70b2cfabda1d5b1f1c5c5b23df480cbbd8a9f 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
+ 65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
+ e8280b293f798d356567737444c0e120d71c51a1 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
+Checksums-Sha256:
+ f0e29ae502dcf72d386c7c2198adb893820999b77dce90d5816b149d09073038 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
+ 8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
+ b0f718b20eaa6277810e506891588a7bdeeba4356b1585c71f17131b48bf35b8 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
+Homepage: http://www.qemu.org/
+Build-Conflicts: oss4-dev
+Dm-Upload-Allowed: yes
+Package-List: 
+ qemu deb misc optional
+ qemu-keymaps deb misc optional
+ qemu-system deb misc optional
+ qemu-user deb misc optional
+ qemu-user-static deb misc optional
+ qemu-utils deb misc optional
+Directory: pool/updates/main/q/qemu
+Priority: source
+Section: misc
+
 Package: qemu-kvm
 Binary: qemu-kvm, qemu-kvm-dbg, kvm
-Version: 1.1.2+dfsg-6+deb7u4
+Version: 1.1.2+dfsg-6+deb7u5
 Maintainer: Michael Tokarev <mjt@tls.msk.ru>
 Uploaders: Guido Günther <agx@sigxcpu.org>, Jan Lübbe <jluebbe@debian.org>
 Build-Depends: debhelper (>= 8), pkg-config, texinfo, python, libaio-dev, libasound2-dev, libattr1-dev, libbluetooth-dev, libbrlapi-dev, libcap-dev, libcurl4-gnutls-dev, libglib2.0-dev, libgnutls-dev, libiscsi-dev, libjpeg-dev, libncurses5-dev, libpci-dev, libpulse-dev, libpng12-dev, libsasl2-dev, libsdl1.2-dev, libspice-protocol-dev, libspice-server-dev (>> 0.8.2-1), libusbredirhost-dev, libvdeplug-dev | libvdeplug2-dev, linux-libc-dev (>= 2.6.32), uuid-dev, xfslibs-dev, zlib1g-dev
@@ -9420,19 +9489,19 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- c388554c24916995ee9ded2fe8f10ceb 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
+ 2c81bb4c42c109166df5642723f8ba01 2151 qemu-kvm_1.1.2+dfsg-6+deb7u5.dsc
  2c2c78c14294c177b697ac0544c7634d 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 5f035b9aaa4bc4d3b6b22fc55252791c 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
+ 767e05e0293bf3366cb285f4ec85a0b0 91758 qemu-kvm_1.1.2+dfsg-6+deb7u5.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/qemu-kvm.git
 Vcs-Git: git://git.debian.org/git/collab-maint/qemu-kvm.git
 Checksums-Sha1:
- 033d9670de8d69175df276e8db54018d530ce57c 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
+ e212e94665c00fa45e648e233c8f1e9cc335b031 2151 qemu-kvm_1.1.2+dfsg-6+deb7u5.dsc
  5363df6f46c1931dfeabb34ff3f54468f5e8d141 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 5e961540c44528340281ffa8cd84125a984a88a0 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
+ 6644c44ba8932c426f32f995c8fd90e0574c2779 91758 qemu-kvm_1.1.2+dfsg-6+deb7u5.debian.tar.gz
 Checksums-Sha256:
- 2c18102ccc6c4e80d714f23149e63c2fc96fd83c2e8941ac1f04f192b5ad757e 2151 qemu-kvm_1.1.2+dfsg-6+deb7u4.dsc
+ d5d441f0e60a850a27361a251e096f2251ea86109c218cd0d6ccae440338d8a7 2151 qemu-kvm_1.1.2+dfsg-6+deb7u5.dsc
  82065673c5c6e785c4c692c1899ec1420f0753fbe2cd278bdaa1c9c7a262a019 3737392 qemu-kvm_1.1.2+dfsg.orig.tar.xz
- 70303a2c4e188c05f0aa1d99d7e11b7798044c5437413b4b840f00db27997b66 88441 qemu-kvm_1.1.2+dfsg-6+deb7u4.debian.tar.gz
+ ab64722ce1222c195402f1ec117ab53208eb8b04960e83fa7707b68a149972c3 91758 qemu-kvm_1.1.2+dfsg-6+deb7u5.debian.tar.gz
 Homepage: http://www.linux-kvm.org/
 Package-List: 
  kvm deb oldlibs extra
