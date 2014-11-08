@@ -1779,27 +1779,27 @@ SHA1: 504a8afdce4c1af7fdcd0ead4fa5aee8aaa777e7
 SHA256: e89b97dcabd795f176642a0c7c7fbb0e6120bd22c47d322015ef34fc4605e5cb
 
 Package: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 324
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: curl-ssl
 Provides: curl-ssl
-Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy10), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy11), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
 Homepage: http://curl.haxx.se
 Description-md5: bfedc129a9c070522f2c8ad7dc3bd643
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/curl/curl_7.26.0-1+wheezy10_i386.deb
-Size: 268512
-MD5sum: adeac0b994c8deaf00b21982d5155e05
-SHA1: 006813ee450ff736205af4b69bd1901b1d904579
-SHA256: 1d213c2f14df039e6f4176e1c938b079552992846319da24d9a6683b84300080
+Filename: pool/updates/main/c/curl/curl_7.26.0-1+wheezy11_i386.deb
+Size: 268558
+MD5sum: 59d86defa0c7d7466bc0f9e86975f218
+SHA1: bf10b7628fad420872ffb1d0dc93a53dce5a2266
+SHA256: 3bac7dd5128cd93d1ab102f5f15dc0af36d6bf0706edaa4efe078c6c44f7a1a6
 
 Package: libcurl3
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 564
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
@@ -1814,21 +1814,21 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3_7.26.0-1+wheezy10_i386.deb
-Size: 335404
-MD5sum: e50578d39643150626ff20cd1e215437
-SHA1: 57ca7fdf4d30a21c7de23f78586c18e511beb235
-SHA256: 17ddc66350f512d8cb780f0d542e321824209f1e23e3689f65ca5c061047ff47
+Filename: pool/updates/main/c/curl/libcurl3_7.26.0-1+wheezy11_i386.deb
+Size: 335588
+MD5sum: 771c43765898de0b5d89fe225f1ce7c3
+SHA1: 690be5e242e612f997c5de11a537ae5180c5c6f7
+SHA256: 8a440af94b28feb260fcce0ae879bc61b98255970ee079bc3562d981d84a1a76
 
 Package: libcurl3-dbg
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 3381
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: libcurl4-dbg
 Provides: libcurl4-dbg
-Depends: libcurl3 (= 7.26.0-1+wheezy10) | libcurl3-gnutls (= 7.26.0-1+wheezy10) | libcurl3-nss (= 7.26.0-1+wheezy10)
+Depends: libcurl3 (= 7.26.0-1+wheezy11) | libcurl3-gnutls (= 7.26.0-1+wheezy11) | libcurl3-nss (= 7.26.0-1+wheezy11)
 Suggests: libc-dbg
 Conflicts: libcurl4-dbg
 Description: debugging symbols for libcurl (OpenSSL, GnuTLS and NSS flavours)
@@ -1837,15 +1837,15 @@ Description-md5: 75dc37d46c31142928caa6ed53e144bf
 Multi-Arch: same
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/c/curl/libcurl3-dbg_7.26.0-1+wheezy10_i386.deb
-Size: 3220250
-MD5sum: 5e53f8ac4dbe90be3ca0cbc6d659b91f
-SHA1: c966afec345d58cfc9f1d2384a7f2967a7db9dcd
-SHA256: c2a8bc8ddcc1df432226b4756d44e9c082944bd0de834095b3d5da12e643199a
+Filename: pool/updates/main/c/curl/libcurl3-dbg_7.26.0-1+wheezy11_i386.deb
+Size: 3219488
+MD5sum: 25709f5187ec85166fefb97e6fd59151
+SHA1: b7875ebd36bfa2aed6f71e22b10a1113a37eacb7
+SHA256: 6705f75dfe697c0e21a05fe9c1d8af1fc1110088ec4a37279090fd436f4f740e
 
 Package: libcurl3-gnutls
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 543
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
@@ -1860,16 +1860,16 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3-gnutls_7.26.0-1+wheezy10_i386.deb
-Size: 326324
-MD5sum: f13ac0de9bd45788b0b312dd9199f0e2
-SHA1: 37f808e6557903b76d632a081bb58db90422e7a0
-SHA256: c4b725efbe22777fcd8633b365ad3a3e67e98843074d878d2c2771d27e519a8d
+Filename: pool/updates/main/c/curl/libcurl3-gnutls_7.26.0-1+wheezy11_i386.deb
+Size: 326444
+MD5sum: 11e3b3c3462eaa00846ae4990556ab86
+SHA1: 571550ab1816df0057f41976e21acbe48c68c7fa
+SHA256: cd0a1a585207839c02bb84581ed4342c9b01789ba362a46988bae94ff1628c82
 
 Package: libcurl3-nss
 Source: curl
-Version: 7.26.0-1+wheezy10
-Installed-Size: 551
+Version: 7.26.0-1+wheezy11
+Installed-Size: 555
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: libcurl4-nss
@@ -1883,21 +1883,21 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3-nss_7.26.0-1+wheezy10_i386.deb
-Size: 332510
-MD5sum: 80571424ae502cf76da8078c017b6d3f
-SHA1: 70d407094e967babe65f09d715d1a0378f0749a3
-SHA256: 399bd4489df785b7d7931e9ed39267b784eb4c4e53a3230da1dd4a540e3fab0f
+Filename: pool/updates/main/c/curl/libcurl3-nss_7.26.0-1+wheezy11_i386.deb
+Size: 332600
+MD5sum: 63863e46955cf0eeb5bece971004c71a
+SHA1: a6af001e6d17f3b5a22d0c60f9c7900fb2d9e718
+SHA256: 7adbc62543c55b91410b40cf8f669b6299fa9790d7c2633374648a6530946904
 
 Package: libcurl4-gnutls-dev
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 2276
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
-Depends: libcurl3-gnutls (= 7.26.0-1+wheezy10), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
+Depends: libcurl3-gnutls (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-nss-dev, libcurl4-openssl-dev
 Description: development files and documentation for libcurl (GnuTLS flavour)
@@ -1905,21 +1905,21 @@ Homepage: http://curl.haxx.se
 Description-md5: cf466d605e7f6ba2d9a210b9ff7cf506
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-gnutls-dev_7.26.0-1+wheezy10_i386.deb
-Size: 1219670
-MD5sum: 462eae98c0409540282ee03e322906a9
-SHA1: b3474fdcf13c7c31e8c996f20d7a119e4560308b
-SHA256: 5c0f86a4b52a9cdb87bdafa8d1e0233c315bf725686a7f16cdfb570ad3f006e6
+Filename: pool/updates/main/c/curl/libcurl4-gnutls-dev_7.26.0-1+wheezy11_i386.deb
+Size: 1219810
+MD5sum: d29b6b27ccf2d49838abe24906ddfadf
+SHA1: 5a37fd1bece96c5af7776478d515e4ebb08541ea
+SHA256: d3de207aa225de0cac91ddd693145176572d9d0aeb31d73bc2d4497da285c394
 
 Package: libcurl4-nss-dev
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 2287
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
-Depends: libcurl3-nss (= 7.26.0-1+wheezy10), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
+Depends: libcurl3-nss (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-gnutls-dev, libcurl4-openssl-dev
 Description: development files and documentation for libcurl (NSS flavour)
@@ -1927,21 +1927,21 @@ Homepage: http://curl.haxx.se
 Description-md5: ea23d26e1e30e1d8c9854839a5f36f16
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-nss-dev_7.26.0-1+wheezy10_i386.deb
-Size: 1225638
-MD5sum: f4c865d87fc76fda6c79f387b645da9b
-SHA1: ec3cfd71d59085ac50b96f55f594f43be5cfdbe0
-SHA256: f11be3db9f4c47e9b13235c5118c24fb13aa8224c6e9b4ec1f039c9362062da4
+Filename: pool/updates/main/c/curl/libcurl4-nss-dev_7.26.0-1+wheezy11_i386.deb
+Size: 1225886
+MD5sum: c028b94d119eb8c86bb0273939247ce7
+SHA1: 1049a0704df8ce8d00fb94fffaa8599bbf97fa3b
+SHA256: ebb8b9b3c752fb0d9cf0c83d7c5b02e45902b33db7f5f58d1c13dc4cdf98b97e
 
 Package: libcurl4-openssl-dev
 Source: curl
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Installed-Size: 2299
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: i386
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-dev (<< 7.14.1-1), libcurl3-openssl-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-dev, libcurl3-openssl-dev, libcurl4-dev
-Depends: libcurl3 (= 7.26.0-1+wheezy10), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, libssl-dev, zlib1g-dev
+Depends: libcurl3 (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, libssl-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev
 Description: development files and documentation for libcurl (OpenSSL flavour)
@@ -1949,11 +1949,11 @@ Homepage: http://curl.haxx.se
 Description-md5: d34823c09cbc282f1e66e15adefbdb9f
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-openssl-dev_7.26.0-1+wheezy10_i386.deb
-Size: 1229080
-MD5sum: 28510ab961e1bb014a71dd19751ebc3b
-SHA1: 312e0aad3e407e575b09fca5b77077f20c115a1e
-SHA256: d4f99ae1de33004d782e4bde64ab58f8c124ef899b7c179babd076801851677c
+Filename: pool/updates/main/c/curl/libcurl4-openssl-dev_7.26.0-1+wheezy11_i386.deb
+Size: 1229334
+MD5sum: 23811a2db25de519b55098014842848b
+SHA1: 4f07709c6097a1e6c80807b1cf511e3b5c42e8f7
+SHA256: 90264dbc8a2d9d1a24e02cd87696a01e69d0fd8d0f082a7e3c2541e843c3b904
 
 Package: davfs2
 Version: 1.4.6-1.1+wheezy1
@@ -10010,7 +10010,7 @@ SHA256: 9ef1eab8b3cb76c1f564c5674cb1d6bea1815495d94193ff025cd6e562ee49c6
 
 Package: kfreebsd-headers-9-486
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10019,15 +10019,15 @@ Description: header files for kernel of FreeBSD 9 (meta-package)
 Description-md5: 206c19c0c43b78bc827ea61d30e78583
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-486_9.0-10+deb70.7_i386.deb
-Size: 51126
-MD5sum: 2cd434b4d61a6f61e1df649c8e4ec944
-SHA1: 66b09bcd36a8f8cf8787dc404a9f14beb225f0b7
-SHA256: b58eab9cf48686f9536522c9efd4c4c9de392491b234d2330e55511904c814eb
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-486_9.0-10+deb70.8_i386.deb
+Size: 51234
+MD5sum: adda113a0be6b07548a5451dd300de06
+SHA1: 81b5beff2cda7896059551c53063d5b34fd9da5c
+SHA256: 51b3b6998e601f96a527a69f4f97195f4a19be9d2df1b22085e6af94378ea86a
 
 Package: kfreebsd-headers-9-686
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10036,15 +10036,15 @@ Description: header files for kernel of FreeBSD 9 (meta-package)
 Description-md5: 30298ca9928b7ce1bf7f10f68971a1ef
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-686_9.0-10+deb70.7_i386.deb
-Size: 51128
-MD5sum: 11ad02a8b763f1a0615800c62bb979a4
-SHA1: 05542e93b9e77b368c54f2afd3b41796751d6542
-SHA256: 18ffbb9fb751f33907da2e97074681669ba4123e3880ae62695f48f50521ad1d
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-686_9.0-10+deb70.8_i386.deb
+Size: 51236
+MD5sum: fba1d6d6eaf56736fe6093b1ba1e6ba6
+SHA1: b55a985cdb452b49c01ddfdcdac42bf157f28c0e
+SHA256: c3722a2f1bbdc02f80a10515cd7f1b9a531837c014e7a357e98f09a57dd844f1
 
 Package: kfreebsd-headers-9-686-smp
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10053,15 +10053,15 @@ Description: header files for kernel of FreeBSD 9 (transitional package)
 Description-md5: 06c021c6598e83e75273ed11ceb24a7c
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-686-smp_9.0-10+deb70.7_i386.deb
-Size: 51148
-MD5sum: 69fff4bc4db2480a0a34beeff9b18a96
-SHA1: 75384578b8917b7ec40cad961177a9e570d50153
-SHA256: 6d4ce5faa312ee59191f8489187519f49f688b63cb20f1919a93483458845cc9
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-686-smp_9.0-10+deb70.8_i386.deb
+Size: 51258
+MD5sum: ba0097db448cbe1e35f769ed7f9fd8b2
+SHA1: 13f50f40d80bb87ac6b67b06def55d3ff8aabb4c
+SHA256: b24297b15bde5a4b3d26082eafaf5aab98d461002cadbca5f548fadccc507e9d
 
 Package: kfreebsd-headers-9-xen
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10070,15 +10070,15 @@ Description: header files for kernel of FreeBSD 9 (meta-package)
 Description-md5: 89bcba3ea557e8830784aca0932692ee
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-xen_9.0-10+deb70.7_i386.deb
-Size: 51128
-MD5sum: 38d06c28f6d96242c66b07cf6754709e
-SHA1: 88380dc560f559f165133d47af5da5ee3dada73a
-SHA256: 73356115bd5c71901db442f133ee2a0e6b87bd3cf3fc96b936a11648456b439d
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9-xen_9.0-10+deb70.8_i386.deb
+Size: 51236
+MD5sum: 6a521fd0d53814157113c289102e5915
+SHA1: 42747efb80f63006ad1b37ab78e4ebc4f1ac82e3
+SHA256: e3d483b6b4f9c29c8c491cde7de43a1979987953d2a9ebc6a13905e55aba7483
 
 Package: kfreebsd-headers-9.0-2
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 49934
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10086,51 +10086,51 @@ Description: Common architecture-specific header files for kernel of FreeBSD 9.0
 Description-md5: 1fcc303e4dcc5bf1f845c341536e0a14
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2_9.0-10+deb70.7_i386.deb
-Size: 9764254
-MD5sum: a746d91d5f9ce1a96e86a2ca0094b77c
-SHA1: b27acfec74ba4da858380be16f89dee8b784ebc3
-SHA256: ce852a6d6d061c9aeff0f2a934c870b76b68ada1dddd0e38c8ef67f43f656109
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2_9.0-10+deb70.8_i386.deb
+Size: 9764248
+MD5sum: 3adaa76d4d95cc63e3f8136a7d6ecdf7
+SHA1: 00938146bebefc09a3e88fabe4bde154b1f36ad8
+SHA256: d1ac8c75c2ae6a1115a6e528195f1d840bda9f7d97dade61aeb66a376040122d
 
 Package: kfreebsd-headers-9.0-2-486
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 1751
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
 Provides: kfreebsd-headers, kfreebsd-headers-9
-Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.7)
+Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.8)
 Description: header files for kernel of FreeBSD 9.0
 Description-md5: f6cf15c4a281ff97c636087c494f6b5f
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-486_9.0-10+deb70.7_i386.deb
-Size: 356726
-MD5sum: 0fba8155bfd1d625cdf0a926dfeb1fa5
-SHA1: 3bbe9e4bc00ad8b95733715e8bfd5db1107b8b14
-SHA256: 4f82aff87bfc679b4e0495062beae0ae6079e11d9689fb2cf16b47743122924f
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-486_9.0-10+deb70.8_i386.deb
+Size: 356790
+MD5sum: 8cd3c866223c4901d81fd5c5ad0a897b
+SHA1: 83068155399fe15f2e3d10e06ad9023bcfc5e78e
+SHA256: dec2ef7e47a9b3d93f42f50d8126b35e9625b6e077a034e01153f1d5ee4abc79
 
 Package: kfreebsd-headers-9.0-2-686
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 1751
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
 Provides: kfreebsd-headers, kfreebsd-headers-9
-Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.7)
+Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.8)
 Description: header files for kernel of FreeBSD 9.0
 Description-md5: b42724b2d92d59fb24c164613750101d
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-686_9.0-10+deb70.7_i386.deb
-Size: 356714
-MD5sum: 7d64308c302d6f5274e0b703bae385c8
-SHA1: 14149500a40151f188ce6e690318158938817633
-SHA256: 7d1c54e69ec7e19f47e2f9ca461f2273104fd099cdbe94d188c660422a962e19
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-686_9.0-10+deb70.8_i386.deb
+Size: 356756
+MD5sum: 991746eb99d94fc9580b35e58c384ac2
+SHA1: 52c4dd0aa48fac39e427b5859cbbd58d44806e37
+SHA256: 8536e07e6d4235f53e2640e92a8b9e13d4c01785bb56b7f745ce88d5f4490c55
 
 Package: kfreebsd-headers-9.0-2-686-smp
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10139,33 +10139,33 @@ Description: header files for kernel of FreeBSD 9.0 (transitional package)
 Description-md5: f416cb0e36875d73fa46b1b4be645158
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-686-smp_9.0-10+deb70.7_i386.deb
-Size: 51150
-MD5sum: f127b13363d0fc80b7557990e012b019
-SHA1: 4b9a92c2a142fa96bdc7d0fc80ae41307ad0a17f
-SHA256: ff7ec144f54208ad80b602eeae883a0dce123eb12648ef31d850af6b11719306
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-686-smp_9.0-10+deb70.8_i386.deb
+Size: 51258
+MD5sum: 2e1ce11576dcea92e0ac8c39e4a27a62
+SHA1: 7aa824272b0af45629c3c957bcb2fab58a8e4799
+SHA256: 3c823cb4f2fa1e707cf3413e756e05ce09cae29b22282e25bb9f8c045d596bed
 
 Package: kfreebsd-headers-9.0-2-xen
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 1016
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
 Provides: kfreebsd-headers, kfreebsd-headers-9
-Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.7)
+Depends: kfreebsd-headers-9.0-2 (= 9.0-10+deb70.8)
 Description: header files for kernel of FreeBSD 9.0
 Description-md5: ce822b557443d1c6b897e004fa8ac554
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-xen_9.0-10+deb70.7_i386.deb
-Size: 229186
-MD5sum: 1a184ba2234c132751194b710fdfbafd
-SHA1: 83c5567ea5fbcd00333bc75b4dd8479796402d03
-SHA256: c7bb284fdb3924119fb52e800d57ce5bf8b3513da2416c987ea087605b83090d
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-headers-9.0-2-xen_9.0-10+deb70.8_i386.deb
+Size: 229312
+MD5sum: 29ac66900bf5be6572297d1e22346ab4
+SHA1: 6f5413fe4a9ce9e81fd5a365d984555460cd3c72
+SHA256: 9010bb5be78aaf56618ec68b9c02063f1ecb7c6628bd1dde50a014765d6ba0c7
 
 Package: kfreebsd-image-9-486
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10174,15 +10174,15 @@ Description: kernel of FreeBSD 9 image (meta-package)
 Description-md5: b6fb3f9c009b1da195b1a3117a8aa763
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-486_9.0-10+deb70.7_i386.deb
-Size: 51128
-MD5sum: 698a6cf40029e4e7f83bff73d7d74bdc
-SHA1: 732a402b02a4d8e961752553358db5ed85dcf9ea
-SHA256: def8fb80a5ba0024468f263484902efd589c1701a17078bcdf4c976bc8531344
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-486_9.0-10+deb70.8_i386.deb
+Size: 51238
+MD5sum: a0250c558a490554815beee53a27fdd0
+SHA1: f134b14d9ee0030c2b8cb0d9853740c3ace69c1e
+SHA256: cce56b1898b2458222dbdc75e696d1a0169359a4a4c83ec68a4180218eca219e
 
 Package: kfreebsd-image-9-686
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10191,15 +10191,15 @@ Description: kernel of FreeBSD 9 image (meta-package)
 Description-md5: 746a9170156ceacfaacacc2676c993e2
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-686_9.0-10+deb70.7_i386.deb
-Size: 51128
-MD5sum: f6cc1aa23e85b5f0b1c0fdf5f2592d30
-SHA1: a56e8dddbf21efc19f46b25391314e6ae062f3c8
-SHA256: bb31cfdccfe7e68b3b08a654beef2e74bc01c42aa4d9ad82d3f987b81e5383e3
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-686_9.0-10+deb70.8_i386.deb
+Size: 51236
+MD5sum: 8ac6fc11ac2cf019683e41c43c682467
+SHA1: d937a8f00417c455f7591cd20f0d04923f45edc8
+SHA256: 116431026722ef5b761f65eb5d126b5db816c9844af72b42e468f2d969c67309
 
 Package: kfreebsd-image-9-686-smp
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10208,15 +10208,15 @@ Description: kernel of FreeBSD 9 (transitional package)
 Description-md5: de2cc2d811bff0e603a3bdf59c4fd119
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-686-smp_9.0-10+deb70.7_i386.deb
-Size: 51132
-MD5sum: 8ca15a0fab419bed2063b4406a63e144
-SHA1: 8d1ebb7352d1028f6b6dc09a0587f053910e8d46
-SHA256: 92177476f69e4600ae0bd11806c6adaf0e96d5f7c55b6a0cbb6e520087050535
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-686-smp_9.0-10+deb70.8_i386.deb
+Size: 51240
+MD5sum: 8bbb8c1551f2b0515ac6ef1825153f12
+SHA1: e2fa8dc10167cbdac1247aa85e4493a42a376d75
+SHA256: e919696570ddc83b0a5ccd121e1cda52b1471e454cf9704003ca618ec8ac42b3
 
 Package: kfreebsd-image-9-xen
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10225,16 +10225,16 @@ Description: kernel of FreeBSD 9 image (meta-package)
 Description-md5: d49c6dac913bd8aa29453e88a9626aba
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-xen_9.0-10+deb70.7_i386.deb
-Size: 51128
-MD5sum: fc63834ff3708174e1d874e89e2e88d3
-SHA1: 2dc7ad603293eb362224aa22910f5fbc3cd64437
-SHA256: f2749f0ab1c01c24e9df7f7d8ac293828eec58ab08aab0018abadcc8e8ce81d3
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9-xen_9.0-10+deb70.8_i386.deb
+Size: 51240
+MD5sum: 521a843298fe9bca22f69b03d5804cfe
+SHA1: 8cab9b3cc15951c3047b3401de987eb65717c2fc
+SHA256: 22a97955cbc96314286789383b3cd77979017970e9f9c90085702c4c81e0fc83
 
 Package: kfreebsd-image-9.0-2-486
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
-Installed-Size: 31536
+Version: 9.0-10+deb70.8
+Installed-Size: 31351
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
 Provides: kfreebsd-image, kfreebsd-image-9
@@ -10243,16 +10243,16 @@ Description: kernel of FreeBSD 9.0 image
 Description-md5: 48ef534b68311aac6651489c09a69c13
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-486_9.0-10+deb70.7_i386.deb
-Size: 15386494
-MD5sum: 9381a4f0e35b1875f3f426ef8dccbe5e
-SHA1: b0155475b79c6f3db94b6d32a2469548b21e2d73
-SHA256: fcc2de084a2ffc6a3c10196cc35ceccf504b469e76714b0fdc0d64d4eba5771c
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-486_9.0-10+deb70.8_i386.deb
+Size: 15197508
+MD5sum: 3e94df77c6eb6ed18329dca437a884fd
+SHA1: 12ad29825b3f4185cc25b527c87e7a455c251a37
+SHA256: b1bda8edd7ff98f3eaf858810332edcad57f3b053392e99d56e003da548d3ee4
 
 Package: kfreebsd-image-9.0-2-686
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
-Installed-Size: 31619
+Version: 9.0-10+deb70.8
+Installed-Size: 31430
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
 Provides: kfreebsd-image, kfreebsd-image-9
@@ -10262,15 +10262,15 @@ Description-md5: 8973dfc1d2479413b01ffcb19c8c68bc
 Recommends: libc0.1-i686
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-686_9.0-10+deb70.7_i386.deb
-Size: 15470868
-MD5sum: 57859b074b6cd1f953fa19cdbfa39f5f
-SHA1: bac1bda69a42072c6924f0c89073532e880864fb
-SHA256: 0860518beb37f9149d7f2b5d1a1dc8f8cda61a38db786270729c83d5aad402c7
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-686_9.0-10+deb70.8_i386.deb
+Size: 15277148
+MD5sum: 5ed4323f364c61df255333ee9f8e4929
+SHA1: eeed3bff785bca4a9083fd382a7a2427a1b4fa46
+SHA256: ed802f59e9eca8dac75592d9dd1728e23289026e972010d6c8896b1972c7c785
 
 Package: kfreebsd-image-9.0-2-686-smp
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 158
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10279,15 +10279,15 @@ Description: kernel of FreeBSD 9.0 (transitional package)
 Description-md5: ecde387bb8306b65561d18f3249a3c12
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-686-smp_9.0-10+deb70.7_i386.deb
-Size: 51140
-MD5sum: 1d8760aa2ef0f48dbe09061baaa2c2a5
-SHA1: bc5cc53cdf33e7a2368510dd4be30120ef3b965b
-SHA256: 0d1d81304b0d63e20d3069aafa6519f385a468d3ea2969994b5b8b534591e682
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-686-smp_9.0-10+deb70.8_i386.deb
+Size: 51250
+MD5sum: 99bbbb370d5c736f0d055163067128a7
+SHA1: aa023c22e8ee694d17e3bc61167e748650105113
+SHA256: 2e85be1baa637e8c7be3722c5f4078148b2149a8b4094d4e57bf0242e1f386b1
 
 Package: kfreebsd-image-9.0-2-xen
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Installed-Size: 26101
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: i386
@@ -10298,16 +10298,16 @@ Description-md5: d74bdb17b3cfbcadc7694f999f2ec385
 Recommends: libc0.1-i686
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-xen_9.0-10+deb70.7_i386.deb
-Size: 11537434
-MD5sum: c2bf6f77af07338905b35d5289024e8b
-SHA1: c9f22f579e7d06c1e54bbcd6d61832856bd7d20c
-SHA256: df063ea6816f3db5c62befff187050bb1707d7f755d4b32054b4622839821108
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-image-9.0-2-xen_9.0-10+deb70.8_i386.deb
+Size: 11537182
+MD5sum: 754da4882736b8e5ac8481658f5ff5bd
+SHA1: 682ffd5838b8783cb5ec22a2714b7ea4c215d951
+SHA256: 720845c33bca5cc7651cac4e9846c3477d3d1c6b3099d9c98275fdfb9ad717a8
 
 Package: kfreebsd-source-9.0
 Source: kfreebsd-9
-Version: 9.0-10+deb70.7
-Installed-Size: 21423
+Version: 9.0-10+deb70.8
+Installed-Size: 21516
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Architecture: all
 Provides: kfreebsd-source, kfreebsd-source-9
@@ -10316,11 +10316,69 @@ Description-md5: 81aa64b8012b04a88fc72524d9eb22c6
 Recommends: freebsd-buildutils (>= 7)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-source-9.0_9.0-10+deb70.7_all.deb
-Size: 21835314
-MD5sum: 5b5bc805b1705b1800250cc351586bde
-SHA1: 52c460b74d71f0b23328cd1033cce00d110e6b2b
-SHA256: 553a87a8425aac8a55f6fc3e32ee7b285f49c6e3f9a86f8973980b1936604a01
+Filename: pool/updates/main/k/kfreebsd-9/kfreebsd-source-9.0_9.0-10+deb70.8_all.deb
+Size: 21931456
+MD5sum: dd4f8f22620112524a5cb212a10f7293
+SHA1: 43ef732ff746c6b49a30307cb6369e5f491d96f9
+SHA256: 7c85f7880949f53c4d65261171255b1c1a2fb49c298b6d75234e9dc98a51d494
+
+Package: konversation
+Version: 1.4-1+deb7u1
+Installed-Size: 2747
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Architecture: i386
+Provides: irc
+Depends: kde-runtime, kdepim-runtime, libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libkabc4 (>= 4:4.4.3), libkde3support4 (>= 4:4.4.3), libkdecore5 (>= 4:4.5.85), libkdeui5 (>= 4:4.5.85), libkemoticons4 (>= 4:4.4.95), libkidletime4 (>= 4:4.4.95), libkio5 (>= 4:4.5.85), libknotifyconfig4 (>= 4:4.4.3), libkparts4 (>= 4:4.4.3), libkresources4 (>= 4:4.4.3), libnepomuk4 (>= 4:4.4.3), libnepomukutils4 (>= 4:4.5.85), libphonon4 (>= 4:4.2.0), libqca2 (>= 2.0.2), libqt4-dbus (>= 4:4.7), libqt4-network (>= 4:4.7), libqt4-qt3support (>= 4:4.7), libqt4-svg (>= 4:4.7), libqt4-xml (>= 4:4.7), libqtcore4 (>= 4:4.8.0), libqtgui4 (>= 4:4.8.0), libsolid4 (>= 4:4.4.3), libsoprano4 (>= 2.1.1), libstdc++6 (>= 4.1.1), phonon, konversation-data (= 1.4-1+deb7u1)
+Description: user friendly Internet Relay Chat (IRC) client for KDE
+Homepage: http://konversation.kde.org/
+Description-md5: 529965a53c80f878568781c6a205d5f5
+Section: kde
+Priority: optional
+Filename: pool/updates/main/k/konversation/konversation_1.4-1+deb7u1_i386.deb
+Size: 976016
+MD5sum: 5bfe6535c099057090ec85e04e6704dc
+SHA1: 883071018331367acc979c22b224e186bc79f6b1
+SHA256: b52d46304e23247b3949d75034b0b1e934f35e55824a77f0c417520aee39c3ec
+
+Package: konversation-data
+Source: konversation
+Version: 1.4-1+deb7u1
+Installed-Size: 9323
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Architecture: all
+Replaces: konversation (<< 1.3~beta1-2)
+Depends: perl
+Breaks: konversation (<< 1.3~beta1-2)
+Description: data files for Konversation
+Homepage: http://konversation.kde.org/
+Description-md5: 7369d26a3107009420b36ca948e10205
+Recommends: konversation (>= 1.4-1+deb7u1), python
+Section: net
+Priority: optional
+Filename: pool/updates/main/k/konversation/konversation-data_1.4-1+deb7u1_all.deb
+Size: 4082470
+MD5sum: 0e3be6d5b12d8f4efad033b80bc00f90
+SHA1: 16bb34c97e0904e21ab697944c079cf2e045de6b
+SHA256: f6481597bb256a08e01e39a4fe321d1a8f99fa5196f125eedd6aadef144945f1
+
+Package: konversation-dbg
+Source: konversation
+Version: 1.4-1+deb7u1
+Installed-Size: 936
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Architecture: i386
+Depends: konversation (= 1.4-1+deb7u1)
+Description: debugging symbols for Konversation
+Homepage: http://konversation.kde.org/
+Description-md5: 3aaa117252cc4bc5d229d83319712e35
+Recommends: kdelibs5-dbg
+Section: kde
+Priority: extra
+Filename: pool/updates/main/k/konversation/konversation-dbg_1.4-1+deb7u1_i386.deb
+Size: 305112
+MD5sum: f49da3e27408ed30280f8f5f08e71731
+SHA1: 30d3e1046ea9b236f471569a002489d27bc3cc8a
+SHA256: 7ebf473d4be5f6f7269639af11cc2666f6fd774f7c2c754f77018527a7511188
 
 Package: krb5-admin-server
 Source: krb5

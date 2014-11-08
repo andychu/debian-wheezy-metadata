@@ -489,7 +489,7 @@ Section: net
 
 Package: curl
 Binary: curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg
-Version: 7.26.0-1+wheezy10
+Version: 7.26.0-1+wheezy11
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Luk Claes <luk@debian.org>
 Build-Depends: debhelper (>= 9), autoconf, automake1.9, groff-base, libgcrypt11-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev (>= 1.2), libssl-dev, libtool, openssh-server, quilt, stunnel4, zlib1g-dev
@@ -497,19 +497,19 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 81e96a8508075e2938bf0dee3e8cff5c 2518 curl_7.26.0-1+wheezy10.dsc
+ 5a01072dc02273483331f3aa3727c55c 2518 curl_7.26.0-1+wheezy11.dsc
  3fa4d5236f2a36ca5c3af6715e837691 3073624 curl_7.26.0.orig.tar.gz
- 5b2de032c65c109854d33113d3030465 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
+ a543c19f1fabb6cab468e103cd7dc21f 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/curl.git
 Vcs-Git: git://git.debian.org/collab-maint/curl.git
 Checksums-Sha1:
- 248b3caf360d0db709362cdb796459dc7021278e 2518 curl_7.26.0-1+wheezy10.dsc
+ ba4a742a95288143fe0196b83f42e21570ab949f 2518 curl_7.26.0-1+wheezy11.dsc
  66e1fd0312f62374b96fe02e644f66202fd6324b 3073624 curl_7.26.0.orig.tar.gz
- 906c9e1ac5caebb4b365b2b290f6757a3eb33cc1 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
+ d22fb4e6f6121e3d7e1ece33219dc4a37f53a994 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
 Checksums-Sha256:
- 3f71bd7c140dbf43cebdc0b132eb9a70389602fb8ca3baf385a4b0590de30302 2518 curl_7.26.0-1+wheezy10.dsc
+ 73a9d74113266c241a8e0c0c81ce9262000e59bb66bd1a6fb04adff90370b24d 2518 curl_7.26.0-1+wheezy11.dsc
  79ccce9edb8aee17d20ad4d75e1f83a789f8c2e71e68f468e1bf8abf8933193f 3073624 curl_7.26.0.orig.tar.gz
- e62e1100d9e2c425a980e582b96469aa2aaca9b90544471fdf7c621bf2758575 37222 curl_7.26.0-1+wheezy10.debian.tar.gz
+ 360ca167f441e1655396a366cf22f0688c108725a666b68d92c2b0150a5b4c0b 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
 Homepage: http://curl.haxx.se
 Build-Conflicts: autoconf2.13, automake1.4
 Package-List: 
@@ -3382,7 +3382,7 @@ Binary: kfreebsd-source-9.0, kfreebsd-headers-9.0-2, kfreebsd-image-9.0-2-686-sm
  nullfs-modules-9.0-2-amd64-di, md-modules-9.0-2-amd64-di, parport-modules-9.0-2-amd64-di, sata-modules-9.0-2-amd64-di, acpi-modules-9.0-2-amd64-di, i2c-modules-9.0-2-amd64-di, crypto-modules-9.0-2-amd64-di, crypto-dm-modules-9.0-2-amd64-di, mmc-core-modules-9.0-2-amd64-di, mmc-modules-9.0-2-amd64-di, sound-modules-9.0-2-amd64-di, zlib-modules-9.0-2-amd64-di, kfreebsd-image-9.0-2-486, kfreebsd-image-9-486, kfreebsd-headers-9.0-2-486, kfreebsd-headers-9-486, kfreebsd-image-9.0-2-686, kfreebsd-image-9-686, kfreebsd-headers-9.0-2-686, kfreebsd-headers-9-686, kfreebsd-image-9.0-2-xen, kfreebsd-image-9-xen, kfreebsd-headers-9.0-2-xen, kfreebsd-headers-9-xen, kernel-image-9.0-2-486-di, nic-modules-9.0-2-486-di, nic-wireless-modules-9.0-2-486-di, nic-shared-modules-9.0-2-486-di, serial-modules-9.0-2-486-di, ppp-modules-9.0-2-486-di, cdrom-modules-9.0-2-486-di, scsi-core-modules-9.0-2-486-di, scsi-modules-9.0-2-486-di, scsi-extra-modules-9.0-2-486-di,
  plip-modules-9.0-2-486-di, floppy-modules-9.0-2-486-di, loop-modules-9.0-2-486-di, ipv6-modules-9.0-2-486-di, nls-core-modules-9.0-2-486-di, ext2-modules-9.0-2-486-di, isofs-modules-9.0-2-486-di, ntfs-modules-9.0-2-486-di, reiserfs-modules-9.0-2-486-di, xfs-modules-9.0-2-486-di, fat-modules-9.0-2-486-di, zfs-modules-9.0-2-486-di, nfs-modules-9.0-2-486-di, nullfs-modules-9.0-2-486-di, md-modules-9.0-2-486-di, parport-modules-9.0-2-486-di, sata-modules-9.0-2-486-di, acpi-modules-9.0-2-486-di, i2c-modules-9.0-2-486-di, crypto-modules-9.0-2-486-di, crypto-dm-modules-9.0-2-486-di, mmc-core-modules-9.0-2-486-di, mmc-modules-9.0-2-486-di, sound-modules-9.0-2-486-di, zlib-modules-9.0-2-486-di, kfreebsd-image-9.0-2-malta, kfreebsd-image-9-malta, kfreebsd-headers-9.0-2-malta,
  kfreebsd-headers-9-malta
-Version: 9.0-10+deb70.7
+Version: 9.0-10+deb70.8
 Maintainer: GNU/kFreeBSD Maintainers <debian-bsd@lists.debian.org>
 Uploaders: Aurelien Jarno <aurel32@debian.org>, Guillem Jover <guillem@debian.org>, Robert Millan <rmh@debian.org>
 Build-Depends: debhelper (>= 5.0.0), bzip2, sharutils, flex-old | flex, freebsd-buildutils (>= 9), gcc-4.6, libdb-dev, libbsd-dev (>= 0.3.0), pkg-config, libsbuf-dev, libsbuf-dev (>= 8.2-2) | kfreebsd-kernel-headers (<< 0.56), kernel-wedge (>= 2.79) [kfreebsd-any]
@@ -3390,18 +3390,18 @@ Architecture: any all
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 6f2e5da6a54593a186c38c87d69ea9a2 10191 kfreebsd-9_9.0-10+deb70.7.dsc
+ e696f77c3e8db21de704933dfd9f3933 10191 kfreebsd-9_9.0-10+deb70.8.dsc
  1389b5ec59a3f1f1eeb1ca65132eaacd 32919484 kfreebsd-9_9.0.orig.tar.gz
- 233c47c0ac053212baf75d83c9dd2cea 96321 kfreebsd-9_9.0-10+deb70.7.debian.tar.gz
+ c15ada4641681e0de00860aeae95a3eb 98579 kfreebsd-9_9.0-10+deb70.8.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/glibc-bsd/trunk/kfreebsd-9/
 Checksums-Sha1:
- 3ba38f270b6d269b01a485924537582a5f1d80ae 10191 kfreebsd-9_9.0-10+deb70.7.dsc
+ 7f298d40355ca630e896cb335de2945a3c00673c 10191 kfreebsd-9_9.0-10+deb70.8.dsc
  4c27e211e318120f36972695c6866a6fb28ef50d 32919484 kfreebsd-9_9.0.orig.tar.gz
- 9243e58d1dbfc03924f44f5b00d7698d66056279 96321 kfreebsd-9_9.0-10+deb70.7.debian.tar.gz
+ ddc449748423cbeeafe4ed4a3b6d1bdd4ecfe94e 98579 kfreebsd-9_9.0-10+deb70.8.debian.tar.gz
 Checksums-Sha256:
- bffcf68401809fe2e2d1062d6546a631dbb95f99f39925ee04b74855b95f0e2e 10191 kfreebsd-9_9.0-10+deb70.7.dsc
+ 00a0e18af93aad6a3e5619448fe1b757139416f6af767d18f821e582219a318e 10191 kfreebsd-9_9.0-10+deb70.8.dsc
  0af503103f128ce3745ed196a183460ba9ebafcfb63012f6571d47371619845c 32919484 kfreebsd-9_9.0.orig.tar.gz
- 13da272a3ac127bbd3844a94967f10fe115914911bd0b6f76902545e97a7705e 96321 kfreebsd-9_9.0-10+deb70.7.debian.tar.gz
+ 2ddff607609f5d5f88338c76cb58c66748a578cb01c643af76716aef43b48d47 98579 kfreebsd-9_9.0-10+deb70.8.debian.tar.gz
 Package-List: 
  acpi-modules-9.0-2-486-di udeb debian-installer extra
  acpi-modules-9.0-2-amd64-di udeb debian-installer extra
@@ -3503,6 +3503,38 @@ Vcs-Svn: svn://svn.debian.org/glibc-bsd/trunk/kfreebsd-9/
 Directory: pool/updates/main/k/kfreebsd-9
 Priority: source
 Section: kernel
+
+Package: konversation
+Binary: konversation, konversation-data, konversation-dbg
+Version: 1.4-1+deb7u1
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Modestas Vainius <modax@debian.org>
+Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.2), pkg-kde-tools (>= 0.5), libqt4-dev (>= 4:4.7), kdelibs5-dev (>= 4:4.4.3), kdepimlibs5-dev (>= 4:4.4.3), libqca2-dev
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 73bf6e9ec905f91681821c8d7834e897 2235 konversation_1.4-1+deb7u1.dsc
+ f67271f08b9da75dc9daff9ecbf3b365 2902368 konversation_1.4.orig.tar.xz
+ b81009912851d14ee1825826d31b32de 29702 konversation_1.4-1+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/konversation.git;a=summary
+Vcs-Git: git://git.debian.org/git/pkg-kde/kde-extras/konversation.git
+Checksums-Sha1:
+ 10a4b285550334c2130a8af7e99eef5158a71713 2235 konversation_1.4-1+deb7u1.dsc
+ 90741721f68a02d4345b9006a8ae53bc49ef3777 2902368 konversation_1.4.orig.tar.xz
+ 8b0250a0c0341804f2921430a143cee8c31b673a 29702 konversation_1.4-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ ed487c535b7e268befee76b6574d226ff1efa9bc72d91523fb81690e3b054582 2235 konversation_1.4-1+deb7u1.dsc
+ db4e605a27dd6012972aa4d2c07cd4736f9e6a68febb41a5d59f3614d6d21b0c 2902368 konversation_1.4.orig.tar.xz
+ 1c6ae9493ad039805204f444382b1177727905023eeaf8207e7be9b5e9c65cbf 29702 konversation_1.4-1+deb7u1.debian.tar.gz
+Homepage: http://konversation.kde.org/
+Package-List: 
+ konversation deb net optional
+ konversation-data deb net optional
+ konversation-dbg deb debug extra
+Directory: pool/updates/main/k/konversation
+Priority: source
+Section: kde
 
 Package: krb5
 Binary: krb5-user, krb5-kdc, krb5-kdc-ldap, krb5-admin-server, krb5-multidev, libkrb5-dev, libkrb5-dbg, krb5-pkinit, krb5-doc, libkrb5-3, libgssapi-krb5-2, libgssrpc4, libkadm5srv-mit8, libkadm5clnt-mit8, libk5crypto3, libkdb5-6, libkrb5support0, krb5-gss-samples, krb5-locales
@@ -9404,43 +9436,6 @@ Vcs-Bzr: http://bazaar.launchpad.net/~doko/python/pkg2.7-debian
 Directory: pool/updates/main/p/python2.7
 Priority: source
 Section: python
-
-Package: qemu
-Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
-Version: 1.1.2+dfsg-6a+deb7u4
-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
-Build-Depends: debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]
-Architecture: amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64 all
-Standards-Version: 3.9.3
-Format: 3.0 (quilt)
-Files:
- dc97eac69c5c1b2548af943b26ff565b 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
- e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- 3ae68603159e2acdd3028e082e95114d 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-qemu/qemu.git
-Vcs-Git: git://git.debian.org/git/pkg-qemu/qemu.git
-Checksums-Sha1:
- 75418972e5f851c7f2f2f97fd9fbbfc4cdf4f9e8 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
- 65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- 1a379a34bad6c0367455c250ea41bd9562420919 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
-Checksums-Sha256:
- 41175101b3ca819b13fd8fb43decbedc6d932243e7124d31b2242ce0234a6011 2631 qemu_1.1.2+dfsg-6a+deb7u4.dsc
- 8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- 9897dc09173d8b748616da8efb116e06068e93b30ef1386223bb5a2ba31a1d1e 99946 qemu_1.1.2+dfsg-6a+deb7u4.debian.tar.gz
-Homepage: http://www.qemu.org/
-Build-Conflicts: oss4-dev
-Dm-Upload-Allowed: yes
-Package-List: 
- qemu deb misc optional
- qemu-keymaps deb misc optional
- qemu-system deb misc optional
- qemu-user deb misc optional
- qemu-user-static deb misc optional
- qemu-utils deb misc optional
-Directory: pool/updates/main/q/qemu
-Priority: source
-Section: misc
 
 Package: qemu
 Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
