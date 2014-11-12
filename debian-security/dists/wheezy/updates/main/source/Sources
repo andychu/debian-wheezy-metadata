@@ -1051,7 +1051,7 @@ Section: net
 
 Package: file
 Binary: file, libmagic1, libmagic-dev, python-magic, python-magic-dbg
-Version: 5.11-2+deb7u5
+Version: 5.11-2+deb7u6
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Uploaders: Judit Foglszinger <fgrfgr@freenet.de>
 Build-Depends: debhelper (>= 9), autotools-dev, python, python-all-dev, python-all-dbg, zlib1g-dev
@@ -1059,17 +1059,17 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- d2939b304f711365e2d972e96e10a1c9 2016 file_5.11-2+deb7u5.dsc
+ a326b7a0af6c06bf703bae930302a292 1651 file_5.11-2+deb7u6.dsc
  8183e889f981708d45f8e57a2248101d 444104 file_5.11.orig.tar.xz
- 980efb079329264bc6a684d3a2e395da 30848 file_5.11-2+deb7u5.debian.tar.xz
+ 6f946b3acf8c52eb163cbf43b0328882 31236 file_5.11-2+deb7u6.debian.tar.xz
 Checksums-Sha1:
- 7feabd4d314217d7411950aeb2e0a1086e74ecd2 2016 file_5.11-2+deb7u5.dsc
+ 0c76da4deca01ce487d76061afa472b004725ead 1651 file_5.11-2+deb7u6.dsc
  d3a04293b110c971fced1d6f5818c45044b8855a 444104 file_5.11.orig.tar.xz
- 61020b046b3a78f03bad0450898b08b6e2778398 30848 file_5.11-2+deb7u5.debian.tar.xz
+ 85821f4ea66fbd0d3322f832ee9d654a9b728dca 31236 file_5.11-2+deb7u6.debian.tar.xz
 Checksums-Sha256:
- a19238fee31b9a7734acfece93664920893e8a0402c398455a97bef9cc52e52a 2016 file_5.11-2+deb7u5.dsc
+ fc1edaf1f80748f9ec2172ee3c131a26b8a879471e345fd9717f6b32a8a73fbd 1651 file_5.11-2+deb7u6.dsc
  4a7c047666cf54dce00f2c5a32a6379f94203e5c886fc294bab449c1a1ae286b 444104 file_5.11.orig.tar.xz
- d6727901fd1e9d1dc12ff71b55275380e018766d8775202583080664e9d56013 30848 file_5.11-2+deb7u5.debian.tar.xz
+ 02b1f65ffbf4cb024cf62876cd669c5f3ed056d4a3f28bc07e80f77bd4f037fd 31236 file_5.11-2+deb7u6.debian.tar.xz
 Homepage: http://www.darwinsys.com/file/
 Package-List: 
  file deb utils standard
@@ -8083,7 +8083,7 @@ Section: devel
 
 Package: nss
 Binary: libnss3, libnss3-1d, libnss3-tools, libnss3-dev, libnss3-dbg
-Version: 2:3.14.5-1+deb7u2
+Version: 2:3.14.5-1+deb7u3
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1.1~), libnspr4-dev (>= 2:4.9), zlib1g-dev, libsqlite3-dev (>= 3.3.9)
@@ -8091,19 +8091,19 @@ Architecture: any
 Standards-Version: 3.9.3.0
 Format: 3.0 (quilt)
 Files:
- bc55eb2d17ba204f4bfc10e2740202ce 1847 nss_3.14.5-1+deb7u2.dsc
+ c07fd9087292d2ac922f2219d016ca91 1847 nss_3.14.5-1+deb7u3.dsc
  73cf5c23206f7d333853aea697a0e7c9 6189507 nss_3.14.5.orig.tar.gz
- afa1858c88af8d0f135d3d09554a34d4 48052 nss_3.14.5-1+deb7u2.debian.tar.gz
+ 7d0a082d4fd609fbcb6eac4f897f1952 49042 nss_3.14.5-1+deb7u3.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-mozilla/nss.git
 Vcs-Git: git://git.debian.org/git/pkg-mozilla/nss.git
 Checksums-Sha1:
- 8fa7e58410ead6180dd0bedab549bca38d01ec08 1847 nss_3.14.5-1+deb7u2.dsc
+ 8dcf3b16db4ae189cbc5e0ef0c69a5266e2017c5 1847 nss_3.14.5-1+deb7u3.dsc
  d977d50bbd78c7cae520a57781c19c07927f5b7e 6189507 nss_3.14.5.orig.tar.gz
- 5747bae572e7a803f6ccae18b6e239ea0025b3d8 48052 nss_3.14.5-1+deb7u2.debian.tar.gz
+ e2b1d6c03bca782f703379ee62c24c599dc3fdaf 49042 nss_3.14.5-1+deb7u3.debian.tar.gz
 Checksums-Sha256:
- b0647c4a4dfe694c452e71dc84d3fcdadffb0fb0c3e37c90019a2cd31c24ad12 1847 nss_3.14.5-1+deb7u2.dsc
+ 1cd2c8d71c74114bc7d9f696a96bb9ee2f0e2179bfa99feb13df6b8f12960f85 1847 nss_3.14.5-1+deb7u3.dsc
  61f3493117483c85ef343fc7f22e1b3b7bff14580c632523d939eea8c5849216 6189507 nss_3.14.5.orig.tar.gz
- 6d0c03fc4a60338171b5be03b2123e5f7a652f24c46f235296500001557e435f 48052 nss_3.14.5-1+deb7u2.debian.tar.gz
+ 649fc7c628bd3b539d982e72342f02e006c8011a6d3cca9d1751ab12a750c633 49042 nss_3.14.5-1+deb7u3.debian.tar.gz
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Package-List: 
  libnss3 deb libs optional

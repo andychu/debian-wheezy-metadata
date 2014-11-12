@@ -3080,30 +3080,30 @@ SHA1: f77ee25d8ecc7b81f986f0630046785b21f0602d
 SHA256: 815b28ffdfcfbf0c8983facad46d54edffce63df2269ef9dc79b60886e747794
 
 Package: file
-Version: 5.11-2+deb7u5
-Installed-Size: 110
+Version: 5.11-2+deb7u6
+Installed-Size: 66
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u5), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u6), zlib1g (>= 1:1.1.4)
 Description: Determines file type using "magic" numbers
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 24356148df43e324f7cd0edfa5faa2fc
 Multi-Arch: foreign
 Section: utils
 Priority: standard
-Filename: pool/updates/main/f/file/file_5.11-2+deb7u5_amd64.deb
-Size: 52618
-MD5sum: 98dc1d7462324c10e7d6ff9dbcdd7043
-SHA1: 29d58ac2bfb8b2d88a28d2a6f9105f808bde740c
-SHA256: 5e36324019b554a89ab6b0e0b8f3668dcafc0c2fcbc3704c008e04c281fe5dc9
+Filename: pool/updates/main/f/file/file_5.11-2+deb7u6_amd64.deb
+Size: 52684
+MD5sum: 3028dac1848f41224530fcd713933ada
+SHA1: e239ae6b36f93942ed5c091c8cadb46e599f9fb2
+SHA256: 6eb52775efae49626cd39125915cda67e7678e3118e9e6d2fe21e44e2ac90adb
 
 Package: libmagic-dev
 Source: file
-Version: 5.11-2+deb7u5
-Installed-Size: 296
+Version: 5.11-2+deb7u6
+Installed-Size: 249
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: libmagic1 (= 5.11-2+deb7u5)
+Depends: libmagic1 (= 5.11-2+deb7u6)
 Suggests: file
 Description: File type determination library using "magic" numbers (development)
 Homepage: http://www.darwinsys.com/file/
@@ -3111,16 +3111,16 @@ Description-md5: 8dfdad924ca9981a019ce4d5e66307e2
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u5_amd64.deb
-Size: 92586
-MD5sum: 08465a952d4490c0dcf0614fa15738e7
-SHA1: dee4336a546bcdc0f3e0df0fb618acbac554eaaa
-SHA256: 7aa372d18ba51debfc507f968a2d2bec4e5a62978b241155ed3e62fea681df0a
+Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u6_amd64.deb
+Size: 92838
+MD5sum: 3be2c04d489772ac17ce249b84e90774
+SHA1: ee06dd10e8e30cbc186a97bfe20ec8d9182ce1a9
+SHA256: 2cc262f1e7d40eef11af96067ff754e36efc4d949e0de8248162dc536fc0fc46
 
 Package: libmagic1
 Source: file
-Version: 5.11-2+deb7u5
-Installed-Size: 2445
+Version: 5.11-2+deb7u6
+Installed-Size: 2382
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Depends: libc6 (>= 2.8), zlib1g (>= 1:1.1.4)
@@ -3132,49 +3132,49 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u5_amd64.deb
-Size: 203044
-MD5sum: 326be2b070033923aaa25034da9f827b
-SHA1: 906e6dd5ffcaa92c740562b241c3d049ad85ae37
-SHA256: ec74d556f44a4c873ed5b21916722b5aa24f1a03886da8a58259471415e0d593
+Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u6_amd64.deb
+Size: 203116
+MD5sum: 734cc81ff0ece85db87dfa1c4ad9de97
+SHA1: f2bf35cfbcc7f821db3ee4b7594810fc4550ce8f
+SHA256: ee9af5af43b1c92cb524b44bc18d05732c78132439e773fdbbeb61adb5482ad0
 
 Package: python-magic
 Source: file
-Version: 5.11-2+deb7u5
-Installed-Size: 96
+Version: 5.11-2+deb7u6
+Installed-Size: 45
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Provides: python2.6-magic, python2.7-magic
-Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u5)
+Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u6)
 Suggests: python-magic-dbg
 Description: File type determination library using "magic" numbers (Python bindings)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 37a8fb9ea793ad19a0727c04e12d8d60
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u5_amd64.deb
-Size: 39122
-MD5sum: f2308527ad9568ac55f508c587ae24f2
-SHA1: a5594c1b1bb045b5992cf3c65da69635a2c27016
-SHA256: 30d3bb7413e3f7df213093d8d2c8b34fc022ec6fe422f139c4774fb9ccd97a37
+Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u6_amd64.deb
+Size: 39198
+MD5sum: 6a0fe8672727f99bf79a7719dc42cdbb
+SHA1: 25ca4ce1e6bec3161cd703b9b03de242cb347b6d
+SHA256: d287ed9b08c2b318ed23e68e13126ec330e8b64e1122e464d44ba3aae8726ba4
 
 Package: python-magic-dbg
 Source: file
-Version: 5.11-2+deb7u5
-Installed-Size: 21
+Version: 5.11-2+deb7u6
+Installed-Size: 1
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: python-magic (= 5.11-2+deb7u5), python-dbg
+Depends: python-magic (= 5.11-2+deb7u6), python-dbg
 Description: File type determination library using "magic" numbers (Python bindings/debug)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 16fd3ce9f3b68865b15e220bc46db154
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u5_amd64.deb
+Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u6_amd64.deb
 Size: 942
-MD5sum: 0e8f5d9a7b366991afcc3b91a6499ac4
-SHA1: 29feb8b449cf5ff94441743bdc929a057386a5be
-SHA256: 1f8d5d76a0d7d495a4b86a589d64e3970a4b2389d872971b25400336aebcddb1
+MD5sum: edc8aa19340041b84bba6082563f7bf4
+SHA1: bd0855b880ea1f91efb1cbf8da848b47e88331d0
+SHA256: 6fde1616daad63b5fd18d0683c7330ddd927cd7c33ef77543f171b8d35af95f9
 
 Package: gimp
 Version: 2.8.2-2+deb7u1
@@ -17966,7 +17966,7 @@ SHA256: 896f0858d2ec1da1b76976c0bf9020cc72baad1caa36ff58d3fe8144b0e5fbc6
 
 Package: libnss3
 Source: nss
-Version: 2:3.14.5-1+deb7u2
+Version: 2:3.14.5-1+deb7u3
 Installed-Size: 3543
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -17979,73 +17979,73 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3_3.14.5-1+deb7u2_amd64.deb
-Size: 1061874
-MD5sum: fa7c1e805181158535712f6f71e7b89e
-SHA1: 448d27fcd8572a935f5405b86a40f9cd3d4cbaec
-SHA256: a27a2b3a3d5f1ee8bed723038eaf21912301f0c2f7177d6f0a7872747a08968b
+Filename: pool/updates/main/n/nss/libnss3_3.14.5-1+deb7u3_amd64.deb
+Size: 1061756
+MD5sum: d8a5c2c32304291b1e32ca7cd6e7a720
+SHA1: 62ae2c6c44697c03d7da6dc478c0ef3150bf4667
+SHA256: c30bf600f0bc8648e4d5ff7acd52f8878466fc56ec10a6f80b4a3faeb5321b7e
 
 Package: libnss3-1d
 Source: nss
-Version: 2:3.14.5-1+deb7u2
+Version: 2:3.14.5-1+deb7u3
 Installed-Size: 87
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libnss3 (= 2:3.14.5-1+deb7u2)
+Depends: libnss3 (= 2:3.14.5-1+deb7u3)
 Description: Network Security Service libraries - transitional package
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 063a04be3daa0aee83eb91fb2acc878e
 Multi-Arch: same
 Section: libs
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-1d_3.14.5-1+deb7u2_amd64.deb
-Size: 20366
-MD5sum: 7223a4cb2ec2125b3f974b8d1fb68922
-SHA1: 3f0925733b652e6ddc227d0444f4330c8960ce26
-SHA256: 2012adc7482762f12c50960ded706ff081cdf10558765a2d3f5e637a24032f0e
+Filename: pool/updates/main/n/nss/libnss3-1d_3.14.5-1+deb7u3_amd64.deb
+Size: 20382
+MD5sum: a1b947b6d1730d536b9882657d175ae7
+SHA1: b447bf986ae44ed494833d267e03ca0bec1e8452
+SHA256: 698f8c43bf897f3d22ddcefe95ce9d712e7bb96b927e7827f4fd49741553741a
 
 Package: libnss3-dbg
 Source: nss
-Version: 2:3.14.5-1+deb7u2
-Installed-Size: 5716
+Version: 2:3.14.5-1+deb7u3
+Installed-Size: 5712
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
 Provides: libnss3-1d-dbg
-Depends: libnss3 (= 2:3.14.5-1+deb7u2) | libnss3-tools (= 2:3.14.5-1+deb7u2)
-Conflicts: libnss3 (>> 2:3.14.5-1+deb7u2), libnss3 (<< 2:3.14.5-1+deb7u2), libnss3-tools (>> 2:3.14.5-1+deb7u2), libnss3-tools (<< 2:3.14.5-1+deb7u2)
+Depends: libnss3 (= 2:3.14.5-1+deb7u3) | libnss3-tools (= 2:3.14.5-1+deb7u3)
+Conflicts: libnss3 (>> 2:3.14.5-1+deb7u3), libnss3 (<< 2:3.14.5-1+deb7u3), libnss3-tools (>> 2:3.14.5-1+deb7u3), libnss3-tools (<< 2:3.14.5-1+deb7u3)
 Description: Debugging symbols for the Network Security Service libraries
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 2a6641a78d510ea21132933409ef387f
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/n/nss/libnss3-dbg_3.14.5-1+deb7u2_amd64.deb
-Size: 4839886
-MD5sum: 387067b9593b9853abb839c9b605e62d
-SHA1: 935321ad01a8ab5811376cf100dc21aabefc30fa
-SHA256: fb394c1d2374e57bee1b4610135d2880bfb0224fa327cb51d1e75d9679f1f4e0
+Filename: pool/updates/main/n/nss/libnss3-dbg_3.14.5-1+deb7u3_amd64.deb
+Size: 4839330
+MD5sum: e728ced00f352c7b214c66595675279b
+SHA1: 87566b2be1704fcf8d2998f30a7510b820030a02
+SHA256: 82434a5bef5defc39ef395ba2b76dbfa18579b94bf3376a142b2891172e1a76d
 
 Package: libnss3-dev
 Source: nss
-Version: 2:3.14.5-1+deb7u2
+Version: 2:3.14.5-1+deb7u3
 Installed-Size: 1204
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libnss3 (= 2:3.14.5-1+deb7u2), libnspr4-dev (>= 4.6.6-1)
+Depends: libnss3 (= 2:3.14.5-1+deb7u3), libnspr4-dev (>= 4.6.6-1)
 Description: Development files for the Network Security Service libraries
 Homepage: http://www.mozilla.org/projects/security/pki/nss/
 Description-md5: 04c0a8f989d299406710231d2a99043d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-dev_3.14.5-1+deb7u2_amd64.deb
-Size: 220354
-MD5sum: d5c0b29f030e9ece06961d18c6f29d5e
-SHA1: c1cba6f48efd84a2bcc1fa2a83e17cb75f7f5960
-SHA256: 653f0d16d29e5ff8a6f1a6c519cc75a83ea61124ffd2dcf21d8379eeab95e846
+Filename: pool/updates/main/n/nss/libnss3-dev_3.14.5-1+deb7u3_amd64.deb
+Size: 220286
+MD5sum: 02b610d278788fdf91510b818f11f6bb
+SHA1: ca12df1cd8bdc8ea01d417f6b83cbdaed0e0ed21
+SHA256: eb7d9064d5689f194351453d4c2757697194d8a12fb94470ed7c0d91044a1891
 
 Package: libnss3-tools
 Source: nss
-Version: 2:3.14.5-1+deb7u2
+Version: 2:3.14.5-1+deb7u3
 Installed-Size: 1056
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: amd64
@@ -18055,11 +18055,11 @@ Homepage: http://www.mozilla.org/projects/security/pki/nss/tools/
 Description-md5: 33cc2c7795e9ef6579f85eabb1dbee18
 Section: admin
 Priority: optional
-Filename: pool/updates/main/n/nss/libnss3-tools_3.14.5-1+deb7u2_amd64.deb
-Size: 228834
-MD5sum: fece5934e26a246ab530f953044a5bd2
-SHA1: 67a424a38b615227444102bc9787d58e311624a3
-SHA256: a7f6b5b2d1c05d4ed596fffcbba9358fdf3a2bf26111d9fc380e87ac24da73bf
+Filename: pool/updates/main/n/nss/libnss3-tools_3.14.5-1+deb7u3_amd64.deb
+Size: 228714
+MD5sum: 580c42281c91e3105215dbb64ff76113
+SHA1: 4e41f89bb9be7063063a0dd37d56f16caf88e301
+SHA256: 2d85cd6cab05b11a95784bdf70fba87c36865c61ca76da5c405665cdaa83d767
 
 Package: libafsauthent1
 Source: openafs
