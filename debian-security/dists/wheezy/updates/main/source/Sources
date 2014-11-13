@@ -2724,7 +2724,7 @@ Package: iceweasel
 Binary: iceweasel, iceweasel-dbg, iceweasel-dev, iceweasel-l10n-all, iceweasel-l10n-ach, iceweasel-l10n-af, iceweasel-l10n-an, iceweasel-l10n-ar, iceweasel-l10n-as, iceweasel-l10n-ast, iceweasel-l10n-be, iceweasel-l10n-bg, iceweasel-l10n-bn-bd, iceweasel-l10n-bn-in, iceweasel-l10n-br, iceweasel-l10n-bs, iceweasel-l10n-ca, iceweasel-l10n-cs, iceweasel-l10n-csb, iceweasel-l10n-cy, iceweasel-l10n-da, iceweasel-l10n-de, iceweasel-l10n-el, iceweasel-l10n-en-gb, iceweasel-l10n-en-za, iceweasel-l10n-eo, iceweasel-l10n-es-ar, iceweasel-l10n-es-cl, iceweasel-l10n-es-es, iceweasel-l10n-es-mx, iceweasel-l10n-et, iceweasel-l10n-eu, iceweasel-l10n-fa, iceweasel-l10n-ff, iceweasel-l10n-fi, iceweasel-l10n-fr, iceweasel-l10n-fy-nl, iceweasel-l10n-ga-ie, iceweasel-l10n-gd, iceweasel-l10n-gl, iceweasel-l10n-gu-in, iceweasel-l10n-he, iceweasel-l10n-hi-in, iceweasel-l10n-hr, iceweasel-l10n-hsb, iceweasel-l10n-hu, iceweasel-l10n-hy-am, iceweasel-l10n-id, iceweasel-l10n-is, iceweasel-l10n-it,
  iceweasel-l10n-ja, iceweasel-l10n-kk, iceweasel-l10n-km, iceweasel-l10n-kn, iceweasel-l10n-ko, iceweasel-l10n-ku, iceweasel-l10n-lij, iceweasel-l10n-lt, iceweasel-l10n-lv, iceweasel-l10n-mai, iceweasel-l10n-mk, iceweasel-l10n-ml, iceweasel-l10n-mr, iceweasel-l10n-ms, iceweasel-l10n-nb-no, iceweasel-l10n-nl, iceweasel-l10n-nn-no, iceweasel-l10n-or, iceweasel-l10n-pa-in, iceweasel-l10n-pl, iceweasel-l10n-pt-br, iceweasel-l10n-pt-pt, iceweasel-l10n-rm, iceweasel-l10n-ro, iceweasel-l10n-ru, iceweasel-l10n-si, iceweasel-l10n-sk, iceweasel-l10n-sl, iceweasel-l10n-son, iceweasel-l10n-sq, iceweasel-l10n-sr, iceweasel-l10n-sv-se, iceweasel-l10n-ta, iceweasel-l10n-te, iceweasel-l10n-th, iceweasel-l10n-tr, iceweasel-l10n-uk, iceweasel-l10n-vi, iceweasel-l10n-xh, iceweasel-l10n-zh-cn, iceweasel-l10n-zh-tw,
  iceweasel-l10n-zu
-Version: 31.2.0esr-2~deb7u1
+Version: 31.2.0esr-3~deb7u1
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Uploaders: Mike Hommey <glandium@debian.org>
 Build-Depends: autotools-dev, debhelper (>= 7.2.3), autoconf2.13, libx11-dev, libxt-dev, libgtk2.0-dev (>= 2.10), libglib2.0-dev (>= 2.16.0), libstartup-notification0-dev, libgnomevfs2-dev, libgnome2-dev, libgnomeui-dev, libjpeg-dev, zlib1g-dev, libbz2-dev, libreadline-dev | libreadline5-dev, python2.7, python-minimal (>= 2.6.6-13~), python-ply, dpkg-dev (>= 1.16.1.1~), libhunspell-dev (>= 1.2), libdbus-glib-1-dev, libasound2-dev [linux-any], libiw-dev [linux-any], libnotify-dev, libffi-dev, libevent-dev (>= 1.4.1), mesa-common-dev, libgstreamer0.10-dev, libgstreamer-plugins-base0.10-dev, libpulse-dev, yasm (>= 1.1), zip, unzip, locales, xvfb, xfonts-base, xauth, ttf-bitstream-vera, fonts-freefont-ttf | ttf-freefont, fonts-dejima-mincho | ttf-dejima-mincho, imagemagick, librsvg2-bin, xsltproc, iso-codes
@@ -2732,7 +2732,7 @@ Architecture: any all
 Standards-Version: 3.9.2.0
 Format: 3.0 (quilt)
 Files:
- 9e4d8d0924d138885d7d704e6a7f494f 34517 iceweasel_31.2.0esr-2~deb7u1.dsc
+ 7cb05e92ec4db9b1d306c3fec62966ec 34517 iceweasel_31.2.0esr-3~deb7u1.dsc
  80dd4a702302fb36719c67445b487895 29270 iceweasel_31.2.0esr.orig-compare-locales.tar.bz2
  c99d7605c0e0bb0d77e71cd54f305a9a 161923 iceweasel_31.2.0esr.orig-l10n-ach.tar.bz2
  6af6ef4d1c5d5514d909164e8886f98c 280911 iceweasel_31.2.0esr.orig-l10n-af.tar.bz2
@@ -2823,11 +2823,11 @@ Files:
  978a3220b0498f603d168110c7603dee 727215 iceweasel_31.2.0esr.orig-l10n-zh-TW.tar.bz2
  1ddf17214711d42e3622fc2d863c9889 246459 iceweasel_31.2.0esr.orig-l10n-zu.tar.bz2
  26b5faacf09ed489ca16087961ae95e2 146794095 iceweasel_31.2.0esr.orig.tar.bz2
- a889426f3d76b42f2fd66b4afcd88edc 238517 iceweasel_31.2.0esr-2~deb7u1.debian.tar.gz
+ df4cc36dda696b95d8f45675bdd1b484 250745 iceweasel_31.2.0esr-3~deb7u1.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-mozilla/iceweasel.git
 Vcs-Git: git://git.debian.org/git/pkg-mozilla/iceweasel.git
 Checksums-Sha1:
- fbae112fd903bf74e53f7b353143935ffc042b6a 34517 iceweasel_31.2.0esr-2~deb7u1.dsc
+ b601e8a8d0725d336a304ba53ac32576be26fcd7 34517 iceweasel_31.2.0esr-3~deb7u1.dsc
  54bc15e01fb8d0d8cbab79b92a9288fdc90619c8 29270 iceweasel_31.2.0esr.orig-compare-locales.tar.bz2
  a152e5e0f799cb2f4e57141e1d87c82780896f1a 161923 iceweasel_31.2.0esr.orig-l10n-ach.tar.bz2
  f30d505cba7ca4a7955547c888179a26e82083e3 280911 iceweasel_31.2.0esr.orig-l10n-af.tar.bz2
@@ -2918,9 +2918,9 @@ Checksums-Sha1:
  b5d7b4c3c79ba1adb79b8c67e08b9664db263014 727215 iceweasel_31.2.0esr.orig-l10n-zh-TW.tar.bz2
  2633d5a7f07995375ccd966a1b6365c9d2cd4e66 246459 iceweasel_31.2.0esr.orig-l10n-zu.tar.bz2
  cc2ac964a9c6458a6b60c2a5bfb3c318f86fe23d 146794095 iceweasel_31.2.0esr.orig.tar.bz2
- 3ef6b2c6e7063927756864e8de5b6a254e658d33 238517 iceweasel_31.2.0esr-2~deb7u1.debian.tar.gz
+ 6763b121fef4db9955d7de3194d497e33a60f654 250745 iceweasel_31.2.0esr-3~deb7u1.debian.tar.gz
 Checksums-Sha256:
- 3d7209decbc8d051f7de8c1657e336c83b4a3baafb8831aaa57830ef434913a2 34517 iceweasel_31.2.0esr-2~deb7u1.dsc
+ f399b1f3336c7495c35dfebf55ea19ba9d4e44ece89f740ca17d6a558dbfffbe 34517 iceweasel_31.2.0esr-3~deb7u1.dsc
  e68159fc14c58466e1fc9fbce172b19eb927c03c45650566dc34c16fd2eaf5f2 29270 iceweasel_31.2.0esr.orig-compare-locales.tar.bz2
  bbc68ed571b3c222b079611031f86ef9c0e500acb8078113844d3bd174f9e36c 161923 iceweasel_31.2.0esr.orig-l10n-ach.tar.bz2
  1ce8301529bbd542e5dcb9fb017e3dd8dd494467448ac1e9421f0d309af8f772 280911 iceweasel_31.2.0esr.orig-l10n-af.tar.bz2
@@ -3011,7 +3011,7 @@ Checksums-Sha256:
  6811a89b79f21abcd0d95ec5ca732c9e93d1d6ac23ea7c362f7827a8cc29bc69 727215 iceweasel_31.2.0esr.orig-l10n-zh-TW.tar.bz2
  e85fa1f406509803ab7a27216a6089acb10270b4bc68e12929db9f85c2082bb8 246459 iceweasel_31.2.0esr.orig-l10n-zu.tar.bz2
  744f807efff83b9d06b29f870db5ad9b2ac5bdccb3101c82d27c44148c9b06c1 146794095 iceweasel_31.2.0esr.orig.tar.bz2
- ed1b046f812946a1a5ca4cb6f7edc830ba52026c412b458a0a29c23896b2e75d 238517 iceweasel_31.2.0esr-2~deb7u1.debian.tar.gz
+ c3459498f6d7563984084257695297db6d6fea3ebf2a2184dbb8ed59992419be 250745 iceweasel_31.2.0esr-3~deb7u1.debian.tar.gz
 Build-Conflicts: graphicsmagick-imagemagick-compat, libhildonmime-dev, liboss4-salsa-dev, libosso-dev
 Package-List: 
  iceweasel deb web optional
