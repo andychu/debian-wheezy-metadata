@@ -3833,7 +3833,7 @@ Section: libs
 
 Package: libgcrypt11
 Binary: libgcrypt11-doc, libgcrypt11-dev, libgcrypt11-dbg, libgcrypt11, libgcrypt11-udeb
-Version: 1.5.0-5+deb7u1
+Version: 1.5.0-5+deb7u2
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Uploaders: Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Simon Josefsson <simon@josefsson.org>
 Build-Depends: debhelper (>> 8.1.3), texlive-latex-base, texlive-generic-recommended, texinfo (>= 4.6-0), cdbs (>= 0.4.93), libgpg-error-dev (>> 1.10-0.1), autotools-dev
@@ -3841,18 +3841,18 @@ Architecture: any all
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 401e2678512ad45fba1f146323462885 1856 libgcrypt11_1.5.0-5+deb7u1.dsc
+ 5e37c6a0ccc9d3ec4b22a8ab9b885c08 2474 libgcrypt11_1.5.0-5+deb7u2.dsc
  693f9c64d50c908bc4d6e01da3ff76d8 1433506 libgcrypt11_1.5.0.orig.tar.bz2
- cbf3d237f5e1cc762cd0270ed1d78940 20028 libgcrypt11_1.5.0-5+deb7u1.debian.tar.gz
+ 7ae3811b6631fcc391b816898e30ffa5 25046 libgcrypt11_1.5.0-5+deb7u2.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnutls/packages/libgcrypt11/trunk/
 Checksums-Sha1:
- 79b09cc8428d5e71441b134f5d6ad3b004835c21 1856 libgcrypt11_1.5.0-5+deb7u1.dsc
+ 2f08341b731c1c9cc1c5c8c5458c5294a0004d37 2474 libgcrypt11_1.5.0-5+deb7u2.dsc
  3e776d44375dc1a710560b98ae8437d5da6e32cf 1433506 libgcrypt11_1.5.0.orig.tar.bz2
- 0119c81f9ae77ca0766ec9b6a8d4b899e4e089e5 20028 libgcrypt11_1.5.0-5+deb7u1.debian.tar.gz
+ 357f85a6259863f01fac71253507d8bafb57c4ef 25046 libgcrypt11_1.5.0-5+deb7u2.debian.tar.gz
 Checksums-Sha256:
- b5c1fd9ff63f941801d913ad556abd34c7113ff6de8594a6d8fd17e56f28f932 1856 libgcrypt11_1.5.0-5+deb7u1.dsc
+ 10abddd5fc1f112cf28135479503805179bb03c7da577744cecbda5be490d524 2474 libgcrypt11_1.5.0-5+deb7u2.dsc
  4b62fc516004940a0571025401a0581d49199f1a76dfb5ce6fd63f50db8173fa 1433506 libgcrypt11_1.5.0.orig.tar.bz2
- d444b3956f1699df631e5d45540a40d566759c6da10cc064c0d34f6a872db7ca 20028 libgcrypt11_1.5.0-5+deb7u1.debian.tar.gz
+ 1a95ebe16003cf9eeb430d1e0af645e647bdfc0d6eadc04d2cf7f663cef14f99 25046 libgcrypt11_1.5.0-5+deb7u2.debian.tar.gz
 Homepage: http://directory.fsf.org/project/libgcrypt/
 Package-List: 
  libgcrypt11 deb libs standard

@@ -11591,7 +11591,7 @@ SHA1: 695e1461943c141ae27020a6b5186e7fe0633cbf
 SHA256: 85f772667e1987282fd2e638a4e086b49254d2dec10b1eafbba413b162e392b4
 
 Package: libgcrypt11
-Version: 1.5.0-5+deb7u1
+Version: 1.5.0-5+deb7u2
 Installed-Size: 611
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: i386
@@ -11605,38 +11605,38 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: important
-Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u1_i386.deb
-Size: 299970
-MD5sum: f8d73191e15de482c3ce13aebf232d78
-SHA1: 8492b63273a57733c140dd92dc1557e2539b3c45
-SHA256: b0148ca80eadc403a65148442c9adb645a22888f19d769191e5a5b87692ee4d1
+Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u2_i386.deb
+Size: 300832
+MD5sum: fe58a49a356feaee99bdcd4beb1a10ab
+SHA1: 4977a615a478da69185a7a0552fe976584638b16
+SHA256: 74cce9cdc991022a7ce38d29d8888e384138c0514932cc476214a7d37b3f9681
 
 Package: libgcrypt11-dbg
 Source: libgcrypt11
-Version: 1.5.0-5+deb7u1
-Installed-Size: 3154
+Version: 1.5.0-5+deb7u2
+Installed-Size: 3166
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libgcrypt11 (= 1.5.0-5+deb7u1)
+Depends: libgcrypt11 (= 1.5.0-5+deb7u2)
 Description: LGPL Crypto library - debugger files
 Homepage: http://directory.fsf.org/project/libgcrypt/
 Description-md5: d0c2889809cdebe2f49692f3ed25fdc7
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-dbg_1.5.0-5+deb7u1_i386.deb
-Size: 1154126
-MD5sum: a4924dabe83bef05beaee7e71c75b280
-SHA1: 2707840337e58dc0b27a53849b30d964714a8def
-SHA256: 5c02831f4be2c0f1540a727e40c13420c04485f9642b7d4d647c32002362f862
+Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-dbg_1.5.0-5+deb7u2_i386.deb
+Size: 1157426
+MD5sum: 4179ea948732e150424d8ade7884be53
+SHA1: c4809949b2b69552698a580309d6f298ae34beda
+SHA256: 73606cab614cdb8a5be755ca9d5360c56ba606a36ad7a28c36636dfe93fe3b31
 
 Package: libgcrypt11-dev
 Source: libgcrypt11
-Version: 1.5.0-5+deb7u1
-Installed-Size: 1004
+Version: 1.5.0-5+deb7u2
+Installed-Size: 1006
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: libgcrypt-dev
-Depends: libgcrypt11 (= 1.5.0-5+deb7u1), libc6-dev | libc-dev, libgpg-error-dev
+Depends: libgcrypt11 (= 1.5.0-5+deb7u2), libc6-dev | libc-dev, libgpg-error-dev
 Suggests: libgcrypt11-doc
 Conflicts: libgcrypt-dev
 Description: LGPL Crypto library - development files
@@ -11644,15 +11644,15 @@ Homepage: http://directory.fsf.org/project/libgcrypt/
 Description-md5: 6e06ced64459edf7a7c38c97a3251401
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-dev_1.5.0-5+deb7u1_i386.deb
-Size: 400298
-MD5sum: b977ed55703d501fc5e2c821dd15f5d2
-SHA1: 3155cc44dc0f35f98577ecc7aecd8372a9f03553
-SHA256: f3ed16e73c3c6fce9e6ca51a03ce1de3e91689927153f06170615d801d87f0d8
+Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-dev_1.5.0-5+deb7u2_i386.deb
+Size: 400980
+MD5sum: 05dded25f158c03f77dd3b8b05c89a40
+SHA1: 0102f13acf6ff608855fe3147455f41a0f94aa03
+SHA256: 854c68b540423fd53c6f481339638cf909c9f08957044969aac85247d5ae41d0
 
 Package: libgcrypt11-doc
 Source: libgcrypt11
-Version: 1.5.0-5+deb7u1
+Version: 1.5.0-5+deb7u2
 Installed-Size: 1170
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Architecture: all
@@ -11665,11 +11665,11 @@ Homepage: http://directory.fsf.org/project/libgcrypt/
 Description-md5: 0bd154fd13b4f26a0ec9100af954579d
 Section: doc
 Priority: optional
-Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-doc_1.5.0-5+deb7u1_all.deb
-Size: 683124
-MD5sum: c5d12f9bb3fdfe6811c4dec3bc3e445d
-SHA1: 719aeb41040bdf78b14aaa8a657a2ed556509e26
-SHA256: cbdea994d0d0bcf95bcd373ed68e470a34cfde53ce1b8237140221171a86118f
+Filename: pool/updates/main/libg/libgcrypt11/libgcrypt11-doc_1.5.0-5+deb7u2_all.deb
+Size: 684392
+MD5sum: eb32cd60d98fe5e946d404d14a92f68b
+SHA1: ded6aa52deb140810b8a557b4aebbe41d2ba9c31
+SHA256: 3a6c458c6e9b310157638ea942c41e8676517e49c62a29612e9e04d77318138f
 
 Package: libhttp-body-perl
 Version: 1.11-1+deb7u1
