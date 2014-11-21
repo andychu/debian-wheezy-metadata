@@ -2545,8 +2545,8 @@ SHA1: 47c95b017e2d3f914921bbf721e264312d815f0b
 SHA256: 18a40e9f826f7ada39a03356924b86f14cc342e2ee0209459e394c89095b8073
 
 Package: drupal7
-Version: 7.14-2+deb7u7
-Installed-Size: 12076
+Version: 7.14-2+deb7u8
+Installed-Size: 12077
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Architecture: all
 Depends: debconf (>= 0.5) | debconf-2.0, apache2 | httpd, php5, php5-mysql | php5-pgsql, php5-gd, default-mta | mail-transport-agent, wwwconfig-common (>= 0.0.37), mysql-client | virtual-mysql-client | postgresql-client, dbconfig-common, curl
@@ -2556,11 +2556,11 @@ Description-md5: dd7e5186ca307310e24c18e49f63e5d9
 Recommends: mysql-server | postgresql
 Section: web
 Priority: extra
-Filename: pool/updates/main/d/drupal7/drupal7_7.14-2+deb7u7_all.deb
-Size: 3183714
-MD5sum: afb39cb52ecf4e6052dd8927f98cb220
-SHA1: e54ceb5bcdf074c920957016562eb58e820f9528
-SHA256: 1caf102ea418786fcd2e39a8ac4b065b6f1aa639c09b39c4ed826b399fb0f6ed
+Filename: pool/updates/main/d/drupal7/drupal7_7.14-2+deb7u8_all.deb
+Size: 3182742
+MD5sum: dff458ba1a93ef5cefa5fded6a4e23cd
+SHA1: 0c2165b0e0e14b4f57acf2f0fbe92f207dc6c82e
+SHA256: 61362f9fcb262d4434a3edd62f0f13dd5990a7afac35f8a551f171b41862b6a5
 
 Package: eglibc-source
 Source: eglibc

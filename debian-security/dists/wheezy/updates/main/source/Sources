@@ -751,25 +751,25 @@ Section: admin
 
 Package: drupal7
 Binary: drupal7
-Version: 7.14-2+deb7u7
+Version: 7.14-2+deb7u8
 Maintainer: Luigi Gangitano <luigi@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 362d6bfa7d6bf7c20aeeb911d815a4c8 1832 drupal7_7.14-2+deb7u7.dsc
+ be0ef1ae7f5c20432c6408e321ddb23e 1832 drupal7_7.14-2+deb7u8.dsc
  af7abd95c03ecad4e1567ed94a438334 3128473 drupal7_7.14.orig.tar.gz
- edc81a00bd61c91ca7721ee8577d4134 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
+ 82bae3c53da064e640add7ab0662a95d 226686 drupal7_7.14-2+deb7u8.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-drupal/branches/drupal7
 Checksums-Sha1:
- 5527c926c01252ed2271710b3625b970da7d3034 1832 drupal7_7.14-2+deb7u7.dsc
+ 2aa5c34d0e6d9e0692048b39b8ccaa86d1929585 1832 drupal7_7.14-2+deb7u8.dsc
  ab33bea454fed20c535e37a71cea6004599488c3 3128473 drupal7_7.14.orig.tar.gz
- f8bd2ba7561af4f78054a1eaf40d08a330a84443 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
+ bb402218c0fa2ccd5cce6932f09cef8db93f8581 226686 drupal7_7.14-2+deb7u8.debian.tar.gz
 Checksums-Sha256:
- 4c17a4a3ec06658edd7922c4d88e9db94c02d05545f1aa51d6ba2bf8b72a696d 1832 drupal7_7.14-2+deb7u7.dsc
+ 17d2df497633890a7634f8a6acf1f17b79274b0641ceade1934609ba3dff3147 1832 drupal7_7.14-2+deb7u8.dsc
  17db094aaa78d76ec6a3517171f1d8c158745eee2e19006d5ed97b7ffc2c54da 3128473 drupal7_7.14.orig.tar.gz
- 331c502d3cc0c0b803683d50258cf9a2e17b2c18f9555781eaec8d6bfbc92f4c 226392 drupal7_7.14-2+deb7u7.debian.tar.gz
+ 99fe3f04ce9e7b87e8622ad718e096ca65449b99878c004e1bfe9bcb7f186b1e 226686 drupal7_7.14-2+deb7u8.debian.tar.gz
 Homepage: http://www.drupal.org/
 Package-List: 
  drupal7 deb web extra
@@ -8568,68 +8568,6 @@ Package-List:
  php-radius-legacy deb web optional
  php5-radius deb web optional
 Directory: pool/updates/main/p/php-radius
-Priority: source
-Section: web
-
-Package: php5
-Binary: php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl
-Version: 5.4.35-0+deb7u1
-Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
-Uploaders: Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>
-Build-Depends: apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 1.0
-Files:
- 8ddbd8ca72f93c143ad759e1a075e522 4530 php5_5.4.35-0+deb7u1.dsc
- da7bed3b65033c7f096c96572cd9ea45 15335367 php5_5.4.35.orig.tar.gz
- cd8868ef1199e76240c01904bc522747 147954 php5_5.4.35-0+deb7u1.diff.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-php/php.git
-Vcs-Git: git://git.debian.org/pkg-php/php.git
-Checksums-Sha1:
- c11640516131c0e190881ba010cced3e1d6346dc 4530 php5_5.4.35-0+deb7u1.dsc
- fb4e33f86d72d3b8b44e833b0a7fd8f84b45bd38 15335367 php5_5.4.35.orig.tar.gz
- bd66fe010050f9de8c0c0a2776fd7a776284d2b8 147954 php5_5.4.35-0+deb7u1.diff.gz
-Checksums-Sha256:
- cddf2edb4964bd90959d6976c671fa406ce78cf5befc8a267dd68a4ac131e08f 4530 php5_5.4.35-0+deb7u1.dsc
- 7ecab4ebb880b6d4f68bd4e3e49d837d4704fe26d81dc992b17b74151ee950a7 15335367 php5_5.4.35.orig.tar.gz
- 58eafe068e84963d01b19716168a1e168228f14cf03a623fb3c28cd2519f1606 147954 php5_5.4.35-0+deb7u1.diff.gz
-Homepage: http://www.php.net/
-Build-Conflicts: bind-dev
-Package-List: 
- libapache2-mod-php5 deb httpd optional
- libapache2-mod-php5filter deb httpd extra
- libphp5-embed deb php optional
- php-pear deb php optional
- php5 deb php optional
- php5-cgi deb php optional
- php5-cli deb php optional
- php5-common deb php optional
- php5-curl deb php optional
- php5-dbg deb debug extra
- php5-dev deb php optional
- php5-enchant deb php optional
- php5-fpm deb php optional
- php5-gd deb php optional
- php5-gmp deb php optional
- php5-imap deb php optional
- php5-interbase deb php optional
- php5-intl deb php optional
- php5-ldap deb php optional
- php5-mcrypt deb php optional
- php5-mysql deb php optional
- php5-mysqlnd deb php extra
- php5-odbc deb php optional
- php5-pgsql deb php optional
- php5-pspell deb php optional
- php5-recode deb php optional
- php5-snmp deb php optional
- php5-sqlite deb php optional
- php5-sybase deb php optional
- php5-tidy deb php optional
- php5-xmlrpc deb php optional
- php5-xsl deb php optional
-Directory: pool/updates/main/p/php5
 Priority: source
 Section: web
 
