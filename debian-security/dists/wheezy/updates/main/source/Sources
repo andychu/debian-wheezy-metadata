@@ -8201,26 +8201,26 @@ Section: devel
 
 Package: openjdk-6
 Binary: openjdk-6-jdk, openjdk-6-jre-headless, openjdk-6-jre, openjdk-6-jre-lib, openjdk-6-demo, openjdk-6-source, openjdk-6-doc, openjdk-6-dbg, icedtea-6-jre-cacao, icedtea-6-jre-jamvm, openjdk-6-jre-zero
-Version: 6b32-1.13.4-1~deb7u1
+Version: 6b33-1.13.5-2~deb7u1
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Uploaders: Torsten Werner <twerner@debian.org>, Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
-Build-Depends: debhelper (>= 5), binutils-dev [armel armhf], m4, lsb-release, wget, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, fastjar (>= 2:0.96-0ubuntu2), autoconf, automake1.11, autotools-dev, ant, ant-optional, libtool [alpha amd64 armel armhf i386 lpia m68k mips mipsel powerpc s390], g++-4.7, ecj-gcj [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], gcj-4.6-jdk [m68k s390], gcj-4.7-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el mips mipsel sh4 sparc sparc64 s390x], gcj-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], g++-4.4 [mips mipsel], openjdk-6-jdk (>= 6b27) [alpha], libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, xsltproc, libkrb5-dev, rhino, fonts-ipafont-mincho, libffi-dev, zlib1g-dev, libpng-dev, libjpeg8-dev, libgif-dev, libpulse-dev (>= 0.9.12), libnss3-dev (>= 3.12.3), mauve, xvfb, xauth, xfonts-base, libgl1-mesa-dri, twm | metacity, twm | dbus-x11, x11-xkb-utils
+Build-Depends: debhelper (>= 5), binutils-dev [armel armhf], m4, lsb-release, wget, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, fastjar (>= 2:0.96-0ubuntu2), autoconf, automake1.11, autotools-dev, ant, ant-optional, libtool [alpha amd64 armel armhf i386 lpia m68k mips mipsel powerpc s390], g++-4.7, ecj-gcj [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], gcj-4.6-jdk [m68k s390], gcj-4.7-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el mips mipsel sh4 sparc sparc64 s390x], gcj-jdk [amd64 armel armhf arm64 hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390 s390x], g++-4.4 [mips mipsel], openjdk-6-jdk (>= 6b27) [alpha], libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, xsltproc, libkrb5-dev, rhino, fonts-ipafont-mincho, libffi-dev, zlib1g-dev, libpng-dev, libjpeg8-dev, libgif-dev, libpulse-dev (>= 0.9.12), libnss3-dev (>= 2:3.12.3), mauve, xvfb, xauth, xfonts-base, libgl1-mesa-dri, twm | metacity, twm | dbus-x11, x11-xkb-utils
 Architecture: any all
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Format: 1.0
 Files:
- c8b6ebcba3bba9e71131a3511b0fc673 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
- 636ef4f6f9942bb1db2284e99afbc1f3 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
- f548bd4e37e03548cf5dc3870a15a41b 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
+ 5bc3e5951321a347961e61d57eea6bbb 3734 openjdk-6_6b33-1.13.5-2~deb7u1.dsc
+ 0035eb967eec88a4093e2d26429184be 44998173 openjdk-6_6b33-1.13.5.orig.tar.gz
+ a133a2c07467b8bec88ed8ea61026d4b 202201 openjdk-6_6b33-1.13.5-2~deb7u1.diff.gz
 Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk6
 Checksums-Sha1:
- 36d1c31616f61f36dee43de37ea119ba98b34711 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
- f2e1ce19056fdf7569bd630790b4ef5d6622dc79 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
- 6d970459a1401cd808548596d3511094cab68e66 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
+ af73d62b99078d1bf795e01971ad70aa8d3ad514 3734 openjdk-6_6b33-1.13.5-2~deb7u1.dsc
+ c2041a91af34deee6c3229867d5f22f70d30c5ef 44998173 openjdk-6_6b33-1.13.5.orig.tar.gz
+ c4c29a8b943421d491f03093a7be71bc85b1b223 202201 openjdk-6_6b33-1.13.5-2~deb7u1.diff.gz
 Checksums-Sha256:
- 1ca49abfa048106c2d24d434c564f243b039d47fe6c3cd4cfd2999c7c3c7b9ce 3732 openjdk-6_6b32-1.13.4-1~deb7u1.dsc
- 31f949f054bd6aa13d1fe5db9cfdc3bee4b61ffef06713f61ad6ced0168bf9d5 44299253 openjdk-6_6b32-1.13.4.orig.tar.gz
- d38d10d42afbc2df2e709c8411fcca5dbb93fcf02b4e86627c028248eac40a2c 161653 openjdk-6_6b32-1.13.4-1~deb7u1.diff.gz
+ c80edf30bd8aed0024ca76b2ed7d1378ff2446ff28f12f31b9ced93ed8ce4ed3 3734 openjdk-6_6b33-1.13.5-2~deb7u1.dsc
+ e28d6fa94cf96931ca60f455e337ed9f1b77c4051c17ca1329962df81abf4c75 44998173 openjdk-6_6b33-1.13.5.orig.tar.gz
+ 05c274a95dcd8fed28220c567b1f640f350e967a469267ea8ede310ea7a17777 202201 openjdk-6_6b33-1.13.5-2~deb7u1.diff.gz
 Homepage: http://openjdk.java.net/
 Package-List: 
  icedtea-6-jre-cacao deb java extra
@@ -10995,25 +10995,25 @@ Section: web
 
 Package: wireshark
 Binary: wireshark-common, wireshark, tshark, wireshark-dev, wireshark-dbg, wireshark-doc, libwireshark2, libwsutil2, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap2, libwiretap-dev
-Version: 1.8.2-5wheezy12
+Version: 1.8.2-5wheezy13
 Maintainer: Balint Reczey <balint@balintreczey.hu>
 Build-Depends: libgtk2.0-dev (>= 2.4.0-0), libpcap0.8-dev, flex, libz-dev, debhelper (>= 9), po-debconf, libtool, python (>= 2.6.6-3~), python-ply, automake, autoconf, autotools-dev, libc-ares-dev, xsltproc, docbook-xsl (>= 1.64.1.0-0), libxml2-utils, libpcre3-dev, libcap2-dev [linux-any] | libcap-dev (>= 2.17) [linux-any], bison, libgnutls-dev, portaudio19-dev, libkrb5-dev, liblua5.1-0-dev, libsmi2-dev, libgeoip-dev, dpkg-dev (>= 1.16.1~)
 Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- ae23b98e3365857f1f8db9c0e3b6e685 2952 wireshark_1.8.2-5wheezy12.dsc
+ 80f03db415687c710ac04f471713d037 2952 wireshark_1.8.2-5wheezy13.dsc
  5e3ea7eed50dace479e12f49d24506f4 24121798 wireshark_1.8.2.orig.tar.bz2
- 30fe1eefcb9555ad4e0e5246197d05e6 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+ 9630e67a72ccc11d8ccd7254c938d691 133044 wireshark_1.8.2-5wheezy13.debian.tar.gz
 Vcs-Browser: http://svn.debian.org/wsvn/collab-maint/ext-maint/wireshark/trunk/
 Checksums-Sha1:
- 1ab0d5716415dc90b6ea6487d147c649aeb3923a 2952 wireshark_1.8.2-5wheezy12.dsc
+ 0196efd80f4c84df299f06a1d913b65769e2571c 2952 wireshark_1.8.2-5wheezy13.dsc
  4737d9745dbf002444ea42615243abf3bb80b943 24121798 wireshark_1.8.2.orig.tar.bz2
- a1603f065a1b13eeece36d5d9e551128d6053506 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+ d3c85af97e43c9a901223c567c16fbcd1b6aea8a 133044 wireshark_1.8.2-5wheezy13.debian.tar.gz
 Checksums-Sha256:
- 01c4070fc2af0dd73f944a0d650cfa76125d097d72423846a7a629624578cec8 2952 wireshark_1.8.2-5wheezy12.dsc
+ 2b04ec4fb136030ae382ea808088dc45e30d9df514a6bd03a1d4e6e01ae1e595 2952 wireshark_1.8.2-5wheezy13.dsc
  3f0e688d889345033e0a7e4f36aea78248e5c7b32d0dfc19eac044188aac11cc 24121798 wireshark_1.8.2.orig.tar.bz2
- 747e7e97768c7a22b32c8d969c164666aa16e3ac8584058f10b46b9b4df5f943 129287 wireshark_1.8.2-5wheezy12.debian.tar.gz
+ eff898709b7412f0c8db7433e343d3d95ed19a4fdb6485bb09336ae42657c357 133044 wireshark_1.8.2-5wheezy13.debian.tar.gz
 Homepage: http://www.wireshark.org/
 Build-Conflicts: libsnmp-dev, libsnmp4.2-dev
 Dm-Upload-Allowed: yes
