@@ -3896,6 +3896,37 @@ Directory: pool/updates/main/libh/libhttp-body-perl
 Priority: source
 Section: perl
 
+Package: libksba
+Binary: libksba-dev, libksba8
+Version: 1.2.0-2+deb7u1
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Uploaders: Andreas Metzler <ametzler@debian.org>, Eric Dorland <eric@debian.org>, James Westby <jw+debian@jameswestby.net>, Peter Eisentraut <petere@debian.org>
+Build-Depends: debhelper (>> 8.1.3), libgpg-error-dev (>= 1.8), autotools-dev, cdbs (>= 0.4.93)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ eab707f1523649cc632b53db9c451427 2159 libksba_1.2.0-2+deb7u1.dsc
+ e797f370b69b4dc776499d6a071ae137 588323 libksba_1.2.0.orig.tar.bz2
+ 9eafd6eeca197d308fc7ce9146ecbbfe 7179 libksba_1.2.0-2+deb7u1.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnutls/packages/libksba/
+Checksums-Sha1:
+ f52ccf52ff7391b21082415df77ba4e1971b596d 2159 libksba_1.2.0-2+deb7u1.dsc
+ 0c4e593464b9dec6f53c728c375d54a095658230 588323 libksba_1.2.0.orig.tar.bz2
+ f8d9dca81dd96c2f52f781c10d2bfbd70b7fd030 7179 libksba_1.2.0-2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ a14f0e7b0fe62b1a89b4e64b57705ce21239b1612cebaed41abc0c1291d7e4f0 2159 libksba_1.2.0-2+deb7u1.dsc
+ 09afce65b03d027cbec10d21464f4f651cdfd269e38b404f83e48d3e2a3c934b 588323 libksba_1.2.0.orig.tar.bz2
+ f0d18f12555c0908821c0fd5dc39c7599b16cc5af5a44088d9c008edb8113e6f 7179 libksba_1.2.0-2+deb7u1.debian.tar.gz
+Homepage: http://www.gnupg.org/related_software/libksba/
+Package-List: 
+ libksba-dev deb libdevel optional
+ libksba8 deb libs optional
+Vcs-Svn: svn://svn.debian.org/pkg-gnutls/packages/libksba/
+Directory: pool/updates/main/libk/libksba
+Priority: source
+Section: libs
+
 Package: libmms
 Binary: libmms-dev, libmms0
 Version: 0.6.2-3+deb7u1

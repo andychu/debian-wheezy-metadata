@@ -11440,6 +11440,45 @@ MD5sum: 21663f88f7fe829ea52f2f440b2646d5
 SHA1: 64bd907a0b59e8cb1f8c90c5884f94204d0d8ba3
 SHA256: 041e179ab51c4082483be0cf557587bf6bbaf9b5577d2c01696539e0de60bd8b
 
+Package: libksba-dev
+Source: libksba
+Version: 1.2.0-2+deb7u1
+Installed-Size: 489
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: libksba0
+Depends: libksba8 (= 1.2.0-2+deb7u1), dpkg (>= 1.15.4) | install-info
+Description: X.509 and CMS support library - development files
+Homepage: http://www.gnupg.org/related_software/libksba/
+Description-md5: 451e8740fcc6265626636e8c054309ff
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/libk/libksba/libksba-dev_1.2.0-2+deb7u1_amd64.deb
+Size: 163948
+MD5sum: bde1e9dbf963fa5a92d361cb8510b660
+SHA1: 60bb1c8bb402b8c0a56a63dd5b6647f71fb96c52
+SHA256: fb36e8111cb9a62249f8cd8a8d09010f136af05337c685d8e163eefa6bf3a41d
+
+Package: libksba8
+Source: libksba
+Version: 1.2.0-2+deb7u1
+Installed-Size: 263
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgpg-error0 (>= 1.10)
+Description: X.509 and CMS support library
+Homepage: http://www.gnupg.org/related_software/libksba/
+Description-md5: a4cabffec0ec5429f0f14bf49f0459c6
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libk/libksba/libksba8_1.2.0-2+deb7u1_amd64.deb
+Size: 109010
+MD5sum: 8dc219aefa1c03334693949675471f6b
+SHA1: 96cd019f9699650eec3a2d355c94b45d821df1fc
+SHA256: b67af83cafd253be0ed7ae644704d9ef780bc697a7b4ae8faab62919b08adabb
+
 Package: libmms-dev
 Source: libmms
 Version: 0.6.2-3+deb7u1
