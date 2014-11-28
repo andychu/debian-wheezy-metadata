@@ -1,0 +1,211 @@
+Package: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 755
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav-freshclam (>= 0.98.5+dfsg) | clamav-data, libc6 (>= 2.4), libclamav6 (>= 0.98.5~rc1), libcurl3 (>= 7.16.2), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: clamav-docs
+Description: anti-virus utility for Unix - command-line interface
+Multi-Arch: foreign
+Homepage: http://www.clamav.net/
+Description-md5: 25816a2f56a0c214a484e117fd9fe0b1
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 403170
+MD5sum: 736a4ecb8e1ed50ccae7b6b54e6341ff
+SHA1: 4763a78b120cd275c244300be3e8b1b6a41c2df6
+SHA256: 492e282e9473fec1be17d8a5db2cb66adf2f3515975e3b3890157ac5807a0a71
+
+Package: clamav-base
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 381
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: adduser, logrotate, ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: clamav
+Description: anti-virus utility for Unix - base package
+Homepage: http://www.clamav.net/
+Description-md5: 07cae146971b36633118e9688da90286
+Tag: interface::commandline, role::app-data, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-base_0.98.5+dfsg-0+deb7u1_all.deb
+Size: 277246
+MD5sum: 13bb7655e90493fd623513c29e38af62
+SHA1: d9807b059c856eb7cedd3b6a5c31f29e5431932e
+SHA256: 279be71e8ea51b45b283c924b0eeeee97544746434a0c2ee580781a7def4a80d
+
+Package: clamav-daemon
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 1131
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: clamav-base (<< 0.98.1+dfsg-6)
+Depends: adduser, clamav-base (= 0.98.5+dfsg-0+deb7u1), clamav-freshclam (>= 0.98.5+dfsg) | clamav-data, dpkg (>= 1.16.1), lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libbz2-1.0, libc6 (>= 2.13), libclamav6 (>= 0.98.5~rc1), libjson0 (>= 0.10), libncurses5 (>= 5.5-5~), libssl1.0.0 (>= 1.0.0), libtinfo5, zlib1g (>= 1:1.2.0.2)
+Suggests: apparmor, clamav-docs, daemon
+Breaks: clamav-base (<< 0.98.1+dfsg-6)
+Description: anti-virus utility for Unix - scanner daemon
+Homepage: http://www.clamav.net/
+Description-md5: 01e2982f3aaa3547dd03d9e8c044bd42
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::server, role::program, security::antivirus,
+ use::scanning, works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-daemon_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 539850
+MD5sum: 704580604ace571b196d875dc2ba01ce
+SHA1: aff5ab48e698b935d9496471e29359699f1bf498
+SHA256: cfe65e260f4fe18f6a9637308a823d85a03bbf81c138ac3f9d5f17a08a972f3d
+
+Package: clamav-dbg
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 11710
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: clamav (= 0.98.5+dfsg-0+deb7u1), libclamav6
+Description: debug symbols for ClamAV
+Homepage: http://www.clamav.net/
+Description-md5: 33a33cc71dce345b4a0ce175ebeca8c7
+Tag: implemented-in::c, role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/c/clamav/clamav-dbg_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 3876278
+MD5sum: dc26e608810f666958a08beb07c1e07e
+SHA1: c99a5fd61de4aaf2c6f234ada59688f49a4ab250
+SHA256: 17be7604144b6239c73587bd4a3ef40a7d1d2f700749997c9dc3c96804251d46
+
+Package: clamav-docs
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 1163
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - documentation
+Homepage: http://www.clamav.net/
+Description-md5: e2412f6e57d4fb282e22d549e939cb72
+Tag: made-of::html, made-of::pdf, mail::filters, role::documentation,
+ security::antivirus, works-with::file, works-with::mail
+Section: doc
+Priority: optional
+Filename: pool/main/c/clamav/clamav-docs_0.98.5+dfsg-0+deb7u1_all.deb
+Size: 927638
+MD5sum: abefaf429b73b61c53f326233c676add
+SHA1: 851b274a166c3be510fdf202c416839b7ec9069e
+SHA256: 17cb302e4e5f57ca6dd1fcefc132214f84fde59b20a2196eb206bc597395cf78
+
+Package: clamav-freshclam
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 671
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: clamav-data
+Depends: clamav-base (>= 0.98.5+dfsg-0+deb7u1), dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libclamav6 (>= 0.98.5~rc1), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.2.3.3)
+Suggests: apparmor, clamav-docs
+Conflicts: clamav-data, libclamav2, libclamav3
+Description: anti-virus utility for Unix - virus database update utility
+Homepage: http://www.clamav.net/
+Description-md5: 824a85afc618e1467a907719e4edd7bb
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ role::program, scope::utility, security::antivirus, use::downloading,
+ works-with::file, works-with::mail
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-freshclam_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 349500
+MD5sum: 845f9aeb5295251deefaa91f3f41d87b
+SHA1: 5eb73200ab14e8b3c0f2537d724bb578ad259402
+SHA256: 4305c6eff70ddec929c6d0493540112eb72c5f58a05513904199339e2b8cdaca
+
+Package: clamav-milter
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 720
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, clamav-base (>= 0.98.5+dfsg-0+deb7u1), clamav-freshclam (>= 0.98.5+dfsg) | clamav-data, dpkg (>= 1.16.1), logrotate, lsb-base (>= 3.2-13), procps (>= 1:3.3.2), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), libjson0 (>= 0.10), libmilter1.0.1, libssl1.0.0 (>= 1.0.0)
+Recommends: clamav-daemon
+Suggests: clamav-docs, daemon
+Description: anti-virus utility for Unix - sendmail integration
+Homepage: http://www.clamav.net/
+Description-md5: bdf4d5012233691e2d3d904e79a57dcf
+Tag: implemented-in::c, interface::daemon, mail::filters, network::server,
+ role::program, security::antivirus, use::scanning, works-with::mail
+Section: utils
+Priority: extra
+Filename: pool/main/c/clamav/clamav-milter_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 386158
+MD5sum: 84f275bf199acff3243910489312c20d
+SHA1: 43cd1f7bd3b5f77cef0e77420915380d8ff6abbc
+SHA256: 9c881f97605bf707c66abfba91a789f3ea0065f910f869f4b5a9a93c7e099fc9
+
+Package: clamav-testfiles
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 6758
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: all
+Description: anti-virus utility for Unix - test files
+Homepage: http://www.clamav.net/
+Description-md5: 02a1eb16b2a0a9f53fc09fe0d784518c
+Tag: devel::testing-qa, interface::commandline, role::app-data,
+ security::antivirus, use::checking
+Section: utils
+Priority: optional
+Filename: pool/main/c/clamav/clamav-testfiles_0.98.5+dfsg-0+deb7u1_all.deb
+Size: 5281140
+MD5sum: e97170c1160669807cf205b0bb287490
+SHA1: e6047a37102723a506a11bbc2a3adde9033bd5ed
+SHA256: 9701aaa7ebd395c5efc75e4d0cff7292b9e98b919f1a1ab21a1df5e012e7ffec
+
+Package: libclamav-dev
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 336
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-dev, libc6-dev | libc-dev, libclamav6 (= 0.98.5+dfsg-0+deb7u1), libidn11-dev, libssl-dev, libtommath-dev, zlib1g-dev
+Description: anti-virus utility for Unix - development files
+Homepage: http://www.clamav.net/
+Description-md5: f9403f3147d4d160269156db01264656
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib,
+ security::antivirus, use::scanning
+Section: libdevel
+Priority: optional
+Filename: pool/main/c/clamav/libclamav-dev_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 241012
+MD5sum: 004218cb8f691be81000a920cc8bc1f5
+SHA1: f9e497419b0537cdb77120109d7d34748e8fa24b
+SHA256: e7f40d36fae80b5df1422c08143de56c741f1eb483d78f6593a01b1ef8821d38
+
+Package: libclamav6
+Source: clamav
+Version: 0.98.5+dfsg-0+deb7u1
+Installed-Size: 2242
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libbz2-1.0, libc6 (>= 2.11), libffi5 (>= 3.0.4), libgcc1 (>= 1:4.1.1), libjson0 (>= 0.10), libllvm3.0, libltdl7 (>= 2.4.2), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.3.3)
+Suggests: libclamunrar6
+Description: anti-virus utility for Unix - library
+Homepage: http://www.clamav.net/
+Description-md5: 8eec48379ead2492f2f06feeb97a6a2f
+Tag: role::shared-lib, security::antivirus
+Section: libs
+Priority: optional
+Filename: pool/main/c/clamav/libclamav6_0.98.5+dfsg-0+deb7u1_amd64.deb
+Size: 1086272
+MD5sum: 83522ce3207031df8dfdb0076508aa0f
+SHA1: 8c210ecbeaa6b06d795bd3f528379f3d1dcfc3f4
+SHA256: c6c60fa8916ac6b0b87682e3fb0728097dd43d354c4121975de266f3eb01980e
+

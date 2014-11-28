@@ -1,0 +1,40 @@
+Package: clamav
+Binary: clamav-base, clamav-docs, clamav-dbg, clamav, libclamav-dev, libclamav6, clamav-daemon, clamav-testfiles, clamav-freshclam, clamav-milter
+Version: 0.98.5+dfsg-0+deb7u1
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Uploaders: Stephen Gran <sgran@debian.org>, Michael Meskes <meskes@debian.org>, Michael Tautschnig <mt@debian.org>, Scott Kitterman <scott@kitterman.com>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>, Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>
+Build-Depends: automake, bc, check, debhelper (>= 8.9.7), dh-autoreconf, electric-fence, faketime, libbz2-dev, libcurl4-openssl-dev, libjson0-dev, libltdl-dev, libmilter-dev, libncurses5-dev, libssl-dev, libtommath-dev, libxml2-dev, llvm-dev [i386 amd64 powerpc kfreebsd-amd64 kfreebsd-i386], perl, pkg-config, po-debconf, python, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 2a4b6749508e03b136024c008f093703 2906 clamav_0.98.5+dfsg-0+deb7u1.dsc
+ 34d5e8698e57ce45c4a8c3c2cb211cf3 5286536 clamav_0.98.5+dfsg.orig.tar.xz
+ 41310c4f5deefe2e975d1b2ef31b585f 842503 clamav_0.98.5+dfsg-0+deb7u1.debian.tar.gz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-clamav/clamav.git
+Vcs-Git: git://anonscm.debian.org/pkg-clamav/clamav.git
+Checksums-Sha1:
+ 4a7c9953ec610d0e8a327fb484a19110301b50b7 2906 clamav_0.98.5+dfsg-0+deb7u1.dsc
+ e7df5b8654c165afa4a299cb914c2d6afcf05788 5286536 clamav_0.98.5+dfsg.orig.tar.xz
+ 0948892788e1c283baef93bdcbd224cdd41b64bf 842503 clamav_0.98.5+dfsg-0+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 6ea6a121e8c94ff2d3bdf4d363dd48b36ccc02cb99a30c9f1614253f68beca4f 2906 clamav_0.98.5+dfsg-0+deb7u1.dsc
+ 0e353f646a0add17ca42e75ccfc7edf4f8b7c1acc972a86c317543f6b365db2d 5286536 clamav_0.98.5+dfsg.orig.tar.xz
+ 6d55db4545792ef99a729f6e6740a7acc66875665018203395bcedd977e57df5 842503 clamav_0.98.5+dfsg-0+deb7u1.debian.tar.gz
+Homepage: http://www.clamav.net/
+Package-List: 
+ clamav deb utils optional
+ clamav-base deb utils optional
+ clamav-daemon deb utils optional
+ clamav-dbg deb debug extra
+ clamav-docs deb doc optional
+ clamav-freshclam deb utils optional
+ clamav-milter deb utils extra
+ clamav-testfiles deb utils optional
+ libclamav-dev deb libdevel optional
+ libclamav6 deb libs optional
+Testsuite: autopkgtest
+Directory: pool/main/c/clamav
+Priority: source
+Section: utils
+
