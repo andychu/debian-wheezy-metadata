@@ -4197,6 +4197,39 @@ Directory: pool/updates/main/libv/libvirt
 Priority: source
 Section: devel
 
+Package: libvncserver
+Binary: libvncserver0, libvncserver-dev, libvncserver-config, libvncserver0-dbg, linuxvnc
+Version: 0.9.9+dfsg-1+deb7u1
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libgnutls-dev, libjpeg-dev, pkg-config, zlib1g-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ a96c660abd3188674f089568661f511b 2214 libvncserver_0.9.9+dfsg-1+deb7u1.dsc
+ 2321da04142992da018a6176bcdf774e 870165 libvncserver_0.9.9+dfsg.orig.tar.gz
+ 30bffb6b53e1a7b1020720a4df42389c 16968 libvncserver_0.9.9+dfsg-1+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/libvncserver.git;a=summary
+Vcs-Git: git://git.debian.org/collab-maint/libvncserver.git
+Checksums-Sha1:
+ 9c10b0dab7b8ae2a093d50b32ca782ecce7684ba 2214 libvncserver_0.9.9+dfsg-1+deb7u1.dsc
+ 753f8242b08a0bd263b8c6d0842752b85c2752c9 870165 libvncserver_0.9.9+dfsg.orig.tar.gz
+ 90acc2d53c53e2c37b0fe839d2537ca08c34eff6 16968 libvncserver_0.9.9+dfsg-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ e1d3bcd74a0ac271fe68f8f40f9187463c39c9da3a85d66f8614f9ca8bb1b9f0 2214 libvncserver_0.9.9+dfsg-1+deb7u1.dsc
+ 8586a0b6caa3ddb2efada804e888713232b2ced8e86a83b96b81c2016c387412 870165 libvncserver_0.9.9+dfsg.orig.tar.gz
+ 015c7de9a50149c4931f878191459444231d6257b946914653b87f98a1879c57 16968 libvncserver_0.9.9+dfsg-1+deb7u1.debian.tar.gz
+Homepage: http://libvncserver.sourceforge.net
+Package-List: 
+ libvncserver-config deb libdevel optional
+ libvncserver-dev deb libdevel optional
+ libvncserver0 deb libs optional
+ libvncserver0-dbg deb debug extra
+ linuxvnc deb net optional
+Directory: pool/updates/main/libv/libvncserver
+Priority: source
+Section: x11
+
 Package: libx11
 Binary: libx11-6, libx11-6-udeb, libx11-data, libx11-6-dbg, libx11-dev, libx11-xcb1, libx11-xcb1-dbg, libx11-xcb-dev, libx11-doc
 Version: 2:1.5.0-1+deb7u1
@@ -8349,6 +8382,46 @@ Directory: pool/updates/main/o/openjdk-7
 Priority: source
 Section: java
 
+Package: openjdk-7
+Binary: openjdk-7-jdk, openjdk-7-jre-headless, openjdk-7-jre, openjdk-7-jre-lib, openjdk-7-demo, openjdk-7-source, openjdk-7-doc, openjdk-7-dbg, icedtea-7-jre-cacao, icedtea-7-jre-jamvm, openjdk-7-jre-zero
+Version: 7u71-2.5.3-2~deb7u1
+Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
+Uploaders: Matthias Klose <doko@ubuntu.com>, Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends: debhelper (>= 5), m4, lsb-release, wget, zip, unzip, sharutils, gawk, cpio, pkg-config, procps, time, wdiff, fastjar (>= 2:0.96-0ubuntu2), dh-autoreconf, quilt, ant, ant-optional, libtool, g++-4.7, g++-4.4 [mips mipsel], ecj-gcj [amd64 armel arm64 armhf hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el m68k mips mipsel sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64], gcj-jdk [amd64 armel arm64 armhf hppa i386 ia64 lpia powerpc powerpcspe ppc64 ppc64el mips mipsel sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64], gcj-4.6-jdk [m68k s390], gcj-4.7-jdk [ia64], openjdk-7-jdk (>= 6b18) [alpha mips64 mips64el], libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libfreetype6-dev (>= 2.2.1), libgtk2.0-dev, libxinerama-dev, libkrb5-dev, xsltproc, librhino-java (>= 1.7R3~), libpcsclite-dev, fonts-ipafont-mincho, libffi-dev, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg8-dev, libgif-dev, libpulse-dev (>= 0.9.12), libnss3-dev (>= 2:3.12.3), mauve, xvfb, xauth, xfonts-base, libgl1-mesa-dri [!x32], twm | metacity, twm | dbus-x11, x11-xkb-utils
+Architecture: alpha amd64 armel armhf arm64 i386 ia64 lpia mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k sh4 sparc sparc64 s390x x32 kfreebsd-i386 kfreebsd-amd64 all s390
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Files:
+ bf2d7fc03c5c2cc474984ae179ce437d 3801 openjdk-7_7u71-2.5.3-2~deb7u1.dsc
+ 5c122381adbbfc189c5e9f0e3ab40d59 63433556 openjdk-7_7u71-2.5.3.orig.tar.bz2
+ 604c2e50a19cc91f2a2d3e09b5722b4c 209241 openjdk-7_7u71-2.5.3-2~deb7u1.debian.tar.gz
+Vcs-Browser: https://code.launchpad.net/~openjdk/openjdk/openjdk7
+Checksums-Sha1:
+ f1e9c0e4495f070f83da746f1fd373daf8216009 3801 openjdk-7_7u71-2.5.3-2~deb7u1.dsc
+ acaf3078adf5d47312d4d8d4538a0b2bb0de2f0d 63433556 openjdk-7_7u71-2.5.3.orig.tar.bz2
+ 81db74639049f91ddb0b703b436d37b3a65976c8 209241 openjdk-7_7u71-2.5.3-2~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 534d61211625dc517e91a619aebce95abb753948ac6080fd7bbaaabab5346d70 3801 openjdk-7_7u71-2.5.3-2~deb7u1.dsc
+ c2882a18e10726cd048b453d5745a57319d2d71bad0303cfe8fd0bd422bbeb8e 63433556 openjdk-7_7u71-2.5.3.orig.tar.bz2
+ c98e938b3d4cb4332f8a7640812f5698482aac10c0fe714d7c9dc0f51f75c906 209241 openjdk-7_7u71-2.5.3-2~deb7u1.debian.tar.gz
+Homepage: http://openjdk.java.net/
+Package-List: 
+ icedtea-7-jre-cacao deb java extra
+ icedtea-7-jre-jamvm deb java extra
+ openjdk-7-dbg deb debug extra
+ openjdk-7-demo deb java extra
+ openjdk-7-doc deb doc extra
+ openjdk-7-jdk deb java optional
+ openjdk-7-jre deb java optional
+ openjdk-7-jre-headless deb java optional
+ openjdk-7-jre-lib deb oldlibs extra
+ openjdk-7-jre-zero deb java extra
+ openjdk-7-source deb java extra
+Vcs-Bzr: http://bazaar.launchpad.net/~openjdk/openjdk/openjdk7
+Directory: pool/updates/main/o/openjdk-7
+Priority: source
+Section: java
+
 Package: openjpeg
 Binary: libopenjpeg-dev, libopenjpeg2, libopenjpeg2-dbg, openjpeg-tools
 Version: 1.3+dfsg-4.8
@@ -9035,6 +9108,34 @@ Vcs-Bzr: http://bzr.debian.org/bzr/pkg-postgresql/postgresql-9.1/trunk/
 Directory: pool/updates/main/p/postgresql-9.1
 Priority: source
 Section: database
+
+Package: ppp
+Binary: ppp, ppp-udeb, ppp-dev
+Version: 2.4.5-5.1+deb7u1
+Maintainer: Marco d'Itri <md@linux.it>
+Build-Depends: debhelper (>= 5), quilt (>= 0.40), libpcap0.8-dev, libpam0g-dev, zlib1g-dev
+Architecture: linux-any all
+Standards-Version: 3.9.1
+Format: 1.0
+Files:
+ 988620c88831781181eb2ad9e3edcc22 1412 ppp_2.4.5-5.1+deb7u1.dsc
+ 4621bc56167b6953ec4071043fe0ec57 684342 ppp_2.4.5.orig.tar.gz
+ d6069a42908e69d4ecb7df32af27cb3e 96877 ppp_2.4.5-5.1+deb7u1.diff.gz
+Checksums-Sha1:
+ fa8d9c42f20eead98fe3d9053a2e6ccd087b2911 1412 ppp_2.4.5-5.1+deb7u1.dsc
+ cb977b31584e3488e08a643aaa672fdb229d2e78 684342 ppp_2.4.5.orig.tar.gz
+ 3d3b79b36dcc967cb605c76ebcb3c393cc5878c3 96877 ppp_2.4.5-5.1+deb7u1.diff.gz
+Checksums-Sha256:
+ eeb418bbbf42ce579bbc0984927c14ee8bfa6d68e39e5af52214b398237233ed 1412 ppp_2.4.5-5.1+deb7u1.dsc
+ 43317afec9299f9920b96f840414c977f0385410202d48e56d2fdb8230003505 684342 ppp_2.4.5.orig.tar.gz
+ e1e19cef43f235bd657b9fea68a17d8faa19f97bd32e0e8e1b69fa61a05fb449 96877 ppp_2.4.5-5.1+deb7u1.diff.gz
+Package-List: 
+ ppp deb admin optional
+ ppp-dev deb devel extra
+ ppp-udeb udeb debian-installer optional
+Directory: pool/updates/main/p/ppp
+Priority: source
+Section: admin
 
 Package: procmail
 Binary: procmail

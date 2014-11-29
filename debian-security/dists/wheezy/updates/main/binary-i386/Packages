@@ -12455,6 +12455,105 @@ MD5sum: 776e684a3ed4242d28f105349e9df875
 SHA1: a57525da691b4d736f0cef8068f283627d9fed33
 SHA256: 886a8f68ec78e45930f4a92bcce504321d0b3c1ad77759e466325970fe0f2406
 
+Package: libvncserver-config
+Source: libvncserver
+Version: 0.9.9+dfsg-1+deb7u1
+Installed-Size: 77
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Architecture: i386
+Replaces: libvncserver-dev (<< 0.9.9)
+Depends: libvncserver0 (= 0.9.9+dfsg-1+deb7u1)
+Breaks: libvncserver-dev (<< 0.9.9)
+Description: API to write one's own vnc server - library utility
+Homepage: http://libvncserver.sourceforge.net
+Description-md5: 3ed83f92d890152c3bb4e698120160b7
+Multi-Arch: foreign
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/libv/libvncserver/libvncserver-config_0.9.9+dfsg-1+deb7u1_i386.deb
+Size: 74562
+MD5sum: a7c69ae2d2bff2ae7a7a72f248e22109
+SHA1: 51915be9001d8ac5ec872bb1731ed243c6795bfe
+SHA256: d96a0b71987b35c5ae757725df9190c9cf7bfd35933bf4283c60ec83ac634547
+
+Package: libvncserver-dev
+Source: libvncserver
+Version: 0.9.9+dfsg-1+deb7u1
+Installed-Size: 774
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Architecture: i386
+Depends: libvncserver0 (= 0.9.9+dfsg-1+deb7u1), libgnutls-dev, libjpeg-dev, zlib1g-dev, libvncserver-config
+Description: API to write one's own vnc server - development files
+Homepage: http://libvncserver.sourceforge.net
+Description-md5: bcc0abadd91abbb78a47d71e59feba5d
+Multi-Arch: same
+Section: x11
+Priority: optional
+Filename: pool/updates/main/libv/libvncserver/libvncserver-dev_0.9.9+dfsg-1+deb7u1_i386.deb
+Size: 321698
+MD5sum: 55384ee0215f31396295c76fc4a58bb3
+SHA1: 09c6a7d4e82667409c53dd34ab9c8566d767aa9c
+SHA256: 97a30aa50f1c33f1f5fcc2efac1e3edd210aea25d24b06ba7eefc70c58f68f89
+
+Package: libvncserver0
+Source: libvncserver
+Version: 0.9.9+dfsg-1+deb7u1
+Installed-Size: 519
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libjpeg8 (>= 8c), zlib1g (>= 1:1.1.4)
+Suggests: libvncserver0-dbg (= 0.9.9+dfsg-1+deb7u1)
+Description: API to write one's own vnc server
+Homepage: http://libvncserver.sourceforge.net
+Description-md5: 6bd9f2d870ec44b35d09bc72b386e7f7
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libv/libvncserver/libvncserver0_0.9.9+dfsg-1+deb7u1_i386.deb
+Size: 276584
+MD5sum: f9654dada5ec00c02c6ed619b32463f7
+SHA1: 1750a21e23c3a0cbce5ca1eb3f8cf026a7507b93
+SHA256: d8199dfd94160203036e73ed02a8dd26705f815540bb17ecbe2c9af2eb10354d
+
+Package: libvncserver0-dbg
+Source: libvncserver
+Version: 0.9.9+dfsg-1+deb7u1
+Installed-Size: 594
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Architecture: i386
+Depends: libvncserver0 (= 0.9.9+dfsg-1+deb7u1)
+Description: debugging symbols for libvncserver
+Homepage: http://libvncserver.sourceforge.net
+Description-md5: ef17283c2d5c13223e281d0500b90179
+Multi-Arch: same
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/libv/libvncserver/libvncserver0-dbg_0.9.9+dfsg-1+deb7u1_i386.deb
+Size: 559546
+MD5sum: 76b68cc7036d2a83f7a82c0ffb17dfb1
+SHA1: dae089178b54fe04c25e03d019404664c2632846
+SHA256: 9fb3e84dc5bb6ab38ef3efc1002c44023da1135334555b3dd5bcdf8ff47294d0
+
+Package: linuxvnc
+Source: libvncserver
+Version: 0.9.9+dfsg-1+deb7u1
+Installed-Size: 99
+Maintainer: Luca Falavigna <dktrkranz@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libgcrypt11 (>= 1.4.5), libgnutls26 (>= 2.12.17-0), libjpeg8 (>= 8c), libvncserver0, zlib1g (>= 1:1.1.4)
+Description: VNC server to allow remote access to a tty
+Homepage: http://libvncserver.sourceforge.net
+Description-md5: 70318a99b1711bc04800cc6205f80ea9
+Multi-Arch: foreign
+Section: x11
+Priority: optional
+Filename: pool/updates/main/libv/libvncserver/linuxvnc_0.9.9+dfsg-1+deb7u1_i386.deb
+Size: 85864
+MD5sum: 2169e0fba7485e9798849304f2930da3
+SHA1: b05b63b1e079dfcb15ed786cd3a0c8849c1e8101
+SHA256: 3e7d069c14008ccdb36c3107715b976919d99ba734c416b93c9608bc9e764049
+
 Package: libx11-6
 Source: libx11
 Version: 2:1.5.0-1+deb7u1
@@ -18982,85 +19081,85 @@ SHA256: a20cda5a0b881725d70a1723592f086bc0a9ecda3f91e5966376213016a912a8
 
 Package: icedtea-7-jre-cacao
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 216
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 217
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-7-jre-headless (= 7u65-2.5.1-5~deb7u1)
+Depends: openjdk-7-jre-headless (= 7u71-2.5.3-2~deb7u1)
 Description: Transitional package for obsolete Cacao JVM for OpenJDK
 Homepage: http://openjdk.java.net/
 Description-md5: 90155097d608216750af7e7b7d35c3ef
 Multi-Arch: same
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/icedtea-7-jre-cacao_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 78882
-MD5sum: 2b17b9e605b00d04977b231ac565238a
-SHA1: 1a0185fa2a92eaf4780e22e6d078d2bcc6b2a7ee
-SHA256: 85d0cb14d642c39b6dd249e9dc543b87bf53ceb7a450fd21117187c98e8040e4
+Filename: pool/updates/main/o/openjdk-7/icedtea-7-jre-cacao_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 80058
+MD5sum: 84775b1c7afea8cf722d2adc3a308a96
+SHA1: 12ece9eaf5d37dcbd9c7413398869cd13256e085
+SHA256: 740b5ccf16bb8178fbd093bda41eddeea59fd00c7b75fbcc7ed84b8e3733f612
 
 Package: icedtea-7-jre-jamvm
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 1758
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 1773
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-7-jre-headless (= 7u65-2.5.1-5~deb7u1), libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
+Depends: openjdk-7-jre-headless (= 7u71-2.5.3-2~deb7u1), libc6 (>= 2.4), zlib1g (>= 1:1.1.4)
 Description: Alternative JVM for OpenJDK, using JamVM
 Homepage: http://openjdk.java.net/
 Description-md5: a3b67c2c3683232269f84a02ede3fd4b
 Multi-Arch: same
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/icedtea-7-jre-jamvm_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 698546
-MD5sum: c30b7336a31893d4443aa4ff506eda83
-SHA1: 65f8202942e32d41f123193893401c322a390f3f
-SHA256: 0b3b2955417b1a1def66b6994b2c8505992856049e626c1ff48062ebebd27b12
+Filename: pool/updates/main/o/openjdk-7/icedtea-7-jre-jamvm_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 706698
+MD5sum: b20fff8c0a37e75059ad13e1b1f7b2f7
+SHA1: 9b8f31cf3a1f31e795391541e81f4240a2584949
+SHA256: f4ad745b7adf721553001edad4ed10cb397b834195111a0b262e3d6456eba5ec
 
 Package: openjdk-7-dbg
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 495585
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 495268
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-7-jre-headless (= 7u65-2.5.1-5~deb7u1)
-Suggests: openjdk-7-jdk (= 7u65-2.5.1-5~deb7u1)
+Depends: openjdk-7-jre-headless (= 7u71-2.5.3-2~deb7u1)
+Suggests: openjdk-7-jdk (= 7u71-2.5.3-2~deb7u1)
 Description: Java runtime based on OpenJDK (debugging symbols)
 Homepage: http://openjdk.java.net/
 Description-md5: 62cbbd2d3e6bc94279f18db4f735142b
 Multi-Arch: same
-Recommends: openjdk-7-jre (= 7u65-2.5.1-5~deb7u1)
+Recommends: openjdk-7-jre (= 7u71-2.5.3-2~deb7u1)
 Section: debug
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-dbg_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 233036960
-MD5sum: 03eef2e3a2e11529d931395f6577e691
-SHA1: 763143f8772989e7b78b370dddf631c9a821e9c7
-SHA256: fdf09efaa5f9cd6b3ffe067c9fbdc8074e51d507018704ad590267b80917f6e3
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-dbg_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 233056318
+MD5sum: 48a88ef0c6a6d839b490f6acbb4076a2
+SHA1: 67201edd7b5abbe2e9ae55824391d62b927f3b95
+SHA256: d7e491d0bea30f4018b2f71c71d9857e48aca2bcd4cd836da220f504b062f521
 
 Package: openjdk-7-demo
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
+Version: 7u71-2.5.3-2~deb7u1
 Installed-Size: 4282
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-7-jre (= 7u65-2.5.1-5~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: openjdk-7-jre (= 7u71-2.5.3-2~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Description: Java runtime based on OpenJDK (demos and examples)
 Homepage: http://openjdk.java.net/
 Description-md5: c2a5624aa60e4de3025a249886fa82d7
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-demo_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 2487694
-MD5sum: fafa40d23e5e87a134847223768013a1
-SHA1: dbaf1243a44ba7e8ae73fb06c1ca87dceb5d5221
-SHA256: 2b1ee0d020ba1555b919c02763eddc17ce9ac182cb5c1d1c2d7291a8682d686b
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-demo_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 2484850
+MD5sum: 8d993153aa92a0a6cb8237055d6f530f
+SHA1: d2ca8f335d22d3c330a26ffbcdc6d83b323e23a2
+SHA256: 66d51e3e5391f57bd59b44209c4113cd08cf5af0117ac263fbd8759582201b5f
 
 Package: openjdk-7-doc
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 239732
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 240546
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Suggests: openjdk-7-jdk
@@ -19069,20 +19168,20 @@ Homepage: http://openjdk.java.net/
 Description-md5: c1aebd5e8058a6cce0d5690571eddb7b
 Section: doc
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-doc_7u65-2.5.1-5~deb7u1_all.deb
-Size: 21450418
-MD5sum: c9a44f85d09c59eb6b97d706b0599a60
-SHA1: e5bd55a92c6b37f2e76d66548b965134c2560b3a
-SHA256: dbeb7887f18bc90684b413c909c76290a118ccf80d3c777f4e356fc9006e2aa7
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-doc_7u71-2.5.3-2~deb7u1_all.deb
+Size: 22158552
+MD5sum: 8d5ae8c17d0cd0e52f1d3bd8da2cd9f7
+SHA1: fb8ef4f5e56b14160715dccde625ff885b037c4f
+SHA256: 7830c5456e2c1100c53761204b48643f1b1316d082052d80723ae2129b38034b
 
 Package: openjdk-7-jdk
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 20128
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 20127
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Provides: java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-jdk
-Depends: openjdk-7-jre (= 7u65-2.5.1-5~deb7u1), libc6 (>= 2.3.6-6~), libx11-6
+Depends: openjdk-7-jre (= 7u71-2.5.3-2~deb7u1), libc6 (>= 2.3.6-6~), libx11-6
 Suggests: openjdk-7-demo, openjdk-7-source, visualvm
 Description: OpenJDK Development Kit (JDK)
 Homepage: http://openjdk.java.net/
@@ -19091,66 +19190,66 @@ Multi-Arch: same
 Recommends: libxt-dev
 Section: java
 Priority: optional
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-jdk_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 16509064
-MD5sum: 04e330be247dfef4dc36e97dbd9a95cb
-SHA1: 9c31885d6720776f4e9a1388a318b2b5a65ef815
-SHA256: 4a8c2c30023720d3d74735ad6bee778c66630a58a11ed2323f4b043973f1dc10
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-jdk_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 16509714
+MD5sum: 8b628f8630165a9e998378e1afb997b5
+SHA1: 8696996e92af0a68e9375003653a6a7979b99475
+SHA256: a1847809e9d2179e7a8178dbaaa51e17117ae55c26c017cc7e150f258ce3d6f7
 
 Package: openjdk-7-jre
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 703
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 650
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Replaces: openjdk-7-jre-headless (<< 7u65-2.5.1-0~)
 Provides: java-runtime, java2-runtime, java5-runtime, java6-runtime, java7-runtime
-Depends: openjdk-7-jre-headless (= 7u65-2.5.1-5~deb7u1), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.2.4), libcups2 (>= 1.4.0), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif4 (>= 4.1.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4), libxrandr2, libxinerama1, libgl1-mesa-glx | libgl1, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
+Depends: openjdk-7-jre-headless (= 7u71-2.5.3-2~deb7u1), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.2.4), libcups2 (>= 1.4.0), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif4 (>= 4.1.4), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.8.0), libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libx11-6, libxext6, libxi6, libxrender1, libxtst6, zlib1g (>= 1:1.1.4), libxrandr2, libxinerama1, libgl1-mesa-glx | libgl1, libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)
 Suggests: icedtea-7-plugin
 Conflicts: icedtea-gcjwebplugin (<< 1.0-1ubuntu4)
 Description: OpenJDK Java runtime, using Hotspot JIT
 Homepage: http://openjdk.java.net/
-Description-md5: 914d96407295e5ec532d2032973e96af
+Description-md5: fe36ccd430f68ca91ba06eca669a0618
 Multi-Arch: same
 Recommends: libgnome2-0, libgnomevfs2-0, libgconf2-4, ttf-dejavu-extra
 Section: java
 Priority: optional
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 233326
-MD5sum: 3beb33c97541d5201dcf3b0d1ad56b36
-SHA1: cf6786b24450ba0d24a79342c2d9aa389d33e670
-SHA256: d851ae3a4cb24e90809f7d228ca0a6f1d3cb12cd5dc9ba342a0ef150318a41b9
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 215344
+MD5sum: f01d9c600b93ab45f38734d8f2133f02
+SHA1: 223941114370c1d54a9afb76340d683e151cfbdc
+SHA256: fe811c328f800d91f528042c28e566c4c71ef7262eb7ef2e0dca27efa3bf21f5
 
 Package: openjdk-7-jre-headless
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 61963
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 62047
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
 Replaces: openjdk-7-jre-lib (<< 7u45-2.4.3-1)
 Provides: java-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless
-Depends: ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2 (>= 1.4.0), liblcms2-2, libjpeg8 (>= 8c), libnss3 (>= 2:3.13.4), libc6 (>= 2.11), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.26.0), libkrb5-3 (>= 1.6.dfsg.2), libpcsclite1, libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
-Suggests: icedtea-7-jre-jamvm (= 7u65-2.5.1-5~deb7u1), libnss-mdns, sun-java6-fonts, ttf-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, ttf-wqy-microhei | ttf-wqy-zenhei, ttf-indic-fonts
+Depends: ca-certificates-java, tzdata-java, java-common (>= 0.28), libcups2 (>= 1.4.0), liblcms2-2, libjpeg8 (>= 8c), libnss3 (>= 2:3.12.3), libc6 (>= 2.11), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.26.0), libkrb5-3 (>= 1.6.dfsg.2), libpcsclite1, libpulse0 (>= 0.99.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Suggests: icedtea-7-jre-jamvm (= 7u71-2.5.3-2~deb7u1), libnss-mdns, sun-java6-fonts, ttf-dejavu-extra, fonts-ipafont-gothic, fonts-ipafont-mincho, ttf-wqy-microhei | ttf-wqy-zenhei, ttf-indic-fonts
 Conflicts: icedtea-netx (<< 1.1.1-2~)
 Breaks: icedtea-netx (<< 1.4-2)
 Description: OpenJDK Java runtime, using Hotspot JIT (headless)
 Homepage: http://openjdk.java.net/
 Built-Using: rhino (= 1.7R3-5)
-Description-md5: c5ec89b1a6bac9cd86f6e61756d18fb9
+Description-md5: 0e4fe22c10e314d8295f405d526774ef
 Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: java
 Priority: optional
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-headless_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 44330016
-MD5sum: ba6e57a2bae84fdbfdc8130e63d39472
-SHA1: 6b63fe4ec95cce3e6e9008c4e8dbae1ba786af23
-SHA256: 4fa073a9d1d1e2706cb8a33d4fd1bf38c8c615f6412acd858cd43a18cc8ff04b
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-headless_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 44375214
+MD5sum: 857a74945619860ae8d7198428941c8d
+SHA1: 7e1e4367553e563d7dfed092f32ad865ee36ae24
+SHA256: 6c26db003533b638c1d728a21abecdfd7369efef8139dccb3c78688a461f1145
 
 Package: openjdk-7-jre-lib
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 193
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 226
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Breaks: openjdk-7-jre-headless (<< 7u45-2.4.3-1)
@@ -19160,49 +19259,49 @@ Description-md5: 5e36cdf418f1eb04decf91f23dca47ee
 Multi-Arch: foreign
 Section: java
 Priority: optional
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-lib_7u65-2.5.1-5~deb7u1_all.deb
-Size: 79320
-MD5sum: f31c1eaca972e837e07714b878407a4e
-SHA1: 5d3fe7439795f4247d899c51b603120219fca1fc
-SHA256: 27296b180b276606a2e3034242cc392d4651ffd024be80fbdecaddeeb94ba07f
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-lib_7u71-2.5.3-2~deb7u1_all.deb
+Size: 80534
+MD5sum: 2f8dd0c3ad8cd919fe6dc23c30d69ced
+SHA1: ce150a5d4315cecf4667c96b70adcc9901bb367f
+SHA256: 8315e3a8134a63db4dd349a1f132dce96c5a1645891f296a0b57f04d5476aaf2
 
 Package: openjdk-7-jre-zero
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 6112
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 6113
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: i386
-Depends: openjdk-7-jre-headless (= 7u65-2.5.1-5~deb7u1), libc6 (>= 2.11), libstdc++6 (>= 4.1.1)
+Depends: openjdk-7-jre-headless (= 7u71-2.5.3-2~deb7u1), libc6 (>= 2.11), libstdc++6 (>= 4.1.1)
 Description: Alternative JVM for OpenJDK, using Zero/Shark
 Homepage: http://openjdk.java.net/
 Description-md5: ca0db1fb38a237b982a1de5e6d632720
 Multi-Arch: same
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-zero_7u65-2.5.1-5~deb7u1_i386.deb
-Size: 2375658
-MD5sum: 50ded43db74b39eee52e615e4b99ff28
-SHA1: 27a8a7c2cd8adb1ac44cd7c51961b3b1f67f8666
-SHA256: 3d573bfd49eb57938ac669e6d479c0a778ccdf005ef3e2bed7b9349dd1708a41
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-jre-zero_7u71-2.5.3-2~deb7u1_i386.deb
+Size: 2375846
+MD5sum: f39205d7a8e1534cfcd54730fb75c6ec
+SHA1: 219a155027c43746cee0c6c1abc9fd3398f1c433
+SHA256: 194caf9b8652c32e8683ab9a92157f0974a7ccf20f90e790bc5903be242a4508
 
 Package: openjdk-7-source
 Source: openjdk-7
-Version: 7u65-2.5.1-5~deb7u1
-Installed-Size: 43684
+Version: 7u71-2.5.3-2~deb7u1
+Installed-Size: 43730
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Architecture: all
 Replaces: openjdk-7-jdk (<< 7u65-2.5.1-4)
-Depends: openjdk-7-jre (>= 7u65-2.5.1-5~deb7u1), openjdk-7-jdk (>= 7u65-2.5.1-5~deb7u1)
+Depends: openjdk-7-jre (>= 7u71-2.5.3-2~deb7u1), openjdk-7-jdk (>= 7u71-2.5.3-2~deb7u1)
 Description: OpenJDK Development Kit (JDK) source files
 Homepage: http://openjdk.java.net/
 Description-md5: 328263bb6fbf81f04f5d459d67244ea0
 Section: java
 Priority: extra
-Filename: pool/updates/main/o/openjdk-7/openjdk-7-source_7u65-2.5.1-5~deb7u1_all.deb
-Size: 41317372
-MD5sum: 0a913ad07beb72d086f1247b1a4810e6
-SHA1: 6c679708beb092bb18ca686c5020a124ac5cb2d3
-SHA256: 9d032322cd8c6b2298437f49a30df9643015062be293fc1e3ad6d18f227d4379
+Filename: pool/updates/main/o/openjdk-7/openjdk-7-source_7u71-2.5.3-2~deb7u1_all.deb
+Size: 41498622
+MD5sum: fe034d6b424a7a564938bacc1feb21f1
+SHA1: b96c65aa69996e42a5ade26473d016826b5fc049
+SHA256: 02caad1c1caec13a2b41b7ea7a4bda38d191c0b076a587b3a34855949526da2c
 
 Package: libopenjpeg-dev
 Source: openjpeg
@@ -20976,6 +21075,39 @@ Size: 550174
 MD5sum: c5b301f585fbc0ee8356b4a43c71e806
 SHA1: 215bcd4b3e0a927c5530224462f6cdb29fbf75da
 SHA256: 7bf73f92f3984fb67584fa43b6f8f1ab179e11be48f4102d8f294f159f258f60
+
+Package: ppp
+Version: 2.4.5-5.1+deb7u1
+Installed-Size: 698
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: i386
+Depends: libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libpcap0.8 (>= 0.9.8), libpam-modules, libpam-runtime, procps
+Breaks: network-manager (<= 0.8.0.999-1), network-manager-pptp (<= 0.8.0.999-1), pppdcapiplugin (<= 1:3.9.20060704+dfsg.1-1)
+Description: Point-to-Point Protocol (PPP) - daemon
+Description-md5: 30c8068bb5c8dc59b8b1cfb452d03c8a
+Section: admin
+Priority: optional
+Filename: pool/updates/main/p/ppp/ppp_2.4.5-5.1+deb7u1_i386.deb
+Size: 370234
+MD5sum: 44bf18ae05d6c250399590e9a333a87c
+SHA1: 1fd7c33a569845b4258cf3210c0597762270cdb7
+SHA256: 5815b37cd4d219f37074bca495171a404551c43d4b33f06d391d5d784fe1b08f
+
+Package: ppp-dev
+Source: ppp
+Version: 2.4.5-5.1+deb7u1
+Installed-Size: 179
+Maintainer: Marco d'Itri <md@linux.it>
+Architecture: all
+Description: Point-to-Point Protocol (PPP) - development files
+Description-md5: 3d0de5ac1d756728fffd7f9a37363c84
+Section: devel
+Priority: extra
+Filename: pool/updates/main/p/ppp/ppp-dev_2.4.5-5.1+deb7u1_all.deb
+Size: 57194
+MD5sum: 4b46acb465c9d1d9700d8b4986e32df9
+SHA1: 519f4b04df2cbf504bb9a70f7e50d216f49210df
+SHA256: c043b4eb11da765a11ff26500901388180685c51c310956b89b2b7738d7ee9be
 
 Package: procmail
 Version: 3.22-20+deb7u1
