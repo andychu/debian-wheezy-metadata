@@ -1081,6 +1081,41 @@ Directory: pool/updates/main/f/file
 Priority: source
 Section: utils
 
+Package: flac
+Binary: flac, libflac8, libflac-doc, libflac-dev, libflac++6, libflac++-dev
+Version: 1.2.1-6+deb7u1
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Joshua Kwan <joshk@triplehelix.org>, Fabian Greffrath <fabian+debian@greffrath.com>
+Build-Depends: autotools-dev, debhelper (>= 8.1.3), dh-autoreconf, docbook-to-man, doxygen, libid3-3.8.3-dev, libogg-dev, quilt (>= 0.46-7~)
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ 860971170ffd897fd4e5ed6b011d6c76 1918 flac_1.2.1-6+deb7u1.dsc
+ 153c8b15a54da428d1f0fadc756c22c7 2009217 flac_1.2.1.orig.tar.gz
+ 0ed96367ef668075e0457aa0c505cc00 17154 flac_1.2.1-6+deb7u1.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/flac.git;a=summary
+Vcs-Git: git://git.debian.org/git/pkg-multimedia/flac.git
+Checksums-Sha1:
+ 9f28b6d3dc2fe81e074b3419127be4775dcf4463 1918 flac_1.2.1-6+deb7u1.dsc
+ bd54354900181b59db3089347cc84ad81e410b38 2009217 flac_1.2.1.orig.tar.gz
+ 366fe421c75e3207e8bdcd421523e10861d93200 17154 flac_1.2.1-6+deb7u1.diff.gz
+Checksums-Sha256:
+ 4eb0e9064be47a1af602ece230940e9efe91e038a86f42de48ef841598b0615d 1918 flac_1.2.1-6+deb7u1.dsc
+ 9635a44bceb478bbf2ee8a785cf6986fba525afb5fad1fd4bba73cf71f2d3edf 2009217 flac_1.2.1.orig.tar.gz
+ f3675442023ef698369e0f164b6b1ba7ea0674c5ba2490e9ea530178297ad6ee 17154 flac_1.2.1-6+deb7u1.diff.gz
+Homepage: http://flac.sourceforge.net/
+Package-List: 
+ flac deb sound optional
+ libflac++-dev deb libdevel optional
+ libflac++6 deb libs optional
+ libflac-dev deb libdevel optional
+ libflac-doc deb doc optional
+ libflac8 deb libs optional
+Directory: pool/updates/main/f/flac
+Priority: source
+Section: libs
+
 Package: gimp
 Binary: libgimp2.0, gimp, gimp-data, libgimp2.0-dev, libgimp2.0-doc, gimp-dbg
 Version: 2.8.2-2+deb7u1
@@ -7960,6 +7995,38 @@ Checksums-Sha256:
  c9cc0c7c5a81797fa9934e273905c6249fc6ff00d48fccd39769528bc013580f 2157 mutt_1.5.21-6.2+deb7u2.dsc
  2141f36e8d0f4f71c9ca6780001e7cc679fe313e643953fc07f001223e67c4a0 3716886 mutt_1.5.21.orig.tar.gz
  a660ecc633aac51a5d4e2c31e31d8df7d96566f9819deecadc9928409163c51b 184969 mutt_1.5.21-6.2+deb7u2.diff.gz
+Homepage: http://www.mutt.org/
+Package-List: 
+ mutt deb mail standard
+ mutt-dbg deb debug extra
+ mutt-patched deb mail extra
+Directory: pool/updates/main/m/mutt
+Priority: source
+Section: mail
+
+Package: mutt
+Binary: mutt, mutt-patched, mutt-dbg
+Version: 1.5.21-6.2+deb7u3
+Maintainer: Antonio Radici <antonio@dyne.org>
+Uploaders: Christoph Berg <myon@debian.org>
+Build-Depends: automake, debhelper (>> 7), docbook-xml, docbook-xsl, w3m, gawk, gettext, libgnutls-dev, libgpgme11-dev, libidn11-dev, libkrb5-dev, libncurses5-dev, libncursesw5-dev, libsasl2-dev, pkg-config, quilt, xsltproc, zlib1g-dev, libtokyocabinet-dev [!hurd-i386], libgdbm-dev [hurd-i386]
+Architecture: any
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ fae84aca6fd336e848f790b475f70d58 2174 mutt_1.5.21-6.2+deb7u3.dsc
+ a29db8f1d51e2f10c070bf88e8a553fd 3716886 mutt_1.5.21.orig.tar.gz
+ f67209091cca82999bac93eb72fc7149 185096 mutt_1.5.21-6.2+deb7u3.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-mutt/mutt.git
+Vcs-Git: git://git.debian.org/git/pkg-mutt/mutt.git
+Checksums-Sha1:
+ e81a3acb65090030b03b59eb97cfe5630b54e581 2174 mutt_1.5.21-6.2+deb7u3.dsc
+ a8475f2618ce5d5d33bff85c0affdf21ab1d76b9 3716886 mutt_1.5.21.orig.tar.gz
+ b9c40003c06d53e678be01b69e271ae3e3b768a7 185096 mutt_1.5.21-6.2+deb7u3.diff.gz
+Checksums-Sha256:
+ 7502f360684050bcf4870bc71ed60062c06b2eefdbe6d56ae46ee95879519966 2174 mutt_1.5.21-6.2+deb7u3.dsc
+ 2141f36e8d0f4f71c9ca6780001e7cc679fe313e643953fc07f001223e67c4a0 3716886 mutt_1.5.21.orig.tar.gz
+ fb4bf0c9fed7aa8969f0d22e0af27f2f245754f2107aac2ae1d2787de69a57af 185096 mutt_1.5.21-6.2+deb7u3.diff.gz
 Homepage: http://www.mutt.org/
 Package-List: 
  mutt deb mail standard

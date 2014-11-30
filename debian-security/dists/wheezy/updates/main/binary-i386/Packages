@@ -3214,6 +3214,120 @@ MD5sum: a22b1d6af4dbc5e19f64757508eba7a1
 SHA1: a392eaa41099d78f6384981099e01cf30a376f94
 SHA256: 0e4ae3c050214521af3d2951cf4d8a9f5070fd732c11ee72fd7c83ac6cb6325f
 
+Package: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 374
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), libflac8 (>= 1.2.1), libogg0 (>= 1.0rc3)
+Description: Free Lossless Audio Codec - command line tools
+Homepage: http://flac.sourceforge.net/
+Description-md5: f1560839832c89e0262853df6c9f7e62
+Section: sound
+Priority: optional
+Filename: pool/updates/main/f/flac/flac_1.2.1-6+deb7u1_i386.deb
+Size: 180726
+MD5sum: 84c668b0184725d725be7bdcd5e2c2f1
+SHA1: e3f2733ed8eb38c8874c26a5f3e5dffc100dd5fe
+SHA256: bf2273eca7be0b1605dd1d99e71fda5ee445f210c5db6739118fad36f01ff668
+
+Package: libflac++-dev
+Source: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 200
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libflac++6 (= 1.2.1-6+deb7u1), libflac-dev
+Description: Free Lossless Audio Codec - C++ development library
+Homepage: http://flac.sourceforge.net/
+Description-md5: 587748b0cbc64da87e6a3c66a716974c
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/f/flac/libflac++-dev_1.2.1-6+deb7u1_i386.deb
+Size: 49102
+MD5sum: 822dc3f39fc934b644330d295864eaba
+SHA1: 284f03a677a8d5f9e7b9a283e21657c02c5a7320
+SHA256: 797914199963197aeedaa8b31d23d9d667028c51f44517c24c2199df8a09f0ed
+
+Package: libflac++6
+Source: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 107
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libflac8 (>= 1.2.1), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Description: Free Lossless Audio Codec - C++ runtime library
+Homepage: http://flac.sourceforge.net/
+Description-md5: 3e16a4b738821651b2d456b30ceedb19
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/flac/libflac++6_1.2.1-6+deb7u1_i386.deb
+Size: 42346
+MD5sum: eb038e94657e52a7583cf1b38a7eb142
+SHA1: 81ef623c8d1d94322e69612d7c595ba2753ffd3d
+SHA256: 5ba94a1147f82ca4622c555a7c1c92b0b4ac60eca638e58a22504e0ce8b304e1
+
+Package: libflac-dev
+Source: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 715
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libflac8 (= 1.2.1-6+deb7u1), libogg-dev
+Description: Free Lossless Audio Codec - C development library
+Homepage: http://flac.sourceforge.net/
+Description-md5: cee7b37a9102c16f614988533407b6e9
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/f/flac/libflac-dev_1.2.1-6+deb7u1_i386.deb
+Size: 225550
+MD5sum: ac4b16699f97f21b42e4b911e1d48d36
+SHA1: bce11feddb26e868006879a7b39b0679f6d74765
+SHA256: f654e179144ef2fea8c54b501b060135d851ddcbe6bea75e46c2c2f07a99dba2
+
+Package: libflac-doc
+Source: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 4117
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: all
+Suggests: libflac-dev
+Description: Free Lossless Audio Codec - library documentation
+Homepage: http://flac.sourceforge.net/
+Description-md5: 0c0d8036449a3363599955cce1a15a27
+Recommends: doc-base
+Section: doc
+Priority: optional
+Filename: pool/updates/main/f/flac/libflac-doc_1.2.1-6+deb7u1_all.deb
+Size: 788252
+MD5sum: 534486e58ba8d21d1770f840cfec9a07
+SHA1: 1a003baebecd2392287891f333f06e5e437b16a5
+SHA256: 16e009f450229752df2bfbcebdf11c65e0264bc44ba91bcf477b0a358bd3e2a4
+
+Package: libflac8
+Source: flac
+Version: 1.2.1-6+deb7u1
+Installed-Size: 340
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), libogg0 (>= 1.0rc3)
+Description: Free Lossless Audio Codec - runtime C library
+Homepage: http://flac.sourceforge.net/
+Description-md5: f4e8094378ea7f3b5f74adc1e78593b6
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/flac/libflac8_1.2.1-6+deb7u1_i386.deb
+Size: 158974
+MD5sum: d17a810f91ce8ce2dac15a3cac684048
+SHA1: a02ee1d3a3e1bf0ef69a4a333cbe982dd44699ca
+SHA256: 770d954f8d02db040668f5f030ba9c1f61b7fbfd4f74073ef5b7c8868a76f1bf
+
 Package: gimp
 Version: 2.8.2-2+deb7u1
 Installed-Size: 15235
@@ -17737,8 +17851,8 @@ SHA1: 97d94d773b88eac358065eba627c6fc0b7ae3b15
 SHA256: ecf996d33f0dfb4ab1e52a005774f4e7c7db0a00e9a12012c96eeb5bc569dfb6
 
 Package: mutt
-Version: 1.5.21-6.2+deb7u2
-Installed-Size: 5449
+Version: 1.5.21-6.2+deb7u3
+Installed-Size: 5450
 Maintainer: Antonio Radici <antonio@dyne.org>
 Architecture: i386
 Replaces: mutt-utf8
@@ -17752,47 +17866,47 @@ Description-md5: a2a425952f4b623e21ee73d317640a85
 Recommends: default-mta | mail-transport-agent, locales, mime-support, libsasl2-modules
 Section: mail
 Priority: standard
-Filename: pool/updates/main/m/mutt/mutt_1.5.21-6.2+deb7u2_i386.deb
-Size: 1375252
-MD5sum: 12d657815c37063cfe01f3029d3e2d24
-SHA1: cbc3a87d83f7b5e87c61bf3ab9cfdc2997610c57
-SHA256: 186e15856dbb710346cc1b34a747c2da7cbf451085a2522fdc332a184f584a77
+Filename: pool/updates/main/m/mutt/mutt_1.5.21-6.2+deb7u3_i386.deb
+Size: 1375632
+MD5sum: 339d7f7bf45ac42bc4eff8a07ea78e26
+SHA1: 944acf1e75c1cec11796d1d69729bcfc3ca38b1c
+SHA256: 9b853892fda233e816cff1519793c53fd85a51b4a682c34d4a7d4592db575d7d
 
 Package: mutt-dbg
 Source: mutt
-Version: 1.5.21-6.2+deb7u2
+Version: 1.5.21-6.2+deb7u3
 Installed-Size: 5241
 Maintainer: Antonio Radici <antonio@dyne.org>
 Architecture: i386
-Depends: mutt (= 1.5.21-6.2+deb7u2)
+Depends: mutt (= 1.5.21-6.2+deb7u3)
 Description: debugging symbols for mutt
 Homepage: http://www.mutt.org/
 Description-md5: 84ae750c0a18926ab30eccaa18b243a6
 Section: mail
 Priority: extra
-Filename: pool/updates/main/m/mutt/mutt-dbg_1.5.21-6.2+deb7u2_i386.deb
-Size: 1126882
-MD5sum: f9f86e7c2e7aa1e2b67418be252a91e9
-SHA1: 32b454517aa2ddb063754cb16a035843d0e7c171
-SHA256: 77447768a331441ce24fb4a8eb9e99020f0a07bde69a4f8bb07880770531e53e
+Filename: pool/updates/main/m/mutt/mutt-dbg_1.5.21-6.2+deb7u3_i386.deb
+Size: 1126386
+MD5sum: f5536b1701e9aa2d0c577a207b2c30af
+SHA1: 62a901c654d3b8619089e253ab3bdbbd2ea89b19
+SHA256: 9b3cba9421d32687e62dd300e70e818c275a6d949a4cc3002bfbfb7aa5f52645
 
 Package: mutt-patched
 Source: mutt
-Version: 1.5.21-6.2+deb7u2
+Version: 1.5.21-6.2+deb7u3
 Installed-Size: 892
 Maintainer: Antonio Radici <antonio@dyne.org>
 Architecture: i386
-Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgnutls26 (>= 2.12.17-0), libgpg-error0 (>= 1.10), libgpgme11 (>= 1.2.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libncursesw5 (>= 5.6+20070908), libsasl2-2 (>= 2.1.24), libtinfo5, libtokyocabinet9 (>= 1.4.47), mutt (= 1.5.21-6.2+deb7u2)
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libgnutls26 (>= 2.12.17-0), libgpg-error0 (>= 1.10), libgpgme11 (>= 1.2.0), libgssapi-krb5-2 (>= 1.10+dfsg~), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libncursesw5 (>= 5.6+20070908), libsasl2-2 (>= 2.1.24), libtinfo5, libtokyocabinet9 (>= 1.4.47), mutt (= 1.5.21-6.2+deb7u3)
 Description: Mutt Mail User Agent with extra patches
 Homepage: http://www.mutt.org/
 Description-md5: 1a3d3c6f572c5eb2ff2b4a5dfee718e4
 Section: mail
 Priority: extra
-Filename: pool/updates/main/m/mutt/mutt-patched_1.5.21-6.2+deb7u2_i386.deb
-Size: 361836
-MD5sum: 23023c60eaf121cb897dfc5030b15b72
-SHA1: f7320f4f70733332321377db2006416f4554d82d
-SHA256: dcd4cc29430846a17d84ca3d412b112e40427dfc43ad4d4ee8b2f1c2184880f9
+Filename: pool/updates/main/m/mutt/mutt-patched_1.5.21-6.2+deb7u3_i386.deb
+Size: 362046
+MD5sum: aa354aaca4aeac965a9d9d5d3d92a133
+SHA1: 749dfaf1364ad5e343b7b4e3fd0b6948e6845d6e
+SHA256: 772b8243369f2c56e81ad10b91c543518c0e798975951861c2827c5a37bd0b7d
 
 Package: libmysqlclient-dev
 Source: mysql-5.5
