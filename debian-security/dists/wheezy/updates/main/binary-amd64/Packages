@@ -19417,6 +19417,24 @@ MD5sum: 5e19ca0d5b25793b052fab27085e3aef
 SHA1: d21123e3af8ae9eb8b7257b73dc2ac906ec9b9ef
 SHA256: 6b2f3f6f76cd7379c65cf5ff8c5bbd15f495786a7369e9663a7dc1f99be2b05f
 
+Package: openvpn
+Version: 2.2.1-8+deb7u3
+Installed-Size: 1091
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Architecture: amd64
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.4), liblzo2-2, libpam0g (>= 0.99.7.1), libpkcs11-helper1 (>= 1.05), libssl1.0.0 (>= 1.0.0), net-tools, initscripts (>= 2.88dsf-13.3)
+Suggests: openssl, resolvconf
+Description: virtual private network daemon
+Homepage: http://www.openvpn.net/
+Description-md5: 2ebe91e411d46309a61861db507e5c2f
+Section: net
+Priority: optional
+Filename: pool/updates/main/o/openvpn/openvpn_2.2.1-8+deb7u3_amd64.deb
+Size: 511822
+MD5sum: 2314a464849ff3abeb07130b6537a783
+SHA1: 85f79401256ab2093930b22e343db11000f75033
+SHA256: ae46a7d0b39ba0c4a1b3f751c35970a1b574d7b10ab83144890d3d41a9f838b1
+
 Package: otrs
 Source: otrs2
 Version: 3.1.7+dfsg1-8+deb7u4

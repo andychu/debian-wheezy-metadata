@@ -8586,6 +8586,33 @@ Directory: pool/updates/main/o/openswan
 Priority: source
 Section: net
 
+Package: openvpn
+Binary: openvpn
+Version: 2.2.1-8+deb7u3
+Maintainer: Alberto Gonzalez Iniesta <agi@inittab.org>
+Build-Depends: debhelper (>= 7.0.50~), libssl-dev (>> 0.9.8g-9), liblzo2-dev, libpam0g-dev, libpkcs11-helper1-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ a941aae73fc39d0f93a550a5c6c4c382 1791 openvpn_2.2.1-8+deb7u3.dsc
+ 500bee5449b29906150569aaf2eb2730 911472 openvpn_2.2.1.orig.tar.gz
+ 4784ea9f4c6626caa00e1263c0203dff 142800 openvpn_2.2.1-8+deb7u3.debian.tar.gz
+Checksums-Sha1:
+ 42ef040cde289aadeb68bc8f1a9f04bf06131504 1791 openvpn_2.2.1-8+deb7u3.dsc
+ d5a8e9c635aa330eae8e66e1ccbe2b98e4c3047b 911472 openvpn_2.2.1.orig.tar.gz
+ 8df5801d66ae7f0a9192d18ce85aea654f4ea358 142800 openvpn_2.2.1-8+deb7u3.debian.tar.gz
+Checksums-Sha256:
+ ae31c727f5f7f1d41d13b4ef7a6bed862b9ddd705e673b9a8655ae45c4b0d986 1791 openvpn_2.2.1-8+deb7u3.dsc
+ a860858cc92d4573399bb2ff17ac62d9b4b8939e6af0b8cc69150ba39d6e94e0 911472 openvpn_2.2.1.orig.tar.gz
+ 3314ca9c453ab1c54ba42afca8c91da1b87ceb1e585b8a7714f5905284468ff7 142800 openvpn_2.2.1-8+deb7u3.debian.tar.gz
+Homepage: http://www.openvpn.net/
+Package-List: 
+ openvpn deb net optional
+Directory: pool/updates/main/o/openvpn
+Priority: source
+Section: net
+
 Package: otrs2
 Binary: otrs2, otrs
 Version: 3.1.7+dfsg1-8+deb7u4
