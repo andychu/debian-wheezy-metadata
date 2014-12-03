@@ -24716,6 +24716,23 @@ MD5sum: f619cefbd2572299a1c04e3c08e52f1d
 SHA1: 66715d87f03f723a4507c3f0af5cbd116d7a3935
 SHA256: 2ba1ea314ddbe9c174607d2ea41ad8a3dfd2628e422624033c9573565bd1e161
 
+Package: tcpdump
+Version: 4.3.0-1+deb7u1
+Installed-Size: 985
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libpcap0.8 (>= 1.2.1), libssl1.0.0 (>= 1.0.0)
+Description: command-line network traffic analyzer
+Homepage: http://www.tcpdump.org/
+Description-md5: f01841bfda357d116d7ff7b7a47e8782
+Section: net
+Priority: optional
+Filename: pool/updates/main/t/tcpdump/tcpdump_4.3.0-1+deb7u1_amd64.deb
+Size: 419898
+MD5sum: 99224ad04e54b31149295e59cc6fcd05
+SHA1: 25f883fa2d0b7a36925bea91838cc1e54bfe9abc
+SHA256: 5d46ca857cbdf677a6a00ed1017db49116f181371aaf9f64afa4b4c099573665
+
 Package: telepathy-gabble
 Version: 0.16.5-1+deb7u1
 Installed-Size: 1971
@@ -26862,8 +26879,8 @@ SHA1: ef6d44001f1fda8fa07204042928cda3dd9ee95b
 SHA256: 360b5b30ea641cc90700c172a73ddd4452eb1369622d06df2779dd130b91eb12
 
 Package: wordpress
-Version: 3.6.1+dfsg-1~deb7u4
-Installed-Size: 12478
+Version: 3.6.1+dfsg-1~deb7u5
+Installed-Size: 12479
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Architecture: all
 Depends: libjs-cropper (>= 1.2.2), libphp-phpmailer (>= 5.1), libphp-snoopy (>= 1.2.4), tinymce (<< 3.4.8+dfsg0.0~), tinymce (>= 3.4.8+dfsg0), apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, php5-gd
@@ -26874,29 +26891,29 @@ Description-md5: 3558d680fa97c6a3f32c5c5e9f4a182a
 Recommends: wordpress-l10n
 Section: web
 Priority: optional
-Filename: pool/updates/main/w/wordpress/wordpress_3.6.1+dfsg-1~deb7u4_all.deb
-Size: 3199578
-MD5sum: 855bb5a3d6f293345c10b68d3ba12008
-SHA1: 0ae10404055d32309b8d3e5662418a24dc4c9e6c
-SHA256: 5a49c0a90e79fbe9a699a154276ed313e9053994a92fe0d95c9005c88f37f520
+Filename: pool/updates/main/w/wordpress/wordpress_3.6.1+dfsg-1~deb7u5_all.deb
+Size: 3963774
+MD5sum: cc1201f346a9a2d39f2b60cf498df130
+SHA1: f74318f890320346775b3cb11a907ccd3a3c9046
+SHA256: ee286acae3ee7280507b23bd6d9218b61023ede2349ccc9a865624b3cffb77d4
 
 Package: wordpress-l10n
 Source: wordpress
-Version: 3.6.1+dfsg-1~deb7u4
+Version: 3.6.1+dfsg-1~deb7u5
 Installed-Size: 27391
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Architecture: all
-Depends: wordpress (= 3.6.1+dfsg-1~deb7u4)
+Depends: wordpress (= 3.6.1+dfsg-1~deb7u5)
 Description: weblog manager - language files
 Homepage: http://wordpress.org
 Description-md5: 7a442bfcb53dd9ab21ef52d5f75d013d
 Section: localization
 Priority: optional
-Filename: pool/updates/main/w/wordpress/wordpress-l10n_3.6.1+dfsg-1~deb7u4_all.deb
-Size: 3740082
-MD5sum: 6fa3a5100ab2a7a87533ec7ff6fe4b01
-SHA1: f4bb505cf10cd174a18362ea3bcf05e78b66d825
-SHA256: 1fdb498ef189397f8fcae4430a61b781a2b6ab7271950a9d60cef1d782f78613
+Filename: pool/updates/main/w/wordpress/wordpress-l10n_3.6.1+dfsg-1~deb7u5_all.deb
+Size: 8871382
+MD5sum: 518c9bc812ce553515c4203421fbc85c
+SHA1: b95f473d2c20d20d21413733bd1215d06297fc7d
+SHA256: 623cd45b8c1c20976cf84397cdc376babc7570b94b5bfc3542cc918cd03bebb6
 
 Package: hostapd
 Source: wpa (1.0-3+deb7u1)

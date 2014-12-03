@@ -7974,38 +7974,6 @@ Section: text
 
 Package: mutt
 Binary: mutt, mutt-patched, mutt-dbg
-Version: 1.5.21-6.2+deb7u2
-Maintainer: Antonio Radici <antonio@dyne.org>
-Uploaders: Christoph Berg <myon@debian.org>
-Build-Depends: automake, debhelper (>> 7), docbook-xml, docbook-xsl, w3m, gawk, gettext, libgnutls-dev, libgpgme11-dev, libidn11-dev, libkrb5-dev, libncurses5-dev, libncursesw5-dev, libsasl2-dev, pkg-config, quilt, xsltproc, zlib1g-dev, libtokyocabinet-dev [!hurd-i386], libgdbm-dev [hurd-i386]
-Architecture: any
-Standards-Version: 3.9.2
-Format: 1.0
-Files:
- f92e3de22c37ed3325012cab4493ccdb 2157 mutt_1.5.21-6.2+deb7u2.dsc
- a29db8f1d51e2f10c070bf88e8a553fd 3716886 mutt_1.5.21.orig.tar.gz
- d9d0f44f26607f25cfc61e9365943cbc 184969 mutt_1.5.21-6.2+deb7u2.diff.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-mutt/mutt.git
-Vcs-Git: git://git.debian.org/git/pkg-mutt/mutt.git
-Checksums-Sha1:
- b4e3091f0bf0c77577e6fc3a507faefb09d05b99 2157 mutt_1.5.21-6.2+deb7u2.dsc
- a8475f2618ce5d5d33bff85c0affdf21ab1d76b9 3716886 mutt_1.5.21.orig.tar.gz
- ec5dae25052adcf44cfe67489bf60496394d3b0c 184969 mutt_1.5.21-6.2+deb7u2.diff.gz
-Checksums-Sha256:
- c9cc0c7c5a81797fa9934e273905c6249fc6ff00d48fccd39769528bc013580f 2157 mutt_1.5.21-6.2+deb7u2.dsc
- 2141f36e8d0f4f71c9ca6780001e7cc679fe313e643953fc07f001223e67c4a0 3716886 mutt_1.5.21.orig.tar.gz
- a660ecc633aac51a5d4e2c31e31d8df7d96566f9819deecadc9928409163c51b 184969 mutt_1.5.21-6.2+deb7u2.diff.gz
-Homepage: http://www.mutt.org/
-Package-List: 
- mutt deb mail standard
- mutt-dbg deb debug extra
- mutt-patched deb mail extra
-Directory: pool/updates/main/m/mutt
-Priority: source
-Section: mail
-
-Package: mutt
-Binary: mutt, mutt-patched, mutt-dbg
 Version: 1.5.21-6.2+deb7u3
 Maintainer: Antonio Radici <antonio@dyne.org>
 Uploaders: Christoph Berg <myon@debian.org>
@@ -10617,6 +10585,35 @@ Directory: pool/updates/main/s/systemd
 Priority: source
 Section: admin
 
+Package: tcpdump
+Binary: tcpdump
+Version: 4.3.0-1+deb7u1
+Maintainer: Romain Francoise <rfrancoise@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper (>= 8.9.4~), libpcap0.8-dev (>= 0.9.3), libssl-dev, autotools-dev, autoconf
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 10b6ddd6ebd74e723e5393478585fc25 1931 tcpdump_4.3.0-1+deb7u1.dsc
+ a3fe4d30ac85ff5467c889ff46b7e1e8 887619 tcpdump_4.3.0.orig.tar.gz
+ af8927109c537f1650af40c92738d107 14972 tcpdump_4.3.0-1+deb7u1.debian.tar.xz
+Vcs-Browser: http://git.debian.org/?p=users/rfrancoise/tcpdump.git
+Vcs-Git: git://git.debian.org/git/users/rfrancoise/tcpdump.git
+Checksums-Sha1:
+ b34a71db8cbbe8e6943d286f069d8b3cd05f44b6 1931 tcpdump_4.3.0-1+deb7u1.dsc
+ 5d0432e4831ca81633a6c9da732caad77d64a9ac 887619 tcpdump_4.3.0.orig.tar.gz
+ 44b3da0e4f51dc5e5f37310cc8244e32a86194d5 14972 tcpdump_4.3.0-1+deb7u1.debian.tar.xz
+Checksums-Sha256:
+ b345b81792830fec740ff616b2b4d5e5a7e6186eb77e3b2f6d1658a1174ff2d4 1931 tcpdump_4.3.0-1+deb7u1.dsc
+ efd08b610210d39977ec3175fa82dad9fbd33587930081be2a905a712dba4286 887619 tcpdump_4.3.0.orig.tar.gz
+ 4d36e1a9140d3268a0bc1e71d89ee4649c9c1a17002b20078a85720b5673fe23 14972 tcpdump_4.3.0-1+deb7u1.debian.tar.xz
+Homepage: http://www.tcpdump.org/
+Package-List: 
+ tcpdump deb net optional arch=any
+Directory: pool/updates/main/t/tcpdump
+Priority: source
+Section: net
+
 Package: telepathy-gabble
 Binary: telepathy-gabble, telepathy-gabble-dbg
 Version: 0.16.5-1+deb7u1
@@ -11224,7 +11221,7 @@ Section: net
 
 Package: wordpress
 Binary: wordpress, wordpress-l10n
-Version: 3.6.1+dfsg-1~deb7u4
+Version: 3.6.1+dfsg-1~deb7u5
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Build-Depends: debhelper (>= 9), dh-linktree
@@ -11232,24 +11229,24 @@ Architecture: all
 Standards-Version: 3.9.4
 Format: 3.0 (quilt)
 Files:
- 13f4355918d8f6cc55903f29c010d444 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
+ afa4c48ad2294d72638ca3fabd3451bd 2319 wordpress_3.6.1+dfsg-1~deb7u5.dsc
  4fbd2c241f5d7075b115dfba1b130bfa 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- ce48b38db5bb2148b32c1e7607faf4d1 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
+ 216db17b0d13b2c82243c79726bc2a9b 5248764 wordpress_3.6.1+dfsg-1~deb7u5.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/wordpress.git
 Vcs-Git: git://anonscm.debian.org/collab-maint/wordpress.git
 Checksums-Sha1:
- e2780d2bb101d9b84143d35e235f1792e3f14457 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
+ c20253a8fb57bbb7ee21b02e45a56f4b72df6845 2319 wordpress_3.6.1+dfsg-1~deb7u5.dsc
  997fd2158cd14bd29a5598a81c780db34f7173f7 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- 6390491d6b961450df20cef2e12de255bbc44cf9 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
+ e7d8a19929661cede1cc16952b4c837f0cc66af6 5248764 wordpress_3.6.1+dfsg-1~deb7u5.debian.tar.xz
 Checksums-Sha256:
- b231b1d8fd35809a648f89f252e60b9496ea5afcac1c2a273a1a36f8c77cd964 2333 wordpress_3.6.1+dfsg-1~deb7u4.dsc
+ ca1357404b89b5e5d9062d658bce22b1d86d1c385c8f0ab8318435ad8abe1545 2319 wordpress_3.6.1+dfsg-1~deb7u5.dsc
  20714525a688eadd649e2e497b4cd300870445867e1f8b3305b49da5ca55b50d 3214412 wordpress_3.6.1+dfsg.orig.tar.xz
- 7d751ca5c8731a11302c296ccc49e2f791d41dac86435a1dde3090543a27a05a 5157672 wordpress_3.6.1+dfsg-1~deb7u4.debian.tar.xz
+ 4ffaeaf4766edd68478f8a9e2d6aa5182a6265b1c79ff27525651b01083503a0 5248764 wordpress_3.6.1+dfsg-1~deb7u5.debian.tar.xz
 Homepage: http://wordpress.org
 Build-Depends-Indep: perl, gettext, libphp-phpmailer (>= 5.1), libjs-prototype, libjs-scriptaculous, tinymce (>= 3.4.2), libphp-snoopy, libjs-jquery (>= 1.6.1), libjs-jquery-ui (>= 1.8.1), libjs-jquery-form, libjs-cropper, libphp-simplepie (>= 1.2), libjs-swfobject, libjs-backbone, libjs-underscore
 Package-List: 
- wordpress deb web optional arch=all
- wordpress-l10n deb localization optional arch=all
+ wordpress deb web optional
+ wordpress-l10n deb localization optional
 Directory: pool/updates/main/w/wordpress
 Priority: source
 Section: web
