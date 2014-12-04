@@ -209,3 +209,50 @@ MD5sum: e647f0c0d8db8f705e2a29d0d703020a
 SHA1: 77303704c722cc56734b0065bc4436c62c69d0f0
 SHA256: 5f6f4c5a3a2925eca98aee9fb8ed07ed1b943995de4e15fbc6004bf359fa8b50
 
+Package: spamassassin
+Version: 3.3.2-5+deb7u2
+Installed-Size: 3388
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: all
+Provides: libmail-spamassassin-perl
+Depends: perl (>= 5.8.0), libhtml-parser-perl (>= 3.43), libsocket6-perl, libsys-hostname-long-perl, libarchive-tar-perl, libwww-perl, libnet-dns-perl (>= 0.34), libnetaddr-ip-perl, perl-modules (>= 5.10) | libio-zlib-perl (>= 1.04), adduser
+Recommends: spamc (>= 2.30), libmail-spf-perl, re2c, libsys-syslog-perl, gnupg, gcc, libc6-dev, make, libio-socket-inet6-perl
+Suggests: razor (>= 2.361-2), libnet-ident-perl, libio-socket-ssl-perl, libdbi-perl, pyzor, libcompress-zlib-perl, libmail-dkim-perl
+Conflicts: gotmail (<= 0.8.1-1), spamass-milter (<< 0.2.0-7)
+Description: Perl-based spam filter using text analysis
+Homepage: http://www.spamassassin.org/
+Description-md5: dc09f4668ebbf8e10ef779ed26e5716c
+Tag: implemented-in::perl, interface::daemon, mail::filters, network::server,
+ protocol::smtp, role::program, use::checking, use::filtering,
+ use::scanning, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/s/spamassassin/spamassassin_3.3.2-5+deb7u2_all.deb
+Size: 1270584
+MD5sum: 872f65038f8a02c1b6e00ef662afa036
+SHA1: 43d1f5b946838abebe122e21851e4c3efc1d403f
+SHA256: 445888e99eb6ed3aa5b8d14e622cd9db27537fe9bd5802e13c9770b196917a1d
+
+Package: spamc
+Source: spamassassin
+Version: 3.3.2-5+deb7u2
+Installed-Size: 133
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4)
+Suggests: spamassassin
+Conflicts: spamassassin (<< 2.30-2)
+Description: Client for SpamAssassin spam filtering daemon
+Homepage: http://www.spamassassin.org/
+Description-md5: b2e3d1db161689a544d73b142bacbe57
+Tag: implemented-in::c, interface::commandline, interface::daemon,
+ mail::filters, network::client, protocol::smtp, role::program,
+ use::scanning, works-with::mail
+Section: mail
+Priority: optional
+Filename: pool/main/s/spamassassin/spamc_3.3.2-5+deb7u2_i386.deb
+Size: 75980
+MD5sum: d47a790bf263dd4e11b91779b0cd856c
+SHA1: 317836d90b0d91c88a598a82cf4c1503f5dae404
+SHA256: 911fdf4594d23d15fe79154d6d6032d98769ff52d525cb9c206ccb42389f66db
+

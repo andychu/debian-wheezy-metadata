@@ -38,3 +38,34 @@ Directory: pool/main/c/clamav
 Priority: source
 Section: utils
 
+Package: spamassassin
+Binary: spamassassin, spamc
+Version: 3.3.2-5+deb7u2
+Maintainer: Noah Meyerhans <noahm@debian.org>
+Uploaders: Jesus Climent <jesus.climent@hispalinux.es>
+Build-Depends: debhelper (>= 7), perl, libssl-dev, libhtml-parser-perl (>= 3.24), libnet-dns-perl (>= 0.34), libnetaddr-ip-perl, hardening-wrapper
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 113271ff8e6b5eba2938e76b9287a9b8 2114 spamassassin_3.3.2-5+deb7u2.dsc
+ 8b50b18b749f99c3e0c3059a56fcbcd3 1270922 spamassassin_3.3.2.orig.tar.bz2
+ 39b4003b7d6d81791bf50f1c99ced574 46092 spamassassin_3.3.2-5+deb7u2.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/viewsvn/collab-maint/deb-maint/spamassassin/trunk/
+Vcs-Svn: svn://svn.debian.org/svn/collab-maint/deb-maint/spamassassin/trunk
+Checksums-Sha1:
+ 22b368f3dd718e395dc111715b873d76d5345b0e 2114 spamassassin_3.3.2-5+deb7u2.dsc
+ 76309c5ff324b606ee2cd0d3e1ee390cdd5eeeb3 1270922 spamassassin_3.3.2.orig.tar.bz2
+ baee3af841f2237f3fa2b03c2a48a48e59e7a46e 46092 spamassassin_3.3.2-5+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 100893cbb9be36d80d2d53e7940510e7c545fe8f303647594cd3038022e41a61 2114 spamassassin_3.3.2-5+deb7u2.dsc
+ 3f04c16241d11c77d153802cc1e17bdf5390804f160fe451b968894fa44e5214 1270922 spamassassin_3.3.2.orig.tar.bz2
+ fe6c88f534b71e7808cec36931883eba110bbd04c7dffaf5973ba720e786e53a 46092 spamassassin_3.3.2-5+deb7u2.debian.tar.gz
+Homepage: http://www.spamassassin.org/
+Package-List: 
+ spamassassin deb mail optional
+ spamc deb mail optional
+Directory: pool/main/s/spamassassin
+Priority: source
+Section: mail
+
