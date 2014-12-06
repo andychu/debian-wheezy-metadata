@@ -9621,43 +9621,6 @@ Section: python
 
 Package: qemu
 Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
-Version: 1.1.2+dfsg-6a+deb7u5
-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
-Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
-Build-Depends: debhelper (>= 5), nasm, device-tree-compiler, libfdt-dev, libx11-dev, libsdl1.2-dev (>> 1.2.1), libncurses5-dev, zlib1g-dev, texi2html, sharutils, libbrlapi-dev, libpulse-dev, libcurl4-gnutls-dev, libgnutls-dev, libsasl2-dev, uuid-dev, libvdeplug2-dev [linux-any], libasound2-dev [linux-any], libbluetooth-dev [linux-any], libattr1-dev, libcap-dev [linux-any], libgpmg1-dev [linux-any], linux-libc-dev (>= 2.6.34) [linux-any], libaio-dev [linux-any], xfslibs-dev [linux-any], texinfo, python, libspice-server-dev [amd64], libspice-protocol-dev [amd64], libxen-dev [amd64 i386], libiscsi-dev, libusbredirparser-dev [linux-any]
-Architecture: amd64 arm armel armhf hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64 all
-Standards-Version: 3.9.3
-Format: 3.0 (quilt)
-Files:
- fc01f87ed3beeacdb23b3a8fc7d85d5d 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
- e385f154b12c27422860cdcbd37509b4 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- 875eb959d82afb232768bb7b84a8feaf 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-qemu/qemu.git
-Vcs-Git: git://git.debian.org/git/pkg-qemu/qemu.git
-Checksums-Sha1:
- 97b70b2cfabda1d5b1f1c5c5b23df480cbbd8a9f 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
- 65930c43945aad83862eaf578b93b7c3d041dc3c 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- e8280b293f798d356567737444c0e120d71c51a1 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
-Checksums-Sha256:
- f0e29ae502dcf72d386c7c2198adb893820999b77dce90d5816b149d09073038 2634 qemu_1.1.2+dfsg-6a+deb7u5.dsc
- 8286cbf15452ba2166e1fde1cfce1a1ded46ad20d8463a720d13a834b5f69915 4480342 qemu_1.1.2+dfsg.orig.tar.bz2
- b0f718b20eaa6277810e506891588a7bdeeba4356b1585c71f17131b48bf35b8 103543 qemu_1.1.2+dfsg-6a+deb7u5.debian.tar.gz
-Homepage: http://www.qemu.org/
-Build-Conflicts: oss4-dev
-Dm-Upload-Allowed: yes
-Package-List: 
- qemu deb misc optional
- qemu-keymaps deb misc optional
- qemu-system deb misc optional
- qemu-user deb misc optional
- qemu-user-static deb misc optional
- qemu-utils deb misc optional
-Directory: pool/updates/main/q/qemu
-Priority: source
-Section: misc
-
-Package: qemu
-Binary: qemu, qemu-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
 Version: 1.1.2+dfsg-6a+deb7u6
 Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
 Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
