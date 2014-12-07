@@ -1116,6 +1116,36 @@ Directory: pool/updates/main/f/flac
 Priority: source
 Section: libs
 
+Package: getmail4
+Binary: getmail4
+Version: 4.46.0-1~deb7u1
+Maintainer: Osamu Aoki <osamu@debian.org>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Files:
+ 7cf79b25c28be7ee41bcb32df3aec5fc 1878 getmail4_4.46.0-1~deb7u1.dsc
+ aa094ebe558f47246c8af2ca8e1d12f9 189522 getmail4_4.46.0.orig.tar.gz
+ e666457e81731c4c2e9d089f85f82f32 8241 getmail4_4.46.0-1~deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/getmail.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/getmail.git
+Checksums-Sha1:
+ 1eaeba5b420eac564aada3dff3bd9c3c2503ada1 1878 getmail4_4.46.0-1~deb7u1.dsc
+ 0e20fcfed6c422e5135304c3728c11c7cee7081a 189522 getmail4_4.46.0.orig.tar.gz
+ 8f2a1d1df0f2da5dac209b1d9afd9ec8ced85cf3 8241 getmail4_4.46.0-1~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ f354ed9e318805379e596e32e5fbb7c332d35971a397e2e71453adf49b7383ee 1878 getmail4_4.46.0-1~deb7u1.dsc
+ f423269290e8afc0071cabeae88d3f1adfd9dc351041ac14a2d4e05b44ad3897 189522 getmail4_4.46.0.orig.tar.gz
+ 2e1a75ead21ab01295222b1bec3156a6f61e5d28c9c615649294bbb9ad32aba1 8241 getmail4_4.46.0-1~deb7u1.debian.tar.gz
+Homepage: http://pyropus.ca/software/getmail/
+Build-Depends-Indep: python
+Package-List: 
+ getmail4 deb mail optional
+Directory: pool/updates/main/g/getmail4
+Priority: source
+Section: mail
+
 Package: gimp
 Binary: libgimp2.0, gimp, gimp-data, libgimp2.0-dev, libgimp2.0-doc, gimp-dbg
 Version: 2.8.2-2+deb7u1
@@ -1436,6 +1466,40 @@ Checksums-Sha256:
  9feedada6e3079ef05c2eb7fda4813d47581942c1c7b8b46a105806ec7c4fa71 2829 icedove_31.2.0-1~deb7u1.dsc
  6a3c877b2c4ff2811914df2aa7deb76da2003db3b02c0341abb8eb0b402cf852 139858784 icedove_31.2.0.orig.tar.xz
  abb08b7d1b7e0d53bf8e8ba3124c4ab0133a690b17b11fc39dc7fe683b611624 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
+Homepage: http://www.mozilla.org/thunderbird/
+Package-List: 
+ calendar-google-provider deb mail optional
+ icedove deb mail optional
+ icedove-dbg deb debug extra
+ icedove-dev deb mail optional
+ iceowl-extension deb mail optional
+Directory: pool/updates/main/i/icedove
+Priority: source
+Section: mail
+
+Package: icedove
+Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
+Version: 31.3.0-1~deb7u1
+Maintainer: Christoph Goehre <chris@sigxcpu.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>
+Build-Depends: autoconf2.13, autotools-dev, bzip2, debhelper (>= 7.0.50~), dpkg-dev (>= 1.16.1~), libasound2-dev [linux-any], libbz2-dev, libcairo2-dev (>= 1.10.2-1.1~), libdbus-glib-1-dev (>= 0.60), libevent-dev (>= 1.4.1), libffi-dev, libfontconfig1-dev, libglib2.0-dev (>= 2.16.0), libgnomeui-dev (>= 2.16), libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk2.0-dev (>= 2.12), libhunspell-dev (>= 1.2), libidl-dev (>= 0.8.0), libiw-dev [linux-any], libjs-jquery, libjs-jquery-ui, libreadline-dev, libpulse-dev, libsqlite3-dev (>= 3.7.13~), libstartup-notification0-dev, libxau-dev, libxft-dev, libxt-dev, mesa-common-dev, python-minimal (>= 2.6.6-13~), python-ply, python2.7, unzip, yasm (>= 1.1), zip, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 866dacc307b833a1de7c3e8abba24424 2829 icedove_31.3.0-1~deb7u1.dsc
+ 6b2caa4a663feb36def73f9cd233333e 138257320 icedove_31.3.0.orig.tar.xz
+ f77a556b2a333a04006ad230abb28a91 495825 icedove_31.3.0-1~deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
+Checksums-Sha1:
+ 449917561b42b07edf024ee0821b6a8e2b7f18b5 2829 icedove_31.3.0-1~deb7u1.dsc
+ 4e67d731840f2ca3432bfdb53b559a836ce25c53 138257320 icedove_31.3.0.orig.tar.xz
+ 04142bd0d793114455c905472d4850f1f3e77ba2 495825 icedove_31.3.0-1~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ b4bdc9f0496854151fccab2e24a8ff66662230bab096b8e1b250239b6dd156a0 2829 icedove_31.3.0-1~deb7u1.dsc
+ 319d648c46490f3a384e929bf09ec214d43afd720a2c4f9c1e70cdc657237595 138257320 icedove_31.3.0.orig.tar.xz
+ c85cac69d572e0b7d1d917de9a9955c63aab024f1c7786146530aa343aec3202 495825 icedove_31.3.0-1~deb7u1.debian.tar.gz
 Homepage: http://www.mozilla.org/thunderbird/
 Package-List: 
  calendar-google-provider deb mail optional

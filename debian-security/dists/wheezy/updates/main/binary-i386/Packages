@@ -3328,6 +3328,25 @@ MD5sum: d17a810f91ce8ce2dac15a3cac684048
 SHA1: a02ee1d3a3e1bf0ef69a4a333cbe982dd44699ca
 SHA256: 770d954f8d02db040668f5f030ba9c1f61b7fbfd4f74073ef5b7c8868a76f1bf
 
+Package: getmail4
+Version: 4.46.0-1~deb7u1
+Installed-Size: 673
+Maintainer: Osamu Aoki <osamu@debian.org>
+Architecture: all
+Depends: python (>= 2.6.6-7~), python (<< 2.8)
+Conflicts: getmail
+Description: mail retriever with support for POP3, IMAP4 and SDPS
+Homepage: http://pyropus.ca/software/getmail/
+Description-md5: b2f05486f9ac795b073488022d1ce77d
+Multi-Arch: foreign
+Section: mail
+Priority: optional
+Filename: pool/updates/main/g/getmail4/getmail4_4.46.0-1~deb7u1_all.deb
+Size: 198528
+MD5sum: 133afb9cd775bdd710675be088b413cf
+SHA1: 2df01d9de856f89c2436986bfa7eef11b746e5ef
+SHA256: 4abdc544bdfaa4702582a07833fb389945afbe57f55b15415e7233a208a3e698
+
 Package: gimp
 Version: 2.8.2-2+deb7u1
 Installed-Size: 15235
