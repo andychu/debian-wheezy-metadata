@@ -242,7 +242,7 @@ Section: shells
 
 Package: bind9
 Binary: bind9, bind9utils, bind9-doc, host, bind9-host, libbind-dev, libbind9-80, libdns88, libisc84, liblwres80, libisccc80, libisccfg82, dnsutils, lwresd
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Maintainer: LaMont Jones <lamont@debian.org>
 Uploaders: Bdale Garbee <bdale@gag.com>
 Build-Depends: libkrb5-dev, debhelper (>= 5), libssl-dev, libtool, bison, libdb-dev (>> 4.6), libldap2-dev, libxml2-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], hardening-wrapper, libgeoip-dev (>= 1.4.6.dfsg-5), dpkg-dev (>= 1.15.5)
@@ -250,19 +250,19 @@ Architecture: any all
 Standards-Version: 3.7.3.0
 Format: 1.0
 Files:
- 3c2e21060065d5bd3f5a5bc6ae8a71ef 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
+ bb6c78befbcf06183ee2f7e9eeaabfd4 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.dsc
  96f5c03a8b42d29519c8860bea5a8353 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- da52dd4c1b52b28f55d66eb2375d0d29 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
+ bb73de588ecc8bbdbf12e3072eb65b09 681650 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.diff.gz
 Vcs-Browser: http://git.debian.org/?p=users/lamont/bind9.git
 Vcs-Git: git://git.debian.org/~lamont/bind9.git
 Checksums-Sha1:
- 9f2c6ede9f36eb5d3ec639bead7bd7a0b33422b3 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
+ a8a8798d5f9a33c59a71dd6fe88abd0e52201b3b 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.dsc
  3ab83667ab3ce2df6bdf558cc1e5a361fe5b539b 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- f43283474e506225cca966a7727dcf49c5ed5b4a 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
+ 45cf151eb82612aac3643f4442d3a02cb6e52286 681650 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.diff.gz
 Checksums-Sha256:
- 470d077929d5bdf32ca09c7d4b8a200469b1b28de5f450bc67ff24add26725ea 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.dsc
+ 8b0e42a1eb0b7c163ae7b62acd8d8bbfcc504eec2db980f4dde235dd65d87567 2621 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.dsc
  de7b8ef3f5336ba2c19e7ad8cec618e1bf77fbd81cc2e45cc7f798544e843bdb 7258441 bind9_9.8.4.dfsg.P1.orig.tar.gz
- 9be5492ab243bd7150377dc60727203338704cf1352c5ac73c348254cbc61bba 674323 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2.diff.gz
+ 423b2a5f3d882d33ff82b2520c2d1936da42cb069cf8f65c14c16ec57a891568 681650 bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3.diff.gz
 Build-Conflicts: libdb4.2-dev
 Package-List: 
  bind9 deb net optional
@@ -6382,7 +6382,7 @@ Binary: linux-source-3.2, linux-doc-3.2, linux-manual-3.2, linux-support-3.2.0-4
  nbd-modules-3.2.0-4-sh7785lcr-di, squashfs-modules-3.2.0-4-sh7785lcr-di, speakup-modules-3.2.0-4-sh7785lcr-di, sound-modules-3.2.0-4-sh7785lcr-di, zlib-modules-3.2.0-4-sh7785lcr-di, udf-modules-3.2.0-4-sh7785lcr-di, fuse-modules-3.2.0-4-sh7785lcr-di, linux-image-3.2.0-4-sh7751r, linux-headers-3.2.0-4-sh7751r, linux-image-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-all-sparc, kernel-image-3.2.0-4-sparc64-di, nic-modules-3.2.0-4-sparc64-di, ppp-modules-3.2.0-4-sparc64-di, pata-modules-3.2.0-4-sparc64-di, cdrom-core-modules-3.2.0-4-sparc64-di, scsi-core-modules-3.2.0-4-sparc64-di, scsi-modules-3.2.0-4-sparc64-di, scsi-common-modules-3.2.0-4-sparc64-di, plip-modules-3.2.0-4-sparc64-di, btrfs-modules-3.2.0-4-sparc64-di, ext2-modules-3.2.0-4-sparc64-di, ext3-modules-3.2.0-4-sparc64-di, ext4-modules-3.2.0-4-sparc64-di, isofs-modules-3.2.0-4-sparc64-di, jfs-modules-3.2.0-4-sparc64-di, reiserfs-modules-3.2.0-4-sparc64-di,
  xfs-modules-3.2.0-4-sparc64-di, fat-modules-3.2.0-4-sparc64-di, md-modules-3.2.0-4-sparc64-di, multipath-modules-3.2.0-4-sparc64-di, usb-modules-3.2.0-4-sparc64-di, usb-storage-modules-3.2.0-4-sparc64-di, input-modules-3.2.0-4-sparc64-di, sata-modules-3.2.0-4-sparc64-di, core-modules-3.2.0-4-sparc64-di, crypto-modules-3.2.0-4-sparc64-di, crypto-dm-modules-3.2.0-4-sparc64-di, ata-modules-3.2.0-4-sparc64-di, nbd-modules-3.2.0-4-sparc64-di, squashfs-modules-3.2.0-4-sparc64-di, virtio-modules-3.2.0-4-sparc64-di, zlib-modules-3.2.0-4-sparc64-di, udf-modules-3.2.0-4-sparc64-di, fuse-modules-3.2.0-4-sparc64-di, linux-image-3.2.0-4-sparc64, linux-headers-3.2.0-4-sparc64, linux-image-3.2.0-4-sparc64-smp, linux-headers-3.2.0-4-sparc64-smp,
  linux-headers-3.2.0-4-all-sparc64
-Version: 3.2.63-2+deb7u1
+Version: 3.2.63-2+deb7u2
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
 Build-Depends: debhelper (>> 7), cpio, kmod | module-init-tools, python (>= 2.7), lzma [armel], kernel-wedge (>= 2.84), quilt, patchutils, gcc-4.6 [alpha amd64 armel armhf i386 ia64 m68k mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64], gcc-4.4 [hppa], binutils-hppa64 [hppa], gcc-4.4-hppa64 [hppa]
@@ -6390,18 +6390,18 @@ Architecture: all alpha amd64 armel armhf hppa i386 ia64 m68k mips mipsel powerp
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 7c2d1311b2abbafab8ac5269bc09fb84 103062 linux_3.2.63-2+deb7u1.dsc
+ 570effc7b85fc1e100c2ccbee2ffb9f1 103062 linux_3.2.63-2+deb7u2.dsc
  923bf49991e0fef2418e00fbb5b5e891 65919780 linux_3.2.63.orig.tar.xz
- 1c02bcdff236df039225cc18731deeda 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
+ 16b81a01fd6eeddd66c367384e7fcb4f 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/viewvc/kernel/dists/trunk/linux/
 Checksums-Sha1:
- 1c0d2a80e673040650049534d22f9f955f0e4d82 103062 linux_3.2.63-2+deb7u1.dsc
+ 6bd26e6cc0a75bd0f7400ae2cb39c1c3c7e4fa9d 103062 linux_3.2.63-2+deb7u2.dsc
  378c1420cc82b3c00786d3a6e65e8bb82e5aa385 65919780 linux_3.2.63.orig.tar.xz
- a3595063396cca60d7b37427f1e6f167b0d1ffc9 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
+ 2e6782e4d667068b6ee7a77baa9ff589e76e727f 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
 Checksums-Sha256:
- 38d53b3e18ef970cd12bd9e3fba3f9f64718e29047c02c5f6d9142dce6acff06 103062 linux_3.2.63-2+deb7u1.dsc
+ 43f4fb34db90558685ef27bd1618646a9d759fe38c00a1c5491b3be60e28e4e6 103062 linux_3.2.63-2+deb7u2.dsc
  bad50f8e053466f9f50984ee75b2cf19c81388df38764c58e80db23245707cb1 65919780 linux_3.2.63.orig.tar.xz
- 5cb2213e1b1957ae7445c82ddbec8bc8501f8b2a43e17158ecacba494a2fe0d7 3667868 linux_3.2.63-2+deb7u1.debian.tar.xz
+ 41d760a3021a2abc3729fd7eeb191ed5db13dd06fb278c914f27bf895174c00b 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
 Build-Depends-Indep: bzip2, xmlto
 Package-List: 
  acpi-modules-3.2.0-4-486-di udeb debian-installer extra

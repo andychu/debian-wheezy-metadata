@@ -866,27 +866,27 @@ SHA1: cb24f0f0a0d18e0be16e24c75b07155ddbb7ec58
 SHA256: df2a3c82cc720f666cc212815c699630cd9fc069f2b79bb24bebec7c57224083
 
 Package: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 961
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind, dnsutils (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), net-tools
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), debconf (>= 0.5) | debconf-2.0, netbase, adduser, lsb-base (>= 3.2-14), bind9utils (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), net-tools
 Suggests: dnsutils, bind9-doc, resolvconf, ufw
 Conflicts: apparmor-profiles (<< 2.1+1075-0ubuntu4), bind
 Description: Internet Domain Name Server
 Description-md5: 4d39ed3fc4e2e72497683d779dfdcd38
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 373318
-MD5sum: 0095347a052e51d77872f4b1422036a8
-SHA1: 8209ea2e3716c526bd1fa514550443e4847017a5
-SHA256: e60e017675cb30abb8ca407bd2f4cfad42c25c11fd14e6354e65b7f3093c1107
+Filename: pool/updates/main/b/bind9/bind9_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 375762
+MD5sum: 3facf0b044bdac6eb094aee9853f6891
+SHA1: 617c43ed23c52e460d2b6bf17441603f22af875e
+SHA256: acbf759d536c1118e1940165336ddf426c0c664a9fe1fddf219754dda9980cde
 
 Package: bind9-doc
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 1267
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
@@ -894,35 +894,35 @@ Description: Documentation for BIND
 Description-md5: 329b8ef5cf9ad3d51ce47e6d8d13d75e
 Section: doc
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9-doc_9.8.4.dfsg.P1-6+nmu2+deb7u2_all.deb
-Size: 365126
-MD5sum: e6f8128c564b616dd810e9431aecfc0a
-SHA1: cb042296f78f1e162ac08bbb568103395473d2d0
-SHA256: dc84615ceccabd0365e2a107aea548153031b9a01b0eb97b8ccb0dbd77a50988
+Filename: pool/updates/main/b/bind9/bind9-doc_9.8.4.dfsg.P1-6+nmu2+deb7u3_all.deb
+Size: 365224
+MD5sum: a7e0c12272522bd7d4e6bc8e881c9e46
+SHA1: 1999ebff1a9a6c731ed32add9284563095343060
+SHA256: 089c23b867eadc5d621dcbc64a724789d376764f9cd1465ac42137b5997bcac1
 
 Package: bind9-host
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 176
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Provides: host
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27)
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27)
 Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
 Description: Version of 'host' bundled with BIND 9.X
 Description-md5: acdae162c721f5d2986f557bdefa1e70
 Section: net
 Priority: standard
-Filename: pool/updates/main/b/bind9/bind9-host_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 73486
-MD5sum: 4c4bd4a3ccf55d39cfc40d23097e50c7
-SHA1: f3fdcbeafad50eccf67b0f2b4217dc886f101538
-SHA256: f742808d73487b737224f7093fe1010ca40c878130a029bb04b992867b2b5595
+Filename: pool/updates/main/b/bind9/bind9-host_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 73596
+MD5sum: 1af68bd4b57b009c19f391d15e84d6bb
+SHA1: f276d69f7d74e176ff9be364309b38d81a5abc91
+SHA256: 9352330f993b04af43b969c4a5d197dfb86c753ee9c0e37ab50e5d797a816e06
 
 Package: bind9utils
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 301
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -932,35 +932,35 @@ Description: Utilities for BIND
 Description-md5: 5f6f5621a6edd04ef33a0fe5d2d5bff8
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/bind9utils_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 127984
-MD5sum: f3a8200c5b4383950a1014fafca67266
-SHA1: e4ec846c4ed095cc89a554e4f12a4be505e50cc0
-SHA256: aaead5519260888ef7bdb67cd32a8e20d540d4cc4f6b0f41a33b4b64a9d9a357
+Filename: pool/updates/main/b/bind9/bind9utils_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 125432
+MD5sum: 4c20a6644643d6fc628da97e5e4bd5cb
+SHA1: 619db49f0580a144e64ee92a0d8809575ae6b77c
+SHA256: d4e48ce42b55abb76a01c8d2d804d522da2f37dc312cb08cb30dace867eca0e9
 
 Package: dnsutils
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 375
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: bind, bind9 (<< 1:9.1.0-3)
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27), bind9-host | host
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libkrb5-3 (>= 1.6.dfsg.2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.6.27), bind9-host | host
 Suggests: rblcheck
 Conflicts: netstd (<< 2.00)
 Description: Clients provided with BIND
 Description-md5: 9fac1cb37cd005e52aa0e22df64994e1
 Section: net
 Priority: standard
-Filename: pool/updates/main/b/bind9/dnsutils_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 166170
-MD5sum: 2bc55938503fc368aef180813c7202aa
-SHA1: 58444167057a31f4ca912ee86ccf80015b28b327
-SHA256: db659fba865cac5fc30439ef394221450e7bfee2ced1db294679768840ff7cd1
+Filename: pool/updates/main/b/bind9/dnsutils_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 167386
+MD5sum: 0c6b006511c6d9d46b59cf6b0d89b295
+SHA1: 2858343cba10d41262dff126c1d43d8ae31b5590
+SHA256: 954f5bb6d91afb887bef77efbe900bc88ce225a8904b0f07924d2a1c07416500
 
 Package: host
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 47
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: all
@@ -969,34 +969,34 @@ Description: Transitional package
 Description-md5: 3c0b6923194ef2929ab26358ef75c037
 Section: net
 Priority: extra
-Filename: pool/updates/main/b/bind9/host_9.8.4.dfsg.P1-6+nmu2+deb7u2_all.deb
-Size: 20688
-MD5sum: cbe7980d3442e99b9de438abd150d16c
-SHA1: e0d1b07fd8dea41f4ec41058730d0507b28cf7cc
-SHA256: 6ebefbcf77464222182a0c3836db350de3ba92a064ed3c47868617aa69c348f9
+Filename: pool/updates/main/b/bind9/host_9.8.4.dfsg.P1-6+nmu2+deb7u3_all.deb
+Size: 20430
+MD5sum: eddd90d93d0edc64d0987c08c5d077c2
+SHA1: 98cdf3f6db7c36ee8ca3bca16f1ecbe706d891dc
+SHA256: 9ee7ec1c3bf05f1ee0c2658c56a373a6c35249c0e9b7ddc04be588503997e8a5
 
 Package: libbind-dev
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
-Installed-Size: 5630
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
+Installed-Size: 5797
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
 Replaces: bind-dev
-Depends: libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2)
+Depends: libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3)
 Conflicts: bind-dev
 Description: Static Libraries and Headers used by BIND
 Description-md5: 2224f8c1f8613ab53bfc2393a6add6a6
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/b/bind9/libbind-dev_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 1580970
-MD5sum: abc23bbd15520efdeb0d4342e4ff83d3
-SHA1: edcdeb068611a7bbae83bd24eef5e95574d37dc2
-SHA256: a3b275db57d828136b60f79b27e057f39ef9fd6df5a8b1f99b5f890875dae78c
+Filename: pool/updates/main/b/bind9/libbind-dev_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 1626744
+MD5sum: cc8afb71c9554af146f33592baf5c04b
+SHA1: 847d9335adb84825270c1770c61987a90d62e0a0
+SHA256: b2640e26b6c365be32009da00750daa4eed7c188407f4e57e0bc04d92ffaacca
 
 Package: libbind9-80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 101
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1007,15 +1007,15 @@ Description: BIND9 Shared Library used by BIND
 Description-md5: 54e2889a8502320ca468efcbd1b48934
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libbind9-80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 42378
-MD5sum: a60437996449288d606ebb7b2050cf10
-SHA1: a0e3941d51463fd7ea57a15b69a7e4159fb510bd
-SHA256: bbd67d73afda5943a6d146874b43de1bbff37b146fc7a4b11705c85fdbc333a6
+Filename: pool/updates/main/b/bind9/libbind9-80_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 42228
+MD5sum: 3ccfd480ad5528e10e50f6094434dcfd
+SHA1: 9460349d313aeac4db761f91342b897e98545590
+SHA256: 9fae841abf2d1dae91b7313b3927f80708fee08a4064352e9817e2cb7ecb2de5
 
 Package: libdns88
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 1687
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1026,15 +1026,15 @@ Description: DNS Shared Library used by BIND
 Description-md5: 08196e0b2c6fd4d0c818845ca28dbe39
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libdns88_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 750392
-MD5sum: 73661863ee0d11c4e004b13239cc50fe
-SHA1: beeaf1ab7069279d6e5f49ee73b293f7b4f3062f
-SHA256: 05eec85052be23e70de23f76098d2fc26a62d02938b445619a4b4bf871e3b614
+Filename: pool/updates/main/b/bind9/libdns88_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 751348
+MD5sum: c37d964bed5658cd550cdbf594ec1dc9
+SHA1: 6c47422a8cf65641ac09ea2f7316d3429a886e9d
+SHA256: 3fc482397e0fc4ab6c0df121ea80bbea96db2b713a83fb1fdadb6cb7faf5516d
 
 Package: libisc84
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 411
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1045,15 +1045,15 @@ Description: ISC Shared Library used by BIND
 Description-md5: 6530db41bb53f0f9fc50d6f397950e53
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/libisc84_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 182612
-MD5sum: fa09e0ef1822de2c0ca9b7271608b798
-SHA1: e71bea4ffd121eaafc1c184e46c1a16265bc9dca
-SHA256: 37f6e23048d2f14c692ae2b5a786008237832185ae08281810a049ed61aa66bf
+Filename: pool/updates/main/b/bind9/libisc84_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 183730
+MD5sum: f2c2f888553068a8e2b85412730a8580
+SHA1: 215c519f3fd69c0d0d5dede24661d54158b18165
+SHA256: da2be435a7212e56a2e5a5f3e4c942e74b74f11110b2bab0325c6eebd318a310
 
 Package: libisccc80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 85
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1064,15 +1064,15 @@ Description: Command Channel Library used by BIND
 Description-md5: da6a1a2a1fbcd8229f24523ae8ae7b33
 Section: libs
 Priority: optional
-Filename: pool/updates/main/b/bind9/libisccc80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 36048
-MD5sum: 4f99e2c0b6f68843ea967861c9701a12
-SHA1: c6c0dfb329edba198211dd55ab30d619b592e553
-SHA256: bb2e8c79a5106d0f5b5f617b96cb7a57b2ba8ae2417725274c23e113499f7184
+Filename: pool/updates/main/b/bind9/libisccc80_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 36392
+MD5sum: 8045b43db2cbf4d38eedaed30fb8db20
+SHA1: 29d16f85bb6338614ea8b4d6a8a1181b7a829fb3
+SHA256: 740ab1df9128535f6878fee3aef2e3347d21759e28c8277307ba623514c6e19b
 
 Package: libisccfg82
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 188
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1083,15 +1083,15 @@ Description: Config File Handling Library used by BIND
 Description-md5: 3a890bff8c41bd92ac3e542818fb7f79
 Section: libs
 Priority: optional
-Filename: pool/updates/main/b/bind9/libisccfg82_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 62892
-MD5sum: 63e91410d3c70f2a2dcb7a1b726e82d2
-SHA1: fb6f0740fae61fc3106965df67cdcb6486a834a9
-SHA256: 5fe12d4e638f258b1974806fffd1b1ba122a9196bb24feb713e5f8f89ea2e93e
+Filename: pool/updates/main/b/bind9/libisccfg82_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 63280
+MD5sum: 088cfebc3c0171d70a03293d29a26115
+SHA1: d78b20f9c154583913b43e4dc84bed49f2c115d2
+SHA256: 99368072ac403b80a6660951f06b12bfca9ec8557378482335cdb435cc6af2ca
 
 Package: liblwres80
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 125
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
@@ -1102,30 +1102,30 @@ Description: Lightweight Resolver Library used by BIND
 Description-md5: 73843c094de7b4dfcc9ed1e36cc6d546
 Section: libs
 Priority: standard
-Filename: pool/updates/main/b/bind9/liblwres80_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 55316
-MD5sum: 8e54cd24198744cb8962063bd1af3494
-SHA1: 674ca736bd84cb1c48046a06d28da33e2b8430e6
-SHA256: 06d67368a84302376376c03651c024445d006f54ed1582e185f317f619ba87c8
+Filename: pool/updates/main/b/bind9/liblwres80_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 55740
+MD5sum: 9de1fca39097718985b60f6e5bcc11a7
+SHA1: 6293801b768c2f9d946299ac034d2e896ba96d9e
+SHA256: c5b77362e7e61000c6cb3d8c9565b88274dc16c7d296b90648e6814e38cb5857
 
 Package: lwresd
 Source: bind9
-Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u2
+Version: 1:9.8.4.dfsg.P1-6+nmu2+deb7u3
 Installed-Size: 618
 Maintainer: LaMont Jones <lamont@debian.org>
 Architecture: amd64
-Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u2), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), adduser
+Depends: libbind9-80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libc6 (>= 2.4), libcap2 (>= 2.10), libdns88 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc84 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccc80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libisccfg82 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), liblwres80 (= 1:9.8.4.dfsg.P1-6+nmu2+deb7u3), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.7.4), adduser
 Suggests: bind9utils
 Description: Lightweight Resolver Daemon
 Description-md5: 71f952026129db86d1ca118762b06ef2
 Recommends: libnss-lwres
 Section: net
 Priority: optional
-Filename: pool/updates/main/b/bind9/lwresd_9.8.4.dfsg.P1-6+nmu2+deb7u2_amd64.deb
-Size: 252738
-MD5sum: 6e4a2fa5462fa16dc0f638a44ced8cf2
-SHA1: 4e1d373b69ead4608467e56a5c4a526f8cd76725
-SHA256: 3189f7147a5f2ba9ed9086c1e0cf8227e1fc13ab180280d606b3651331c251b4
+Filename: pool/updates/main/b/bind9/lwresd_9.8.4.dfsg.P1-6+nmu2+deb7u3_amd64.deb
+Size: 253118
+MD5sum: 122d8399cfd39cf92e742b9f6353ddd1
+SHA1: a02857faa93476753b1ff89abbc7910841c80a8e
+SHA256: 32b596aca9e96043868d324f02c66878cf6114866fedc5f96d508471cc8009d4
 
 Package: cacti
 Version: 0.8.8a+dfsg-5+deb7u4
@@ -15368,8 +15368,8 @@ SHA256: 071dfa6fc81de5f6b74f5834f0e0c6cc85c31f5dcd4195fd5e54bf20fd09aa69
 
 Package: linux-doc-3.2
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 23550
+Version: 3.2.63-2+deb7u2
+Installed-Size: 23551
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Description: Linux kernel specific documentation for version 3.2
@@ -15377,118 +15377,118 @@ Description-md5: 9d0588de7683f536dc67ac15b80e62ae
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.63-2+deb7u1_all.deb
-Size: 6429784
-MD5sum: 5fba6d743b7ab880281c094bf452b033
-SHA1: f536d65fce517e2001b39da4c10a5784c0364835
-SHA256: a21eabcafbcc5f2303aca0df80ffdc9b475ca645d0c68cfce3f997dbdcc630f0
+Filename: pool/updates/main/l/linux/linux-doc-3.2_3.2.63-2+deb7u2_all.deb
+Size: 6429634
+MD5sum: 3e78d18a34371632e215806ec88d9c83
+SHA1: cc57d932eb0368c5010c41c5f9010363f585fc26
+SHA256: 6b6972859204ea91b3e621a989bc86b1993b94c85a500442b844e10998a804b4
 
 Package: linux-headers-3.2.0-4-all
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 218
+Version: 3.2.63-2+deb7u2
+Installed-Size: 241
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-headers-3.2.0-4-all-amd64 (= 3.2.63-2+deb7u1)
+Depends: linux-headers-3.2.0-4-all-amd64 (= 3.2.63-2+deb7u2)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.63-2+deb7u1_amd64.deb
-Size: 223086
-MD5sum: f995457e19dc53a247f302b7d5be9bf7
-SHA1: d893ec32fc9b327b459b25862c9ddb488760e2f7
-SHA256: 165dd69aef57269e3d0e16dbff95ce0b5ce0850e94b0ee7db1ff6bfdf3b0ea5e
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all_3.2.63-2+deb7u2_amd64.deb
+Size: 223246
+MD5sum: 0fe8167e647087b9538de46aa684c20e
+SHA1: cc261a0675f7197d28f0ff542fd9b68f30535c17
+SHA256: 4fd6b83fc1e386edea8760135900d2d9ff428afc4f154f26c87776c423e76aae
 
 Package: linux-headers-3.2.0-4-all-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 218
+Version: 3.2.63-2+deb7u2
+Installed-Size: 241
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-headers-3.2.0-4-amd64 (= 3.2.63-2+deb7u1), linux-headers-3.2.0-4-rt-amd64 (= 3.2.63-2+deb7u1)
+Depends: linux-headers-3.2.0-4-amd64 (= 3.2.63-2+deb7u2), linux-headers-3.2.0-4-rt-amd64 (= 3.2.63-2+deb7u2)
 Description: All header files for Linux 3.2 (meta-package)
 Description-md5: b523be6e46d440bab55a6d837188df57
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 223096
-MD5sum: c0bada84d6331e6aae2a5c5aeebf741a
-SHA1: 568314e5a60bb7ea21aeaab5f35e7c710ab651f6
-SHA256: 9c4b01f94411368d4a16ea5e6fcb308824f49e48d49de2b5bc29e214ad45c04f
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-all-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 223260
+MD5sum: 055169add235e838f193f4dfcb241194
+SHA1: 8da6dff0e1c95340ba695603bbdfcc7785539dda
+SHA256: 4e8ddab72a7dfd803c95a7ef9f3f2e5b81fe77b7e728e84ad83380fbef30aef0
 
 Package: linux-headers-3.2.0-4-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 2650
+Version: 3.2.63-2+deb7u2
+Installed-Size: 9008
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common (= 3.2.63-2+deb7u1), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common (= 3.2.63-2+deb7u2), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-amd64
 Description-md5: fe94eb6b59de35294465939a68e4f856
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 622780
-MD5sum: 5a5e805b5dfdb12d9ed6dc726b032c81
-SHA1: cfa22710199af480d8201787484fb4b70a681dde
-SHA256: 2221e289b757759f5d7f80064131f57a11117c8766ee8c99d2e6b5a5d09a0a29
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 621956
+MD5sum: a9a9628344b1aa6ec8901846a30fc1c3
+SHA1: ac5d0a0d35b0214eb01660a97332b9eb998f96b0
+SHA256: c6ad7bf92d045d7d250033dcd407b2242a01dcd079a11a06bc5cac5fc5cbe028
 
 Package: linux-headers-3.2.0-4-common
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 17190
+Version: 3.2.63-2+deb7u2
+Installed-Size: 17609
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Description: Common header files for Linux 3.2.0-4
 Description-md5: f56cc30cc35383027484d37eb0066029
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.63-2+deb7u1_amd64.deb
-Size: 3586252
-MD5sum: 13e52f76b5518cf30a9f846b67d0fbe1
-SHA1: e67ff58a6824a452407f32103851fb838c2e800d
-SHA256: 19f64b13c20ffc0564581a597bdb86e06e103041c1e6f34af2566c34eb71e1a9
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common_3.2.63-2+deb7u2_amd64.deb
+Size: 3581978
+MD5sum: ecb022fe92d40553d42c0c9da4df9568
+SHA1: 3718445148e17008b4b5b3273b575bf472d328c6
+SHA256: 6bdeb21d6f1e58ef7a5af8f8661f6c6ae68d658c67ebee8f435fac4b3c701b52
 
 Package: linux-headers-3.2.0-4-common-rt
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 17240
+Version: 3.2.63-2+deb7u2
+Installed-Size: 17659
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Description: Common header files for Linux 3.2.0-4-rt
 Description-md5: 9c3f511c4bc9ffb18b416cc8e4b8da4a
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.63-2+deb7u1_amd64.deb
-Size: 3590884
-MD5sum: c7607584d6369702423aed094c7dcd25
-SHA1: fe622554202c15c1c1b61aeebbe11a332febf5fe
-SHA256: 4878a00f56ab9e999911b3971725af4c768e4887bad509c95aa5089cc38fa793
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-common-rt_3.2.63-2+deb7u2_amd64.deb
+Size: 3589912
+MD5sum: e44f32736c68d4dac2f0d02b5ed11336
+SHA1: 78298a30f113d903d5b56c63a60f2167c481cab6
+SHA256: 002c0f26e710c17f64ee39d7fed2b49f09488083b190e9609972576d3ee08898
 
 Package: linux-headers-3.2.0-4-rt-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 2658
+Version: 3.2.63-2+deb7u2
+Installed-Size: 8960
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-headers
-Depends: linux-headers-3.2.0-4-common-rt (= 3.2.63-2+deb7u1), linux-kbuild-3.2, gcc-4.6
+Depends: linux-headers-3.2.0-4-common-rt (= 3.2.63-2+deb7u2), linux-kbuild-3.2, gcc-4.6
 Description: Header files for Linux 3.2.0-4-rt-amd64
 Description-md5: 306553a73213037f93341d07c615b0a7
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 623682
-MD5sum: f47d2a5727b78ce0abf524c846332161
-SHA1: 8cc87aa242860f2dff0034ef1d076612a3e2915e
-SHA256: 9f4382a4ee33277914dd2c38f2258c40eb41a85c9e74b64680b2937febb1d43f
+Filename: pool/updates/main/l/linux/linux-headers-3.2.0-4-rt-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 622438
+MD5sum: 45b8796d8276e3d4a1b72e8a4a3b76ec
+SHA1: 4e94bcf59d57152a48fbe85bddf3a6a760be92cf
+SHA256: 568aeba24811a0b64706000d5322e54bed4a4ff70722b6b6d64b58a27abe9bc6
 
 Package: linux-image-3.2.0-4-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 103360
+Version: 3.2.63-2+deb7u2
+Installed-Size: 105685
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-image, linux-modules-3.2.0-4-amd64
@@ -15501,16 +15501,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 23436524
-MD5sum: 957a6c2c05b26cd60d49239350cb40ef
-SHA1: 2301dff42e42e4dd5dd0c234dbbc674fe1818a89
-SHA256: ce2db36830cfdaecf5b7ba1fd51d5dec9f1cdc0edf999a65a36703c015523f00
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 23471380
+MD5sum: 7ce3f82798487e9dc746458ab5731986
+SHA1: 5c0e0e4777ef3f7131608ca744dd012950a83dba
+SHA256: e4d654919418391aa8d02d9946819ec0e82596a33076f33908a6ad05338fd90b
 
 Package: linux-image-3.2.0-4-amd64-dbg
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 1740880
+Version: 3.2.63-2+deb7u2
+Installed-Size: 1743209
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Depends: linux-image-3.2.0-4-amd64
@@ -15518,16 +15518,16 @@ Description: Debugging symbols for Linux 3.2.0-4-amd64
 Description-md5: 61fb0dc17e37158668c778cfad6f1b15
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64-dbg_3.2.63-2+deb7u1_amd64.deb
-Size: 245981140
-MD5sum: 47f9633fcedd808ce15c85557e0d3d0d
-SHA1: 8b24d1dcfff9fb98fc771258e70ec1d60ad22fd8
-SHA256: 9a30f101e417f9fdeba6fac505ce68ffbb8a15df5999f0a749e4bce9f6261c84
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-amd64-dbg_3.2.63-2+deb7u2_amd64.deb
+Size: 247201252
+MD5sum: f66d7b36836539995fc35f896c1576e8
+SHA1: 18792f7d988e4be9a652598a133439732b059a19
+SHA256: e23e5dab825674afc0e18ddb1de6efb636e6e117e9a42ca5beca318c68a027d4
 
 Package: linux-image-3.2.0-4-rt-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 106245
+Version: 3.2.63-2+deb7u2
+Installed-Size: 108561
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Provides: linux-image, linux-modules-3.2.0-4-rt-amd64
@@ -15540,16 +15540,16 @@ Pre-Depends: debconf | debconf-2.0
 Recommends: firmware-linux-free (>= 3~)
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 23713552
-MD5sum: ffdcddcebb48261c2227928e93ab633b
-SHA1: be1c1daaed6f19f0f2c0c6f83eaa7e4cff425220
-SHA256: 9f2f5a7a7ed6fe33eace96ff7e346cb402c19ebdfd64c1e0a8022e6dadc324db
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 23741462
+MD5sum: bab77538b15b3197783d8b77ae19d4a2
+SHA1: 29ba8d66f95a9fac3239cc8f9b82e3f3282e1f6b
+SHA256: 5ba54d0d79a540b0bf8c57ea9ef7d6f3d671e3bd8b22479f5500006a224f196d
 
 Package: linux-image-3.2.0-4-rt-amd64-dbg
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 1742708
+Version: 3.2.63-2+deb7u2
+Installed-Size: 1745029
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Depends: linux-image-3.2.0-4-rt-amd64
@@ -15557,16 +15557,16 @@ Description: Debugging symbols for Linux 3.2.0-4-rt-amd64
 Description-md5: a7f670736bf83489793f72cf4a1884f4
 Section: debug
 Priority: extra
-Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64-dbg_3.2.63-2+deb7u1_amd64.deb
-Size: 244935524
-MD5sum: 58ea93d63eb94b93edf3afb133a685ce
-SHA1: 80f106796fe1a5152f7753a7a40ec064b278c59e
-SHA256: 1437807aa72b2176d2bd8a2a7be8f3b0320f1580f89b23417421d7a2325bef31
+Filename: pool/updates/main/l/linux/linux-image-3.2.0-4-rt-amd64-dbg_3.2.63-2+deb7u2_amd64.deb
+Size: 246057080
+MD5sum: a54822a8897ede658541b4de94da237f
+SHA1: 90cf90ec7f1b7bb7a30e8d00a29945f3d31cb12e
+SHA256: 666a11259a4718e0f401d5d8969575cb23001a9762dbb151e47f53f5de271046
 
 Package: linux-libc-dev
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 2801
+Version: 3.2.63-2+deb7u2
+Installed-Size: 2942
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
 Replaces: linux-kernel-headers
@@ -15577,16 +15577,16 @@ Description-md5: f310daf8fb891639ee6eeeb4020a7c13
 Multi-Arch: same
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.63-2+deb7u1_amd64.deb
-Size: 831140
-MD5sum: 3cf6db8be55bb501b849ad7b857f329e
-SHA1: fb21a64cfe87d15a3beb6a58eadbcd30720aa96f
-SHA256: 9773345121e7ecbaf452634274aecca9adb9265aedab6f5acbd7f42c99cf8db5
+Filename: pool/updates/main/l/linux/linux-libc-dev_3.2.63-2+deb7u2_amd64.deb
+Size: 833414
+MD5sum: e35557c91d08e354ca7f105e11d429ec
+SHA1: bf27596d528199eefee9adeac736b75fe6ced7e5
+SHA256: cc0cdd806ca08dd51af0765e097f1b3916a03aae095c6f2a83583058ca6f48ab
 
 Package: linux-manual-3.2
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 3261
+Version: 3.2.63-2+deb7u2
+Installed-Size: 3263
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Replaces: linux-manual
@@ -15597,16 +15597,16 @@ Description-md5: 6d4c33116b6fa28acef9783d3bbd6ea9
 Multi-Arch: foreign
 Section: doc
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.63-2+deb7u1_all.deb
-Size: 2965396
-MD5sum: 74a3b4bc7a914b1a3a3fcdc298329a66
-SHA1: a73bc405a724c510f1efaedc4b72c15631503f34
-SHA256: c1f917c85b2fd435a99690348bb4ed722eb4005f97108bb8f59ddae8f2c73380
+Filename: pool/updates/main/l/linux/linux-manual-3.2_3.2.63-2+deb7u2_all.deb
+Size: 2970852
+MD5sum: 960d03f31e15c66c303763df40954e72
+SHA1: ceeb18bf558d3db51ce0154254fabfbcb553bace
+SHA256: a08fe8ddc0e18c57483abafd9c97b8768982a27d2069da18db68560cc8e6c53d
 
 Package: linux-source-3.2
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 75733
+Version: 3.2.63-2+deb7u2
+Installed-Size: 75737
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
 Provides: linux-source
@@ -15618,15 +15618,15 @@ Multi-Arch: foreign
 Recommends: libc6-dev | libc-dev, gcc, make
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.63-2+deb7u1_all.deb
-Size: 77485764
-MD5sum: 7f5d61956fe7539fc90124f549004935
-SHA1: 14df882b009599e5ca877c9ced5e6b6a96c37d46
-SHA256: ac3aa2a63a52ef14a069162b9bf6b1dbad33cd27cd4e7e54cc821f6df1b2004a
+Filename: pool/updates/main/l/linux/linux-source-3.2_3.2.63-2+deb7u2_all.deb
+Size: 77490930
+MD5sum: 5c437992407a082887004e7e73c66f73
+SHA1: 777feded13b016e30ce98fa78780444d204518fd
+SHA256: 99cdd3f477be096930bcb7b40c30af33ea94a53f170c8c84ff36b14a13068d4a
 
 Package: linux-support-3.2.0-4
 Source: linux
-Version: 3.2.63-2+deb7u1
+Version: 3.2.63-2+deb7u2
 Installed-Size: 339
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: all
@@ -15636,28 +15636,28 @@ Description-md5: d281db896aa88c6dbb13d747cdb40db2
 Multi-Arch: foreign
 Section: devel
 Priority: optional
-Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.63-2+deb7u1_all.deb
-Size: 239500
-MD5sum: d9b3945dc6b3a3b4e4b9a21e5b8e4ae6
-SHA1: 4f5a94f0c041ea26ac54cea04e172fe2fcbc008a
-SHA256: d311299810c101bedf5418b415d26091a55a5779c690d157e29ec474577f0265
+Filename: pool/updates/main/l/linux/linux-support-3.2.0-4_3.2.63-2+deb7u2_all.deb
+Size: 239690
+MD5sum: fe3f72730b1ca46cf2e3ab95b788586b
+SHA1: da30796af0c126124ae930508389155d50e1973c
+SHA256: 187c83300fc99830e08e961d4ae4ffff621bc933b25d163a7b32971ec1d98d0c
 
 Package: xen-linux-system-3.2.0-4-amd64
 Source: linux
-Version: 3.2.63-2+deb7u1
-Installed-Size: 218
+Version: 3.2.63-2+deb7u2
+Installed-Size: 241
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Architecture: amd64
-Depends: linux-image-3.2.0-4-amd64 (= 3.2.63-2+deb7u1), xen-system-amd64
+Depends: linux-image-3.2.0-4-amd64 (= 3.2.63-2+deb7u2), xen-system-amd64
 Description: Xen system with Linux 3.2 on 64-bit PCs (meta-package)
 Description-md5: 418c015fc0380f08f5de8b1abd0e2969
 Section: kernel
 Priority: optional
-Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.63-2+deb7u1_amd64.deb
-Size: 223064
-MD5sum: 7db7bda1b5ffddbfd304d33f6d85c9d2
-SHA1: 1c40e7d01cab47065855fb5fc9e229551ef8f4c8
-SHA256: ba1179e8911482129d8adb65421de4c0e548c5d01e2b08bd3cff0cd26e52cdfc
+Filename: pool/updates/main/l/linux/xen-linux-system-3.2.0-4-amd64_3.2.63-2+deb7u2_amd64.deb
+Size: 223226
+MD5sum: bcc48d37c5d4ed322f81a833650fa2ba
+SHA1: c7f22d6da244b507e9325a7879bd8a6539fc7a23
+SHA256: 51cb00f54e1900f4571da07615b016a2af445ff80e7ce4b7da32643e001bc1e6
 
 Package: liblua5.1-expat-dev
 Source: lua-expat
