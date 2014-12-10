@@ -1445,40 +1445,6 @@ Section: mail
 
 Package: icedove
 Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
-Version: 31.2.0-1~deb7u1
-Maintainer: Christoph Goehre <chris@sigxcpu.org>
-Uploaders: Guido Günther <agx@sigxcpu.org>
-Build-Depends: autoconf2.13, autotools-dev, bzip2, debhelper (>= 7.0.50~), dpkg-dev (>= 1.16.1~), libasound2-dev [linux-any], libbz2-dev, libcairo2-dev (>= 1.10.2-1.1~), libdbus-glib-1-dev (>= 0.60), libevent-dev (>= 1.4.1), libffi-dev, libfontconfig1-dev, libglib2.0-dev (>= 2.16.0), libgnomeui-dev (>= 2.16), libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk2.0-dev (>= 2.12), libhunspell-dev (>= 1.2), libidl-dev (>= 0.8.0), libiw-dev [linux-any], libjs-jquery, libjs-jquery-ui, libreadline-dev, libpulse-dev, libsqlite3-dev (>= 3.7.13~), libstartup-notification0-dev, libxau-dev, libxft-dev, libxt-dev, mesa-common-dev, python-minimal (>= 2.6.6-13~), python-ply, python2.7, unzip, yasm (>= 1.1), zip, zlib1g-dev
-Architecture: any all
-Standards-Version: 3.9.6
-Format: 3.0 (quilt)
-Files:
- 5b05cfe5582297c63fa63776854bf073 2829 icedove_31.2.0-1~deb7u1.dsc
- 7d1d5d9e5381468f5e8fb89a15578342 139858784 icedove_31.2.0.orig.tar.xz
- d432e7889d2a8ab1f4b5540fae429a9f 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
-Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
-Checksums-Sha1:
- 4052e0378d07bfd6f3c3b99f406cdc0b5655e40c 2829 icedove_31.2.0-1~deb7u1.dsc
- f920d369d4e45615c3b44770a99e7a481a5fd8d1 139858784 icedove_31.2.0.orig.tar.xz
- c86d9fafb5ed10081c049f0bc4d789a7c386baeb 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
-Checksums-Sha256:
- 9feedada6e3079ef05c2eb7fda4813d47581942c1c7b8b46a105806ec7c4fa71 2829 icedove_31.2.0-1~deb7u1.dsc
- 6a3c877b2c4ff2811914df2aa7deb76da2003db3b02c0341abb8eb0b402cf852 139858784 icedove_31.2.0.orig.tar.xz
- abb08b7d1b7e0d53bf8e8ba3124c4ab0133a690b17b11fc39dc7fe683b611624 495634 icedove_31.2.0-1~deb7u1.debian.tar.gz
-Homepage: http://www.mozilla.org/thunderbird/
-Package-List: 
- calendar-google-provider deb mail optional
- icedove deb mail optional
- icedove-dbg deb debug extra
- icedove-dev deb mail optional
- iceowl-extension deb mail optional
-Directory: pool/updates/main/i/icedove
-Priority: source
-Section: mail
-
-Package: icedove
-Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
 Version: 31.3.0-1~deb7u1
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Uploaders: Guido Günther <agx@sigxcpu.org>
@@ -11504,6 +11470,45 @@ Checksums-Sha256:
  b9fec2938cb969b409829c092976476ca2e3b5493abc8ed37bf2572116be6f26 4148 xorg-server_1.12.4-6+deb7u2.dsc
  d88225cd3c4a6ecd92d1360b34a0e5b6346e2a04c842c018cef36d8a370714ef 7528611 xorg-server_1.12.4.orig.tar.gz
  48c76a162bb3ec96ec5bae855b6a2ce11d2b7a7952e15cabecf6530537f01320 92369 xorg-server_1.12.4-6+deb7u2.diff.gz
+Package-List: 
+ xdmx deb x11 optional
+ xdmx-tools deb x11 optional
+ xnest deb x11 optional
+ xserver-common deb x11 optional
+ xserver-xephyr deb x11 optional
+ xserver-xfbdev deb x11 optional
+ xserver-xorg-core deb x11 optional
+ xserver-xorg-core-dbg deb debug extra
+ xserver-xorg-core-udeb udeb debian-installer optional
+ xserver-xorg-dev deb x11 optional
+ xvfb deb x11 optional
+Directory: pool/updates/main/x/xorg-server
+Priority: source
+Section: x11
+
+Package: xorg-server
+Binary: xserver-xorg-core, xserver-xorg-core-udeb, xserver-xorg-dev, xdmx, xdmx-tools, xnest, xvfb, xserver-xephyr, xserver-xfbdev, xserver-xorg-core-dbg, xserver-common
+Version: 2:1.12.4-6+deb7u5
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Drew Parsons <dparsons@debian.org>, Cyril Brulebois <kibi@debian.org>
+Build-Depends: debhelper (>= 7), quilt, lsb-release, pkg-config, bison, flex, automake, libtool, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-bigreqs-dev (>= 1:1.1.0), x11proto-composite-dev (>= 1:0.4), x11proto-core-dev (>= 7.0.22), x11proto-damage-dev (>= 1.1), x11proto-fixes-dev (>= 1:5.0), x11proto-kb-dev (>= 1.0.3), x11proto-xinerama-dev, x11proto-randr-dev (>= 1.2.99.3), x11proto-record-dev (>= 1.13.99.1), x11proto-render-dev (>= 2:0.11), x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev (>= 1.2.0), x11proto-xext-dev (>= 7.1.99), x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-xf86dga-dev (>= 2.0.99.1), x11proto-xf86vidmode-dev (>= 2.2.99.1), xtrans-dev (>= 1.2.2), libxau-dev (>= 1:1.0.5-2), x11proto-input-dev (>= 2.1.99.6), x11proto-dri2-dev (>= 2.6), libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:1.4.2), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.21.8), libpciaccess-dev (>= 0.12.901), libgcrypt-dev, nettle-dev, libdbus-1-dev [kfreebsd-any], libhal-dev [kfreebsd-any], libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], x11proto-xf86dri-dev (>= 2.1.0), libdrm-dev (>= 2.4.3) [!hurd-i386], x11proto-gl-dev (>= 1.4.14), mesa-common-dev (>= 7.8), libgl1-mesa-dev (>= 7.8), libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 1:0.99.2), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.2.99.1), x11proto-dmx-dev (>= 1:2.2.99.1), libdmx-dev (>= 1:1.0.1), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, xkb-data, x11-xkb-utils, libbsd-dev [kfreebsd-any]
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 1.0
+Files:
+ a739d0df1190c573d2faef39c30641fb 4134 xorg-server_1.12.4-6+deb7u5.dsc
+ 19c17bf7ac3e2ce34bc40108692c031f 7528611 xorg-server_1.12.4.orig.tar.gz
+ 708d526e1c96e21f64090343fadbf538 111680 xorg-server_1.12.4-6+deb7u5.diff.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/xserver/xorg-server.git
+Vcs-Git: git://git.debian.org/git/pkg-xorg/xserver/xorg-server
+Checksums-Sha1:
+ 473202ea9ea3b4e38ae65c8b7649dc64a7e55a39 4134 xorg-server_1.12.4-6+deb7u5.dsc
+ c0e52b1496d427501a2f6b8fea50d040c75bbdb9 7528611 xorg-server_1.12.4.orig.tar.gz
+ dff2167df9f7dfc6561d06a33a991cd0ea1981e0 111680 xorg-server_1.12.4-6+deb7u5.diff.gz
+Checksums-Sha256:
+ e3ad83f631f751eda5bde2f4bdb70ae8df3685b0a2a345e992587fba27f1c535 4134 xorg-server_1.12.4-6+deb7u5.dsc
+ d88225cd3c4a6ecd92d1360b34a0e5b6346e2a04c842c018cef36d8a370714ef 7528611 xorg-server_1.12.4.orig.tar.gz
+ 2e80809dd354816b1afafc3bf53e947b1152aa4ea40827978a5845dee3635998 111680 xorg-server_1.12.4-6+deb7u5.diff.gz
 Package-List: 
  xdmx deb x11 optional
  xdmx-tools deb x11 optional

@@ -27307,24 +27307,24 @@ SHA256: 33a627a5a7b821f142e2937cbc315848bc9af7d8083a1c783d1b5cb6cca0f55b
 
 Package: xdmx
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1978
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
 Description: distributed multihead X server
 Description-md5: d52dd645b5fa9daf3052065e2345991f
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xdmx_1.12.4-6+deb7u2_amd64.deb
-Size: 923032
-MD5sum: ab76501ec32c51ce4daadf1badd6b9ad
-SHA1: 5a37dc31968e1208367a27d82c15bd093f827254
-SHA256: 4d506f11c861ef7531188daae6571f7488be1b7fd59a58e1cc4d040bd2316b49
+Filename: pool/updates/main/x/xorg-server/xdmx_1.12.4-6+deb7u5_amd64.deb
+Size: 923712
+MD5sum: 95d8d3f5c8ac7fccc7d7bdda5c81c398
+SHA1: 68237c046e058cbc6d0e35e5909a122ab4c8e9a5
+SHA256: 74a14f3151618a0690f6830a2c853e8db642e4f7e07ce1d71e3bded5c6a4e77c
 
 Package: xdmx-tools
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 381
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
@@ -27334,34 +27334,34 @@ Description: Distributed Multihead X tools
 Description-md5: d19e4657677c5d6dc4d36c168f58a7f4
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xdmx-tools_1.12.4-6+deb7u2_amd64.deb
-Size: 127756
-MD5sum: 4d4f0b6be8e4da81326d03c99405ce39
-SHA1: 0fd8be33df272329ab45b1fe134353ab272b383c
-SHA256: 13597931d7a2be3b33ff272f0abc4864e60755fdbbf0f98977489fbae3be4dd1
+Filename: pool/updates/main/x/xorg-server/xdmx-tools_1.12.4-6+deb7u5_amd64.deb
+Size: 127946
+MD5sum: 9829ec7e83f142a4383b9c7dbbe0ba1a
+SHA1: dac90a0ce42edc556b1db6cb99d9fe986feaf680
+SHA256: 2d8f1da0b2e8d255a9b5aa362d47bd7c68eeb8832fa3603d4ad0bb88d7ecf3f7
 
 Package: xnest
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 1841
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 1849
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
 Description: Nested X server
 Description-md5: 48a07c59b44bacd1e2bed508f80542b4
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xnest_1.12.4-6+deb7u2_amd64.deb
-Size: 821580
-MD5sum: 8f1b5e4de05276acfe36b7de43c84d8d
-SHA1: 3fb1bf5b7f0211984095e08cf1d9b44583e91317
-SHA256: 8b05f815acce4a8d8615300733596461c73509010740476f636d06d776ce965d
+Filename: pool/updates/main/x/xorg-server/xnest_1.12.4-6+deb7u5_amd64.deb
+Size: 823324
+MD5sum: 3c97e40b5f9616694f542364ef0982e9
+SHA1: a766045c057953bd789c6fc3eb2f144fc12af211
+SHA256: 0df46772b11ab63b056e8cdc226ecff76a86853d4ed29bb1850bd5c9ba494361
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1516
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: all
@@ -27372,57 +27372,57 @@ Description-md5: be03943b6955ee9fae7163ad516c772f
 Recommends: xfonts-base, xauth
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-common_1.12.4-6+deb7u2_all.deb
-Size: 1396194
-MD5sum: 9e4babc45be070ff62abce2de08c783d
-SHA1: 9f08fe19b5e2af6019a6e6a4a7d1de3531d66a5d
-SHA256: 71066d017d879063e7d6c00b9fd5f84f5c7b8aa9baf21dd671f0dc081c11e857
+Filename: pool/updates/main/x/xorg-server/xserver-common_1.12.4-6+deb7u5_all.deb
+Size: 1397094
+MD5sum: aaf7f18b99b75fa9be85c94f5e789c23
+SHA1: 60cc0d21003248d2bc1cad75f4b61783245edc16
+SHA256: 609c7ae6dcc102be00d96302680b52773c756367fee6cf691c2311ba66a8a921
 
 Package: xserver-xephyr
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2220
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2229
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libts-0.0-0 (>= 1.0), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
 Description: nested X server
 Description-md5: 516dc4b8b7e15f13bc99547d4869e159
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xephyr_1.12.4-6+deb7u2_amd64.deb
-Size: 1017788
-MD5sum: 611b25bcece8b06e4bea1571ab3e6e32
-SHA1: 2f9e332694fc4de982a95fd00e356b1f69d4f614
-SHA256: 09416bef3fdf2e5a7f12cbf4795f774a943a5d3d95aa23a55c3470d7ffd6f18b
+Filename: pool/updates/main/x/xorg-server/xserver-xephyr_1.12.4-6+deb7u5_amd64.deb
+Size: 1019524
+MD5sum: 83eed3b0c660c6a086ab7ba123ec66f2
+SHA1: 447d66f4c9f547da41a252e22208d2a8512c5358
+SHA256: da2e2e4cda960a407e02eed4c4458a1532cf97d4fe71c73b6303a0e7b07f447e
 
 Package: xserver-xfbdev
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2060
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2064
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libts-0.0-0 (>= 1.0), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Description: Linux framebuffer device tiny X server
 Description-md5: 952ef27a58e5dee1c023edecc5e03fb8
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xfbdev_1.12.4-6+deb7u2_amd64.deb
-Size: 940126
-MD5sum: e08598fa788475ff41c6f7cc44a00f8e
-SHA1: be671ce12beb5399356da3d1cd70e5ea004e1b47
-SHA256: 50e340b9d84ce876c329e67c2a1306f51745e55f69bf6cd721290e9189d79cef
+Filename: pool/updates/main/x/xorg-server/xserver-xfbdev_1.12.4-6+deb7u5_amd64.deb
+Size: 941238
+MD5sum: af287a3277185a12ae44bb2cc58d7551
+SHA1: 94f6444837e3dae6d52add89b1bdca169a233b3c
+SHA256: 6d27520b9d9770f4fcbca79266cfd718caf706595a9d45ff3be83ee46fe81060
 
 Package: xserver-xorg-core
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 4158
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 4166
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Provides: xorg-input-abi-16, xorg-video-abi-12
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), keyboard-configuration, udev (>= 149), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libudev0 (>= 154), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), keyboard-configuration, udev (>= 149), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libudev0 (>= 154), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch
 Breaks: libgl1-mesa-dri (<< 7.10.2-4), libgl1-mesa-dri-experimental (<< 7.10.2-4), xserver-xorg-input, xserver-xorg-input-2, xserver-xorg-input-2.1, xserver-xorg-input-4, xserver-xorg-input-7, xserver-xorg-input-joystick (<= 1:1.5.0-3), xserver-xorg-input-synaptics (<= 1.2.2-1), xserver-xorg-input-tslib (<= 0.0.6-3), xserver-xorg-input-vmmouse (<= 1:12.6.5-4), xserver-xorg-input-wacom (<= 0.10.5+20100415-1), xserver-xorg-video, xserver-xorg-video-1.0, xserver-xorg-video-1.9, xserver-xorg-video-2, xserver-xorg-video-4, xserver-xorg-video-5, xserver-xorg-video-6, xserver-xorg-video-cyrix (<= 1:1.1.0-8), xserver-xorg-video-i810 (<< 2:2.4), xserver-xorg-video-imstt (<= 1:1.1.0-7), xserver-xorg-video-nsc (<= 1:2.8.3-4), xserver-xorg-video-sunbw2 (<= 1:1.1.0-5), xserver-xorg-video-v4l (<< 1:0.2.0), xserver-xorg-video-vga (<= 1:4.1.0-8)
@@ -27431,32 +27431,32 @@ Description-md5: e3826a765918b79dee4b90ec97f9302c
 Recommends: libgl1-mesa-dri (>= 7.10.2-4)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-core_1.12.4-6+deb7u2_amd64.deb
-Size: 1762866
-MD5sum: af53eaff8179e6b7126e8b9dccca36b8
-SHA1: 0cd482670c6b8bd894c32e3b2cce88ec2b5326e7
-SHA256: 58a1c832a3624ecad9fc7eb3ebd2c4439eedd339bfc4a5dcddeb039cf421ab57
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-core_1.12.4-6+deb7u5_amd64.deb
+Size: 1766192
+MD5sum: 659e5f7d99a98a1b36d8c1d44ca93807
+SHA1: 8edd3af972c7dfcbc6c764581ee360bf47fbd5d7
+SHA256: e93b84e6250b8e13d4df618ba8ff182b41976aecf436b9520454bb8f682828b3
 
 Package: xserver-xorg-core-dbg
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 21289
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 21312
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
-Depends: xserver-xorg-core (= 2:1.12.4-6+deb7u2)
+Depends: xserver-xorg-core (= 2:1.12.4-6+deb7u5)
 Description: Xorg - the X.Org X server (debugging symbols)
 Description-md5: 748963cc445faabee033c53886a8a0cf
 Section: x11
 Priority: extra
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-core-dbg_1.12.4-6+deb7u2_amd64.deb
-Size: 7285900
-MD5sum: 3e82e0e641a4b04d1d0380fad39b7288
-SHA1: 6290aa3b9ec0ca0d9338a0a8484dac3be77d668b
-SHA256: a22ed2b311182864a5a5d18aa21ca047a3eb3470e1ab287bd3500022a4ec25d2
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-core-dbg_1.12.4-6+deb7u5_amd64.deb
+Size: 7297918
+MD5sum: 64860720ff996ca3afb718fc4aa3ab8d
+SHA1: 49f6372b99c0faa98c5e40e78bdec89e890187c6
+SHA256: 67f4cd1b2dbe259b71c1c7e13d04012fc5fce3bfa34c672b09fd5250bb1e7732
 
 Package: xserver-xorg-dev
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1456
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
@@ -27465,30 +27465,30 @@ Description: Xorg X server - development files
 Description-md5: 241552d78aca8911808aea0707649843
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-dev_1.12.4-6+deb7u2_amd64.deb
-Size: 320686
-MD5sum: 6b681eeb3eba3336d697af4404ab6704
-SHA1: 268108e64f0fe71f4871a34b33bbf538d9e1dfe4
-SHA256: c4d55948e3b2a950157a7a903a969e7d0ee4dabc150d0bffee6307735c8ef568
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-dev_1.12.4-6+deb7u5_amd64.deb
+Size: 318012
+MD5sum: bb1b59af47d8d2e66063f02cf3b2b2da
+SHA1: 69fb76ae064609b223dbb0abfd37f201ea496c38
+SHA256: 87f7f9b3d7aa4d43fa77c2e619a1599f650545969bd4cfc9cbef110f8136da18
 
 Package: xvfb
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2034
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2039
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: amd64
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Description: Virtual Framebuffer 'fake' X server
 Description-md5: ff95e4399e5ec034de6998347673eb73
 Recommends: xauth
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xvfb_1.12.4-6+deb7u2_amd64.deb
-Size: 925030
-MD5sum: 5faa7d769480d5a60e36e7027ab3a7ae
-SHA1: 7e115ad73d9e090fad5a36fbbefa585ef7d789f4
-SHA256: 11a9902c02d9f95c1d5505cb3c9053c30c963a10286d536207c898d832fe7d8c
+Filename: pool/updates/main/x/xorg-server/xvfb_1.12.4-6+deb7u5_amd64.deb
+Size: 927588
+MD5sum: ecf6c71941b0579c7e5808ed2dcd9d26
+SHA1: 256a0ddef05d53a3d3a70ecef62e2b8cfac75012
+SHA256: 14b98bbb56264b562877aca2fd040437820a2bd51655ddcbe19dd9eb5099259c
 
 Package: xserver-xorg-video-openchrome
 Version: 1:0.2.906-2+deb7u1

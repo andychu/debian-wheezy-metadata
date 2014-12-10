@@ -4457,7 +4457,7 @@ SHA256: 3a4e37bfdd84d7703e4be2bb950fb8a96f006d7321e390aded0729dc666609a4
 
 Package: calendar-google-provider
 Source: icedove
-Version: 31.2.0-1~deb7u1
+Version: 31.3.0-1~deb7u1
 Installed-Size: 331
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
@@ -4466,22 +4466,22 @@ Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 357c83f9399f837c99c158cc2de15566
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/calendar-google-provider_31.2.0-1~deb7u1_all.deb
-Size: 82688
-MD5sum: 8f93b0faf649af6c2dbf5e3918139f99
-SHA1: f8fb16efb2a8c378538a3ffb8bb6e4e822945d1e
-SHA256: d1c8a72b41608d94220c3fc1222e6b04f9a1831e241488ab43a1ea0f772afe6c
+Filename: pool/updates/main/i/icedove/calendar-google-provider_31.3.0-1~deb7u1_all.deb
+Size: 82996
+MD5sum: 53436eb29e90e77aa0a93f531401ec2a
+SHA1: 56cc805d99b8e38db7242fee325255b2988892a3
+SHA256: 1bd548eb960ebf7a07d11eb016ebab159a7d4fc681e7d7e462bffe85a2b8e3d9
 
 Package: icedove
-Version: 31.2.0-1~deb7u1
-Installed-Size: 65613
+Version: 31.3.0-1~deb7u1
+Installed-Size: 65449
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: icedove-gnome-support (<< 3.0-1~)
 Provides: mail-reader
 Depends: fontconfig, psmisc, debianutils (>= 1.16), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.10.2-2~), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi5 (>= 3.0.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libhunspell-1.3-0, libpango1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.25.2), libsqlite3-0 (>= 3.7.7), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6, zlib1g (>= 1:1.2.0)
 Suggests: fonts-lyx, libgssapi-krb5-2, libglib2.0-0 (>= 2.20.0)
-Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 31.2.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
+Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 31.3.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
 Description: mail/news client with RSS and integrated spam filter support
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: a3f8f79f513675ddae7177832763ff0d
@@ -4489,57 +4489,57 @@ Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Xul-Appid: {3550f703-e582-4d05-9a08-453d09bdfdc6}
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove_31.2.0-1~deb7u1_i386.deb
-Size: 27877662
-MD5sum: c895726c302f10bf86a50e2f6d60a4c1
-SHA1: 96ff9a7344b547f93f141541a0d8281ffbc5c61f
-SHA256: 457ef29f9d63ba93bba6ce05bd16fb51d41f65735280fca5ee9013d2c2ed6ef7
+Filename: pool/updates/main/i/icedove/icedove_31.3.0-1~deb7u1_i386.deb
+Size: 27864000
+MD5sum: e65c7a6f223e256af8625d1111f00352
+SHA1: 83519de4168c1b072a22cfe469d0b5d4c104f00f
+SHA256: 982f6fd462516f44eb2af9b6da6a450a9de1be9e873208bc76b8b107bc56937b
 
 Package: icedove-dbg
 Source: icedove
-Version: 31.2.0-1~deb7u1
-Installed-Size: 891661
+Version: 31.3.0-1~deb7u1
+Installed-Size: 891577
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 31.2.0-1~deb7u1)
+Depends: icedove (= 31.3.0-1~deb7u1)
 Description: Debug Symbols for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 99fce9c8b37fcb1fdae080cd71939b95
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dbg_31.2.0-1~deb7u1_i386.deb
-Size: 231708798
-MD5sum: 68d04ac60696495e0c08c2e9fb24578b
-SHA1: 5f820d41e5244a39b77f5e748fcfd87dd0ff9834
-SHA256: e8d06a6f4b75c6b9c324b89208cc8e804990235b152a9db8bc7b9d0f51106897
+Filename: pool/updates/main/i/icedove/icedove-dbg_31.3.0-1~deb7u1_i386.deb
+Size: 231570764
+MD5sum: ebe2dde94fe0526ad05cb43747d0cecd
+SHA1: facb07a05af7bbbb33676d830b6c1e0004df9d76
+SHA256: 4aad454496bee7c060ab6d1758de55639df6e06c0c00db756bb3f68dd459e9d9
 
 Package: icedove-dev
 Source: icedove
-Version: 31.2.0-1~deb7u1
-Installed-Size: 38666
+Version: 31.3.0-1~deb7u1
+Installed-Size: 38216
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 31.2.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
+Depends: icedove (= 31.3.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
 Description: Development files for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: e5dc915b9a4390b041790032893a56e6
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dev_31.2.0-1~deb7u1_i386.deb
-Size: 5482426
-MD5sum: f8df4495e728aa01b802945cc9e4ac34
-SHA1: d86bbec00826210b1490e9e07383d9dbd3096d27
-SHA256: 879602fdedf1648d11bfe0447b3b25b26a045a03d7f80fe10ded4c993d232bf1
+Filename: pool/updates/main/i/icedove/icedove-dev_31.3.0-1~deb7u1_i386.deb
+Size: 5360214
+MD5sum: 177f87edabeba209e3b829c586a74c24
+SHA1: f3d6389b0e2a22b2196bbad34d9b662d742071c6
+SHA256: 8926ae2b0d42440e49bcbefc2d29fc9255924fa59a5307bd372fc6a70875c718
 
 Package: iceowl-extension
 Source: icedove
-Version: 31.2.0-1~deb7u1
-Installed-Size: 5697
+Version: 31.3.0-1~deb7u1
+Installed-Size: 5485
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: calendar-timezones
 Provides: calendar-timezones
-Depends: icedove (>= 31.2.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: icedove (>= 31.3.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Suggests: fonts-lyx
 Breaks: calendar-timezones
 Description: Calendar Extension for Thunderbird/Icedove
@@ -4548,11 +4548,11 @@ Description-md5: 65836c12ff9dc4d09cb7aaa996e47d9c
 Recommends: calendar-google-provider
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/iceowl-extension_31.2.0-1~deb7u1_i386.deb
-Size: 1543984
-MD5sum: 04c1627b6b58118bdbf36ee6b2acd192
-SHA1: d39acac12cbad2a1b305e6662940287ba2a34809
-SHA256: 7f593c502751ee260d7848b035a700ba5f2e67b1c28ce0fe8c05abb82c85eabf
+Filename: pool/updates/main/i/icedove/iceowl-extension_31.3.0-1~deb7u1_i386.deb
+Size: 1543152
+MD5sum: e767464080b72f0b7739002a844bfc1c
+SHA1: c1c48230705ce4360ee2b94fc41070b2ddef4f50
+SHA256: 2782d367965eb3280f4db084e6ab71a09e8ad6b0e85bad536b4fa7023a551c1c
 
 Package: icedove-l10n-all
 Source: icedove-l10n
@@ -27709,24 +27709,24 @@ SHA256: 05fdb7667ce34abb7cf2b7f3ea0f38820b4d6cbda9cd153842be9470079be733
 
 Package: xdmx
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1955
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfixes3, libxfont1 (>= 1:1.4.2), libxi6, libxmuu1, libxrender1
 Description: distributed multihead X server
 Description-md5: d52dd645b5fa9daf3052065e2345991f
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xdmx_1.12.4-6+deb7u2_i386.deb
-Size: 923988
-MD5sum: f0d7211fac28591ddf6c10672ca26dcc
-SHA1: cc51f5b880fab986e185164a8a3a0a662154c121
-SHA256: e3308e56f82abc4cd59a11a6050d3739da1d106a86723c6188348cfe3631f16f
+Filename: pool/updates/main/x/xorg-server/xdmx_1.12.4-6+deb7u5_i386.deb
+Size: 926232
+MD5sum: 5489a2409f382a51c050f4c04e16aa8d
+SHA1: a1d36176733f29fa8ff8e0a1345c7afa580fd1c7
+SHA256: aed26b34cfe0e25f14c15ce8d57717627ed7fca0e1db06015889e486d210c1dd
 
 Package: xdmx-tools
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 313
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
@@ -27736,34 +27736,34 @@ Description: Distributed Multihead X tools
 Description-md5: d19e4657677c5d6dc4d36c168f58a7f4
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xdmx-tools_1.12.4-6+deb7u2_i386.deb
-Size: 121972
-MD5sum: 13fa140fce463b44cc0299fcac09c221
-SHA1: 727dad0d1043bdab07776d28a6c7eaf23e2dd014
-SHA256: b30aa7b691b1d9056c8051b796a36936885e83a8ee7da237070aea6a67cbf877
+Filename: pool/updates/main/x/xorg-server/xdmx-tools_1.12.4-6+deb7u5_i386.deb
+Size: 122150
+MD5sum: 8b95bd4ab66da995da961bed3a5a4a84
+SHA1: b83e91376b67a2bd96e4b6ffcaf4dfc7a9917c1b
+SHA256: 67697c7ae63e2e017c0f66b0c333b505245d5234d66f50e744251697d63edcbf
 
 Package: xnest
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 1825
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 1833
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libx11-6, libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2)
 Description: Nested X server
 Description-md5: 48a07c59b44bacd1e2bed508f80542b4
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xnest_1.12.4-6+deb7u2_i386.deb
-Size: 824520
-MD5sum: 0b7f6d77ead10b9b9828027f1af2478d
-SHA1: 6f8d9175c7620a28582cfb9da7f8463824dc7549
-SHA256: 56574f03b66cfb35f6ff415752accef2c8d1c1fe41e1c1fae84255f917f3d83d
+Filename: pool/updates/main/x/xorg-server/xnest_1.12.4-6+deb7u5_i386.deb
+Size: 827974
+MD5sum: f94320741663e8fb81ec51f7c4b4a006
+SHA1: 0f418cd32a320edc9db50ab00b2f1712d268dab2
+SHA256: 4c2416d65eeb1d56ec6693df81e7acd4784ade3eb811bcf9516f2f9bd9cb8ab7
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1516
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: all
@@ -27774,57 +27774,57 @@ Description-md5: be03943b6955ee9fae7163ad516c772f
 Recommends: xfonts-base, xauth
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-common_1.12.4-6+deb7u2_all.deb
-Size: 1396194
-MD5sum: 9e4babc45be070ff62abce2de08c783d
-SHA1: 9f08fe19b5e2af6019a6e6a4a7d1de3531d66a5d
-SHA256: 71066d017d879063e7d6c00b9fd5f84f5c7b8aa9baf21dd671f0dc081c11e857
+Filename: pool/updates/main/x/xorg-server/xserver-common_1.12.4-6+deb7u5_all.deb
+Size: 1397094
+MD5sum: aaf7f18b99b75fa9be85c94f5e789c23
+SHA1: 60cc0d21003248d2bc1cad75f4b61783245edc16
+SHA256: 609c7ae6dcc102be00d96302680b52773c756367fee6cf691c2311ba66a8a921
 
 Package: xserver-xephyr
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2224
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2233
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libgl1-mesa-glx | libgl1, libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libx11-6 (>= 2:1.4.99.1), libxau6, libxdmcp6, libxext6, libxfont1 (>= 1:1.4.2), libxv1
 Description: nested X server
 Description-md5: 516dc4b8b7e15f13bc99547d4869e159
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xephyr_1.12.4-6+deb7u2_i386.deb
-Size: 1020808
-MD5sum: 21a4f59746047661182e438752618a84
-SHA1: 72685a80e89b3c38dea5659ead2e82a40441fe1d
-SHA256: fcbd3e975ffc7a6d9cf5770dacb9279c0987bdf21717b76f2d44d24a54308e37
+Filename: pool/updates/main/x/xorg-server/xserver-xephyr_1.12.4-6+deb7u5_i386.deb
+Size: 1023220
+MD5sum: c4011f3b9199feade55ba16dba847825
+SHA1: 623c20019cf92acf46f125031d32cdd5e0c7b0bb
+SHA256: 73fc6062491a49b7a465ad5f73cd613611d47950d1af9828a9ab9dbefa55660d
 
 Package: xserver-xfbdev
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2068
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2076
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Description: Linux framebuffer device tiny X server
 Description-md5: 952ef27a58e5dee1c023edecc5e03fb8
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xfbdev_1.12.4-6+deb7u2_i386.deb
-Size: 946016
-MD5sum: 093b85deafe1aa78befccdd82da23a4e
-SHA1: e4dc19dccdb07756c12264a906a74785da5becb7
-SHA256: 113eba44a801421c64611241b8fa5412ac7c34138db897602e471dca46924ead
+Filename: pool/updates/main/x/xorg-server/xserver-xfbdev_1.12.4-6+deb7u5_i386.deb
+Size: 949390
+MD5sum: 2d4f362a0cf75bb0fbee874ae6ab8122
+SHA1: 5c0b618607a6b7d720865e4462b8e95cf8be738e
+SHA256: c7591e4aeec7ee14254b9c6adf23f449752c684f76b3bb5d088a4d7d63acba4d
 
 Package: xserver-xorg-core
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 4028
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 4036
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Provides: xorg-input-abi-16, xorg-video-abi-12
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), keyboard-configuration, udev (>= 149), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libudev0 (>= 154), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), keyboard-configuration, udev (>= 149), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libdrm2 (>= 2.3.1), libgcrypt11 (>= 1.4.5), libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libudev0 (>= 154), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch
 Breaks: libgl1-mesa-dri (<< 7.10.2-4), libgl1-mesa-dri-experimental (<< 7.10.2-4), xserver-xorg-input, xserver-xorg-input-2, xserver-xorg-input-2.1, xserver-xorg-input-4, xserver-xorg-input-7, xserver-xorg-input-joystick (<= 1:1.5.0-3), xserver-xorg-input-synaptics (<= 1.2.2-1), xserver-xorg-input-tslib (<= 0.0.6-3), xserver-xorg-input-vmmouse (<= 1:12.6.5-4), xserver-xorg-input-wacom (<= 0.10.5+20100415-1), xserver-xorg-video, xserver-xorg-video-1.0, xserver-xorg-video-1.9, xserver-xorg-video-2, xserver-xorg-video-4, xserver-xorg-video-5, xserver-xorg-video-6, xserver-xorg-video-cyrix (<= 1:1.1.0-8), xserver-xorg-video-i810 (<< 2:2.4), xserver-xorg-video-imstt (<= 1:1.1.0-7), xserver-xorg-video-nsc (<= 1:2.8.3-4), xserver-xorg-video-sunbw2 (<= 1:1.1.0-5), xserver-xorg-video-v4l (<< 1:0.2.0), xserver-xorg-video-vga (<= 1:4.1.0-8)
@@ -27833,32 +27833,32 @@ Description-md5: e3826a765918b79dee4b90ec97f9302c
 Recommends: libgl1-mesa-dri (>= 7.10.2-4)
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-core_1.12.4-6+deb7u2_i386.deb
-Size: 1731552
-MD5sum: ffd4763caf3b7a6851447555a8a7acd6
-SHA1: de757c86d99b81e35a3d3b63382c9b870d5e3896
-SHA256: 564fc4f45d89b3df1c2b8a980e350930c72b615cfa9683c3f24bcea331c348ee
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-core_1.12.4-6+deb7u5_i386.deb
+Size: 1734536
+MD5sum: 77b4240d5e3b37124869600d0cf27c95
+SHA1: 26a90fe613f809904461c833c7aa0da39532ad25
+SHA256: 8872e17e1c816b8eb4de3a61ced388434a016c8ceb6a37163354a0d1c82f0d96
 
 Package: xserver-xorg-core-dbg
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 16895
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 16912
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
-Depends: xserver-xorg-core (= 2:1.12.4-6+deb7u2)
+Depends: xserver-xorg-core (= 2:1.12.4-6+deb7u5)
 Description: Xorg - the X.Org X server (debugging symbols)
 Description-md5: 748963cc445faabee033c53886a8a0cf
 Section: x11
 Priority: extra
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-core-dbg_1.12.4-6+deb7u2_i386.deb
-Size: 6946180
-MD5sum: cf64e43d0486d5fadb9383f75828ba12
-SHA1: ebf0931e2d601d1c2a6f0089ff9be843e0a05eda
-SHA256: 07b059bc75247fc08888b88b7fa8d4536f9053b5dae14843cc208ee8baaab43b
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-core-dbg_1.12.4-6+deb7u5_i386.deb
+Size: 6954540
+MD5sum: 04747a6acd9f1bba45586a0e10d1783f
+SHA1: ee26c2eddaab06bcbc07cccbf91ab33f7d57a4fa
+SHA256: 97fd7db1c8d1e6a2d4a3136de18b3c007a7f329968af13d7ed0c09dfe0767730
 
 Package: xserver-xorg-dev
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
+Version: 2:1.12.4-6+deb7u5
 Installed-Size: 1392
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
@@ -27867,30 +27867,30 @@ Description: Xorg X server - development files
 Description-md5: 241552d78aca8911808aea0707649843
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xserver-xorg-dev_1.12.4-6+deb7u2_i386.deb
-Size: 303628
-MD5sum: 0b78c80c2d4094948d52938fd22bdd67
-SHA1: b84e5269522d28213a72ae99f4e9553d1a155472
-SHA256: 9a1f113d8085c2afc51020e3200f81d66b918a189c5791e759d4c0ee7193a937
+Filename: pool/updates/main/x/xorg-server/xserver-xorg-dev_1.12.4-6+deb7u5_i386.deb
+Size: 303864
+MD5sum: f0945d999012eb74b0f5a112a098aa77
+SHA1: 166420a93cd8f0cd8749965710099f4afaf5c3be
+SHA256: af9d977717f5f6c03db9ec204eea6217e573c9d2e12fc35b5d95d5f528e3d90b
 
 Package: xvfb
 Source: xorg-server
-Version: 2:1.12.4-6+deb7u2
-Installed-Size: 2031
+Version: 2:1.12.4-6+deb7u5
+Installed-Size: 2039
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Architecture: i386
 Provides: xserver
-Depends: xserver-common (>= 2:1.12.4-6+deb7u2), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
+Depends: xserver-common (>= 2:1.12.4-6+deb7u5), libaudit0 (>= 1.7.13), libc6 (>= 2.8), libgcrypt11 (>= 1.4.5), libpixman-1-0 (>= 0.21.6), libselinux1 (>= 2.0.82), libxau6, libxdmcp6, libxfont1 (>= 1:1.4.2)
 Description: Virtual Framebuffer 'fake' X server
 Description-md5: ff95e4399e5ec034de6998347673eb73
 Recommends: xauth
 Section: x11
 Priority: optional
-Filename: pool/updates/main/x/xorg-server/xvfb_1.12.4-6+deb7u2_i386.deb
-Size: 931004
-MD5sum: 1a41693d709691fa509808645e8548d7
-SHA1: aa52100cf7498163f1e51a0a9e1af4c41e333f5f
-SHA256: cd193d22afb42c70dfb9fc77db9b060f5fa0e7984f8578630631b9c661d4a07a
+Filename: pool/updates/main/x/xorg-server/xvfb_1.12.4-6+deb7u5_i386.deb
+Size: 934446
+MD5sum: dd1c69b1d74fdb384efef9f7428dd815
+SHA1: 5942bd909dbe28144504e9848768d5b58aed00d4
+SHA256: c8793ef1d67e193dffaf45207d9527b6761cbe01665c65716cfaf167d0dfc052
 
 Package: xserver-xorg-video-openchrome
 Version: 1:0.2.906-2+deb7u1
