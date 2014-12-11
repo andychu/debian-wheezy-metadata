@@ -3823,8 +3823,8 @@ SHA1: 0231592cbb736fd18528c1ca8bbdbcd334e62928
 SHA256: e05b54061d702d8c4964ebe2d6cbd92f8a20204a929ba461a4be78d6182ddc0c
 
 Package: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 817
+Version: 2.26.3-14+deb7u2
+Installed-Size: 768
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcdt4, libcgraph5, libexpat1 (>= 2.0.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libgraph4, libgvc5, libgvpr1, libx11-6, libxaw7, libxmu6, libxt6
@@ -3836,16 +3836,16 @@ Description-md5: 3596bf983eb939217c51507635922cde
 Recommends: ttf-liberation
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/g/graphviz/graphviz_2.26.3-14+deb7u1_i386.deb
-Size: 362294
-MD5sum: 75e8dd3ef9f8487a40e3d45680814e6b
-SHA1: b7b517194c1c4b2fcf02de24b994635d57832705
-SHA256: 31c867eb68f1fc539c8c91723efdc2620a07acdfb977b3c7d59363c23bf3ed41
+Filename: pool/updates/main/g/graphviz/graphviz_2.26.3-14+deb7u2_i386.deb
+Size: 361720
+MD5sum: e3175e43b08732481b9106a5d1d2875e
+SHA1: de71822cfe0ddba7673e908bd26818c6b3915fe2
+SHA256: e07b5231a8420d26c0c432e593b5c8a5bf36e6ccfea94f89b0313c3209cf537a
 
 Package: graphviz-dev
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 89
+Version: 2.26.3-14+deb7u2
+Installed-Size: 90
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: all
 Depends: libgraphviz-dev
@@ -3854,15 +3854,15 @@ Homepage: http://www.graphviz.org/
 Description-md5: 9f63b6f413c4d84a0c3d45a554d3697b
 Section: devel
 Priority: optional
-Filename: pool/updates/main/g/graphviz/graphviz-dev_2.26.3-14+deb7u1_all.deb
-Size: 49184
-MD5sum: cbabe5270d90dd97be47097446d0bfbb
-SHA1: ee83011d540bcb70f7eb75dcdee9488a8b5804ee
-SHA256: d2b66a41298bba51147542042678f44ef24436c01bf24deeb3092c9d90f72145
+Filename: pool/updates/main/g/graphviz/graphviz-dev_2.26.3-14+deb7u2_all.deb
+Size: 49342
+MD5sum: 9eb264469f55b1ba1e5e10e33016d19a
+SHA1: 4267a293ae932222393630473ca4277e6cb0036f
+SHA256: b4e94ce73ffbe51334b7236c8564108514ab63d65f27259d95167484c4a08efa
 
 Package: graphviz-doc
 Source: graphviz
-Version: 2.26.3-14+deb7u1
+Version: 2.26.3-14+deb7u2
 Installed-Size: 3661
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: all
@@ -3873,16 +3873,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: f78e17da4b5250c519aa60f99d9c7a3c
 Section: doc
 Priority: optional
-Filename: pool/updates/main/g/graphviz/graphviz-doc_2.26.3-14+deb7u1_all.deb
-Size: 2583144
-MD5sum: bc58d0ed56b8ead1832c7e327d11b7fe
-SHA1: 4dbfdc2f1c13f5e8c57d8ca1e986c28df42a61dc
-SHA256: 20f785e65826cbb1d837ddabf78b76ae432902f996400b6984a57caf4c7413d2
+Filename: pool/updates/main/g/graphviz/graphviz-doc_2.26.3-14+deb7u2_all.deb
+Size: 2579040
+MD5sum: d42227ac695f0d8a82948d5036a4d155
+SHA1: 158daf728b49ef13e7ef5b5109aab9077f9206df
+SHA256: 45ffbbf17f704f81195cd36d2442085a3aeab8daf3d55d01bba2fbbb130b9ba0
 
 Package: libcdt4
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 112
+Version: 2.26.3-14+deb7u2
+Installed-Size: 85
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libltdl7 (>= 2.4.2)
@@ -3892,16 +3892,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: d9902443b1aa2da91da7ca4482e5eb20
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libcdt4_2.26.3-14+deb7u1_i386.deb
-Size: 59662
-MD5sum: ba31eae1b39a9b4346ffd67f431fba2b
-SHA1: 8104bd40de9f90d4c6bd2ba113dc7614d5896725
-SHA256: 60fb3c7a6288277681063ae214f759189a3acdc3dd1702a9bc24cf00355556dc
+Filename: pool/updates/main/g/graphviz/libcdt4_2.26.3-14+deb7u2_i386.deb
+Size: 59828
+MD5sum: f54814be7462c6cfb35e846795989cf5
+SHA1: f54d9db9a8f7d18394efb0e371e66a44fca97a08
+SHA256: e7500d932e90111dc602b3409f9ec50a3d8950287f84b74f8041a91540ccc340
 
 Package: libcgraph5
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 177
+Version: 2.26.3-14+deb7u2
+Installed-Size: 150
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcdt4, libltdl7 (>= 2.4.2)
@@ -3911,16 +3911,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 3c0eff44ae2d3aa5e19d60a4384485eb
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libcgraph5_2.26.3-14+deb7u1_i386.deb
-Size: 87946
-MD5sum: 99cad7bff143c730b56e67a6d79a1ba1
-SHA1: a89e198a0441d4ba92e00c2a09688128678063d1
-SHA256: 32da7e4302bc03a96f8a8dfaf47499a3d2672d91869dc86fece36e3caf4d95f1
+Filename: pool/updates/main/g/graphviz/libcgraph5_2.26.3-14+deb7u2_i386.deb
+Size: 88110
+MD5sum: 7acbabba30288b3bd2913c811e554317
+SHA1: d70dd6ce2f9fbcd864737b5fe83c2c49d3e08513
+SHA256: f9dcadc6b90ef18af9300710a8d10516b5dd46f046a552f92f81bdc7199038e6
 
 Package: libgraph4
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 145
+Version: 2.26.3-14+deb7u2
+Installed-Size: 117
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcdt4, libltdl7 (>= 2.4.2)
@@ -3930,37 +3930,37 @@ Homepage: http://www.graphviz.org/
 Description-md5: 43cc8b0d09d4df1ae1fe7928559991e9
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgraph4_2.26.3-14+deb7u1_i386.deb
-Size: 74006
-MD5sum: 950e674f0013e6306895ee28c536e6de
-SHA1: 066fd1200e45f6af67e288ea79441749bdec1d0e
-SHA256: b3eb4678daa1deefa4e6ddfb3fffc41c10f55b2cb64473353ceea82db7b9f386
+Filename: pool/updates/main/g/graphviz/libgraph4_2.26.3-14+deb7u2_i386.deb
+Size: 74170
+MD5sum: 4043ebfbe4f98e02ae0533f6276ddf75
+SHA1: b6afa277736f60e07612b1040f93126316216523
+SHA256: a2ee29216d23f4ea204ac56d4fde3979a3124696d78ad8f888b2bc19b4c6b4b3
 
 Package: libgraphviz-dev
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 284
+Version: 2.26.3-14+deb7u2
+Installed-Size: 234
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Replaces: libgraphviz3-dev, libgraphviz4-dev (<< 2.16-3)
 Provides: graphviz-dev
-Depends: libcdt4 (= 2.26.3-14+deb7u1), libcgraph5 (= 2.26.3-14+deb7u1), libgraph4 (= 2.26.3-14+deb7u1), libgvc5 (= 2.26.3-14+deb7u1), libgvpr1 (= 2.26.3-14+deb7u1), libpathplan4 (= 2.26.3-14+deb7u1), libxdot4 (= 2.26.3-14+deb7u1), libexpat1-dev, libltdl7-dev, zlib1g-dev
+Depends: libcdt4 (= 2.26.3-14+deb7u2), libcgraph5 (= 2.26.3-14+deb7u2), libgraph4 (= 2.26.3-14+deb7u2), libgvc5 (= 2.26.3-14+deb7u2), libgvpr1 (= 2.26.3-14+deb7u2), libpathplan4 (= 2.26.3-14+deb7u2), libxdot4 (= 2.26.3-14+deb7u2), libexpat1-dev, libltdl7-dev, zlib1g-dev
 Conflicts: graphviz-dev (<< 2.12-1), libgraphviz3-dev, libgraphviz4-dev (<< 2.16-3)
 Description: graphviz libs and headers against which to build applications
 Homepage: http://www.graphviz.org/
 Description-md5: c3a8010bf765807229fbc858755d3ad0
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgraphviz-dev_2.26.3-14+deb7u1_i386.deb
-Size: 103338
-MD5sum: 49811b59f0363694294e2f6ce210420c
-SHA1: 9d1200a6b1352656028f801df9a6732fff6047c7
-SHA256: 8e1b1cdced486ee6574fc949edfa42deea8a6957cba34f65e40b0d90186fe5a9
+Filename: pool/updates/main/g/graphviz/libgraphviz-dev_2.26.3-14+deb7u2_i386.deb
+Size: 103792
+MD5sum: 712eccd7afbc3a34d6090ab25f9b35d4
+SHA1: 9cf37e36969266415963f1d9d5ce347360d4dd89
+SHA256: 6f44eea6118130e787602875c6e0a096d03d53571a0c1406a442d8193ba8e1d0
 
 Package: libgv-guile
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 166
+Version: 2.26.3-14+deb7u2
+Installed-Size: 123
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4)
@@ -3969,16 +3969,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 7d3eb4ddcdf8c075cdc4c96b7c20cf7f
 Section: interpreters
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-guile_2.26.3-14+deb7u1_i386.deb
-Size: 72358
-MD5sum: 36bfeea5977a09f4ec3ee7eed24f9b8e
-SHA1: 7742c9c1bf3eaab170f064c904672235140604fa
-SHA256: a94f28df19aa0f927a0b7e530f6b4f83c7cdf3e346ca6636d25d56d93af6c208
+Filename: pool/updates/main/g/graphviz/libgv-guile_2.26.3-14+deb7u2_i386.deb
+Size: 72572
+MD5sum: b168f707191b5453e75355ea32e009ab
+SHA1: 47ca1cef7b4a22f373d3c8808a165df8ffa4fcd9
+SHA256: 6a778066e62d26022e0fed76876754df9ac43ef5b44ba2f97f70d6f5348318c0
 
 Package: libgv-lua
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 207
+Version: 2.26.3-14+deb7u2
+Installed-Size: 156
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), liblua5.1-0, libpathplan4, libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4)
@@ -3987,35 +3987,35 @@ Homepage: http://www.graphviz.org/
 Description-md5: a594472cb30a8ab4285d761683d5b770
 Section: interpreters
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-lua_2.26.3-14+deb7u1_i386.deb
-Size: 81378
-MD5sum: 3dc9d2050ed29672aa28d4e34cdf61a4
-SHA1: 5afb28a1eb47184929061c03397d9c9db561205a
-SHA256: 3819abded3b3cd37c1596a598e8e345eff8acaa0594fd5ed5e0c3797ec417728
+Filename: pool/updates/main/g/graphviz/libgv-lua_2.26.3-14+deb7u2_i386.deb
+Size: 81556
+MD5sum: 6f27b357f2e1b4ae00babd39cb960929
+SHA1: 4d22b8661a827f5a61cf8fb434c1f9e696f6dd45
+SHA256: d0485b6bbd184a8805fb0dd136aa2ab3e7a5ad5c7fcc840c5790206128524555
 
 Package: libgv-perl
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 248
+Version: 2.26.3-14+deb7u2
+Installed-Size: 201
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
-Depends: perl (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libperl5.14 (>= 5.14.2), libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4)
+Depends: perl (>= 5.14.2-21+deb7u2), perlapi-5.14.2, libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libperl5.14 (>= 5.14.2), libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4)
 Conflicts: graphviz (<< 2.12-1)
 Description: Perl bindings for graphviz
 Homepage: http://www.graphviz.org/
 Description-md5: 50f9c9810e4cd1ff33ec004dadd5fd9a
 Section: perl
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-perl_2.26.3-14+deb7u1_i386.deb
-Size: 92826
-MD5sum: 25768827aa4ae8dcc5602363704708d8
-SHA1: a9eeb4ccda4c5a120187225caf591710482d0fea
-SHA256: 55da1ed8709e087112ba3da18b04173aa889675491b715b0c8dabe26357447b6
+Filename: pool/updates/main/g/graphviz/libgv-perl_2.26.3-14+deb7u2_i386.deb
+Size: 93014
+MD5sum: e6eef39f2dffaa7743ab6148f3d32838
+SHA1: f680d504f815b2714d748e53daacda59e2820805
+SHA256: 1c5432decf8620cd2da3bcf886b49d794aa2566d74f6bbddb5d47d3a846da620
 
 Package: libgv-php5
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 217
+Version: 2.26.3-14+deb7u2
+Installed-Size: 166
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4), phpapi-20100525+lfs
@@ -4024,16 +4024,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 8f8149c12e1bc0663f990e38acf98cb3
 Section: interpreters
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-php5_2.26.3-14+deb7u1_i386.deb
-Size: 80730
-MD5sum: 0bdb1b2b80bff727bb7c820a9df6cffe
-SHA1: cccef0399c393498da3569f53cd7351fbbecfbc1
-SHA256: 27b503ece1ea735afec5dfae4e3a5fa0848a98d3f82e62a86e849440590316c1
+Filename: pool/updates/main/g/graphviz/libgv-php5_2.26.3-14+deb7u2_i386.deb
+Size: 80460
+MD5sum: dabea3ab8728ebb88a36521f1082bb96
+SHA1: f213082400ca1c0ce760a29374d38cca674ad99e
+SHA256: c25412e054d31c2ac8f325ca8c97d39accb59602d07dd222fa4809ed97cd9428
 
 Package: libgv-python
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 306
+Version: 2.26.3-14+deb7u2
+Installed-Size: 251
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4), python (<< 2.8), python (>= 2.6), python-support (>= 0.90.0)
@@ -4042,16 +4042,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 65298a1eb6ec2d8df2ae7bdaf75391b1
 Section: python
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-python_2.26.3-14+deb7u1_i386.deb
-Size: 114018
-MD5sum: f9cf17c2f6f34c134a0245f122f6b76a
-SHA1: dfd1af2707f1f2e4d49315af3cd46716399b3797
-SHA256: 4c8425730eb3ce40e255403fe5f3f53b54e593ba20c9d07c561ff01b9deda81c
+Filename: pool/updates/main/g/graphviz/libgv-python_2.26.3-14+deb7u2_i386.deb
+Size: 114264
+MD5sum: 8ae1e5a2df45b27374518107f26be3a3
+SHA1: 2f49b86e526f7135f7918c2bad6dae0d7c133539
+SHA256: 31f626a72934833f3eb1ab56216b9b6eb26b5c09b8b756fd864b21f2e448c0cc
 
 Package: libgv-ruby
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 178
+Version: 2.26.3-14+deb7u2
+Installed-Size: 135
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libcdt4, libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libgraph4, libgvc5, libltdl7 (>= 2.4.2), libpathplan4, libruby1.8 (>= 1.8.7.357-1), libstdc++6 (>= 4.1.1), libxdot4, zlib1g (>= 1:1.1.4), ruby1.8
@@ -4060,16 +4060,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 1ce4864df26ddbc2e1d4a2ba251d3bb4
 Section: interpreters
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-ruby_2.26.3-14+deb7u1_i386.deb
-Size: 75690
-MD5sum: 1f23e9ac75bfac256cb239a33a442aa8
-SHA1: e2572d0b2634b288ea2642821f59146fa57597d8
-SHA256: 875f1eea37de20862e3a03ae41cb1e877d61697332175831a6bdebdc63695b6b
+Filename: pool/updates/main/g/graphviz/libgv-ruby_2.26.3-14+deb7u2_i386.deb
+Size: 75864
+MD5sum: 2a2d25eb5eefea757e06b2e057605917
+SHA1: 0bee4279f15209e93414c3d4a5988c522e4fbbd4
+SHA256: bcf4ab4199c8fc4b0d6860fafecd5bb1331ff9cd31d7a1ad65971c318a00b948
 
 Package: libgv-tcl
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 1425
+Version: 2.26.3-14+deb7u2
+Installed-Size: 1374
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libcdt4, libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libglib2.0-0 (>= 2.12.0), libgraph4, libgvc5, libjpeg8 (>= 8c), libltdl7 (>= 2.4.2), libpango1.0-0 (>= 1.14.0), libpathplan4, libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.1.1), libxdot4, tk8.5 (>= 8.5.0), zlib1g (>= 1:1.1.4)
@@ -4079,16 +4079,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 1d237ed0182682c059bb20e5ef06bb06
 Section: interpreters
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgv-tcl_2.26.3-14+deb7u1_i386.deb
-Size: 657566
-MD5sum: 30f55c2f1ef90705272244f469a829ff
-SHA1: 2c353ce25cee08c12229ae2e86fdb69664e3ad09
-SHA256: 07f7392ca6feccabbec66f6a66acfe537b23a987d3246d79c2481f551f07ca3d
+Filename: pool/updates/main/g/graphviz/libgv-tcl_2.26.3-14+deb7u2_i386.deb
+Size: 660260
+MD5sum: fbf6eeb346c36471a7ed60dc0da2f6b9
+SHA1: 1bff21c0d5a86b9ea6d0805c708a4e5a46d26bc2
+SHA256: 54a42f8afee6edc335bb4e3f572382d56f92778957131d9980177db460c06d47
 
 Package: libgvc5
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 1131
+Version: 2.26.3-14+deb7u2
+Installed-Size: 1080
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libcdt4, libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libgd2-noxpm (>= 2.0.36~rc1~dfsg) | libgd2-xpm (>= 2.0.36~rc1~dfsg), libglib2.0-0 (>= 2.12.0), libgraph4, libjpeg8 (>= 8c), libltdl7 (>= 2.4.2), libpango1.0-0 (>= 1.14.0), libpathplan4, libpng12-0 (>= 1.2.13-4), libx11-6, libxdot4, zlib1g (>= 1:1.1.4)
@@ -4098,16 +4098,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 87da8308b382f4072b1022b48b3d7368
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgvc5_2.26.3-14+deb7u1_i386.deb
-Size: 533476
-MD5sum: 2ac3ab8f29297a39b4058171d7e66dc5
-SHA1: 56502aaf8e90a8edbc16a0fda477e5b1910b529d
-SHA256: e3430e5381c7dbc61056cbc76c5e86b035dd7618b8a2c7201c2b39adc52ea0b0
+Filename: pool/updates/main/g/graphviz/libgvc5_2.26.3-14+deb7u2_i386.deb
+Size: 533892
+MD5sum: e8f7b5bb7a0ab62655b784a1b1c01da9
+SHA1: b79bbd95619e8ec269e9658cd101b2150f1a4b73
+SHA256: 6051c2489c8eeea50ef10746ef27c4b2506f44e7bdd84b5b01132ac147a980bf
 
 Package: libgvc5-plugins-gtk
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 130
+Version: 2.26.3-14+deb7u2
+Installed-Size: 99
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.1.3), libcairo2 (>= 1.2.4), libcdt4, libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgraph4, libgtk2.0-0 (>= 2.8.0), libgvc5, libltdl7 (>= 2.4.2), libpango1.0-0 (>= 1.14.0), libpathplan4, libxdot4, zlib1g (>= 1:1.1.4)
@@ -4117,16 +4117,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: a2d766af1019ed41a27a7b18b86cd03e
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgvc5-plugins-gtk_2.26.3-14+deb7u1_i386.deb
-Size: 62648
-MD5sum: 328fc7b582ee6b179d325ded72eacdf7
-SHA1: 929aebe3e648d36afc99d14083932083a0b863d9
-SHA256: 425c631e1bd020ff6d1485c88b4be38d9c4d9665862ad97feebaf3a429ac14a1
+Filename: pool/updates/main/g/graphviz/libgvc5-plugins-gtk_2.26.3-14+deb7u2_i386.deb
+Size: 62810
+MD5sum: bc47672194092db69b52931d28d32dce
+SHA1: 540f83d33872c5261d449ee18753bc629ca63d6e
+SHA256: 065a8ddfde50e0ba75552dfd0d884c81ccbc1e40ac2d59865011a5bb9f07e3b0
 
 Package: libgvpr1
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 520
+Version: 2.26.3-14+deb7u2
+Installed-Size: 493
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libcdt4, libcgraph5, libltdl7 (>= 2.4.2)
@@ -4136,16 +4136,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: e7dafa90950ab7d270f04d6a2f98fc48
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libgvpr1_2.26.3-14+deb7u1_i386.deb
-Size: 241596
-MD5sum: b9247e933cb877c54bed92fb07d84d27
-SHA1: 0aa060ffc0207f10b987cab6c635e9071a10fa3e
-SHA256: 2c177e23ca3951b6ef27e6e60fde7f2c082cd5b386e06fd0c7b2dd612c80cde4
+Filename: pool/updates/main/g/graphviz/libgvpr1_2.26.3-14+deb7u2_i386.deb
+Size: 241466
+MD5sum: 2f9313a0065697192b666bd922261be3
+SHA1: 2801e891d500574f83b107b5dafd6830e0fd06b9
+SHA256: 6af97252c3c91e10441847984053dc531a4cff1e8ee4be83246ed5f7d67ffd39
 
 Package: libpathplan4
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 123
+Version: 2.26.3-14+deb7u2
+Installed-Size: 96
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.1.3), libltdl7 (>= 2.4.2)
@@ -4155,16 +4155,16 @@ Homepage: http://www.graphviz.org/
 Description-md5: 3b349696750e1cfac5e966e847c18e9c
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libpathplan4_2.26.3-14+deb7u1_i386.deb
-Size: 64588
-MD5sum: 701735e6fbf8ec359c3930a775a5a76d
-SHA1: 3b8cf1e4f9da6a70c7b79809372c67a37ad95ce6
-SHA256: 72be9da79015fd30c2b10e95ed460ce943e29e464fa1b85722e7b3c7bdcd72bf
+Filename: pool/updates/main/g/graphviz/libpathplan4_2.26.3-14+deb7u2_i386.deb
+Size: 64748
+MD5sum: 2fde054a688c22059a2c4d1fe546f6b3
+SHA1: a347bf008eb6b5d2133d6752e8b601eaaca91494
+SHA256: b49885849db46bbbb9095e2727095cb4a72c159031b62a7b4cbaf4a13cfa8bf0
 
 Package: libxdot4
 Source: graphviz
-Version: 2.26.3-14+deb7u1
-Installed-Size: 103
+Version: 2.26.3-14+deb7u2
+Installed-Size: 76
 Maintainer: David Claughton <dave@eclecticdave.com>
 Architecture: i386
 Depends: libc6 (>= 2.7), libltdl7 (>= 2.4.2)
@@ -4174,11 +4174,11 @@ Homepage: http://www.graphviz.org/
 Description-md5: 5bb95dff142ccbf7ab2946dc3a7a4dc1
 Section: libs
 Priority: optional
-Filename: pool/updates/main/g/graphviz/libxdot4_2.26.3-14+deb7u1_i386.deb
-Size: 54284
-MD5sum: fa5b0c7f7277ca85bc4b3e6cc96a3d57
-SHA1: bd010c7d082cdd65794835fc6bb0804dbac503a4
-SHA256: cffc2e76bd07c0df953b131ba9324877cc210d1f44f17c04c5c9d8f031da4cd6
+Filename: pool/updates/main/g/graphviz/libxdot4_2.26.3-14+deb7u2_i386.deb
+Size: 54454
+MD5sum: 107b5a51c2b9b6eae9e79689faeab08c
+SHA1: 3abc777cbe2d3812ea8800d8d0c3f4abf643f501
+SHA256: 13760874ffbcfd582d5c324cf5f60721e4914c22370fafb7605773d2c3ba0d6e
 
 Package: hpijs
 Source: hplip
@@ -19936,6 +19936,43 @@ MD5sum: 19622fb9be62b1a5f012a89c2cc38b03
 SHA1: 9259ed5c571c8129717208da4848e68257c39a9c
 SHA256: 83c2f9c3f27120f141e15075730e4274dc4378a2f093e61a0349dc5c007aa2fe
 
+Package: pdns-recursor
+Version: 3.3-3+deb7u1
+Installed-Size: 1368
+Maintainer: Debian PowerDNS Maintainers <pkg-pdns-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Replaces: pdns
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), liblua5.1-0, libstdc++6 (>= 4.4.0), lsb-base (>= 3.0-6), adduser
+Description: PowerDNS recursor
+Homepage: http://www.powerdns.com/
+Description-md5: ab54a4c3de7ed1040bb5d04e23a97384
+Recommends: pdns-doc
+Section: net
+Priority: extra
+Filename: pool/updates/main/p/pdns-recursor/pdns-recursor_3.3-3+deb7u1_i386.deb
+Size: 579660
+MD5sum: 6adc1c941ef0ea32fc28e316cc0f903e
+SHA1: 5ed805df75cc16b15fc19ad04c4d90a0b24fb6d8
+SHA256: 769a3b73a0591783fb6d11d3a52a18205f15a53379a8fbc044b4e00a5a43eecd
+
+Package: pdns-recursor-dbg
+Source: pdns-recursor
+Version: 3.3-3+deb7u1
+Installed-Size: 3670
+Maintainer: Debian PowerDNS Maintainers <pkg-pdns-maintainers@lists.alioth.debian.org>
+Architecture: i386
+Depends: pdns-recursor (= 3.3-3+deb7u1)
+Description: debugging symbols for PowerDNS recursor
+Homepage: http://www.powerdns.com/
+Description-md5: bc676a2fdd91ec7919e8fdc9e81db70d
+Section: debug
+Priority: extra
+Filename: pool/updates/main/p/pdns-recursor/pdns-recursor-dbg_3.3-3+deb7u1_i386.deb
+Size: 3541368
+MD5sum: 099b25e899fabeceac5a91a58f1b64e3
+SHA1: a96f95308d99a27c628b6eb18658eb6772ffd9ee
+SHA256: 3b41d03e0e0f16fbfc3c9ec912d33011c4091f40d1be1642ce512f6ca9cb7313
+
 Package: php-cas
 Version: 1.3.1-4+deb7u1
 Installed-Size: 481
@@ -26237,6 +26274,118 @@ Size: 69572
 MD5sum: 296a1992a8f3d6d7f111f1c51918613f
 SHA1: a7207ae2b713331198b06d14d9279cdbc7abfda0
 SHA256: da52159cf0ea7e361e093aecb1a15522aab029bb16912c722aa92709d01165a6
+
+Package: libunbound-dev
+Source: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 4116
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Depends: libunbound2 (= 1.4.17-3+deb7u2)
+Description: static library, header files, and docs for libunbound
+Homepage: http://www.unbound.net/
+Description-md5: ed3009c5a462f3287f75c961064034a6
+Multi-Arch: same
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/u/unbound/libunbound-dev_1.4.17-3+deb7u2_i386.deb
+Size: 3444790
+MD5sum: 3712430ca34e3660430f436263da0ed9
+SHA1: d0081ea40b107ff167e09842dc4380ec8536ceae
+SHA256: 9e83add0a3329c2bb228e8e4c4e5f7a91f926d7c3868053397be47a837b6ebb2
+
+Package: libunbound2
+Source: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 565
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libldns1 (>= 1.6.13), libssl1.0.0 (>= 1.0.0)
+Description: library implementing DNS resolution and validation
+Homepage: http://www.unbound.net/
+Description-md5: 2be0d2578ccb5656d253e8013682ad4a
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: net
+Priority: optional
+Filename: pool/updates/main/u/unbound/libunbound2_1.4.17-3+deb7u2_i386.deb
+Size: 307208
+MD5sum: 52390a916e52657f3c78594f9a9612ec
+SHA1: 2663ff6a015fb1967c7d62c18aa37c8284758ca3
+SHA256: faafed28c11cd3394a7586f2bcd80ab2ffe8a2973dc2cd36945771a9b0aa5bbe
+
+Package: python-unbound
+Source: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 242
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libunbound2 (>= 1.4.16), python (>= 2.7), python (<< 2.8)
+Description: library implementing DNS resolution and validation (Python bindings)
+Homepage: http://www.unbound.net/
+Description-md5: 103cd64b79e42ad710e19fe727ffce50
+Section: python
+Priority: optional
+Filename: pool/updates/main/u/unbound/python-unbound_1.4.17-3+deb7u2_i386.deb
+Size: 113672
+MD5sum: c399dc686e56df74430373530f898b82
+SHA1: 54963e242eeb6b2ae8a8c21d4959cce0ab6a5545
+SHA256: a67d4eda70dd0dae29e45cbfb880e315c683b6a617ee987538f9da131e164eae
+
+Package: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 1374
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), libevent-2.0-5 (>= 2.0.10-stable), libgcc1 (>= 1:4.1.1), libldns1 (>= 1.6.13), libpython2.7 (>= 2.7), libssl1.0.0 (>= 1.0.0), unbound-anchor, adduser, openssl
+Description: validating, recursive, caching DNS resolver
+Homepage: http://www.unbound.net/
+Description-md5: fbeecad8349f6b3042087b256bc69b68
+Section: net
+Priority: optional
+Filename: pool/updates/main/u/unbound/unbound_1.4.17-3+deb7u2_i386.deb
+Size: 673938
+MD5sum: 9c5730fc800024aef68c5aaf145a15e2
+SHA1: 3756c2e2fc62eebfd716206b403bf6ef727047d0
+SHA256: b59fe9fcec19db717a6811426f2734796b95c8b3fbe1a42a2eb8ea91b8602fb5
+
+Package: unbound-anchor
+Source: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 114
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Replaces: unbound (<< 1.4.13-1)
+Depends: libc6 (>= 2.4), libexpat1 (>= 2.0.1), libgcc1 (>= 1:4.1.1), libldns1 (>= 1.6.5), libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.1)
+Breaks: unbound (<< 1.4.13-1)
+Description: utility to securely fetch the root DNS trust anchor
+Homepage: http://www.unbound.net/
+Description-md5: f49fb3435120bde9cd4af959aeac719c
+Section: net
+Priority: optional
+Filename: pool/updates/main/u/unbound/unbound-anchor_1.4.17-3+deb7u2_i386.deb
+Size: 92626
+MD5sum: 95322d22b5beeeb3f2b162b6ee8ad083
+SHA1: 67b72cfaec30ecc042a8cc0f2a3073118e7ae93b
+SHA256: 83cab5262b4090d5f0187fb8e5aa62c4dc82f7ac6f6aedd95b9dc3b0f2625f55
+
+Package: unbound-host
+Source: unbound
+Version: 1.4.17-3+deb7u2
+Installed-Size: 93
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libldns1 (>= 1.4.0), libssl1.0.0 (>= 1.0.0), libunbound2 (>= 1.4.2)
+Description: reimplementation of the 'host' command
+Homepage: http://www.unbound.net/
+Description-md5: 287e113772f55d3575bb8577560cb3eb
+Section: net
+Priority: optional
+Filename: pool/updates/main/u/unbound/unbound-host_1.4.17-3+deb7u2_i386.deb
+Size: 80996
+MD5sum: 49861b33717790345910acb75f98c2e1
+SHA1: 232e4d72c32f431e372e1ddc0ad5886cd00a2f0b
+SHA256: 310af8e41aa762871f733b91edf632667ad09d3dc0b8e5b16e2d4781820632ca
 
 Package: user-mode-linux
 Version: 3.2-2um-1+deb7u2

@@ -1318,7 +1318,7 @@ Section: libs
 
 Package: graphviz
 Binary: graphviz, libgv-guile, libgv-lua, libgv-perl, libgv-php5, libgv-python, libgv-ruby, libgv-tcl, libgraph4, libcgraph5, libcdt4, libpathplan4, libgvc5, libgvc5-plugins-gtk, libgvpr1, libxdot4, libgraphviz-dev, graphviz-doc, graphviz-dev
-Version: 2.26.3-14+deb7u1
+Version: 2.26.3-14+deb7u2
 Maintainer: David Claughton <dave@eclecticdave.com>
 Uploaders: Christoph Egger <christoph@debian.org>, Sebastian Harl <tokkee@debian.org>
 Build-Depends: tk-dev, tcl-dev, debhelper (>= 7.1.0~), libfreetype6-dev, zlib1g-dev, libjpeg-dev, libpng-dev, libxaw7-dev, bison, flex, autotools-dev, pdksh, libexpat1-dev, libfontconfig1-dev, libltdl-dev (>= 2.2.6b), swig, libperl-dev, libgd2-noxpm-dev (>= 2.0.35), groff-base, ghostscript, lua5.1, liblua5.1-0-dev, ruby1.8, ruby1.8-dev, php5-dev, php5-cli, python-all-dev, python-minimal, libcairo2-dev, libpango1.0-dev, guile-1.8-dev, d-shlibs, python-support, chrpath, dh-autoreconf, libgtk2.0-dev, libgnomeui-dev
@@ -1326,19 +1326,19 @@ Architecture: any all
 Standards-Version: 3.8.4
 Format: 3.0 (quilt)
 Files:
- be44f4a4a878cec2be047452287003bd 3272 graphviz_2.26.3-14+deb7u1.dsc
+ a6678b238265b6fd5e02cd71f5bbffeb 3402 graphviz_2.26.3-14+deb7u2.dsc
  6f45946fa622770c45609778c0a982ee 17092429 graphviz_2.26.3.orig.tar.gz
- 4d90f279e8f14ad37ace9322e07ade5d 54595 graphviz_2.26.3-14+deb7u1.debian.tar.gz
+ 64a3501831e00a0bf19c3ad1db95ccce 54048 graphviz_2.26.3-14+deb7u2.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/graphviz.git
 Vcs-Git: git://git.debian.org/git/collab-maint/graphviz.git
 Checksums-Sha1:
- 9e9e0f3d65baf59b6fc93e51e8703a46e2f70f6e 3272 graphviz_2.26.3-14+deb7u1.dsc
+ dc4644d559e14d5c85e216fd39cf129413a1f5a0 3402 graphviz_2.26.3-14+deb7u2.dsc
  04503ac5a9eaa579859f0d017811fa245717edec 17092429 graphviz_2.26.3.orig.tar.gz
- cce094aa09d99bc42e6d81375a9e7006e91c261c 54595 graphviz_2.26.3-14+deb7u1.debian.tar.gz
+ 86f59cc4b98eb9d4d51d22de679984ba77754dbc 54048 graphviz_2.26.3-14+deb7u2.debian.tar.gz
 Checksums-Sha256:
- 805af6f1780320e36bd42328a8cc06ec64b1470b425dcf3325d61c4752b76f5b 3272 graphviz_2.26.3-14+deb7u1.dsc
+ 62c7f290aa3594b0a605721d865855adc1353d80259dbf43ab468a06927d0fbd 3402 graphviz_2.26.3-14+deb7u2.dsc
  f410996e69b1095237c2128deae5fc7b6ce99055b095271abb14447bc2f37fa1 17092429 graphviz_2.26.3.orig.tar.gz
- d01f206e069da72fb841a3fc0aa3bc5d44dc2b909c4baee443ec96e2aebc37f4 54595 graphviz_2.26.3-14+deb7u1.debian.tar.gz
+ 6c312bd85dccf91bc6e113011a380a62470e5ab265cac701f3ea4c9297f67b22 54048 graphviz_2.26.3-14+deb7u2.debian.tar.gz
 Homepage: http://www.graphviz.org/
 Build-Conflicts: tcl8.3, tcl8.4
 Package-List: 
@@ -8697,6 +8697,37 @@ Directory: pool/updates/main/p/parcimonie
 Priority: source
 Section: perl
 
+Package: pdns-recursor
+Binary: pdns-recursor, pdns-recursor-dbg
+Version: 3.3-3+deb7u1
+Maintainer: Debian PowerDNS Maintainers <pkg-pdns-maintainers@lists.alioth.debian.org>
+Uploaders: Matthijs Möhlmann <matthijs@cacholong.nl>, Marc Haber <mh+debian-packages@zugschlus.de>
+Build-Depends: debhelper (>= 9~), quilt, dpkg-dev (>= 1.10.17), libboost-dev, libboost-serialization-dev, liblua5.1-0-dev
+Architecture: amd64 hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 94151ea435f2642ff73e2b49a0d98524 1884 pdns-recursor_3.3-3+deb7u1.dsc
+ 60a30917af10ba8a70cbe2c125604574 179401 pdns-recursor_3.3.orig.tar.gz
+ d9b601fe14e34f50f3822ae59d26954b 11410 pdns-recursor_3.3-3+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-pdns/pdns-recursor.git
+Vcs-Git: git://git.debian.org/pkg-pdns/pdns-recursor.git
+Checksums-Sha1:
+ 1697ffa1e98abaf6ba867dc8a2aa52011c7bc31a 1884 pdns-recursor_3.3-3+deb7u1.dsc
+ 559c892b397e539518d3faade9f0aab1316e2e55 179401 pdns-recursor_3.3.orig.tar.gz
+ 2977be1cbd76309315b9c0dc2ec6a920737956c0 11410 pdns-recursor_3.3-3+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 9dda992639337da0ac2e62b8aa8b11cc820cb411bcfcccfd00101f4a64dbbce9 1884 pdns-recursor_3.3-3+deb7u1.dsc
+ 33afbc0ed4d99514c2e2b26471f17d0bc774e7a0e0e7ac366aa5f42f1cead002 179401 pdns-recursor_3.3.orig.tar.gz
+ f4526fb225e72aa71bb367f7a4655a8ee245e51205cf11b2d728100293cec9f5 11410 pdns-recursor_3.3-3+deb7u1.debian.tar.gz
+Homepage: http://www.powerdns.com/
+Package-List: 
+ pdns-recursor deb net extra
+ pdns-recursor-dbg deb debug extra
+Directory: pool/updates/main/p/pdns-recursor
+Priority: source
+Section: net
+
 Package: php-cas
 Binary: php-cas
 Version: 1.3.1-4+deb7u1
@@ -11049,6 +11080,41 @@ Package-List:
 Directory: pool/updates/main/u/udisks
 Priority: source
 Section: admin
+
+Package: unbound
+Binary: unbound, unbound-anchor, unbound-host, libunbound2, libunbound-dev, python-unbound
+Version: 1.4.17-3+deb7u2
+Maintainer: Robert S. Edmonds <edmonds@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper (>= 9~), doxygen, autoconf, automake, autotools-dev, libtool, flex, bison, libldns-dev (>= 1.6.13~), libssl-dev, libevent-dev, libexpat1-dev, python-all-dev (>= 2.6.6-3~), python-support, swig
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ c364c67f8ace721ffc6066eaf2175c55 2299 unbound_1.4.17-3+deb7u2.dsc
+ 812d49064a78c92765970a1364736da7 3585122 unbound_1.4.17.orig.tar.gz
+ c02d45882e44978ce909ccc4dc60637e 15413 unbound_1.4.17-3+deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=users/edmonds/unbound.git
+Vcs-Git: git://git.debian.org/~edmonds/unbound.git
+Checksums-Sha1:
+ e617fb0ade2fa21c05692e6f434c0f22c59af81e 2299 unbound_1.4.17-3+deb7u2.dsc
+ fea4d812c03af4737ef671ac30b7b7400d346516 3585122 unbound_1.4.17.orig.tar.gz
+ b05bf69385554dddaa22629327ac647c384c1585 15413 unbound_1.4.17-3+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 6fc02e325d59685bcc7ae74e5d42a6b79a89f908620b2e5561695bcec15b3d53 2299 unbound_1.4.17-3+deb7u2.dsc
+ 2637d6bda4065d7abf1cd11ee25bfc8e916241153c2d331de99ab6c63df5e3d3 3585122 unbound_1.4.17.orig.tar.gz
+ 9513e9cc81abb98acd49e0c155f2d788484571b6d7ad608b60a7eef14ad7c057 15413 unbound_1.4.17-3+deb7u2.debian.tar.gz
+Homepage: http://www.unbound.net/
+Package-List: 
+ libunbound-dev deb libdevel optional
+ libunbound2 deb net optional
+ python-unbound deb python optional
+ unbound deb net optional
+ unbound-anchor deb net optional
+ unbound-host deb net optional
+Python-Version: all
+Directory: pool/updates/main/u/unbound
+Priority: source
+Section: net
 
 Package: user-mode-linux
 Binary: user-mode-linux
