@@ -554,7 +554,7 @@ Section: utils
 
 Package: dbus
 Binary: dbus, dbus-x11, libdbus-1-3, dbus-1-doc, libdbus-1-dev, dbus-1-dbg
-Version: 1.6.8-1+deb7u4
+Version: 1.6.8-1+deb7u5
 Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 Uploaders: Sjoerd Simons <sjoerd@debian.org>, Sebastian Dröge <slomo@debian.org>, Michael Biebl <biebl@debian.org>, Loic Minier <lool@dooz.org>, Simon McVittie <smcv@debian.org>
 Build-Depends: automake (>= 1:1.10), autotools-dev, debhelper (>= 9), dh-autoreconf, doxygen, dpkg-dev (>= 1.16.1), libexpat-dev, libdbus-glib-1-dev, libglib2.0-dev, libselinux1-dev [linux-any], libsystemd-daemon-dev (>= 32) [linux-any], libsystemd-login-dev (>= 32) [linux-any], libx11-dev, python (>= 2.6), python-dbus, python-gobject, xmlto, xsltproc
@@ -562,27 +562,27 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 55c66ea492381d8038515dff9e51c2f1 2535 dbus_1.6.8-1+deb7u4.dsc
+ 82d13a3b39c4925814bf18b564a5879f 2585 dbus_1.6.8-1+deb7u5.dsc
  3bf059c7dd5eda5f539a1b7cfe7a14a2 1929630 dbus_1.6.8.orig.tar.gz
- 37f4d8804b7f7298d1a83ac68ad06e53 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
+ c2b5cdf453071fea1eedff1657c28d84 49624 dbus_1.6.8-1+deb7u5.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-utopia/dbus.git
 Vcs-Git: git://anonscm.debian.org/pkg-utopia/dbus.git
 Checksums-Sha1:
- edfb1e042e124db574c0aae5fb2963fdea2936e6 2535 dbus_1.6.8-1+deb7u4.dsc
+ ddd17c791742e66fb01eb6f8f1157d758a4bf65f 2585 dbus_1.6.8-1+deb7u5.dsc
  d9634807d1de9b64727ae2178e3af2227fca0fca 1929630 dbus_1.6.8.orig.tar.gz
- 608b0fcc08fc99f3274636e093d702dfd838c8a4 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
+ f2c4ea3c8b8d48504df92439f3a73e130c6dfb7a 49624 dbus_1.6.8-1+deb7u5.debian.tar.xz
 Checksums-Sha256:
- d6530499a91c420ffcd371c311baba464ffbcf15a589a20869b27308a0f8a456 2535 dbus_1.6.8-1+deb7u4.dsc
+ 774f9812dfb9d288c4afbd89555743f8ba8ebdd8ec66c53b30bdcfd0c0bc70c5 2585 dbus_1.6.8-1+deb7u5.dsc
  fc1370ef38abeeb13f55c905ec002e60705fb0bfde3b8d21c8d6eb8056c11bac 1929630 dbus_1.6.8.orig.tar.gz
- d5af1015a5876b863276829f1cfd0a0b419a49011748e265ad2dab0b3b02be89 52078 dbus_1.6.8-1+deb7u4.debian.tar.gz
+ 884e1811c8ee978f788904f788dd7ad22398e1a41334d69b7ffa46423d3d816f 49624 dbus_1.6.8-1+deb7u5.debian.tar.xz
 Homepage: http://dbus.freedesktop.org/
 Package-List: 
- dbus deb admin optional
- dbus-1-dbg deb debug extra
- dbus-1-doc deb doc optional
- dbus-x11 deb x11 optional
- libdbus-1-3 deb libs optional
- libdbus-1-dev deb libdevel optional
+ dbus deb admin optional arch=any
+ dbus-1-dbg deb debug extra arch=any
+ dbus-1-doc deb doc optional arch=all
+ dbus-x11 deb x11 optional arch=any
+ libdbus-1-3 deb libs optional arch=any
+ libdbus-1-dev deb libdevel optional arch=any
 Directory: pool/updates/main/d/dbus
 Priority: source
 Section: devel
@@ -11512,45 +11512,6 @@ Package-List:
 Directory: pool/updates/main/x/xml-security-c
 Priority: source
 Section: libs
-
-Package: xorg-server
-Binary: xserver-xorg-core, xserver-xorg-core-udeb, xserver-xorg-dev, xdmx, xdmx-tools, xnest, xvfb, xserver-xephyr, xserver-xfbdev, xserver-xorg-core-dbg, xserver-common
-Version: 2:1.12.4-6+deb7u2
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: Drew Parsons <dparsons@debian.org>, Cyril Brulebois <kibi@debian.org>
-Build-Depends: debhelper (>= 7), quilt, lsb-release, pkg-config, bison, flex, automake, libtool, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-bigreqs-dev (>= 1:1.1.0), x11proto-composite-dev (>= 1:0.4), x11proto-core-dev (>= 7.0.22), x11proto-damage-dev (>= 1.1), x11proto-fixes-dev (>= 1:5.0), x11proto-kb-dev (>= 1.0.3), x11proto-xinerama-dev, x11proto-randr-dev (>= 1.2.99.3), x11proto-record-dev (>= 1.13.99.1), x11proto-render-dev (>= 2:0.11), x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev (>= 1.2.0), x11proto-xext-dev (>= 7.1.99), x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-xf86dga-dev (>= 2.0.99.1), x11proto-xf86vidmode-dev (>= 2.2.99.1), xtrans-dev (>= 1.2.2), libxau-dev (>= 1:1.0.5-2), x11proto-input-dev (>= 2.1.99.6), x11proto-dri2-dev (>= 2.6), libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:1.4.2), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.21.8), libpciaccess-dev (>= 0.12.901), libgcrypt-dev, nettle-dev, libdbus-1-dev [kfreebsd-any], libhal-dev [kfreebsd-any], libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], x11proto-xf86dri-dev (>= 2.1.0), libdrm-dev (>= 2.4.3) [!hurd-i386], x11proto-gl-dev (>= 1.4.14), mesa-common-dev (>= 7.8), libgl1-mesa-dev (>= 7.8), libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 1:0.99.2), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.2.99.1), x11proto-dmx-dev (>= 1:2.2.99.1), libdmx-dev (>= 1:1.0.1), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, xkb-data, x11-xkb-utils, libbsd-dev [kfreebsd-any]
-Architecture: any all
-Standards-Version: 3.9.2
-Format: 1.0
-Files:
- 8c35789f7f8133233d423c8911bc33b4 4148 xorg-server_1.12.4-6+deb7u2.dsc
- 19c17bf7ac3e2ce34bc40108692c031f 7528611 xorg-server_1.12.4.orig.tar.gz
- cfe0625c54a65af955dc2e60eafbece5 92369 xorg-server_1.12.4-6+deb7u2.diff.gz
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/xserver/xorg-server.git
-Vcs-Git: git://git.debian.org/git/pkg-xorg/xserver/xorg-server
-Checksums-Sha1:
- 4b27664cedaba3282bb0a6e493732f1b356acd87 4148 xorg-server_1.12.4-6+deb7u2.dsc
- c0e52b1496d427501a2f6b8fea50d040c75bbdb9 7528611 xorg-server_1.12.4.orig.tar.gz
- 35ffb28db42e146a3b1af4d93d6bc0ded0719cb6 92369 xorg-server_1.12.4-6+deb7u2.diff.gz
-Checksums-Sha256:
- b9fec2938cb969b409829c092976476ca2e3b5493abc8ed37bf2572116be6f26 4148 xorg-server_1.12.4-6+deb7u2.dsc
- d88225cd3c4a6ecd92d1360b34a0e5b6346e2a04c842c018cef36d8a370714ef 7528611 xorg-server_1.12.4.orig.tar.gz
- 48c76a162bb3ec96ec5bae855b6a2ce11d2b7a7952e15cabecf6530537f01320 92369 xorg-server_1.12.4-6+deb7u2.diff.gz
-Package-List: 
- xdmx deb x11 optional
- xdmx-tools deb x11 optional
- xnest deb x11 optional
- xserver-common deb x11 optional
- xserver-xephyr deb x11 optional
- xserver-xfbdev deb x11 optional
- xserver-xorg-core deb x11 optional
- xserver-xorg-core-dbg deb debug extra
- xserver-xorg-core-udeb udeb debian-installer optional
- xserver-xorg-dev deb x11 optional
- xvfb deb x11 optional
-Directory: pool/updates/main/x/xorg-server
-Priority: source
-Section: x11
 
 Package: xorg-server
 Binary: xserver-xorg-core, xserver-xorg-core-udeb, xserver-xorg-dev, xdmx, xdmx-tools, xnest, xvfb, xserver-xephyr, xserver-xfbdev, xserver-xorg-core-dbg, xserver-common
