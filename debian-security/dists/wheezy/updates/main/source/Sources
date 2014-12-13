@@ -283,6 +283,38 @@ Directory: pool/updates/main/b/bind9
 Priority: source
 Section: net
 
+Package: c-icap
+Binary: c-icap, libicapapi0, libicapapi-dev, libicapapi0-dbg
+Version: 1:0.1.6-1.1+deb7u1
+Maintainer: Tim Weippert <weiti@weiti.org>
+Uploaders: Jochen Friedrich <jochen@debian.org>
+Build-Depends: debhelper (>= 7.0.50), autotools-dev, zlib1g-dev, chrpath, libdb-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ b3658e7a9a9616c5a648efe28db99406 1963 c-icap_0.1.6-1.1+deb7u1.dsc
+ a3b138565defcde7f9c57a5463bbcb9d 528708 c-icap_0.1.6.orig.tar.gz
+ bb000cc93dbd00b6b3d9020930ba584f 14053 c-icap_0.1.6-1.1+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 8444d18d6cb139a88dcaa5429b17e2c6cb0fd432 1963 c-icap_0.1.6-1.1+deb7u1.dsc
+ 31d322eacdc4fe3ee5f8d5d2c93d7f4faef1f7d7 528708 c-icap_0.1.6.orig.tar.gz
+ f3a978826cceb827e05d419b9d7ba6141527ac90 14053 c-icap_0.1.6-1.1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ fad7ae896676448805ef86dbcbd5733f9ab9243c1af588130906da3236f53e14 1963 c-icap_0.1.6-1.1+deb7u1.dsc
+ 5088b69c9de6093dfcf64fbbcb285f13a9049f34371089668badd88769eee5a9 528708 c-icap_0.1.6.orig.tar.gz
+ 95655539dd6aa236f4ebfd7c183bacbd6f542c04a15b0c73d82044e584d97783 14053 c-icap_0.1.6-1.1+deb7u1.debian.tar.gz
+Homepage: http://c-icap.sourceforge.net/
+Dm-Upload-Allowed: yes
+Package-List: 
+ c-icap deb net extra
+ libicapapi-dev deb libdevel extra
+ libicapapi0 deb net extra
+ libicapapi0-dbg deb debug extra
+Directory: pool/updates/main/c/c-icap
+Priority: source
+Section: net
+
 Package: cacti
 Binary: cacti
 Version: 0.8.8a+dfsg-5+deb7u4
@@ -5070,26 +5102,26 @@ Section: x11
 
 Package: libyaml
 Binary: libyaml-0-2, libyaml-0-2-dbg, libyaml-dev
-Version: 0.1.4-2+deb7u4
+Version: 0.1.4-2+deb7u5
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Build-Depends: autotools-dev, debhelper (>= 8.1.3~), cdbs (>= 0.4.93~)
 Architecture: any
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 118d1cfdc577a60d4a05aa4203b078d4 1944 libyaml_0.1.4-2+deb7u4.dsc
+ be7ee19572a8036b935787af1bd624e0 1944 libyaml_0.1.4-2+deb7u5.dsc
  36c852831d02cf90508c29852361d01b 471759 libyaml_0.1.4.orig.tar.gz
- 51edea9e1e17107f9c9cad7da783640c 5470 libyaml_0.1.4-2+deb7u4.debian.tar.gz
+ 40a9d5526ff7d7a06c0ec962a71d6330 5887 libyaml_0.1.4-2+deb7u5.debian.tar.gz
 Vcs-Browser: http://andersk.mit.edu/gitweb/libyaml.git
 Vcs-Git: git://andersk.mit.edu/libyaml.git
 Checksums-Sha1:
- f40326cb52f91c383411bc74bbbddecf296198f6 1944 libyaml_0.1.4-2+deb7u4.dsc
+ 649a51047c8b75afb3cc9ef152e662e30705c71e 1944 libyaml_0.1.4-2+deb7u5.dsc
  e0e5e09192ab10a607e3da2970db492118f560f2 471759 libyaml_0.1.4.orig.tar.gz
- 6d36a05dc67daf05c7106f8c7922039d97a567fa 5470 libyaml_0.1.4-2+deb7u4.debian.tar.gz
+ 2604dfb61991a18799aca6af48c98db77d67511f 5887 libyaml_0.1.4-2+deb7u5.debian.tar.gz
 Checksums-Sha256:
- 88f17a5965a29fdbf7501750d8270354e09bd12b455c2afcfcaadf5d4e5af661 1944 libyaml_0.1.4-2+deb7u4.dsc
+ 69c7f37c3d0285cd6883bbf5a4f800a03200782c3c7f4722ecc6e7bfa36070dc 1944 libyaml_0.1.4-2+deb7u5.dsc
  7bf81554ae5ab2d9b6977da398ea789722e0db75b86bffdaeb4e66d961de6a37 471759 libyaml_0.1.4.orig.tar.gz
- 74ce2b7af2690c12c83778186e077ac244e5422a324bd2fc3a0ce598294e0851 5470 libyaml_0.1.4-2+deb7u4.debian.tar.gz
+ d636668b8f9f6444bd32dc7bb7b6a1b90fefe3696b692ff89711dfb081eeeb30 5887 libyaml_0.1.4-2+deb7u5.debian.tar.gz
 Homepage: http://pyyaml.org/wiki/LibYAML
 Package-List: 
  libyaml-0-2 deb libs optional
@@ -5101,7 +5133,7 @@ Section: libs
 
 Package: libyaml-libyaml-perl
 Binary: libyaml-libyaml-perl
-Version: 0.38-3+deb7u2
+Version: 0.38-3+deb7u3
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: Ryan Niebur <ryan@debian.org>, Jonathan Yu <jawnsy@cpan.org>, Krzysztof Krzyżaniak (eloy) <eloy@debian.org>, gregor herrmann <gregoa@debian.org>
 Build-Depends: debhelper (>= 9.20120312), perl, libyaml-dev
@@ -5109,19 +5141,19 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 970979e783eba17c708ee2a9e2adeada 2204 libyaml-libyaml-perl_0.38-3+deb7u2.dsc
+ 7d5b12aacab91afefcf6f98a39aed6f6 2204 libyaml-libyaml-perl_0.38-3+deb7u3.dsc
  4aadbcf1afcce9ce087f9bffd293e43e 176599 libyaml-libyaml-perl_0.38.orig.tar.gz
- e43b3f8364c6a81fcce4e7927bd06873 6140 libyaml-libyaml-perl_0.38-3+deb7u2.debian.tar.gz
+ 02853005aeabf36c013c03a6fd1cf2c0 6630 libyaml-libyaml-perl_0.38-3+deb7u3.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libyaml-libyaml-perl.git
 Vcs-Git: git://git.debian.org/pkg-perl/packages/libyaml-libyaml-perl.git
 Checksums-Sha1:
- 63459265cb5b9ee1738f0f921ca029968075cc30 2204 libyaml-libyaml-perl_0.38-3+deb7u2.dsc
+ 6c0c007f1de7803626754dda8118ca81c15858b7 2204 libyaml-libyaml-perl_0.38-3+deb7u3.dsc
  d522fac459f07f31d1f239ca7d19ccc2e29cb524 176599 libyaml-libyaml-perl_0.38.orig.tar.gz
- a0e3c0e16eb26fc8229c82e5752ebe21cf254941 6140 libyaml-libyaml-perl_0.38-3+deb7u2.debian.tar.gz
+ ddf5fcc51d700bdfc95aeff50eb3d29fba795eb0 6630 libyaml-libyaml-perl_0.38-3+deb7u3.debian.tar.gz
 Checksums-Sha256:
- d364df6d6647e6db8fbfa7db16856c3556bd466c93fea5e0369af9a22004631e 2204 libyaml-libyaml-perl_0.38-3+deb7u2.dsc
+ cca2a45e9516d623252adda68cc1dfba96a874b695040a26d37682f8be6f716d 2204 libyaml-libyaml-perl_0.38-3+deb7u3.dsc
  eb98f304d14f6557b07adfa24da16e00cfa54a9d9484b6e898e35f919c5eb7ba 176599 libyaml-libyaml-perl_0.38.orig.tar.gz
- c1efed66a0284e41039e59d1d1337a9f16dee0245c4acf001cd3dea05939732b 6140 libyaml-libyaml-perl_0.38-3+deb7u2.debian.tar.gz
+ bcc4a63430ccb021b417891a9420fd93bab12391f1044806abd5a5f22bbbf7b0 6630 libyaml-libyaml-perl_0.38-3+deb7u3.debian.tar.gz
 Homepage: http://search.cpan.org/dist/YAML-LibYAML/
 Package-List: 
  libyaml-libyaml-perl deb perl optional
@@ -7649,7 +7681,7 @@ Section: web
 
 Package: mediawiki
 Binary: mediawiki
-Version: 1:1.19.20+dfsg-0+deb7u1
+Version: 1:1.19.20+dfsg-0+deb7u2
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Uploaders: Jonathan Wiltshire <jmw@debian.org>, Thorsten Glaser <tg@mirbsd.de>
 Build-Depends: debhelper (>= 9), dh-buildinfo, ocaml-nox | ocaml, xsltproc, docbook-xml, docbook-xsl, po-debconf
@@ -7657,18 +7689,18 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 44f43872c550771dfac2847cc11c7188 2149 mediawiki_1.19.20+dfsg-0+deb7u1.dsc
+ 88975aecb78c3d75419308e33ad961ce 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
  bfd6477e017ae32c787d16adddac66a2 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- 26ee03ba41672d7511cfc92d6ccd549f 65584 mediawiki_1.19.20+dfsg-0+deb7u1.debian.tar.gz
+ 1da0cef9bd0c4a3f1c249986ddeb9cfc 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-mediawiki/mediawiki/branches/wheezy/
 Checksums-Sha1:
- 610dce6e96b19735187807a47f98a6bf735ba771 2149 mediawiki_1.19.20+dfsg-0+deb7u1.dsc
+ 1025444332714ba9231bdf73bbb8f96136adc411 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
  d6f73d41b4c1cdc88870dadfc32405f7f149c054 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- abfc18de0ac6916a5c096d4342e4ca1fd5a73e5b 65584 mediawiki_1.19.20+dfsg-0+deb7u1.debian.tar.gz
+ 5591bec737c71a0e5aa1862d4f0415658700e06d 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
 Checksums-Sha256:
- f79288752ccb9a2135eacd3073d3817604bf8a966059790c09adab02700ab1dd 2149 mediawiki_1.19.20+dfsg-0+deb7u1.dsc
+ 510ec65ca1687a629fd67c88a131760948944068ad8e936a5ff54e8ba7e7064d 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
  0c263ad5e869bbb94c5d4901f89795c52a45fc59a7c6b2fbcac67a9935f3c544 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- 105ae0da58c6b6d05cb8f7be2a6af5a7f5b9606147437e0ddd3c1ff6f5fd66ad 65584 mediawiki_1.19.20+dfsg-0+deb7u1.debian.tar.gz
+ 5d9bd2a280600e065ed0fd1a32891057f4bb8be06e6cf25ff76b890bbe4ba14e 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
 Homepage: http://www.mediawiki.org/
 Package-List: 
  mediawiki deb web optional

@@ -1127,6 +1127,78 @@ MD5sum: dabfcf99d346da2e7bf1c3e22e58c018
 SHA1: bfd07e00f355bf9448eb86cf22e953b4e70ce83e
 SHA256: f179b469ff86d0d448f1e7907846faeed6d235dc70776d9e5fff1ceda05bb344
 
+Package: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 219
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: i386
+Depends: libc6 (>= 2.3.6-6~), libdb5.1, libicapapi0 (= 1:0.1.6-1.1+deb7u1), adduser, lsb-base (>= 3.0-6)
+Suggests: squid3, libc-icap-mod-urlcheck, libc-icap-mod-clamav | libc-icap-mod-squidclamav
+Description: ICAP server implementation
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 2594eb234a2232bbabc15b43d9e6900f
+Section: net
+Priority: extra
+Filename: pool/updates/main/c/c-icap/c-icap_0.1.6-1.1+deb7u1_i386.deb
+Size: 94722
+MD5sum: 84dd6c7c4b4d53f6fca2a07f713501c2
+SHA1: 9f7e730a6dd64c4eecf9c4b20434c2e319ecb974
+SHA256: 51a7b39705cc4c643484d155afd16c553ee4deb473d8cdd853ebac75cb6d10dc
+
+Package: libicapapi-dev
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 127
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: i386
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u1)
+Description: ICAP API library development files
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: d6e23f9ae352dee5b236bb4f868e0ee8
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi-dev_0.1.6-1.1+deb7u1_i386.deb
+Size: 30112
+MD5sum: de1b67c88b395dc21c9742da51be186d
+SHA1: 8bc0fa11a0b68b68aeaea53b39d926353b8a54ef
+SHA256: 150f32ca50134d908f8a17af3f53f43fac8495b5540a16f903b3679c6595c9f1
+
+Package: libicapapi0
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 166
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Description: ICAP API library
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: f90c39343c3a7f30fd94e39fcbc8794b
+Section: net
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi0_0.1.6-1.1+deb7u1_i386.deb
+Size: 71848
+MD5sum: 78311c8d55568af966ca680a5f95fc8d
+SHA1: e782a35f35cb2edc5f8ed8f3935e4951c0dfe6a2
+SHA256: 9fbc5812fc8ff56db45616f2d82e52283b6cc3081e48c0dbd9ab14b7281ab8bc
+
+Package: libicapapi0-dbg
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 696
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: i386
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u1)
+Description: ICAP API library debug symbols
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: eb214b868e71cb94e1f3e61e90ab6a37
+Section: debug
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi0-dbg_0.1.6-1.1+deb7u1_i386.deb
+Size: 296514
+MD5sum: 7c4ae9eef17b7bdeb53d45c39f66534a
+SHA1: f8cc58d817bf4585dc205d3ea579ebb3fcfc90c5
+SHA256: 065e9965999a59669dade789008681e87d9da3b7c9b21e2ce524473e56d88f3b
+
 Package: cacti
 Version: 0.8.8a+dfsg-5+deb7u4
 Installed-Size: 4905
@@ -15373,8 +15445,8 @@ SHA256: 92061c68b83e4b90c7b593588c5d41d1fbb18b809345efa70b424812fec11e5f
 
 Package: libyaml-0-2
 Source: libyaml
-Version: 0.1.4-2+deb7u4
-Installed-Size: 122
+Version: 0.1.4-2+deb7u5
+Installed-Size: 154
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: i386
 Depends: libc6 (>= 2.3.4)
@@ -15385,66 +15457,66 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liby/libyaml/libyaml-0-2_0.1.4-2+deb7u4_i386.deb
-Size: 56362
-MD5sum: 4263938bf8ccdc7e91233e09ccbf7cf6
-SHA1: 84d3b3f5a3ba7b5470f279115361d9dc39d38f38
-SHA256: e3a2f68abf4e4c4ec4161b33d3bb93a9fe9981ee81f2b0c3b6205de8b9b4a05e
+Filename: pool/updates/main/liby/libyaml/libyaml-0-2_0.1.4-2+deb7u5_i386.deb
+Size: 56310
+MD5sum: 1ccb2c2a602a0780127f958314c26d56
+SHA1: 14223f1297ebd0fa0247e650cf73e70776e3bf7f
+SHA256: aa1cc70f6455458e5ee18cc68fbf4f7911491d7c2e70aa5387574e5f16b419bc
 
 Package: libyaml-0-2-dbg
 Source: libyaml
-Version: 0.1.4-2+deb7u4
-Installed-Size: 107
+Version: 0.1.4-2+deb7u5
+Installed-Size: 146
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: i386
-Depends: libyaml-0-2 (= 0.1.4-2+deb7u4)
+Depends: libyaml-0-2 (= 0.1.4-2+deb7u5)
 Description: Fast YAML 1.1 parser and emitter library (debugging symbols)
 Homepage: http://pyyaml.org/wiki/LibYAML
 Description-md5: 767682fbb1951cdeb7f4c5cb551964c6
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liby/libyaml/libyaml-0-2-dbg_0.1.4-2+deb7u4_i386.deb
-Size: 99912
-MD5sum: b7162437c0e31b4fb8006501bfd1fbe3
-SHA1: 75807bfc6eaf5b2f6becbcd49443728cd5d593e0
-SHA256: 35aa16b8a2ccd323b5664e33d4dabf3cd0efa9401c30c79534d0d3ac4b7f5ce2
+Filename: pool/updates/main/liby/libyaml/libyaml-0-2-dbg_0.1.4-2+deb7u5_i386.deb
+Size: 99964
+MD5sum: ecbc3626d4cad8fa3fcacb7ee44581c0
+SHA1: 4bdcc9ea4747c28af864c42edf2a2498659bd70f
+SHA256: 7135488e2f419a97601e803fbf6518b8c12557dc166951caf75a5fc5dec2054a
 
 Package: libyaml-dev
 Source: libyaml
-Version: 0.1.4-2+deb7u4
-Installed-Size: 190
+Version: 0.1.4-2+deb7u5
+Installed-Size: 229
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: i386
-Depends: libyaml-0-2 (= 0.1.4-2+deb7u4)
+Depends: libyaml-0-2 (= 0.1.4-2+deb7u5)
 Description: Fast YAML 1.1 parser and emitter library (development)
 Homepage: http://pyyaml.org/wiki/LibYAML
 Description-md5: 6a835b3e1ea55d4191038017f1855f58
 Multi-Arch: same
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/liby/libyaml/libyaml-dev_0.1.4-2+deb7u4_i386.deb
-Size: 67866
-MD5sum: 4546e82ee1b79108cde88fb0f21e63c1
-SHA1: 2c8d13d6aa3e160223ee039cbe0f2860aa2cc5c7
-SHA256: 533cc33b0fd363789bc91d07295ed8b5a99357dbd23b10b0be8147fad2824910
+Filename: pool/updates/main/liby/libyaml/libyaml-dev_0.1.4-2+deb7u5_i386.deb
+Size: 67936
+MD5sum: 9f2394fcf8b9c432992eab9005d343e9
+SHA1: f7eba1e804b2b9bbf80bfe8cb756bcc5a65d41f8
+SHA256: 32cc8d1b4971167eba4cd68801619a49d3b2505420a3a959c954394b20282324
 
 Package: libyaml-libyaml-perl
-Version: 0.38-3+deb7u2
-Installed-Size: 220
+Version: 0.38-3+deb7u3
+Installed-Size: 157
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: perl (>= 5.14.2-21), perlapi-5.14.2, libc6 (>= 2.3.4)
+Depends: perl (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libc6 (>= 2.3.4)
 Description: Perl interface to libyaml, a YAML implementation
 Homepage: http://search.cpan.org/dist/YAML-LibYAML/
 Description-md5: 8fa3125a297cb8c4eb3becc6b15ffd1a
 Section: perl
 Priority: optional
-Filename: pool/updates/main/liby/libyaml-libyaml-perl/libyaml-libyaml-perl_0.38-3+deb7u2_i386.deb
-Size: 76876
-MD5sum: 6a1e904506d3c4c22d2c5af2face5d61
-SHA1: ced4a2ef82bf4360158780b1b014707fad67fb99
-SHA256: 72b3430de393c1d7667dfa3c775aa57f5a172f1e88e8fe15e7f6323def97e2e0
+Filename: pool/updates/main/liby/libyaml-libyaml-perl/libyaml-libyaml-perl_0.38-3+deb7u3_i386.deb
+Size: 76898
+MD5sum: 72e0a784d4404aeedf855a9bf086afda
+SHA1: e67856d5b784095a200079c4e9f91db0e44d4081
+SHA256: 4ed908718b409dd560ccc47aa57ad014196d3465a41242153792443586c5fdac
 
 Package: lighttpd
 Version: 1.4.31-4+deb7u3
@@ -16571,8 +16643,8 @@ SHA1: 13b0b8706c081c431c8c1f97c733acd5d7ff6565
 SHA256: 245d5bde2790ab827273597b47d5de7ad3868e1aef5fc166de64018d10836643
 
 Package: mediawiki
-Version: 1:1.19.20+dfsg-0+deb7u1
-Installed-Size: 67254
+Version: 1:1.19.20+dfsg-0+deb7u2
+Installed-Size: 67256
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Architecture: all
 Replaces: mediawiki-extensions-confirmedit
@@ -16586,11 +16658,11 @@ Description-md5: ddcc60dd7124e88ede95f0010ec0906b
 Recommends: mysql-server | postgresql-contrib, php5-cli, python, php-wikidiff2, mediawiki-extensions-base
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u1_all.deb
-Size: 17873620
-MD5sum: c43a1192359fe665ab944fa8e34f974f
-SHA1: 468520c5593d0d731f632229ce230fc8e0c8e8f5
-SHA256: f437c017d69c9e772945a7b4eb40572c1551be370f62c2f7b81db37e65e7d5c0
+Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u2_all.deb
+Size: 17864724
+MD5sum: ee1b8e3f8dfa33ede1891507b5606a48
+SHA1: 318a15f24f3c58aad5cca421b3aa56078e689aa2
+SHA256: 55cd8aa964eb0b937f3b21b5382ff5f47222e8f305131be9755163d81caf9a0d
 
 Package: mediawiki-extensions
 Version: 3.5~deb7u2

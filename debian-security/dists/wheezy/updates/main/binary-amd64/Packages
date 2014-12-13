@@ -1127,6 +1127,78 @@ MD5sum: 122d8399cfd39cf92e742b9f6353ddd1
 SHA1: a02857faa93476753b1ff89abbc7910841c80a8e
 SHA256: 32b596aca9e96043868d324f02c66878cf6114866fedc5f96d508471cc8009d4
 
+Package: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 314
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Depends: libc6 (>= 2.3.2), libdb5.1, libicapapi0 (= 1:0.1.6-1.1+deb7u1), adduser, lsb-base (>= 3.0-6)
+Suggests: squid3, libc-icap-mod-urlcheck, libc-icap-mod-clamav | libc-icap-mod-squidclamav
+Description: ICAP server implementation
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: 2594eb234a2232bbabc15b43d9e6900f
+Section: net
+Priority: extra
+Filename: pool/updates/main/c/c-icap/c-icap_0.1.6-1.1+deb7u1_amd64.deb
+Size: 101312
+MD5sum: 01b9ef7710868f5d17c280f5062c4867
+SHA1: 8389cf2f4a7c5ef36ee4da610f9ced30ae082d91
+SHA256: 058be2b8cc798d4b56c0436194ce0d36a2bbb402c0fabd13276e199bf85ffdf4
+
+Package: libicapapi-dev
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 173
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u1)
+Description: ICAP API library development files
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: d6e23f9ae352dee5b236bb4f868e0ee8
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi-dev_0.1.6-1.1+deb7u1_amd64.deb
+Size: 30316
+MD5sum: 32d5cae34f4a71a8698942be0d54038c
+SHA1: 59decf1a085a9077fa20cd2927ebe8e72837aa62
+SHA256: 50df80103d32cff2bf286156f0d815f7d7032d0999c2c7f3057206cd59415834
+
+Package: libicapapi0
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 201
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Description: ICAP API library
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: f90c39343c3a7f30fd94e39fcbc8794b
+Section: net
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi0_0.1.6-1.1+deb7u1_amd64.deb
+Size: 72680
+MD5sum: 33d1c3abd5da6815ddb439c0b4ed69a6
+SHA1: 83fea307532995f93a98c5c522ff7248622362bb
+SHA256: 44c649a121ae3b26c1270d5b1ad83518d29b2cb323397ed73d9606f94a5d733d
+
+Package: libicapapi0-dbg
+Source: c-icap
+Version: 1:0.1.6-1.1+deb7u1
+Installed-Size: 960
+Maintainer: Tim Weippert <weiti@weiti.org>
+Architecture: amd64
+Depends: libicapapi0 (= 1:0.1.6-1.1+deb7u1)
+Description: ICAP API library debug symbols
+Homepage: http://c-icap.sourceforge.net/
+Description-md5: eb214b868e71cb94e1f3e61e90ab6a37
+Section: debug
+Priority: extra
+Filename: pool/updates/main/c/c-icap/libicapapi0-dbg_0.1.6-1.1+deb7u1_amd64.deb
+Size: 322918
+MD5sum: 283f9a65da1278ce601a5a2041e384ad
+SHA1: eeaae551ed31e7fdd3410c36bdcffb725b6e85a4
+SHA256: a2463eda5a5730a8782e32946cbee8b54dcbe99c168727fd3a099aa17dfff66e
+
 Package: cacti
 Version: 0.8.8a+dfsg-5+deb7u4
 Installed-Size: 4905
@@ -15125,7 +15197,7 @@ SHA256: 47eb512cf7f5a6bc113dd0963f13de3694fecd771c7618a3081241ad954354b6
 
 Package: libyaml-0-2
 Source: libyaml
-Version: 0.1.4-2+deb7u4
+Version: 0.1.4-2+deb7u5
 Installed-Size: 163
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: amd64
@@ -15137,66 +15209,66 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/liby/libyaml/libyaml-0-2_0.1.4-2+deb7u4_amd64.deb
-Size: 58228
-MD5sum: 97feffb68053dd067552b5cc2dc14893
-SHA1: 3d027fd3df39ec07d88a4c805278797be576818f
-SHA256: d17a5d7e73ad495079cf5fb99e0c0768e49938841c0ce58a44f8f927dfb16c01
+Filename: pool/updates/main/liby/libyaml/libyaml-0-2_0.1.4-2+deb7u5_amd64.deb
+Size: 58258
+MD5sum: 6fb9079523afa3fb376b4b2214c9c826
+SHA1: 99b597387ee9f06b1bb663be77c8fc918819c25c
+SHA256: 30424a353ced011a4515cb8970446bdcdf8b0a0b855329e02ce98d0bdf880ca5
 
 Package: libyaml-0-2-dbg
 Source: libyaml
-Version: 0.1.4-2+deb7u4
-Installed-Size: 156
+Version: 0.1.4-2+deb7u5
+Installed-Size: 155
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: amd64
-Depends: libyaml-0-2 (= 0.1.4-2+deb7u4)
+Depends: libyaml-0-2 (= 0.1.4-2+deb7u5)
 Description: Fast YAML 1.1 parser and emitter library (debugging symbols)
 Homepage: http://pyyaml.org/wiki/LibYAML
 Description-md5: 767682fbb1951cdeb7f4c5cb551964c6
 Multi-Arch: same
 Section: debug
 Priority: extra
-Filename: pool/updates/main/liby/libyaml/libyaml-0-2-dbg_0.1.4-2+deb7u4_amd64.deb
-Size: 106750
-MD5sum: ebbb1ed34c1c3b2d8eda52921516600d
-SHA1: 57cc9e321d327e2ec311f8fb488d2ca73cfadb89
-SHA256: 81f2a24be476bd5b2ea7a2a196896d6dfd6592a5cd57e658ad84ed45779b3d86
+Filename: pool/updates/main/liby/libyaml/libyaml-0-2-dbg_0.1.4-2+deb7u5_amd64.deb
+Size: 106656
+MD5sum: 02e78863204f3af3203dd9c5d750595f
+SHA1: 876a092217935480a3d8908e522293fead63892b
+SHA256: 22790fc8109b56c0cc36dc4e1e737bd60a989c220a3ba4f095b3303106a26cb4
 
 Package: libyaml-dev
 Source: libyaml
-Version: 0.1.4-2+deb7u4
+Version: 0.1.4-2+deb7u5
 Installed-Size: 266
 Maintainer: Anders Kaseorg <andersk@mit.edu>
 Architecture: amd64
-Depends: libyaml-0-2 (= 0.1.4-2+deb7u4)
+Depends: libyaml-0-2 (= 0.1.4-2+deb7u5)
 Description: Fast YAML 1.1 parser and emitter library (development)
 Homepage: http://pyyaml.org/wiki/LibYAML
 Description-md5: 6a835b3e1ea55d4191038017f1855f58
 Multi-Arch: same
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/liby/libyaml/libyaml-dev_0.1.4-2+deb7u4_amd64.deb
-Size: 72238
-MD5sum: 79ac7301b3bc52bd1fac9fc5c361d9be
-SHA1: 77961d37091315ff74d21319172406a504aa2416
-SHA256: c305d38fc1116ebe8e911c6373b00f384d6af66934c4d7db6956db04bdd592a9
+Filename: pool/updates/main/liby/libyaml/libyaml-dev_0.1.4-2+deb7u5_amd64.deb
+Size: 72224
+MD5sum: 7628bdee20f43ce255c333209fb7c249
+SHA1: e03cb04a9cb9f072281753aa22ead08eadde61ad
+SHA256: f66ed5a64b07cf1f46dd5cf60028fc74a40da84c653da2d3738c223c9e3be465
 
 Package: libyaml-libyaml-perl
-Version: 0.38-3+deb7u2
+Version: 0.38-3+deb7u3
 Installed-Size: 233
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Architecture: amd64
-Depends: perl (>= 5.14.2-21+deb7u1), perlapi-5.14.2, libc6 (>= 2.3.4)
+Depends: perl (>= 5.14.2-21+deb7u2), perlapi-5.14.2, libc6 (>= 2.3.4)
 Description: Perl interface to libyaml, a YAML implementation
 Homepage: http://search.cpan.org/dist/YAML-LibYAML/
 Description-md5: 8fa3125a297cb8c4eb3becc6b15ffd1a
 Section: perl
 Priority: optional
-Filename: pool/updates/main/liby/libyaml-libyaml-perl/libyaml-libyaml-perl_0.38-3+deb7u2_amd64.deb
-Size: 78562
-MD5sum: a4a682df9b2ed41f2575912a42bebd31
-SHA1: 474b3cbd6a826885418a9b18d4a96f896f55553e
-SHA256: f16b66ef09b011ee7ae0527e7d5b468f6b84fc9c42ee25b27925d50bddbb069f
+Filename: pool/updates/main/liby/libyaml-libyaml-perl/libyaml-libyaml-perl_0.38-3+deb7u3_amd64.deb
+Size: 78568
+MD5sum: 6ad6b64f9d4b635251fefa4736fbe9ef
+SHA1: 9ad9b6f80a519796341ca677fb5bb838bb91b1e7
+SHA256: a22928dac42664f94bce255334acc24b77ddd399879316c3388e2123963fcd52
 
 Package: lighttpd
 Version: 1.4.31-4+deb7u3
@@ -16226,8 +16298,8 @@ SHA1: 13b0b8706c081c431c8c1f97c733acd5d7ff6565
 SHA256: 245d5bde2790ab827273597b47d5de7ad3868e1aef5fc166de64018d10836643
 
 Package: mediawiki
-Version: 1:1.19.20+dfsg-0+deb7u1
-Installed-Size: 67254
+Version: 1:1.19.20+dfsg-0+deb7u2
+Installed-Size: 67256
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Architecture: all
 Replaces: mediawiki-extensions-confirmedit
@@ -16241,11 +16313,11 @@ Description-md5: ddcc60dd7124e88ede95f0010ec0906b
 Recommends: mysql-server | postgresql-contrib, php5-cli, python, php-wikidiff2, mediawiki-extensions-base
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u1_all.deb
-Size: 17873620
-MD5sum: c43a1192359fe665ab944fa8e34f974f
-SHA1: 468520c5593d0d731f632229ce230fc8e0c8e8f5
-SHA256: f437c017d69c9e772945a7b4eb40572c1551be370f62c2f7b81db37e65e7d5c0
+Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u2_all.deb
+Size: 17864724
+MD5sum: ee1b8e3f8dfa33ede1891507b5606a48
+SHA1: 318a15f24f3c58aad5cca421b3aa56078e689aa2
+SHA256: 55cd8aa964eb0b937f3b21b5382ff5f47222e8f305131be9755163d81caf9a0d
 
 Package: mediawiki-extensions
 Version: 3.5~deb7u2
