@@ -283,6 +283,34 @@ Directory: pool/updates/main/b/bind9
 Priority: source
 Section: net
 
+Package: bsd-mailx
+Binary: bsd-mailx
+Version: 8.1.2-0.20111106cvs-1+deb7u1
+Maintainer: Robert Luberda <robert@debian.org>
+Build-Depends: debhelper (>= 8.9.8), groff, libbsd-dev (>= 0.3), liblockfile-dev (>= 1.05)
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ f14399f2833079ea47fb6923e7aa0069 1643 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.dsc
+ d27e3aa6bd415d753b51167d0484ecdd 94864 bsd-mailx_8.1.2-0.20111106cvs.orig.tar.gz
+ e050372ed32bcb3798727769563c6a99 49010 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=users/robert/bsd-mailx.git
+Vcs-Git: git://anonscm.debian.org/users/robert/bsd-mailx.git
+Checksums-Sha1:
+ 8c1980eb8d18c5dc89385bc5123891a26ae36f54 1643 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.dsc
+ 549520f74b4b3977291e482d1836afc58c19f764 94864 bsd-mailx_8.1.2-0.20111106cvs.orig.tar.gz
+ d07d6bed2942b85a349b7e64cd5c97a5a58164f2 49010 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 323a1450f16e911913f0d33b89e255fdfeb20a3efd0060e6df69e4f27797f723 1643 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.dsc
+ f632d0f0a2bc06e6f3c8f073e801c80dee78fe6ffd1d21492f73cedb1bcf7361 94864 bsd-mailx_8.1.2-0.20111106cvs.orig.tar.gz
+ c18f7a0d2f67449d276beeb7822b7c975f45f6c1e6c77e80e8752a4bda2ca2a6 49010 bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1.debian.tar.gz
+Package-List: 
+ bsd-mailx deb mail standard
+Directory: pool/updates/main/b/bsd-mailx
+Priority: source
+Section: mail
+
 Package: c-icap
 Binary: c-icap, libicapapi0, libicapapi-dev, libicapapi0-dbg
 Version: 1:0.1.6-1.1+deb7u1
@@ -1396,6 +1424,33 @@ Package-List:
 Directory: pool/updates/main/g/graphviz
 Priority: source
 Section: graphics
+
+Package: heirloom-mailx
+Binary: heirloom-mailx
+Version: 12.5-2+deb7u1
+Maintainer: Hilko Bengen <bengen@debian.org>
+Build-Depends: debhelper (>> 5), libssl-dev (>= 0.9.8), libkrb5-dev
+Architecture: any
+Standards-Version: 3.8.4
+Format: 3.0 (quilt)
+Files:
+ be558edcc188b6f6fe38d57115532236 1477 heirloom-mailx_12.5-2+deb7u1.dsc
+ 29a6033ef1412824d02eb9d9213cb1f2 324085 heirloom-mailx_12.5.orig.tar.gz
+ 4b26a112f58e994ecbbe6e0c2ffd61ca 10122 heirloom-mailx_12.5-2+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 2f897f30a0fee667dce8540316740dce6ae08c63 1477 heirloom-mailx_12.5-2+deb7u1.dsc
+ 2fa7f300dea7747e5880d61fd691a103d70863ba 324085 heirloom-mailx_12.5.orig.tar.gz
+ d187c11d49b7fa31b7737f32cfb07d0901d2eabb 10122 heirloom-mailx_12.5-2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 9da04497ceaa2edfc87d221ced1316545b21ff2a8b11296c7675aa3cfebd30b0 1477 heirloom-mailx_12.5-2+deb7u1.dsc
+ 015ba4209135867f37a0245d22235a392b8bbed956913286b887c2e2a9a421ad 324085 heirloom-mailx_12.5.orig.tar.gz
+ 104b23d251407c8edf09a7db86239232a91ab61def0f6d6b521424de03aab895 10122 heirloom-mailx_12.5-2+deb7u1.debian.tar.gz
+Homepage: http://heirloom.sourceforge.net/mailx.html
+Package-List: 
+ heirloom-mailx deb mail optional
+Directory: pool/updates/main/h/heirloom-mailx
+Priority: source
+Section: mail
 
 Package: hplip
 Binary: hplip, hplip-data, printer-driver-postscript-hp, hplip-gui, hplip-dbg, hplip-doc, hpijs-ppds, hpijs, printer-driver-hpijs, hplip-cups, printer-driver-hpcups, libhpmud0, libhpmud-dev, libsane-hpaio

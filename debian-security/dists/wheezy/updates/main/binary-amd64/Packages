@@ -1127,6 +1127,25 @@ MD5sum: 122d8399cfd39cf92e742b9f6353ddd1
 SHA1: a02857faa93476753b1ff89abbc7910841c80a8e
 SHA256: 32b596aca9e96043868d324f02c66878cf6114866fedc5f96d508471cc8009d4
 
+Package: bsd-mailx
+Version: 8.1.2-0.20111106cvs-1+deb7u1
+Installed-Size: 135
+Maintainer: Robert Luberda <robert@debian.org>
+Architecture: amd64
+Replaces: mailx (<< 1:20071201)
+Provides: mail-reader, mailx
+Depends: base-files (>= 2.2.0), default-mta | mail-transport-agent, libbsd0 (>= 0.2.0), libc6 (>= 2.4), liblockfile1 (>= 1.0)
+Breaks: mailutils (<< 1:1.1+dfsg1-4), mailx (<< 1:20071201)
+Description: simple mail user agent
+Description-md5: 214a19e5c01128b397d840a379862101
+Section: mail
+Priority: standard
+Filename: pool/updates/main/b/bsd-mailx/bsd-mailx_8.1.2-0.20111106cvs-1+deb7u1_amd64.deb
+Size: 85354
+MD5sum: d486cc198db7d5b59732294ac5c36ba7
+SHA1: ce885593ae2b3e99451c6c49d3b61e54e1a8f7e0
+SHA256: f9a0f1e69ed0f0149047371dddeaa4299f47ffcf9400f0f9d341a4dbb5cb1b08
+
 Package: c-icap
 Version: 1:0.1.6-1.1+deb7u1
 Installed-Size: 314
@@ -4213,6 +4232,27 @@ Size: 54426
 MD5sum: df32523c4e79b7cba44cec5b9fd78bbb
 SHA1: 11500edecb0c1a3cf2403c96ed6b659fe999d10c
 SHA256: 09a6693324e9a4024ec306cbb44c466edfeed6def1c3f4971e64011b06a84713
+
+Package: heirloom-mailx
+Version: 12.5-2+deb7u1
+Installed-Size: 454
+Maintainer: Hilko Bengen <bengen@debian.org>
+Architecture: amd64
+Replaces: nail
+Provides: imap-client, mail-reader, mailx
+Depends: base-files (>= 2.2.0), libc6 (>= 2.3), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 (>= 1.0.0)
+Suggests: exim4 | mail-transport-agent
+Conflicts: mailutils (<< 1:1.1+dfsg1-4), mailx (<< 1:20071201)
+Description: feature-rich BSD mail(1)
+Homepage: http://heirloom.sourceforge.net/mailx.html
+Description-md5: 25661b414a072854667304d66d822edc
+Section: mail
+Priority: optional
+Filename: pool/updates/main/h/heirloom-mailx/heirloom-mailx_12.5-2+deb7u1_amd64.deb
+Size: 274410
+MD5sum: 60598fa761af1d3ba8b685a3e27b7d24
+SHA1: 3317439647a70d2695cb56358c36c084fd5501e1
+SHA256: 5debc4714a4b2ecafb3407972c9c3a243adc372e814651de603f6a08836fbaa2
 
 Package: hpijs
 Source: hplip
