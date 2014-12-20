@@ -3429,24 +3429,24 @@ Section: admin
 
 Package: jasper
 Binary: libjasper1, libjasper-dev, libjasper-runtime
-Version: 1.900.1-13+deb7u1
+Version: 1.900.1-13+deb7u2
 Maintainer: Roland Stigge <stigge@antcom.de>
 Build-Depends: debhelper (>= 8.1.3~), freeglut3-dev, libjpeg8-dev, libxi-dev, libxmu-dev, libxt-dev, autotools-dev
 Architecture: any
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 5e25f1ff3f9bd84fe6019198f87a5859 1878 jasper_1.900.1-13+deb7u1.dsc
+ bb1aa608e174d34ed78586ab3d3461cf 1878 jasper_1.900.1-13+deb7u2.dsc
  4ae3dd938fd15f22f30577db5c9f27e9 1143400 jasper_1.900.1.orig.tar.gz
- f7bd6be560b81627f0c9ce965179b34f 31851 jasper_1.900.1-13+deb7u1.debian.tar.gz
+ 04dc723f1ace68e0fa321efdfe36f78c 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
 Checksums-Sha1:
- 3dd95fc7c540ac3d073ed390240c04cebf8f851e 1878 jasper_1.900.1-13+deb7u1.dsc
+ e0d6c3f0740526df97a7ea4ca6a9195fe1408c76 1878 jasper_1.900.1-13+deb7u2.dsc
  a20dc389f5962661b7ab81777c8316f8faee3a99 1143400 jasper_1.900.1.orig.tar.gz
- 09361acbb53a8c7b13b0f958033a57540db65f91 31851 jasper_1.900.1-13+deb7u1.debian.tar.gz
+ 9b5c7e6851f5ec373f4808d27179f5112d551f64 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
 Checksums-Sha256:
- 6652d836cfa9512f3c45ca3ffda93f41498788855a5a6c04d495f7917ed548da 1878 jasper_1.900.1-13+deb7u1.dsc
+ bea600e984dc62340e34ce4a39168e13aeceae2ce250c88eaee7879ef4611bfd 1878 jasper_1.900.1-13+deb7u2.dsc
  6cf104e2811f6088ca1dc76d87dd27c55178d3ccced20db8858d28ae22911a94 1143400 jasper_1.900.1.orig.tar.gz
- 7a1b327ea02e58dfc3725266518055f2a6bd105a0375934ae45cbd65a8fbdc0c 31851 jasper_1.900.1-13+deb7u1.debian.tar.gz
+ fe16d00f46d0f3ac23898013b5abae626ca07c315fa7576c4a63b09839a4ee5e 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
 Package-List: 
  libjasper-dev deb libdevel optional
  libjasper-runtime deb graphics optional
@@ -10584,7 +10584,7 @@ Section: net
 
 Package: subversion
 Binary: subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, libsvn-ruby1.8, libsvn-ruby
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Maintainer: Peter Samuelson <peter@p12n.org>
 Uploaders: Troy Heber <troyh@debian.org>, Guilherme de S. Pastore <gpastore@debian.org>
 Build-Depends: debhelper, libneon27-gnutls-dev, zlib1g-dev, libapr1-dev, libaprutil1-dev, libdb5.1-dev, libsasl2-dev, apache2-threaded-dev, libsqlite3-dev (>= 3.4), libgnome-keyring-dev, libdbus-1-dev, kdelibs5-dev, quilt, doxygen, autotools-dev, autoconf, libtool, swig, python-all-dev, python-support, perl, libperl-dev, ruby1.8, ruby1.8-dev, gcj-jdk (>= 4:4.4) [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386], junit [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386]
@@ -10592,18 +10592,18 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- 8fe137770077449c231af4728a960da0 2941 subversion_1.6.17dfsg-4+deb7u3.dsc
+ 6a0fcfeb1315c6e5c74cbd3bc1c12603 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
  2bb85bcf6f1fb1ccec11dc2b4c89463b 7757112 subversion_1.6.17dfsg.orig.tar.gz
- fb89280d3bd228235c160eca173f44b8 113574 subversion_1.6.17dfsg-4+deb7u3.diff.gz
+ 3a56bb4b9a8c33d7a8b56907bc42ca3b 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-subversion/src/1.6.x/
 Checksums-Sha1:
- fe1963706152ec8629929c13c8e02c811f3ae1ad 2941 subversion_1.6.17dfsg-4+deb7u3.dsc
+ 5155fe297749bbbc47ff130527f1c95995861c1c 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
  e353f97fdeb6aefa37c6db45e8c22c4205cef4b7 7757112 subversion_1.6.17dfsg.orig.tar.gz
- 1a3007ee3e7105f71b5dab72ee7d244f7af04f0b 113574 subversion_1.6.17dfsg-4+deb7u3.diff.gz
+ 1fa5a3dea7ca8e6dda01d37e35a7818514c18625 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
 Checksums-Sha256:
- b4c56452834133c774aa76b991c00f206e0cf507d8991933edc1575ac9326084 2941 subversion_1.6.17dfsg-4+deb7u3.dsc
+ b493fdb5551bbe320223d984883989a227ba65816bd65bfafc20eb46400f5ade 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
  45a8a067b65cfe5326f9676f991d82f39d67f8309c35e58f67e689eb702679d0 7757112 subversion_1.6.17dfsg.orig.tar.gz
- 6b366ef037c7d57222ab14b5196a125a4f6da59bbad8dde6d681464539643cf0 113574 subversion_1.6.17dfsg-4+deb7u3.diff.gz
+ 7b6002e49ba17429a1c5a26dbfd7b97fcf081d68522164a2aa675863a39f1f72 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
 Homepage: http://subversion.apache.org/
 Build-Conflicts: libsvn-dev (<< 1.6)
 Package-List: 

@@ -9398,26 +9398,26 @@ SHA256: 984a57ab9ce0b879238bdd61bd393786e5d169ecafd0169d71996194cee791f6
 
 Package: libjasper-dev
 Source: jasper
-Version: 1.900.1-13+deb7u1
+Version: 1.900.1-13+deb7u2
 Installed-Size: 1064
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
 Replaces: libjasper-1.700-2-dev
-Depends: libjasper1 (= 1.900.1-13+deb7u1)
+Depends: libjasper1 (= 1.900.1-13+deb7u2)
 Conflicts: libjasper-1.700-2-dev
 Description: Development files for the JasPer JPEG-2000 library
 Description-md5: cffe1269c80cd3e31782da0e12e80b0e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper-dev_1.900.1-13+deb7u1_amd64.deb
-Size: 568568
-MD5sum: 9fe98641c7dae15015a88e46cca2a350
-SHA1: 03680fa2dd7de35c2c0611a653c38cbfb9639c96
-SHA256: 721faa7f2f3083ed2972dcc59dac4dcb77bf185db8725cc108162495b9dc92c9
+Filename: pool/updates/main/j/jasper/libjasper-dev_1.900.1-13+deb7u2_amd64.deb
+Size: 568648
+MD5sum: 7dbaf9791f89f1b9a6a8f67df093c3b2
+SHA1: f82d4fd1dde08b696590cbf6ee445f1a565e3d05
+SHA256: 2dbe19f48d70dbf7315f7bc090e43e4391114ecba9b829d07264b19953d95a34
 
 Package: libjasper-runtime
 Source: jasper
-Version: 1.900.1-13+deb7u1
+Version: 1.900.1-13+deb7u2
 Installed-Size: 105
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
@@ -9428,15 +9428,15 @@ Description: Programs for manipulating JPEG-2000 files
 Description-md5: 4c57bba10b4faddb8704d85df1ac0580
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper-runtime_1.900.1-13+deb7u1_amd64.deb
-Size: 27046
-MD5sum: aff3ebfa0631252fa0ee236f995bb553
-SHA1: 4f6503327d3ab92fc0ceabb7e76e0016b9c244d3
-SHA256: e4860f1367f2fcdb3d5483599493d8639cf4bf1766040eb38911589f27afbd22
+Filename: pool/updates/main/j/jasper/libjasper-runtime_1.900.1-13+deb7u2_amd64.deb
+Size: 27148
+MD5sum: 6d94d7b23c5544138536bd95ad4a30dd
+SHA1: 7e4c80527f54ea747e817801680a08e7abd89f17
+SHA256: 391d3a5fdfc8c4d0ff70399937f4521a43c324b5d7b6cd2ea67aa1ee83bfd075
 
 Package: libjasper1
 Source: jasper
-Version: 1.900.1-13+deb7u1
+Version: 1.900.1-13+deb7u2
 Installed-Size: 370
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
@@ -9450,11 +9450,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper1_1.900.1-13+deb7u1_amd64.deb
-Size: 159386
-MD5sum: ea9e6786092d1bbd8d3f9160e19bbf6e
-SHA1: 2213725e8ed2bacc25b196b0d0298dacd654eca0
-SHA256: c678908039bcf31328f8c7f800f2475a71db4aa00fea10c5a72068d7e85f460d
+Filename: pool/updates/main/j/jasper/libjasper1_1.900.1-13+deb7u2_amd64.deb
+Size: 159520
+MD5sum: f1b34073c5bc06db734c957ebc14e46b
+SHA1: adc9a16d831f4a37671bd93ea660a979a18dc99c
+SHA256: 732d52bfed5de9d6c4659f881582a29a9a5fbde057df37541bd4f3e04ef407ec
 
 Package: jbigkit-bin
 Source: jbigkit
@@ -24341,8 +24341,8 @@ SHA256: 375a1f6d2ea642877553f7b34e6cc654b91298a342d973b13ed030892dc355ec
 
 Package: libapache2-svn
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
-Installed-Size: 345
+Version: 1.6.17dfsg-4+deb7u7
+Installed-Size: 346
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Depends: apache2.2-common, libc6 (>= 2.3), libsvn1 (>= 1.6)
@@ -24352,35 +24352,35 @@ Homepage: http://subversion.apache.org/
 Description-md5: b625db8216427c04f0c7991a6ef7a5be
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/subversion/libapache2-svn_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 172954
-MD5sum: c4b58ccded6b526716d9f36c549fc09e
-SHA1: b8ce49f95ffc1bf4a0ed5dcd3376d5297cfc2a22
-SHA256: ef509fbcb87d13484a67891c2e31bb3b7fa780b47a02b85d479e8b92e396b283
+Filename: pool/updates/main/s/subversion/libapache2-svn_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 173216
+MD5sum: a9a9f738c3ed958cc1db70c3bfca3597
+SHA1: a1d3e040810a467f724378a2be096e892e8bf008
+SHA256: f7370c4b85b8950e35b574b36dda186d845e535292f2ef75a65e82336e6676ac
 
 Package: libsvn-dev
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
-Installed-Size: 4904
+Version: 1.6.17dfsg-4+deb7u7
+Installed-Size: 4405
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u3), libapr1-dev, libaprutil1-dev
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1-dev, libaprutil1-dev
 Suggests: libsvn-doc, zlib1g-dev, libneon27-gnutls-dev
 Description: Development files for Subversion libraries
 Homepage: http://subversion.apache.org/
 Description-md5: 8e9e34c74ef113c2db3c8937e66839cf
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/s/subversion/libsvn-dev_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 1423756
-MD5sum: 96f6624c5bbf8be9d8492a8f866e566d
-SHA1: 425e1f943fc411d0d6ca82efeb81beb6c3ef5689
-SHA256: acdf7469f6bac5caaaf897c1d7fe203263a9406b94d2300376e67cace00a08fc
+Filename: pool/updates/main/s/subversion/libsvn-dev_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 1304348
+MD5sum: 5f7847fe3c12d3e4d1cafc6bff180332
+SHA1: 25bcd19d0d39894d11a7e4b1c9e6dff9d2cfb3ac
+SHA256: e206d8d868e977e03b45c6b6c8d3388a6eb9ec89b52d81c2eced166bf685ff45
 
 Package: libsvn-doc
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
-Installed-Size: 15061
+Version: 1.6.17dfsg-4+deb7u7
+Installed-Size: 15066
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
 Suggests: libsvn-dev
@@ -24389,52 +24389,52 @@ Homepage: http://subversion.apache.org/
 Description-md5: 18d9d88327d966dec100752fa09fc916
 Section: doc
 Priority: extra
-Filename: pool/updates/main/s/subversion/libsvn-doc_1.6.17dfsg-4+deb7u3_all.deb
-Size: 2084032
-MD5sum: 098cff68a9af1f1df20d7beb38a5d5da
-SHA1: b136aa9036c966fbee84b368388d4e7f9b9391e8
-SHA256: f0385a93b259269d554920b3c161f457a348d8ed0e4762f369a59bbe12958b4a
+Filename: pool/updates/main/s/subversion/libsvn-doc_1.6.17dfsg-4+deb7u7_all.deb
+Size: 2083570
+MD5sum: be101d2086d77a36d46d920b1ca3db3e
+SHA1: d55d0c2e0436106bfd2f610fcd45db17e02c1f76
+SHA256: c22e0c66db69ef1ffdbf8fc9c69f60fb6018ce3321ad3b37afa2976bf33ee595
 
 Package: libsvn-java
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 514
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u3), libapr1 (>= 1.2.7), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1 (>= 1.2.7), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
 Description: Java bindings for Subversion
 Homepage: http://subversion.apache.org/
 Description-md5: 29d394313a54fa67a769cfba1440f2d1
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-java_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 306454
-MD5sum: 8108251f1a1234a5f8a78da977755496
-SHA1: 92661e18c4f5bd8d55de3352f6691df696ef7b63
-SHA256: bf397144db27968bc0eb382f50e66d369250699a518cc00eb7e1cd924a872eac
+Filename: pool/updates/main/s/subversion/libsvn-java_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 306250
+MD5sum: 021d4f9ca4cb04c783c69ff9cda6b7b7
+SHA1: 7353903903d6d17b2cdabceb53618a801b60658b
+SHA256: 6eb79442234e26a374e1d31ccff4e0745d275b533a9ee0435f4304abf5e72d26
 
 Package: libsvn-perl
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
-Installed-Size: 3688
+Version: 1.6.17dfsg-4+deb7u7
+Installed-Size: 3689
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: perl (>= 5.14.2-21), perlapi-5.14.2, libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6)
+Depends: perl (>= 5.14.2-21+deb7u2), perlapi-5.14.2, libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6)
 Description: Perl bindings for Subversion
 Homepage: http://subversion.apache.org/
 Description-md5: 457ae508482666443880fe8931bfa396
 Pre-Depends: multiarch-support
 Section: perl
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-perl_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 1082472
-MD5sum: a517619f9d04bd65e0991240aa609414
-SHA1: d6f400fe76d0950fd89ad755ab1888ba442a9fe5
-SHA256: 4c5f140ab27d8bc4502489b90a3813fe27f934fba9b5a274c257dc726b5c5a73
+Filename: pool/updates/main/s/subversion/libsvn-perl_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 1082936
+MD5sum: 11ee3d11507682a426f629214cf6ba77
+SHA1: b751a769782412f93c13dc6c52605c70973bd7c6
+SHA256: 78ea8057298aa7f1a84e8e555ebc46469fbc08f4ca31412fb225069577a4027a
 
 Package: libsvn-ruby
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 21
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
@@ -24444,15 +24444,15 @@ Homepage: http://subversion.apache.org/
 Description-md5: e34544dc883f31936268c3982b4cb2cd
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-ruby_1.6.17dfsg-4+deb7u3_all.deb
+Filename: pool/updates/main/s/subversion/libsvn-ruby_1.6.17dfsg-4+deb7u7_all.deb
 Size: 764
-MD5sum: 2141a28a1a107c2bb5f5d8c3be5e71af
-SHA1: ebf4688c55bb09dd163ad8b3bf34a4e6155039fd
-SHA256: 589504e228c1189b870ce8b7a24098b6ab2e80f9d4a3abe43a09114988d85cb6
+MD5sum: 30a7d3d8c03cdea93bba773274823a6b
+SHA1: 591755909aa4b7ab3f96908bb4c4392c71a9f954
+SHA256: c634e35a026c4e4123652fb5d5c69f263befd9fb2aa7cbeab9580fac743a3398
 
 Package: libsvn-ruby1.8
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 1948
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
@@ -24464,15 +24464,15 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-ruby1.8_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 629674
-MD5sum: 34e63f4905572264a26b4f623f7535c6
-SHA1: 07251cf91232328dccf20dfc77843812e070ed4d
-SHA256: 38af4405c2a899ed8944fb088c11374ddcb710fc902e0053f986795106091470
+Filename: pool/updates/main/s/subversion/libsvn-ruby1.8_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 627994
+MD5sum: 5538c7e3d0d7bf526070515d27a2168d
+SHA1: 9a6b2fd83e70ba68b870cadadc74fcaffaf038c1
+SHA256: 039f10d8e6cee922d07b1d8cfae93ad845935dc7003862b934e2f6fc926c694c
 
 Package: libsvn1
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 2138
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
@@ -24484,15 +24484,15 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn1_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 935602
-MD5sum: f456cb6cce4904cd31954836304b8330
-SHA1: 15c4592eb39f906d43e6d4ba5b314a967cfe3bc9
-SHA256: 8a3ce8292aeff58afd6476efb2328e5acd07f3dc20ee05b89d16c0330abf8196
+Filename: pool/updates/main/s/subversion/libsvn1_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 934840
+MD5sum: 320b881ca629a182c4a606a7712a8a6d
+SHA1: 665796984faf7f44eb0d4c92a5dc4a3115d82a4e
+SHA256: c6940853953065bd1182ac24621b2fa2269b0dd23e2f6e886dbe842afb4fc535
 
 Package: python-subversion
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 5496
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
@@ -24505,33 +24505,33 @@ Pre-Depends: multiarch-support
 Python-Version: 2.6, 2.7
 Section: python
 Priority: optional
-Filename: pool/updates/main/s/subversion/python-subversion_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 1339950
-MD5sum: 01add55473f7910e8e21c35ff96c9ed7
-SHA1: 7a33334336e5d6ee55116f3eafa6e7ed8d2f975e
-SHA256: 24b06f22a330f1957dff530bfd5a8ee6825081b0b52e2ab007c455a1265a0281
+Filename: pool/updates/main/s/subversion/python-subversion_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 1340300
+MD5sum: dd7a9f5ea3956c330349cd7e7d47c04b
+SHA1: 6e3e581659501cfc3a087aa0d18c62e4b4d59d24
+SHA256: f0e8965d7e23cd56adce1fe614ba0d81d89b1b8d73ec267b67933c814409dd93
 
 Package: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 4108
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u3), libapr1 (>= 1.2.7), libc6 (>= 2.3), libsasl2-2 (>= 2.1.24)
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1 (>= 1.2.7), libc6 (>= 2.3), libsasl2-2 (>= 2.1.24)
 Suggests: subversion-tools, db5.1-util, patch
 Description: Advanced version control system
 Homepage: http://subversion.apache.org/
 Description-md5: 15da1bb51fb2e9ea5e25b3a489b864d9
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/subversion_1.6.17dfsg-4+deb7u3_amd64.deb
-Size: 1320680
-MD5sum: 7a664ee8c25ed82ddfdb832162f6cb47
-SHA1: 71d680847bb6d2f1dc5bf44a83862ed3a7dcabf2
-SHA256: 54fa12c03ce7551040f9e266055076ec5b1c4c16bc2fe0fab3b54b407523b6b4
+Filename: pool/updates/main/s/subversion/subversion_1.6.17dfsg-4+deb7u7_amd64.deb
+Size: 1317528
+MD5sum: 07a19a5bb5ccf5065d4a8c525ba8dea2
+SHA1: a0f026ecfd6d850978ae97a34658d9c80db48a9b
+SHA256: 5e08d8a7b0a3c743fd80a11c73024b1fed91544e49b7e02642000a8d63813cce
 
 Package: subversion-tools
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u3
+Version: 1.6.17dfsg-4+deb7u7
 Installed-Size: 577
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
@@ -24543,11 +24543,11 @@ Description-md5: 8eaf8a6c9de65fb18536b0cebf8e7184
 Recommends: python-subversion (>= 1.5), libsvn-perl (>= 1.5), libconfig-inifiles-perl, liburi-perl, exim4 | mail-transport-agent, xsltproc, rsync
 Section: admin
 Priority: extra
-Filename: pool/updates/main/s/subversion/subversion-tools_1.6.17dfsg-4+deb7u3_all.deb
-Size: 225100
-MD5sum: 7f3b20b4eb96173e28de09374f955b78
-SHA1: ad25abf916be9e4078e304be462eccc07ffe7b59
-SHA256: afc88b9a88744a64920ee13c7841394bad39ce752f5465efc0fd8a8863526516
+Filename: pool/updates/main/s/subversion/subversion-tools_1.6.17dfsg-4+deb7u7_all.deb
+Size: 222108
+MD5sum: 912741f6927e3fb81b9a46e24f65ad41
+SHA1: 3267a94737131a88c4ed9523c4a529d2f1dd97db
+SHA256: 390bfbf44c19d46530596fd6a9a444377da638af091741cf417ab56b4059f3ac
 
 Package: sup-mail
 Version: 0.12.1+git20120407.aaa852f-1+deb7u1
