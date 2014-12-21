@@ -1141,6 +1141,52 @@ Directory: pool/updates/main/f/file
 Priority: source
 Section: utils
 
+Package: firebird2.5
+Binary: firebird2.5-super, firebird2.5-classic, firebird2.5-superclassic, libfbclient2, libfbembed2.5, libib-util, firebird2.5-common, firebird2.5-server-common, firebird2.5-classic-common, firebird-dev, firebird2.5-examples, firebird2.5-doc, firebird2.5-common-doc, firebird2.5-super-dbg, firebird2.5-classic-dbg, libfbclient2-dbg
+Version: 2.5.2.26540.ds4-1~deb7u2
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>
+Build-Depends: autoconf, automake, bison, debhelper (>= 8.1.3), docbook-to-man, dpkg-dev (>= 1.16.1), gawk, libatomic-ops-dev (>= 1.2+cvs20091005), libedit-dev, libicu-dev, libtool, po-debconf
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 6dd2e2fe791662343a1f90eeb2c8c937 3132 firebird2.5_2.5.2.26540.ds4-1~deb7u2.dsc
+ bf697fbeef43ba1bcbd218de6753b479 3917484 firebird2.5_2.5.2.26540.ds4.orig.tar.xz
+ 504645d23f6beae61d48e3dd67a00700 145010 firebird2.5_2.5.2.26540.ds4-1~deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=pkg-firebird/2.5.git;a=summary
+Vcs-Git: git://git.debian.org/git/pkg-firebird/2.5.git
+Checksums-Sha1:
+ 18acaf4ebc513f436d2efe3b1b1398478e80a21d 3132 firebird2.5_2.5.2.26540.ds4-1~deb7u2.dsc
+ ea18243a6cb5657af03f968fb36e7247857614f3 3917484 firebird2.5_2.5.2.26540.ds4.orig.tar.xz
+ addca0381b16c4cb39376be32ff2ed25ae9db69d 145010 firebird2.5_2.5.2.26540.ds4-1~deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 086ba6929a468503648bb93ae74101cb1e391ae42dfc26e8f49398643cf725aa 3132 firebird2.5_2.5.2.26540.ds4-1~deb7u2.dsc
+ e4744fc62ab734e5b73e82a8777732fbcbfa49899d330ff80a9e680cb6f6a88c 3917484 firebird2.5_2.5.2.26540.ds4.orig.tar.xz
+ 353e3da71674d2cd3091bc2e564a7af7290561c9d187f4fd09f0355d1ada7a3f 145010 firebird2.5_2.5.2.26540.ds4-1~deb7u2.debian.tar.gz
+Homepage: http://firebirdsql.org/
+Build-Conflicts: autoconf2.13, automake1.4
+Package-List: 
+ firebird-dev deb libdevel optional
+ firebird2.5-classic deb database optional
+ firebird2.5-classic-common deb database optional
+ firebird2.5-classic-dbg deb debug extra
+ firebird2.5-common deb database optional
+ firebird2.5-common-doc deb doc optional
+ firebird2.5-doc deb doc optional
+ firebird2.5-examples deb doc optional
+ firebird2.5-server-common deb database optional
+ firebird2.5-super deb database optional
+ firebird2.5-super-dbg deb debug extra
+ firebird2.5-superclassic deb database optional
+ libfbclient2 deb libs optional
+ libfbclient2-dbg deb debug extra
+ libfbembed2.5 deb libs optional
+ libib-util deb libs optional
+Directory: pool/updates/main/f/firebird2.5
+Priority: source
+Section: database
+
 Package: flac
 Binary: flac, libflac8, libflac-doc, libflac-dev, libflac++6, libflac++-dev
 Version: 1.2.1-6+deb7u1
@@ -8359,6 +8405,39 @@ Directory: pool/updates/main/n/nss
 Priority: source
 Section: libs
 
+Package: ntp
+Binary: ntp, ntpdate, ntp-doc
+Version: 1:4.2.6.p5+dfsg-2+deb7u1
+Maintainer: Debian NTP Team <pkg-ntp-maintainers@lists.alioth.debian.org>
+Uploaders: Bdale Garbee <bdale@gag.com>, Peter Eisentraut <petere@debian.org>, Kurt Roeckx <kurt@roeckx.be>
+Build-Depends: autotools-dev, debhelper (>= 6), libedit-dev, libcap2-dev [linux-any], libssl-dev (>= 1.0.0e-1), autogen (>= 1:5.11)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 869a4d75761cfa0ec27455e4f9427fe2 1886 ntp_4.2.6.p5+dfsg-2+deb7u1.dsc
+ 68fbd2dd65897a14dd2929283024d874 4111997 ntp_4.2.6.p5+dfsg.orig.tar.gz
+ 81ab039b6d67813682ac9a96525e509f 106514 ntp_4.2.6.p5+dfsg-2+deb7u1.debian.tar.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-ntp/ntp/trunk/
+Checksums-Sha1:
+ 8a4325d08b8bad580d1af22b6cb8b1490785c7c0 1886 ntp_4.2.6.p5+dfsg-2+deb7u1.dsc
+ 44b7454735fbc1c6fdf32814b55b19cc3e5f9064 4111997 ntp_4.2.6.p5+dfsg.orig.tar.gz
+ a4cf861a889c38e87dc196bac5c3157788c247e6 106514 ntp_4.2.6.p5+dfsg-2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 6078260b9cb31a1e2915f2e9fc3f242be621d33e28a356d7750b89e7f4f4a0a8 1886 ntp_4.2.6.p5+dfsg-2+deb7u1.dsc
+ 17f0b63e7e27de5cc999a4afdb96b2dbdf76c75181fca50e2395e49e5773dfc9 4111997 ntp_4.2.6.p5+dfsg.orig.tar.gz
+ d2d68d5638bc5e89b224737f58a068bbab6afa4f92146ef2223a4bcb73264528 106514 ntp_4.2.6.p5+dfsg-2+deb7u1.debian.tar.gz
+Homepage: http://support.ntp.org/
+Build-Conflicts: libavahi-compat-libdnssd-dev, libwww-dev, libwww-ssl-dev
+Package-List: 
+ ntp deb net optional
+ ntp-doc deb doc optional
+ ntpdate deb net optional
+Vcs-Svn: svn://svn.debian.org/pkg-ntp/ntp/trunk/
+Directory: pool/updates/main/n/ntp
+Priority: source
+Section: net
+
 Package: openafs
 Binary: openafs-client, openafs-fuse, openafs-kpasswd, openafs-fileserver, openafs-dbserver, openafs-doc, openafs-krb5, libkopenafs1, libafsauthent1, libafsrpc1, libopenafs-dev, openafs-modules-source, openafs-modules-dkms, libpam-openafs-kaserver, openafs-dbg
 Version: 1.6.1-3+deb7u2
@@ -10604,6 +10683,48 @@ Checksums-Sha256:
  b493fdb5551bbe320223d984883989a227ba65816bd65bfafc20eb46400f5ade 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
  45a8a067b65cfe5326f9676f991d82f39d67f8309c35e58f67e689eb702679d0 7757112 subversion_1.6.17dfsg.orig.tar.gz
  7b6002e49ba17429a1c5a26dbfd7b97fcf081d68522164a2aa675863a39f1f72 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
+Homepage: http://subversion.apache.org/
+Build-Conflicts: libsvn-dev (<< 1.6)
+Package-List: 
+ libapache2-svn deb httpd optional
+ libsvn-dev deb libdevel extra
+ libsvn-doc deb doc extra
+ libsvn-java deb java optional
+ libsvn-perl deb perl optional
+ libsvn-ruby deb ruby optional
+ libsvn-ruby1.8 deb ruby optional
+ libsvn1 deb vcs optional
+ python-subversion deb python optional
+ subversion deb vcs optional
+ subversion-tools deb vcs extra
+Python-Version: >= 2.4, << 3.0
+Vcs-Svn: svn://svn.debian.org/pkg-subversion/src/1.6.x/
+Directory: pool/updates/main/s/subversion
+Priority: source
+Section: devel
+
+Package: subversion
+Binary: subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, libsvn-ruby1.8, libsvn-ruby
+Version: 1.6.17dfsg-4+deb7u8
+Maintainer: Peter Samuelson <peter@p12n.org>
+Uploaders: Troy Heber <troyh@debian.org>, Guilherme de S. Pastore <gpastore@debian.org>
+Build-Depends: debhelper, libneon27-gnutls-dev, zlib1g-dev, libapr1-dev, libaprutil1-dev, libdb5.1-dev, libsasl2-dev, apache2-threaded-dev, libsqlite3-dev (>= 3.4), libgnome-keyring-dev, libdbus-1-dev, kdelibs5-dev, quilt, doxygen, autotools-dev, autoconf, libtool, swig, python-all-dev, python-support, perl, libperl-dev, ruby1.8, ruby1.8-dev, gcj-jdk (>= 4:4.4) [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386], junit [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386]
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ ce63fecccbf79eabb1227b54a23cdc8e 2593 subversion_1.6.17dfsg-4+deb7u8.dsc
+ 2bb85bcf6f1fb1ccec11dc2b4c89463b 7757112 subversion_1.6.17dfsg.orig.tar.gz
+ def175b461d6a16d53ad9e5f8f2c2b36 115084 subversion_1.6.17dfsg-4+deb7u8.diff.gz
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-subversion/src/1.6.x/
+Checksums-Sha1:
+ 43d58898f7c773f60fc7810eef421528c14a4ad2 2593 subversion_1.6.17dfsg-4+deb7u8.dsc
+ e353f97fdeb6aefa37c6db45e8c22c4205cef4b7 7757112 subversion_1.6.17dfsg.orig.tar.gz
+ 71f9e90a9aec62d5d336c2d22fb82bc89b0f1321 115084 subversion_1.6.17dfsg-4+deb7u8.diff.gz
+Checksums-Sha256:
+ 52f117c71966d1ac1931a702df74039006b4c6bb3c05970ef138c2cddecc3b01 2593 subversion_1.6.17dfsg-4+deb7u8.dsc
+ 45a8a067b65cfe5326f9676f991d82f39d67f8309c35e58f67e689eb702679d0 7757112 subversion_1.6.17dfsg.orig.tar.gz
+ c5eb2e8db297f7e4e3cb91a38f79f130b6c61c68bfe5ed502b315030b5270df3 115084 subversion_1.6.17dfsg-4+deb7u8.diff.gz
 Homepage: http://subversion.apache.org/
 Build-Conflicts: libsvn-dev (<< 1.6)
 Package-List: 

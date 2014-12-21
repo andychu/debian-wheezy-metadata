@@ -3267,6 +3267,326 @@ MD5sum: edc8aa19340041b84bba6082563f7bf4
 SHA1: bd0855b880ea1f91efb1cbf8da848b47e88331d0
 SHA256: 6fde1616daad63b5fd18d0683c7330ddd927cd7c33ef77543f171b8d35af95f9
 
+Package: firebird-dev
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 345
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: firebird2.0-dev, firebird2.1-dev (<< 2.1.4.18393-0.ds2-4~), firebird2.5-dev (<< 2.5.1.26349-0~rc1.ds4-3~)
+Provides: firebird2.1-dev, firebird2.5-dev
+Depends: libfbclient2 (= 2.5.2.26540.ds4-1~deb7u2), libib-util, firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Suggests: libfbembed2.5, firebird2.5-examples
+Breaks: firebird2.0-dev, firebird2.1-dev (<< 2.1.4.18393-0.ds2-4~), firebird2.5-dev (<< 2.5.1.26349-0~rc1.ds4-3~)
+Description: Development files for Firebird - an RDBMS based on InterBase 6.0 code
+Homepage: http://firebirdsql.org/
+Description-md5: b979fd7ee09f3a6d095da05eba782056
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird-dev_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 30938
+MD5sum: cbc7a32c3732d3ac622f59a728dd43f9
+SHA1: b390608fd477f50ae899d18e921f7c2aaf21f501
+SHA256: a4959f9505777e28a43c28b3dc94fed59fcb45f22002e51fcc269f796be49cee
+
+Package: firebird2.5-classic
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 106
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-server
+Depends: libc6 (>= 2.2.5), libfbembed2.5 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), firebird2.5-common (= 2.5.2.26540.ds4-1~deb7u2), netbase, firebird2.5-server-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-classic-common (= 2.5.2.26540.ds4-1~deb7u2), openbsd-inetd | inet-superserver, debconf (>= 1.4.69), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Suggests: firebird2.5-doc
+Conflicts: firebird-server, firebird2.0-classic, firebird2.0-super
+Description: Firebird Classic Server - an RDBMS based on InterBase 6.0 code
+Homepage: http://firebirdsql.org/
+Description-md5: 383034cf511fadbf2df670c9da862bd5
+Recommends: libib-util
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-classic_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 33378
+MD5sum: 493ba2d3b8cb59e7d61f9e3c227c4293
+SHA1: a4a96d52a2ff14aa4d7008194173d2c89254791d
+SHA256: 99a98a94a3e3e35d6dffa0892902836c5c49337fd44791adc9f001f4125998f8
+
+Package: firebird2.5-classic-common
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 3374
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-udf, firebird-utils
+Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libfbembed2.5 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libib-util (>= 2.5.0.23247~Beta1.ds2), libstdc++6 (>= 4.1.1), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Conflicts: firebird-udf, firebird-utils, firebird2.0-classic, firebird2.0-super, firebird2.1-classic, firebird2.1-super
+Description: common files for firebird 2.5 "classic" and "superclassic"
+Homepage: http://firebirdsql.org/
+Description-md5: c9b9bb114d0245ab36fd88a9f36045b9
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-classic-common_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 801240
+MD5sum: 29bf2585c83362b2f8e3f488a969f219
+SHA1: 187173741f5bffaa228bc080a68029d1590a3793
+SHA256: eca2a2340cb81eed6d6845f3c39eda9abf316ce292ad59198ec3377c5338f65a
+
+Package: firebird2.5-classic-dbg
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 83671
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-dbg
+Depends: firebird2.5-classic (= 2.5.2.26540.ds4-1~deb7u2) | firebird2.5-superclassic (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-classic-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2), libfbembed2.5 (= 2.5.2.26540.ds4-1~deb7u2)
+Conflicts: firebird-dbg
+Description: collected debug symbols for firebird2.5-classic and -superclassic
+Homepage: http://firebirdsql.org/
+Description-md5: 72189fc253c006dfcec92ac19afea9ae
+Section: debug
+Priority: extra
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-classic-dbg_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 15704900
+MD5sum: 7d46817cae42c5ee8b1324f190e01403
+SHA1: b5482d556c074df6108733aca843fd53aacfa745
+SHA256: 299b643657e34f18a868c2a723bb2100610b7c6a7eaf2c1ac9234e7582baeb17
+
+Package: firebird2.5-common
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 496
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: all
+Depends: firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: common files for firebird 2.5 servers and clients
+Homepage: http://firebirdsql.org/
+Description-md5: e3066933c6189d946b604d5145fe0f6d
+Multi-Arch: foreign
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-common_2.5.2.26540.ds4-1~deb7u2_all.deb
+Size: 95728
+MD5sum: 18a9512f8f6148233c7a13226cadd4f7
+SHA1: 197a9405ddc1ee258ea2db8fd6d21a93d80de4f8
+SHA256: 45679fc2dffe7f448f20376ee76354de0860f127684f5145de13b54a9db92f91
+
+Package: firebird2.5-common-doc
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 754
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: all
+Description: copyright, licnesing and changelogs of firebird2.5
+Homepage: http://firebirdsql.org/
+Description-md5: aa4e64250e8a29edf7e8d609689a19e4
+Multi-Arch: foreign
+Section: doc
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-common-doc_2.5.2.26540.ds4-1~deb7u2_all.deb
+Size: 638636
+MD5sum: 36dfbc131c6fa98a5032f7242d80441b
+SHA1: fe3722d19a3c20f34ae35d86fb21e34b41b19830
+SHA256: 58ec04c182deb44cbb8e2b4f444a5115669c0c4c693db40f5f61d85957d1835c
+
+Package: firebird2.5-doc
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 497
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: all
+Depends: firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: Documentation files for firebird database version 2.5
+Homepage: http://firebirdsql.org/
+Description-md5: 29b3a4273032669f55d1f49d77fc047d
+Section: doc
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-doc_2.5.2.26540.ds4-1~deb7u2_all.deb
+Size: 171034
+MD5sum: 6595d6194eefcb748649339af4228364
+SHA1: 5f31bac41bc84226d1fcff80b21e02618efc06d4
+SHA256: 93f84d1fb8c461789b536015c88cba45c0f0f1eb6d1acb8e1aeaf8d16040dd48
+
+Package: firebird2.5-examples
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 219
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: all
+Depends: firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: Examples for Firebird - an RDBMS based on InterBase 6.0 code
+Homepage: http://firebirdsql.org/
+Description-md5: 5af68f6ce2d6ae7ba40ae1f7a4e30e89
+Recommends: firebird-dev
+Section: doc
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-examples_2.5.2.26540.ds4-1~deb7u2_all.deb
+Size: 164430
+MD5sum: 239320ff859016e824494ca6b17b8c7d
+SHA1: 2c70eda016dfd18c1f924950e4f8f16bed0a7a61
+SHA256: 21d49c68ee00d1be894d6c78505882f371d95f9c755f75b32a1cd0ead2c96c3f
+
+Package: firebird2.5-server-common
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 3179
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: firebird2.5-common (<< 2.5.2~svn+53698.ds4-1~)
+Depends: adduser, libc6 (>= 2.11), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), libstdc++6 (>= 4.1.1), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Conflicts: firebird2.0-server-common, firebird2.1-server-common
+Breaks: firebird2.5-common (<< 2.5.2~svn+53698.ds4-1~)
+Description: common files for firebird 2.5 servers
+Homepage: http://firebirdsql.org/
+Description-md5: 39d77090c3fc816bc5f1bd39d0793a85
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-server-common_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 528894
+MD5sum: fed270f5dd0bf0b9b0dfc9d655021fe2
+SHA1: ab4c58d5b113ecb4b4fd33b4937f66d14176212e
+SHA256: a797f4099d243dc269c23e83a06209bf67c30b5b36f80d6cc637d7e1fa2269d8
+
+Package: firebird2.5-super
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 8286
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-server, firebird-udf, firebird-utils
+Depends: libc6 (>= 2.11), libedit2 (>= 2.11-20080614-1), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libib-util (>= 2.5.0.23247~Beta1.ds2), libicu48 (>= 4.8-1), libstdc++6 (>= 4.1.1), firebird2.5-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-server-common (= 2.5.2.26540.ds4-1~deb7u2), lsb-base, debconf (>= 1.4.69), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Suggests: firebird2.5-doc
+Conflicts: firebird-server, firebird-udf, firebird-utils, firebird2.0-classic, firebird2.0-super
+Description: Firebird Super Server - an RDBMS based on InterBase 6.0 code
+Homepage: http://firebirdsql.org/
+Description-md5: aacd7962ba6f641836562131f24e22c0
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-super_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 2080878
+MD5sum: 41586412e77666edf13109193a66993a
+SHA1: 92a9ce1ec142893f1e63bf6bc7e2ecf9126048ea
+SHA256: 8b6cbb8a54259acf6f929f987347e3d1a3d51411eae41c99eff6c1b982158ad0
+
+Package: firebird2.5-super-dbg
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 80297
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-dbg
+Depends: firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-super (= 2.5.2.26540.ds4-1~deb7u2), libfbclient2-dbg
+Conflicts: firebird-dbg
+Description: collected debug symbols for firebird2.5-super
+Homepage: http://firebirdsql.org/
+Description-md5: 2115c5fa354e7f760753f761e95f52e2
+Section: debug
+Priority: extra
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-super-dbg_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 14963018
+MD5sum: f83b31b415a68044312643d7d9f3686e
+SHA1: a8408982c05e1dc6f54a0f0d9baf12beff26c88f
+SHA256: fd7637862c0655de9c2bea9323cc70bfdd23b5f7297222c00e3240a22c65bf84
+
+Package: firebird2.5-superclassic
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 485
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firebird-server
+Depends: libc6 (>= 2.11), libfbembed2.5 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), firebird2.5-common (= 2.5.2.26540.ds4-1~deb7u2), netbase, firebird2.5-server-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-classic-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2), lsb-base, debconf (>= 1.4.69)
+Suggests: firebird2.5-doc
+Conflicts: firebird-server, firebird2.0-classic, firebird2.0-super
+Description: Firebird SuperClassic Server - an RDBMS based on InterBase 6.0 code
+Homepage: http://firebirdsql.org/
+Description-md5: ade14c6a6cab8dad46cff5dd111abffa
+Section: database
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/firebird2.5-superclassic_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 181712
+MD5sum: de0c44709542dd453963e25e793ff9f8
+SHA1: 806f7f366203cc751d01f0fb16f63d2a1210b512
+SHA256: 000c79bdfed80aaf4e1a60c30270c7f553f9b53b0bb47272cd4609e8bcb697c0
+
+Package: libfbclient2
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 851
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.11), firebird2.5-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: Firebird client library
+Homepage: http://firebirdsql.org/
+Description-md5: 5c30c9789eced239012d25cfbe930e20
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/libfbclient2_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 272982
+MD5sum: 3717234ada2ff722b04c5238a6e0362a
+SHA1: c08a06bace59c8321cb9e0f62b70b1c5a3dc91fa
+SHA256: 8f2493bf65030d88b4076ff215e7f0a96a54290861eeac022860ae477151bad5
+
+Package: libfbclient2-dbg
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 5588
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: firebird2.5-super-dbg (<< 2.5.1.26349-0~rc1.ds4-2~)
+Depends: firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2), libfbclient2 (= 2.5.2.26540.ds4-1~deb7u2)
+Breaks: firebird2.5-super-dbg (<< 2.5.1.26349-0~rc1.ds4-2~)
+Description: collected debug symbols for libfbclient2
+Homepage: http://firebirdsql.org/
+Description-md5: 25860ad209311ba8317709a4cd31555d
+Section: debug
+Priority: extra
+Filename: pool/updates/main/f/firebird2.5/libfbclient2-dbg_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 1173376
+MD5sum: e2c6b9b9dec99414a9f3b9f91517eb2f
+SHA1: fc2d9618841c649a85b6f79c4a476ab4ca2e86a8
+SHA256: 10eee107c9738cd9a19672ad66a81d2f21435d25c481f2e719db59a951666272
+
+Package: libfbembed2.5
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 5008
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), libstdc++6 (>= 4.1.1), firebird2.5-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-server-common (= 2.5.2.26540.ds4-1~deb7u2), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: Firebird embedded client/server library
+Homepage: http://firebirdsql.org/
+Description-md5: 43b8c29dcc5e7277bff30f7ca9dde216
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/libfbembed2.5_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 1458702
+MD5sum: 92acdb53cef85dc9367eebc2abdd9e4a
+SHA1: 6688ec6a8e767ec6fe81a1dd118aa404d8acdd23
+SHA256: 3eac9d5743e53836da56acdf0932e667a74eebf538f418c1320508ba6e737bb3
+
+Package: libib-util
+Source: firebird2.5
+Version: 2.5.2.26540.ds4-1~deb7u2
+Installed-Size: 10
+Maintainer: Debian Firebird Group <pkg-firebird-general@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), firebird2.5-common-doc (= 2.5.2.26540.ds4-1~deb7u2)
+Description: Firebird UDF support library
+Homepage: http://firebirdsql.org/
+Description-md5: 8c5d2e24107b9fdfd9da3561630f2e97
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/f/firebird2.5/libib-util_2.5.2.26540.ds4-1~deb7u2_amd64.deb
+Size: 3844
+MD5sum: 679ba5d27dee5726d5eeca77b63d1e0f
+SHA1: cb0dac6d48a3b1470719fa13b9c54b6f47946d7f
+SHA256: 4b65b2d5c3d8fd8e5a41f2ceffd036ec6f329fb2bf0e3b8e07acd1dcd6fa8d9d
+
 Package: flac
 Version: 1.2.1-6+deb7u1
 Installed-Size: 406
@@ -18504,6 +18824,65 @@ MD5sum: 580c42281c91e3105215dbb64ff76113
 SHA1: 4e41f89bb9be7063063a0dd37d56f16caf88e301
 SHA256: 2d85cd6cab05b11a95784bdf70fba87c36865c61ca76da5c405665cdaa83d767
 
+Package: ntp
+Version: 1:4.2.6.p5+dfsg-2+deb7u1
+Installed-Size: 1144
+Maintainer: Debian NTP Team <pkg-ntp-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: adduser, lsb-base (>= 3.2-13), netbase, libc6 (>= 2.12), libcap2 (>= 2.10), libedit2 (>= 2.11-20080614-1), libopts25 (>= 1:5.12), libssl1.0.0 (>= 1.0.0)
+Suggests: ntp-doc
+Breaks: dhcp3-client (<< 4.1.0-1)
+Description: Network Time Protocol daemon and utility programs
+Homepage: http://support.ntp.org/
+Description-md5: 220487bd9eceed70fec6b929cb922fd3
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: perl
+Section: net
+Priority: optional
+Filename: pool/updates/main/n/ntp/ntp_4.2.6.p5+dfsg-2+deb7u1_amd64.deb
+Size: 564536
+MD5sum: fb9c97d11aebe6ffc7ca17cded3031bf
+SHA1: 333f12efe1724e6c04df671acf884f62b6666de7
+SHA256: 64b8921946aa910e28346c6dacfca3b67f3c542e06c7af6ae7c15ebe5ed38c27
+
+Package: ntp-doc
+Source: ntp
+Version: 1:4.2.6.p5+dfsg-2+deb7u1
+Installed-Size: 1765
+Maintainer: Debian NTP Team <pkg-ntp-maintainers@lists.alioth.debian.org>
+Architecture: all
+Description: Network Time Protocol documentation
+Homepage: http://support.ntp.org/
+Description-md5: f5c14d8cbc640d49a5c8a0eeaadac851
+Section: doc
+Priority: optional
+Filename: pool/updates/main/n/ntp/ntp-doc_4.2.6.p5+dfsg-2+deb7u1_all.deb
+Size: 1142974
+MD5sum: 1264edcf4e0a2dc80c1cd08be4c78b6b
+SHA1: c7c077c9dfd1808ead7584502ec933120ea29157
+SHA256: 07850063220217f0b0d026f72acafbb430d325b0af455bc5ee2f38d682578b5d
+
+Package: ntpdate
+Source: ntp
+Version: 1:4.2.6.p5+dfsg-2+deb7u1
+Installed-Size: 148
+Maintainer: Debian NTP Team <pkg-ntp-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: netbase, libc6 (>= 2.4), libssl1.0.0 (>= 1.0.0)
+Breaks: dhcp3-client (<< 4.1.0-1)
+Description: client for setting system time from NTP servers
+Homepage: http://support.ntp.org/
+Description-md5: bab945a5e62017056d52dca74ed20cda
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: lockfile-progs
+Section: net
+Priority: optional
+Filename: pool/updates/main/n/ntp/ntpdate_4.2.6.p5+dfsg-2+deb7u1_amd64.deb
+Size: 82546
+MD5sum: 8acceb267b0e427777433bb60c2c4db5
+SHA1: 6da6449cc306ab2d77c208829c894ccc0e938335
+SHA256: a1ee9d2bd293a124b75105fb3c024a03a72f82f9092ab29aeb812117aa600b87
+
 Package: libafsauthent1
 Source: openafs
 Version: 1.6.1-3+deb7u2
@@ -24341,8 +24720,8 @@ SHA256: 375a1f6d2ea642877553f7b34e6cc654b91298a342d973b13ed030892dc355ec
 
 Package: libapache2-svn
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 346
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 286
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Depends: apache2.2-common, libc6 (>= 2.3), libsvn1 (>= 1.6)
@@ -24352,35 +24731,35 @@ Homepage: http://subversion.apache.org/
 Description-md5: b625db8216427c04f0c7991a6ef7a5be
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/subversion/libapache2-svn_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 173216
-MD5sum: a9a9f738c3ed958cc1db70c3bfca3597
-SHA1: a1d3e040810a467f724378a2be096e892e8bf008
-SHA256: f7370c4b85b8950e35b574b36dda186d845e535292f2ef75a65e82336e6676ac
+Filename: pool/updates/main/s/subversion/libapache2-svn_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 173482
+MD5sum: cf14903576acd5a5d887c6cbbde3a92c
+SHA1: e808daf55e0e09270560df8773cfb29a4309ff07
+SHA256: 5b47fb9d5d3a45dee8cc8d3c330648479caa6882dc4477cec592fe8750e66b22
 
 Package: libsvn-dev
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 4405
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 4371
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1-dev, libaprutil1-dev
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u8), libapr1-dev, libaprutil1-dev
 Suggests: libsvn-doc, zlib1g-dev, libneon27-gnutls-dev
 Description: Development files for Subversion libraries
 Homepage: http://subversion.apache.org/
 Description-md5: 8e9e34c74ef113c2db3c8937e66839cf
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/s/subversion/libsvn-dev_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 1304348
-MD5sum: 5f7847fe3c12d3e4d1cafc6bff180332
-SHA1: 25bcd19d0d39894d11a7e4b1c9e6dff9d2cfb3ac
-SHA256: e206d8d868e977e03b45c6b6c8d3388a6eb9ec89b52d81c2eced166bf685ff45
+Filename: pool/updates/main/s/subversion/libsvn-dev_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 1302046
+MD5sum: 9c6f474f3cd57846e66ea1f8c6e39176
+SHA1: d0f836cef70097f5b2df70f6f5c9396684b4d281
+SHA256: 7c6b9f293f24a32492e7afb24d1845c42ca9b1aacc72b596bb4206adf4a647c0
 
 Package: libsvn-doc
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 15066
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 15026
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
 Suggests: libsvn-dev
@@ -24389,34 +24768,34 @@ Homepage: http://subversion.apache.org/
 Description-md5: 18d9d88327d966dec100752fa09fc916
 Section: doc
 Priority: extra
-Filename: pool/updates/main/s/subversion/libsvn-doc_1.6.17dfsg-4+deb7u7_all.deb
-Size: 2083570
-MD5sum: be101d2086d77a36d46d920b1ca3db3e
-SHA1: d55d0c2e0436106bfd2f610fcd45db17e02c1f76
-SHA256: c22e0c66db69ef1ffdbf8fc9c69f60fb6018ce3321ad3b37afa2976bf33ee595
+Filename: pool/updates/main/s/subversion/libsvn-doc_1.6.17dfsg-4+deb7u8_all.deb
+Size: 1990706
+MD5sum: 4d5b5a6892b93bfb0b065d0a66ebc91a
+SHA1: bfa455814289aadb5498ad3d47c0043de2c81340
+SHA256: 8aee54df7db7edd184a4b45c314a7ff2c74271798168451dd0d3acf6b83d155a
 
 Package: libsvn-java
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 514
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 474
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1 (>= 1.2.7), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u8), libapr1 (>= 1.2.7), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
 Description: Java bindings for Subversion
 Homepage: http://subversion.apache.org/
 Description-md5: 29d394313a54fa67a769cfba1440f2d1
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-java_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 306250
-MD5sum: 021d4f9ca4cb04c783c69ff9cda6b7b7
-SHA1: 7353903903d6d17b2cdabceb53618a801b60658b
-SHA256: 6eb79442234e26a374e1d31ccff4e0745d275b533a9ee0435f4304abf5e72d26
+Filename: pool/updates/main/s/subversion/libsvn-java_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 306304
+MD5sum: 3b24f6295e092f7008f9ac915a7eac24
+SHA1: 03d3216a6c7bab9d50786d7f7dddb347b2b69451
+SHA256: 95c1fd7b79789f40600ec76fbdef4bc2868815f1fcaceff32d958535e0c71d5d
 
 Package: libsvn-perl
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 3689
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 3602
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Depends: perl (>= 5.14.2-21+deb7u2), perlapi-5.14.2, libapr1 (>= 1.2.7), libc6 (>= 2.4), libsvn1 (>= 1.6)
@@ -24426,16 +24805,16 @@ Description-md5: 457ae508482666443880fe8931bfa396
 Pre-Depends: multiarch-support
 Section: perl
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-perl_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 1082936
-MD5sum: 11ee3d11507682a426f629214cf6ba77
-SHA1: b751a769782412f93c13dc6c52605c70973bd7c6
-SHA256: 78ea8057298aa7f1a84e8e555ebc46469fbc08f4ca31412fb225069577a4027a
+Filename: pool/updates/main/s/subversion/libsvn-perl_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 1082952
+MD5sum: 369e5adde09383108b7e225ffada8210
+SHA1: a6d101104295a713fa6d2c27fd857df4374c3c6f
+SHA256: 1f47c4ade833a1ddcb40dde5bc3cf7e8e25e5eb004f943df991816d546e841b3
 
 Package: libsvn-ruby
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 21
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 1
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
 Depends: libsvn-ruby1.8
@@ -24444,16 +24823,16 @@ Homepage: http://subversion.apache.org/
 Description-md5: e34544dc883f31936268c3982b4cb2cd
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-ruby_1.6.17dfsg-4+deb7u7_all.deb
-Size: 764
-MD5sum: 30a7d3d8c03cdea93bba773274823a6b
-SHA1: 591755909aa4b7ab3f96908bb4c4392c71a9f954
-SHA256: c634e35a026c4e4123652fb5d5c69f263befd9fb2aa7cbeab9580fac743a3398
+Filename: pool/updates/main/s/subversion/libsvn-ruby_1.6.17dfsg-4+deb7u8_all.deb
+Size: 766
+MD5sum: 8aaf8f314a484990bf457f9cfae382e8
+SHA1: bf0af3fd89ba38ca289fb79901c315b1435836e3
+SHA256: 65502386a6c37d4e61e87f466646342fcb4a9c7b088516bc7d6a03d153bdb95d
 
 Package: libsvn-ruby1.8
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 1948
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 1881
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Depends: ruby1.8, libapr1 (>= 1.2.7), libc6 (>= 2.2.5), libruby1.8 (>= 1.8.7.357-1), libsvn1 (>= 1.6)
@@ -24464,16 +24843,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn-ruby1.8_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 627994
-MD5sum: 5538c7e3d0d7bf526070515d27a2168d
-SHA1: 9a6b2fd83e70ba68b870cadadc74fcaffaf038c1
-SHA256: 039f10d8e6cee922d07b1d8cfae93ad845935dc7003862b934e2f6fc926c694c
+Filename: pool/updates/main/s/subversion/libsvn-ruby1.8_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 628512
+MD5sum: 621b0ae33036456ed5e932f8d460a2c9
+SHA1: ce9133c0a72b7006f22787c5ee61bb3d108176b1
+SHA256: ba6b650eb1c7782a15aaa5df2c0b046256b1b6ebad3093c7de3a7f401778b249
 
 Package: libsvn1
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 2138
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 2099
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Depends: libapr1 (>= 1.3.2), libaprutil1 (>= 1.4.0), libc6 (>= 2.3), libdb5.1, libldap-2.4-2 (>= 2.4.7), libneon27-gnutls, libsasl2-2 (>= 2.1.24), libsqlite3-0 (>= 3.6.0), zlib1g (>= 1:1.1.4)
@@ -24484,16 +24863,16 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/s/subversion/libsvn1_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 934840
-MD5sum: 320b881ca629a182c4a606a7712a8a6d
-SHA1: 665796984faf7f44eb0d4c92a5dc4a3115d82a4e
-SHA256: c6940853953065bd1182ac24621b2fa2269b0dd23e2f6e886dbe842afb4fc535
+Filename: pool/updates/main/s/subversion/libsvn1_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 934880
+MD5sum: 47721c1ed94c3c9b2a13173dc4c8840c
+SHA1: 6f0526f2c59440a127792798f6ec2ca2e64d434a
+SHA256: 05738ecea7a6a8f4022b39031a46ef0b7c842c71004f021f77e7113f532ede74
 
 Package: python-subversion
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 5496
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 5417
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
 Provides: python2.6-subversion, python2.7-subversion
@@ -24505,34 +24884,34 @@ Pre-Depends: multiarch-support
 Python-Version: 2.6, 2.7
 Section: python
 Priority: optional
-Filename: pool/updates/main/s/subversion/python-subversion_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 1340300
-MD5sum: dd7a9f5ea3956c330349cd7e7d47c04b
-SHA1: 6e3e581659501cfc3a087aa0d18c62e4b4d59d24
-SHA256: f0e8965d7e23cd56adce1fe614ba0d81d89b1b8d73ec267b67933c814409dd93
+Filename: pool/updates/main/s/subversion/python-subversion_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 1342024
+MD5sum: 51b18730db4e8aa7314486b293334ad3
+SHA1: ef7d4a83124f340bd98955ec2ed6fd453d6b2b6a
+SHA256: 8cec076deb847cd15bd00fd7dc0f3b43f88f6f5e98f3a873d7d717b9b2852bc0
 
 Package: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 4108
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 3941
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: amd64
-Depends: libsvn1 (= 1.6.17dfsg-4+deb7u7), libapr1 (>= 1.2.7), libc6 (>= 2.3), libsasl2-2 (>= 2.1.24)
+Depends: libsvn1 (= 1.6.17dfsg-4+deb7u8), libapr1 (>= 1.2.7), libc6 (>= 2.3), libsasl2-2 (>= 2.1.24)
 Suggests: subversion-tools, db5.1-util, patch
 Description: Advanced version control system
 Homepage: http://subversion.apache.org/
 Description-md5: 15da1bb51fb2e9ea5e25b3a489b864d9
 Section: devel
 Priority: optional
-Filename: pool/updates/main/s/subversion/subversion_1.6.17dfsg-4+deb7u7_amd64.deb
-Size: 1317528
-MD5sum: 07a19a5bb5ccf5065d4a8c525ba8dea2
-SHA1: a0f026ecfd6d850978ae97a34658d9c80db48a9b
-SHA256: 5e08d8a7b0a3c743fd80a11c73024b1fed91544e49b7e02642000a8d63813cce
+Filename: pool/updates/main/s/subversion/subversion_1.6.17dfsg-4+deb7u8_amd64.deb
+Size: 1316458
+MD5sum: 8cc41abe9f09735edbc8fa2a42543315
+SHA1: 6e9889c089f1a989f1119116d96baa6f6ab9159c
+SHA256: 44cf0f20989d22d7c22431f5844a4def8c0c73c940899c347789dba0270f27cd
 
 Package: subversion-tools
 Source: subversion
-Version: 1.6.17dfsg-4+deb7u7
-Installed-Size: 577
+Version: 1.6.17dfsg-4+deb7u8
+Installed-Size: 522
 Maintainer: Peter Samuelson <peter@p12n.org>
 Architecture: all
 Depends: subversion (>= 1.5)
@@ -24543,11 +24922,11 @@ Description-md5: 8eaf8a6c9de65fb18536b0cebf8e7184
 Recommends: python-subversion (>= 1.5), libsvn-perl (>= 1.5), libconfig-inifiles-perl, liburi-perl, exim4 | mail-transport-agent, xsltproc, rsync
 Section: admin
 Priority: extra
-Filename: pool/updates/main/s/subversion/subversion-tools_1.6.17dfsg-4+deb7u7_all.deb
-Size: 222108
-MD5sum: 912741f6927e3fb81b9a46e24f65ad41
-SHA1: 3267a94737131a88c4ed9523c4a529d2f1dd97db
-SHA256: 390bfbf44c19d46530596fd6a9a444377da638af091741cf417ab56b4059f3ac
+Filename: pool/updates/main/s/subversion/subversion-tools_1.6.17dfsg-4+deb7u8_all.deb
+Size: 223156
+MD5sum: 07ed29807a2b87913318d4bcb6436b72
+SHA1: eececf6f50eb09e17f9c23d83b2ce2fd8d5560db
+SHA256: 653ef4984a8ad9728c61ec694a90353da0ca2ccd0e74a8cc4c8855123fbe5a75
 
 Package: sup-mail
 Version: 0.12.1+git20120407.aaa852f-1+deb7u1
