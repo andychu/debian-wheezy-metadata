@@ -3,8 +3,8 @@ Label: Debian-Security
 Suite: stable
 Version: 7.0
 Codename: wheezy
-Date: Sun, 21 Dec 2014 12:12:07 UTC
-Valid-Until: Wed, 31 Dec 2014 12:12:07 UTC
+Date: Mon, 22 Dec 2014 00:52:20 UTC
+Valid-Until: Thu, 01 Jan 2015 00:52:20 UTC
 Architectures: amd64 armel armhf i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 Components: updates/main updates/contrib updates/non-free
 Description: Debian 7.0 Security Updates
@@ -127,9 +127,9 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e        0 contrib/source/Sources
  4059d198768f9f8dc9372dc1c54bc3c3       14 contrib/source/Sources.bz2
  4a4dd3598707603b3f76a2378a4504aa       20 contrib/source/Sources.gz
- 79f307a7dfc04f1c2ee92d8054f28742   548794 main/binary-all/Packages
- d28affc6fcd25d6881429410c2a7c30e   101340 main/binary-all/Packages.bz2
- f7541c3a01911d553a6b851d9dda227f   121527 main/binary-all/Packages.gz
+ bdca84fabb69d369b1eed6a9c7f41819   546798 main/binary-all/Packages
+ 87d48778ab18abd3dca2b7be5dc499fd   100956 main/binary-all/Packages.bz2
+ 5b225eec4d4b11478088c53cec134863   121168 main/binary-all/Packages.gz
  64c60b3e00ff791c06c56b7ff83dee7e       97 main/binary-all/Release
  b00368b8db8c364fb5c49506c8dcea4f  1164542 main/binary-amd64/Packages
  2183e95584d73cbf44711a3b47d11572   230317 main/binary-amd64/Packages.bz2
@@ -179,9 +179,9 @@ MD5Sum:
  86a69f52c6ac78c3aba9ecadd6d4b2d2   222199 main/binary-s390x/Packages.bz2
  28d089498dde9b80966fc94022dd8b6e   276712 main/binary-s390x/Packages.gz
  137aae6d1f3eb545daf0119c36370476       99 main/binary-s390x/Release
- 51705d098f068fac6084bd21baeb7f12  1110219 main/binary-sparc/Packages
- 9f97815578ba76980dfa6b8385fcfbb2   219751 main/binary-sparc/Packages.bz2
- fb453492f72ab965f7533d22272e9088   272937 main/binary-sparc/Packages.gz
+ c6a65e2f645735165303224c6d19a88f  1123893 main/binary-sparc/Packages
+ 79177c3b6fa0534e85bc1d0392da83c2   222108 main/binary-sparc/Packages.bz2
+ fd8a2bf671d9550cd4cf366d954a010a   275680 main/binary-sparc/Packages.gz
  7a597671caf089386c6ae0c62715c730       99 main/binary-sparc/Release
  d41d8cd98f00b204e9800998ecf8427e        0 main/debian-installer/binary-all/Packages
  4059d198768f9f8dc9372dc1c54bc3c3       14 main/debian-installer/binary-all/Packages.bz2
@@ -242,9 +242,9 @@ MD5Sum:
  64248a686654f0f77646a222aac3c752   785073 main/i18n/Translation-en
  94c129080a89e6b76d760e7cd2428f65   131332 main/i18n/Translation-en.bz2
  055946fede5c13e49af442c5b8b6f91a      100 main/source/Release
- 3a0791e11a8346efcb8d93ac2031fdbb   784208 main/source/Sources
- 6f66b4fe1a9024304f2e49efc2c8158e   144567 main/source/Sources.bz2
- 3eae911e7175fe953b780dcb319de0a1   192232 main/source/Sources.gz
+ 6a4f72272bc8cd347bb565185a8c9f24   781818 main/source/Sources
+ 722eba7fd9dced6b84461a96ad9efdd8   144305 main/source/Sources.bz2
+ 56f740dd3f3346652610e0b495874b52   192014 main/source/Sources.gz
  d41d8cd98f00b204e9800998ecf8427e        0 non-free/binary-all/Packages
  4059d198768f9f8dc9372dc1c54bc3c3       14 non-free/binary-all/Packages.bz2
  4a4dd3598707603b3f76a2378a4504aa       20 non-free/binary-all/Packages.gz
@@ -482,9 +482,9 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 contrib/source/Sources
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2       14 contrib/source/Sources.bz2
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 contrib/source/Sources.gz
- 6fdbcf2be8f247b028b2a5bed8dce36fb52f3278   548794 main/binary-all/Packages
- b89bfa6688e2b06f3d681d53ab2908ca8cc84d5e   101340 main/binary-all/Packages.bz2
- 2b195a0bd3a20e16980f2f9a975f8a562ba7249c   121527 main/binary-all/Packages.gz
+ 6b73867f514696326064f2a0d57d0b195bb5e55f   546798 main/binary-all/Packages
+ 37522c9aea1eba1987ec301063799090fe4874d4   100956 main/binary-all/Packages.bz2
+ 5bed8b65c28d60488bc3dfa2e353357512ebddc7   121168 main/binary-all/Packages.gz
  adfcb50c0428a6c73505d04c4db63293139970f0       97 main/binary-all/Release
  a803553f50c1d17fbe959a4b5c0ab83bba44c88e  1164542 main/binary-amd64/Packages
  ff0214b4ecacea5ca022b9841d2be0d2fbcb8c38   230317 main/binary-amd64/Packages.bz2
@@ -534,9 +534,9 @@ SHA1:
  c8ca542d1a7285330fb6c1dfbf5fea680d27004c   222199 main/binary-s390x/Packages.bz2
  83a2944f1f7c99d2a9da9a5e0e1d8539b49ad64c   276712 main/binary-s390x/Packages.gz
  16b97a0781619fe8ef139c17e295229a46e78630       99 main/binary-s390x/Release
- 557334d82a5426caac99100a245bdf75e2553331  1110219 main/binary-sparc/Packages
- 5a7a214058b6636b6c595af234347ac8c91baaf5   219751 main/binary-sparc/Packages.bz2
- 3e83a185bcb08ca733cf1469e83f946393a67631   272937 main/binary-sparc/Packages.gz
+ a506026468d1cb559c285d3022dfb37f1e009204  1123893 main/binary-sparc/Packages
+ 73a548439b976816c93edb2bab4fda347f3d354a   222108 main/binary-sparc/Packages.bz2
+ ed3a3dcaccc92efdefba50293fdb8363e513d821   275680 main/binary-sparc/Packages.gz
  00ada40d0c7f23cf1a9b8b710f621c52d86fc60a       99 main/binary-sparc/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 main/debian-installer/binary-all/Packages
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2       14 main/debian-installer/binary-all/Packages.bz2
@@ -597,9 +597,9 @@ SHA1:
  85682935069a598362da1e10c892429772d4cba2   785073 main/i18n/Translation-en
  bd2ba5296284e01a63f3d622b452248a086f2d6f   131332 main/i18n/Translation-en.bz2
  c2034a9ac76d914a1addf3589b622a54fc44b4d3      100 main/source/Release
- 86214ca3db161b38db4d6f799f2182515d66a598   784208 main/source/Sources
- 6a10e3cc974e188dd259be051ce533361d567cb5   144567 main/source/Sources.bz2
- c699ee7ec02804a324aca4d0726fba2df2d9b6cf   192232 main/source/Sources.gz
+ 19c325f17e1233546f75be9377a3bc1c068d9b3e   781818 main/source/Sources
+ 2c52798daf7d12f713d5bbf19508e3a264d9ac62   144305 main/source/Sources.bz2
+ bbf3da9f6cf51ff78fb919f6368ee6e07e1d3809   192014 main/source/Sources.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709        0 non-free/binary-all/Packages
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2       14 non-free/binary-all/Packages.bz2
  a0fddd5458378c1bf3c10dd2f5c060d1347741ed       20 non-free/binary-all/Packages.gz
@@ -837,9 +837,9 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 contrib/source/Sources
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058       14 contrib/source/Sources.bz2
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 contrib/source/Sources.gz
- c1b0c2618107dfec6c644fb7930cdbf073d673be90b489ee3dea2850c85f480b   548794 main/binary-all/Packages
- 506b1e116c6ef8e6706ea7006e204c651a499a8c55739b8c069f4b64ff0727e9   101340 main/binary-all/Packages.bz2
- c29d226299997dfd4de04b8a609f2e3e560fa3efdb2a971abe073f1e844e265f   121527 main/binary-all/Packages.gz
+ 81fa60b070adbc15f678d88ca979b55260a1aadb307d2c6ba604c746b628fac3   546798 main/binary-all/Packages
+ edcd82a86a7fe5e72c31ce14152880ccbd3592d6719b03d88fecaffe5ca5e880   100956 main/binary-all/Packages.bz2
+ 9d6e21544d56477e9654786579e05ad9cf6467cd523b7f632458724bdc75224a   121168 main/binary-all/Packages.gz
  3095f0b4e001ecfc3f54785f9c19ec115cebc9f708d3567b7a30d70d834bac9a       97 main/binary-all/Release
  6af831654c808ec70f841dac5faa269d36746f4174095994d85aeb4ddebadbaf  1164542 main/binary-amd64/Packages
  2d3ded41d8290e52f1db6053c015473996b6b4908c71a3f097045ee9f1a45781   230317 main/binary-amd64/Packages.bz2
@@ -889,9 +889,9 @@ SHA256:
  5c8e6925336ae7d86468545e3865654b705199326e6717e77621daf7ccf7facb   222199 main/binary-s390x/Packages.bz2
  b8b009588a00550f48bf57d42b252187a5ee5fbfad55a31b73e364146bb2e54c   276712 main/binary-s390x/Packages.gz
  88cca5bac0c86682169d0c5d370915e71b661ea866a0338cfe555765f70d3934       99 main/binary-s390x/Release
- b4f6be00a25ca053fa181bbe98f0fc68d8f8cff40898ff90512db45f0905a3c9  1110219 main/binary-sparc/Packages
- ada01d1dc7c3e81e2206b17c2e509ee172a6acd7233d70da2a13975e396c5d44   219751 main/binary-sparc/Packages.bz2
- ecfa80bb2550075c833250f3988ef278923edd91e662aaeb5fb6da7c2433761a   272937 main/binary-sparc/Packages.gz
+ 28289b3278aa175b9ffa21473aaa42cf6bceca360180352c8e6893b5f4f3b3f4  1123893 main/binary-sparc/Packages
+ d83a69b56a4682c2061fb6b84b4fd1eb0a4a65e683b0fa077dcf5c05f0a7f0fc   222108 main/binary-sparc/Packages.bz2
+ 276ebfa02eda1e8233619c5a3929d78a8a639a23b1c3cb426b623a9e738141de   275680 main/binary-sparc/Packages.gz
  9e002ad637c8ebc8d7ad8cc771df1ca62f9f525d97028f8807699cd496929166       99 main/binary-sparc/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 main/debian-installer/binary-all/Packages
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058       14 main/debian-installer/binary-all/Packages.bz2
@@ -952,9 +952,9 @@ SHA256:
  466eaa7fb3d547b7b1542775363484d3f39a1d612d3fdffee431f3ba00a0df66   785073 main/i18n/Translation-en
  09c5b1dca3bb32d1ec60d1ff59a58cf4a90acc8d6b353f0785216d48914f4597   131332 main/i18n/Translation-en.bz2
  b8b4789f90c6e0d7d8c4a926fa149ed5cfb55f96c34bcd16794edfb97161a85d      100 main/source/Release
- 126d5a7b62f7e4d344f70bb220c8e89c1fd3a2ab9a9b0aab0d9991f22ee84ef4   784208 main/source/Sources
- 6ad67a5d6d644a8193f78544c21a2ab7d4059979de16f943db393aaa68f31f06   144567 main/source/Sources.bz2
- 098f2a3324f7ae8588539fc1cd4476550c166a7294db559c85f4824ce7073624   192232 main/source/Sources.gz
+ 5bd3c4c2252023abe304c15527f9ccebd9abfa3d565d604e76fca49c08130aac   781818 main/source/Sources
+ cdf6374da3f0852180f2b0734fe6772d4d838c91120fd59c4f1393b210f00319   144305 main/source/Sources.bz2
+ daf4aac99e8df31847154e3acb4e2fd64ed98e4cfa0c201b82b94329104e14fd   192014 main/source/Sources.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 non-free/binary-all/Packages
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058       14 non-free/binary-all/Packages.bz2
  f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec       20 non-free/binary-all/Packages.gz

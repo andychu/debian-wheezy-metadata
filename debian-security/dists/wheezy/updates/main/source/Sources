@@ -10663,48 +10663,6 @@ Section: net
 
 Package: subversion
 Binary: subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, libsvn-ruby1.8, libsvn-ruby
-Version: 1.6.17dfsg-4+deb7u7
-Maintainer: Peter Samuelson <peter@p12n.org>
-Uploaders: Troy Heber <troyh@debian.org>, Guilherme de S. Pastore <gpastore@debian.org>
-Build-Depends: debhelper, libneon27-gnutls-dev, zlib1g-dev, libapr1-dev, libaprutil1-dev, libdb5.1-dev, libsasl2-dev, apache2-threaded-dev, libsqlite3-dev (>= 3.4), libgnome-keyring-dev, libdbus-1-dev, kdelibs5-dev, quilt, doxygen, autotools-dev, autoconf, libtool, swig, python-all-dev, python-support, perl, libperl-dev, ruby1.8, ruby1.8-dev, gcj-jdk (>= 4:4.4) [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386], junit [!alpha !arm !hppa !m68k !mips !mipsel !hurd-i386]
-Architecture: any all
-Standards-Version: 3.9.3
-Format: 1.0
-Files:
- 6a0fcfeb1315c6e5c74cbd3bc1c12603 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
- 2bb85bcf6f1fb1ccec11dc2b4c89463b 7757112 subversion_1.6.17dfsg.orig.tar.gz
- 3a56bb4b9a8c33d7a8b56907bc42ca3b 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-subversion/src/1.6.x/
-Checksums-Sha1:
- 5155fe297749bbbc47ff130527f1c95995861c1c 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
- e353f97fdeb6aefa37c6db45e8c22c4205cef4b7 7757112 subversion_1.6.17dfsg.orig.tar.gz
- 1fa5a3dea7ca8e6dda01d37e35a7818514c18625 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
-Checksums-Sha256:
- b493fdb5551bbe320223d984883989a227ba65816bd65bfafc20eb46400f5ade 3054 subversion_1.6.17dfsg-4+deb7u7.dsc
- 45a8a067b65cfe5326f9676f991d82f39d67f8309c35e58f67e689eb702679d0 7757112 subversion_1.6.17dfsg.orig.tar.gz
- 7b6002e49ba17429a1c5a26dbfd7b97fcf081d68522164a2aa675863a39f1f72 115037 subversion_1.6.17dfsg-4+deb7u7.diff.gz
-Homepage: http://subversion.apache.org/
-Build-Conflicts: libsvn-dev (<< 1.6)
-Package-List: 
- libapache2-svn deb httpd optional
- libsvn-dev deb libdevel extra
- libsvn-doc deb doc extra
- libsvn-java deb java optional
- libsvn-perl deb perl optional
- libsvn-ruby deb ruby optional
- libsvn-ruby1.8 deb ruby optional
- libsvn1 deb vcs optional
- python-subversion deb python optional
- subversion deb vcs optional
- subversion-tools deb vcs extra
-Python-Version: >= 2.4, << 3.0
-Vcs-Svn: svn://svn.debian.org/pkg-subversion/src/1.6.x/
-Directory: pool/updates/main/s/subversion
-Priority: source
-Section: devel
-
-Package: subversion
-Binary: subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-svn, python-subversion, subversion-tools, libsvn-java, libsvn-perl, libsvn-ruby1.8, libsvn-ruby
 Version: 1.6.17dfsg-4+deb7u8
 Maintainer: Peter Samuelson <peter@p12n.org>
 Uploaders: Troy Heber <troyh@debian.org>, Guilherme de S. Pastore <gpastore@debian.org>
