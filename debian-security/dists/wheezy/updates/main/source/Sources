@@ -467,6 +467,38 @@ Directory: pool/updates/main/c/chrony
 Priority: source
 Section: admin
 
+Package: cpio
+Binary: cpio, cpio-win32
+Version: 2.11+dfsg-0.1+deb7u1
+Maintainer: Ruben Molina <rmolina@udea.edu.co>
+Uploaders: Anibal Monsalve Salazar <anibal@debian.org>
+Build-Depends: texinfo, gettext
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 3da368e4fd21da864005e43382948a2f 2662 cpio_2.11+dfsg-0.1+deb7u1.dsc
+ 54d2f3b3561c3a1ca2c192e94f00bc38 802940 cpio_2.11+dfsg.orig.tar.xz
+ ab9ccc32777bb208463e32afa596530f 16920 cpio_2.11+dfsg-0.1+deb7u1.debian.tar.bz2
+Vcs-Browser: http://git.debian.org/?p=private/schizo/cpio/.git
+Vcs-Git: git://git.debian.org/git/private/schizo/cpio
+Checksums-Sha1:
+ fe0fddb16f429b9ac9a7bd5f5a13aacbba8bf49c 2662 cpio_2.11+dfsg-0.1+deb7u1.dsc
+ db17d80369acf691611a38979f42f31e47ee6fac 802940 cpio_2.11+dfsg.orig.tar.xz
+ 7dcc907431eeb277cca0bdf647e1734ced440dc3 16920 cpio_2.11+dfsg-0.1+deb7u1.debian.tar.bz2
+Checksums-Sha256:
+ e67f415ff3608fe2f82f4c8d4cc7a9c00ee3fa6eb3aa0bbf4967334f6bd432fd 2662 cpio_2.11+dfsg-0.1+deb7u1.dsc
+ f3208df43692895e1ff84cb7625c6cc27b431c9a321fe414faed402b70660cd0 802940 cpio_2.11+dfsg.orig.tar.xz
+ af7d3c420273e5267542662bb6e8ec965db40dfd3e5d9f5cff31cc445015ae6b 16920 cpio_2.11+dfsg-0.1+deb7u1.debian.tar.bz2
+Homepage: http://www.gnu.org/software/cpio/
+Build-Depends-Indep: mingw32
+Package-List: 
+ cpio deb utils important
+ cpio-win32 deb utils extra
+Directory: pool/updates/main/c/cpio
+Priority: source
+Section: utils
+
 Package: cups
 Binary: libcups2, libcupsimage2, libcupscgi1, libcupsdriver1, libcupsmime1, libcupsppdc1, cups, cups-client, libcups2-dev, libcupsimage2-dev, libcupscgi1-dev, libcupsdriver1-dev, libcupsmime1-dev, libcupsppdc1-dev, cups-bsd, cups-common, cups-ppdc, cups-dbg, cupsddk
 Version: 1.5.3-5+deb7u4
@@ -7782,7 +7814,7 @@ Section: web
 
 Package: mediawiki
 Binary: mediawiki
-Version: 1:1.19.20+dfsg-0+deb7u2
+Version: 1:1.19.20+dfsg-0+deb7u3
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Uploaders: Jonathan Wiltshire <jmw@debian.org>, Thorsten Glaser <tg@mirbsd.de>
 Build-Depends: debhelper (>= 9), dh-buildinfo, ocaml-nox | ocaml, xsltproc, docbook-xml, docbook-xsl, po-debconf
@@ -7790,18 +7822,18 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 88975aecb78c3d75419308e33ad961ce 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
+ fe7ea495c784a7141012fb1bef3dfc59 1789 mediawiki_1.19.20+dfsg-0+deb7u3.dsc
  bfd6477e017ae32c787d16adddac66a2 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- 1da0cef9bd0c4a3f1c249986ddeb9cfc 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
+ 8e4ee6766d04bbfa14ea812e471d3b5a 68253 mediawiki_1.19.20+dfsg-0+deb7u3.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-mediawiki/mediawiki/branches/wheezy/
 Checksums-Sha1:
- 1025444332714ba9231bdf73bbb8f96136adc411 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
+ f7a971ea41b6d38d54038be2197b6f801c57bee9 1789 mediawiki_1.19.20+dfsg-0+deb7u3.dsc
  d6f73d41b4c1cdc88870dadfc32405f7f149c054 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- 5591bec737c71a0e5aa1862d4f0415658700e06d 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
+ 23e1e541bd8f503f1d57974225b2d195ffd8b27f 68253 mediawiki_1.19.20+dfsg-0+deb7u3.debian.tar.gz
 Checksums-Sha256:
- 510ec65ca1687a629fd67c88a131760948944068ad8e936a5ff54e8ba7e7064d 1789 mediawiki_1.19.20+dfsg-0+deb7u2.dsc
+ 4c986e5c42b8c64c3bcdff18aa8ec46fd53bf33ca68677623889bd71cdc9dce2 1789 mediawiki_1.19.20+dfsg-0+deb7u3.dsc
  0c263ad5e869bbb94c5d4901f89795c52a45fc59a7c6b2fbcac67a9935f3c544 11632368 mediawiki_1.19.20+dfsg.orig.tar.xz
- 5d9bd2a280600e065ed0fd1a32891057f4bb8be06e6cf25ff76b890bbe4ba14e 67412 mediawiki_1.19.20+dfsg-0+deb7u2.debian.tar.gz
+ d59f8f9278ee62540e012e7b52a4d86f691ebc7bd978c794f6d811265d88e34d 68253 mediawiki_1.19.20+dfsg-0+deb7u3.debian.tar.gz
 Homepage: http://www.mediawiki.org/
 Package-List: 
  mediawiki deb web optional
@@ -10500,6 +10532,43 @@ Vcs-Svn: svn://svn.debian.org/svn/pkg-samba/trunk/samba
 Directory: pool/updates/main/s/samba
 Priority: source
 Section: net
+
+Package: sox
+Binary: sox, libsox2, libsox-fmt-base, libsox-fmt-alsa, libsox-fmt-ao, libsox-fmt-ffmpeg, libsox-fmt-mp3, libsox-fmt-oss, libsox-fmt-pulse, libsox-fmt-all, libsox-dev
+Version: 14.4.0-3+deb7u1
+Maintainer: Pascal Giard <pascal@debian.org>
+Build-Depends: cdbs, debhelper (>= 7), ladspa-sdk, libao-dev, libasound2-dev [linux-any], libavcodec-dev (>= 4:0.6.0), libavformat-dev, libavutil-dev, libgsm1-dev, libid3tag0-dev, libltdl3-dev, libmad0-dev, libmagic-dev, libmp3lame-dev, libopencore-amrnb-dev, libopencore-amrwb-dev, libpng-dev, libpulse-dev, libsamplerate0-dev, libsndfile1-dev (>= 1.0.12), libtwolame-dev, libvorbis-dev, libwavpack-dev
+Architecture: any
+Standards-Version: 3.9.1
+Format: 1.0
+Files:
+ 5b725cb02e9740e62ab16a5d4df0f01a 2625 sox_14.4.0-3+deb7u1.dsc
+ 42ede45f3cfc48aa97eb9daccedc9b3c 1104124 sox_14.4.0.orig.tar.gz
+ 1fcf5ee7b8ccb6c4713d05b991272e60 13881 sox_14.4.0-3+deb7u1.diff.gz
+Checksums-Sha1:
+ 38f8a7a4d4e81a904321cd9601e0f5d4bc9bd6a7 2625 sox_14.4.0-3+deb7u1.dsc
+ 5a47eee52dc81269eaa17c2f0526e700611e9297 1104124 sox_14.4.0.orig.tar.gz
+ 887cd76e27b40f5db5198e7c8a6bc40ba7aff7ce 13881 sox_14.4.0-3+deb7u1.diff.gz
+Checksums-Sha256:
+ dbf4358079a5c6d87bff7d251af0c80df27ca59c3fa76c9c4bbb33970f579f7c 2625 sox_14.4.0-3+deb7u1.dsc
+ 2ba4d9f4ce7c0e38417a385902e6396eb8e94867659316679ddab1e100b8cb7d 1104124 sox_14.4.0.orig.tar.gz
+ 58b2eba60a39a80772868ab9c94f0d991577b211711f2e5a93b94ed75a247234 13881 sox_14.4.0-3+deb7u1.diff.gz
+Homepage: http://sox.sourceforge.net
+Package-List: 
+ libsox-dev deb libdevel optional arch=any
+ libsox-fmt-all deb sound optional arch=any
+ libsox-fmt-alsa deb sound optional arch=linux-any
+ libsox-fmt-ao deb sound optional arch=any
+ libsox-fmt-base deb sound optional arch=any
+ libsox-fmt-ffmpeg deb sound optional arch=any
+ libsox-fmt-mp3 deb sound optional arch=any
+ libsox-fmt-oss deb sound optional arch=any
+ libsox-fmt-pulse deb sound optional arch=any
+ libsox2 deb sound optional arch=any
+ sox deb sound optional arch=any
+Directory: pool/updates/main/s/sox
+Priority: source
+Section: sound
 
 Package: spice
 Binary: spice-client, libspice-server1, libspice-server-dev

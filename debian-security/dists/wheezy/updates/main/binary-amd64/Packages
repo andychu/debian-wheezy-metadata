@@ -1430,6 +1430,44 @@ MD5sum: 73bbec58d3448be0f7f47ab3e9a87713
 SHA1: 6941bf3bb553d2f7d33e178dc8e179de20633efa
 SHA256: 49fc703d4f93f9443d82b65078eb16643ebc6506dd03209c3f532e1015b52576
 
+Package: cpio
+Version: 2.11+dfsg-0.1+deb7u1
+Installed-Size: 640
+Maintainer: Ruben Molina <rmolina@udea.edu.co>
+Architecture: amd64
+Replaces: cpio-mt
+Depends: libc6 (>= 2.6), dpkg (>= 1.15.4) | install-info
+Suggests: libarchive1
+Conflicts: cpio-mt, mt-st (<< 0.6)
+Description: GNU cpio -- a program to manage archives of files
+Homepage: http://www.gnu.org/software/cpio/
+Description-md5: 5f492bf139a41f29fd2d6fcadf43606e
+Section: utils
+Priority: important
+Filename: pool/updates/main/c/cpio/cpio_2.11+dfsg-0.1+deb7u1_amd64.deb
+Size: 267502
+MD5sum: da825a610c99ae896a266c1d8799ca0d
+SHA1: 77f14d930e24d71e7fafb78183b0a10840670a1e
+SHA256: 44163d3fa13258f63e1fe8879836cee6322eb859b63e38936808dab7cfeeef36
+
+Package: cpio-win32
+Source: cpio
+Version: 2.11+dfsg-0.1+deb7u1
+Installed-Size: 186
+Maintainer: Ruben Molina <rmolina@udea.edu.co>
+Architecture: all
+Suggests: wine
+Description: GNU cpio -- a program to manage archives of files (win32 build)
+Homepage: http://www.gnu.org/software/cpio/
+Description-md5: ebbadd3ead55d624e521032f77be2333
+Section: utils
+Priority: extra
+Filename: pool/updates/main/c/cpio/cpio-win32_2.11+dfsg-0.1+deb7u1_all.deb
+Size: 74086
+MD5sum: 784d48d0f343f0575b63a4e117c35ea3
+SHA1: a5b08db8cddf1eb8b305420f61d113b94ca9de33
+SHA256: 6f9129e91e0ea4dfd528fbb1722389a291a0f2b8b264c3afcf257c589254b869
+
 Package: cups
 Version: 1.5.3-5+deb7u4
 Installed-Size: 4205
@@ -16658,7 +16696,7 @@ SHA1: 13b0b8706c081c431c8c1f97c733acd5d7ff6565
 SHA256: 245d5bde2790ab827273597b47d5de7ad3868e1aef5fc166de64018d10836643
 
 Package: mediawiki
-Version: 1:1.19.20+dfsg-0+deb7u2
+Version: 1:1.19.20+dfsg-0+deb7u3
 Installed-Size: 67256
 Maintainer: Mediawiki Maintenance Team <pkg-mediawiki-devel@lists.alioth.debian.org>
 Architecture: all
@@ -16673,11 +16711,11 @@ Description-md5: ddcc60dd7124e88ede95f0010ec0906b
 Recommends: mysql-server | postgresql-contrib, php5-cli, python, php-wikidiff2, mediawiki-extensions-base
 Section: web
 Priority: optional
-Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u2_all.deb
-Size: 17864724
-MD5sum: ee1b8e3f8dfa33ede1891507b5606a48
-SHA1: 318a15f24f3c58aad5cca421b3aa56078e689aa2
-SHA256: 55cd8aa964eb0b937f3b21b5382ff5f47222e8f305131be9755163d81caf9a0d
+Filename: pool/updates/main/m/mediawiki/mediawiki_1.19.20+dfsg-0+deb7u3_all.deb
+Size: 17864708
+MD5sum: 55869c479bf633a3c12b1cfec675c03b
+SHA1: f12b851f2b6b4072892ef2dd8228065498f0a65c
+SHA256: 0468e2679ade81458a0033a1d4ed2fb00d54f0a1d5c51ddedeaf3ff4f8c30ee7
 
 Package: mediawiki-extensions
 Version: 3.5~deb7u2
@@ -24332,6 +24370,209 @@ Size: 2615694
 MD5sum: bb463f8d6093a901f184ba63ef163e6d
 SHA1: e33b5dac11d49cdc432f3502f647fab5f96173c8
 SHA256: f1959b5f037e32d92d59288a0c7c240a3fad04255855dbb0142d62488754ca41
+
+Package: libsox-dev
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 1665
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libsox-fmt-all (= 14.4.0-3+deb7u1), libsox2 (= 14.4.0-3+deb7u1)
+Description: Development files for the SoX library
+Homepage: http://sox.sourceforge.net
+Description-md5: b6b9ad06b84c9278546a5ca9c172b174
+Section: devel
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-dev_14.4.0-3+deb7u1_amd64.deb
+Size: 472000
+MD5sum: 04bd6bf923e9f41fa0e68c75f5fc0619
+SHA1: ddc5213b33aae424e111b6fac74277d5f403e8fb
+SHA256: c2b2493d717d934233b4a8c322435216dd002ca036cdfa32c5b01a0acfe24b8a
+
+Package: libsox-fmt-all
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 66
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libsox-fmt-alsa (= 14.4.0-3+deb7u1), libsox-fmt-ao (= 14.4.0-3+deb7u1), libsox-fmt-base (= 14.4.0-3+deb7u1), libsox-fmt-ffmpeg (= 14.4.0-3+deb7u1), libsox-fmt-mp3 (= 14.4.0-3+deb7u1), libsox-fmt-oss (= 14.4.0-3+deb7u1), libsox-fmt-pulse (= 14.4.0-3+deb7u1)
+Description: All SoX format libraries
+Homepage: http://sox.sourceforge.net
+Description-md5: 433da23d25d1e75a0272ef414fa2e58a
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-all_14.4.0-3+deb7u1_amd64.deb
+Size: 43824
+MD5sum: efa807967b030df25ae15437794e6d19
+SHA1: ee3a95afdcbf27c30a62c8c5591496e3af13f395
+SHA256: e4aa387389ca1a84bba2d1e79fbee2f236ca1fd174375079d141a52b3349932e
+
+Package: libsox-fmt-alsa
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 93
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.2.5), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), libsox2 (>= 14.4.0), zlib1g (>= 1:1.1.4)
+Description: SoX alsa format I/O library
+Homepage: http://sox.sourceforge.net
+Description-md5: 6c96ecce209fa8b9b642898669e33752
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-alsa_14.4.0-3+deb7u1_amd64.deb
+Size: 50748
+MD5sum: 993bf7b8c8be7e32fd37fc28453f44fa
+SHA1: 655a804acff760ca841eaf1b697006d5b648f680
+SHA256: e29018ab0fd519d24e902621ab871af481a39fcc6ff356f416276adb250101b7
+
+Package: libsox-fmt-ao
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 84
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.2.5), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), libsox2 (>= 14.4.0), zlib1g (>= 1:1.1.4)
+Description: SoX Libao format I/O library
+Homepage: http://sox.sourceforge.net
+Description-md5: f8fd17da171a9c26edaab6da64010468
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-ao_14.4.0-3+deb7u1_amd64.deb
+Size: 46956
+MD5sum: 8c9382d72713d8d8cf17a56e54796058
+SHA1: bd9ddaec919c8d0cbf01af96e57142ec3353dd5b
+SHA256: dd8b93239868f3b643a56cfd0dcb386d1cf901215df4664e378e5300388ac8f5
+
+Package: libsox-fmt-base
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 177
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Replaces: libsox-fmt-flac, libsox-fmt-gsm, libsox-fmt-libsndfile, libsox-fmt-ogg, libsox-fmt-sndfile
+Depends: libc6 (>= 2.4), libflac8 (>= 1.2.1), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libogg0 (>= 1.0rc3), libopencore-amrnb0, libopencore-amrwb0, libpng12-0 (>= 1.2.13-4), libsndfile1 (>= 1.0.20), libsox2 (>= 14.4.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 4.40.0), zlib1g (>= 1:1.1.4)
+Description: Minimal set of SoX format libraries
+Homepage: http://sox.sourceforge.net
+Description-md5: fc214ce72f54b2e2a1e1106e98cd66ef
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-base_14.4.0-3+deb7u1_amd64.deb
+Size: 72952
+MD5sum: ccc0f7785d6b164cc14474fe17e44271
+SHA1: 70acc9f2ffab320d7a9825eca680b3ac98040d54
+SHA256: 0a6268a00e1121b093dd3e7d39aa99ba8e9739e83df5e31dbcb8c579f9040f15
+
+Package: libsox-fmt-ffmpeg
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 89
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libavcodec53 (>= 6:0.8.3-1~) | libavcodec-extra-53 (>= 6:0.8.16), libavformat53 (>= 6:0.8.3-1~), libavutil51 (>= 6:0.8.3-1~), libc6 (>= 2.2.5), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), libsox2 (>= 14.4.0), zlib1g (>= 1:1.1.4)
+Description: SoX ffmpeg format library
+Homepage: http://sox.sourceforge.net
+Description-md5: 9f89ab75a09a566d79d007c2a8624a43
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-ffmpeg_14.4.0-3+deb7u1_amd64.deb
+Size: 49568
+MD5sum: 894c1b1f7731bccbd56790992367bd4f
+SHA1: 5e59aa33c234888d1c588eba47e45325f34ad667
+SHA256: f7ea249bfef6b3c04d5cc920a5748a08487a91f9398ac611cfa9f801f5e80b6c
+
+Package: libsox-fmt-mp3
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 110
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libid3tag0 (>= 0.15.1b), libltdl7 (>= 2.4.2), libmad0 (>= 0.15.1b-3), libmagic1, libmp3lame0, libpng12-0 (>= 1.2.13-4), libsox2 (>= 14.4.0), libtwolame0, zlib1g (>= 1:1.1.4)
+Description: SoX MP2 and MP3 format library
+Homepage: http://sox.sourceforge.net
+Description-md5: f8ec28ccef25d64109a8e78966e65fda
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-mp3_14.4.0-3+deb7u1_amd64.deb
+Size: 57158
+MD5sum: 92ca5e602cdade3c4fb15a5956b0c268
+SHA1: 0b9a184da3898a34034345781066b2eccce6f506
+SHA256: 43ded23cba6eaa1ff77aaec9b61b163f166f834e77184b7c333d8d13781ad832
+
+Package: libsox-fmt-oss
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 84
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), libsox2 (>= 14.4.0), zlib1g (>= 1:1.1.4)
+Description: SoX OSS format I/O library
+Homepage: http://sox.sourceforge.net
+Description-md5: b981fecb01084261f95f8975db7405a5
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-oss_14.4.0-3+deb7u1_amd64.deb
+Size: 47458
+MD5sum: 6decdf6d2975f38bcef559d2831dd87e
+SHA1: 92f687c3030cd0f9f667bd6dee00cb29cf1d2afe
+SHA256: f45596049c55147b2f78c5b5ccc918c3d769a89c02f5c96dfa6afdbe7437bed0
+
+Package: libsox-fmt-pulse
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 84
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libsox2 (>= 14.4.0), zlib1g (>= 1:1.1.4)
+Description: SoX PulseAudio format I/O library
+Homepage: http://sox.sourceforge.net
+Description-md5: 8b406a03bd91c25123c866b82ddf2fbc
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox-fmt-pulse_14.4.0-3+deb7u1_amd64.deb
+Size: 46844
+MD5sum: 908a361ecf080f2b8fc2e5dbf50bfc5f
+SHA1: 1bd076393bcf71c70ead49682a3e733682bf676a
+SHA256: 28a35dfbcde97bf6c02ac8b671279e63d814ed4af4b892434f0d06d98e3c0ef9
+
+Package: libsox2
+Source: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 663
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Replaces: libsox1b
+Depends: libc6 (>= 2.7), libgomp1 (>= 4.4), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), zlib1g (>= 1:1.1.4)
+Suggests: libsox-fmt-all
+Conflicts: libsox0, libsox0a, libsox1, libsox1a
+Description: SoX library of audio effects and processing
+Homepage: http://sox.sourceforge.net
+Description-md5: 011f5899bd270f4751d3d576103dd307
+Recommends: libsox-fmt-alsa | libsox-fmt-ao | libsox-fmt-oss | libsox-fmt-pulse, libsox-fmt-base
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/libsox2_14.4.0-3+deb7u1_amd64.deb
+Size: 303308
+MD5sum: 1692a62a3b59144bea2de4c583814e31
+SHA1: a784d096bdd6c2121ab01cbb47cb1a94a55c69b2
+SHA256: 1d1d8e461c6a98912faa694b1909ac2aa26f8540c43998fe2ea8f4f23745afb0
+
+Package: sox
+Version: 14.4.0-3+deb7u1
+Installed-Size: 224
+Maintainer: Pascal Giard <pascal@debian.org>
+Architecture: amd64
+Depends: libsox-fmt-alsa (= 14.4.0-3+deb7u1) | libsox-fmt-ao (= 14.4.0-3+deb7u1) | libsox-fmt-oss (= 14.4.0-3+deb7u1) | libsox-fmt-pulse (= 14.4.0-3+deb7u1), libsox-fmt-base (= 14.4.0-3+deb7u1), libsox2 (= 14.4.0-3+deb7u1), libc6 (>= 2.7), libgomp1 (>= 4.2.1), libgsm1 (>= 1.0.13), libltdl7 (>= 2.4.2), libmagic1, libpng12-0 (>= 1.2.13-4), zlib1g (>= 1:1.1.4)
+Suggests: libsox-fmt-all
+Description: Swiss army knife of sound processing
+Homepage: http://sox.sourceforge.net
+Description-md5: 333cd274ebee7570f357dafba9b6461d
+Section: sound
+Priority: optional
+Filename: pool/updates/main/s/sox/sox_14.4.0-3+deb7u1_amd64.deb
+Size: 140308
+MD5sum: 2df82fd05d524b588ccae0e98ffe836e
+SHA1: 871ca8088a6800b7f4b95f551e0ba41062512b89
+SHA256: 03ed0884a33af6e0bdab17ff01df0f883c7dbc8409301262c04769955809150d
 
 Package: libspice-server-dev
 Source: spice
