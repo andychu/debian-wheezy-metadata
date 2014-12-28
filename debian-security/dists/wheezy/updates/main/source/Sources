@@ -11351,6 +11351,33 @@ Directory: pool/updates/main/u/unbound
 Priority: source
 Section: net
 
+Package: unzip
+Binary: unzip
+Version: 6.0-8+deb7u1
+Maintainer: Santiago Vila <sanvila@debian.org>
+Build-Depends: libbz2-dev
+Architecture: any
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 6d96da722abfc94bb4bfdf96e2a71723 1676 unzip_6.0-8+deb7u1.dsc
+ 62b490407489521db863b523a7f86375 1376845 unzip_6.0.orig.tar.gz
+ 6d0673b9a6cc740dfb0b4fa20af5a824 13694 unzip_6.0-8+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 750342d29f6e203b8766d8d4acaa1e85f868c950 1676 unzip_6.0-8+deb7u1.dsc
+ abf7de8a4018a983590ed6f5cbd990d4740f8a22 1376845 unzip_6.0.orig.tar.gz
+ efa3c8368010fb14355ed6121f1d2018a1122fec 13694 unzip_6.0-8+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ f38e804ae4c8e04d02f4c9d74e91c47b30a9aee048a6c41548bea2a9db4f149d 1676 unzip_6.0-8+deb7u1.dsc
+ 036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37 1376845 unzip_6.0.orig.tar.gz
+ 02aeb43c88ba38849597e03920422f9612ce8c658f558cd4b34c45b9837a6a5b 13694 unzip_6.0-8+deb7u1.debian.tar.gz
+Homepage: http://www.info-zip.org/UnZip.html
+Package-List: 
+ unzip deb utils optional
+Directory: pool/updates/main/u/unzip
+Priority: source
+Section: utils
+
 Package: user-mode-linux
 Binary: user-mode-linux
 Version: 3.2-2um-1+deb7u2

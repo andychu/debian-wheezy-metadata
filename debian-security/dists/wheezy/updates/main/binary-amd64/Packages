@@ -26754,6 +26754,27 @@ MD5sum: 378e8c0ea1625cf15b8d5f13213dfeca
 SHA1: d86e2f4c9d0e3ac7a5941894c51042c5c4e58bba
 SHA256: 84ad760966151c9bb9b7e6c33803cd5f4e867552706d16477e6a18e31beae427
 
+Package: unzip
+Version: 6.0-8+deb7u1
+Installed-Size: 377
+Maintainer: Santiago Vila <sanvila@debian.org>
+Architecture: amd64
+Replaces: unzip-crypt (<< 5.41)
+Depends: libbz2-1.0, libc6 (>= 2.4)
+Suggests: zip
+Conflicts: unzip-crypt (<< 5.41)
+Description: De-archiver for .zip files
+Homepage: http://www.info-zip.org/UnZip.html
+Description-md5: b83e2b495da5d292f3fe6ab67b088c47
+Multi-Arch: foreign
+Section: utils
+Priority: optional
+Filename: pool/updates/main/u/unzip/unzip_6.0-8+deb7u1_amd64.deb
+Size: 194914
+MD5sum: 9a9c10dd675f9e080a80e883cdc52f30
+SHA1: 1d0874f135b2fbeebb0d03124a3072adb8dd6d0a
+SHA256: 86bcc62e3f26eecdf3d102d8155471adcdf2d0c73f0387421d2c8a8effb4ba12
+
 Package: user-mode-linux
 Version: 3.2-2um-1+deb7u2
 Installed-Size: 23990
