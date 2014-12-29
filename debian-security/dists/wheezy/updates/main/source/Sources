@@ -8002,6 +8002,29 @@ Directory: pool/updates/main/m/mesa
 Priority: source
 Section: libs
 
+Package: mime-support
+Binary: mime-support
+Version: 3.52-1+deb7u1
+Maintainer: Brian White <bcwhite@pobox.com>
+Build-Depends: debhelper
+Architecture: all
+Standards-Version: 3.1.1.1
+Format: 1.0
+Files:
+ 1199d9c3bf7ba1fd7ad030c7fc415e39 1412 mime-support_3.52-1+deb7u1.dsc
+ 7794293a06e3c5c058e1b66d2e27ddd4 31315 mime-support_3.52-1+deb7u1.tar.gz
+Checksums-Sha1:
+ e1f97f8ad21966d424018362f16ac971dc56eb97 1412 mime-support_3.52-1+deb7u1.dsc
+ 775fd6782d859b9406c8387c45b1e5efbec5eda7 31315 mime-support_3.52-1+deb7u1.tar.gz
+Checksums-Sha256:
+ 805211f75a13779f8651f2df16bc9ce9e656300295692e5c9c8715da643b163d 1412 mime-support_3.52-1+deb7u1.dsc
+ 9f5149f7fc63b0c28bbbebc2b2f2e8820e83435cdbba7f11ea4a67b159b1fa1c 31315 mime-support_3.52-1+deb7u1.tar.gz
+Package-List: 
+ mime-support deb net standard
+Directory: pool/updates/main/m/mime-support
+Priority: source
+Section: net
+
 Package: mod-wsgi
 Binary: libapache2-mod-wsgi, libapache2-mod-wsgi-py3
 Version: 3.3-4+deb7u1

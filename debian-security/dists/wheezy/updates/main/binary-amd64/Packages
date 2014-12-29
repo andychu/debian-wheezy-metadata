@@ -17630,6 +17630,23 @@ MD5sum: fa4fd09554a64a418d78eb53b05f39e1
 SHA1: 73f8073eb5b90a60d8928d04a5d4b19fb344ca7e
 SHA256: f4b2e8375a2e75ccb7657e6de11727433be523e8c2a5c1403ea0c9eb546641d6
 
+Package: mime-support
+Version: 3.52-1+deb7u1
+Installed-Size: 132
+Maintainer: Brian White <bcwhite@pobox.com>
+Architecture: all
+Conflicts: a2ps (<< 4.10.4), metamail (<< 2.7-44)
+Description: MIME files 'mime.types' & 'mailcap', and support programs
+Description-md5: 6a960d88790635886bd17b629c708b8c
+Recommends: file (>= 3.27-3)
+Section: net
+Priority: standard
+Filename: pool/updates/main/m/mime-support/mime-support_3.52-1+deb7u1_all.deb
+Size: 35466
+MD5sum: 653a3b997e5412dec631da5a8f43cde5
+SHA1: a1131969a3d69d982c6f9e23e577f67a9e460832
+SHA256: 70d2354bc5eae8b7a3c65a047d0e387c64f7fcb86e0662f1c05d6275e0cbd2a4
+
 Package: libapache2-mod-wsgi
 Source: mod-wsgi
 Version: 3.3-4+deb7u1
