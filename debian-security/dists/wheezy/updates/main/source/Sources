@@ -9009,7 +9009,7 @@ Section: web
 
 Package: php5
 Binary: php5, php5-common, libapache2-mod-php5, libapache2-mod-php5filter, php5-cgi, php5-cli, php5-fpm, libphp5-embed, php5-dev, php5-dbg, php-pear, php5-curl, php5-enchant, php5-gd, php5-gmp, php5-imap, php5-interbase, php5-intl, php5-ldap, php5-mcrypt, php5-mysql, php5-mysqlnd, php5-odbc, php5-pgsql, php5-pspell, php5-recode, php5-snmp, php5-sqlite, php5-sybase, php5-tidy, php5-xmlrpc, php5-xsl
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>, Sean Finney <seanius@debian.org>, Thijs Kinkhorst <thijs@debian.org>, Lior Kaplan <kaplan@debian.org>, William Dauchy <wdauchy@gmail.com>
 Build-Depends: apache2-prefork-dev, autoconf (>= 2.63), automake (>= 1.11) | automake1.11, bison, chrpath, debhelper (>= 5), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, hardening-wrapper, libapr1-dev (>= 1.2.7-8), libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libenchant-dev, libevent-dev (>= 1.4.11), libexpat1-dev (>= 1.95.2-2.1), libfreetype6-dev, libgcrypt11-dev, libgd2-xpm-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, libmagic-dev, libmcrypt-dev, libmhash-dev (>= 0.8.8), libmysqlclient-dev | libmysqlclient15-dev, libonig-dev, libpam0g-dev, libpcre3-dev (>= 6.6), libpng-dev | libpng12-dev, libpq-dev, libpspell-dev, libqdbm-dev, librecode-dev, libsasl2-dev, libsnmp-dev, libsqlite3-dev, libssl-dev, libtidy-dev, libtool (>= 2.2), libwrap0-dev, libxmltok1-dev, libxml2-dev, libxslt1-dev (>= 1.0.18), locales-all | language-pack-de, mysql-server, netbase, netcat-traditional, quilt, re2c, unixodbc-dev, zlib1g-dev, tzdata
@@ -9017,19 +9017,19 @@ Architecture: any all
 Standards-Version: 3.9.3
 Format: 1.0
 Files:
- 45ab07f3ca9914efea9d7003678e7b05 4530 php5_5.4.35-0+deb7u2.dsc
- da7bed3b65033c7f096c96572cd9ea45 15335367 php5_5.4.35.orig.tar.gz
- 9be06185b6551c243cb463b60dc6d049 148049 php5_5.4.35-0+deb7u2.diff.gz
+ 9433ded11acf050f9d6f21eef8959771 4530 php5_5.4.36-0+deb7u1.dsc
+ d724ec84124ec948a7a493b74546efef 14708270 php5_5.4.36.orig.tar.gz
+ 6a6b305379f1c48e40f866d882938705 772196 php5_5.4.36-0+deb7u1.diff.gz
 Vcs-Browser: http://git.debian.org/?p=pkg-php/php.git
 Vcs-Git: git://git.debian.org/pkg-php/php.git
 Checksums-Sha1:
- 6c67c380059dbdbc0b0a286926f6548333646d06 4530 php5_5.4.35-0+deb7u2.dsc
- fb4e33f86d72d3b8b44e833b0a7fd8f84b45bd38 15335367 php5_5.4.35.orig.tar.gz
- 8ed5cda91c38461dd769fcfc959bd16bc955bf93 148049 php5_5.4.35-0+deb7u2.diff.gz
+ a43bfd478dcdae9beeaabdb332b15e3a7a487d58 4530 php5_5.4.36-0+deb7u1.dsc
+ 44070647fd99915edf64a1fba4967cd1f4b25b76 14708270 php5_5.4.36.orig.tar.gz
+ 5bf0f99532912932a936c37e202634a70e9457f3 772196 php5_5.4.36-0+deb7u1.diff.gz
 Checksums-Sha256:
- ff876312bb0cd578d6e5ccd4ae58f761ffc4c031dfb6ab5dd281fd6e6345e521 4530 php5_5.4.35-0+deb7u2.dsc
- 7ecab4ebb880b6d4f68bd4e3e49d837d4704fe26d81dc992b17b74151ee950a7 15335367 php5_5.4.35.orig.tar.gz
- 2376d6b9ff4c85e0f69caf9bac094043f525a86f452c345ee8c61a518c0f7f3d 148049 php5_5.4.35-0+deb7u2.diff.gz
+ 253351132c8149e2625b9914f3adb480d61aef5563a607f75c8380bc1f94e093 4530 php5_5.4.36-0+deb7u1.dsc
+ e11851662222765d6ab6e671adc983c657d5358a183856b43a5bad0c612d2959 14708270 php5_5.4.36.orig.tar.gz
+ 72be76e4b0281a2b9121249253af23de4b93c3ba7f203a068b12899fa39e3265 772196 php5_5.4.36-0+deb7u1.diff.gz
 Homepage: http://www.php.net/
 Build-Conflicts: bind-dev
 Package-List: 

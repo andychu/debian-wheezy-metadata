@@ -20575,12 +20575,12 @@ SHA256: 4a3fd6bc680ef59a1977dc53e1ba939514f3bcaa5abf072adab4c6362f5abc0b
 
 Package: libapache2-mod-php5
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 8445
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.1.1), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Conflicts: libapache2-mod-php4, libapache2-mod-php5filter
 Description: server-side, HTML-embedded scripting language (Apache 2 module)
@@ -20589,20 +20589,20 @@ Description-md5: 749060f1be9f814877d6d2a539d14d5b
 Recommends: php5-cli
 Section: net
 Priority: optional
-Filename: pool/updates/main/p/php5/libapache2-mod-php5_5.4.35-0+deb7u2_i386.deb
-Size: 2663748
-MD5sum: bb73126c4ff6a9910b178139d967e197
-SHA1: a008922a22cebe0d5880882f1427ed345ee43461
-SHA256: 1e3148583362ccee37e4d310580aba0c4d76fac715d8bd9c9cd15c43fd9bcc86
+Filename: pool/updates/main/p/php5/libapache2-mod-php5_5.4.36-0+deb7u1_i386.deb
+Size: 2663764
+MD5sum: 511745753d6efcfe37bd4183337425e5
+SHA1: 6ef50a6508f89f9a2cc87f64a85375def8faf675
+SHA256: 08999b92e088c3318a591863a1ac34b9693d69b26329a4d9221fe26bc7bf7f70
 
 Package: libapache2-mod-php5filter
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 8444
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, apache2-mpm-prefork (>> 2.0.52) | apache2-mpm-itk, apache2.2-common, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Conflicts: libapache2-mod-php4, libapache2-mod-php5
 Description: server-side, HTML-embedded scripting language (apache 2 filter module)
@@ -20610,41 +20610,41 @@ Homepage: http://www.php.net/
 Description-md5: da051c2b4e3172e52d77e9407e3b20a8
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/libapache2-mod-php5filter_5.4.35-0+deb7u2_i386.deb
-Size: 2662676
-MD5sum: 6b4501ab6f11b901c12353bc5b6149a3
-SHA1: df1d3fff77e91372b8ab2d1cb67f76fefb774258
-SHA256: 773ae3969b16a140cc35037d391580fedcace364920e25f0987837b0320c2a91
+Filename: pool/updates/main/p/php5/libapache2-mod-php5filter_5.4.36-0+deb7u1_i386.deb
+Size: 2662792
+MD5sum: 96fa8d2c5e5b024ef49cc40488eac7ab
+SHA1: 5203c534f3eaf07aeb026099dd593d4d5613dbbf
+SHA256: f2e95b8a213d9f7c4c5e2afe0db4b36b67e539493871d750c5d42cfe9717ed46
 
 Package: libphp5-embed
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 8442
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Description: HTML-embedded scripting language (Embedded SAPI library)
 Homepage: http://www.php.net/
 Description-md5: 890035fad478c9a42767544b82d40a6f
 Section: php
 Priority: optional
-Filename: pool/updates/main/p/php5/libphp5-embed_5.4.35-0+deb7u2_i386.deb
-Size: 2661216
-MD5sum: 54c53192f862372552b5d2eeb9e4f670
-SHA1: 0cd8da2328abfdbf0f3e33ddb551c1c9c4c96d7f
-SHA256: 9c9c51873be66b5f09c8d9545a43d5d0200953a6c9677caa9fc225f5dc93689b
+Filename: pool/updates/main/p/php5/libphp5-embed_5.4.36-0+deb7u1_i386.deb
+Size: 2661330
+MD5sum: 08d9dfcfa9c2f5ecb0f0dd95ef9ecf27
+SHA1: 070646578e8c999ae28c855c1519dca506d107f6
+SHA256: e7d5244b3f866c587f4b5c357e6d79f386cc310851511fce6ae9dcafccbf10c1
 
 Package: php-pear
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 2253
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: all
 Replaces: php-xml-util, php4-pear (<< 4:4.4.0-0)
 Provides: php-xml-util
-Depends: php5-common (>= 5.4.35-0+deb7u2), php5-cli
+Depends: php5-common (>= 5.4.36-0+deb7u1), php5-cli
 Suggests: php5-dev
 Conflicts: php-xml-util
 Description: PEAR - PHP Extension and Application Repository
@@ -20653,72 +20653,72 @@ Description-md5: fb29e10c43affc8e5f5fa8be5cd7a87b
 Recommends: gnupg
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php-pear_5.4.35-0+deb7u2_all.deb
-Size: 371848
-MD5sum: f6cc6dd58d8fe2f5e933db664b697bfb
-SHA1: 537810ee3a656424f46c3f233fd772698f610195
-SHA256: c171ea975c58a993cb13d918a8952abe57a0ad361ec70f00e31ceb781dc6569e
+Filename: pool/updates/main/p/php5/php-pear_5.4.36-0+deb7u1_all.deb
+Size: 371876
+MD5sum: 28891554cb8fdd000c96e020448e871a
+SHA1: 89398ad69f8c897ca0d5f1be6842cd7674eb60bd
+SHA256: 37b6c4a7767c45e91f419ab0b44662d6fa7f5e030397ccd721dfb896ffc123d8
 
 Package: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 21
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: all
-Depends: libapache2-mod-php5 (>= 5.4.35-0+deb7u2) | libapache2-mod-php5filter (>= 5.4.35-0+deb7u2) | php5-cgi (>= 5.4.35-0+deb7u2) | php5-fpm (>= 5.4.35-0+deb7u2), php5-common (>= 5.4.35-0+deb7u2)
+Depends: libapache2-mod-php5 (>= 5.4.36-0+deb7u1) | libapache2-mod-php5filter (>= 5.4.36-0+deb7u1) | php5-cgi (>= 5.4.36-0+deb7u1) | php5-fpm (>= 5.4.36-0+deb7u1), php5-common (>= 5.4.36-0+deb7u1)
 Description: server-side, HTML-embedded scripting language (metapackage)
 Homepage: http://www.php.net/
 Description-md5: 2af39c852a986c9d371da68ad88cdc6e
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5_5.4.35-0+deb7u2_all.deb
-Size: 1024
-MD5sum: 59ce981f483a85b815a43d4d58b00866
-SHA1: 8f3a2704d7ae8962c1eda601ae00442fb854b5b4
-SHA256: 127b7116a6a6f4ef4a1c670d5fcdfe3f0d77de2e1d47326f188941fb158a92f9
+Filename: pool/updates/main/p/php5/php5_5.4.36-0+deb7u1_all.deb
+Size: 1026
+MD5sum: c090f9a94e43b3924081a6e5d30db172
+SHA1: c755e276da2939fe2b2ceb4748b958de7e9baa80
+SHA256: 65be3c1a68289fefec7e0ba38232d7c062ca35f82603652c86f98f1e400ab324
 
 Package: php5-cgi
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 16393
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Description: server-side, HTML-embedded scripting language (CGI binary)
 Homepage: http://www.php.net/
 Description-md5: 58786ebfa00e184899546aa54ea9a0cf
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-cgi_5.4.35-0+deb7u2_i386.deb
-Size: 5262622
-MD5sum: bcdecee0528a4c5fc6df2c1ea374ab7e
-SHA1: 1f3f103f77ce4522a95106a9703bf097609c3c47
-SHA256: e101dfa023c305300292525a9a7cc2b5716a03ba3b6beb29f1123b992d97afdf
+Filename: pool/updates/main/p/php5/php5-cgi_5.4.36-0+deb7u1_i386.deb
+Size: 5262746
+MD5sum: 241312dc1aa93c889eb6b167182c6a1a
+SHA1: 029493145ad1bd6674fb5f1f83015505387c87ee
+SHA256: 8d76505f9eca161514d5268d425dde4f9f84ce825b1bed0a63e5a8a36ad3803a
 
 Package: php5-cli
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 8215
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Description: command-line interpreter for the php5 scripting language
 Homepage: http://www.php.net/
 Description-md5: 2be42a90acd73be0963713312c744089
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-cli_5.4.35-0+deb7u2_i386.deb
-Size: 2641298
-MD5sum: 9f9f6bdff33c71528ae4774c2c7d21cc
-SHA1: 85dc39f9dd31b15b71360bff557d3af3a957c635
-SHA256: a8ced79cbfe1799093c8b0679336a7c07b98e78e835fe0d9c929509c5ac5f66f
+Filename: pool/updates/main/p/php5/php5-cli_5.4.36-0+deb7u1_i386.deb
+Size: 2641334
+MD5sum: edecfd3d5554c616724c2ac9319ea2de
+SHA1: cebbe843c727718126dcac4ad266f9450e2ee72b
+SHA256: f3ae4d49c80e1d563292f2f301b1285dd3ec0d6c25f6e63156453661dd97e146
 
 Package: php5-common
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 807
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
@@ -20732,96 +20732,96 @@ Description-md5: 949c39604ee9b19ceaf6491574a70811
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-common_5.4.35-0+deb7u2_i386.deb
-Size: 619004
-MD5sum: 8520bcee8eb3cf2068968cfbf8200a75
-SHA1: bc8ae095e66e0d17f0beebef7164393eeb5c88f1
-SHA256: a6862a1c8804c3218a7b5e4c50c073cb4bcf0b89e46a431352fb5f3e15921b99
+Filename: pool/updates/main/p/php5/php5-common_5.4.36-0+deb7u1_i386.deb
+Size: 619160
+MD5sum: ab84d6106ea7bc97fa56b8d6c6aab27b
+SHA1: a107096f7ecc87761df461d944070863114c07ad
+SHA256: d03ba45c834f3de4b21b54879e9bff30f412bc93a5261723255f41740929a8b7
 
 Package: php5-curl
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 73
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libcurl3 (>= 7.16.2), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libcurl3 (>= 7.16.2), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: CURL module for php5
 Homepage: http://www.php.net/
 Description-md5: b9650938a7c70d884c950952073ec28e
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-curl_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-curl_5.4.36-0+deb7u1_i386.deb
 Size: 29734
-MD5sum: 0a5b7c995612e37d7bc64e279623c1e1
-SHA1: 673a44258ca28b5ce9a5ec3a0f9dff69c1de097f
-SHA256: 09fc0be82d0c8b4f8ed3008a7f775b857d7c5e3d86006dcfe4d60b26f035d156
+MD5sum: 304345e5cdc0685a99041ba6e98c8e87
+SHA1: c8c890e333403b75812f8b2de0d5d68de78d47fb
+SHA256: e31bc6a49d684770d4c4981f0052534fed8100b88031e34e636d85147b2d4cb3
 
 Package: php5-dbg
 Source: php5
-Version: 5.4.35-0+deb7u2
-Installed-Size: 61894
+Version: 5.4.36-0+deb7u1
+Installed-Size: 61897
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: php5-common (= 5.4.35-0+deb7u2), libapache2-mod-php5 (= 5.4.35-0+deb7u2) | libapache2-mod-php5filter (= 5.4.35-0+deb7u2) | php5-cgi (= 5.4.35-0+deb7u2) | php5-cli (= 5.4.35-0+deb7u2) | php5-fpm (= 5.4.35-0+deb7u2) | php5-curl (= 5.4.35-0+deb7u2) | php5-enchant (= 5.4.35-0+deb7u2) | php5-gd (= 5.4.35-0+deb7u2) | php5-gmp (= 5.4.35-0+deb7u2) | php5-imap (= 5.4.35-0+deb7u2) | php5-interbase (= 5.4.35-0+deb7u2) | php5-intl (= 5.4.35-0+deb7u2) | php5-ldap (= 5.4.35-0+deb7u2) | php5-mcrypt (= 5.4.35-0+deb7u2) | php5-mysql (= 5.4.35-0+deb7u2) | php5-odbc (= 5.4.35-0+deb7u2) | php5-pgsql (= 5.4.35-0+deb7u2) | php5-pspell (= 5.4.35-0+deb7u2) | php5-recode (= 5.4.35-0+deb7u2) | php5-snmp (= 5.4.35-0+deb7u2) | php5-sqlite (= 5.4.35-0+deb7u2) | php5-sybase (= 5.4.35-0+deb7u2) | php5-tidy (= 5.4.35-0+deb7u2) | php5-xmlrpc (= 5.4.35-0+deb7u2) | php5-xsl (= 5.4.35-0+deb7u2)
+Depends: php5-common (= 5.4.36-0+deb7u1), libapache2-mod-php5 (= 5.4.36-0+deb7u1) | libapache2-mod-php5filter (= 5.4.36-0+deb7u1) | php5-cgi (= 5.4.36-0+deb7u1) | php5-cli (= 5.4.36-0+deb7u1) | php5-fpm (= 5.4.36-0+deb7u1) | php5-curl (= 5.4.36-0+deb7u1) | php5-enchant (= 5.4.36-0+deb7u1) | php5-gd (= 5.4.36-0+deb7u1) | php5-gmp (= 5.4.36-0+deb7u1) | php5-imap (= 5.4.36-0+deb7u1) | php5-interbase (= 5.4.36-0+deb7u1) | php5-intl (= 5.4.36-0+deb7u1) | php5-ldap (= 5.4.36-0+deb7u1) | php5-mcrypt (= 5.4.36-0+deb7u1) | php5-mysql (= 5.4.36-0+deb7u1) | php5-odbc (= 5.4.36-0+deb7u1) | php5-pgsql (= 5.4.36-0+deb7u1) | php5-pspell (= 5.4.36-0+deb7u1) | php5-recode (= 5.4.36-0+deb7u1) | php5-snmp (= 5.4.36-0+deb7u1) | php5-sqlite (= 5.4.36-0+deb7u1) | php5-sybase (= 5.4.36-0+deb7u1) | php5-tidy (= 5.4.36-0+deb7u1) | php5-xmlrpc (= 5.4.36-0+deb7u1) | php5-xsl (= 5.4.36-0+deb7u1)
 Description: Debug symbols for PHP5
 Homepage: http://www.php.net/
 Description-md5: 9c846a487d56db69555b9a0b6f23316b
 Recommends: gdb
 Section: devel
 Priority: extra
-Filename: pool/updates/main/p/php5/php5-dbg_5.4.35-0+deb7u2_i386.deb
-Size: 16720410
-MD5sum: 50e82664bccc6e60c650700f988b617c
-SHA1: 99bed35fcb1e890eed5ad807ee074e5aec18fc6d
-SHA256: 0d10ac218fd040df81ec7b06ed2ec026fdde1a1d7b15b362faeef5f81469ac8e
+Filename: pool/updates/main/p/php5/php5-dbg_5.4.36-0+deb7u1_i386.deb
+Size: 16721458
+MD5sum: 347ec35a83525f136314d081695d24de
+SHA1: 8501a23c9dd04043ab41bd2de1d9fe9948bd3763
+SHA256: 02ef804212eccae8d6629eeb64b4b104ecd867dedc930caea09c19954874b398
 
 Package: php5-dev
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 3103
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: autoconf (>= 2.63), automake (>= 1.11), libssl-dev, libtool (>= 2.2), shtool, php5-common (>= 5.4.35-0+deb7u2)
+Depends: autoconf (>= 2.63), automake (>= 1.11), libssl-dev, libtool (>= 2.2), shtool, php5-common (>= 5.4.36-0+deb7u1)
 Conflicts: libtool (<< 2.2)
 Description: Files for PHP5 module development
 Homepage: http://www.php.net/
 Description-md5: f679c9165e9f710f208143f95427a8c4
 Section: devel
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-dev_5.4.35-0+deb7u2_i386.deb
-Size: 497560
-MD5sum: f88146193f1905c443deedd5dc7a7d7a
-SHA1: 469dc05340bd803ed960d9509214186ebf8cef6b
-SHA256: 784952943adb8e2101cce0593853158188a1843ad5806c90ec45a0d98066ea22
+Filename: pool/updates/main/p/php5/php5-dev_5.4.36-0+deb7u1_i386.deb
+Size: 497524
+MD5sum: b25fc8dc534e7b27ddd7a2e3f0ef522f
+SHA1: ff02b54ef978736fba9f1146aa2027d1eba0c8c3
+SHA256: 60322b0b9bb6660f561850c6c235e1e457e34503fffb5ed97ae12661d4bb0292
 
 Package: php5-enchant
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 25
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.3.6-6~), libenchant1c2a (>= 1.6), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.3.6-6~), libenchant1c2a (>= 1.6), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: Enchant module for php5
 Homepage: http://www.php.net/
 Description-md5: 9da08144a397842537930748460d8c3d
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: php
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-enchant_5.4.35-0+deb7u2_i386.deb
-Size: 9466
-MD5sum: 1d14d58f598a0d79e24482ac2136a85c
-SHA1: 9f18b934b9b759c026469ecbd8a72ea376788b8c
-SHA256: d82aaff0b144158bc71fa3a8415e47f1d8c57a77d261e9e2cdb495e721b68651
+Filename: pool/updates/main/p/php5/php5-enchant_5.4.36-0+deb7u1_i386.deb
+Size: 9456
+MD5sum: 9a91faeb766002713d72900c8559b3c2
+SHA1: 15ea88e39382952ac9b3f714ddec4b5437b6a700
+SHA256: 2316d7da5ad1692b9a92e4be653f3cb576ac14d5867dbd6b3fd53bf978122183
 
 Package: php5-fpm
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 8289
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: phpapi-20100525+lfs
-Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.35-0+deb7u2), libmagic1, ucf, tzdata
+Depends: libbz2-1.0, libc6 (>= 2.11), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libonig2 (>= 5.2.0), libpcre3 (>= 8.10), libqdbm14 (>= 1.8.74), libssl1.0.0 (>= 1.0.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4), mime-support, php5-common (= 5.4.36-0+deb7u1), libmagic1, ucf, tzdata
 Suggests: php-pear
 Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
 Homepage: http://www.php.net/
@@ -20829,97 +20829,97 @@ Description-md5: 61fc4ab29d67092af11d43e9ad43d7e0
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: php
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-fpm_5.4.35-0+deb7u2_i386.deb
-Size: 2672912
-MD5sum: 6f6e75093d419944e7ccee1f098f41eb
-SHA1: 71475637cf0ecebaccc50b0de38a86c8cb968dbd
-SHA256: 3438ae60625642904808196a42e46fe05cf8f309cedebd2dd2989a74047a5a5b
+Filename: pool/updates/main/p/php5/php5-fpm_5.4.36-0+deb7u1_i386.deb
+Size: 2673036
+MD5sum: 92801cf61654d64efc82c0ac9e5171a2
+SHA1: 85535d8b378ebf53f4ead867cc13d51412c17b83
+SHA256: 026610e530bbc789d609f48932f97a8771fc6b6fb059858cd32006d458d47ed7
 
 Package: php5-gd
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 93
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libfreetype6 (>= 2.2.1), libgd2-xpm (>= 2.0.36~rc1~dfsg), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libx11-6, libxpm4, zlib1g (>= 1:1.1.4), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libfreetype6 (>= 2.2.1), libgd2-xpm (>= 2.0.36~rc1~dfsg), libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4), libx11-6, libxpm4, zlib1g (>= 1:1.1.4), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: GD module for php5
 Homepage: http://www.php.net/
 Description-md5: 8589696941eddf5936d927aa77051a52
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-gd_5.4.35-0+deb7u2_i386.deb
-Size: 34420
-MD5sum: a505a42447ecedc75abd8a8d5cf31394
-SHA1: ce5a5ed997f1c7d18a54d67f8fa48044a99cc704
-SHA256: eaaa3637d00b0cda812b0ba12447cf5dcac8878369862b3aa14b971eae0a9898
+Filename: pool/updates/main/p/php5/php5-gd_5.4.36-0+deb7u1_i386.deb
+Size: 34414
+MD5sum: 15ab30c253bf9129e6a99320ea3bb007
+SHA1: c59ae370b98a05bfc7fd1a649c9df831612e5fbf
+SHA256: 860e64364e85144abeac4392de52dcf059d1c7cd92f85a3720da7fac5ba4c687
 
 Package: php5-gmp
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 45
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.1.3), libgmp10, phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.1.3), libgmp10, phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: GMP module for php5
 Homepage: http://www.php.net/
 Description-md5: 098c157a536726435e541b2e7e6b4842
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-gmp_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-gmp_5.4.36-0+deb7u1_i386.deb
 Size: 15944
-MD5sum: a161a537a792f4a879c856cbe94e716c
-SHA1: cdd663db10d069dcd65b5f02a85ef8a5f0a4ae71
-SHA256: 436fdbf6e9910dd2ddc5f9b83bcd3ec675021695b34648b7753df10127db078b
+MD5sum: 3d79c706da5ba810e13f000a322a2d2b
+SHA1: 91890911cb80f07c31e2e5e9671f8ff3e77a0a1d
+SHA256: aa3dbe56b0d168e11277ffb08ddc9fa0737b5be84057d2572a9a1527e76a2db2
 
 Package: php5-imap
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 93
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc-client2007e, libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc-client2007e, libc6 (>= 2.4), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.6.dfsg.2), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: IMAP module for php5
 Homepage: http://www.php.net/
 Description-md5: 2a7a853602bd0e6911ec080acaa0eba5
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-imap_5.4.35-0+deb7u2_i386.deb
-Size: 35106
-MD5sum: ca6efe967b373c20ac089e476301d1e4
-SHA1: 93ba21d1127714a282e99cb93fbe3907a1bee981
-SHA256: c571b5b6263c115b60560746612730e04e16e2a0286fc0e0527b0a5887071e57
+Filename: pool/updates/main/p/php5/php5-imap_5.4.36-0+deb7u1_i386.deb
+Size: 35100
+MD5sum: aa0b2d59d924a76a1686f47d420fa9a5
+SHA1: 89d132be0fa5269faa47ac412db355a4c79f39ef
+SHA256: 104f266395c75779be7870544fea58ae1c2134f6f4efb36e9be403bc4cd82d38
 
 Package: php5-interbase
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 111
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libfbclient2 (>= 2.5.0.25784~ReleaseCandidate1.ds2), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: interbase/firebird module for php5
 Homepage: http://www.php.net/
 Description-md5: 3ecce43d21c43c6b5488a6b03a1c5b95
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-interbase_5.4.35-0+deb7u2_i386.deb
-Size: 49750
-MD5sum: 42ec8cfc94cad4ea0708bb7b65d2f8cd
-SHA1: 91bc678b5a6425e90c361608158af467b19a3be1
-SHA256: df454eef57c6015d09beccc80f680ac543437573524c1c70075e172dd401bd0f
+Filename: pool/updates/main/p/php5/php5-interbase_5.4.36-0+deb7u1_i386.deb
+Size: 49754
+MD5sum: 54436236429e66386632bed93a742788
+SHA1: 84ebd85fd7f3d6ae8e9a1186b225dd6de8b9ba4f
+SHA256: 0a5cd269e8882fb3c83954b1796f4beedcdc44df1f43d24fec4bb0963ff1d515
 
 Package: php5-intl
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 193
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: php5-idn
 Provides: php5-idn
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libicu48 (>= 4.8-1), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Conflicts: php5-idn
 Description: internationalisation module for php5
 Homepage: http://www.php.net/
@@ -20927,58 +20927,58 @@ Description-md5: 40f7de55e86374c3fcd3945b10915c0c
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: php
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-intl_5.4.35-0+deb7u2_i386.deb
-Size: 71168
-MD5sum: 8275269acabdd8eb164fab7aabcccd53
-SHA1: fde9344879090963be5b51973b71101962bc42c5
-SHA256: 4a35f8c6f495d7e8815ea3932258fee9aace9edf640e86f8d848f30b6833931b
+Filename: pool/updates/main/p/php5/php5-intl_5.4.36-0+deb7u1_i386.deb
+Size: 71166
+MD5sum: 71f606f597f14f45f46f5a2d751adee6
+SHA1: 1dd768c4b40bfff1c22fd9f3a9c7b9f07d7693c4
+SHA256: 5ca4aa902356bcdf27d720d16f160bc6917cd74aa686a3a61b2ed0318bb3c388
 
 Package: php5-ldap
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 57
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7), libsasl2-2 (>= 2.1.24), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7), libsasl2-2 (>= 2.1.24), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: LDAP module for php5
 Homepage: http://www.php.net/
 Description-md5: 7a129352cbfe9a2162ee43d4c9040421
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-ldap_5.4.35-0+deb7u2_i386.deb
-Size: 23176
-MD5sum: 0f345646483c732fc2b176a0d27aa485
-SHA1: 11edb5ef2a4346fcc911fb9d5ab913d4276d67f4
-SHA256: 6669f4c7cc47818b366a84adb72668e58b6043050c38f9bb1e4857ecce01654d
+Filename: pool/updates/main/p/php5/php5-ldap_5.4.36-0+deb7u1_i386.deb
+Size: 23172
+MD5sum: 03590da70a823decd44096e1bf7c539e
+SHA1: 510df0b3a07490fed1372bf7cad0aa38771da42b
+SHA256: 64df659cf1d2db2e0a7335f4a9d844544a12d7aff06a26076e1cc942f4384beb
 
 Package: php5-mcrypt
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 41
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libltdl7 (>= 2.4.2), libmcrypt4, phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libltdl7 (>= 2.4.2), libmcrypt4, phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: MCrypt module for php5
 Homepage: http://www.php.net/
 Description-md5: 4f6278e8663230e61d2db460c1d3c8dd
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-mcrypt_5.4.35-0+deb7u2_i386.deb
-Size: 15558
-MD5sum: 738ae80c61269265677b9f09c5b4df55
-SHA1: d49aa20db8361a6de8d178d225ccc788f06d3875
-SHA256: f0aecb37a145f995fb158947d5090da34041ea41bcb6a52b5420817d5dd5521a
+Filename: pool/updates/main/p/php5/php5-mcrypt_5.4.36-0+deb7u1_i386.deb
+Size: 15560
+MD5sum: 0017bfc4df39cbb25db4b062468a0ec7
+SHA1: 0d544aad2000958bf76a76ee931bb0f11d40d5f3
+SHA256: 42e5bb1bb3bfe79fcd1fd2c6cf50d2e407fb82a14c41a5cfa2bb0eed186b9f79
 
 Package: php5-mysql
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 204
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: php5-mysqli, php5-mysqlnd
-Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libmysqlclient18 (>= 5.5.24+dfsg-1), zlib1g (>= 1:1.1.4), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Conflicts: php5-mysqli, php5-mysqlnd
 Description: MySQL module for php5
 Homepage: http://www.php.net/
@@ -20986,20 +20986,20 @@ Description-md5: afca88d575e544314d64eead5093c24f
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-mysql_5.4.35-0+deb7u2_i386.deb
-Size: 77072
-MD5sum: f11a3f5dfb0d0026a23096bfd740a8f1
-SHA1: 51b241a6ae3f93703bf0ca93812a2a7875079725
-SHA256: 6c0279e0c3a2d2cdda58d765ea2a7d49ed3e3b0d420802e42b9c439b494284b6
+Filename: pool/updates/main/p/php5/php5-mysql_5.4.36-0+deb7u1_i386.deb
+Size: 77078
+MD5sum: 486e093683a88186da44d3c016c8e8ef
+SHA1: 31ccebec42a9a3e5434447ebf8d431e4628d17fc
+SHA256: a8f507a59dff57e5efce0ef4ff9c557fbc52006ce4a0d3fc08feddd3bc7f3ba4
 
 Package: php5-mysqlnd
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 412
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: php5-mysql, php5-mysqli
-Depends: libc6 (>= 2.4), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Conflicts: php5-mysql, php5-mysqli
 Description: MySQL module for php5 (Native Driver)
 Homepage: http://www.php.net/
@@ -21007,114 +21007,114 @@ Description-md5: 1806d3e8fad46f0044b35b3d49649a65
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: php
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-mysqlnd_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-mysqlnd_5.4.36-0+deb7u1_i386.deb
 Size: 161012
-MD5sum: cf012a13a0b2b06405f31ae6f1db445e
-SHA1: e69d63be9de984b4f644939e5adbe6a88f759007
-SHA256: 6d9e2a7c66c194f80599cf0ad29b874ce89b50bb06963a8a27841ba993bbba08
+MD5sum: 15c07e4767104576b8727f06748ecf9a
+SHA1: fb02dfe020ef45495c9266d08dda849d020b4232
+SHA256: 6d64701625ea78e69b8913b60491846edd517d7829ab8a6dadece1bc0bcb2307
 
 Package: php5-odbc
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 90
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libodbc1 (>= 2.2.11) | unixodbc (>= 2.2.11), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libodbc1 (>= 2.2.11) | unixodbc (>= 2.2.11), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: ODBC module for php5
 Homepage: http://www.php.net/
 Description-md5: bc0c148ebd27735418306b0207388a32
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-odbc_5.4.35-0+deb7u2_i386.deb
-Size: 36106
-MD5sum: a985bc322565bef1b343ef1c5db019b6
-SHA1: bdef0f42c09627650f54ea99c2f8d48a3b5a4d87
-SHA256: 7b33becb168658ad3c05d6f90a1cc21937b02375076d9fe61e6bc753420ac715
+Filename: pool/updates/main/p/php5/php5-odbc_5.4.36-0+deb7u1_i386.deb
+Size: 36102
+MD5sum: ecba1bf8cbb163a85a79b014ecde6a19
+SHA1: 3b50172097301729a51353204a068486c7889e3a
+SHA256: 1ef9a9d1312461e7a1edb24bd64d6058b896421742162ab784ddb6867536bcde
 
 Package: php5-pgsql
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 155
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libpq5 (>= 9.0~), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libpq5 (>= 9.0~), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: PostgreSQL module for php5
 Homepage: http://www.php.net/
 Description-md5: 25edec9b992444a2c1634b9545b31326
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-pgsql_5.4.35-0+deb7u2_i386.deb
-Size: 62700
-MD5sum: 09b73382b9367a2d15d220226ce36641
-SHA1: 78977a8ac87e3fa4bfd2d05b24f1bff8838f82fb
-SHA256: 9b1644dc1f5610cffa602e9d32d6ce24e41bc5f079003a68906be1532e8224d7
+Filename: pool/updates/main/p/php5/php5-pgsql_5.4.36-0+deb7u1_i386.deb
+Size: 62698
+MD5sum: 8f76073429802222d9c7eb3b7089f84b
+SHA1: cc18f8d9da53f0de58894fabbb64b0224ded792e
+SHA256: d40022ed1be4916391c2919b0b4e4993c21a7f7fb08e5a88d82b7e295b108f6d
 
 Package: php5-pspell
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 21
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libaspell15 (>= 0.60.7~20110707), libc6 (>= 2.4), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libaspell15 (>= 0.60.7~20110707), libc6 (>= 2.4), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: pspell module for php5
 Homepage: http://www.php.net/
 Description-md5: 920445b3fae73cbd3fc8bdca6c8a5b57
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-pspell_5.4.35-0+deb7u2_i386.deb
-Size: 8728
-MD5sum: ccdb54546a14ca3e2d85690d74811228
-SHA1: f282262e98ec965c471ad2116a20a930d538b7f9
-SHA256: f470c4fe71c9193658268fa06994e407c2092742d8dae422de3f1c9a8ba87dac
+Filename: pool/updates/main/p/php5/php5-pspell_5.4.36-0+deb7u1_i386.deb
+Size: 8724
+MD5sum: 3e145b7f5cc10c1a2a2c076a2d8afdc2
+SHA1: ae5c11999a300ca4414096e82559b254d59d1322
+SHA256: d54cd9540fb21a47e6cc07c6c477b9dced1b3445ae47e13e0d10cf04510bc419
 
 Package: php5-recode
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 13
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.1.3), librecode0 (>= 3.6), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.1.3), librecode0 (>= 3.6), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: recode module for php5
 Homepage: http://www.php.net/
 Description-md5: 3c620a285d39cb761f43554f09fe43bb
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-recode_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-recode_5.4.36-0+deb7u1_i386.deb
 Size: 5208
-MD5sum: 2efbc7262dd84cad6c9a9ce68d1335e4
-SHA1: 06314cfb2864e1bc116580f92e1fedc349a1c8ef
-SHA256: 93e18e782260301a3994e67d51ac09c3a466f0fb11614bdbc6951e6174d2c0dd
+MD5sum: 07b3f7e3b5c6632218d75b4ebf830415
+SHA1: 055c86202f0c2e1c84580b2eddbee33a904e9cde
+SHA256: 700284e0c63d577a67c43eaa82ab36749fea52e363dc1e51005f5913a525174d
 
 Package: php5-snmp
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 53
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libsnmp15 (>= 5.4.3~dfsg), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libsnmp15 (>= 5.4.3~dfsg), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: SNMP module for php5
 Homepage: http://www.php.net/
 Description-md5: a6138315953520c05a90dc9ae2b17cd6
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-snmp_5.4.35-0+deb7u2_i386.deb
-Size: 20986
-MD5sum: c358c1635ba6642be516c7859c94886e
-SHA1: ed209bfe4f6dfb2958fd787721806730d041cb99
-SHA256: 5c5ddd08168b8bbf6e64590f10ad06adc13c803bbabbe7af0fdf6eeffda8c221
+Filename: pool/updates/main/p/php5/php5-snmp_5.4.36-0+deb7u1_i386.deb
+Size: 20988
+MD5sum: 2c8865b16aaf545b6141f4544124b4d2
+SHA1: b69c4735d26b5fc3494ca1454ff0d9ddd7d56ba7
+SHA256: 6f9ec203ef5445dc890b33fdbc79d6dd59089587e153bf6a90c8eb6ba25a3b90
 
 Package: php5-sqlite
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 72
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libsqlite3-0 (>= 3.7.4), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libsqlite3-0 (>= 3.7.4), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Breaks: roundcube-sqlite (<< 0.7.1-2)
 Description: SQLite module for php5
 Homepage: http://www.php.net/
@@ -21122,88 +21122,88 @@ Description-md5: 9f069c06a620edaef808bb366117fc0e
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-sqlite_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-sqlite_5.4.36-0+deb7u1_i386.deb
 Size: 29394
-MD5sum: 9ea7c03731c82cbe7090917a26d95d58
-SHA1: 4534ad082b13a6b3db0d86e1adaa205a314f6c04
-SHA256: 51c5410b013fc5eb835779a09af66805ff76ecc60fc33c44087c163d71db9286
+MD5sum: d34843800c54014bc6aa1b48ed456937
+SHA1: cfbe30bdfcf96614a845d44c5de8eac1aff0c198
+SHA256: 6ad212e4b8aee4cdf672017bc397231e16fe8e62bf6dd320435ba4342b2ad5fb
 
 Package: php5-sybase
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 67
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
 Provides: php5-mssql
-Depends: libc6 (>= 2.4), libsybdb5 (>= 0.63), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libsybdb5 (>= 0.63), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: Sybase / MS SQL Server module for php5
 Homepage: http://www.php.net/
 Description-md5: b8ccf82cd9ae3fcd82dabb9be03dca85
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-sybase_5.4.35-0+deb7u2_i386.deb
-Size: 27856
-MD5sum: 09d396e14873cb272cf06ec69321c1ff
-SHA1: caf6caa52777c46f604b0ecf0b3127741f80e25f
-SHA256: 8bcac0e9e7b6cb29d3ab99621ed58065867367642a0f7923f50a5ab6c8d67b2a
+Filename: pool/updates/main/p/php5/php5-sybase_5.4.36-0+deb7u1_i386.deb
+Size: 27858
+MD5sum: 432cf69a9e3693c4d5139cfb47fab930
+SHA1: 476af48e747d92b03304a58a93f476419ca317f5
+SHA256: b738b81587abdf326228c265289f70029cfd47edfe9b311547565167e71c10fc
 
 Package: php5-tidy
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 49
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.1.3), libtidy-0.99-0, phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.1.3), libtidy-0.99-0, phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: tidy module for php5
 Homepage: http://www.php.net/
 Description-md5: f8668317f13f19a2ba384b4467355b14
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-tidy_5.4.35-0+deb7u2_i386.deb
+Filename: pool/updates/main/p/php5/php5-tidy_5.4.36-0+deb7u1_i386.deb
 Size: 19350
-MD5sum: d50540fca772238f3b902c02da308259
-SHA1: d5b5008d0e2f522f3395f41f313d95e8555a5aea
-SHA256: 3490d37c34876514122f542e9162b011f72f931d52389be8210bc400c44101eb
+MD5sum: b241a19860fcb27da21144fa63e5b347
+SHA1: 2656b5428432649747fd8ca67d7d973814ec4584
+SHA256: 01988ba71fa2827a22906ab35dc78fc4d75dea6b9591350bb6274d1fbd6ddfce
 
 Package: php5-xmlrpc
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 81
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libxml2 (>= 2.6.27), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libxml2 (>= 2.6.27), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: XML-RPC module for php5
 Homepage: http://www.php.net/
 Description-md5: 680850cbfd91309fdc1f668d316688fb
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-xmlrpc_5.4.35-0+deb7u2_i386.deb
-Size: 37160
-MD5sum: 0548202e7ce9b9bd4d60dd1527d146d3
-SHA1: 5970aae5438810d8465ab930f19167d783ad6f2c
-SHA256: 4a37d4c493751e769c9ff05b0ae3cd124e72e8b3c9bbb6ad6008af3b4947df3b
+Filename: pool/updates/main/p/php5/php5-xmlrpc_5.4.36-0+deb7u1_i386.deb
+Size: 37156
+MD5sum: 1697675c33d4d44330f64ccea4e31fe6
+SHA1: c18fe46274291e7c6b13c0beda0d02194f7c0d4c
+SHA256: 33bc6c8c06b1fcbfd8336299e662b03b980656454c3272f4dded900351636556
 
 Package: php5-xsl
 Source: php5
-Version: 5.4.35-0+deb7u2
+Version: 5.4.36-0+deb7u1
 Installed-Size: 33
 Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), phpapi-20100525+lfs, php5-common (= 5.4.35-0+deb7u2), ucf
+Depends: libc6 (>= 2.4), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), phpapi-20100525+lfs, php5-common (= 5.4.36-0+deb7u1), ucf
 Description: XSL module for php5
 Homepage: http://www.php.net/
 Description-md5: c1111ccc98d65b3dc65dd1e88f4b7d9b
 Pre-Depends: dpkg (>= 1.15.7.2~)
 Section: web
 Priority: optional
-Filename: pool/updates/main/p/php5/php5-xsl_5.4.35-0+deb7u2_i386.deb
-Size: 15058
-MD5sum: 07565b740e53e5cffec3d283555bfa1d
-SHA1: 6d755e8ef467a54ed4ab92df6b5251eb5c5ec730
-SHA256: d41d69fad7c7461c7159ab3ffd0cd0b87d8e9198a70b44f69bf1599f9a814acd
+Filename: pool/updates/main/p/php5/php5-xsl_5.4.36-0+deb7u1_i386.deb
+Size: 15068
+MD5sum: 7147f2cfde4c5656041c7dcb63f6286c
+SHA1: 2ef85609e136e8d17de6ed01dcce097f2221e6f8
+SHA256: ec5f87e8cbd86f70f60b609188c118a305bd5ee74a7adcba8d74e00b1ee2c65c
 
 Package: phpbb3
 Version: 3.0.10-4+deb7u1
