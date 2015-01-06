@@ -4025,6 +4025,42 @@ Directory: pool/updates/main/libe/libemail-address-perl
 Priority: source
 Section: perl
 
+Package: libevent
+Binary: libevent-dev, libevent-dbg, libevent-2.0-5, libevent-core-2.0-5, libevent-extra-2.0-5, libevent-pthreads-2.0-5, libevent-openssl-2.0-5
+Version: 2.0.19-stable-3+deb7u1
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Uploaders: Leo Costela <costela@debian.org>
+Build-Depends: dpkg-dev (>= 1.16.1~), debhelper (>= 9), autotools-dev, libssl-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ a9f99ecd8f62ac8e8a8c2a08f893cc84 2364 libevent_2.0.19-stable-3+deb7u1.dsc
+ b0ba3762c4006e91ff5de70166d10216 684062 libevent_2.0.19-stable.orig.tar.bz2
+ 2edee9d1f159dac74ece4b174859279f 10540 libevent_2.0.19-stable-3+deb7u1.debian.tar.xz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/libevent.git
+Vcs-Git: git://git.debian.org/git/collab-maint/libevent.git
+Checksums-Sha1:
+ 072315ea691a0835e5d3a0fa705b3f62fc026fb0 2364 libevent_2.0.19-stable-3+deb7u1.dsc
+ 26a4c98592e46c066797f2bdb2ca605e8996a811 684062 libevent_2.0.19-stable.orig.tar.bz2
+ a1d2277316a0ba8d211f0894c91b9df2bb3aa88a 10540 libevent_2.0.19-stable-3+deb7u1.debian.tar.xz
+Checksums-Sha256:
+ eb3df9e0202b5053dd06e8b9f049be8974c6880be67a8b8f676e4e43305e2eda 2364 libevent_2.0.19-stable-3+deb7u1.dsc
+ f111b460429289e958cd5f3bb75d06abd920d30ad733ff00a79f5864a7ca62e9 684062 libevent_2.0.19-stable.orig.tar.bz2
+ c340a40b32730abd4506450fca6ca1929387034c814ee503a502592f27f87ebf 10540 libevent_2.0.19-stable-3+deb7u1.debian.tar.xz
+Homepage: http://libevent.org/
+Package-List: 
+ libevent-2.0-5 deb libs standard
+ libevent-core-2.0-5 deb libs optional
+ libevent-dbg deb debug extra
+ libevent-dev deb libdevel optional
+ libevent-extra-2.0-5 deb libs optional
+ libevent-openssl-2.0-5 deb libs optional
+ libevent-pthreads-2.0-5 deb libs optional
+Directory: pool/updates/main/libe/libevent
+Priority: source
+Section: libs
+
 Package: libfs
 Binary: libfs6, libfs6-dbg, libfs-dev
 Version: 2:1.0.4-1+deb7u1
@@ -10753,26 +10789,26 @@ Section: libs
 
 Package: strongswan
 Binary: strongswan, libstrongswan, strongswan-dbg, strongswan-starter, strongswan-ikev1, strongswan-ikev2, strongswan-nm
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Build-Depends: debhelper (>= 7.1), libtool, libgmp3-dev, libssl-dev (>= 0.9.8), libcurl4-openssl-dev | libcurl3-dev | libcurl2-dev, libldap2-dev, libpam0g-dev, libkrb5-dev, bison, flex, bzip2, po-debconf, hardening-wrapper, network-manager-dev (>= 0.7), libfcgi-dev, clearsilver-dev, libxml2-dev, libsqlite3-dev, libnm-glib-vpn-dev (>= 0.7), libnm-util-dev (>= 0.7), gperf, libcap-dev
 Architecture: any all
 Standards-Version: 3.9.1
 Format: 3.0 (quilt)
 Files:
- 48dbf0f4b2556d833d58d5156c2cb09f 2197 strongswan_4.5.2-1.5+deb7u4.dsc
+ 699df9ddcd9be179113025cc670f9783 2180 strongswan_4.5.2-1.5+deb7u6.dsc
  540544397e060b497c7a1d5c9f3f4d10 4632921 strongswan_4.5.2.orig.tar.gz
- cc7b535aafc59055ca1dda62e6ee38a3 148880 strongswan_4.5.2-1.5+deb7u4.debian.tar.gz
+ e3a4d98a79146ac5ce766540140c4db0 150299 strongswan_4.5.2-1.5+deb7u6.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/git/pkg-swn/strongswan.git
 Vcs-Git: git://anonscm.debian.org/pkg-swan/strongswan.git
 Checksums-Sha1:
- 1b205cc91bab15d94ec3bd9271a7335192e44603 2197 strongswan_4.5.2-1.5+deb7u4.dsc
+ e5fde0373280e185224260747325bf9fa3aca0e3 2180 strongswan_4.5.2-1.5+deb7u6.dsc
  2067e64ca71d3dcf873698331027f16f0986f0d6 4632921 strongswan_4.5.2.orig.tar.gz
- 091c51de1528b2f9289a5c8fc2c977e749f01c4b 148880 strongswan_4.5.2-1.5+deb7u4.debian.tar.gz
+ eb19b21dd0da3962f04732a53936d4d5f3b49059 150299 strongswan_4.5.2-1.5+deb7u6.debian.tar.gz
 Checksums-Sha256:
- 42332b76087108f0b09ee6b6bb2afd65dde831b418712b9159a81bee3bc14e2c 2197 strongswan_4.5.2-1.5+deb7u4.dsc
+ 9fa9552202882aa0fc96fee16f10a736bd8c361cd430018c568e2449cc0bb061 2180 strongswan_4.5.2-1.5+deb7u6.dsc
  88eeebfe9df6d18f320f396c7236f907e7a34c27f8382c7ce6e4239a7ecce31b 4632921 strongswan_4.5.2.orig.tar.gz
- daf2c2ccb654000b09a43e352cabd15c595149b4147f1e6d4fc5329485bed7bd 148880 strongswan_4.5.2-1.5+deb7u4.debian.tar.gz
+ 95b908456cb45e14b2d49a9a369b6c7b6e1b0aa12dde26477b875b29e0a9c6b8 150299 strongswan_4.5.2-1.5+deb7u6.debian.tar.gz
 Homepage: http://www.strongswan.org
 Package-List: 
  libstrongswan deb net optional

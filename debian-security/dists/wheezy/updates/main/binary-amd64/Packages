@@ -11877,6 +11877,143 @@ MD5sum: 2b88421861b3faed02ad2566c78cbe89
 SHA1: 4b6829b3a6ffb7bfd0a00e4b4afd992b22715dca
 SHA256: 02e7765837885a7c11a76f7d38070af254885448988fbcd85bea40353861fe6c
 
+Package: libevent-2.0-5
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 359
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Description: Asynchronous event notification library
+Homepage: http://libevent.org/
+Description-md5: 45b333b614c8e682d2a525e278f5c233
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: standard
+Filename: pool/updates/main/libe/libevent/libevent-2.0-5_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 173940
+MD5sum: 5e97df093772f8ebab75cc9fc1ebe2dc
+SHA1: 71690beed2d0efce3ced97b47b5b590ddfe99532
+SHA256: ad4391fac1a134127663c1fe33197289eaef90e62e0fb99ada662d9086d49290
+
+Package: libevent-core-2.0-5
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 242
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Description: Asynchronous event notification library (core)
+Homepage: http://libevent.org/
+Description-md5: 951eaa6250fb2e171dca3efbd48a13f0
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libe/libevent/libevent-core-2.0-5_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 122302
+MD5sum: 8aae1e3bdb0d013ba4fb268abe151ae9
+SHA1: a5a9d5d991b638646751d529988c752e37410d0b
+SHA256: b5e580cebfb4c96f228b76051e46e8e93785e67087ca8aed86886afca235da70
+
+Package: libevent-dbg
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 853
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libevent-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-core-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-extra-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-pthreads-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-openssl-2.0-5 (= 2.0.19-stable-3+deb7u1)
+Description: Asynchronous event notification library (debug symbols)
+Homepage: http://libevent.org/
+Description-md5: bb5dc0220b6e054969b4eb43196d2663
+Multi-Arch: same
+Section: debug
+Priority: extra
+Filename: pool/updates/main/libe/libevent/libevent-dbg_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 720008
+MD5sum: 3037c763dd3c23679731cce232eebac3
+SHA1: 8947b20bf7a842d5fec50786bcc78f2c4668603a
+SHA256: c8f474cbc2c229e8532bfb7f3d87089210dc7b4e90cb91b545884dbf25d7c6c4
+
+Package: libevent-dev
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 1412
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libevent-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-core-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-extra-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-pthreads-2.0-5 (= 2.0.19-stable-3+deb7u1), libevent-openssl-2.0-5 (= 2.0.19-stable-3+deb7u1)
+Description: Asynchronous event notification library (development files)
+Homepage: http://libevent.org/
+Description-md5: a0372b2adf9c0952b500f3fdbe22e52d
+Section: libdevel
+Priority: optional
+Filename: pool/updates/main/libe/libevent/libevent-dev_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 321556
+MD5sum: 8823f77902d78f01cf985c5976cd6438
+SHA1: 3a114b5e14c7501db8638386c2c9c4f5b634fef4
+SHA256: 688d095a2bc4e33a9e39660488659ef6688821b7337c93296329392c36ca248f
+
+Package: libevent-extra-2.0-5
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 203
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libevent-core-2.0-5 (= 2.0.19-stable-3+deb7u1)
+Description: Asynchronous event notification library (extra)
+Homepage: http://libevent.org/
+Description-md5: 7e81dabcc83d13ad144b6515c21b85c0
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libe/libevent/libevent-extra-2.0-5_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 102462
+MD5sum: aa57f93440500d6cf088e8af3a6513e5
+SHA1: 104a14fd9aa05bd824da6597db7f320c2c0e3ff4
+SHA256: 405bfd4853e43c753445cbe9cb10226c03ca8e8d41a6d9d5cdc534bfaae9a2a7
+
+Package: libevent-openssl-2.0-5
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 98
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libevent-core-2.0-5 (= 2.0.19-stable-3+deb7u1), libssl1.0.0 (>= 1.0.0)
+Description: Asynchronous event notification library (openssl)
+Homepage: http://libevent.org/
+Description-md5: 9fbb926ce82ae47152f531168a5a07bf
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libe/libevent/libevent-openssl-2.0-5_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 52260
+MD5sum: eef9f11194d410cfb15e76a875cf3702
+SHA1: 0d7f31bdb34157dd4eb4fb6aec871283877722f2
+SHA256: 6bf8e43a2db0354b5232b696b76aa2bc900f0dd139993a503b30193fa00ef1b3
+
+Package: libevent-pthreads-2.0-5
+Source: libevent
+Version: 2.0.19-stable-3+deb7u1
+Installed-Size: 82
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.3.2), libevent-core-2.0-5 (= 2.0.19-stable-3+deb7u1)
+Description: Asynchronous event notification library (pthreads)
+Homepage: http://libevent.org/
+Description-md5: 1a5d857791ab89f821f6bb92b9d541ca
+Multi-Arch: same
+Pre-Depends: multiarch-support
+Section: libs
+Priority: optional
+Filename: pool/updates/main/libe/libevent/libevent-pthreads-2.0-5_2.0.19-stable-3+deb7u1_amd64.deb
+Size: 44544
+MD5sum: 5a5025eb6dee36560146a0a25505b1ac
+SHA1: 5a63346cf797e7de7401824a014e7cc900ea9cf6
+SHA256: f4ec05413d76c3f333ecc78014e8e9013f26bee2e294ab9c4feee4903dcaf444
+
 Package: libfs-dev
 Source: libfs
 Version: 2:1.0.4-1+deb7u1
@@ -24912,7 +25049,7 @@ SHA256: 0de3bed2a686be1db8bf21a0e7ea43a40a4e7704e2e81b0478ba4f8c0603c4b3
 
 Package: libstrongswan
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 1338
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
@@ -24923,14 +25060,14 @@ Homepage: http://www.strongswan.org
 Description-md5: 37d3dfdd9c510e7c27d10c2dd7ddba19
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/libstrongswan_4.5.2-1.5+deb7u4_amd64.deb
-Size: 522350
-MD5sum: 96fddc657f43abeeb3c5c052af1b75d0
-SHA1: 2b0cc75f835741129f460feb3f290dafdefd4e44
-SHA256: 284bf90626222071e62a0708a270e89f603f35d28e5ed5b2f2a341f29cd63b00
+Filename: pool/updates/main/s/strongswan/libstrongswan_4.5.2-1.5+deb7u6_amd64.deb
+Size: 522486
+MD5sum: 0981467d777897f528ad1454a6e1d3dc
+SHA1: 76431b89460e79c77cc7cb4ead9cf8da1d66c3d1
+SHA256: 0cb2d3d49cba43c450110fa5630575f4a8365cdb5fc4a1c1786f9d230c99c66e
 
 Package: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 116
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: all
@@ -24941,15 +25078,15 @@ Homepage: http://www.strongswan.org
 Description-md5: 895d3c2cac238fe5edf333cfd67861d1
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/strongswan_4.5.2-1.5+deb7u4_all.deb
-Size: 81628
-MD5sum: a06c06ac394ffb04fcf00da86a01fc72
-SHA1: dad10d7345060d64638080f9b7784b3146e27dd1
-SHA256: d96fa7ff78b614bf103d7cae3fde5eed9136e878f484f81f244685b052c963aa
+Filename: pool/updates/main/s/strongswan/strongswan_4.5.2-1.5+deb7u6_all.deb
+Size: 81744
+MD5sum: b5e455cc1cd257d108b6e51aafacde36
+SHA1: a546608af6e72affe7b9d4803e40ce07e43576c3
+SHA256: 0701691171984c687b09bd4bf49adf5a289b5e3cb8daeba1012897b5fe888bc3
 
 Package: strongswan-dbg
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 788
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
@@ -24959,21 +25096,21 @@ Homepage: http://www.strongswan.org
 Description-md5: 5d057fe4463200e145eb5d198733ae72
 Section: debug
 Priority: extra
-Filename: pool/updates/main/s/strongswan/strongswan-dbg_4.5.2-1.5+deb7u4_amd64.deb
-Size: 204564
-MD5sum: 4691f13ddf04697172bc66c338b7dca2
-SHA1: 6cd04a1f691cfa25636cb1d57d711fa10391086e
-SHA256: 1c345de89e9b21fe02f68466074fa6667ff17f0be99ffbd0e7e3f7e5485be630
+Filename: pool/updates/main/s/strongswan/strongswan-dbg_4.5.2-1.5+deb7u6_amd64.deb
+Size: 204626
+MD5sum: 118b9306f701dce94b96ad14fcdb91ea
+SHA1: a17bfe9478c8325d51acc1e91633536914400a2d
+SHA256: 0d87deaa5d50bbbaf228fcb721cffe30206728903dc4de073a715e983c6eab68
 
 Package: strongswan-ikev1
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 751
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
 Replaces: openswan
 Provides: ike-server
-Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libstrongswan (= 4.5.2-1.5+deb7u4), strongswan-starter, bsdmainutils, debianutils (>= 1.7), ipsec-tools, host, iproute
+Depends: libc6 (>= 2.7), libcap2 (>= 2.10), libstrongswan (= 4.5.2-1.5+deb7u6), strongswan-starter, bsdmainutils, debianutils (>= 1.7), ipsec-tools, host, iproute
 Suggests: curl
 Conflicts: freeswan (<< 2.04-12), openswan, strongswan (<< 4.2.12-1)
 Description: strongSwan Internet Key Exchange (v1) daemon
@@ -24982,20 +25119,20 @@ Description-md5: 467b01738483e51103aa06fa706df482
 Pre-Depends: debconf | debconf-2.0
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/strongswan-ikev1_4.5.2-1.5+deb7u4_amd64.deb
-Size: 345282
-MD5sum: ee05e401bfe2a87a04b46d5a2e3b71f2
-SHA1: 07f1044b993cef523f528f5a9d7fe6111e06dfb3
-SHA256: beac59826fbe17d4e5bbd856eb46f56a0cdfc6ce89ad9923011611440716d9ff
+Filename: pool/updates/main/s/strongswan/strongswan-ikev1_4.5.2-1.5+deb7u6_amd64.deb
+Size: 345380
+MD5sum: a902410e1b66d29799e6df01cb905140
+SHA1: 45cee5ac528a7c69f03ba09f906d8831a7a9655d
+SHA256: 635d9edae389d1df48a51bc8835006838f2dedbb52b7f82673a35bd0aa65154d
 
 Package: strongswan-ikev2
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
-Installed-Size: 981
+Version: 4.5.2-1.5+deb7u6
+Installed-Size: 982
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
 Provides: ike-server
-Depends: libc6 (>= 2.4), libcap2 (>= 2.10), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libstrongswan (= 4.5.2-1.5+deb7u4), strongswan-starter | strongswan-nm, bsdmainutils, debianutils (>= 1.7), ipsec-tools, host, iproute
+Depends: libc6 (>= 2.4), libcap2 (>= 2.10), libcurl3 (>= 7.16.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), libstrongswan (= 4.5.2-1.5+deb7u6), strongswan-starter | strongswan-nm, bsdmainutils, debianutils (>= 1.7), ipsec-tools, host, iproute
 Suggests: curl
 Conflicts: freeswan (<< 2.04-12), openswan, strongswan (<< 4.2.12-1)
 Description: strongSwan Internet Key Exchange (v2) daemon
@@ -25004,15 +25141,15 @@ Description-md5: af374d3a8a0ec4809b7e625778016aad
 Pre-Depends: debconf | debconf-2.0
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/strongswan-ikev2_4.5.2-1.5+deb7u4_amd64.deb
-Size: 387298
-MD5sum: dc9019172c6d2ca258c720fdd7288ca3
-SHA1: 6263a643d5d08d161879727b0b2c6f78a82d3e7d
-SHA256: 982a90664e8f104d363e7611a4d467799de93fe6e74dd63e180651468f91e36a
+Filename: pool/updates/main/s/strongswan/strongswan-ikev2_4.5.2-1.5+deb7u6_amd64.deb
+Size: 387392
+MD5sum: 2d2143f1bdaf3bfddc299b65f59ccd09
+SHA1: 75e5a241e6c97956f04aeea9ba13afe0dfa341ea
+SHA256: 19d55b1c0a205cd5df037bb4fc8d23eb874ad40bffec6b1a4650c03002a8ad18
 
 Package: strongswan-nm
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 121
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
@@ -25023,30 +25160,30 @@ Description-md5: 0b0bab743abd9f8543353128ef1683ba
 Recommends: network-manager-strongswan
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/strongswan-nm_4.5.2-1.5+deb7u4_amd64.deb
-Size: 58224
-MD5sum: a4406bb9bcb275c92b189036874fd9df
-SHA1: 47c1114ffd1f6377f82110ad7c0cac836d3edad3
-SHA256: 71ff8371a9a3d529af1b3b5f3634906b09d754f9a67d669d0bfe4f306651f2d3
+Filename: pool/updates/main/s/strongswan/strongswan-nm_4.5.2-1.5+deb7u6_amd64.deb
+Size: 58326
+MD5sum: ff244ea84218065a8c8ceffecc9eeede
+SHA1: 1b52143199fe170c853fb1e167d4e770a1a2a59a
+SHA256: cd84cfea88994c748f3b33a95a970e92a79051dc300526e329dddb09bc0e10ee
 
 Package: strongswan-starter
 Source: strongswan
-Version: 4.5.2-1.5+deb7u4
+Version: 4.5.2-1.5+deb7u6
 Installed-Size: 845
 Maintainer: Rene Mayrhofer <rmayr@debian.org>
 Architecture: amd64
-Depends: libc6 (>= 2.8), libstrongswan (= 4.5.2-1.5+deb7u4), debconf (>= 0.5) | debconf-2.0, strongswan-ikev1 | strongswan-ikev2
+Depends: libc6 (>= 2.8), libstrongswan (= 4.5.2-1.5+deb7u6), debconf (>= 0.5) | debconf-2.0, strongswan-ikev1 | strongswan-ikev2
 Conflicts: strongswan (<< 4.2.12-1)
 Description: strongSwan daemon starter and configuration file parser
 Homepage: http://www.strongswan.org
 Description-md5: b4f1378739b46874b317ec4adc88fc0e
 Section: net
 Priority: optional
-Filename: pool/updates/main/s/strongswan/strongswan-starter_4.5.2-1.5+deb7u4_amd64.deb
-Size: 319086
-MD5sum: a19975fa8f3b201eec20c9ed2a2759a6
-SHA1: 45da6520b6eb4bd43cf66ea76e7232953c34e18d
-SHA256: 375a1f6d2ea642877553f7b34e6cc654b91298a342d973b13ed030892dc355ec
+Filename: pool/updates/main/s/strongswan/strongswan-starter_4.5.2-1.5+deb7u6_amd64.deb
+Size: 319174
+MD5sum: 5d443ecbb955bb0c5f5b689178bb90c1
+SHA1: 4438eed7da70d65fec23544ea807bcc2858bc4d5
+SHA256: 2b0ccc1eaf96b8b14bc28628df2bff52eadcad2f96bd8504c51e0d4e51a05a37
 
 Package: libapache2-svn
 Source: subversion
