@@ -1908,27 +1908,27 @@ SHA1: 4c2a140c6d9c3d781ba0d5581b92a990a8ebda25
 SHA256: 44350be3b210b6728b13a5ce8a09fcf9a4799563153fec37eefc1b404d7294d7
 
 Package: curl
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Installed-Size: 364
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Replaces: curl-ssl
 Provides: curl-ssl
-Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy11), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.7), libcurl3 (= 7.26.0-1+wheezy12), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
 Homepage: http://curl.haxx.se
 Description-md5: bfedc129a9c070522f2c8ad7dc3bd643
 Section: web
 Priority: optional
-Filename: pool/updates/main/c/curl/curl_7.26.0-1+wheezy11_amd64.deb
-Size: 269654
-MD5sum: 8621ebce1c960a7da93990c6b9518db4
-SHA1: f1256460a6b7d954263c8848ade9d51f93148d30
-SHA256: 8ae297397b5ca9ddfef3ed5223934293d415a6c7044906c92dea2e5daeffe96a
+Filename: pool/updates/main/c/curl/curl_7.26.0-1+wheezy12_amd64.deb
+Size: 269684
+MD5sum: 95215bc115a4457d4eae6954ab2eec9f
+SHA1: b021871d4fa95367ffa2c826492250e8babc8d7f
+SHA256: bb89cc1e1abf926260affa2a7fa2acf501a888cef344a6c4c2d627bf1ea013a5
 
 Package: libcurl3
 Source: curl
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Installed-Size: 601
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
@@ -1943,21 +1943,21 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3_7.26.0-1+wheezy11_amd64.deb
-Size: 330848
-MD5sum: 7ccb0bbe8867e710efa21aa6d9bc90d1
-SHA1: 4d1527b6b99f8722792bcab4ae8c228384ad8613
-SHA256: 3e76d156e718e3565bcb928507ad41d680915233db82fc3c855d0449ed49df67
+Filename: pool/updates/main/c/curl/libcurl3_7.26.0-1+wheezy12_amd64.deb
+Size: 331066
+MD5sum: c810454a37ae4efa66b61b34b3b3f38b
+SHA1: 707153bf5dc8bf8663888e849006fd0d817bee68
+SHA256: 899a332e40a19e8c3b0e1b7c3c2e634ddb4a52a0f0baad7f70ff1676ea7d8679
 
 Package: libcurl3-dbg
 Source: curl
-Version: 7.26.0-1+wheezy11
-Installed-Size: 3515
+Version: 7.26.0-1+wheezy12
+Installed-Size: 3517
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Replaces: libcurl4-dbg
 Provides: libcurl4-dbg
-Depends: libcurl3 (= 7.26.0-1+wheezy11) | libcurl3-gnutls (= 7.26.0-1+wheezy11) | libcurl3-nss (= 7.26.0-1+wheezy11)
+Depends: libcurl3 (= 7.26.0-1+wheezy12) | libcurl3-gnutls (= 7.26.0-1+wheezy12) | libcurl3-nss (= 7.26.0-1+wheezy12)
 Suggests: libc-dbg
 Conflicts: libcurl4-dbg
 Description: debugging symbols for libcurl (OpenSSL, GnuTLS and NSS flavours)
@@ -1966,15 +1966,15 @@ Description-md5: 75dc37d46c31142928caa6ed53e144bf
 Multi-Arch: same
 Section: libdevel
 Priority: extra
-Filename: pool/updates/main/c/curl/libcurl3-dbg_7.26.0-1+wheezy11_amd64.deb
-Size: 3302370
-MD5sum: 2a4f1a75990a26a65239f8b7f986ef2b
-SHA1: ec2ec1d39fe99a6ce7f10c773e932737162e0227
-SHA256: 9f8923a50c5400d38c0edb3ffc4b6887b2878f069838f78d7fb0e5476333a4b6
+Filename: pool/updates/main/c/curl/libcurl3-dbg_7.26.0-1+wheezy12_amd64.deb
+Size: 3304406
+MD5sum: c95c55f21462d16db78857aa8d9f9d2d
+SHA1: bb196b7906a6801d1ec408864d5f467fba10f77a
+SHA256: 3e7989fb6998c9739565b13beeb5194ff8b53bedce3f84a31c529e9a543ec246
 
 Package: libcurl3-gnutls
 Source: curl
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Installed-Size: 580
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
@@ -1989,15 +1989,15 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3-gnutls_7.26.0-1+wheezy11_amd64.deb
-Size: 321634
-MD5sum: 5150024fc45f662b59891d4288fb29db
-SHA1: 2867709c50d3c90d250259b407371208356b11b2
-SHA256: 8d6ebbaeb79b884febb4ba268c662b8ccf9ebbabf99de701c6cd877da8fbe338
+Filename: pool/updates/main/c/curl/libcurl3-gnutls_7.26.0-1+wheezy12_amd64.deb
+Size: 321780
+MD5sum: 65da8313d13eb86a2046b8d45e57283c
+SHA1: 5133b45a541517118258552c583846332a5d7514
+SHA256: a2acdc5f5300d077138d6235e0fde8b34ee11f28f13948344f45c44f8fecc51c
 
 Package: libcurl3-nss
 Source: curl
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Installed-Size: 592
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
@@ -2012,21 +2012,21 @@ Pre-Depends: multiarch-support
 Recommends: ca-certificates
 Section: libs
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl3-nss_7.26.0-1+wheezy11_amd64.deb
-Size: 328324
-MD5sum: 05be59bcbdefc7715164afc0eac7d620
-SHA1: 2831501ca06f59f52568c43839c24ff238ccd39d
-SHA256: 672ff89bdf2145337fea5f36587fb103a1481c0e58b8020d105de9720f093acc
+Filename: pool/updates/main/c/curl/libcurl3-nss_7.26.0-1+wheezy12_amd64.deb
+Size: 328580
+MD5sum: 346eafc64fd6dd7dbb32239df929f2e2
+SHA1: 8679e8014c2a92ecbc65dd36157b8f07a63e3971
+SHA256: 3391da990f463daa13481728fac8270b4bbcedc49cc6c47b23ff173b989e67f0
 
 Package: libcurl4-gnutls-dev
 Source: curl
-Version: 7.26.0-1+wheezy11
-Installed-Size: 2602
+Version: 7.26.0-1+wheezy12
+Installed-Size: 2603
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-gnutls-dev, libcurl4-dev
-Depends: libcurl3-gnutls (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
+Depends: libcurl3-gnutls (= 7.26.0-1+wheezy12), libc6-dev | libc-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-nss-dev, libcurl4-openssl-dev
 Description: development files and documentation for libcurl (GnuTLS flavour)
@@ -2034,21 +2034,21 @@ Homepage: http://curl.haxx.se
 Description-md5: cf466d605e7f6ba2d9a210b9ff7cf506
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-gnutls-dev_7.26.0-1+wheezy11_amd64.deb
-Size: 1260868
-MD5sum: b8f946c2ae2e8aa396f852dcf2582cf4
-SHA1: 4d2ab9d3a409d2bfeb58ad1b552e60503343bcc4
-SHA256: ea5cbc83130ee4c06981b311f9674af63d60a95820814c7f2964483549590f0a
+Filename: pool/updates/main/c/curl/libcurl4-gnutls-dev_7.26.0-1+wheezy12_amd64.deb
+Size: 1261130
+MD5sum: 1757a50fb25a38092dad1b0cce774bb1
+SHA1: da598b59c400ab94de0fba1eb3d75542d610fa78
+SHA256: 3fcec631d150a2498603d23a9bcf626dfeac773bd5b37fa1191e013ff8846cc2
 
 Package: libcurl4-nss-dev
 Source: curl
-Version: 7.26.0-1+wheezy11
-Installed-Size: 2617
+Version: 7.26.0-1+wheezy12
+Installed-Size: 2618
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-nss-dev, libcurl4-dev
-Depends: libcurl3-nss (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
+Depends: libcurl3-nss (= 7.26.0-1+wheezy12), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-gnutls-dev, libcurl4-openssl-dev
 Description: development files and documentation for libcurl (NSS flavour)
@@ -2056,21 +2056,21 @@ Homepage: http://curl.haxx.se
 Description-md5: ea23d26e1e30e1d8c9854839a5f36f16
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-nss-dev_7.26.0-1+wheezy11_amd64.deb
-Size: 1268626
-MD5sum: a37e216b7f4dab5da9efd1dff5b8793d
-SHA1: 765c8f6d410c19617d50ec858d910c03bcf27e45
-SHA256: 8c90dbe12b26f07f629ffeb7cd4550f6d9bf3278031687625387929c2ce894af
+Filename: pool/updates/main/c/curl/libcurl4-nss-dev_7.26.0-1+wheezy12_amd64.deb
+Size: 1268840
+MD5sum: b28eb6674eefc7c884fe41231473f062
+SHA1: 75fa68e730add95170492f06f2f9bb6588757e60
+SHA256: 8240e52160a1e48b5a062386603f55fc36240eeb598b5ee7901bc05f9e632266
 
 Package: libcurl4-openssl-dev
 Source: curl
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Installed-Size: 2637
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: amd64
 Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-dev (<< 7.14.1-1), libcurl3-openssl-dev
 Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-dev, libcurl3-openssl-dev, libcurl4-dev
-Depends: libcurl3 (= 7.26.0-1+wheezy11), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, libssl-dev, zlib1g-dev
+Depends: libcurl3 (= 7.26.0-1+wheezy12), libc6-dev | libc-dev, libidn11-dev, libkrb5-dev, libldap2-dev, librtmp-dev, libssh2-1-dev, libssl-dev, zlib1g-dev
 Suggests: libcurl3-dbg
 Conflicts: libcurl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev
 Description: development files and documentation for libcurl (OpenSSL flavour)
@@ -2078,11 +2078,11 @@ Homepage: http://curl.haxx.se
 Description-md5: d34823c09cbc282f1e66e15adefbdb9f
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/c/curl/libcurl4-openssl-dev_7.26.0-1+wheezy11_amd64.deb
-Size: 1272432
-MD5sum: 077f4846333fe5ad4ff8257e35cb6c67
-SHA1: 9a5d75473ef5b503fd683cc457e63b0fc16b785b
-SHA256: f503da532909864c1e3ca0eed31d67fccc5d46aa6e7c72358bc6a4a85b150a52
+Filename: pool/updates/main/c/curl/libcurl4-openssl-dev_7.26.0-1+wheezy12_amd64.deb
+Size: 1272646
+MD5sum: 379e29629fc28bfb3a1aee5b5cc939a9
+SHA1: b91f8dc6c60e29b47cfc7bcda649c17e0ce75da6
+SHA256: 19cb143b081dda1ff69c75eb7e60311c15fa794515e4f7d3106130e694fb028a
 
 Package: davfs2
 Version: 1.4.6-1.1+wheezy1
@@ -3209,30 +3209,30 @@ SHA1: f77ee25d8ecc7b81f986f0630046785b21f0602d
 SHA256: 815b28ffdfcfbf0c8983facad46d54edffce63df2269ef9dc79b60886e747794
 
 Package: file
-Version: 5.11-2+deb7u6
-Installed-Size: 66
+Version: 5.11-2+deb7u7
+Installed-Size: 110
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u6), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.4), libmagic1 (= 5.11-2+deb7u7), zlib1g (>= 1:1.1.4)
 Description: Determines file type using "magic" numbers
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 24356148df43e324f7cd0edfa5faa2fc
 Multi-Arch: foreign
 Section: utils
 Priority: standard
-Filename: pool/updates/main/f/file/file_5.11-2+deb7u6_amd64.deb
-Size: 52684
-MD5sum: 3028dac1848f41224530fcd713933ada
-SHA1: e239ae6b36f93942ed5c091c8cadb46e599f9fb2
-SHA256: 6eb52775efae49626cd39125915cda67e7678e3118e9e6d2fe21e44e2ac90adb
+Filename: pool/updates/main/f/file/file_5.11-2+deb7u7_amd64.deb
+Size: 53364
+MD5sum: b1fde9d77aba2922f808a4c8a236426f
+SHA1: 1e1566d0f4cc5fe880609a4535938207818e9739
+SHA256: a2d95c282d7e63295d980c2caf14af6b5c06245b711d84865e3a442c48634311
 
 Package: libmagic-dev
 Source: file
-Version: 5.11-2+deb7u6
-Installed-Size: 249
+Version: 5.11-2+deb7u7
+Installed-Size: 301
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: libmagic1 (= 5.11-2+deb7u6)
+Depends: libmagic1 (= 5.11-2+deb7u7)
 Suggests: file
 Description: File type determination library using "magic" numbers (development)
 Homepage: http://www.darwinsys.com/file/
@@ -3240,16 +3240,16 @@ Description-md5: 8dfdad924ca9981a019ce4d5e66307e2
 Multi-Arch: same
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u6_amd64.deb
-Size: 92838
-MD5sum: 3be2c04d489772ac17ce249b84e90774
-SHA1: ee06dd10e8e30cbc186a97bfe20ec8d9182ce1a9
-SHA256: 2cc262f1e7d40eef11af96067ff754e36efc4d949e0de8248162dc536fc0fc46
+Filename: pool/updates/main/f/file/libmagic-dev_5.11-2+deb7u7_amd64.deb
+Size: 94320
+MD5sum: 5aefc731df454b88e7d3b071b206e5a3
+SHA1: 4370911f3d5ca9156c0f085b4ca2b89442f43bad
+SHA256: f4af8001d62bc51827d6ce5cd3a06b8c15e1592af63edaa81af37a6b4a494485
 
 Package: libmagic1
 Source: file
-Version: 5.11-2+deb7u6
-Installed-Size: 2382
+Version: 5.11-2+deb7u7
+Installed-Size: 2445
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Depends: libc6 (>= 2.8), zlib1g (>= 1:1.1.4)
@@ -3261,49 +3261,49 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: standard
-Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u6_amd64.deb
-Size: 203116
-MD5sum: 734cc81ff0ece85db87dfa1c4ad9de97
-SHA1: f2bf35cfbcc7f821db3ee4b7594810fc4550ce8f
-SHA256: ee9af5af43b1c92cb524b44bc18d05732c78132439e773fdbbeb61adb5482ad0
+Filename: pool/updates/main/f/file/libmagic1_5.11-2+deb7u7_amd64.deb
+Size: 204038
+MD5sum: 264223e9e05050d4d303ff6d8c881859
+SHA1: 6b3f9e5e7f56a3cdac09ccfd52701e36b7951e7b
+SHA256: 06b3360197b3fbe92b1f10baf2e435ac6e1dc670bd61cde87a0fa516653110fd
 
 Package: python-magic
 Source: file
-Version: 5.11-2+deb7u6
-Installed-Size: 45
+Version: 5.11-2+deb7u7
+Installed-Size: 96
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
 Provides: python2.6-magic, python2.7-magic
-Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u6)
+Depends: python (>= 2.6.6-7~), python (<< 2.8), libmagic1 (= 5.11-2+deb7u7)
 Suggests: python-magic-dbg
 Description: File type determination library using "magic" numbers (Python bindings)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 37a8fb9ea793ad19a0727c04e12d8d60
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u6_amd64.deb
-Size: 39198
-MD5sum: 6a0fe8672727f99bf79a7719dc42cdbb
-SHA1: 25ca4ce1e6bec3161cd703b9b03de242cb347b6d
-SHA256: d287ed9b08c2b318ed23e68e13126ec330e8b64e1122e464d44ba3aae8726ba4
+Filename: pool/updates/main/f/file/python-magic_5.11-2+deb7u7_amd64.deb
+Size: 39226
+MD5sum: 7faa92c79f655489f4206d832db4239e
+SHA1: d196e97d6aa71efe3a633fd455a706cf2ccf83e5
+SHA256: e557df2f6cd06a028a1470a3543d0a3a926e1086db5afda61ceae5347ab2e2a8
 
 Package: python-magic-dbg
 Source: file
-Version: 5.11-2+deb7u6
-Installed-Size: 1
+Version: 5.11-2+deb7u7
+Installed-Size: 21
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Architecture: amd64
-Depends: python-magic (= 5.11-2+deb7u6), python-dbg
+Depends: python-magic (= 5.11-2+deb7u7), python-dbg
 Description: File type determination library using "magic" numbers (Python bindings/debug)
 Homepage: http://www.darwinsys.com/file/
 Description-md5: 16fd3ce9f3b68865b15e220bc46db154
 Section: python
 Priority: extra
-Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u6_amd64.deb
-Size: 942
-MD5sum: edc8aa19340041b84bba6082563f7bf4
-SHA1: bd0855b880ea1f91efb1cbf8da848b47e88331d0
-SHA256: 6fde1616daad63b5fd18d0683c7330ddd927cd7c33ef77543f171b8d35af95f9
+Filename: pool/updates/main/f/file/python-magic-dbg_5.11-2+deb7u7_amd64.deb
+Size: 940
+MD5sum: 06d947de39174c9fcc6c078914e2b9a8
+SHA1: 2b9dc5ad08f79bcf102818f3a861f55737010297
+SHA256: f54ee558271404e2df1c7a6a8d14d5d8df571ba7f707fa2f8b10b01821e257c1
 
 Package: firebird-dev
 Source: firebird2.5

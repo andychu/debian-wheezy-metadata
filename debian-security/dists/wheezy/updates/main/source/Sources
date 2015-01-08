@@ -581,7 +581,7 @@ Section: net
 
 Package: curl
 Binary: curl, libcurl3, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl3-dbg
-Version: 7.26.0-1+wheezy11
+Version: 7.26.0-1+wheezy12
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>, Luk Claes <luk@debian.org>
 Build-Depends: debhelper (>= 9), autoconf, automake1.9, groff-base, libgcrypt11-dev, libgnutls-dev, libidn11-dev, libkrb5-dev, libldap2-dev, libnss3-dev, librtmp-dev, libssh2-1-dev (>= 1.2), libssl-dev, libtool, openssh-server, quilt, stunnel4, zlib1g-dev
@@ -589,19 +589,19 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- 5a01072dc02273483331f3aa3727c55c 2518 curl_7.26.0-1+wheezy11.dsc
+ b3b9ecb589150ef3bff4d18941f1d22c 2518 curl_7.26.0-1+wheezy12.dsc
  3fa4d5236f2a36ca5c3af6715e837691 3073624 curl_7.26.0.orig.tar.gz
- a543c19f1fabb6cab468e103cd7dc21f 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
+ 0526db41a71e515af78641da4aa5cf19 41033 curl_7.26.0-1+wheezy12.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=collab-maint/curl.git
 Vcs-Git: git://git.debian.org/collab-maint/curl.git
 Checksums-Sha1:
- ba4a742a95288143fe0196b83f42e21570ab949f 2518 curl_7.26.0-1+wheezy11.dsc
+ 1db9348a47e1bccbcc981c387fe66cbab5703b8c 2518 curl_7.26.0-1+wheezy12.dsc
  66e1fd0312f62374b96fe02e644f66202fd6324b 3073624 curl_7.26.0.orig.tar.gz
- d22fb4e6f6121e3d7e1ece33219dc4a37f53a994 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
+ 1dc4144c07916f9344872d5f331f9d6c44e30898 41033 curl_7.26.0-1+wheezy12.debian.tar.gz
 Checksums-Sha256:
- 73a9d74113266c241a8e0c0c81ce9262000e59bb66bd1a6fb04adff90370b24d 2518 curl_7.26.0-1+wheezy11.dsc
+ 6c3d14b93b26b3d01a4ea2a63034e824a662ca1a006c7cfd8a160045c5276323 2518 curl_7.26.0-1+wheezy12.dsc
  79ccce9edb8aee17d20ad4d75e1f83a789f8c2e71e68f468e1bf8abf8933193f 3073624 curl_7.26.0.orig.tar.gz
- 360ca167f441e1655396a366cf22f0688c108725a666b68d92c2b0150a5b4c0b 40585 curl_7.26.0-1+wheezy11.debian.tar.gz
+ d0de143816d58e287e23d6b760ed8986335ea184027e28be60bc5ac834ae8b0f 41033 curl_7.26.0-1+wheezy12.debian.tar.gz
 Homepage: http://curl.haxx.se
 Build-Conflicts: autoconf2.13, automake1.4
 Package-List: 
@@ -1143,7 +1143,7 @@ Section: net
 
 Package: file
 Binary: file, libmagic1, libmagic-dev, python-magic, python-magic-dbg
-Version: 5.11-2+deb7u6
+Version: 5.11-2+deb7u7
 Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
 Uploaders: Judit Foglszinger <fgrfgr@freenet.de>
 Build-Depends: debhelper (>= 9), autotools-dev, python, python-all-dev, python-all-dbg, zlib1g-dev
@@ -1151,17 +1151,17 @@ Architecture: any
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- a326b7a0af6c06bf703bae930302a292 1651 file_5.11-2+deb7u6.dsc
+ 78f40b7b5d8ef568da9da3d350cb114d 1999 file_5.11-2+deb7u7.dsc
  8183e889f981708d45f8e57a2248101d 444104 file_5.11.orig.tar.xz
- 6f946b3acf8c52eb163cbf43b0328882 31236 file_5.11-2+deb7u6.debian.tar.xz
+ b1b7e8fb3722d2f5e29134a56a82e6bf 47852 file_5.11-2+deb7u7.debian.tar.xz
 Checksums-Sha1:
- 0c76da4deca01ce487d76061afa472b004725ead 1651 file_5.11-2+deb7u6.dsc
+ 2ed4b3f8305aaab350c053f6768184f59ba5f511 1999 file_5.11-2+deb7u7.dsc
  d3a04293b110c971fced1d6f5818c45044b8855a 444104 file_5.11.orig.tar.xz
- 85821f4ea66fbd0d3322f832ee9d654a9b728dca 31236 file_5.11-2+deb7u6.debian.tar.xz
+ f3f6e6745ff58bab009bbf1c2a68dd77491219c6 47852 file_5.11-2+deb7u7.debian.tar.xz
 Checksums-Sha256:
- fc1edaf1f80748f9ec2172ee3c131a26b8a879471e345fd9717f6b32a8a73fbd 1651 file_5.11-2+deb7u6.dsc
+ 685129cd1cbca8eeeafbf15a750a1f2a4cf0ed1beab0459a82aa618b25098f43 1999 file_5.11-2+deb7u7.dsc
  4a7c047666cf54dce00f2c5a32a6379f94203e5c886fc294bab449c1a1ae286b 444104 file_5.11.orig.tar.xz
- 02b1f65ffbf4cb024cf62876cd669c5f3ed056d4a3f28bc07e80f77bd4f037fd 31236 file_5.11-2+deb7u6.debian.tar.xz
+ 68b86d04b4e1c1f626543db834a7b4e75fba2c1fc9a89b750115180469712dcd 47852 file_5.11-2+deb7u7.debian.tar.xz
 Homepage: http://www.darwinsys.com/file/
 Package-List: 
  file deb utils standard
