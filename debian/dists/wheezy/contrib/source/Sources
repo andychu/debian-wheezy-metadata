@@ -1446,26 +1446,26 @@ Section: contrib/graphics
 
 Package: iucode-tool
 Binary: iucode-tool
-Version: 0.8.3-1
+Version: 0.8.3-2
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Build-Depends: debhelper (>= 7), autotools-dev, automake (>= 1:1.10), autoconf (>= 2.61)
 Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- b16ae210f48a4d444fed8032329cd976 1547 iucode-tool_0.8.3-1.dsc
+ 9915bf217bc7dd3f29860204ff4756ee 1893 iucode-tool_0.8.3-2.dsc
  34a56ad19ccdbf7db8cb4f427dec8074 121441 iucode-tool_0.8.3.orig.tar.bz2
- 671e3bd8416ebac070bb29b200fce4e0 3037 iucode-tool_0.8.3-1.debian.tar.gz
+ f7cc5d55d6ca279d45623bf1665d3e04 6374 iucode-tool_0.8.3-2.debian.tar.gz
 Vcs-Browser: http://git.debian.org/?p=users/hmh/iucode-tool.git
 Vcs-Git: git://git.debian.org/users/hmh/iucode-tool.git
 Checksums-Sha1:
- d9dfb369551a20057c69377a069b842518d67e27 1547 iucode-tool_0.8.3-1.dsc
+ f939570727b2181bcf86fcbbec0a41e1d5fe7289 1893 iucode-tool_0.8.3-2.dsc
  6db0f13c5c04521d76f85edf549ebd2c181df810 121441 iucode-tool_0.8.3.orig.tar.bz2
- 028a1bbe0468eca957146f3e8826e7d4bc2d9fd4 3037 iucode-tool_0.8.3-1.debian.tar.gz
+ 960a729c66230de3cf2f19ed3403e0dbdde456b3 6374 iucode-tool_0.8.3-2.debian.tar.gz
 Checksums-Sha256:
- 19a5f78e375631b6ee3398a53c495888d1ac296af76ecad666cbfd7663ef59bd 1547 iucode-tool_0.8.3-1.dsc
+ c7a0df832234d9b6bb32a7afcd19497e83ed184b1c12515d691914a2fdff4af4 1893 iucode-tool_0.8.3-2.dsc
  9328f8b9b260aee3ce37ac59a6961677d8d476c6f7216db53871d6261b37d733 121441 iucode-tool_0.8.3.orig.tar.bz2
- ea06d249b5f346160707c633a065d6a42b18124707ea6d12e05dc9f0fd20324f 3037 iucode-tool_0.8.3-1.debian.tar.gz
+ 24f7896dd3a8a581bf17d71c95a0d0d3d912059bef12c9de9f85e50ef2656541 6374 iucode-tool_0.8.3-2.debian.tar.gz
 Package-List: 
  iucode-tool deb contrib/utils optional
 Directory: pool/contrib/i/iucode-tool

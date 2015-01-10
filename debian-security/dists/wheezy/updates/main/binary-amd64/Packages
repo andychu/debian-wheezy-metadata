@@ -1127,6 +1127,117 @@ MD5sum: 122d8399cfd39cf92e742b9f6353ddd1
 SHA1: a02857faa93476753b1ff89abbc7910841c80a8e
 SHA256: 32b596aca9e96043868d324f02c66878cf6114866fedc5f96d508471cc8009d4
 
+Package: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 14634
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Replaces: binutils-gold (<< 2.20.51.20100415)
+Provides: elf-binutils
+Depends: libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), zlib1g (>= 1:1.2.0)
+Suggests: binutils-doc (>= 2.22-8+deb7u2)
+Conflicts: binutils-gold (<< 2.20.51.20100415), elf-binutils, gas, modutils (<< 2.4.19-1)
+Description: GNU assembler, linker and binary utilities
+Description-md5: fde49b4cfeaad346a6e094f973da28d7
+Section: devel
+Priority: optional
+Filename: pool/updates/main/b/binutils/binutils_2.22-8+deb7u2_amd64.deb
+Size: 4793382
+MD5sum: d800eaff5b07155d96f9cbbb062f7ab9
+SHA1: a5ab82d4aeec92b5e7e24e0789ccf2e4ff3b1aa4
+SHA256: 07f517455dc2412e981641bde3028a518565e466cd7448858e48a69562c14151
+
+Package: binutils-dev
+Source: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 17056
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Replaces: libbfd-dev, libc5-dev
+Provides: libbfd-dev
+Depends: binutils (= 2.22-8+deb7u2)
+Conflicts: libbfd-dev
+Description: GNU binary utilities (BFD development files)
+Description-md5: ddc22c04156534b000b4f021b88a6023
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils/binutils-dev_2.22-8+deb7u2_amd64.deb
+Size: 4526514
+MD5sum: c723a7ffd0ac566af460b7503bfa84eb
+SHA1: c8daf2cac8489e65c4d170927cec44156a94b229
+SHA256: 59a86c39baef18f367c812a72558872c4e07b7a4c8b9f52c31687c0f5143c6cd
+
+Package: binutils-doc
+Source: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 596
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: binutils (= 2.22-8+deb7u2)
+Conflicts: binutils (<< 2.9.1.0.25-3)
+Description: Documentation for the GNU assembler, linker and binary utilities
+Description-md5: 61fd9f95707b9eb9ad8fe9b13a862636
+Section: doc
+Priority: optional
+Filename: pool/updates/main/b/binutils/binutils-doc_2.22-8+deb7u2_all.deb
+Size: 581824
+MD5sum: 8a23b9cf1aad525e6302f64b0bb1b26a
+SHA1: a8f4cc6ada990c905e39ddbd7a0f1b2de677a621
+SHA256: d37414731663788699c86e1e9908307173ed394941cc8b0ada9059fad4da2076
+
+Package: binutils-gold
+Source: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 46
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Depends: binutils (= 2.22-8+deb7u2)
+Description: GNU gold linker utility
+Description-md5: b5eb770bdbe9888779f5a3ca0158253d
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils/binutils-gold_2.22-8+deb7u2_amd64.deb
+Size: 1406
+MD5sum: 6c4195c0475e0f4800c6f4ec99b2728c
+SHA1: a36f7f94d01d78c3723d845f174c896c58e15990
+SHA256: 971598e6f94d107b0b3287e440adda4848d3b57f34feb44b6a5a335937ea22fb
+
+Package: binutils-multiarch
+Source: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 7389
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: amd64
+Provides: multiarch-binutils
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.0), binutils (= 2.22-8+deb7u2)
+Description: Binary utilities that support multi-arch targets
+Description-md5: 92d4fb12b00b5e0be9a7f556eec63a0b
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils/binutils-multiarch_2.22-8+deb7u2_amd64.deb
+Size: 2236046
+MD5sum: 07f663b27caf4160409872205636f02f
+SHA1: e8860d0a8acf77b8fdb7d4b047ea7cef33da71f7
+SHA256: 3312836ff17e6978581d19402391a82ecda313619eab02f2243fda4f49255513
+
+Package: binutils-source
+Source: binutils
+Version: 2.22-8+deb7u2
+Installed-Size: 14980
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Depends: texinfo, zlib1g-dev, make, python
+Description: GNU assembler, linker and binary utilities (source)
+Description-md5: acf2f0e289b8b831828996002f7eb6f1
+Section: devel
+Priority: optional
+Filename: pool/updates/main/b/binutils/binutils-source_2.22-8+deb7u2_all.deb
+Size: 14777998
+MD5sum: 3ec6f6e2a3db4b22d746604d33e7fafc
+SHA1: 68580b7bb82172721f1e3275d575b260a2c66e6a
+SHA256: 5f73d4a527c581631efa379fa4640203d0be77f3d437eddb3d1ee6d34d32ee7d
+
 Package: bsd-mailx
 Version: 8.1.2-0.20111106cvs-1+deb7u1
 Installed-Size: 135
@@ -20199,7 +20310,7 @@ SHA256: ae46a7d0b39ba0c4a1b3f751c35970a1b574d7b10ab83144890d3d41a9f838b1
 
 Package: otrs
 Source: otrs2
-Version: 3.1.7+dfsg1-8+deb7u4
+Version: 3.1.7+dfsg1-8+deb7u5
 Installed-Size: 176
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Architecture: all
@@ -20209,15 +20320,15 @@ Homepage: http://www.otrs.org
 Description-md5: 82b96b585b49727738ceb801d1535372
 Section: web
 Priority: optional
-Filename: pool/updates/main/o/otrs2/otrs_3.1.7+dfsg1-8+deb7u4_all.deb
-Size: 136992
-MD5sum: 725dc9b63243d72dd1808f4fca33ea64
-SHA1: 81b1d102891c135effc7cd00a6b18bd55913d6a2
-SHA256: 665e7bb92f97a50af4ba96a8b90f072197be23eaa6904d8bf1ba7928546ba863
+Filename: pool/updates/main/o/otrs2/otrs_3.1.7+dfsg1-8+deb7u5_all.deb
+Size: 137068
+MD5sum: 9696103f53251a4244b7788bfdf34237
+SHA1: e889ebc103a73f493fd7ae866121b50a49e3012b
+SHA256: 850c27be832b86bfa78811b55189e39efe2ffce83328417faae74ee804febb4c
 
 Package: otrs2
-Version: 3.1.7+dfsg1-8+deb7u4
-Installed-Size: 60316
+Version: 3.1.7+dfsg1-8+deb7u5
+Installed-Size: 60318
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Architecture: all
 Replaces: otrs (<< 3.0)
@@ -20230,11 +20341,11 @@ Description-md5: abcb3082ea76eb43cf1f66e050ff92ab
 Recommends: postgresql | mysql-server, procmail | maildrop, libapache-dbi-perl, aspell | ispell
 Section: web
 Priority: optional
-Filename: pool/updates/main/o/otrs2/otrs2_3.1.7+dfsg1-8+deb7u4_all.deb
-Size: 9763222
-MD5sum: 35dacb19784bdf3d03fa96a157e4fdcc
-SHA1: 53c40501bd87f7ed74ab44cb082e7a18f6f2d8a2
-SHA256: ec53869242566ae0c3c2248ce7b07acba0044552b0ef489e0c263905dd4dca58
+Filename: pool/updates/main/o/otrs2/otrs2_3.1.7+dfsg1-8+deb7u5_all.deb
+Size: 9763900
+MD5sum: cc8cb60c8166c8d36276509154146df6
+SHA1: 30ed2e7e0ba9963eef2363c71be7d9d4a88c25f4
+SHA256: f27113b4931a974ead8e500f47c909efb8a5771c601bc04c0d41ec51ea25b6a7
 
 Package: parcimonie
 Version: 0.7.1-1+deb7u1

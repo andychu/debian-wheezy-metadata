@@ -2427,7 +2427,7 @@ Section: non-free/science
 
 Package: intel-microcode
 Binary: intel-microcode
-Version: 1.20140624.1
+Version: 1.20140913.1
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Uploaders: Giacomo Catenazzi <cate@debian.org>
 Build-Depends: debhelper (>= 7), iucode-tool (>= 0.8)
@@ -2435,16 +2435,16 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- 14001221749d9f8242ee7b2185342d35 1425 intel-microcode_1.20140624.1.dsc
- b27fa66f26b36d504498adbf83bcb6f5 848988 intel-microcode_1.20140624.1.tar.xz
+ 1409835bb804636fd2d750fbbe654930 1771 intel-microcode_1.20140913.1.dsc
+ 046a2ea031baf4a92a6e6cdddbad9ed8 897148 intel-microcode_1.20140913.1.tar.xz
 Vcs-Browser: http://git.debian.org/?p=users/hmh/intel-microcode.git
 Vcs-Git: git://git.debian.org/users/hmh/intel-microcode.git
 Checksums-Sha1:
- f3681a3cea463322aab0cfa1beb9c582ae19d19f 1425 intel-microcode_1.20140624.1.dsc
- 564dd901c01d511d932328e52f545af7518e5397 848988 intel-microcode_1.20140624.1.tar.xz
+ 7ed5614c89536c046a9508d6b8d9767c75805c21 1771 intel-microcode_1.20140913.1.dsc
+ dfede4ea7206f2b292cc7a7076901f362da4d41c 897148 intel-microcode_1.20140913.1.tar.xz
 Checksums-Sha256:
- 736a9519c063b2c7b4cacce22d6b2c307717d8a61e7b9e0471567c8dd25cc17f 1425 intel-microcode_1.20140624.1.dsc
- bef3776259d28c6a14a20913ab6e0bab64a82e207d5ece940d1517c286c316ea 848988 intel-microcode_1.20140624.1.tar.xz
+ 5dbd903232b2dedfdca8a3c2c2d1b9d91366fdb4c04f34dab4e8882801f4fffa 1771 intel-microcode_1.20140913.1.dsc
+ 5823c80d26c4560b45656b76b4e1745561d6a1c0181648e1c1d23c53b31bda99 897148 intel-microcode_1.20140913.1.tar.xz
 Homepage: http://feeds.downloadcenter.intel.com/rss/?p=483&lang=eng
 Autobuild: yes
 Package-List: 
@@ -2756,27 +2756,31 @@ Section: non-free/httpd
 
 Package: libclamunrar
 Binary: libclamunrar6
-Version: 0.96.4-1
+Version: 0.98.5-0+deb7u1
 Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
-Uploaders: Michael Tautschnig <mt@debian.org>, Stephen Gran <sgran@debian.org>
-Build-Depends: debhelper (>= 7), autotools-dev, zlib1g-dev, libbz2-dev
+Uploaders: Michael Tautschnig <mt@debian.org>, Stephen Gran <sgran@debian.org>, Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+Build-Depends: debhelper (>= 8), autotools-dev, zlib1g-dev, libbz2-dev, dh-autoreconf, automake, libssl-dev
 Architecture: any
-Standards-Version: 3.9.1
-Format: 1.0
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
 Files:
- 03801ff4bc2aa7de85e99ca827672341 1177 libclamunrar_0.96.4-1.dsc
- 9e256ad17c93b12a9ee35b429b454752 722809 libclamunrar_0.96.4.orig.tar.gz
- 755bcf1923e24ee420a4522e21eb3ea9 4298 libclamunrar_0.96.4-1.diff.gz
+ e608b1092012e0e14d5bd9096d395fd0 2147 libclamunrar_0.98.5-0+deb7u1.dsc
+ ecd3acdec22118338d3d5fbe41fba011 304828 libclamunrar_0.98.5.orig.tar.xz
+ 2a20306cd7a65c453b38d8192b151604 4861 libclamunrar_0.98.5-0+deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-clamav/libclamunrar.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-clamav/libclamunrar.git
 Checksums-Sha1:
- 78c44a7e5b99e4f3e947d855506520c8ef88cdca 1177 libclamunrar_0.96.4-1.dsc
- 978d17a6c4753285b01219ba82325f3274f12d6e 722809 libclamunrar_0.96.4.orig.tar.gz
- 41e1f8bad292151601bbb626158e4e913d85409d 4298 libclamunrar_0.96.4-1.diff.gz
+ 823ce7b6fc5a60542c99cbae87679e3d1733585a 2147 libclamunrar_0.98.5-0+deb7u1.dsc
+ 6d4a3441e142002ffdaa76ad313bc018985e1999 304828 libclamunrar_0.98.5.orig.tar.xz
+ 5fcac87cba7af54f5cfeb6885e078b8c0b2e59fd 4861 libclamunrar_0.98.5-0+deb7u1.debian.tar.gz
 Checksums-Sha256:
- 5ce16df61c889868de4918d32684c7e77af587847cda988cc20fa538e096e59c 1177 libclamunrar_0.96.4-1.dsc
- 6e12678d74feb9c6db6eafa20f427d89cea8c13fc1de388a9475548e612ff27b 722809 libclamunrar_0.96.4.orig.tar.gz
- a21068f5eed8b0a01e1d06b5c635e09a8be7ba4840407566f511b3cc404b5f8a 4298 libclamunrar_0.96.4-1.diff.gz
+ a772861a6d5af5aa6a82c3067d151666da2ba03291397de121b2084672713cbc 2147 libclamunrar_0.98.5-0+deb7u1.dsc
+ 3d957d584bee260f11c7b5b211899c4cacfffffc3849b1d0485b3f21eb2d4aac 304828 libclamunrar_0.98.5.orig.tar.xz
+ 228bed62ed05e476d3fc60d1964329a484a20cdd53a9da555ed739545a109526 4861 libclamunrar_0.98.5-0+deb7u1.debian.tar.gz
 Homepage: http://www.clamav.net/
 Autobuild: yes
+Package-List: 
+ libclamunrar6 deb non-free/libs extra
 Directory: pool/non-free/libc/libclamunrar
 Priority: source
 Section: non-free/libs
@@ -5240,7 +5244,7 @@ Section: non-free/devel
 
 Package: nvidia-graphics-drivers
 Binary: nvidia-glx, xserver-xorg-video-nvidia, nvidia-glx-ia32, libgl1-nvidia-glx, libxvmcnvidia1, libgl1-nvidia-glx-ia32, nvidia-alternative, nvidia-kernel-dkms, nvidia-kernel-source, nvidia-vdpau-driver, nvidia-vdpau-driver-ia32, nvidia-smi, libcuda1, libcuda1-ia32, libnvidia-compiler, libnvidia-compiler-ia32, libnvcuvid1, libnvidia-ml1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-opencl-icd-ia32, nvidia-libopencl1, nvidia-libopencl1-ia32, libgl1-nvidia-alternatives, libgl1-nvidia-alternatives-ia32, libglx-nvidia-alternatives, nvidia-detect
-Version: 304.117-1
+Version: 304.125-1
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>,
 Build-Depends: debhelper (>= 9), bzip2, dkms (>= 2.1.1.1), libxext6, libxvmc1, quilt
@@ -5248,49 +5252,49 @@ Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- e6589d64b52307978bb7b6aced4eb39c 3978 nvidia-graphics-drivers_304.117-1.dsc
- 5cd7547d4fc9bd6372f7fd480922b222 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
- 16370680390076e1a01691230a59731f 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
+ 19d03ae238031eab6cc7cd127b104cd9 4349 nvidia-graphics-drivers_304.125-1.dsc
+ ca6abfccfbd42ac5cbf735c1dd83765c 106359926 nvidia-graphics-drivers_304.125.orig.tar.gz
+ 7fcbd1982a7d2ed162c37b304b2d2732 114336 nvidia-graphics-drivers_304.125-1.debian.tar.gz
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-graphics-drivers/
 Vcs-Svn: svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-graphics-drivers/trunk
 Checksums-Sha1:
- 5462311a00d5aedb6b2b5d456610f072d954f6de 3978 nvidia-graphics-drivers_304.117-1.dsc
- 3d7564cb75e2fb94ff12940fcf61069f846d0580 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
- ceab091c16419d8f4c78a831472c8975696bfa96 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
+ 04572d527e67685c8533614bba396d35b981bc25 4349 nvidia-graphics-drivers_304.125-1.dsc
+ 514d0ac98ab659d287ba1d50cd1cfd33301324d8 106359926 nvidia-graphics-drivers_304.125.orig.tar.gz
+ cfebce62e16638f91bbb6c3b4960313820ae8238 114336 nvidia-graphics-drivers_304.125-1.debian.tar.gz
 Checksums-Sha256:
- bfa507dd81443c17c3a9919e78dc65e9b3cfb9d91dd91315e1515dda9eb9d2c8 3978 nvidia-graphics-drivers_304.117-1.dsc
- ea08437fed8f60e4180f3b6b99dd7fd99bcfd0fe824144fc295a33d5e738ab02 105342161 nvidia-graphics-drivers_304.117.orig.tar.gz
- 0cc40ac8a7f00f5066cbd6fa92169616551ce3f07285c037300722a025b234b8 113938 nvidia-graphics-drivers_304.117-1.debian.tar.gz
+ 78137623530d7b4f8bf92fcb0cf332a3f409e487fa5491db806e9d0348b75f49 4349 nvidia-graphics-drivers_304.125-1.dsc
+ 0435ea1d6253d878d1c761258c99c0785f53e177c5c8a6a55440de01ff63b648 106359926 nvidia-graphics-drivers_304.125.orig.tar.gz
+ 575d6b83fb4bfef69612ea33043a6aaabc195f7376301437046173c0e11f9c9b 114336 nvidia-graphics-drivers_304.125-1.debian.tar.gz
 Homepage: http://www.nvidia.com
 Autobuild: yes
 Package-List: 
- libcuda1 deb non-free/libs optional
- libcuda1-ia32 deb non-free/oldlibs extra
- libgl1-nvidia-alternatives deb non-free/oldlibs optional
- libgl1-nvidia-alternatives-ia32 deb non-free/libs extra
- libgl1-nvidia-glx deb non-free/libs optional
- libgl1-nvidia-glx-ia32 deb non-free/oldlibs extra
- libglx-nvidia-alternatives deb non-free/oldlibs optional
- libnvcuvid1 deb non-free/libs optional
- libnvidia-compiler deb non-free/libs optional
- libnvidia-compiler-ia32 deb non-free/oldlibs extra
- libnvidia-ml1 deb non-free/libs optional
- libxvmcnvidia1 deb non-free/libs optional
- nvidia-alternative deb non-free/libs optional
- nvidia-detect deb non-free/x11 optional
- nvidia-glx deb non-free/x11 optional
- nvidia-glx-ia32 deb non-free/oldlibs extra
- nvidia-kernel-dkms deb non-free/kernel optional
- nvidia-kernel-source deb non-free/kernel optional
- nvidia-libopencl1 deb non-free/libs optional
- nvidia-libopencl1-ia32 deb non-free/oldlibs extra
- nvidia-opencl-common deb non-free/libs optional
- nvidia-opencl-icd deb non-free/libs optional
- nvidia-opencl-icd-ia32 deb non-free/oldlibs extra
- nvidia-smi deb non-free/utils optional
- nvidia-vdpau-driver deb non-free/video optional
- nvidia-vdpau-driver-ia32 deb non-free/oldlibs extra
- xserver-xorg-video-nvidia deb non-free/x11 optional
+ libcuda1 deb non-free/libs optional arch=i386,amd64
+ libcuda1-ia32 deb non-free/oldlibs extra arch=amd64
+ libgl1-nvidia-alternatives deb non-free/oldlibs optional arch=i386,amd64
+ libgl1-nvidia-alternatives-ia32 deb non-free/libs extra arch=amd64
+ libgl1-nvidia-glx deb non-free/libs optional arch=i386,amd64
+ libgl1-nvidia-glx-ia32 deb non-free/oldlibs extra arch=amd64
+ libglx-nvidia-alternatives deb non-free/oldlibs optional arch=i386,amd64
+ libnvcuvid1 deb non-free/libs optional arch=i386,amd64
+ libnvidia-compiler deb non-free/libs optional arch=i386,amd64
+ libnvidia-compiler-ia32 deb non-free/oldlibs extra arch=amd64
+ libnvidia-ml1 deb non-free/libs optional arch=i386,amd64
+ libxvmcnvidia1 deb non-free/libs optional arch=i386,amd64
+ nvidia-alternative deb non-free/libs optional arch=i386,amd64
+ nvidia-detect deb non-free/x11 optional arch=i386,amd64
+ nvidia-glx deb non-free/x11 optional arch=i386,amd64
+ nvidia-glx-ia32 deb non-free/oldlibs extra arch=amd64
+ nvidia-kernel-dkms deb non-free/kernel optional arch=i386,amd64
+ nvidia-kernel-source deb non-free/kernel optional arch=i386,amd64
+ nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64
+ nvidia-libopencl1-ia32 deb non-free/oldlibs extra arch=amd64
+ nvidia-opencl-common deb non-free/libs optional arch=i386,amd64
+ nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64
+ nvidia-opencl-icd-ia32 deb non-free/oldlibs extra arch=amd64
+ nvidia-smi deb non-free/utils optional arch=i386,amd64
+ nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64
+ nvidia-vdpau-driver-ia32 deb non-free/oldlibs extra arch=amd64
+ xserver-xorg-video-nvidia deb non-free/x11 optional arch=i386,amd64
 Directory: pool/non-free/n/nvidia-graphics-drivers
 Priority: source
 Section: non-free/x11
@@ -5420,24 +5424,24 @@ Section: non-free/x11
 
 Package: nvidia-graphics-modules
 Binary: nvidia-kernel-amd64, nvidia-kernel-2.6-amd64, nvidia-kernel-3.2.0-4-amd64, nvidia-kernel-486, nvidia-kernel-2.6-486, nvidia-kernel-3.2.0-4-486, nvidia-kernel-686-pae, nvidia-kernel-2.6-686-pae, nvidia-kernel-3.2.0-4-686-pae
-Version: 304.117+3.2.0+1
+Version: 304.125+3.2.0+1
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>, Andreas Beckmann <anbe@debian.org>,
-Build-Depends: debhelper (>= 8), linux-headers-3.2.0-4-amd64 [i386 amd64], linux-headers-3.2.0-4-486 [i386], linux-headers-3.2.0-4-686-pae [i386], nvidia-kernel-source (>= 304.117), nvidia-kernel-source (<< 304.117.~)
+Build-Depends: debhelper (>= 8), linux-headers-3.2.0-4-amd64 [i386 amd64], linux-headers-3.2.0-4-486 [i386], linux-headers-3.2.0-4-686-pae [i386], nvidia-kernel-source (>= 304.125), nvidia-kernel-source (<< 304.125.~)
 Architecture: i386 amd64
 Standards-Version: 3.9.3
 Format: 3.0 (native)
 Files:
- a5c410cd6aa9396330b9ea9e4b853328 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
- 678d624a8752a6c4b3670c749482bc92 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-nvidia/nvidia-graphics-modules.git
-Vcs-Git: git://anonscm.debian.org/pkg-nvidia/nvidia-graphics-modules.git
+ 4c6616bc6020a38ed1b28826d88d83ee 2659 nvidia-graphics-modules_304.125+3.2.0+1.dsc
+ 8e110755def7e7af3b3877d0c5950f28 8741 nvidia-graphics-modules_304.125+3.2.0+1.tar.gz
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-nvidia/nvidia-graphics-modules.git
+Vcs-Git: git://anonscm.debian.org/pkg-nvidia/nvidia-graphics-modules.git -b wheezy
 Checksums-Sha1:
- 785f86bebea7ea6bd6c5b7ee67b102782ab87660 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
- 80e21ae1f7b0531d034088a9d597fd8b764bea55 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
+ c13e683a1dfdf71e446435ecfb5e422a060476a3 2659 nvidia-graphics-modules_304.125+3.2.0+1.dsc
+ aa98950dc6308bcbe7fe40802870f7938f68de00 8741 nvidia-graphics-modules_304.125+3.2.0+1.tar.gz
 Checksums-Sha256:
- bcb4f7c80e53a7ed260be090ab5bd9f0db873c9817a7875d0416c6cb44cc2223 2670 nvidia-graphics-modules_304.117+3.2.0+1.dsc
- 07ec809fc41df9a3bc423979a33f730cffd7ef04aa3eeabe51fef5ed4c7f42a1 8687 nvidia-graphics-modules_304.117+3.2.0+1.tar.gz
+ cb31542b3405892150d1b65600915ea68eda0804812f98e7add74c26e6e548ab 2659 nvidia-graphics-modules_304.125+3.2.0+1.dsc
+ 10e743a3bd3d7e2422626f7306ddbf74f4e29ceb59f73fc6ff5544a53ab402dc 8741 nvidia-graphics-modules_304.125+3.2.0+1.tar.gz
 Homepage: http://www.nvidia.com/
 Autobuild: yes
 Package-List: 

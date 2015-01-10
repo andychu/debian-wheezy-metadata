@@ -283,6 +283,42 @@ Directory: pool/updates/main/b/bind9
 Priority: source
 Section: net
 
+Package: binutils
+Binary: binutils, binutils-dev, binutils-multiarch, binutils-gold, binutils-hppa64, binutils-spu, binutils-doc, binutils-source
+Version: 2.22-8+deb7u2
+Maintainer: Matthias Klose <doko@debian.org>
+Uploaders: James Troup <james@nocrew.org>, Daniel Jacobowitz <dan@debian.org>
+Build-Depends: dpkg-dev (>= 1.13.9), autoconf (>= 2.64), bison, flex, gettext, texinfo, dejagnu (>= 1.4.2-1.1), quilt, file, xz-utils, lsb-release, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 1.0
+Files:
+ 5a9bb136b1fe0ab043239549636f6c3e 2341 binutils_2.22-8+deb7u2.dsc
+ 8b3ad7090e3989810943aa19103fdb83 26843686 binutils_2.22.orig.tar.gz
+ 74b60a168b6fc43bccc1f6ff10ec8c1a 169155 binutils_2.22-8+deb7u2.diff.gz
+Vcs-Browser: https://code.launchpad.net/~doko/binutils/pkg-2.22-debian
+Checksums-Sha1:
+ 629987cd2f9d5e9473a53bbb0bf32bd0c0529976 2341 binutils_2.22-8+deb7u2.dsc
+ 0e16a7492c0a194962ecd33fc80fa53ccfec5149 26843686 binutils_2.22.orig.tar.gz
+ aa6a57047eee5b7a1fef25d254eeaa76b832217d 169155 binutils_2.22-8+deb7u2.diff.gz
+Checksums-Sha256:
+ 342ddd4214f1e505f34b7191aca59d339250dfdd4c03f01fcd8f861cb75f0af9 2341 binutils_2.22-8+deb7u2.dsc
+ 12c26349fc7bb738f84b9826c61e103203187ca2d46f08b82e61e21fcbc6e3e6 26843686 binutils_2.22.orig.tar.gz
+ 0823a1d6a5de52a3f13eaef98a5b86136dc0ab2bca584279c854b21e8c199386 169155 binutils_2.22-8+deb7u2.diff.gz
+Package-List: 
+ binutils deb devel optional
+ binutils-dev deb devel extra
+ binutils-doc deb doc optional
+ binutils-gold deb devel extra
+ binutils-hppa64 deb devel optional
+ binutils-multiarch deb devel extra
+ binutils-source deb devel optional
+ binutils-spu deb devel optional
+Vcs-Bzr: http://bazaar.launchpad.net/~doko/binutils/pkg-2.22-debian
+Directory: pool/updates/main/b/binutils
+Priority: source
+Section: devel
+
 Package: bsd-mailx
 Binary: bsd-mailx
 Version: 8.1.2-0.20111106cvs-1+deb7u1
@@ -8898,7 +8934,7 @@ Section: net
 
 Package: otrs2
 Binary: otrs2, otrs
-Version: 3.1.7+dfsg1-8+deb7u4
+Version: 3.1.7+dfsg1-8+deb7u5
 Maintainer: Patrick Matthäi <pmatthaei@debian.org>
 Uploaders: Thomas Mueller <thomas@chaschperli.ch>
 Build-Depends: cdbs, debhelper (>= 7)
@@ -8906,17 +8942,17 @@ Architecture: all
 Standards-Version: 3.9.3
 Format: 3.0 (quilt)
 Files:
- ca71e34f69108caf5a18d3dcc7b4d3e8 1831 otrs2_3.1.7+dfsg1-8+deb7u4.dsc
+ 363d0f0c1b16f01d306d40cba8ae7d04 1831 otrs2_3.1.7+dfsg1-8+deb7u5.dsc
  412f79688819836f6203b076e8aa588e 14045767 otrs2_3.1.7+dfsg1.orig.tar.gz
- 638163279fb21c851756bca6ff71a13b 53378 otrs2_3.1.7+dfsg1-8+deb7u4.debian.tar.gz
+ 230e7668d4048a31f82ee2181450c03c 54502 otrs2_3.1.7+dfsg1-8+deb7u5.debian.tar.gz
 Checksums-Sha1:
- 658d66ae5de839fff2c5948b4c36f4741430a953 1831 otrs2_3.1.7+dfsg1-8+deb7u4.dsc
+ 42c4c978cb50686291279df5e60764d8eb52b6fc 1831 otrs2_3.1.7+dfsg1-8+deb7u5.dsc
  e17abdc2dcdb401288864f53dc0f2ac5b15e8ac8 14045767 otrs2_3.1.7+dfsg1.orig.tar.gz
- 1a4b22c6bba79490ba7d5a7181b5b8216df1ab89 53378 otrs2_3.1.7+dfsg1-8+deb7u4.debian.tar.gz
+ efc262b4ff605de1de6a741d133c3a661f07c96c 54502 otrs2_3.1.7+dfsg1-8+deb7u5.debian.tar.gz
 Checksums-Sha256:
- df6d41c9e9f8c0080cd75b47d3edd5386e75749ae8eb856bfe5f885113ec35ea 1831 otrs2_3.1.7+dfsg1-8+deb7u4.dsc
+ dd174e3b167944c219a07ff84e0b0066f1b8bf07f6d07e4d868c77c507a57b30 1831 otrs2_3.1.7+dfsg1-8+deb7u5.dsc
  9ec218f996dd57893462a746ad7afd95ae390631c7bf608ac22c73bdfef4b583 14045767 otrs2_3.1.7+dfsg1.orig.tar.gz
- 83b2b530e394e02c35864fc648fa0a092ab068d2fd0b04425c4c0857a22aa840 53378 otrs2_3.1.7+dfsg1-8+deb7u4.debian.tar.gz
+ 5f6f6efe8df5f20572e678b5ab9dc047bd3be9da422853f055a3aa4fb4e68190 54502 otrs2_3.1.7+dfsg1-8+deb7u5.debian.tar.gz
 Homepage: http://www.otrs.org
 Package-List: 
  otrs deb web optional

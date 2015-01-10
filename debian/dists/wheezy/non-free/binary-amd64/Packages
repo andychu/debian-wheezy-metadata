@@ -3282,8 +3282,8 @@ SHA1: 01c76ed82bc53a5835b8c7f73d45e7696e06f7a9
 SHA256: 5a0f4713575d541611e1baf96776f174a5b44b06c4d0319cb84b8a902423d9d4
 
 Package: intel-microcode
-Version: 1.20140624.1
-Installed-Size: 473
+Version: 1.20140913.1
+Installed-Size: 503
 Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
 Architecture: amd64
 Recommends: iucode-tool
@@ -3294,11 +3294,11 @@ Description-md5: 642afeac73eb40c21b5551ce1694ab40
 Tag: hardware::TODO, role::app-data, use::driver
 Section: non-free/admin
 Priority: extra
-Filename: pool/non-free/i/intel-microcode/intel-microcode_1.20140624.1_amd64.deb
-Size: 395790
-MD5sum: bee4de401e4351841ea5d8c7d902bdfc
-SHA1: bb7cd34583d31d66e26051fad930235eb15ec4cc
-SHA256: 26fa7f39ea6b602d103385ff28232a2d909eb5eccfe1d1a4998f6c4dc8911733
+Filename: pool/non-free/i/intel-microcode/intel-microcode_1.20140913.1_amd64.deb
+Size: 427036
+MD5sum: f6adc0760e6dd30e54ac122558bdcb54
+SHA1: 9ab5d2b5c8ad4038fe6aa1709d40a139f2a93546
+SHA256: cfc6aab44cec4e807355396fe64a4cc608a39835a8c6a98b08b9b78573f80403
 
 Package: iozone3
 Version: 397-2
@@ -3483,11 +3483,11 @@ SHA256: 3d719063a20ede1724023589d0bebeefba01c796346e0176b4d9f7d866afba90
 
 Package: libclamunrar6
 Source: libclamunrar
-Version: 0.96.4-1
-Installed-Size: 116
+Version: 0.98.5-0+deb7u1
+Installed-Size: 98
 Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libclamav6, libc6 (>= 2.2.5)
+Depends: libclamav6, libc6 (>= 2.4)
 Description: anti-virus utility for Unix - unrar support
 Homepage: http://www.clamav.net/
 Description-md5: 96c07277276380348a072647fa912c56
@@ -3495,11 +3495,11 @@ Tag: implemented-in::c, role::shared-lib, security::antivirus,
  works-with::archive
 Section: non-free/libs
 Priority: extra
-Filename: pool/non-free/libc/libclamunrar/libclamunrar6_0.96.4-1_amd64.deb
-Size: 34710
-MD5sum: fa24d2fad75cb45de504fc34f466cebc
-SHA1: c9ec0139ab1299d295e8db8965ccdb79339688f1
-SHA256: 6c1ef8c53b197fc7c9eb4f32abaeddb7643f68a45522193092f45027aa55ab04
+Filename: pool/non-free/libc/libclamunrar/libclamunrar6_0.98.5-0+deb7u1_amd64.deb
+Size: 37528
+MD5sum: 9a742fd59ef81b2736e5b2080c220e7f
+SHA1: f498b377a3d6e11e09394b9166c739bf4b820378
+SHA256: c1e0d6d8ce87537c69123f5aceee3e12199e4feac6f0d3b451849777452c2b7b
 
 Package: libcwd
 Version: 1.0.4-1
@@ -5885,33 +5885,33 @@ SHA256: 2a8fe2f7b18dcc3a8dfb92bc9e5ba2e384cc77f5e3551fe52c9e84ee8337ffee
 
 Package: libcuda1
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 10089
+Version: 304.125-1
+Installed-Size: 10138
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libcuda1-dev, nvidia-glx (<< 185.18.14-2), nvidia-glx-dev (<< 185.18.14-2)
 Depends: nvidia-support, libc6 (>= 2.2.5), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
-Recommends: nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117, nvidia-smi
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Recommends: nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125, nvidia-smi
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Conflicts: libcuda1-dev
 Description: NVIDIA CUDA runtime library
 Multi-Arch: same
 Homepage: http://www.nvidia.com/CUDA
-Description-md5: aaee986d5c8da158de2d3df8607c8ade
+Description-md5: a5210ca4145e0728ab8d91bdd6fd9979
 Tag: role::shared-lib
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libcuda1_304.117-1_amd64.deb
-Size: 3271574
-MD5sum: 4aa0baec75ff8d22ee58dc798dd4c788
-SHA1: b7711647990e2f10cb482f91b9c3ff1f06b1fe0a
-SHA256: 675e62363c3e2b40159959591aab8a5f220fca05ccd655904a6e053808f67956
+Filename: pool/non-free/n/nvidia-graphics-drivers/libcuda1_304.125-1_amd64.deb
+Size: 3275820
+MD5sum: d740d576f991e6171cb6f624d29e4e2c
+SHA1: 085d07ee815354ca8c4b9778d18887c3f43a2f95
+SHA256: a7ee720a7c50b0f1e88c0b11b6c9a6fe5a967436c45189489f425cd4addf3657
 
 Package: libcuda1-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 133
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-glx-ia32 (<< 185.18.14-2)
@@ -5922,16 +5922,16 @@ Homepage: http://www.nvidia.com/CUDA
 Description-md5: b767adc6ae9dc4ebb3c5bf9869391c24
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/libcuda1-ia32_304.117-1_amd64.deb
-Size: 94934
-MD5sum: 58df99cffc37587ae2f0de934d889636
-SHA1: 13002f84bf202ae8f0e97419999092cb733056c9
-SHA256: b2c4c7e8ca6f755315ba84d6955fc3414fdad9e716e9a27060f15f43c18be18c
+Filename: pool/non-free/n/nvidia-graphics-drivers/libcuda1-ia32_304.125-1_amd64.deb
+Size: 97108
+MD5sum: 7c07dee537a039ee5ee3efa32d3d8d45
+SHA1: 1b227dbd96e1badb7e71533eb25da58091af7551
+SHA256: e8e573faadc7b10ad3779a524888950f4fe91f52dbfdf6edcf0e8b752a72de14
 
 Package: libgl1-nvidia-alternatives
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 141
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: glx-alternative-mesa, glx-alternative-nvidia
@@ -5941,16 +5941,16 @@ Homepage: http://www.nvidia.com
 Description-md5: 4e3d725e4bb9a5416ad07ab56385ff84
 Section: non-free/oldlibs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-alternatives_304.117-1_amd64.deb
-Size: 94868
-MD5sum: fc7e46d320ca474b871f85844f4d587f
-SHA1: 417fdd1a83c77d479592ea4fefb1a55bb989b63f
-SHA256: a908677156c859e344a26ed21460b64fe9ce83185e8f435a2c1e20d72ec66529
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-alternatives_304.125-1_amd64.deb
+Size: 97024
+MD5sum: a9ec9f31f61a83511bf32d74e26317e8
+SHA1: a691f7bfb8db53068f5da4043d5b44afef39aedd
+SHA256: eab05ca96c988ddfeb417b28fe7af1c9a4651a02674a3a182b1be4a02671c128
 
 Package: libgl1-nvidia-alternatives-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 106
+Version: 304.125-1
+Installed-Size: 159
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: dpkg (>= 1.15)
@@ -5963,42 +5963,42 @@ Description-md5: b2752fb79640b36990e19166a3ebfb27
 Tag: role::shared-lib
 Section: non-free/libs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-alternatives-ia32_304.117-1_amd64.deb
-Size: 96718
-MD5sum: 520e20e882d259161272d29ace013273
-SHA1: d15ba28ab73f22d55b1769d72da612d223108ba0
-SHA256: dbab06e02988ac8d294a594243d8a373eba3d10a847e3053cdd41a7058692792
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-alternatives-ia32_304.125-1_amd64.deb
+Size: 98942
+MD5sum: c43c7ad03bdf096ff7e04074832599c2
+SHA1: 037c0cf3333e0470cb26b43924c6939e985aee01
+SHA256: 1b6885a65061ca0b421b7288df137e92d523cd86f3a06798a6056ce524899805
 
 Package: libgl1-nvidia-glx
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 36070
+Version: 304.125-1
+Installed-Size: 36135
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libgl1-nvidia-dev, nvidia-glx (<< 195.36.31), nvidia-glx-dev
 Provides: libgl1-nvidia-glx-any
 Depends: nvidia-alternative, nvidia-support, libc6 (>= 2.2.5), libx11-6, libxext6
 Pre-Depends: nvidia-installer-cleanup, multiarch-support
-Recommends: nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117, libxvmcnvidia1
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Recommends: nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125, libxvmcnvidia1
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Conflicts: libgl1-nvidia-dev, nvidia-glx-dev
-Breaks: fglrx-glx (<< 1:11-6-~), libgl1-nvidia-glx-ia32 (<< 304.117), libgl1-nvidia-legacy-173xx-glx (<< 173.14.30-2), libgl1-nvidia-legacy-71xx-glx (<< 71.86.14-3), libgl1-nvidia-legacy-96xx-glx (<< 96.43.19-2), nvidia-glx (<< 275.09.07-3), nvidia-glx-legacy (<< 71.86.14-3), nvidia-glx-legacy-173xx (<< 173.14.30-2), nvidia-glx-legacy-71xx (<< 71.86.14-3), nvidia-glx-legacy-96xx (<< 96.43.19-2), nvidia-settings (<< 304), nvidia-settings-legacy-173xx
+Breaks: fglrx-glx (<< 1:11-6-~), libgl1-nvidia-glx-ia32 (<< 304.125), libgl1-nvidia-legacy-173xx-glx (<< 173.14.30-2), libgl1-nvidia-legacy-71xx-glx (<< 71.86.14-3), libgl1-nvidia-legacy-96xx-glx (<< 96.43.19-2), nvidia-glx (<< 275.09.07-3), nvidia-glx-legacy (<< 71.86.14-3), nvidia-glx-legacy-173xx (<< 173.14.30-2), nvidia-glx-legacy-71xx (<< 71.86.14-3), nvidia-glx-legacy-96xx (<< 96.43.19-2), nvidia-settings (<< 304), nvidia-settings-legacy-173xx
 Description: NVIDIA binary OpenGL libraries
 Multi-Arch: same
 Homepage: http://www.nvidia.com
 Description-md5: c4bca7682272c36b0ba08b837b2b73c7
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glx_304.117-1_amd64.deb
-Size: 6561860
-MD5sum: 4c3ae46f317d8e244fdeda99fc931f16
-SHA1: 6724e79e74c0b24d61d6dc9c3dcb36508e73841a
-SHA256: ca2ad8fca051093d520032e0afadc79eb29ea951f4a6fc858c9266980e3ae7c8
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glx_304.125-1_amd64.deb
+Size: 6593610
+MD5sum: 66851692963d58233f3a4ca859529049
+SHA1: bc4db70ac64a6c9f01653a7c2911d06b23431e68
+SHA256: 2e2396831dee596818077e120878758a17bd6cdc2ed1dec8a2d678072c349d0b
 
 Package: libgl1-nvidia-glx-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 100
+Version: 304.125-1
+Installed-Size: 133
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-glx-ia32 (<< 195.36.31)
@@ -6006,22 +6006,22 @@ Depends: libgl1-nvidia-alternatives-ia32
 Pre-Depends: libc6-i386 (>= 2.9-18), nvidia-installer-cleanup
 Recommends: libgl1-nvidia-glx-i386
 Conflicts: fglrx-glx-ia32, libgl1-nvidia-glx-ia32, libgl1-nvidia-glx-ia32-any, nvidia-glx-ia32 (<< 195.36.31), nvidia-glx-legacy-173xx-ia32, nvidia-glx-legacy-71xx-ia32, nvidia-glx-legacy-96xx-ia32, nvidia-glx-legacy-ia32
-Breaks: libgl1-nvidia-glx (<< 304.117)
+Breaks: libgl1-nvidia-glx (<< 304.125)
 Description: please switch to multiarch libgl1-nvidia-glx:i386
 Homepage: http://www.nvidia.com
 Description-md5: c28142e1110497df06cbc6bd334ea5dd
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glx-ia32_304.117-1_amd64.deb
-Size: 95170
-MD5sum: 219e4903f196281444c38a4e37509cb4
-SHA1: e5c4223ef2720b0717ddeb7b37d698e42802c076
-SHA256: ed979a5ba7e1436d1027202aa47e350bf9368cdae544df609e84d8489bb783b3
+Filename: pool/non-free/n/nvidia-graphics-drivers/libgl1-nvidia-glx-ia32_304.125-1_amd64.deb
+Size: 97340
+MD5sum: 1f7235d2266cd08403daa50ce31628c0
+SHA1: ac464e015f6fbe1e75b3576df2e0803ba975925b
+SHA256: f140e33795c3c3544ba3b376f9ddd11c83ae3d256fa8b7ef23a5f07614d3ffdf
 
 Package: libglx-nvidia-alternatives
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 141
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: glx-alternative-mesa, glx-alternative-nvidia
@@ -6031,16 +6031,16 @@ Homepage: http://www.nvidia.com
 Description-md5: 8ade8bc2541386037a79a896dcec078a
 Section: non-free/oldlibs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libglx-nvidia-alternatives_304.117-1_amd64.deb
-Size: 94812
-MD5sum: 7aab7c2547e277f2b33a032419f0cff3
-SHA1: 79357231e64cac709c51627b6053617447f2ae71
-SHA256: b388cb6573caebb00a94759a9d312900f0b98036f279faaabb0bd858b433cd2c
+Filename: pool/non-free/n/nvidia-graphics-drivers/libglx-nvidia-alternatives_304.125-1_amd64.deb
+Size: 96968
+MD5sum: f3a58bbcdc7bdd8412ca555d8e972314
+SHA1: 83a8096e126dc18c1ad32df830ed654fcdb1c698
+SHA256: 2936023f438936b6a554b2be4979dd53a76de0eb9e6383b8a8fb60ef163c5b4d
 
 Package: libnvcuvid1
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 2245
+Version: 304.125-1
+Installed-Size: 2294
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.2.5)
@@ -6052,16 +6052,16 @@ Description-md5: e808e2176dfa3a938d5b7e48d25ece0b
 Tag: role::shared-lib
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libnvcuvid1_304.117-1_amd64.deb
-Size: 624500
-MD5sum: 8d1f65d49b02fc4f0fc9afae5d736433
-SHA1: d5e92e7564473293e7cf7a86a4df0dbcc54f56cc
-SHA256: d1e27a89f29b6658cdfc7bdb79f78ccbd69221b469662471f32ab577ef4eb583
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvcuvid1_304.125-1_amd64.deb
+Size: 626852
+MD5sum: f25a112f7a353dca1fbe41e8e128b042
+SHA1: 781dadfe3ccd709310ed5ce5f6bc15ff747b004b
+SHA256: 3ef065dee7cd451edcdd7d650bf65419976fc6670a1e0dcadcb4e4c329914f66
 
 Package: libnvidia-compiler
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 27200
+Version: 304.125-1
+Installed-Size: 27249
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libnvidia-compiler1
@@ -6074,16 +6074,16 @@ Homepage: http://www.nvidia.com
 Description-md5: e3bbac6ba5c7d6fa67ed3c17cc15718a
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-compiler_304.117-1_amd64.deb
-Size: 6971960
-MD5sum: e8e06fb0845eb2d4a653ff862b169852
-SHA1: 8e9770a538d603548818a1384ee84432822a7158
-SHA256: 2ec5bbb868e5f37b3dbf9dc22d9e24e36158d5bc55ada6ed4b71dedac2c42757
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-compiler_304.125-1_amd64.deb
+Size: 6980440
+MD5sum: 9c5b3fbb558d33ef3595fc45a8792df7
+SHA1: 7a5c8810611971f1c321bdb3069fb1645eaaf0b2
+SHA256: 04c96b3dd29d5f1c74f9d696334886cbded3cac9c13fd972d558238305c1ebfc
 
 Package: libnvidia-compiler-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 132
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libnvidia-compiler1-ia32
@@ -6095,21 +6095,21 @@ Homepage: http://www.nvidia.com
 Description-md5: 7e582cb77cb7e3d87c2e009fe8ba18d0
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-compiler-ia32_304.117-1_amd64.deb
-Size: 94502
-MD5sum: 28b11d7a5ba2abd512ecc3b0bef10133
-SHA1: e35851b4d19b83b3ffda60f6919bf00be7ec9663
-SHA256: 4e33b2d3bba74e2e538c9e78711c5eef67ef14d0aa7b6a775ecf9aeb04a9bdee
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-compiler-ia32_304.125-1_amd64.deb
+Size: 96670
+MD5sum: 9c5ed9346d20f129f85b52b928e26caa
+SHA1: 4e9ab0ce753caa02e843700aba1eed13ab7090b7
+SHA256: 90badb0fa81ed7b7a7269ba5c24b32b0438944783feef12f8c6c4c61e1fcaf02
 
 Package: libnvidia-ml1
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 488
+Version: 304.125-1
+Installed-Size: 537
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libc6 (>= 2.2.5)
 Pre-Depends: multiarch-support
-Breaks: nvidia-smi (<< 304.117)
+Breaks: nvidia-smi (<< 304.125)
 Description: NVIDIA management library (NVML) runtime library
 Multi-Arch: same
 Homepage: http://www.nvidia.com
@@ -6117,20 +6117,20 @@ Description-md5: a39d3605112e28420caf2d8f7ac304f7
 Tag: role::shared-lib
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-ml1_304.117-1_amd64.deb
-Size: 216410
-MD5sum: 56c7c622ad838bf7bbd92b0b08212a2e
-SHA1: c03dc9ae244e8ec28f339bc96c8c9d0ce747e2d5
-SHA256: 53244669fefd50e5df71f595a49f46dde9c2f6daad1d3ab5021254cf1a3fa52c
+Filename: pool/non-free/n/nvidia-graphics-drivers/libnvidia-ml1_304.125-1_amd64.deb
+Size: 218614
+MD5sum: 30d331dd2b698a0acba8d24e62931602
+SHA1: f97eaba3aa8b6b61118700ad6aba5d0516303600
+SHA256: de380fc6c13ad80a35dd22ef5e6d066cccfa9e9dedc896f8323309c84b6cb3a2
 
 Package: libxvmcnvidia1
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 392
+Version: 304.125-1
+Installed-Size: 449
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libgl1-nvidia-glx (<< 304.64-3)
-Depends: nvidia-alternative, libgl1-nvidia-glx (= 304.117-1), libc6 (>= 2.2.5), libx11-6, libxext6, libxv1, libxvmc1
+Depends: nvidia-alternative, libgl1-nvidia-glx (= 304.125-1), libc6 (>= 2.2.5), libx11-6, libxext6, libxv1, libxvmc1
 Pre-Depends: nvidia-installer-cleanup, multiarch-support
 Breaks: libgl1-nvidia-glx (<< 304.64-3)
 Description: NVIDIA binary XvMC library
@@ -6140,16 +6140,16 @@ Description-md5: 8f77ab77bd0dd17d93ca8de0d4a7eca2
 Tag: role::shared-lib
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/libxvmcnvidia1_304.117-1_amd64.deb
-Size: 282718
-MD5sum: 27da48de581fd4fa60a93291a8209597
-SHA1: 887e0d5938b40069872848337f5931b27784979a
-SHA256: 8b4f66372c4befb43dc7971e86ea4e0c8c220cfccb00dd5ce68ee19931599446
+Filename: pool/non-free/n/nvidia-graphics-drivers/libxvmcnvidia1_304.125-1_amd64.deb
+Size: 285580
+MD5sum: 38eaccca3e7db0776ec5447de9855bf3
+SHA1: 80da087bc17cfdd402f8427bce6444a7c91aca89
+SHA256: a11219a8287b5ba36dd0ab627c3f91fbf8eb8f764b6f6851be10ddb365afd1f4
 
 Package: nvidia-alternative
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 102
+Version: 304.125-1
+Installed-Size: 155
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: glx-alternative-nvidia (>= 0.2), libgl1-nvidia-alternatives (>= 275.09.07-4), libglx-nvidia-alternatives (>= 275.09.07-4)
@@ -6160,16 +6160,16 @@ Homepage: http://www.nvidia.com
 Description-md5: 1ea3155e7c2fa4dd1c6118334fe4b0f7
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-alternative_304.117-1_amd64.deb
-Size: 95718
-MD5sum: 1817dc0e86f093b5ec96df7a7914ac8e
-SHA1: 1a3531b33e27db7a85f5766ddaedfee20ff67c79
-SHA256: 58188ade158bbaf4141dfac21deea42bf38ae2495bc679f738e3d2d122084b02
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-alternative_304.125-1_amd64.deb
+Size: 97922
+MD5sum: b395261ef2145695df5bd50db9ec3ff6
+SHA1: be0bf6167dd3ece90b50ef5e3c6d4477ebf548ec
+SHA256: 0e41a2eed5e7d89cdb6d4843137902569b561e4f973a488a4e6f16ea5451ac1e
 
 Package: nvidia-detect
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 122
+Version: 304.125-1
+Installed-Size: 163
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: pciutils
@@ -6178,38 +6178,38 @@ Homepage: http://www.nvidia.com
 Description-md5: 1f250aa198008c0ed86a06468afa0ee2
 Section: non-free/x11
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-detect_304.117-1_amd64.deb
-Size: 97146
-MD5sum: 3656d5b47cb31fb54590e75dc4903e44
-SHA1: b04f93f2d228c389b41b82e33313c3a7c1b08a08
-SHA256: 8b185887e6cdac7fff976b808fd6717725e872a8b9e963936c6ee0ac7f9df06c
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-detect_304.125-1_amd64.deb
+Size: 99340
+MD5sum: 2ea108f0a4d2948a8abd581b4a448f69
+SHA1: 58fdea0bf89ae9d6656de07c445bd689e8c45a80
+SHA256: 81d9b7830bf45b3e1c417e3c710baa03c1d9d399ac8caa472e10e037461c4bdd
 
 Package: nvidia-glx
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 886
+Version: 304.125-1
+Installed-Size: 939
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: nvidia-glx-any
-Depends: libgl1-nvidia-glx (= 304.117-1), libxvmcnvidia1 (= 304.117-1), xserver-xorg-video-nvidia (= 304.117-1), nvidia-vdpau-driver (= 304.117-1), nvidia-alternative (= 304.117-1), nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117, nvidia-support
+Depends: libgl1-nvidia-glx (= 304.125-1), libxvmcnvidia1 (= 304.125-1), xserver-xorg-video-nvidia (= 304.125-1), nvidia-vdpau-driver (= 304.125-1), nvidia-alternative (= 304.125-1), nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125, nvidia-support
 Pre-Depends: dpkg (>= 1.15.7.2), nvidia-installer-cleanup
 Recommends: nvidia-settings, libgl1-nvidia-glx-i386
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Description: NVIDIA metapackage
 Homepage: http://www.nvidia.com
-Description-md5: e345a436d8c55a6918d900b23ae17f8c
+Description-md5: 49e663c958666198c845dd5e92a936c0
 Section: non-free/x11
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-glx_304.117-1_amd64.deb
-Size: 353120
-MD5sum: 34dddc63f4155733c4c8fcd06e29e348
-SHA1: df238d8fe26820f6d91e6bd51f73bca8c4c19946
-SHA256: ea41577e3945daf22de5ae9391cf2d7d412dc26d1b338e4f289893c8012d431b
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-glx_304.125-1_amd64.deb
+Size: 356904
+MD5sum: 6cebd67feb402e802dd491b90994ed7f
+SHA1: e1d7b87c9c241665f64c94729bc7df9a58de179d
+SHA256: c47a6374c25a13020b39bc78d5dfc83768938ea96e11211764f63f3855539704
 
 Package: nvidia-glx-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 101
+Version: 304.125-1
+Installed-Size: 134
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: libgl1-nvidia-glx-ia32
@@ -6218,22 +6218,22 @@ Homepage: http://www.nvidia.com
 Description-md5: 80336816ec22bb95d65e97447751251a
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-glx-ia32_304.117-1_amd64.deb
-Size: 94920
-MD5sum: 5743b8ebe5d2ef7ea3c34c7b058f27a8
-SHA1: 9c49920884bbbd67118e9f75f35b317fc3594e9a
-SHA256: 88b7c64b5e65478d3456bc784fb0b2485a81a1d9312b2a9580c54f9ded0b43fe
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-glx-ia32_304.125-1_amd64.deb
+Size: 97106
+MD5sum: 40db2b01594544966128a7165aa96488
+SHA1: de66be20c54203dbb395fba8d2479871e8c3d663
+SHA256: 0b74298b9b31c4464bd7f1b42b8cd41a9e4eeb86c125fdb8e3968e9c768f9258
 
 Package: nvidia-kernel-dkms
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 26896
+Version: 304.125-1
+Installed-Size: 27024
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
-Provides: nvidia-kernel-304.117, nvidia-kernel-dkms
+Provides: nvidia-kernel-304.125, nvidia-kernel-dkms
 Depends: dkms (>= 2.1.0.0), nvidia-kernel-common (>= 20110213)
 Pre-Depends: nvidia-installer-cleanup
-Recommends: nvidia-glx (>= 304.117)
+Recommends: nvidia-glx (>= 304.125)
 Conflicts: nvidia-kernel-dkms
 Breaks: make (= 3.82-1)
 Description: NVIDIA binary kernel module DKMS source
@@ -6243,21 +6243,21 @@ Description-md5: b0ece1fcd01bf141f5cc8399d698b049
 Tag: admin::kernel
 Section: non-free/kernel
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-dkms_304.117-1_amd64.deb
-Size: 6912772
-MD5sum: f7f5a6a242f94b2085f37a9875867019
-SHA1: f59e592aa18fd0207f4396b56f52b8448345c54e
-SHA256: 3c2942c1c4ca641fd36ae3bb8c1a9feeb498b1ce847ba51cd9b71016eeffa68f
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-dkms_304.125-1_amd64.deb
+Size: 6917530
+MD5sum: 0c315314e90f9f2791d98c33fa137364
+SHA1: 4cac07c5d252712fae78b9b21e9ab076de8ec3e3
+SHA256: 721db6ccdaa577281c1d538990ad7449f347285c3ca533f4ff54ebc949ecb083
 
 Package: nvidia-kernel-source
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 8907
+Version: 304.125-1
+Installed-Size: 8965
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Depends: debhelper (>= 8), make, quilt (>= 0.46-7~)
 Recommends: module-assistant | kernel-package, nvidia-kernel-common
-Suggests: nvidia-glx (>= 304.117)
+Suggests: nvidia-glx (>= 304.125)
 Breaks: make (= 3.82-1)
 Description: NVIDIA binary kernel module source
 Homepage: http://www.nvidia.com
@@ -6265,16 +6265,16 @@ Description-md5: 3dfd7a8238da82c4e485fe69b6cd454c
 Tag: admin::kernel
 Section: non-free/kernel
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-source_304.117-1_amd64.deb
-Size: 9083284
-MD5sum: cb7a4c40a550fd00499db9d7e8fd3a70
-SHA1: 332d95482e4a314a0585fe1c467120028ffc5f41
-SHA256: 3c46562228a4f12011f493135d15b17ba3ce60b4b68427f8c31f8aeeef5548bd
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-kernel-source_304.125-1_amd64.deb
+Size: 9104830
+MD5sum: 7ff7c4d4892a483e3d4fb4b3657c6968
+SHA1: 7526621a28eadc2f3121937dd905d56903a18e25
+SHA256: 6e8f554327a5fd2fcaea6097f3cd98343e1aee0e53c9e50047d80ebba92c5c6c
 
 Package: nvidia-libopencl1
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 123
+Version: 304.125-1
+Installed-Size: 172
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: libopencl1, nvidia-libopencl1-dev
@@ -6289,16 +6289,16 @@ Homepage: http://www.nvidia.com
 Description-md5: a2c6641fb1541a02d7a794f68b3ed6f8
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-libopencl1_304.117-1_amd64.deb
-Size: 101338
-MD5sum: a204e3100520633b19f8b0bab7f73bd2
-SHA1: 56c99cb4520eab7bd15f76465e2145ac947d0321
-SHA256: 8bf92461365d2170bc8c30c2f52eb464c8c7b80dcb07566796e5705288134dfe
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-libopencl1_304.125-1_amd64.deb
+Size: 103516
+MD5sum: 7453d09aa2d497e0f114ee8bcaf3c0a9
+SHA1: 8d3c66fe8ae63f85974779435a7c6c22b526b5be
+SHA256: af1d2be98bb54e8593b9778ede050d2d6c083ea44b133206e8f66c8f80320fd6
 
 Package: nvidia-libopencl1-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 132
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Pre-Depends: libc6-i386 (>= 2.9-18)
@@ -6308,40 +6308,40 @@ Homepage: http://www.nvidia.com
 Description-md5: 3cf60328965ccfc02599967f0a9b887d
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-libopencl1-ia32_304.117-1_amd64.deb
-Size: 94478
-MD5sum: 277af7235586f49624955ebffd61fe7b
-SHA1: 12df3b66e0d305631327d980aaf024b401ea0f98
-SHA256: 8aabad4838a3389cb36057021405301b883ba32a3091f6b468a589fa4e9cbc21
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-libopencl1-ia32_304.125-1_amd64.deb
+Size: 96646
+MD5sum: dba3c24cd532bdc7e260ff1862effde0
+SHA1: aa06e36a7fa02ecbb4189cb2553781e6fc54860c
+SHA256: aac598fd2f443433cc55ae95fc84f199bdb3b51a1358c3f7f28e34765ccd26a1
 
 Package: nvidia-opencl-common
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 144
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Recommends: nvidia-opencl-icd
-Breaks: nvidia-opencl-icd (<< 304.117)
+Breaks: nvidia-opencl-icd (<< 304.125)
 Description: NVIDIA OpenCL driver
 Multi-Arch: foreign
 Homepage: http://www.nvidia.com
 Description-md5: e92f1e2520950649b21c01f4c6b66265
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-common_304.117-1_amd64.deb
-Size: 94678
-MD5sum: 80e3794700ba7570f92acbf444e2c372
-SHA1: 303b432a299cb20ceed7fefb148d0f4696bb1398
-SHA256: d52a53e834e2929e0b15bff02696443f564c97cb299f1ba8f91b0e439e88ca31
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-common_304.125-1_amd64.deb
+Size: 96862
+MD5sum: d8d279c1e9c50937ab509e65138fc4d2
+SHA1: ad59435060056e9c6545cbae00965b97fa5249c2
+SHA256: d3d4ef5669acfc85190edb4f31746a7380f078d652592ef702c040b10e54b8da
 
 Package: nvidia-opencl-icd
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 8824
+Version: 304.125-1
+Installed-Size: 8873
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Provides: opencl-icd
-Depends: nvidia-opencl-common (= 304.117-1), libopencl1, libnvidia-compiler (= 304.117-1), libc6 (>= 2.2.5), zlib1g (>= 1:1.1.4)
+Depends: nvidia-opencl-common (= 304.125-1), libopencl1, libnvidia-compiler (= 304.125-1), libc6 (>= 2.2.5), zlib1g (>= 1:1.1.4)
 Pre-Depends: multiarch-support
 Enhances: libopencl1
 Description: NVIDIA OpenCL ICD
@@ -6350,16 +6350,16 @@ Homepage: http://www.nvidia.com
 Description-md5: 1ac575e026669dbff811cabcf481add7
 Section: non-free/libs
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd_304.117-1_amd64.deb
-Size: 2974118
-MD5sum: c09c26021e76b5bf37a989bb5f52729b
-SHA1: c6908a5d6f64310b785b307973a1877982275997
-SHA256: ee238534b84b001b9856136ee07afb5b07dde1cc8d25c567ff5d523af0fc6c03
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd_304.125-1_amd64.deb
+Size: 2977434
+MD5sum: 4b509d6b5662cb540be4b9681f13001b
+SHA1: 9c5b694b434c1390331303d8a42ed4d39df2ed49
+SHA256: 64d55c5b84937881a35ee416d929917f7dfc42044142583c653195ccb59ca6cc
 
 Package: nvidia-opencl-icd-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 133
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Recommends: nvidia-opencl-icd-i386
@@ -6368,63 +6368,63 @@ Homepage: http://www.nvidia.com
 Description-md5: d13db88e7705d3a0a27b0614530d5de9
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd-ia32_304.117-1_amd64.deb
-Size: 94876
-MD5sum: 6a6a4c6f1591dd5113b22b21fe690d89
-SHA1: d9b30c0931aca288803fa4a23d0b312284c4ab32
-SHA256: c31f300df9c974c964d8fc5731f010f4e60ae0399191613f91ca0de706ef77c6
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-opencl-icd-ia32_304.125-1_amd64.deb
+Size: 97038
+MD5sum: b211d80de3df37e23a909ad76fcc6f5c
+SHA1: ee2463ee241038cf772b02d8c7a9d0a1c72ac380
+SHA256: 4c1e2b3691b69fdf9b4cfa88fb221854c444dd5d513ea076c8122a7add2f9560
 
 Package: nvidia-smi
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 245
+Version: 304.125-1
+Installed-Size: 298
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
-Depends: libnvidia-ml1 (= 304.117-1), libc6 (>= 2.2.5)
-Recommends: nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Depends: libnvidia-ml1 (= 304.125-1), libc6 (>= 2.2.5)
+Recommends: nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Description: NVIDIA System Management Interface
 Homepage: http://www.nvidia.com
 Description-md5: fe25a9265cfe03fd8f7746c2e8516ce7
 Section: non-free/utils
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-smi_304.117-1_amd64.deb
-Size: 146176
-MD5sum: d3c735d0418ee20a85a7d890c9f06d6a
-SHA1: e5b104d48cbb4dbee8b76d2984437bea0a0332a0
-SHA256: 5b0761cca06b8398e0b7ba116b8238036e0c3d825d85194bd9ce6f5898e62d0d
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-smi_304.125-1_amd64.deb
+Size: 148384
+MD5sum: c95b9c20090c4437983aaaf943f94e28
+SHA1: 24849ab3896de6dd1f394641baffd672c9d411f1
+SHA256: 70b37d0d5c8ee9537ac5c64892fdad82e3bd61f0b7aa54c9f4fa68cf0759fad2
 
 Package: nvidia-vdpau-driver
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 1994
+Version: 304.125-1
+Installed-Size: 2048
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-glx (<< 180.51), nvidia-libvdpau, nvidia-libvdpau-dev, nvidia-libvdpau1, nvidia-libvdpau1-driver
 Provides: vdpau-driver
 Depends: libvdpau1, libc6 (>= 2.2.5), libx11-6, libxext6
 Pre-Depends: nvidia-installer-cleanup
-Recommends: nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Recommends: nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Enhances: libvdpau1
 Conflicts: nvidia-libvdpau, nvidia-libvdpau-dev, nvidia-libvdpau1, nvidia-libvdpau1-driver
 Breaks: libvdpau1 (<< 0.4.1-3), nvidia-glx (<< 180.51)
 Description: NVIDIA vdpau driver
 Multi-Arch: same
 Homepage: http://www.nvidia.com
-Description-md5: cc77b1d81e1152aedd5f0f3f795346e8
+Description-md5: def8fe40647085ba60232bfe6ae298a6
 Section: non-free/video
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver_304.117-1_amd64.deb
-Size: 838008
-MD5sum: 5d33976d39ca0b995cefa3c59ca33e2a
-SHA1: d51a54ca0a4d15ac9903f6d4895ec67d5dd41b09
-SHA256: 5af4b336ea1734ffd583b2ed4f79d69e56a09ea9cf56e9a87e9406427db47951
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver_304.125-1_amd64.deb
+Size: 840696
+MD5sum: 31b2a7aedb1984ac448c424c9737053c
+SHA1: 122687c1eb933bfaf7a3c334f209190dbdf96d55
+SHA256: 81e7493ca8b49cbbaa0601e12db7227098cf8400e972868fb6f9f2a74be018c1
 
 Package: nvidia-vdpau-driver-ia32
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 99
+Version: 304.125-1
+Installed-Size: 133
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-glx (<< 180.51), nvidia-libvdpau, nvidia-libvdpau1, nvidia-libvdpau1-driver-ia32, nvidia-libvdpau1-ia32
@@ -6437,36 +6437,36 @@ Homepage: http://www.nvidia.com
 Description-md5: 1ab8c4c59ddf351560ae5c7b186e05d4
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver-ia32_304.117-1_amd64.deb
-Size: 94970
-MD5sum: 80e73e889dcdde0a45d0745e0150fb1a
-SHA1: 29e300c05ddcaf2bb2cc63dde4934c91db4ba4eb
-SHA256: 89079a3770c6f69c1249246357849d3c32f2d1267d7e72806497bf3b77c20ddf
+Filename: pool/non-free/n/nvidia-graphics-drivers/nvidia-vdpau-driver-ia32_304.125-1_amd64.deb
+Size: 97142
+MD5sum: ef7d5569ec043288bde541ef4fbee570
+SHA1: 96cc0f757e5a4acc789f1f3d20f6742237cc6070
+SHA256: 7a27f49ecf156673228417b05ff9a4b57c29af72979c76c026c657641a4a92a7
 
 Package: xserver-xorg-video-nvidia
 Source: nvidia-graphics-drivers
-Version: 304.117-1
-Installed-Size: 18823
+Version: 304.125-1
+Installed-Size: 20868
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-glx (<< 275.09.07-2)
 Provides: xorg-driver-video, xserver-xorg-video-nvidia-any
-Depends: libgl1-nvidia-glx (= 304.117-1), nvidia-alternative (= 304.117-1), nvidia-support (>= 20120630), xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:1.15.99), libc6 (>= 2.2.5), debconf (>= 0.5) | debconf-2.0
+Depends: libgl1-nvidia-glx (= 304.125-1), nvidia-alternative (= 304.125-1), nvidia-support (>= 20120630), xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0, xserver-xorg-core (<< 2:1.17.99), libc6 (>= 2.2.5), debconf (>= 0.5) | debconf-2.0
 Pre-Depends: nvidia-installer-cleanup
-Recommends: nvidia-vdpau-driver (>= 304.117), nvidia-kernel-dkms (= 304.117-1) | nvidia-kernel-304.117, nvidia-settings
-Suggests: nvidia-kernel-dkms (>= 304.117) | nvidia-kernel-source (>= 304.117)
+Recommends: nvidia-vdpau-driver (>= 304.125), nvidia-kernel-dkms (= 304.125-1) | nvidia-kernel-304.125, nvidia-settings
+Suggests: nvidia-kernel-dkms (>= 304.125) | nvidia-kernel-source (>= 304.125)
 Breaks: fglrx-driver (<< 1:11-6-~), nvidia-glx (<< 275.09.07-2), nvidia-glx-legacy (<< 71.86.14-3), nvidia-glx-legacy-173xx (<< 173.14.30-2), nvidia-glx-legacy-71xx (<< 71.86.14-3), nvidia-glx-legacy-96xx (<< 96.43.19-2)
 Description: NVIDIA binary Xorg driver
 Homepage: http://www.nvidia.com
-Description-md5: e15972badc6a48c0a1e7431a60fc3fd1
+Description-md5: 650fe5e33be7ffd5112b341dea2b7147
 Tag: x11::xserver
 Section: non-free/x11
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_304.117-1_amd64.deb
-Size: 2357994
-MD5sum: 9a7c09fb924997522a3f4d1a5628bf1c
-SHA1: d5e6424ef117788ec1094a14057f7b5a35c51dab
-SHA256: 2dca942fc1cf7b3869a73872a70eca0565bc3abca1c9b113643014cff7412ee5
+Filename: pool/non-free/n/nvidia-graphics-drivers/xserver-xorg-video-nvidia_304.125-1_amd64.deb
+Size: 2454322
+MD5sum: 1f8d99153aea1bd5f91a6d56bf966b7f
+SHA1: 4368e2f6fcc05ed46b55925b256a53761f7cb7fa
+SHA256: 9beab9bfa968f73e9e8051453029ee433520e2c51edfe4f3400377de4e40e854
 
 Package: libgl1-nvidia-legacy-173xx-glx
 Source: nvidia-graphics-drivers-legacy-173xx
@@ -7113,7 +7113,7 @@ SHA256: ac761a4058e634e747a8739ef1d9a28820afbd8c25bdb129241cefc057a578a4
 
 Package: nvidia-kernel-2.6-amd64
 Source: nvidia-graphics-modules
-Version: 304.117+3.2.0+1
+Version: 304.125+3.2.0+1
 Installed-Size: 6
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
@@ -7123,51 +7123,51 @@ Homepage: http://www.nvidia.com/
 Description-md5: 90562752842c28380c61c7a5043ec304
 Section: non-free/oldlibs
 Priority: extra
-Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-2.6-amd64_304.117+3.2.0+1_amd64.deb
-Size: 6208
-MD5sum: cd1fba05c6f59516c0849f227bf653b9
-SHA1: 80e716d171f852af59ec10827d589d55faff368f
-SHA256: db6d8439dba427fadb91cf194a45fc6ccdf1e1b1823c5df8c72fc2f16163b46c
+Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-2.6-amd64_304.125+3.2.0+1_amd64.deb
+Size: 6228
+MD5sum: af2559ba38e10fc7c4379dc50414ee21
+SHA1: 578d4832071faf6daf42aa87a52e0f06bbd4b272
+SHA256: 03871a9641e143c8e535292e806c17cb50c85c604b4e75242c12d819a7edd5ee
 
 Package: nvidia-kernel-3.2.0-4-amd64
-Source: nvidia-graphics-modules (304.117+3.2.0+1)
-Version: 304.117+1+1+3.2.54-2
-Installed-Size: 18668
+Source: nvidia-graphics-modules (304.125+3.2.0+1)
+Version: 304.125+1+1+3.2.65-1
+Installed-Size: 18802
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
-Provides: nvidia-kernel-304.117
+Provides: nvidia-kernel-304.125
 Depends: nvidia-kernel-common (>= 20110213), linux-image-3.2.0-4-amd64
 Description: NVIDIA binary kernel module for Linux 3.2.0-4-amd64
 Homepage: http://www.nvidia.com/
-Built-Using: linux (= 3.2.54-2)
+Built-Using: linux (= 3.2.65-1)
 Description-md5: c6854bf333ae5675904939009b15f1ff
 Section: non-free/kernel
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-3.2.0-4-amd64_304.117+1+1+3.2.54-2_amd64.deb
-Size: 5744970
-MD5sum: 784e3bf75c278ad2c6db8361225cc18b
-SHA1: dcf9dba08b0caf2f15bed1ecb809cccb9bdc7646
-SHA256: e45de682cec6c2266624a38a3734b8ebb15af959b3d19a3e96f74f9086d385ef
+Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-3.2.0-4-amd64_304.125+1+1+3.2.65-1_amd64.deb
+Size: 5780866
+MD5sum: 5176b9d7b14870afc8c86b8050da4987
+SHA1: 95b7e5e79a96a6513524b34eb05bcd95cdd38272
+SHA256: dcbe185eea224acc798cfcf5a5235857a1e20cf3c574799bb0107772bdd81285
 
 Package: nvidia-kernel-amd64
 Source: nvidia-graphics-modules
-Version: 304.117+3.2.0+1
+Version: 304.125+3.2.0+1
 Installed-Size: 6
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: amd64
 Replaces: nvidia-kernel-2.6-amd64 (<< 295)
-Depends: nvidia-kernel-3.2.0-4-amd64 (>= 304.117)
+Depends: nvidia-kernel-3.2.0-4-amd64 (>= 304.125)
 Breaks: nvidia-kernel-2.6-amd64 (<< 295)
 Description: NVIDIA kernel module for Linux (amd64 flavor)
 Homepage: http://www.nvidia.com/
 Description-md5: ff6da8de09299444ef3c8a839b8b0e05
 Section: non-free/kernel
 Priority: optional
-Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-amd64_304.117+3.2.0+1_amd64.deb
-Size: 6272
-MD5sum: 67da5ba9e3cb6a2075fcfae2d05ba684
-SHA1: 39b4fe25c7f113c9549a980c6acfebf1178c472a
-SHA256: 4a342bc250d35a35ebeb3b4a52675ffa63ea6ae6d32b7632f0ebc58a95c1f22a
+Filename: pool/non-free/n/nvidia-graphics-modules/nvidia-kernel-amd64_304.125+3.2.0+1_amd64.deb
+Size: 6300
+MD5sum: 7e000c88ee2c36353f0a6c53df5ff520
+SHA1: dedd8331f4e0c8f0cce86e0ae3207b3bf92bf55e
+SHA256: e018b8deab58d2aef367911ab0569a13e776556ebad449e4b1acd897ca9ace84
 
 Package: ocaml-book-en
 Source: ocaml-book
