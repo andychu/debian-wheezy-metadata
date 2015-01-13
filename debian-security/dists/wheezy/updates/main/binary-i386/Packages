@@ -1238,6 +1238,67 @@ MD5sum: 3ec6f6e2a3db4b22d746604d33e7fafc
 SHA1: 68580b7bb82172721f1e3275d575b260a2c66e6a
 SHA256: 5f73d4a527c581631efa379fa4640203d0be77f3d437eddb3d1ee6d34d32ee7d
 
+Package: binutils-mingw-w64
+Source: binutils-mingw-w64 (2+deb7u1)
+Version: 2.22-8+deb7u2+2+deb7u1
+Installed-Size: 122
+Maintainer: Stephen Kitt <steve@sk2.org>
+Architecture: all
+Depends: binutils-mingw-w64-i686, binutils-mingw-w64-x86-64
+Description: Cross-binutils for Win32 and Win64 using MinGW-w64
+Homepage: http://www.gnu.org/software/binutils/
+Built-Using: binutils (= 2.22-8+deb7u2)
+Description-md5: 2c6b78807f6cadfd2a7ca0319422b2a0
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils-mingw-w64/binutils-mingw-w64_2.22-8+deb7u2+2+deb7u1_all.deb
+Size: 124888
+MD5sum: b0f3374138a60a817e63fe750036eee7
+SHA1: 407de20f086445601af983a500eb6404931d743e
+SHA256: d0dc43665cfdfa48ce5a7bdb25566ed095c6bc61d51bd539193e019526616e87
+
+Package: binutils-mingw-w64-i686
+Source: binutils-mingw-w64 (2+deb7u1)
+Version: 2.22-8+deb7u2+2+deb7u1
+Installed-Size: 13854
+Maintainer: Stephen Kitt <steve@sk2.org>
+Architecture: i386
+Replaces: binutils-mingw-w64 (<< 2.22-1+1)
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.0), binutils (>= 2.22)
+Breaks: binutils-mingw-w64 (<< 2.22-1+1)
+Description: Cross-binutils for Win32 (x86) using MinGW-w64
+Homepage: http://www.gnu.org/software/binutils/
+Built-Using: binutils (= 2.22-8+deb7u2)
+Description-md5: d710d4449fffbd4a80acf49317058bf9
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils-mingw-w64/binutils-mingw-w64-i686_2.22-8+deb7u2+2+deb7u1_i386.deb
+Size: 6621032
+MD5sum: 4890ad111ca811db8c2e1613e046440f
+SHA1: 932200dadf1aefda9f0222497022b33bc7b825f7
+SHA256: 0127ec2eba3b9313007cb49c130652c032cd648b0a9e5c564b63eddbd76f16c7
+
+Package: binutils-mingw-w64-x86-64
+Source: binutils-mingw-w64 (2+deb7u1)
+Version: 2.22-8+deb7u2+2+deb7u1
+Installed-Size: 17521
+Maintainer: Stephen Kitt <steve@sk2.org>
+Architecture: i386
+Replaces: binutils-mingw-w64 (<< 2.22-1+1)
+Depends: libc6 (>= 2.11), zlib1g (>= 1:1.2.0), binutils (>= 2.22)
+Breaks: binutils-mingw-w64 (<< 2.22-1+1)
+Description: Cross-binutils for Win64 (x64) using MinGW-w64
+Homepage: http://www.gnu.org/software/binutils/
+Built-Using: binutils (= 2.22-8+deb7u2)
+Description-md5: 534c34076079da99080913185690e895
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils-mingw-w64/binutils-mingw-w64-x86-64_2.22-8+deb7u2+2+deb7u1_i386.deb
+Size: 8314040
+MD5sum: ddf2f9ff3889d4441f1952a0fa7e2adf
+SHA1: 4ffe297b7bba9e3e72e709ccedca02504114ce98
+SHA256: 2b44d975a946f7450dee3adff1f9e650b3d35293f02040a15ccd035dae1b9fff
+
 Package: bsd-mailx
 Version: 8.1.2-0.20111106cvs-1+deb7u1
 Installed-Size: 130

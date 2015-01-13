@@ -319,6 +319,35 @@ Directory: pool/updates/main/b/binutils
 Priority: source
 Section: devel
 
+Package: binutils-mingw-w64
+Binary: binutils-mingw-w64, binutils-mingw-w64-i686, binutils-mingw-w64-x86-64
+Version: 2+deb7u1
+Maintainer: Stephen Kitt <steve@sk2.org>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, binutils-source (>= 2.22-8+deb7u2), bison, flex
+Architecture: any all
+Standards-Version: 3.9.2
+Format: 3.0 (native)
+Files:
+ 148302dc15fb2bf242321cfe57ade3e4 1866 binutils-mingw-w64_2+deb7u1.dsc
+ a1d92ef0bfdc31d732a6d173d3489852 4172 binutils-mingw-w64_2+deb7u1.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/binutils-mingw-w64.git;a=summary
+Vcs-Git: git://git.debian.org/collab-maint/binutils-mingw-w64.git
+Checksums-Sha1:
+ 2534e3e1038ef48ba3b7989846a831d669fa5ed2 1866 binutils-mingw-w64_2+deb7u1.dsc
+ 075acd9ae3f9c5fc54b7e182760d17fbbb7434af 4172 binutils-mingw-w64_2+deb7u1.tar.gz
+Checksums-Sha256:
+ b9f3f16b5af46c10dcbd81b7b81ef708b89663c8edf5a47b3c1e88a7a16ae7be 1866 binutils-mingw-w64_2+deb7u1.dsc
+ 3663033021304d2abdb6ceff5c379ff187251c0fe40a8b4309a6f7849a3faa82 4172 binutils-mingw-w64_2+deb7u1.tar.gz
+Homepage: http://www.gnu.org/software/binutils/
+Dm-Upload-Allowed: yes
+Package-List: 
+ binutils-mingw-w64 deb devel extra
+ binutils-mingw-w64-i686 deb devel extra
+ binutils-mingw-w64-x86-64 deb devel extra
+Directory: pool/updates/main/b/binutils-mingw-w64
+Priority: source
+Section: devel
+
 Package: bsd-mailx
 Binary: bsd-mailx
 Version: 8.1.2-0.20111106cvs-1+deb7u1

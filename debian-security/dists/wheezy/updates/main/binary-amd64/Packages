@@ -1238,6 +1238,25 @@ MD5sum: 3ec6f6e2a3db4b22d746604d33e7fafc
 SHA1: 68580b7bb82172721f1e3275d575b260a2c66e6a
 SHA256: 5f73d4a527c581631efa379fa4640203d0be77f3d437eddb3d1ee6d34d32ee7d
 
+Package: binutils-mingw-w64
+Source: binutils-mingw-w64 (2+deb7u1)
+Version: 2.22-8+deb7u2+2+deb7u1
+Installed-Size: 122
+Maintainer: Stephen Kitt <steve@sk2.org>
+Architecture: all
+Depends: binutils-mingw-w64-i686, binutils-mingw-w64-x86-64
+Description: Cross-binutils for Win32 and Win64 using MinGW-w64
+Homepage: http://www.gnu.org/software/binutils/
+Built-Using: binutils (= 2.22-8+deb7u2)
+Description-md5: 2c6b78807f6cadfd2a7ca0319422b2a0
+Section: devel
+Priority: extra
+Filename: pool/updates/main/b/binutils-mingw-w64/binutils-mingw-w64_2.22-8+deb7u2+2+deb7u1_all.deb
+Size: 124888
+MD5sum: b0f3374138a60a817e63fe750036eee7
+SHA1: 407de20f086445601af983a500eb6404931d743e
+SHA256: d0dc43665cfdfa48ce5a7bdb25566ed095c6bc61d51bd539193e019526616e87
+
 Package: bsd-mailx
 Version: 8.1.2-0.20111106cvs-1+deb7u1
 Installed-Size: 135
