@@ -6294,8 +6294,8 @@ SHA1: 5f3358cf546c7b6e825f0b2948573f705cf405d7
 SHA256: 5ed34d0a1928d9ce9bb03f5b76748a7e2c0c70b55e95aafdb2a178372f5120c2
 
 Package: iceweasel
-Version: 31.3.0esr-1~deb7u1
-Installed-Size: 77228
+Version: 31.4.0esr-1~deb7u1
+Installed-Size: 77231
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
 Provides: gnome-www-browser, www-browser
@@ -6307,47 +6307,47 @@ Description: Web browser based on Firefox
 Description-md5: ef4d5704d1eb2cc5fc7bd0ac0a28e5a2
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel_31.3.0esr-1~deb7u1_i386.deb
-Size: 32746344
-MD5sum: 15a7925f2017a855d5e626851a1e0073
-SHA1: 5d5e9096a87a426cda4bbf098bb9c10098bb559d
-SHA256: 45ef89375df30ec89472ffb01351bdf33589d6b70625f0d32a62e1ddf6fbd884
+Filename: pool/updates/main/i/iceweasel/iceweasel_31.4.0esr-1~deb7u1_i386.deb
+Size: 32757736
+MD5sum: 1ff773e23aaf925d72e651d17db5edb5
+SHA1: 32093d7335a9269122fe67383fe3ff724159a724
+SHA256: 52c48a08823f50a3882463ff3aeda7211e4e7b0c14f43cf4db70537684bfa114
 
 Package: iceweasel-dbg
 Source: iceweasel
-Version: 31.3.0esr-1~deb7u1
-Installed-Size: 489320
+Version: 31.4.0esr-1~deb7u1
+Installed-Size: 489327
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: iceweasel (= 31.3.0esr-1~deb7u1)
+Depends: iceweasel (= 31.4.0esr-1~deb7u1)
 Description: Debugging symbols for Iceweasel
 Description-md5: 02ac3507d2c7dafcbd9ececa401cdcaf
 Section: devel
 Priority: extra
-Filename: pool/updates/main/i/iceweasel/iceweasel-dbg_31.3.0esr-1~deb7u1_i386.deb
-Size: 133059668
-MD5sum: 86a5fab43f65447dd70089fb68695eff
-SHA1: 6f14bda63e947bf4169c8ec3ffb1c6a2e9a71b5b
-SHA256: fba35c7086df66a280ea798ad553cf2f39bba4bd006cc3c80f70f2cfdb5d55ac
+Filename: pool/updates/main/i/iceweasel/iceweasel-dbg_31.4.0esr-1~deb7u1_i386.deb
+Size: 133045870
+MD5sum: d3f319ee1ae62174193508345a06746b
+SHA1: df4114fd61ffe8fec4b61a6469dee8b1a0108564
+SHA256: d27cc73bf0be3c8f953f9d80cbd1b80ff1ac19327acf54ee4dc3644c1f283aa3
 
 Package: iceweasel-dev
 Source: iceweasel
-Version: 31.3.0esr-1~deb7u1
+Version: 31.4.0esr-1~deb7u1
 Installed-Size: 34879
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: i386
-Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python-ply, iceweasel (= 31.3.0esr-1~deb7u1)
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python-ply, iceweasel (= 31.4.0esr-1~deb7u1)
 Conflicts: firefox-dev, xulrunner-dev
 Description: Development files for the Gecko engine library
 Homepage: http://wiki.mozilla.org/XUL:Lib_XUL
 Description-md5: b59e9e72c0decf691b6c3e04d81b9ca8
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-dev_31.3.0esr-1~deb7u1_i386.deb
-Size: 4994002
-MD5sum: 6884cc087da1bc513196707806e882a1
-SHA1: cca44ea587b09786412b68d4f66799a4b30667b0
-SHA256: 209fc5a35567bdbde0f526eb7d5becb371b1e1eae5593f702f48ebcaee81d493
+Filename: pool/updates/main/i/iceweasel/iceweasel-dev_31.4.0esr-1~deb7u1_i386.deb
+Size: 4993560
+MD5sum: b959c11fd8e701e17cb3c2ab716888ed
+SHA1: 192ffdab0340cd434684a062242a260fb3238ca7
+SHA256: 6f2e4524ffa650c8da2d5d09580514c22bf8db04a4dd6b5798e06822710a11f0
 
 Package: iceweasel-l10n-ach
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6367,21 +6367,21 @@ SHA1: bec136cd6329ea8bfdd50b689b0b3386ec3a23fc
 SHA256: 6d52b0a0f9c82ed54115112b17ee74e919c393866a779558ef08bb16d3a14cee
 
 Package: iceweasel-l10n-ach
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 644
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 643
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Acoli language package for Iceweasel
 Description-md5: 0fa07317c4570b372cca0cd02b514d0c
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ach_31.3.0esr-1~deb7u1_all.deb
-Size: 442942
-MD5sum: b1c06080d4c6bb21dc18043b79bfc4a5
-SHA1: 362937fdb6e62705d26dddee0d80d4ec5ec81d7f
-SHA256: fd4a78f8e006c00dd1bff28b96db4094731751351e4c6472ddedfb6540b235e2
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ach_31.4.0esr-1~deb7u1_all.deb
+Size: 442614
+MD5sum: cc2e3aeb71da448d619d5782c5259a67
+SHA1: a8448bbfe9a301cd91c75115dab9aa894458d1ab
+SHA256: b8522a82ba30f2dbe0b36ca25f442039bff79222b6bdb6e99fc3bed83e610298
 
 Package: iceweasel-l10n-af
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6401,21 +6401,21 @@ SHA1: ac5bfd2ff066446b6b3ae8a9b20f98479793b90a
 SHA256: a36ceb6ae5021af902e4a2bc76a5b824a040b66e9a79a9c594d1096b620c967e
 
 Package: iceweasel-l10n-af
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 627
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Afrikaans language package for Iceweasel
 Description-md5: 6c12a916e99997ecccdd7d1bad8e7bbe
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-af_31.3.0esr-1~deb7u1_all.deb
-Size: 430852
-MD5sum: 430218911fb29083041ae423b5c5c873
-SHA1: bc1e25f144035498e3d7410fdd306d5d18fabb29
-SHA256: e71d6be0a87d7f5c5fdbe2c52a20995bab74c5b45ff555812ba8b32abac1c99c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-af_31.4.0esr-1~deb7u1_all.deb
+Size: 430622
+MD5sum: 20ef7584913c62d825d5c580891748c0
+SHA1: d2fa7c83e2545a0ecd54d21cf468a71aba2cddcf
+SHA256: af241b80a895f2d62c8e8d2ea2b0c05eaf86eedb542ba72e6832cf254d8ad328
 
 Package: iceweasel-l10n-ak
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6452,8 +6452,8 @@ SHA1: d35ed35ffb216101b42ffcb495d56063f375faf8
 SHA256: 1e2c133aa7ce137b29fbf9d061764208cf0956a673aa1de12711a383fb584e30
 
 Package: iceweasel-l10n-all
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 212
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
@@ -6462,28 +6462,28 @@ Description: All language packages for Iceweasel (meta)
 Description-md5: 7367050b73ef548118fd35061ddb07ff
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-all_31.3.0esr-1~deb7u1_all.deb
-Size: 107460
-MD5sum: e0072e2cfe910d1206e3cb865f0ae251
-SHA1: 3174752472c24a605df2acd0314327ad0c41d166
-SHA256: 06fb8a2a907c74ec81aa7f61924646c99c3554ae1d44660aa7670b026b981172
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-all_31.4.0esr-1~deb7u1_all.deb
+Size: 107504
+MD5sum: 950ce5fa5646cca5968c77f7e3f11173
+SHA1: 9738aadf383a62ae7af8aa3d30b760a01d87f957
+SHA256: c33fcc9e8f25bcd9f9ef10dbdbdb18567661be43848a48a50838eff152eb37d0
 
 Package: iceweasel-l10n-an
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 663
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 662
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Aragonese language package for Iceweasel
 Description-md5: c8a5f1cbda8efad4ba5d1fb040f282cf
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-an_31.3.0esr-1~deb7u1_all.deb
-Size: 458222
-MD5sum: c7eef8bba676ad13934b22bffe096270
-SHA1: 8d2a8790df95c2d3a587732a46d8726dfc6e6abd
-SHA256: c15454469f8321d14257e11f8bd6a8cd993e566c1152967df88b7ecf50abbd7e
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-an_31.4.0esr-1~deb7u1_all.deb
+Size: 457992
+MD5sum: a9233eace10aad0cfe4dc99f49aac60e
+SHA1: a086c9454e2c9b561a5da268ffcd19cb8d6466b2
+SHA256: 880506192444d84addd4fcc38aa74b18babf7c48bb38ff6ff5c579f819e8b60f
 
 Package: iceweasel-l10n-ar
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6503,21 +6503,21 @@ SHA1: 0eea6a3dd11823e0052dbc6b1cd7ff83d91e4d36
 SHA256: 1883c0b654c6da822d4244557de7df779f9bf503168538ece7ef3eddbcce77f5
 
 Package: iceweasel-l10n-ar
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 655
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Arabic language package for Iceweasel
 Description-md5: dc34a7313dccdefbb38d76768cd03f54
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ar_31.3.0esr-1~deb7u1_all.deb
-Size: 459042
-MD5sum: 5872770d397d93d45b50684fde5f0452
-SHA1: fe9846453c1382c1361be106b602e0b9d946e877
-SHA256: 5182744f6095b15fd1c458f87bf2bf78a837ff5ce7fae1c54eb0d663573af900
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ar_31.4.0esr-1~deb7u1_all.deb
+Size: 458718
+MD5sum: 64199f14759c6d35c38b4a41480e0fda
+SHA1: 217c610c88049959abd96743198c3ea0fdc592d9
+SHA256: aeedd7c5b4eecb8c8de8e3c39d9d388bc7e779cd22ea80d4ea0cf02fcb7af785
 
 Package: iceweasel-l10n-as
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6537,21 +6537,21 @@ SHA1: 7c6b3c0a0e0961f4b4a3de8db4b746f9f34bb351
 SHA256: 0407ae678464166ce3e3ad4428feb74781daa3c1a4514ee807fe9cc23b1b5967
 
 Package: iceweasel-l10n-as
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 675
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 674
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Assamese language package for Iceweasel
 Description-md5: 41e7233039a9124cd337292d6e7e061e
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-as_31.3.0esr-1~deb7u1_all.deb
-Size: 482490
-MD5sum: 05b327c38e80fa3b9c273392ebfc5722
-SHA1: 71721af5c5f37a5a87c891e61c8ef64dcf91ccfe
-SHA256: e4b14e592800f1c6b4f1406d756902f3ad6460cfffd601a8c091de66cde9c56c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-as_31.4.0esr-1~deb7u1_all.deb
+Size: 482092
+MD5sum: c490f9fcc2b0a2475e5940669ef0107b
+SHA1: 156c9d8a6f8b9ebc35f1cb62f3165ba97fa19062
+SHA256: 38425c4e0e01878e0ef10f55da62dfceded331238d789ca190d387f8d027bed7
 
 Package: iceweasel-l10n-ast
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6571,21 +6571,21 @@ SHA1: 194f0c459d76d523d9713e6eb7099b112ee88ed4
 SHA256: a9c38ce77ce450be5956e5a67f15d0cd95cfcd60abbb2bb5b745d60cf98bd60a
 
 Package: iceweasel-l10n-ast
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 602
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 601
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Asturian language package for Iceweasel
 Description-md5: f7854c1ca6caa0320a58f25455219e49
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ast_31.3.0esr-1~deb7u1_all.deb
-Size: 397370
-MD5sum: a5c49c29f83ab992f2e4d792e2e3773d
-SHA1: 175fa6f04e2121e6e787c742052ef90a81f67351
-SHA256: ab2ed684b55b543c9247ab860ab4cfc008833c8793401ce87edc6dfef21e97ab
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ast_31.4.0esr-1~deb7u1_all.deb
+Size: 397100
+MD5sum: 8283679d7a5fd55cfa2053c49d8e7bf9
+SHA1: f5e4593aeac60e0cf3f7c505dc04cf3f7200af9b
+SHA256: a2dedb8421cc05fd9c7b834445b90b6076696103879bd0fad278ddfcaa4f13e4
 
 Package: iceweasel-l10n-be
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6605,21 +6605,21 @@ SHA1: b66ff5e413eceeb02a048e58e8184222b0424165
 SHA256: 67d7d897657c3661e5a79c42ac56693ca0cca839a2d4ba4ec99127b5a52de7c1
 
 Package: iceweasel-l10n-be
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 589
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 588
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Belarusian language package for Iceweasel
 Description-md5: 174ddee3e0377e089becd15e588b6b0d
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-be_31.3.0esr-1~deb7u1_all.deb
-Size: 390478
-MD5sum: ff4e3df82465cee65228b6d3d5ea3d5e
-SHA1: 66e39c17f0e0a8c4a6ef0a2647cf622f16a6d391
-SHA256: 7c8670ba9f2126fc8b00e5e2abb0ed40de36a7992e02931e4d6388da08905dbd
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-be_31.4.0esr-1~deb7u1_all.deb
+Size: 390200
+MD5sum: cb70128f5a70cfcf05e281b2dd2ccc3d
+SHA1: 1d04c2f93406dab7b123228244050cc6eeb05b7a
+SHA256: 3fba91003302cca8f1dc85312c1ca4ddaca2d6b6748d038c14083ffc0b45b9ef
 
 Package: iceweasel-l10n-bg
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6640,22 +6640,22 @@ SHA1: f58f4851c0667d02668b80b2f9fd80ecdc3f72f1
 SHA256: b918ce61f4283f4b48f27497774cb7bc222fa3c8938bfac9c58a560df9aa76c0
 
 Package: iceweasel-l10n-bg
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 660
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 659
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Bulgarian language package for Iceweasel
 Description-md5: 2a4a3f13743bb462163551f2ade956c3
 Recommends: myspell-bg
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bg_31.3.0esr-1~deb7u1_all.deb
-Size: 467208
-MD5sum: baa22c2010f07b49c03487b7413c2442
-SHA1: 1756368c97294b2fc3a2d719fdd5b33275e2063e
-SHA256: aebf1d7b1f60d310f431e85151a585f591096143c6331135b3a4b94d66dfdf25
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bg_31.4.0esr-1~deb7u1_all.deb
+Size: 466926
+MD5sum: d863b19be8ff9c84a4aab71771ec960d
+SHA1: 4d5991555e296a6ed64e589621034847e82d82c0
+SHA256: 6bedc58ab272d8f89b56400ce84f5e5329ca5ef25bd10ea21cd0da4c58b88852
 
 Package: iceweasel-l10n-bn-bd
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6675,21 +6675,21 @@ SHA1: c3ba4f135ccca2e40453edc7cfeabfa950184dba
 SHA256: c15005af26dd06f9ff3781525278b195ee3000f120e590771bc90a36c972b0fc
 
 Package: iceweasel-l10n-bn-bd
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 686
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 685
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Bengali (Bangladesh) language package for Iceweasel
 Description-md5: 750b1c7940be9db4b883a8d01edb3823
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bn-bd_31.3.0esr-1~deb7u1_all.deb
-Size: 491170
-MD5sum: c1d1ed6526599c9d0da27f47cf2be5cd
-SHA1: 9febac20e4c6587c7d494671f87f66e27c3d50c2
-SHA256: 6b64c34db868686d830aa8f03a1548d9de0551c452d9c06f9ae1fac79c850c59
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bn-bd_31.4.0esr-1~deb7u1_all.deb
+Size: 490930
+MD5sum: 76b7a8f5847b8124985d4af49fdd33e3
+SHA1: ce8ff4956966840c07178cdcd3bcb063384755af
+SHA256: 144c2b57dc28bd9bcd0cb4b0a4ddb78ce4836073a3fae4d3148ad4849f328bd4
 
 Package: iceweasel-l10n-bn-in
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6709,21 +6709,21 @@ SHA1: 0b6a663ead35e524c2ad25304232803db0ae827b
 SHA256: 2d7e61ac16a9d03e85a82213f7736938af4416176dcb51e82b2a0da4d4efa56c
 
 Package: iceweasel-l10n-bn-in
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 710
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 709
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Bengali (India) language package for Iceweasel
 Description-md5: 6331d25f4950cbdaaaa0dafda5329546
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bn-in_31.3.0esr-1~deb7u1_all.deb
-Size: 501116
-MD5sum: a4fddc7df89274ea6b64521a596690ae
-SHA1: 9685e08363c507414e7ee5bdd4307a83a360dfbe
-SHA256: 78d435a567198dd1ae2e864716deb54d4469a74bc323616e37af6edc05a3ebea
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bn-in_31.4.0esr-1~deb7u1_all.deb
+Size: 500932
+MD5sum: 2aeb9453d3434296c7400b8e8db9b5cb
+SHA1: 6c05e291deae432e57d7ac52f58292462f601823
+SHA256: 8cc3942aca82587f749b8c44d1180adb498ab2b10a27af3f14edc54dc4476d63
 
 Package: iceweasel-l10n-br
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6743,21 +6743,21 @@ SHA1: e84d2e3072c68408d73e83f2c20dfda42e5f992c
 SHA256: 1ab2dd7b13f98391a6482e5a4e6e54bafd6235304b55e19d4cc34826b7093a66
 
 Package: iceweasel-l10n-br
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 629
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 628
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Breton language package for Iceweasel
 Description-md5: 2118c4954caf946b0538a7c6a1c700cf
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-br_31.3.0esr-1~deb7u1_all.deb
-Size: 432494
-MD5sum: 8528e54c6c9f7f817fd56d7fa4eacaec
-SHA1: f211464633a562f385794bff6881d5755e9a0763
-SHA256: c3a6933ebf0b805d298217ba10aa077e74d4b46e99ffd46f8d20f721d452edd1
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-br_31.4.0esr-1~deb7u1_all.deb
+Size: 432200
+MD5sum: 55a7c2482d42a63180b0115d83e6ba75
+SHA1: bb058a61b8e305b781fa99af28035a9c981847a7
+SHA256: 333b0b70d2a47d83b3e66c6afb668d3cc8b89deaa781c996a101703f83d31b33
 
 Package: iceweasel-l10n-bs
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6777,21 +6777,21 @@ SHA1: 5bd02ce8072801ad2f5c3d9d10ace4da82b6ecb4
 SHA256: 503103631d073ca450da7c94a174313e9f8b2cad2c9a190f9976d80fd4355a55
 
 Package: iceweasel-l10n-bs
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 634
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 633
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Bosnian language package for Iceweasel
 Description-md5: b85d3bf26d9db5c7ba08f605aa659bf6
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bs_31.3.0esr-1~deb7u1_all.deb
-Size: 437112
-MD5sum: 78cce3ccae1adacc5329cb407d2aeccb
-SHA1: 9a093a93191e889441165529190c2a5376d04829
-SHA256: 5f733ba3d66c40d399bce00d9130231b74ed0377862527d5045ef6f4afe5426c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-bs_31.4.0esr-1~deb7u1_all.deb
+Size: 436868
+MD5sum: 45bb054b21cc34afa0d526a17baa8079
+SHA1: 8135eb602eda2d37b40cd67004a90277e55b2fa5
+SHA256: 0c8e46704c47296311c8e1a35f00d5ee05f95f0e1884ee7d423dbd8121d510ae
 
 Package: iceweasel-l10n-ca
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6812,22 +6812,22 @@ SHA1: c049afc8ca962e9b1cc11507a912dbafaa1e102a
 SHA256: 0e87c67dbac770110add745abf1f4d07ff1d7b4f100806aeef3af84a81aa0591
 
 Package: iceweasel-l10n-ca
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 655
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 654
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Catalan language package for Iceweasel
 Description-md5: 99b7adbc229731018d29390650418cc3
 Recommends: myspell-ca
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ca_31.3.0esr-1~deb7u1_all.deb
-Size: 453150
-MD5sum: 1db360575be5aaf65aefe5c785275de9
-SHA1: b5a9b90983588d32ec3630b04f1a7b94512da6c5
-SHA256: 595d1e4fafa8ac5c5eb57aa928b70a19ae21b9d206e1ed4dd215a78b056d14e1
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ca_31.4.0esr-1~deb7u1_all.deb
+Size: 452924
+MD5sum: d7ce63a08a6ffbdc89068b53f93389b5
+SHA1: 8b78d12def1c3f55e247912cf8f9fbc2a5f5bb88
+SHA256: e3a8c56c1ad43312efabad7dc2327bb4e9b9d849274c3c2c0c28b69eeef57fc1
 
 Package: iceweasel-l10n-cs
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6848,22 +6848,22 @@ SHA1: 5e96ae635ecff88ebe9ca7378f40595d6e6283fd
 SHA256: 682708722f770374c3ecd952526f6fac8f0f49f594fbf4fa8268f96bc59eb9b9
 
 Package: iceweasel-l10n-cs
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 620
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 619
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Czech language package for Iceweasel
 Description-md5: b652b12240fc318c8e9c2efb6eeff2e0
 Recommends: myspell-cs-cz
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-cs_31.3.0esr-1~deb7u1_all.deb
-Size: 426196
-MD5sum: 88ad20c2fccdf101b87dd7e6c697a54d
-SHA1: f2e26f78c360c3cb2118cfaa0f126926ed41b4cf
-SHA256: 416c86cd0043633a28a0dc8f6ed230eaaae9b38caf4dde6a301f5ea2c44b8f15
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-cs_31.4.0esr-1~deb7u1_all.deb
+Size: 425922
+MD5sum: e9862ee073200684a04bc6ce573e24f6
+SHA1: 2ba1c49fc88da53ed2aaeb78d08543d6bdf056d8
+SHA256: 4c6e5bce9c73b7064e16104b51430bb80e1c329943c499c88bc5699f93d7a74f
 
 Package: iceweasel-l10n-csb
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6883,21 +6883,21 @@ SHA1: fcd8a59e79097954c4648b6b805fef197895bf5e
 SHA256: 00ee5bf2b5c5f0048168190e3049d08e4986f77392f38285c7200ea2a229364a
 
 Package: iceweasel-l10n-csb
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 614
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 613
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Kashubian language package for Iceweasel
 Description-md5: 334ea215bf46e4e889b28e058d2b1f97
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-csb_31.3.0esr-1~deb7u1_all.deb
-Size: 417542
-MD5sum: 57e23a342a88bc26c651d13cfb50bd13
-SHA1: 26a75d56c6a084c1b78004b6db2ee847ad34f4f5
-SHA256: e60c254707f9af6316142dbc4ba62d95896bbc1931996484dc4382d328903f33
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-csb_31.4.0esr-1~deb7u1_all.deb
+Size: 417250
+MD5sum: 9c6c8bd5c0d453c41c1b28d8fa4df322
+SHA1: 7c0464bccbdaf1c2b431eb9017cf8044b6c791e6
+SHA256: eb4acf79e09594c3afd9fac9699fe8344e87dbbb8b360427b0d973cdd9e2d0df
 
 Package: iceweasel-l10n-cy
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6917,21 +6917,21 @@ SHA1: 065c7330b15ba265fe3cddd628680e6d4c62c36d
 SHA256: 53da87084ce0920200380ba7ac7d9824413921344896a7b0003bba738506cbf7
 
 Package: iceweasel-l10n-cy
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 632
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 631
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Welsh language package for Iceweasel
 Description-md5: 1ea4504e8ba13ca0e7dca8630cc54fe5
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-cy_31.3.0esr-1~deb7u1_all.deb
-Size: 433196
-MD5sum: 811ac3936676d2fc585b77e67f3fc1ba
-SHA1: a58a2712e4af5322760148ed3962d53106a52960
-SHA256: ff561433995c316ad348335b09ace6f716e8cdda511c7d702e2e2ee160be2279
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-cy_31.4.0esr-1~deb7u1_all.deb
+Size: 432874
+MD5sum: 8d7f8c7afe71195f2d69b08f8953b9ca
+SHA1: 460af3c874bc0581a8fa0374b87a3a53e2583801
+SHA256: cde312de7f8129c3cfae093b45013218a0beebfa85450e629fab587404e75401
 
 Package: iceweasel-l10n-da
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6952,22 +6952,22 @@ SHA1: 5ac95988f8dbda3c9921207325e3f6d671e676c0
 SHA256: 8005fca13406d26b3b280d07edf189b82e38215537b0bfb2a2b00591b8ed8468
 
 Package: iceweasel-l10n-da
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 623
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Danish language package for Iceweasel
 Description-md5: 6aa736b34de9f03c77f48e7fcfef1427
 Recommends: myspell-da
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-da_31.3.0esr-1~deb7u1_all.deb
-Size: 427574
-MD5sum: c8f61fd2ebaee64cbfc4f5d150dad717
-SHA1: 85f1d739d083136c9c0f307f03cf51553bcb7352
-SHA256: 0c61c4269c44aeded318a0ff25f9bdca5ecc5e92b60410a5028435cd08d39b05
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-da_31.4.0esr-1~deb7u1_all.deb
+Size: 427282
+MD5sum: d465f70a8ebf6a3336d670b0e58ee2d1
+SHA1: 1082e7e72cd0b820cf61f8594d0fcdea75ab0a35
+SHA256: 61fdfa632444d111222e1a8847a3d440c386211a6391a4155492b4a53d95bb14
 
 Package: iceweasel-l10n-de
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -6988,22 +6988,22 @@ SHA1: dd35fae4b05d7081ad4d6c632f54301bb841f661
 SHA256: 182c0761a91d97e07e01a8bb5bc0cd0045b78ac1125dcb96c88121d65481c837
 
 Package: iceweasel-l10n-de
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 646
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 645
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: German language package for Iceweasel
 Description-md5: 4439a51e0ae949dde9f0d8ab48b0a253
 Recommends: myspell-de-de | myspell-de-at | myspell-de-ch
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-de_31.3.0esr-1~deb7u1_all.deb
-Size: 444146
-MD5sum: 24a9ef9e3eec782c169148404c90ec30
-SHA1: f6107c43288d7e0190f006710a5f518ecb7a8e08
-SHA256: 56ed5becab23d354b0e23bef496fda570f41729c1401b94d975bab7c5c68f9bd
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-de_31.4.0esr-1~deb7u1_all.deb
+Size: 444036
+MD5sum: 7a029641cad739eaceb9e0355b2e37f1
+SHA1: 3f3eb2077094f6a14826c40e0c983a4260caa585
+SHA256: 144dc874f63f4f7369efd7b91e5f6201b3426360c7fa38fbb23d85707f9bc170
 
 Package: iceweasel-l10n-el
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7024,22 +7024,22 @@ SHA1: bf491acf66a4fd88c501dc05032247982ff1fd01
 SHA256: c67613c03f93fb37869294620d1b053fb707362b15fd088bb1c07218cf108b0b
 
 Package: iceweasel-l10n-el
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 659
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 658
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Modern Greek language package for Iceweasel
 Description-md5: 9c2eddd60630d455f6d05d6b723f5f54
 Recommends: myspell-el-gr
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-el_31.3.0esr-1~deb7u1_all.deb
-Size: 464444
-MD5sum: fb9bb455d461f5a77784fecf38d20107
-SHA1: 9a3cc86f0a17a5d6c23092ac7792566808cce3ac
-SHA256: c66bd5422b8b9b13c747761d39e83e22c9d07fa839ebfd992eab95f6ed2895e9
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-el_31.4.0esr-1~deb7u1_all.deb
+Size: 464148
+MD5sum: ffdaaa5183af6b634882e66374620874
+SHA1: a71d45907b199a3e1a52cb3dc90e61b498161d78
+SHA256: 9a0afb1e4c6435d47a3ac5bd04e8fcea182984d246eb2547a6a5645afbded91d
 
 Package: iceweasel-l10n-en-gb
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7060,22 +7060,22 @@ SHA1: 3ef365db6b013e93d87566fbc43483b587282496
 SHA256: 570f13463ed9f829bd304914968be1c738488b2ec31aecd2d2bbae3645caf838
 
 Package: iceweasel-l10n-en-gb
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 644
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 643
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: English (United Kingdom) language package for Iceweasel
 Description-md5: fe48140909232cf45f13d68b2b6bb2df
 Recommends: myspell-en-gb | myspell-en-us
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-en-gb_31.3.0esr-1~deb7u1_all.deb
-Size: 433858
-MD5sum: 69d4e78db223b7c00607b73531e7ab0b
-SHA1: 574dd7d3458a1c09d7a718b833af8f3f4eb3d016
-SHA256: e999c5fca4d0f597f3e5c277f74dcdf9385df343b66346fe136b7e3a1b189242
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-en-gb_31.4.0esr-1~deb7u1_all.deb
+Size: 433640
+MD5sum: cb8715b84dc43c0919a69b54c49c9698
+SHA1: a2e97c15e08d4990c4376f89e27e72e3aebc72ae
+SHA256: 56b60701377158ca10beba21ced46fb4d6e150f17876d78ec9ba2a4cf628f329
 
 Package: iceweasel-l10n-en-za
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7096,22 +7096,22 @@ SHA1: 216f4ef658a9e27365a12189578297b46baca693
 SHA256: f7a6536d56f18b1c5dae7e7d84ae5ace4b6fb8a2437406f14ed17e8b2ada5c19
 
 Package: iceweasel-l10n-en-za
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 620
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: English (South Africa) language package for Iceweasel
 Description-md5: 47dae902902a29f47216e23d84f605fa
 Recommends: myspell-en-gb | myspell-en-us
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-en-za_31.3.0esr-1~deb7u1_all.deb
-Size: 418640
-MD5sum: 5aaa6e00bac787babc05aa75d29c3e43
-SHA1: 532f3e0b3a72e0271ae73922c7a63732448d9ec9
-SHA256: 4f3572dc28d259e4aa55b78b30bd94352a364bd4b7f3fecbd340bf3d6d1ab726
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-en-za_31.4.0esr-1~deb7u1_all.deb
+Size: 418456
+MD5sum: 173188785c540901b70b4e3e5a220c90
+SHA1: d1e82526cec3b5940d63121433e205205d9474af
+SHA256: 08e421d2dc7ed526b468a177703b4fef70a0a8b6bddc106bdbe8ef5bfd5086a5
 
 Package: iceweasel-l10n-eo
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7132,22 +7132,22 @@ SHA1: e64002d84a021f4ccfd04aee28daa95376262281
 SHA256: d38c620e4fe1438bbb930478aedae6c4d18291b5e81fbfe9036571b80cd0f16f
 
 Package: iceweasel-l10n-eo
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 630
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Esperanto language package for Iceweasel
 Description-md5: 90500cbdfcb1058884fbce24afd0ae8f
 Recommends: myspell-eo
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-eo_31.3.0esr-1~deb7u1_all.deb
-Size: 431170
-MD5sum: 7f44173096edca63893330316ddc45ae
-SHA1: 61b18bf2a50d395848db2a779abf38a57d4b367b
-SHA256: 11af536449ee846543479e670114fffef649954b0348bb1f4df3f2f848f48cff
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-eo_31.4.0esr-1~deb7u1_all.deb
+Size: 430852
+MD5sum: 01b4cedd62d3e927f236b37d0e567cf3
+SHA1: a73b8b8d6389d1f01c9aa3e523f280286ae8a140
+SHA256: 4136e21490bf2560e809a22b51c74d37b3ef95b6facbf2f3b7d5954d99da5b43
 
 Package: iceweasel-l10n-es-ar
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7168,22 +7168,22 @@ SHA1: e8f75aeccc8625ea754b65d26d4f7c906662049d
 SHA256: df73719ac19af4278e1285bf9641358a60b08b9f6b8c4658ec79ba627add4196
 
 Package: iceweasel-l10n-es-ar
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 632
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Spanish (Argentina) language package for Iceweasel
 Description-md5: 629a817c332a5c987d88f890ef8eec6e
 Recommends: myspell-es
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-ar_31.3.0esr-1~deb7u1_all.deb
-Size: 431986
-MD5sum: 5f689361dd426f2e75bc44111bd87799
-SHA1: 5e147d2002a921727d37c87dc25fa8effa01f1ca
-SHA256: 1a723c3f3692d8453888201e983de881b3275660233c7166d16afaf1cc660912
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-ar_31.4.0esr-1~deb7u1_all.deb
+Size: 431670
+MD5sum: 57b80e9b32b7eb78df6552a8a2f3513e
+SHA1: e0c838580add1a130a6e00c0428da60ad82787ca
+SHA256: 8c97d108dc955706e0ae829e723cc14e4a0891429f7ee35a128841533b869ce2
 
 Package: iceweasel-l10n-es-cl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7203,21 +7203,21 @@ SHA1: d2b6f043d2666fc8c26520647f5478f4fde4f20d
 SHA256: 21e1b86daa30824b911d1b0cf99a314c5709ce79df2f3f30f49d5d436fe7a5c0
 
 Package: iceweasel-l10n-es-cl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 596
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 595
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Spanish (Chile) language package for Iceweasel
 Description-md5: c6b6f2d12e56cecca8798fe66afc9596
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-cl_31.3.0esr-1~deb7u1_all.deb
-Size: 386172
-MD5sum: b2bb1094b8fd429800becaa35251647a
-SHA1: 26bf669676399b5ed49426edabc5918a24446898
-SHA256: c5c4953b5d2eb455941b50db2d3bc4b6a05cedac057c9af54ab5a5b5cdcbee5a
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-cl_31.4.0esr-1~deb7u1_all.deb
+Size: 386020
+MD5sum: 287f74185b17a0aea781a47ae10f48d5
+SHA1: a6681cb60f751faa50e8f7af9c0271f4a85c838a
+SHA256: b0b310852e8b02ec6253e01865fa5a36d5427a71cd038d2631fde414bed36719
 
 Package: iceweasel-l10n-es-es
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7238,22 +7238,22 @@ SHA1: 5cdfd06c1153aed3a94738bc2348ee7c40183587
 SHA256: 36598ce5e96c063c94bb4adb9a9eb39113102b7eb85e19a91b1ba9538be3beca
 
 Package: iceweasel-l10n-es-es
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 598
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 597
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Spanish (Spain) language package for Iceweasel
 Description-md5: d528133eb99be943895f2ad600898e56
 Recommends: myspell-es
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-es_31.3.0esr-1~deb7u1_all.deb
-Size: 384634
-MD5sum: ffa965fa94ece3d8105d12c440c0fbf9
-SHA1: 6878e595da394c7100d8c3fc79b5e5cd59081461
-SHA256: 7f4f102d3e558155dd5a931373ccf26b3ff8269693441f2bec4258f1e171104d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-es_31.4.0esr-1~deb7u1_all.deb
+Size: 384376
+MD5sum: bd79e3830d63bbf247e232d4f46d1c97
+SHA1: 8db692b8e5d0e529916dda6afe62c8ccf232176a
+SHA256: 6ac19e77db3540d5029e1876c47f766d562bc5080e7d7468cf0ddefb66e0f0a6
 
 Package: iceweasel-l10n-es-mx
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7273,21 +7273,21 @@ SHA1: cbe19ab7c05c563874ef4b58095cf28ee280c66b
 SHA256: 399cb803c7f83c46f99993b73bc364034cd97d479ffc0420d40faf3a8c82ebe5
 
 Package: iceweasel-l10n-es-mx
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 649
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 648
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Spanish (Mexico) language package for Iceweasel
 Description-md5: 921546678cdcc83067fe5c179e409dc1
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-mx_31.3.0esr-1~deb7u1_all.deb
-Size: 445880
-MD5sum: 4e468184f2b9eb446ab4f3b27be0537f
-SHA1: 2a142de464c02c0362f9337393a189d0cd4d89ae
-SHA256: 44b5f8e5e646af02e5982547c768f362eb1a57c782be2121dcd107fff24bd98c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-es-mx_31.4.0esr-1~deb7u1_all.deb
+Size: 445768
+MD5sum: 9aec55a77dcb58e1997495cefb3584dc
+SHA1: a1d50955db51dd26bfb5a269b27f181c65f3a5e9
+SHA256: 4e5663ac6b3681374a4fb997287b4eab3a07082af769250297769c15cc1ce750
 
 Package: iceweasel-l10n-et
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7308,22 +7308,22 @@ SHA1: 2026a25d76ba4a1b9fbee9264bb3690f313843f9
 SHA256: 767863002e2827f9b2cd1d2788cf3681a7c4e4fef61712a3bfc0323a4e0bb629
 
 Package: iceweasel-l10n-et
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 606
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Estonian language package for Iceweasel
 Description-md5: d1d36e1ee0dd8e6ec6272c3f574d052f
 Recommends: myspell-et
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-et_31.3.0esr-1~deb7u1_all.deb
-Size: 413612
-MD5sum: 2b22696e92a57681cbe4660e74ba882b
-SHA1: 302b145294f30899fc7346ede8d73c4ada3192a5
-SHA256: d59554c96e2f77e915cce150eecc1fb560386f6f620288f1358d2fd633456f1e
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-et_31.4.0esr-1~deb7u1_all.deb
+Size: 413284
+MD5sum: 15b68f21b3dead8f4fc452218981ae0c
+SHA1: 48c35c44c88651442d97e6b99806d3704b937159
+SHA256: 99d080dbeb8e62ef299e1b5e725120460b2a1e6e01bf73a73648899231942738
 
 Package: iceweasel-l10n-eu
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7343,21 +7343,21 @@ SHA1: ba7d5a8e520a6af4e132137f4b6616b3e821b3a6
 SHA256: e6d6baceb84aa4aa11e5b6c9804b6fa34297f6f83af894e463497a84cc3bd77f
 
 Package: iceweasel-l10n-eu
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 635
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 634
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Basque language package for Iceweasel
 Description-md5: c899793c56722b197f5f34c309cba625
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-eu_31.3.0esr-1~deb7u1_all.deb
-Size: 435554
-MD5sum: e0ea82127ae88468a24ad32660180e68
-SHA1: 31382b63cd2600083ecf3721529b396a8c0de1bc
-SHA256: e5b5df23e5eeea647616be8b2a006d212c4f01ddd7401b4503f0d796eb91c5cf
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-eu_31.4.0esr-1~deb7u1_all.deb
+Size: 435272
+MD5sum: d26269097a0ec3b6bcbaeedaf1285811
+SHA1: 5a2eee462414536ce8e5d5a60e4ac6292cc3fda2
+SHA256: 5ec07c48ac6661a42508ae2dc6e90642082b01249d0a722f42e083f917b2b15a
 
 Package: iceweasel-l10n-fa
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7377,21 +7377,21 @@ SHA1: 1407a1484f9eb57d1829e8812b0eed00968ee4ee
 SHA256: 5351ad33f05547f30d4bcd6775657231e3bc067c0f5c8048c9ff4a7d2b302493
 
 Package: iceweasel-l10n-fa
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 668
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 667
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Persian language package for Iceweasel
 Description-md5: 3c946366b8f01f0c44223a438fb0c54c
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fa_31.3.0esr-1~deb7u1_all.deb
-Size: 472736
-MD5sum: 05694850d0035c2831a50aa9f95c5a77
-SHA1: c01bb9494efd482ce562bfbbfb0fcccc8e210a1c
-SHA256: 437badc5c593acf15c3907b8c1b194a7f43d8c807e1ab5d1fff69cef9fd81bb3
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fa_31.4.0esr-1~deb7u1_all.deb
+Size: 472504
+MD5sum: 1ffb6a4bb6f55bc13c5ee1a40b5f5d7e
+SHA1: d22ed4f99050ed7eabc973f08f5109750a925954
+SHA256: f2ffbd4bebf5d32b978e834c2f8350f28dd5b7afe778543d7b88deb1e6c4a934
 
 Package: iceweasel-l10n-ff
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7411,21 +7411,21 @@ SHA1: 301d5c03204424525ef68ac635c6e3a5ac013523
 SHA256: 3d51548b7c782fa462174b8d3e0ce954e2a1e0ba1e472624c888b1deb4b3926a
 
 Package: iceweasel-l10n-ff
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 651
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 650
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Fulah language package for Iceweasel
 Description-md5: ec0ce35babb18638e05ae5579eb21d2b
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ff_31.3.0esr-1~deb7u1_all.deb
-Size: 448080
-MD5sum: 13acff83b5d964f99031c1c2db6afd1c
-SHA1: 214d77fe084cf6eb685eae975ba31c6facb542ae
-SHA256: d65d9d8da393320490b01b3b02e8b609bab5eead73ccaf15db24b577ca92d4d0
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ff_31.4.0esr-1~deb7u1_all.deb
+Size: 447940
+MD5sum: c155a3cd98b30544293837b983e8de8b
+SHA1: 8c20ea1f4d7dd32f74e00de5244c2650cf76a539
+SHA256: 9ca5eb64e302741ea78da93380f87a6fa0843e42b389668467203275a64b897c
 
 Package: iceweasel-l10n-fi
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7446,22 +7446,22 @@ SHA1: 0b44e0a65781635d5bd60c500693149fef3aa56c
 SHA256: 56979ddcb8574c975807dbc572cb9a4c3956cd770d62db4ac64706de4565a942
 
 Package: iceweasel-l10n-fi
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 642
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 641
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Finnish language package for Iceweasel
 Description-md5: c2fcbb78c02efd6b9a7e1fd3968ce57c
 Recommends: xul-ext-mozvoikko
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fi_31.3.0esr-1~deb7u1_all.deb
-Size: 440298
-MD5sum: fd676d6acbabca003ef9e6b55e39284c
-SHA1: ee6048fade81ab2de54b0a691cf84055d34d9148
-SHA256: 74eed3a5676142d767637474b7492dc519f26c1e0f780a8a1382edfd2167d818
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fi_31.4.0esr-1~deb7u1_all.deb
+Size: 440068
+MD5sum: 0a4d6111949792cd48887a8f959ed2f1
+SHA1: 041e5506678315fb9385ec62d8496791957ab5b0
+SHA256: 1c6de9730eca780b3909bb97081bc279379ccff05bde8acbffe07a74867d238b
 
 Package: iceweasel-l10n-fr
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7482,22 +7482,22 @@ SHA1: 4b89c8c43ee2043dddfa40e73d08b330cc62e963
 SHA256: cb00d49dd50804dc9bee7392b5cc4057efb70b26b8f8b57f3f10787b8c7cf725
 
 Package: iceweasel-l10n-fr
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 658
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 657
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: French language package for Iceweasel
 Description-md5: ef6953c047ab80fd7f9917774a39a85e
 Recommends: myspell-fr | myspell-fr-gut
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fr_31.3.0esr-1~deb7u1_all.deb
-Size: 453726
-MD5sum: 174607c6d01dae55cf657503843b3ed6
-SHA1: 5ee0df5ec468d207f738916f05f4f30ef41fe127
-SHA256: 61021e663880e27d31505c0780c7e171675f8a9a1e3b09089c4b587b9c259f58
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fr_31.4.0esr-1~deb7u1_all.deb
+Size: 453580
+MD5sum: 548e934d44b1a197eb595f325c9927b1
+SHA1: 6477db9195f54c56b1b55636b1589b14b4ed4f3f
+SHA256: 8507a93a6738bfd7d41ee5fa5ea5325714bf6772b53fb87a6b0699a7a7e513a7
 
 Package: iceweasel-l10n-fy-nl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7517,21 +7517,21 @@ SHA1: 10e71f0186ad71e01a50890fb325ee6504cd28f5
 SHA256: 4ea095e40ec3b0e1bfaa2d81d4d1348328b018581e9d332e4207352e4c0e64a8
 
 Package: iceweasel-l10n-fy-nl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 653
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 652
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Western Frisian (Netherlands) language package for Iceweasel
 Description-md5: da03c8ed9e5c4757f3fc54ebe3583f19
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fy-nl_31.3.0esr-1~deb7u1_all.deb
-Size: 448822
-MD5sum: 9cfcdf3b43a0a7f045101e7fb68de9b9
-SHA1: 2fa500c5fd2a207851435909d73158f02f70eedc
-SHA256: f34fba8bc68cf7a44d6b2c41251e628b88cc05a21f9d81602d11b610c4dcdc6a
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-fy-nl_31.4.0esr-1~deb7u1_all.deb
+Size: 448534
+MD5sum: 6d721933d3df303ad2ebd4e02633eae3
+SHA1: 513e4a0e41926483edbd727a0918f5fc6e6e1866
+SHA256: bd8cf91a78cd0ec3c678c14524ebce1d263146c3d530ccbfe15d54e5f5712019
 
 Package: iceweasel-l10n-ga-ie
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7551,21 +7551,21 @@ SHA1: 58e121f03c69834676e53a168256cf247f622657
 SHA256: d192dcc7dfe763e9f6972cf5f39d3df68c1d433256ab51fb50e523001bb18fa4
 
 Package: iceweasel-l10n-ga-ie
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 657
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 656
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Irish (Ireland) language package for Iceweasel
 Description-md5: e59417e12adb3518b6e54453ca17b641
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ga-ie_31.3.0esr-1~deb7u1_all.deb
-Size: 453732
-MD5sum: 61818717b3fa8cca81e348568ca159d8
-SHA1: 683cd279c27bb3919e76b9b0201b5f78b81ae1aa
-SHA256: 81f178b2344a4bd93a5bd4657cd0fb8105d31d852b85ca96361775c0eab311af
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ga-ie_31.4.0esr-1~deb7u1_all.deb
+Size: 453458
+MD5sum: a959bed3b3bf6ad511db78f76f284d12
+SHA1: 1d7dde9fef82b2999de529b1d6275631b4ba134e
+SHA256: f51af8932a5aa4d35cc8990a978a2f1c84bddf0988a33f4fb2ceebb90aa8904b
 
 Package: iceweasel-l10n-gd
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7585,21 +7585,21 @@ SHA1: f74a6eef18e59e7e4dcfd694fb9e8cc205b3cf4a
 SHA256: 6e1e7b4ae9042f44e790588412c49383603d67ab2774c90cbb7e7b2489a0822e
 
 Package: iceweasel-l10n-gd
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 644
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 643
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Scottish Gaelic language package for Iceweasel
 Description-md5: 29a90324002b363c5000daded3f814a0
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gd_31.3.0esr-1~deb7u1_all.deb
-Size: 445968
-MD5sum: 17d7bd20a1c3338d16bbdd9f192c1225
-SHA1: 29caa04ff45f136e7404eb049370f00fa0316994
-SHA256: 2d0974b2a9bdc5a3cfe515458df12f32866c6ae9542b191da8b33da54d30f386
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gd_31.4.0esr-1~deb7u1_all.deb
+Size: 445690
+MD5sum: 90876cbe2467420a786434f1ba56efe4
+SHA1: 4bcfa7f3e0de37b40646fbd63f0ddfe6006cf4cc
+SHA256: 7fb928e8db3716db6d7052bd593d10b87f20ae27b2d5b077d5f3f52ba8e0f737
 
 Package: iceweasel-l10n-gl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7619,21 +7619,21 @@ SHA1: 67a48f0be851e8db59541aa9f36bb625d314e3aa
 SHA256: 966e1d75008dd4fddf4568174cb04f0e5afd91e97c49255dc246ff21d4b153c0
 
 Package: iceweasel-l10n-gl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 616
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 615
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Galician language package for Iceweasel
 Description-md5: 75d1a745b079170c812638500e5c985e
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gl_31.3.0esr-1~deb7u1_all.deb
-Size: 423484
-MD5sum: 9a631f1cf519b7c94deca11dbad99178
-SHA1: f8662d4eef512536d9b117c9891080ce55117fe0
-SHA256: 52bf1126e7e49cb02072efe5b288f618a8139c09c8019583211c98c3855a2b4c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gl_31.4.0esr-1~deb7u1_all.deb
+Size: 423184
+MD5sum: 7284bc84dd34b06aabe35330265f9c01
+SHA1: 4598ff1207b09a2eaae02774cb250d04b9a94309
+SHA256: 0d6e72a4988258cc21d39d1f11d15cfc8886a7d2d2274408f190d24b88c00cac
 
 Package: iceweasel-l10n-gu-in
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7653,21 +7653,21 @@ SHA1: 3a0f1271dc5917f69247d0455fa260c036d1a6d0
 SHA256: 0ba1e87757964ebf992497e95d4760407acfc8d73eda1e6d54e8c619b984d8a4
 
 Package: iceweasel-l10n-gu-in
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 662
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Gujarati (India) language package for Iceweasel
 Description-md5: 5bca39fe2a946701b326c7f5c861417e
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gu-in_31.3.0esr-1~deb7u1_all.deb
-Size: 462612
-MD5sum: 2d70f6453edad463696f42aa564e0728
-SHA1: 0a3e8d5f47e7ca696a343f5790ce5c79011bde09
-SHA256: 38067b94f0a77caa505f6c72a6ad8d53982862b96665dcc812785369dbbc33ac
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-gu-in_31.4.0esr-1~deb7u1_all.deb
+Size: 462376
+MD5sum: a34bd432953f11ab3f08dbdc10d0d762
+SHA1: 2169ed63874c45a772323a5da4c6b3a28cda0f60
+SHA256: ebe6e87cf7ceb04e246fab9c83d9a29290e6c9d55289c2df8555edd48ae857d9
 
 Package: iceweasel-l10n-he
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7688,22 +7688,22 @@ SHA1: 705b620e3d21e8ee8924e367cc4228ecca57f4d5
 SHA256: 7c4b31dacc56927c3faeee1e650de9d4ade3c275700224b3ee8e875d74edca79
 
 Package: iceweasel-l10n-he
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 631
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 630
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Hebrew language package for Iceweasel
 Description-md5: 8407a13ead94d640d870237f91ba9200
 Recommends: myspell-he
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-he_31.3.0esr-1~deb7u1_all.deb
-Size: 440362
-MD5sum: 5ee13a204b588e322ec22f9a5c14030d
-SHA1: 8e2cb64b631e42cd4820d90b1783658925327794
-SHA256: 0a449d052768fae62626f6627f43e157f7820ad17645eec5d64380900e3fe8e6
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-he_31.4.0esr-1~deb7u1_all.deb
+Size: 440106
+MD5sum: a17fe29bd0d28b05c29b164eeb7f6491
+SHA1: b0eef3e1dbf09e54f0dcb5ac5678bae8da07399b
+SHA256: f8b5a5180bfc80e4e192363ec434f693addb91c8d68b46b26ada0433dde5bd30
 
 Package: iceweasel-l10n-hi-in
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7723,21 +7723,21 @@ SHA1: 4928a4e94297af98422fd31bc62085cd11491292
 SHA256: 121e04d5fbea57decdcff53ed5a701c60c5b012607209d35ca91e5f27aa46426
 
 Package: iceweasel-l10n-hi-in
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 678
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 677
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Hindi (India) language package for Iceweasel
 Description-md5: bcdf1f9f4885e8ee64114daa8d3cdafd
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hi-in_31.3.0esr-1~deb7u1_all.deb
-Size: 480960
-MD5sum: c270eab2ed37f1caa798ffd12f5e005a
-SHA1: ce287222d045946819b764367001b7095ee7438a
-SHA256: 88275a9495e423fff03160ecfc66455da6ab81346706565cffe240c7d19d10d5
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hi-in_31.4.0esr-1~deb7u1_all.deb
+Size: 480754
+MD5sum: a06509faa7f54ccd093ba82f0d08838d
+SHA1: 0f6735e9998ac1617787ea3fad05d6ded1989062
+SHA256: f1b50d4af97b288116900aaefcbb7972caa6e987ce9fddda47aad9a10971427a
 
 Package: iceweasel-l10n-hr
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7757,38 +7757,38 @@ SHA1: 916dbcc4308ac4742b68494bebf027f30eab7483
 SHA256: dc7f98ecbed48a62841269a12e1f910f03234adf92aa7a88ab294d4d67842647
 
 Package: iceweasel-l10n-hr
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 654
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 653
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Croatian language package for Iceweasel
 Description-md5: 3b3f8af04e7174445c05f6caa0f142ac
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hr_31.3.0esr-1~deb7u1_all.deb
-Size: 451178
-MD5sum: 8ac92fdd1ad20928a8d9a850611f14e6
-SHA1: 9537ded58f7c17d7e2a1b2383db89cd06f21ef72
-SHA256: 81a51b89ae6187338c7e267c8a09cf6ede33ec5c2bc526dcc3422e7e45610bd2
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hr_31.4.0esr-1~deb7u1_all.deb
+Size: 450882
+MD5sum: fe246a3033dfee1d642e20ae8c156308
+SHA1: 4f16f73d949c5e1d3ffe3a5c7ff1d55f339c5416
+SHA256: 7436e02eadd32e59fa3e5efda9ead7f1677ee1276839ba8e6980dd71345a3196
 
 Package: iceweasel-l10n-hsb
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 663
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 662
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Upper Sorbian language package for Iceweasel
 Description-md5: 41f216cd4b57fe76cbd074be52fc1e09
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hsb_31.3.0esr-1~deb7u1_all.deb
-Size: 460326
-MD5sum: fe970ca6c2ac7a10456730726031b9e6
-SHA1: 7055ee9ef61cb7859102d2b1c0e4ecd308c719ee
-SHA256: 5fa40e968942a63949d9231b0ae85c4b2669b2162ae46067e8bf59856e7d7d00
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hsb_31.4.0esr-1~deb7u1_all.deb
+Size: 460136
+MD5sum: 3242f7641d037602b3b94383d66c72c5
+SHA1: 34a38e860bc19df661d808f689494df670a02705
+SHA256: dc932aefc6d9776f8a3da21368ea136ca25caa36d292a483002c6a2056031d86
 
 Package: iceweasel-l10n-hu
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7809,22 +7809,22 @@ SHA1: 01b3f3ca4a063af6a7350691fa2dbf11f19e9139
 SHA256: 7a90b4a17d9d3acfa162af5deb574fadc629a9954e9a67914bd75ebd03c2c9df
 
 Package: iceweasel-l10n-hu
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 626
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Hungarian language package for Iceweasel
 Description-md5: 9161b247f769ee0b76864d8da3e50a1a
 Recommends: myspell-hu
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hu_31.3.0esr-1~deb7u1_all.deb
-Size: 434994
-MD5sum: 3d84848b8b74e5b5cd97b0984ee2ea44
-SHA1: 6698628ebf6fef35f4513859a06b26f93b5f5263
-SHA256: 510d9ef269b64973e6952d9ecfa6120c6f984561340c9c3ad28bb485a2321b36
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hu_31.4.0esr-1~deb7u1_all.deb
+Size: 434674
+MD5sum: 58fc08973dbc55bdd007df5a748f2ec7
+SHA1: c70229d9875dc9b640bbeb6eace339ff61635eb3
+SHA256: 42726ec535b6945d4e1c12bde2cad128a22a86ff5bf3f705a23a663a2888183a
 
 Package: iceweasel-l10n-hy-am
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7844,21 +7844,21 @@ SHA1: 7b1a9799722f0d153e9fc9d85aa04ef8a783b743
 SHA256: 254d699fedcba4c9235aa54697028faca0be307d8ad66d60609b790db7f35dfc
 
 Package: iceweasel-l10n-hy-am
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 662
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Armenian (Armenia) language package for Iceweasel
 Description-md5: 85dbead64bda5114be27e6c0d4e512f7
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hy-am_31.3.0esr-1~deb7u1_all.deb
-Size: 469200
-MD5sum: a2436c34e5a17f620bd4d4e646a17c62
-SHA1: 916375eaf233ea0fe5f670caccc30a728f8cf2a7
-SHA256: 5069f98f04cfc98da6c6364d2facde159f73b16a871baa924166acee682584ef
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-hy-am_31.4.0esr-1~deb7u1_all.deb
+Size: 468932
+MD5sum: 58c39a8c0cdc0183ace860391d8a744a
+SHA1: 99888485f9d414d169cff263df83b0205039e4f9
+SHA256: a0976b3dbb6a1614ed890212cd6e823a6af9a1289338747c512517b3da8ce124
 
 Package: iceweasel-l10n-id
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7878,21 +7878,21 @@ SHA1: 56f246bf5b624f4c8964d7b155d70f05d5aaefef
 SHA256: 5e0981f0051b89945d471d0a60a134f61aa6e09fd83b5754f4ffbee796b3c375
 
 Package: iceweasel-l10n-id
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 610
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Indonesian language package for Iceweasel
 Description-md5: 6aae2f339c97a69ddc071bbb886a3717
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-id_31.3.0esr-1~deb7u1_all.deb
-Size: 418702
-MD5sum: 3cc257ee327c4e741c3a64f703d9ce97
-SHA1: 4ab4850970e864b47c05e6e568b4567fa77d0b89
-SHA256: 2b9772d626470618a71802e3d5bf25e0dac6a3dc737b4505734549c28e7a634f
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-id_31.4.0esr-1~deb7u1_all.deb
+Size: 418394
+MD5sum: bfc5fa232b2cf92732f33a5982bb8228
+SHA1: ecd29c97ee353c4ac9f141a425fb95c07b5144e9
+SHA256: 29deda91b75a94cbaaf988d6b82c4f8e1ecd2981c2a6f8b66ac3a212e6b7c21e
 
 Package: iceweasel-l10n-is
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7912,21 +7912,21 @@ SHA1: b8eb8d5b3a3b8c38970b4b53b3f47cc0923c2683
 SHA256: f4e37ad205f200d34d501dc67361c384c5ea598e8ce40aef068d1c04a10ca7dd
 
 Package: iceweasel-l10n-is
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 626
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 625
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Icelandic language package for Iceweasel
 Description-md5: a3fd57f90ca633d9796314f941d18a43
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-is_31.3.0esr-1~deb7u1_all.deb
-Size: 427328
-MD5sum: 8e8ef3b38e8859b2eb70783d41de4ce8
-SHA1: efdfb9dab3e205cb306c7776566add45b1860b9a
-SHA256: 50c3b230b10100c61c1d50dff8d95bc5bf50712906f8123a3fba4df8f92da5a3
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-is_31.4.0esr-1~deb7u1_all.deb
+Size: 427104
+MD5sum: 116fc757a1edc85b57635b20e2511942
+SHA1: edd170abf3e51d7786247e38b129347e82712e28
+SHA256: 6c5973bbd854e54999f524fee18acb7a97a68b020ca2c45c0d828ba5ffd7ead4
 
 Package: iceweasel-l10n-it
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7947,22 +7947,22 @@ SHA1: e0de9653fd32e1b69b83000e1e7d97cc9984ca2e
 SHA256: 651acd8536541c5f1d806048e0f566bdc63c940e516bfcb23e56e47c67a0f583
 
 Package: iceweasel-l10n-it
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 587
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 586
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Italian language package for Iceweasel
 Description-md5: 958178de0cf6fba4d11538c349bccd65
 Recommends: myspell-it
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-it_31.3.0esr-1~deb7u1_all.deb
-Size: 380610
-MD5sum: b5481cfc2c18e21dfb9e20cbb5e6d3a0
-SHA1: 69e5f005525db68f689ebad069500384f3cb8319
-SHA256: f5b11e6acfa981a5825a09088245fb7508e7b4d561b7ae3acc4ac8b116957b6d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-it_31.4.0esr-1~deb7u1_all.deb
+Size: 380374
+MD5sum: 85743c73369172cd1f5c3615bd3787a9
+SHA1: 813342ead7abb6143db2445d1df1f8d4c1c3bb92
+SHA256: 937426f88bd7fda610f4d3fc0cecd2a022701f288ae72761c82e38ffcdda20c1
 
 Package: iceweasel-l10n-ja
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -7982,21 +7982,21 @@ SHA1: 9bf9a86fdba907bd0a8847a0cbb21c2b993f6d87
 SHA256: 790d172fd885e9a32773eb1b473c8fd44458fa7e4aa5c20cc0111eb1e869d417
 
 Package: iceweasel-l10n-ja
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 695
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Japanese language package for Iceweasel
 Description-md5: 067303ab2dd5fc1cb7e2944237a07961
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ja_31.3.0esr-1~deb7u1_all.deb
-Size: 489276
-MD5sum: efad85ac0292fe89b724736fd051f057
-SHA1: c8094abd4ebe0382c64faadae8480d4ed840fb0b
-SHA256: 221435960bb0298ddecbcf3e33c6f15948392e73321d898cdc4f9161007ebbb0
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ja_31.4.0esr-1~deb7u1_all.deb
+Size: 489328
+MD5sum: da8d24917503bf1a1fb257c12904dee1
+SHA1: 4002a0a682690689327172d400fafb164758ef8a
+SHA256: 9823b2e58825867d0fc146e4f3af26bf2f88e32ac52738e84fab2bf7acb135ae
 
 Package: iceweasel-l10n-kk
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8016,21 +8016,21 @@ SHA1: 792fac7c9f3901abd0c46cade0f94257ea3f1a24
 SHA256: b0363b30fdca3669043da9b409b728b1dd015b40d5d4475244a05143fed259d2
 
 Package: iceweasel-l10n-kk
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 676
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 675
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Kazakh language package for Iceweasel
 Description-md5: 2d994ed454953b580c9cf833f0d57357
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-kk_31.3.0esr-1~deb7u1_all.deb
-Size: 481326
-MD5sum: 8db9fcfcedb5d3001c6425cb71b82adb
-SHA1: acfc4754b3e656e218742e74503b4b991402be7c
-SHA256: 128196f7dd58c6114443e64fbcc5a40b2a3d0682d60e0b2b519854609d9a7a0d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-kk_31.4.0esr-1~deb7u1_all.deb
+Size: 480958
+MD5sum: e253405bbab658f96fb091240659f652
+SHA1: 178a2bcc657a362aa949187f96ce46eca367bfcf
+SHA256: fc24a4ff4e6e8c8b9ef419d96884f219704c97db0abd9c7b80870ca224b9a6f1
 
 Package: iceweasel-l10n-km
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8050,21 +8050,21 @@ SHA1: 34ed48691ce7c9ab706ba3e3a2e45d6b5c5b85bc
 SHA256: 61bb3e47cd93b68810c81d789080d549dff937e54a027b3e22969d3ab7a848eb
 
 Package: iceweasel-l10n-km
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 710
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 709
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Central Khmer language package for Iceweasel
 Description-md5: 1554f20bd8bff311ad21444fce02a96b
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-km_31.3.0esr-1~deb7u1_all.deb
-Size: 510612
-MD5sum: f31b7ad61668b678168ff8b36072cc05
-SHA1: 37637f89ac71ea18ec83585b786b1c32960c544e
-SHA256: bfe7659001fc976a74e4689614bff2582f6755f97fc211bce0a875b000953613
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-km_31.4.0esr-1~deb7u1_all.deb
+Size: 510436
+MD5sum: 86be41270431a75d3274aaab6dd62e4a
+SHA1: cc669af617fef3228dac5bbf764c81b26aed8f81
+SHA256: 2296ab61dcd0fa1ea7a555b6bfd34b58d705b5362277c726f2bdc67e943dc85a
 
 Package: iceweasel-l10n-kn
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8084,21 +8084,21 @@ SHA1: 2df1ca16ff381918693c3a341fd91555c2185138
 SHA256: 6e1d4294ac5504932d76da4af56eb725535dac048a9619217994c1f98179c3d9
 
 Package: iceweasel-l10n-kn
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 689
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 688
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Kannada language package for Iceweasel
 Description-md5: 24d15ad8ee828aff7ded0fbce9a445a4
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-kn_31.3.0esr-1~deb7u1_all.deb
-Size: 494178
-MD5sum: 761585b7f09e1b6b19a0b9874f8fa7c3
-SHA1: eeaed9a1249cfbda9cee5746abfb6966504e9e7a
-SHA256: a408521f00a8a064939b6551942254ddcf106c24534781d16695f455ec961b65
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-kn_31.4.0esr-1~deb7u1_all.deb
+Size: 493868
+MD5sum: c3973310013cf964e6878779f839b1f4
+SHA1: 24d1fc2702cd4e3a6f8c6d0ebcf2a7a47e3ac9dd
+SHA256: 997bf40bc7128956e6ea9cc74e338a501abbbfacd7bec9630a20bc7911904c52
 
 Package: iceweasel-l10n-ko
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8118,21 +8118,21 @@ SHA1: 9a3a6bcad24f3838e14472df4ba972489b378962
 SHA256: 441ced0469a9c4866b54186976c52d0541bd05ef5521ce2c15dd6b47963e2b95
 
 Package: iceweasel-l10n-ko
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 637
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 636
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Korean language package for Iceweasel
 Description-md5: 635bad280d989e6be1b19bd6083ef06c
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ko_31.3.0esr-1~deb7u1_all.deb
-Size: 439484
-MD5sum: 561d0fee02603a084b32b64792604dca
-SHA1: 3d4aef1eae3d6d9c6cfa38197cbe06561b12fae9
-SHA256: c1fe3cfd4525a5e1160cd8244642e52d14fec6ea7cdb5a38a4ec20114b87eb7d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ko_31.4.0esr-1~deb7u1_all.deb
+Size: 439220
+MD5sum: d22f0020d4efe8fe09aa186c279ddea5
+SHA1: 081c9ec3e3639a83bf7166483c4bcc9b5ff159a6
+SHA256: d581f319045b7d1c5ff41d708bcaab39add8321e63012a6bf361d5732d70f173
 
 Package: iceweasel-l10n-ku
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8153,22 +8153,22 @@ SHA1: a588ca5b760ea5593971a4d14fe0569c284a8ea3
 SHA256: 9d66ae189019c58892bf5ca1ad1f125e39a6ca0673a25f638d1d044e48f02b7b
 
 Package: iceweasel-l10n-ku
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 625
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Kurdish language package for Iceweasel
 Description-md5: 8025947b9a514911438fd6fcd0aaf30b
 Recommends: myspell-ku
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ku_31.3.0esr-1~deb7u1_all.deb
-Size: 430408
-MD5sum: f34206e1682ae8d235d85891cedb0c7b
-SHA1: 048918f1770e97b988a650fefbd805a9f5758059
-SHA256: dafdf5e5464a4a3a65921536f91e357288cb9215cc2064a2e0aeaac96300ee85
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ku_31.4.0esr-1~deb7u1_all.deb
+Size: 430506
+MD5sum: d354e5b789100b7e1ac7bbd64e88f098
+SHA1: 6d6f0612214662e9f6ea0490441c2c23853015ff
+SHA256: 479bb3d8457a5108baa66ca33940e4122a410f8068adb66d39d1bac1ed346987
 
 Package: iceweasel-l10n-lg
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8205,21 +8205,21 @@ SHA1: 9c04928cbdbe065fac1e0248fd29484aecd24e5a
 SHA256: 2fcd8fbfb4f3aeaee730a1b6e3c1605690fee3816c3b02913ae4c0903769d122
 
 Package: iceweasel-l10n-lij
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 638
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 637
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Ligurian language package for Iceweasel
 Description-md5: 65a43ab0252c0d5be43ec1e27ca947dc
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lij_31.3.0esr-1~deb7u1_all.deb
-Size: 433500
-MD5sum: a6555c7f3cfed543932b0623f8f2d997
-SHA1: ebeac6c4f1545cf1839a1b31328d519eacbd8669
-SHA256: cc93b4aa8877235e52148ca795c6b4ae5d0f58e059914c171eb0b561cd3af727
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lij_31.4.0esr-1~deb7u1_all.deb
+Size: 433194
+MD5sum: d0bec518f7be86f366c0f68a7390b667
+SHA1: 1d263bfae9a5ab2223c6e13a89760df800ea8b4e
+SHA256: 4899c9890e9b2a862fd45eab5fc7b71f60a18177d44a444a8468412d4d6ad0d9
 
 Package: iceweasel-l10n-lt
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8240,22 +8240,22 @@ SHA1: fa3b5fd62831db05fc34e7f43ad74a6639594b36
 SHA256: 077f0e0b7d0f3dfa9197390961efff983d6f9df4f0360b8e3a7cca7173fdafd4
 
 Package: iceweasel-l10n-lt
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 660
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Lithuanian language package for Iceweasel
 Description-md5: 810d547e96359e65eaf8d1170e7670dc
 Recommends: myspell-lt
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lt_31.3.0esr-1~deb7u1_all.deb
-Size: 460530
-MD5sum: 1c48d251adbfe03bc561933f2a1a32ac
-SHA1: 6f1d6c6ad9b9735635a9475769a901f9f8b675e7
-SHA256: 259459fe4156f41c95fb97ff28b209649c22ccf36dd1ad90f97c68fc77e2538b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lt_31.4.0esr-1~deb7u1_all.deb
+Size: 460326
+MD5sum: 0ae4483ac6eb870fd23cc560ab2529a3
+SHA1: 2c860574ae951050d3a22e17d3335b241047d971
+SHA256: 57b62d94fc8ad32f2a9771d7d1aa9a84de6cc15819ad450bee3d9fa9f03f9e91
 
 Package: iceweasel-l10n-lv
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8276,22 +8276,22 @@ SHA1: d20a94e4fe9801bd689e26332b3f66acd1f6525a
 SHA256: 97353cd1ac69035b8b72d04ce140a2052ad516109bff5a004b297c4c0fd5eeb1
 
 Package: iceweasel-l10n-lv
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 609
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 608
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Latvian language package for Iceweasel
 Description-md5: a4d30bae90d0209d6541623f5e84e33d
 Recommends: myspell-lv
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lv_31.3.0esr-1~deb7u1_all.deb
-Size: 413666
-MD5sum: 5601d0c2569f3151e8f656863df738e0
-SHA1: 245d1a6922d7e7ee98f9cc0693afa5c09ed23a41
-SHA256: 7017a9fe74bbaca2c63348171cadcab2e832e35333ec96741ccaef0b2aefaf57
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-lv_31.4.0esr-1~deb7u1_all.deb
+Size: 413264
+MD5sum: 92f6ed2541adc81e4be7a746ee52cf0d
+SHA1: c7989399599267d8dd32404da5633010136cb5fe
+SHA256: 7876f520858840823a78e0d1ea525b6a3a1f4d2935667cc4ce61e3387be22dce
 
 Package: iceweasel-l10n-mai
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8311,21 +8311,21 @@ SHA1: db250d6ed25a96c2f33c16ca0fc42ab68fa4a473
 SHA256: cc012b24556deb9dbfeb59a6e03b07d71c38955f12e69d3b2cd245ba93074082
 
 Package: iceweasel-l10n-mai
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 690
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 689
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Maithili language package for Iceweasel
 Description-md5: c14fc06ca87ea0741c4bfc5197fb51a0
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mai_31.3.0esr-1~deb7u1_all.deb
-Size: 490814
-MD5sum: ff6d4174c3d5bbaf4543f432459e0c75
-SHA1: 048eda37fc9a4bfbcd60c7bb25508dc5a1612d48
-SHA256: d741b142cb7917d676ab6c2cb91627d2616acae4ccff80b3363f620efeef14f5
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mai_31.4.0esr-1~deb7u1_all.deb
+Size: 490516
+MD5sum: a19c8a6cd022a89cb1e6a04a82455292
+SHA1: 46c8a1ee2cfd0f930a4fc37d2387525e1c645ef6
+SHA256: 2527105c4eb553e326c3b3991c833942f822c3ce8ba1b28c80891f3fb523c325
 
 Package: iceweasel-l10n-mk
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8345,21 +8345,21 @@ SHA1: e5bc7dff7e2de3fff35a2f3e47389525dbffd828
 SHA256: 2fa1c6c82bdde5e831aa98c8f788e982f94a509c1abf824bbe03d2c0a5034bc7
 
 Package: iceweasel-l10n-mk
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 671
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 670
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Macedonian language package for Iceweasel
 Description-md5: eb656f1e807e22ffcb77c44ecc3f9b90
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mk_31.3.0esr-1~deb7u1_all.deb
-Size: 473884
-MD5sum: d084b70370e19ef5727c9d30127dda32
-SHA1: 15d42485124f79f9758510601a88bbee3e29838e
-SHA256: d7bc53530e8f01a8416cdcf18bb278d92596c43fa2641ef693990115d19bcf0b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mk_31.4.0esr-1~deb7u1_all.deb
+Size: 473488
+MD5sum: 7e6c0a9bf4a0fbc2fc6f7f25b9a253a6
+SHA1: ff8773f78805f97667591ff83ccb21186e2af1f4
+SHA256: 1fb352e70b294ad89f2e373b9f631fff349019339616aab65876f8bea1d7694b
 
 Package: iceweasel-l10n-ml
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8379,21 +8379,21 @@ SHA1: 50abce7530b861d7570891291ab60b6f16da37f8
 SHA256: a64df81481d5b34db813ae5964ffd2b83632368cf86bd1420cd5ef8ff868ed56
 
 Package: iceweasel-l10n-ml
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 702
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 701
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Malayalam language package for Iceweasel
 Description-md5: 45af2074ca29b7cd4112b1cd7e27d5cc
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ml_31.3.0esr-1~deb7u1_all.deb
-Size: 503584
-MD5sum: 670455e6a3c2ef3078b8cf09b925daf3
-SHA1: c8300ebb29024fa3347fee6f32a59e4a7e3a2579
-SHA256: 4f88f0dc7e57f2775ed5b0c14d3a47d40a4ef31bd388809706a873cb2fc67144
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ml_31.4.0esr-1~deb7u1_all.deb
+Size: 503438
+MD5sum: eea6e23dce43b52f73a131f080145be4
+SHA1: e6e09d0eba11ce22984f30f74859ad5e28a8c09b
+SHA256: 698384bc6e15ce59358edf52de9c292c2eac80e3e909d6e021b3980a478ca5ec
 
 Package: iceweasel-l10n-mr
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8413,38 +8413,38 @@ SHA1: 39a3dccc34b9aced80ae8e01610e2a13899cfd41
 SHA256: 98343eacfcfc85f8aa54bb64a904e5be8a734c3e6dad497675914b02ffac5847
 
 Package: iceweasel-l10n-mr
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 681
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 680
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Marathi language package for Iceweasel
 Description-md5: 868cfa0eacd46175672baaf98ca461bd
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mr_31.3.0esr-1~deb7u1_all.deb
-Size: 485708
-MD5sum: a4d82ffab5f667e0eb3756cfecfd3a2c
-SHA1: 35e6787d58410f14085693ce4e5e1b56f68ab98d
-SHA256: 1a5ca27f0db90edb13c23f7f182c48e236dd436e705855aa358f6ad67b6fd84b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-mr_31.4.0esr-1~deb7u1_all.deb
+Size: 485392
+MD5sum: 84d2aba7c36dc6ee2ba077e336a30190
+SHA1: 5dd1f9624a5c9ce267d4304fc0e92469481a720a
+SHA256: 917dc6d9cca0b978fe59ff020a94a23bfb7ca6cffa1ec6bd00cc7a85d04df9f2
 
 Package: iceweasel-l10n-ms
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 642
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 641
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Malay language package for Iceweasel
 Description-md5: 9a46b33e900d42b7cda1a21a447a8a6a
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ms_31.3.0esr-1~deb7u1_all.deb
-Size: 440604
-MD5sum: 3c67634109f8177ae9b98796fd41a327
-SHA1: a875110bc7069812c560483ef8e03253d626b7fb
-SHA256: ea69b5854af279babdcc1aa3be0739735469ec417eb20ccf614c3a71eac0957e
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ms_31.4.0esr-1~deb7u1_all.deb
+Size: 440372
+MD5sum: ca4a73d5993d9246609be64ec3049a1d
+SHA1: 0d5d6660e52b6722a2f2bda9c7f44a24c838a979
+SHA256: 1b0e01a5d3e110a3b0e78ccdb82d0702a11ef529f89019faecbe6b9ad8ef25de
 
 Package: iceweasel-l10n-nb-no
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8465,22 +8465,22 @@ SHA1: eface2f6a06d8c4ac1c9d19c623db6afb87d57ed
 SHA256: 06a522a6b34468213db251d45f592b76a139e066f9c3bdefe89a0910fc6c147e
 
 Package: iceweasel-l10n-nb-no
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 644
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 643
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Norwegian Bokmål (Norway) language package for Iceweasel
 Description-md5: a47ed8562cfdc527185421f27d9ef58b
 Recommends: myspell-nb
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nb-no_31.3.0esr-1~deb7u1_all.deb
-Size: 437418
-MD5sum: ca6d44eafe5a424359d4b8512618ebe9
-SHA1: 5f6e38d7a31804ba2d30a58bfc95e99fed4256dd
-SHA256: d464602fd4149c7013c83f51c37bf22be04e7e16c5d7612b327dca9754b8e06b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nb-no_31.4.0esr-1~deb7u1_all.deb
+Size: 437228
+MD5sum: 33bbb8c66a0298dc20b77eefb100e86b
+SHA1: 2e23d73445afe01dfbbc0147d5af7cfcb60038cd
+SHA256: c5133ed1e6d16361b145e7ee9cc95e2da3f9dc549f12b907b3512228a4c3030a
 
 Package: iceweasel-l10n-nl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8501,22 +8501,22 @@ SHA1: f1da4a9ffcc580eb0b50cdf572b60490ffd9a671
 SHA256: 0c89dea512ca7a1e48cd16b05dbf587a89172b53afad46b9cda7b353d5213592
 
 Package: iceweasel-l10n-nl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 633
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Dutch language package for Iceweasel
 Description-md5: b78f51c73cfe2f8b7e238d4840e8eeaa
 Recommends: myspell-nl
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nl_31.3.0esr-1~deb7u1_all.deb
-Size: 436554
-MD5sum: 851a4332acd2733e715e55a88e701cb8
-SHA1: b12d04017d627b94cf0c22b6dc37956620541cd7
-SHA256: 0abd76537f4a294aa640434e2c4b2007b10e764d430c11f7f22bf8c78d368e7b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nl_31.4.0esr-1~deb7u1_all.deb
+Size: 436268
+MD5sum: 2128688118e041d14f1bbfce85cf9e11
+SHA1: 6df12f7a4573b6a275d0ae3bb7c33fce35c150de
+SHA256: f0965e942a4e9be46821baa19ab345fa7f959ca7a835f6b145febe5211b4c816
 
 Package: iceweasel-l10n-nn-no
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8537,22 +8537,22 @@ SHA1: fa510a5962699b92e35a71c3b4aa9bbff161e426
 SHA256: 9bb8df32a7beffd629a8ad5aa9c168cf688ae78c3f771b4f27ba46e7e99e52de
 
 Package: iceweasel-l10n-nn-no
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 629
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 628
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Norwegian Nynorsk (Norway) language package for Iceweasel
 Description-md5: 9dec1aeae6c23a662b9e6e3527c29711
 Recommends: myspell-nn
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nn-no_31.3.0esr-1~deb7u1_all.deb
-Size: 428188
-MD5sum: 6b35d335e234259fe9c7ceba99b6b7e7
-SHA1: ac9db42d30038683b80d8e6a941855cc308913b8
-SHA256: 4097195fb4ec77fc9e35688cae4b28385ef1f1e4154477ab87f27ec526d30d1c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-nn-no_31.4.0esr-1~deb7u1_all.deb
+Size: 427938
+MD5sum: 32e29a7651d4ec0ee28f8f7839725734
+SHA1: 4aecf1745dbda3c6c1a7d3f776377bce60c942af
+SHA256: 409f5453174f256b870312b9ea9f73733470df001c7394e3f9c742949a46e84e
 
 Package: iceweasel-l10n-nso
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8589,21 +8589,21 @@ SHA1: ba1f667305771b5950ffdf93c51202fb558937b7
 SHA256: e11eea2b0ad3447f2d94854eb232e6cf68ef1a602d067d392bdabc82d3b13dc2
 
 Package: iceweasel-l10n-or
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 704
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 703
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Oriya language package for Iceweasel
 Description-md5: b42d4aee6e1743a7e789b646fd08726c
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-or_31.3.0esr-1~deb7u1_all.deb
-Size: 504876
-MD5sum: 78de9f492eaf33c4367217e8db2f7e32
-SHA1: d6f7a7057ff46ce79d544db3c6da2f532d3bf598
-SHA256: 16a59123b9816f9289f53a28c28b987fa6c067bebfa202c9f841e02f1a7537ba
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-or_31.4.0esr-1~deb7u1_all.deb
+Size: 504678
+MD5sum: a38fc3e524d8fc70a9488dfbef9b82a0
+SHA1: 3b403dc549762904cfa7ae2f845ba10df6457680
+SHA256: ac10dff8ad098114caa1c8eae5999aadfa1101156339fe6ae21f55731ee0eafb
 
 Package: iceweasel-l10n-pa-in
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8623,21 +8623,21 @@ SHA1: 88f8a0ab1ffd8bb01570b0d3c8a3a8c72c7c59ff
 SHA256: 4e793fef1d466a6b91bca0c907ab973e5df1841810c00edb70e7d3965881d113
 
 Package: iceweasel-l10n-pa-in
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 685
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 684
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Panjabi (India) language package for Iceweasel
 Description-md5: 585ace143d04b57722506fa9ffcde95a
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pa-in_31.3.0esr-1~deb7u1_all.deb
-Size: 484412
-MD5sum: 69054596670d4e0b386c773dbb27a4c3
-SHA1: 4394348e374162efa0863a1a3b56ac975e61f60f
-SHA256: baec9e6abc811217647837b000496c5f424538bdd5fb01c6754fbf5b37a5ac58
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pa-in_31.4.0esr-1~deb7u1_all.deb
+Size: 484200
+MD5sum: 14f2ddf5d8f723efbb6ffc191f92dcfc
+SHA1: d8d1e49e960959c1aab5dfe1877fdbdf44744891
+SHA256: 2945f27602f1264c1fe2d580b8abc0c298061715f6c1cce5951d9f205d0b3ca2
 
 Package: iceweasel-l10n-pl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8658,22 +8658,22 @@ SHA1: 0e249d98a3556f1361d36079aa10a44177551ee8
 SHA256: 2277282d13c28988d02ae380f5a50bc4bf8c76571472fd9da38fc03d47af38e0
 
 Package: iceweasel-l10n-pl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 606
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 605
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Polish language package for Iceweasel
 Description-md5: 0283e8a6023905041b3c40659b149519
 Recommends: myspell-pl
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pl_31.3.0esr-1~deb7u1_all.deb
-Size: 411042
-MD5sum: fe25191e5c09c1cd6865d3982ec6e077
-SHA1: 46cf08c629e01720ff7bc288006f8379e2a32f2d
-SHA256: dc258a9d62f6b9ce7b4a468b9eb203d9acb32cf8bf66e7804dec6240f992904b
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pl_31.4.0esr-1~deb7u1_all.deb
+Size: 410846
+MD5sum: bbc5cf2888ee9fa77417ae30c1a67eef
+SHA1: 1ca7042937a2f7bd264a321cdbe932f44a306866
+SHA256: 08383ab49debeaab949bdefaebf1f44753b33c6fd2c05bedc84054122dcbe542
 
 Package: iceweasel-l10n-pt-br
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8694,22 +8694,22 @@ SHA1: fc25703f2d129c13b9975cd7c5a93ba842cbbb02
 SHA256: b49f411f1fab3d99c0475fe788a96e9f9143cc64f2ff2f01f1e1c4d2a28d8ff2
 
 Package: iceweasel-l10n-pt-br
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 662
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 661
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Portuguese (Brazil) language package for Iceweasel
 Description-md5: 1a3e5882b1549ec81437457e12a7ed42
 Recommends: myspell-pt-br | myspell-pt
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pt-br_31.3.0esr-1~deb7u1_all.deb
-Size: 453282
-MD5sum: 2ccc2fdccaad810fbb60d8c51126278f
-SHA1: d2525dffa07943ecf96e24fc631a22df63c8fa58
-SHA256: 12f9e231c40b0fa2c67f25b08c362041435fc0efbbaaf15eb2dd35a1f343363d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pt-br_31.4.0esr-1~deb7u1_all.deb
+Size: 452994
+MD5sum: 2a4c93bbc18a431ff308b7e1207d4dc9
+SHA1: c2dfb105003af4e462754277fa72531e3607e407
+SHA256: d064b5700e89e1053e747aed4e1a072ac9f3e09aa2ae2062fa7d45d85e05ef48
 
 Package: iceweasel-l10n-pt-pt
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8730,22 +8730,22 @@ SHA1: 878335af6b2614adb8f29a208371bc48ae86ba9b
 SHA256: ef72ee866784cd509d65ca0eef3a7c1fa21ff33fb981cbe235d5e6f9b08c5b0b
 
 Package: iceweasel-l10n-pt-pt
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 615
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 614
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Portuguese (Portugal) language package for Iceweasel
 Description-md5: de60ec8cc6fbbf0edc9aa36305799c5a
 Recommends: myspell-pt-pt | myspell-pt
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pt-pt_31.3.0esr-1~deb7u1_all.deb
-Size: 420396
-MD5sum: ad238ea6657feb086b89f5ddafabb8ff
-SHA1: b1ca457d9e8dd41cb567dd68bfef89dc35ed5d87
-SHA256: 735e57517f563746bf10a43cbd65b2b729c00be509c2eb0be40d4334c7fde646
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-pt-pt_31.4.0esr-1~deb7u1_all.deb
+Size: 420122
+MD5sum: 0b3623e30003859cd2fab7657065e0f9
+SHA1: 55d91cdf0ff6f4a3fb8e126c206a6d5284d87783
+SHA256: b48e17a0a25198ad3a0b8662ca70df5aeb3663e704d9e69a355fa8602a8af544
 
 Package: iceweasel-l10n-rm
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8765,21 +8765,21 @@ SHA1: d9e9cfb26759a8936fe272653459516f21d2d3db
 SHA256: 4bbb174afb81fedb81f7ffa858db1033ec0ff3444b6dcb04c63c0ef93bd8a3b4
 
 Package: iceweasel-l10n-rm
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 652
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 651
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Romansh language package for Iceweasel
 Description-md5: d71e0f259ba32a1e410b59f86a873778
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-rm_31.3.0esr-1~deb7u1_all.deb
-Size: 446464
-MD5sum: 1ef002ca39c4ed56333d4953f3038b0e
-SHA1: 72dc90db6f1ab42cef693b1e852f7d7eb0ddc38c
-SHA256: cbd141b8159ff7837164aef83961a36c4f6a9a0cf81644c1e1cc2c2dc5a26d30
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-rm_31.4.0esr-1~deb7u1_all.deb
+Size: 446240
+MD5sum: cb2a0fef0fea861ed539de9a113fdc78
+SHA1: 2dcbb0d5be1c4df1af81da4031fa51da63640a92
+SHA256: 0a9a64b9a59464b8426f164b054b17071169393dee5a764b00c75ff2edf89364
 
 Package: iceweasel-l10n-ro
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8799,21 +8799,21 @@ SHA1: aa051a17eefc56db8c75ed88969bebbede97688f
 SHA256: a16a514d2e77594f4e514caf99ded6dfe97ccd672b194cfbe93915eef53dabcc
 
 Package: iceweasel-l10n-ro
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 636
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 635
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Romanian language package for Iceweasel
 Description-md5: d4a200bed0040895b4f913d58329ca55
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ro_31.3.0esr-1~deb7u1_all.deb
-Size: 439182
-MD5sum: 7b55e3016441950bcb5eb6e079d48c07
-SHA1: 3e1c927e91f9b33f87c4588838d8d46dac2befef
-SHA256: 6c2db60141ef123ede3bdefd62d48e4109726c1a37eafc45507fe1144c0f59b3
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ro_31.4.0esr-1~deb7u1_all.deb
+Size: 438886
+MD5sum: 43275f5ab6012c9d11c36c98d88a7c3f
+SHA1: 16a7ca748965a4b1ad111dcd6dfa2173d17d58e9
+SHA256: 468f713c44e2034fe4311d6d737e5267e31fcc355567cb02ac2b0a72abfc3fa2
 
 Package: iceweasel-l10n-ru
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8834,22 +8834,22 @@ SHA1: a810ca5cc5392fdbd3a99b9983d3094158d8a5c8
 SHA256: a41ba8e2503717232250b8bb86022eaba8b653e5a70c3a80f3dae847744bbe44
 
 Package: iceweasel-l10n-ru
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 604
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Russian language package for Iceweasel
 Description-md5: 5d9cf46c0bba9f3a4d0634b47bb4e427
 Recommends: myspell-ru
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ru_31.3.0esr-1~deb7u1_all.deb
-Size: 405442
-MD5sum: 9849c3d87be74b453786caf8e4242369
-SHA1: 923e635395f3a6c348b00ef1b9179980fdb2de09
-SHA256: c439c32d434cd80d75fd63e9c2e5a0715b27f215fa5d802171aafd13d3c08ab4
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ru_31.4.0esr-1~deb7u1_all.deb
+Size: 405090
+MD5sum: 7869b44d64ff2244c4fdc858cabd20df
+SHA1: 4e36688bc583c5f07c7aede3c20436cfabdfc3ec
+SHA256: ae06438b86a777422e48dccff3c1062f5a1fc6df569115ab6744da99c2429173
 
 Package: iceweasel-l10n-si
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8869,21 +8869,21 @@ SHA1: d8a97e1c4c8192251068604cfe1ea14a4358d390
 SHA256: 584ffcaff2044abe05581628827982628ccdb9a04b43dd73e2d800d6b7c6faa5
 
 Package: iceweasel-l10n-si
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 645
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 644
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Sinhala language package for Iceweasel
 Description-md5: bb29c302da222be67e86f19709a641d3
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-si_31.3.0esr-1~deb7u1_all.deb
-Size: 452870
-MD5sum: 0aac28b952d4e21a39647819da2034a1
-SHA1: 08975d5f691ab8d2ef6a4d85f2696427682f65e7
-SHA256: c17cc6bd1ff0c38182e70e0106a88e08d56a56c303377e449f3fa0ffae06416a
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-si_31.4.0esr-1~deb7u1_all.deb
+Size: 452624
+MD5sum: 2b16b39bc15c296ba30c12a85780a5b5
+SHA1: c9a0a83c96522bb78f73cd0de95a44aeb8a0ffb8
+SHA256: 6d7475f2f6329553311e0624d03d0e5894605087b3d0da2ba9b84603d17330b7
 
 Package: iceweasel-l10n-sk
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8904,22 +8904,22 @@ SHA1: 775ca9051c3ead0f43c815befb33851af710330e
 SHA256: e9d513842482f6a20f1a2c89db0351769d9570c5513270d915c7b6437ce8fe92
 
 Package: iceweasel-l10n-sk
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 630
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Slovak language package for Iceweasel
 Description-md5: 30c43bbcc01318e1fcfe05e4e5d52a43
 Recommends: myspell-sk
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sk_31.3.0esr-1~deb7u1_all.deb
-Size: 436564
-MD5sum: 6416f2e68d32a893e2dd02a4ba21814c
-SHA1: dc38d91695c9df24d195c0b54dc58850c6cf8b9c
-SHA256: ece9b0095fa809e1e396ea3a78a8bfa407cfbb764356a7d7684b276ca61d27db
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sk_31.4.0esr-1~deb7u1_all.deb
+Size: 436238
+MD5sum: 837cabbf0eb4ae728de244cac07f9de5
+SHA1: ccdff9dca2e919392e00787acaabaf37a0d3049b
+SHA256: adc8692aba02a60d994510666521a2e0a25a5d086fac80e484ab0dc8e83d99b4
 
 Package: iceweasel-l10n-sl
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8940,22 +8940,22 @@ SHA1: ef131d2585c53bd26497d361549485b5a5a05d46
 SHA256: a3437897b0db111cfdaea1f145ec24e9278774c385636183fed759398d895643
 
 Package: iceweasel-l10n-sl
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 626
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 625
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Slovenian language package for Iceweasel
 Description-md5: 84f9c28a1771b5b83596524a100676f2
 Recommends: myspell-sl
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sl_31.3.0esr-1~deb7u1_all.deb
-Size: 429266
-MD5sum: 73091733e614e188cfc4f17659e2244a
-SHA1: ad2b24431fd2060af47bc75e8ef0eafe7b83ad4f
-SHA256: a92d329948b3c4baa22a79874165465a1f02c1dae2f9e062d6d0f0fc60c9d816
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sl_31.4.0esr-1~deb7u1_all.deb
+Size: 428976
+MD5sum: 6405db349a16c81f8205e40e3d008d23
+SHA1: f7bc587dbee1bb5dee0afb79926cda2f50f35e85
+SHA256: eccb6b1870d64d1d31427fd785c2fb4f54bbea5db8a6289e48836d5b3d598025
 
 Package: iceweasel-l10n-son
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -8975,21 +8975,21 @@ SHA1: 756119420fde0fd6277df76d4264d7413fa403cd
 SHA256: e0e39bf2197bbbd35efd8632d4f44b9315ab5264c458757a151971845a2e7be3
 
 Package: iceweasel-l10n-son
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 646
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 645
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Songhai languages language package for Iceweasel
 Description-md5: e709d378f78a24901da8da07f18a61c3
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-son_31.3.0esr-1~deb7u1_all.deb
-Size: 442578
-MD5sum: 3a4278bd08da00a33fc98a169f335a12
-SHA1: 1dfe39923a019d897835f3ee72f7b9663293d757
-SHA256: d25198a5a25e1bf085179d4f38143a5793342f2e3e6d8a78809d8461434b488f
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-son_31.4.0esr-1~deb7u1_all.deb
+Size: 442354
+MD5sum: dd14f3170ed77ae862c0afd1d3267b49
+SHA1: 7e4047c6be7bf4cb2b07d90288c9d986a9683fa6
+SHA256: 25481d19fc329ffc2ebf68daa754399e15f5704631bfddce955e6724cfe3ed00
 
 Package: iceweasel-l10n-sq
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9009,21 +9009,21 @@ SHA1: dc48542d651238e97b872f123c01aa7509747a0b
 SHA256: 9b1162d4de13bdfeb41027aa3649121a2d0f1d8ce2767a6beac0ad6bedb59ffa
 
 Package: iceweasel-l10n-sq
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 636
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 635
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Albanian language package for Iceweasel
 Description-md5: 9ee22327130665a50f62e4e2ed3699c7
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sq_31.3.0esr-1~deb7u1_all.deb
-Size: 439552
-MD5sum: e7f57b95465a736d853e725d4a6719eb
-SHA1: 33dc9be47cc3e8a83c4a27c47db8b42799fcf812
-SHA256: 3bf16e3a496ffe7d8ab39b38db3dbd2bd78ac0a493e6abd268c0ae0b5e7f8087
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sq_31.4.0esr-1~deb7u1_all.deb
+Size: 439298
+MD5sum: 1e3f2e61d75a194f147e7e507bc4e6f4
+SHA1: b2f3eae7398ae27e9747fd961dbc38f5a9682c2f
+SHA256: abcfc50fa1bd7effbf98dfe9c6da6f7976871fd5eda3e0712bc49018d4f8ec26
 
 Package: iceweasel-l10n-sr
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9043,21 +9043,21 @@ SHA1: 11f311e55ab7e5d655e1eba98312fc9b77b96367
 SHA256: eeb639171b39809bb94c9bbf042c3aa352cb5cf85b0581083ee23ccd043288a4
 
 Package: iceweasel-l10n-sr
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 671
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 670
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Serbian language package for Iceweasel
 Description-md5: de263a0bc15561c720601556d359d175
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sr_31.3.0esr-1~deb7u1_all.deb
-Size: 471210
-MD5sum: 9c20d0d62362d917c980d1ec8b4d6647
-SHA1: a3bee1c3e745e84111780ca68bc8b17627b5c195
-SHA256: 5a4d856226ba7f2a1fb86522d3f613569c1db9ecc8b6a52f5ab90179b0601a1a
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sr_31.4.0esr-1~deb7u1_all.deb
+Size: 470958
+MD5sum: aaf7b60049df3b869bbc2ecaac66ab80
+SHA1: 0bc1d86844d10389f90bd0e56b5ab2fdeabf883d
+SHA256: 0fcc6a537427d3b1f9b85007a4c6f2bb9ced5a0f72c9bf5679691b39c7954b6f
 
 Package: iceweasel-l10n-sv-se
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9078,22 +9078,22 @@ SHA1: b9e6ed2a131904514a687c1f1e65faebf2e23399
 SHA256: 9dbf7451bff94d130dd2a51c1560942f4211f002eca290116d17e92222495b90
 
 Package: iceweasel-l10n-sv-se
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 649
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 648
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Swedish (Sweden) language package for Iceweasel
 Description-md5: a0537b5e7bfc29cab7ea9911016ccd73
 Recommends: myspell-sv-se
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sv-se_31.3.0esr-1~deb7u1_all.deb
-Size: 443766
-MD5sum: 6d269c3f51ba4feff12a29a7b4fcd35f
-SHA1: 37fa761218d09b66157ec6429ffef5e38c810f79
-SHA256: b596ab3c5c2448afb3382c9fe966bc853bbbadc3bebeb9f9ef402a56919c635d
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-sv-se_31.4.0esr-1~deb7u1_all.deb
+Size: 443406
+MD5sum: dc01cd4596dd9d5889baedcc15d7dacc
+SHA1: b5937e1582f5aaa9ef116fb6fc1d294a4ede8c80
+SHA256: a95035732e55bbfff1d0f93c4f92178941a38e7125239ce05c55bb452d5eb080
 
 Package: iceweasel-l10n-ta
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9113,21 +9113,21 @@ SHA1: 51c26283d665b3b42d13da7a89a3189cf63e4545
 SHA256: c4888d45f0591c326bd1c4e4df0927fdb29c7c2ef2aab389520036ca1c106111
 
 Package: iceweasel-l10n-ta
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 680
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 679
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Tamil language package for Iceweasel
 Description-md5: 0a2b841e0f5cab1558c628f171e32d22
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ta_31.3.0esr-1~deb7u1_all.deb
-Size: 488996
-MD5sum: 2400a4329bdc12025897a3a31cfac043
-SHA1: 1f15b3971de524f7cb0b8dfb48128fa2aa57f41c
-SHA256: edb84ab118d24dc54f2dab34828a8ae8dbf23a37c73ebbeaa9a5648f83e689d8
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-ta_31.4.0esr-1~deb7u1_all.deb
+Size: 488746
+MD5sum: c8c78689a1ad52277dd1867a1e85f08e
+SHA1: b3190906272ccd1982390426d70d9e1a4d783dd3
+SHA256: 48ac66f0482f731bb38f292bc568d72f2a6bce7a2b810f32dddda50c1c7f4d55
 
 Package: iceweasel-l10n-ta-lk
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9164,21 +9164,21 @@ SHA1: 13c6e0c1866f0f9b0ff5d596e87df793b07c93b2
 SHA256: 6b5df63a67204d67b39ea03a7040861b6142bba9e475a86cc575e3c885e8e282
 
 Package: iceweasel-l10n-te
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 686
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 685
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Telugu language package for Iceweasel
 Description-md5: 1639fa124c8e02641a6b321f4df4ef60
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-te_31.3.0esr-1~deb7u1_all.deb
-Size: 493556
-MD5sum: 852f656cba2329fe45bd48c1611ed01d
-SHA1: a39a389046c9baf61c611e4938d28e4315298dcd
-SHA256: 27d70010e2d874cbc2a30b6a3f0ceda5a3196b325e80efb69d903c8e98676f6a
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-te_31.4.0esr-1~deb7u1_all.deb
+Size: 493304
+MD5sum: 6186b260709106bd0d452a9cff9a9b7d
+SHA1: 33565ee6c57bdc4f631c1e886fbeb12e6f8474de
+SHA256: e80958a6ca8e473dd96d28dbf86c486da092610d114eacc9ccee7c593bec2a42
 
 Package: iceweasel-l10n-th
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9198,21 +9198,21 @@ SHA1: fd270b28d19e52a947afb1bf11980ba490f35169
 SHA256: 3ef89424d0679e846323a2ac0251d17847ea0d0697db37ff261e0abd2e649d3e
 
 Package: iceweasel-l10n-th
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 674
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 673
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Thai language package for Iceweasel
 Description-md5: b2112f4d4fdedd7c157cb0aa53884208
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-th_31.3.0esr-1~deb7u1_all.deb
-Size: 476780
-MD5sum: 42fb8a454a7593818bb4c6ba274b1416
-SHA1: bf3387fe551191cddedc327f7338aabcaea6621e
-SHA256: b707a1ffaea38895170569c8890c1012091927683c11ce9e01932311cd44f40c
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-th_31.4.0esr-1~deb7u1_all.deb
+Size: 476434
+MD5sum: 74f0a342b080624cbcf90bf9b05a5c77
+SHA1: 1aadf155e245d168e5b2c860922974dbe2f9bcd8
+SHA256: 14b58667c21a7c950cbf008df0ef8437303a78fbd1d7fc88803fabc35ac820b4
 
 Package: iceweasel-l10n-tr
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9232,21 +9232,21 @@ SHA1: 75e58be36c50fca90ea808642292390d59ac7753
 SHA256: 7fec37f942d9f25999d7fa60c2674afe4a5eca3d671a93577f87c17b9258af96
 
 Package: iceweasel-l10n-tr
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 633
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 632
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Turkish language package for Iceweasel
 Description-md5: 47b0502d20ebab810d5c2924be0e0a20
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-tr_31.3.0esr-1~deb7u1_all.deb
-Size: 436598
-MD5sum: 5f04fbca22b4e283b527e1d05fe4d7d9
-SHA1: 53acd296cafd3acbe02fc6c57eb222d16be7c5ef
-SHA256: 8607a964dd7ecac7edf89b38c246b3bad8c468cbc37a6f220f031f5c9bfec696
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-tr_31.4.0esr-1~deb7u1_all.deb
+Size: 436330
+MD5sum: 60f5b65b8760ea7dd9c49226d337fa91
+SHA1: bfec9fee7d22106e5ac70db081eac3b19090356a
+SHA256: 3b27c449a9cce98e430f143226a5841480d184e70d818729e23dd9c37448c012
 
 Package: iceweasel-l10n-uk
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9267,22 +9267,22 @@ SHA1: f478f99e6989cea57ff1492f22cedb2d7fc58d7c
 SHA256: 826a4b50576389cccac379576206f11981d96fc828e43664d53661caf7329fea
 
 Package: iceweasel-l10n-uk
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 653
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 652
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Ukrainian language package for Iceweasel
 Description-md5: 50c92946bfd0798d3ad45f6ceafbfb23
 Recommends: myspell-uk
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-uk_31.3.0esr-1~deb7u1_all.deb
-Size: 463592
-MD5sum: 0407eff6bcba60416b8c2faeed17818d
-SHA1: 7e9a5dcfa85f8f57d86802e099f7c4cc022b08e9
-SHA256: 58eea8c4f8e655708d14e07f5299aa3451056a1a0078b917716ab7b93be9fcc5
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-uk_31.4.0esr-1~deb7u1_all.deb
+Size: 463346
+MD5sum: 602412f185bc9cd1408c3e7cb5533331
+SHA1: 3fcf5b432a0a13338ff9579dd74e5d94c7b5fce1
+SHA256: 6bd72106d8dab7b17f34ff622ed3bf0d1a366e8016689fe1675b82358c8bbcce
 
 Package: iceweasel-l10n-vi
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9302,38 +9302,38 @@ SHA1: 493e06caa9f7bd39a68858e57dc0f94a9c3c9850
 SHA256: 58fd8a2d575012b012429f7e7a06863a52c64daab0d7f08fdfd7fb1f71a8327d
 
 Package: iceweasel-l10n-vi
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 648
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 647
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Vietnamese language package for Iceweasel
 Description-md5: c4c4f17b9ca849dc91121fe0aaa2c27b
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-vi_31.3.0esr-1~deb7u1_all.deb
-Size: 450384
-MD5sum: fb7500f6e4a04bf1f66f9d5df50c2568
-SHA1: 6eb850e1660f5e2f24cdc45cce7cead73648e46d
-SHA256: 6d6eccc45a8591bed5a1cd9ace6e450dbe31f363a3271e10856a0aa50f5c678f
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-vi_31.4.0esr-1~deb7u1_all.deb
+Size: 450064
+MD5sum: d7a3d1687c53bffa9eb76208cf8a098e
+SHA1: 0bff55875d3b65fc7c14c2865695675fa4d0e5c4
+SHA256: 1dc4e36ab852f690425b873dd816df2778b12f035a83e04f63ddc8aaaeadeb74
 
 Package: iceweasel-l10n-xh
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 627
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 626
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Xhosa language package for Iceweasel
 Description-md5: 6de78029796736111db056f096bcf2b2
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-xh_31.3.0esr-1~deb7u1_all.deb
-Size: 433676
-MD5sum: f26594b1ac9dfde63ce31af62cedb7da
-SHA1: 99d7315a0a64cd3ee0c27a81fe950bee20fab892
-SHA256: 292cee67158c98dafbc7cfce26842e6543d60703a91b586b7991a13cf083509e
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-xh_31.4.0esr-1~deb7u1_all.deb
+Size: 433410
+MD5sum: 75b4b1253a71ad26da20c2820a1de637
+SHA1: c3be4d01a22b6ba79574aca057923354a6ec2843
+SHA256: c156419baa7d6759f4c272d82fb04b44303038af47b9d29528f48bfdcf48ce13
 
 Package: iceweasel-l10n-zh-cn
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9353,21 +9353,21 @@ SHA1: 1cc2c15209543d87d9f6460d1e8a63553212b984
 SHA256: b8c527c6e87b9b5982c2b2e2f0bd8df195bd33c6b50cb4b0023c04334fb96769
 
 Package: iceweasel-l10n-zh-cn
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 670
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Chinese (China) language package for Iceweasel
 Description-md5: 62080ea81f95abc6c62f078ab2ea9ac9
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zh-cn_31.3.0esr-1~deb7u1_all.deb
-Size: 460606
-MD5sum: 580c486c2199ce2d3af9a9edf2dc2549
-SHA1: b571eec4d33b922c559078421d19d6be89787d52
-SHA256: 11d037deb061bb8eb6c59e90db291792befd7ab10cceaa1a7b4e431181cb5071
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zh-cn_31.4.0esr-1~deb7u1_all.deb
+Size: 460350
+MD5sum: 57e0e2cc54f6bd0282516dd25a4ddde1
+SHA1: 2d29b308d1cbfcb785fadb1ae28aa7dece4f2483
+SHA256: 679f7254259652a0846e5f4c78d0bb4e5a614cdba42db47821e8549466f36817
 
 Package: iceweasel-l10n-zh-tw
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9387,21 +9387,21 @@ SHA1: 7b73a29d1af300d7b8026e9fe5515d03e25deccc
 SHA256: 5ce7578a2c6d54d4a193263331ad2204cc10ef3e5b2251206a711f58490570bd
 
 Package: iceweasel-l10n-zh-tw
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
 Installed-Size: 648
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Chinese (Taiwan) language package for Iceweasel
 Description-md5: 2a16c787e64eb9bf3639f9ab4736b50e
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zh-tw_31.3.0esr-1~deb7u1_all.deb
-Size: 450256
-MD5sum: 63c2d8ea139511a1f176e886271544ee
-SHA1: f978486b59851b62c938eed1e017fa0a60a1a54e
-SHA256: 99991898b52fbc4d1bf70448667ce54a33daf11d1742d3501e6a2032c60f0f12
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zh-tw_31.4.0esr-1~deb7u1_all.deb
+Size: 450012
+MD5sum: 4f704fa15caed08e5932b57de59dcbdf
+SHA1: 2ba6e20580f1072dc61632b76c8214b919087bfe
+SHA256: 1b9ec7a894011e55fef0e673985074eac0ddbd2ba43fe9a939a1326a69cb5337
 
 Package: iceweasel-l10n-zu
 Source: iceweasel (17.0.10esr-1~deb7u1)
@@ -9421,21 +9421,21 @@ SHA1: a544079731aed0731d36f1c3534eb348be27ecef
 SHA256: cd13eecd0c7b8db1da39e05853eab7ff87dbabbf5756b803523858666ab40653
 
 Package: iceweasel-l10n-zu
-Source: iceweasel (31.3.0esr-1~deb7u1)
-Version: 1:31.3.0esr-1~deb7u1
-Installed-Size: 615
+Source: iceweasel (31.4.0esr-1~deb7u1)
+Version: 1:31.4.0esr-1~deb7u1
+Installed-Size: 614
 Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
 Architecture: all
-Depends: iceweasel (>= 31.3.0esr-1~deb7u1), iceweasel (<< 31.3.0esr-1~deb7u1.1~)
+Depends: iceweasel (>= 31.4.0esr-1~deb7u1), iceweasel (<< 31.4.0esr-1~deb7u1.1~)
 Description: Zulu language package for Iceweasel
 Description-md5: 4c47ad14c32f74f871d1f96a2cebf582
 Section: localization
 Priority: optional
-Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zu_31.3.0esr-1~deb7u1_all.deb
-Size: 422772
-MD5sum: 8905a48117f6baaa888e8a256eeeb185
-SHA1: 3152f8015941abcb5f5e842ccb74b48927fc51c1
-SHA256: 011bff7ee43ba20f9c3184e591a1b04a449426256bccca0da74d4fbda48ce583
+Filename: pool/updates/main/i/iceweasel/iceweasel-l10n-zu_31.4.0esr-1~deb7u1_all.deb
+Size: 422382
+MD5sum: 71ea2fe5ad87ee77a54321d0fd4d6c60
+SHA1: d1e41d88214a44bfe4890cb02028bbb894db02eb
+SHA256: b023193980c8762a1553bc15935fb62c660fe641ce164d1776b77683c6fd6b9b
 
 Package: libmozjs17d
 Source: iceweasel
