@@ -6614,7 +6614,7 @@ Binary: linux-source-3.2, linux-doc-3.2, linux-manual-3.2, linux-support-3.2.0-4
  nbd-modules-3.2.0-4-sh7785lcr-di, squashfs-modules-3.2.0-4-sh7785lcr-di, speakup-modules-3.2.0-4-sh7785lcr-di, sound-modules-3.2.0-4-sh7785lcr-di, zlib-modules-3.2.0-4-sh7785lcr-di, udf-modules-3.2.0-4-sh7785lcr-di, fuse-modules-3.2.0-4-sh7785lcr-di, linux-image-3.2.0-4-sh7751r, linux-headers-3.2.0-4-sh7751r, linux-image-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-sh7785lcr, linux-headers-3.2.0-4-all-sparc, kernel-image-3.2.0-4-sparc64-di, nic-modules-3.2.0-4-sparc64-di, ppp-modules-3.2.0-4-sparc64-di, pata-modules-3.2.0-4-sparc64-di, cdrom-core-modules-3.2.0-4-sparc64-di, scsi-core-modules-3.2.0-4-sparc64-di, scsi-modules-3.2.0-4-sparc64-di, scsi-common-modules-3.2.0-4-sparc64-di, plip-modules-3.2.0-4-sparc64-di, btrfs-modules-3.2.0-4-sparc64-di, ext2-modules-3.2.0-4-sparc64-di, ext3-modules-3.2.0-4-sparc64-di, ext4-modules-3.2.0-4-sparc64-di, isofs-modules-3.2.0-4-sparc64-di, jfs-modules-3.2.0-4-sparc64-di, reiserfs-modules-3.2.0-4-sparc64-di,
  xfs-modules-3.2.0-4-sparc64-di, fat-modules-3.2.0-4-sparc64-di, md-modules-3.2.0-4-sparc64-di, multipath-modules-3.2.0-4-sparc64-di, usb-modules-3.2.0-4-sparc64-di, usb-storage-modules-3.2.0-4-sparc64-di, input-modules-3.2.0-4-sparc64-di, sata-modules-3.2.0-4-sparc64-di, core-modules-3.2.0-4-sparc64-di, crypto-modules-3.2.0-4-sparc64-di, crypto-dm-modules-3.2.0-4-sparc64-di, ata-modules-3.2.0-4-sparc64-di, nbd-modules-3.2.0-4-sparc64-di, squashfs-modules-3.2.0-4-sparc64-di, virtio-modules-3.2.0-4-sparc64-di, zlib-modules-3.2.0-4-sparc64-di, udf-modules-3.2.0-4-sparc64-di, fuse-modules-3.2.0-4-sparc64-di, linux-image-3.2.0-4-sparc64, linux-headers-3.2.0-4-sparc64, linux-image-3.2.0-4-sparc64-smp, linux-headers-3.2.0-4-sparc64-smp,
  linux-headers-3.2.0-4-all-sparc64
-Version: 3.2.63-2+deb7u2
+Version: 3.2.65-1+deb7u1
 Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 Uploaders: Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
 Build-Depends: debhelper (>> 7), cpio, kmod | module-init-tools, python (>= 2.7), lzma [armel], kernel-wedge (>= 2.84), quilt, patchutils, gcc-4.6 [alpha amd64 armel armhf i386 ia64 m68k mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64], gcc-4.4 [hppa], binutils-hppa64 [hppa], gcc-4.4-hppa64 [hppa]
@@ -6622,1067 +6622,1067 @@ Architecture: all alpha amd64 armel armhf hppa i386 ia64 m68k mips mipsel powerp
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- 570effc7b85fc1e100c2ccbee2ffb9f1 103062 linux_3.2.63-2+deb7u2.dsc
- 923bf49991e0fef2418e00fbb5b5e891 65919780 linux_3.2.63.orig.tar.xz
- 16b81a01fd6eeddd66c367384e7fcb4f 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
+ 5dd48eb2e3e31cf5fbc025c018c3ec38 115759 linux_3.2.65-1+deb7u1.dsc
+ bd70e486fb7c478d1ddd069c6cc69c67 65927500 linux_3.2.65.orig.tar.xz
+ 3e416ac91a72afccf624be7e1d955170 3657972 linux_3.2.65-1+deb7u1.debian.tar.xz
 Vcs-Browser: http://anonscm.debian.org/viewvc/kernel/dists/trunk/linux/
 Checksums-Sha1:
- 6bd26e6cc0a75bd0f7400ae2cb39c1c3c7e4fa9d 103062 linux_3.2.63-2+deb7u2.dsc
- 378c1420cc82b3c00786d3a6e65e8bb82e5aa385 65919780 linux_3.2.63.orig.tar.xz
- 2e6782e4d667068b6ee7a77baa9ff589e76e727f 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
+ 27f53d8de7b978e11372b5de96258bdadb17ca23 115759 linux_3.2.65-1+deb7u1.dsc
+ 7ab97ca9a018bbe126b17ba4438011e8e027b025 65927500 linux_3.2.65.orig.tar.xz
+ dabb47163054aa26bf4f2e0984b7fc6f9db1b632 3657972 linux_3.2.65-1+deb7u1.debian.tar.xz
 Checksums-Sha256:
- 43f4fb34db90558685ef27bd1618646a9d759fe38c00a1c5491b3be60e28e4e6 103062 linux_3.2.63-2+deb7u2.dsc
- bad50f8e053466f9f50984ee75b2cf19c81388df38764c58e80db23245707cb1 65919780 linux_3.2.63.orig.tar.xz
- 41d760a3021a2abc3729fd7eeb191ed5db13dd06fb278c914f27bf895174c00b 3672004 linux_3.2.63-2+deb7u2.debian.tar.xz
+ 6d4ad02df91ba31873c8b4f47fd535d1c858957d98aea53822f561142303b8fa 115759 linux_3.2.65-1+deb7u1.dsc
+ 88e8524478c3431d251846f9119e7ffd420d20302d1cd6db75ced55c973fb411 65927500 linux_3.2.65.orig.tar.xz
+ f5cf179757e0f60ecb351ce59ed90d32c37e5b0974928d6137babfad210cd2c8 3657972 linux_3.2.65-1+deb7u1.debian.tar.xz
 Build-Depends-Indep: bzip2, xmlto
 Package-List: 
- acpi-modules-3.2.0-4-486-di udeb debian-installer extra
- acpi-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- acpi-modules-3.2.0-4-amd64-di udeb debian-installer extra
- affs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- affs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- ata-modules-3.2.0-4-486-di udeb debian-installer extra
- ata-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- ata-modules-3.2.0-4-amd64-di udeb debian-installer extra
- ata-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- ata-modules-3.2.0-4-itanium-di udeb debian-installer extra
- ata-modules-3.2.0-4-mx5-di udeb debian-installer extra
- ata-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- ata-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- ata-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-486-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-atari-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-mac-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-parisc-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
- btrfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- cdrom-core-modules-3.2.0-4-486-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-amiga-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-atari-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-mac-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-parisc-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- cdrom-core-modules-3.2.0-4-versatile-di udeb debian-installer standard
- core-modules-3.2.0-4-486-di udeb debian-installer standard
- core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- core-modules-3.2.0-4-amd64-di udeb debian-installer standard
- core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- core-modules-3.2.0-4-itanium-di udeb debian-installer standard
- core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- core-modules-3.2.0-4-mx5-di udeb debian-installer standard
- core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- core-modules-3.2.0-4-s390x-di udeb debian-installer standard
- core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- core-modules-3.2.0-4-versatile-di udeb debian-installer standard
- core-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- crc-modules-3.2.0-4-486-di udeb debian-installer extra
- crc-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- crc-modules-3.2.0-4-amd64-di udeb debian-installer extra
- crc-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- crc-modules-3.2.0-4-itanium-di udeb debian-installer extra
- crc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- crc-modules-3.2.0-4-mx5-di udeb debian-installer extra
- crc-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- crc-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- crc-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- crc-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- crc-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- crc-modules-3.2.0-4-versatile-di udeb debian-installer extra
- crc-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-486-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-amd64-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-itanium-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-mx5-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-parisc-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-s390x-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-versatile-di udeb debian-installer extra
- crypto-dm-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- crypto-modules-3.2.0-4-486-di udeb debian-installer extra
- crypto-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- crypto-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- crypto-modules-3.2.0-4-amd64-di udeb debian-installer extra
- crypto-modules-3.2.0-4-amiga-di udeb debian-installer extra
- crypto-modules-3.2.0-4-atari-di udeb debian-installer extra
- crypto-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- crypto-modules-3.2.0-4-itanium-di udeb debian-installer extra
- crypto-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- crypto-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- crypto-modules-3.2.0-4-mac-di udeb debian-installer extra
- crypto-modules-3.2.0-4-mx5-di udeb debian-installer extra
- crypto-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- crypto-modules-3.2.0-4-parisc-di udeb debian-installer extra
- crypto-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- crypto-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- crypto-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- crypto-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- crypto-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- crypto-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- crypto-modules-3.2.0-4-s390x-di udeb debian-installer extra
- crypto-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- crypto-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- crypto-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- crypto-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- crypto-modules-3.2.0-4-versatile-di udeb debian-installer extra
- crypto-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- dasd-extra-modules-3.2.0-4-s390x-di udeb debian-installer extra
- dasd-modules-3.2.0-4-s390x-di udeb debian-installer standard
- efi-modules-3.2.0-4-486-di udeb debian-installer extra
- efi-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- efi-modules-3.2.0-4-amd64-di udeb debian-installer extra
- event-modules-3.2.0-4-486-di udeb debian-installer extra
- event-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- event-modules-3.2.0-4-amd64-di udeb debian-installer extra
- event-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- event-modules-3.2.0-4-itanium-di udeb debian-installer extra
- event-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- event-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- event-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- event-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- ext2-modules-3.2.0-4-486-di udeb debian-installer standard
- ext2-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- ext2-modules-3.2.0-4-amd64-di udeb debian-installer standard
- ext2-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- ext2-modules-3.2.0-4-itanium-di udeb debian-installer standard
- ext2-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- ext2-modules-3.2.0-4-mx5-di udeb debian-installer standard
- ext2-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- ext2-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- ext2-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- ext2-modules-3.2.0-4-s390x-di udeb debian-installer standard
- ext2-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- ext2-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- ext2-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- ext2-modules-3.2.0-4-versatile-di udeb debian-installer standard
- ext2-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- ext3-modules-3.2.0-4-486-di udeb debian-installer standard
- ext3-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- ext3-modules-3.2.0-4-amd64-di udeb debian-installer standard
- ext3-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- ext3-modules-3.2.0-4-itanium-di udeb debian-installer standard
- ext3-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- ext3-modules-3.2.0-4-mx5-di udeb debian-installer standard
- ext3-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- ext3-modules-3.2.0-4-parisc-di udeb debian-installer standard
- ext3-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- ext3-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- ext3-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- ext3-modules-3.2.0-4-s390x-di udeb debian-installer standard
- ext3-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- ext3-modules-3.2.0-4-versatile-di udeb debian-installer standard
- ext3-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- ext4-modules-3.2.0-4-486-di udeb debian-installer standard
- ext4-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- ext4-modules-3.2.0-4-amd64-di udeb debian-installer standard
- ext4-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- ext4-modules-3.2.0-4-itanium-di udeb debian-installer standard
- ext4-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- ext4-modules-3.2.0-4-mx5-di udeb debian-installer standard
- ext4-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- ext4-modules-3.2.0-4-parisc-di udeb debian-installer standard
- ext4-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- ext4-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- ext4-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- ext4-modules-3.2.0-4-s390x-di udeb debian-installer standard
- ext4-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- ext4-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- ext4-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- ext4-modules-3.2.0-4-versatile-di udeb debian-installer standard
- ext4-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- fancontrol-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- fat-modules-3.2.0-4-486-di udeb debian-installer standard
- fat-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- fat-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- fat-modules-3.2.0-4-amd64-di udeb debian-installer standard
- fat-modules-3.2.0-4-amiga-di udeb debian-installer extra
- fat-modules-3.2.0-4-atari-di udeb debian-installer extra
- fat-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- fat-modules-3.2.0-4-itanium-di udeb debian-installer standard
- fat-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- fat-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- fat-modules-3.2.0-4-mac-di udeb debian-installer extra
- fat-modules-3.2.0-4-mx5-di udeb debian-installer extra
- fat-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- fat-modules-3.2.0-4-parisc-di udeb debian-installer extra
- fat-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- fat-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- fat-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- fat-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- fat-modules-3.2.0-4-s390x-di udeb debian-installer extra
- fat-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- fat-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- fat-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- fat-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- fat-modules-3.2.0-4-versatile-di udeb debian-installer extra
- fat-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- fb-modules-3.2.0-4-486-di udeb debian-installer extra
- fb-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- fb-modules-3.2.0-4-amd64-di udeb debian-installer extra
- fb-modules-3.2.0-4-itanium-di udeb debian-installer extra
- fb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- fb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- firewire-core-modules-3.2.0-4-486-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- firewire-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- floppy-modules-3.2.0-4-486-di udeb debian-installer standard
- floppy-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- floppy-modules-3.2.0-4-amd64-di udeb debian-installer standard
- floppy-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- floppy-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- fuse-modules-3.2.0-4-486-di udeb debian-installer extra
- fuse-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- fuse-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- fuse-modules-3.2.0-4-amd64-di udeb debian-installer extra
- fuse-modules-3.2.0-4-amiga-di udeb debian-installer extra
- fuse-modules-3.2.0-4-atari-di udeb debian-installer extra
- fuse-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- fuse-modules-3.2.0-4-itanium-di udeb debian-installer extra
- fuse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- fuse-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- fuse-modules-3.2.0-4-mac-di udeb debian-installer extra
- fuse-modules-3.2.0-4-mx5-di udeb debian-installer extra
- fuse-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- fuse-modules-3.2.0-4-parisc-di udeb debian-installer extra
- fuse-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- fuse-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- fuse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- fuse-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- fuse-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- fuse-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- fuse-modules-3.2.0-4-s390x-di udeb debian-installer extra
- fuse-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- fuse-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- fuse-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- fuse-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- fuse-modules-3.2.0-4-versatile-di udeb debian-installer extra
- fuse-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- hfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- hfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- hyperv-modules-3.2.0-4-486-di udeb debian-installer extra
- hyperv-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- hyperv-modules-3.2.0-4-amd64-di udeb debian-installer extra
- hypervisor-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- i2c-modules-3.2.0-4-486-di udeb debian-installer extra
- i2c-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- i2c-modules-3.2.0-4-amd64-di udeb debian-installer extra
- i2c-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- ide-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
- ide-modules-3.2.0-4-itanium-di udeb debian-installer standard
- input-modules-3.2.0-4-486-di udeb debian-installer extra
- input-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- input-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- input-modules-3.2.0-4-amd64-di udeb debian-installer extra
- input-modules-3.2.0-4-itanium-di udeb debian-installer extra
- input-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- input-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- input-modules-3.2.0-4-mx5-di udeb debian-installer extra
- input-modules-3.2.0-4-parisc-di udeb debian-installer extra
- input-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- input-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- input-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- input-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- input-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- input-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-amiga-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-atari-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-mac-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-mx5-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-parisc-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-versatile-di udeb debian-installer extra
- ipv6-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- irda-modules-3.2.0-4-486-di udeb debian-installer extra
- irda-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- irda-modules-3.2.0-4-amd64-di udeb debian-installer extra
- irda-modules-3.2.0-4-itanium-di udeb debian-installer extra
- irda-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- irda-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- isofs-modules-3.2.0-4-486-di udeb debian-installer standard
- isofs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- isofs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- isofs-modules-3.2.0-4-amd64-di udeb debian-installer standard
- isofs-modules-3.2.0-4-amiga-di udeb debian-installer standard
- isofs-modules-3.2.0-4-atari-di udeb debian-installer standard
- isofs-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- isofs-modules-3.2.0-4-itanium-di udeb debian-installer standard
- isofs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- isofs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- isofs-modules-3.2.0-4-mac-di udeb debian-installer standard
- isofs-modules-3.2.0-4-mx5-di udeb debian-installer standard
- isofs-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- isofs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- isofs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- isofs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
- isofs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
- isofs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- isofs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- isofs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- isofs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- isofs-modules-3.2.0-4-versatile-di udeb debian-installer standard
- isofs-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- jffs2-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- jffs2-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- jfs-modules-3.2.0-4-486-di udeb debian-installer standard
- jfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- jfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- jfs-modules-3.2.0-4-amd64-di udeb debian-installer standard
- jfs-modules-3.2.0-4-amiga-di udeb debian-installer standard
- jfs-modules-3.2.0-4-atari-di udeb debian-installer standard
- jfs-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- jfs-modules-3.2.0-4-itanium-di udeb debian-installer standard
- jfs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- jfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- jfs-modules-3.2.0-4-mac-di udeb debian-installer standard
- jfs-modules-3.2.0-4-mx5-di udeb debian-installer standard
- jfs-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- jfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- jfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- jfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
- jfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
- jfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
- jfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- jfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- jfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- jfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- jfs-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- kernel-image-3.2.0-4-486-di udeb debian-installer extra
- kernel-image-3.2.0-4-4kc-malta-di udeb debian-installer extra
- kernel-image-3.2.0-4-686-pae-di udeb debian-installer extra
- kernel-image-3.2.0-4-amd64-di udeb debian-installer extra
- kernel-image-3.2.0-4-amiga-di udeb debian-installer extra
- kernel-image-3.2.0-4-atari-di udeb debian-installer extra
- kernel-image-3.2.0-4-iop32x-di udeb debian-installer extra
- kernel-image-3.2.0-4-itanium-di udeb debian-installer extra
- kernel-image-3.2.0-4-kirkwood-di udeb debian-installer extra
- kernel-image-3.2.0-4-loongson-2f-di udeb debian-installer extra
- kernel-image-3.2.0-4-mac-di udeb debian-installer extra
- kernel-image-3.2.0-4-mx5-di udeb debian-installer extra
- kernel-image-3.2.0-4-orion5x-di udeb debian-installer extra
- kernel-image-3.2.0-4-parisc-di udeb debian-installer extra
- kernel-image-3.2.0-4-parisc64-di udeb debian-installer extra
- kernel-image-3.2.0-4-powerpc-di udeb debian-installer extra
- kernel-image-3.2.0-4-powerpc64-di udeb debian-installer extra
- kernel-image-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- kernel-image-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- kernel-image-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- kernel-image-3.2.0-4-s390x-di udeb debian-installer extra
- kernel-image-3.2.0-4-s390x-tape-di udeb debian-installer extra
- kernel-image-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- kernel-image-3.2.0-4-sh7751r-di udeb debian-installer extra
- kernel-image-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- kernel-image-3.2.0-4-sparc64-di udeb debian-installer extra
- kernel-image-3.2.0-4-versatile-di udeb debian-installer extra
- kernel-image-3.2.0-4-vexpress-di udeb debian-installer extra
- leds-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- linux-doc-3.2 deb doc optional
- linux-headers-3.2.0-4-486 deb kernel optional
- linux-headers-3.2.0-4-4kc-malta deb kernel optional
- linux-headers-3.2.0-4-5kc-malta deb kernel optional
- linux-headers-3.2.0-4-686-pae deb kernel optional
- linux-headers-3.2.0-4-all deb kernel optional
- linux-headers-3.2.0-4-all-alpha deb kernel optional
- linux-headers-3.2.0-4-all-amd64 deb kernel optional
- linux-headers-3.2.0-4-all-armel deb kernel optional
- linux-headers-3.2.0-4-all-armhf deb kernel optional
- linux-headers-3.2.0-4-all-hppa deb kernel optional
- linux-headers-3.2.0-4-all-i386 deb kernel optional
- linux-headers-3.2.0-4-all-ia64 deb kernel optional
- linux-headers-3.2.0-4-all-m68k deb kernel optional
- linux-headers-3.2.0-4-all-mips deb kernel optional
- linux-headers-3.2.0-4-all-mipsel deb kernel optional
- linux-headers-3.2.0-4-all-powerpc deb kernel optional
- linux-headers-3.2.0-4-all-ppc64 deb kernel optional
- linux-headers-3.2.0-4-all-s390 deb kernel optional
- linux-headers-3.2.0-4-all-s390x deb kernel optional
- linux-headers-3.2.0-4-all-sh4 deb kernel optional
- linux-headers-3.2.0-4-all-sparc deb kernel optional
- linux-headers-3.2.0-4-all-sparc64 deb kernel optional
- linux-headers-3.2.0-4-alpha-generic deb kernel optional
- linux-headers-3.2.0-4-alpha-legacy deb kernel optional
- linux-headers-3.2.0-4-alpha-smp deb kernel optional
- linux-headers-3.2.0-4-amd64 deb kernel optional
- linux-headers-3.2.0-4-amiga deb kernel optional
- linux-headers-3.2.0-4-atari deb kernel optional
- linux-headers-3.2.0-4-bvme6000 deb kernel optional
- linux-headers-3.2.0-4-common deb kernel optional
- linux-headers-3.2.0-4-common-rt deb kernel optional
- linux-headers-3.2.0-4-iop32x deb kernel optional
- linux-headers-3.2.0-4-itanium deb kernel optional
- linux-headers-3.2.0-4-ixp4xx deb kernel optional
- linux-headers-3.2.0-4-kirkwood deb kernel optional
- linux-headers-3.2.0-4-loongson-2f deb kernel optional
- linux-headers-3.2.0-4-mac deb kernel optional
- linux-headers-3.2.0-4-mckinley deb kernel optional
- linux-headers-3.2.0-4-mv78xx0 deb kernel optional
- linux-headers-3.2.0-4-mvme147 deb kernel optional
- linux-headers-3.2.0-4-mvme16x deb kernel optional
- linux-headers-3.2.0-4-mx5 deb kernel optional
- linux-headers-3.2.0-4-octeon deb kernel optional
- linux-headers-3.2.0-4-omap deb kernel optional
- linux-headers-3.2.0-4-orion5x deb kernel optional
- linux-headers-3.2.0-4-parisc deb kernel optional
- linux-headers-3.2.0-4-parisc-smp deb kernel optional
- linux-headers-3.2.0-4-parisc64 deb kernel optional
- linux-headers-3.2.0-4-parisc64-smp deb kernel optional
- linux-headers-3.2.0-4-powerpc deb kernel optional
- linux-headers-3.2.0-4-powerpc-smp deb kernel optional
- linux-headers-3.2.0-4-powerpc64 deb kernel optional
- linux-headers-3.2.0-4-r4k-ip22 deb kernel optional
- linux-headers-3.2.0-4-r5k-cobalt deb kernel optional
- linux-headers-3.2.0-4-r5k-ip32 deb kernel optional
- linux-headers-3.2.0-4-rt-686-pae deb kernel optional
- linux-headers-3.2.0-4-rt-amd64 deb kernel optional
- linux-headers-3.2.0-4-s390x deb kernel optional
- linux-headers-3.2.0-4-sb1-bcm91250a deb kernel optional
- linux-headers-3.2.0-4-sb1a-bcm91480b deb kernel optional
- linux-headers-3.2.0-4-sh7751r deb kernel optional
- linux-headers-3.2.0-4-sh7785lcr deb kernel optional
- linux-headers-3.2.0-4-sparc64 deb kernel optional
- linux-headers-3.2.0-4-sparc64-smp deb kernel optional
- linux-headers-3.2.0-4-versatile deb kernel optional
- linux-headers-3.2.0-4-vexpress deb kernel optional
- linux-image-3.2.0-4-486 deb kernel optional
- linux-image-3.2.0-4-4kc-malta deb kernel optional
- linux-image-3.2.0-4-5kc-malta deb kernel optional
- linux-image-3.2.0-4-686-pae deb kernel optional
- linux-image-3.2.0-4-686-pae-dbg deb debug extra
- linux-image-3.2.0-4-alpha-generic deb kernel optional
- linux-image-3.2.0-4-alpha-legacy deb kernel optional
- linux-image-3.2.0-4-alpha-smp deb kernel optional
- linux-image-3.2.0-4-amd64 deb kernel optional
- linux-image-3.2.0-4-amd64-dbg deb debug extra
- linux-image-3.2.0-4-amiga deb kernel optional
- linux-image-3.2.0-4-atari deb kernel optional
- linux-image-3.2.0-4-bvme6000 deb kernel optional
- linux-image-3.2.0-4-iop32x deb kernel optional
- linux-image-3.2.0-4-itanium deb kernel optional
- linux-image-3.2.0-4-ixp4xx deb kernel optional
- linux-image-3.2.0-4-kirkwood deb kernel optional
- linux-image-3.2.0-4-loongson-2f deb kernel optional
- linux-image-3.2.0-4-mac deb kernel optional
- linux-image-3.2.0-4-mckinley deb kernel optional
- linux-image-3.2.0-4-mv78xx0 deb kernel optional
- linux-image-3.2.0-4-mvme147 deb kernel optional
- linux-image-3.2.0-4-mvme16x deb kernel optional
- linux-image-3.2.0-4-mx5 deb kernel optional
- linux-image-3.2.0-4-octeon deb kernel optional
- linux-image-3.2.0-4-omap deb kernel optional
- linux-image-3.2.0-4-orion5x deb kernel optional
- linux-image-3.2.0-4-parisc deb kernel optional
- linux-image-3.2.0-4-parisc-smp deb kernel optional
- linux-image-3.2.0-4-parisc64 deb kernel optional
- linux-image-3.2.0-4-parisc64-smp deb kernel optional
- linux-image-3.2.0-4-powerpc deb kernel optional
- linux-image-3.2.0-4-powerpc-smp deb kernel optional
- linux-image-3.2.0-4-powerpc64 deb kernel optional
- linux-image-3.2.0-4-r4k-ip22 deb kernel optional
- linux-image-3.2.0-4-r5k-cobalt deb kernel optional
- linux-image-3.2.0-4-r5k-ip32 deb kernel optional
- linux-image-3.2.0-4-rt-686-pae deb kernel optional
- linux-image-3.2.0-4-rt-686-pae-dbg deb debug extra
- linux-image-3.2.0-4-rt-amd64 deb kernel optional
- linux-image-3.2.0-4-rt-amd64-dbg deb debug extra
- linux-image-3.2.0-4-s390x deb kernel optional
- linux-image-3.2.0-4-s390x-dbg deb debug extra
- linux-image-3.2.0-4-s390x-tape deb kernel optional
- linux-image-3.2.0-4-sb1-bcm91250a deb kernel optional
- linux-image-3.2.0-4-sb1a-bcm91480b deb kernel optional
- linux-image-3.2.0-4-sh7751r deb kernel optional
- linux-image-3.2.0-4-sh7785lcr deb kernel optional
- linux-image-3.2.0-4-sparc64 deb kernel optional
- linux-image-3.2.0-4-sparc64-smp deb kernel optional
- linux-image-3.2.0-4-versatile deb kernel optional
- linux-image-3.2.0-4-vexpress deb kernel optional
- linux-libc-dev deb devel optional
- linux-manual-3.2 deb doc optional
- linux-source-3.2 deb kernel optional
- linux-support-3.2.0-4 deb devel optional
- loop-modules-3.2.0-4-486-di udeb debian-installer standard
- loop-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- loop-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- loop-modules-3.2.0-4-amd64-di udeb debian-installer standard
- loop-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- loop-modules-3.2.0-4-itanium-di udeb debian-installer standard
- loop-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- loop-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- loop-modules-3.2.0-4-mx5-di udeb debian-installer standard
- loop-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- loop-modules-3.2.0-4-parisc-di udeb debian-installer standard
- loop-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- loop-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- loop-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- loop-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
- loop-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
- loop-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
- loop-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- loop-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- loop-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- loop-modules-3.2.0-4-versatile-di udeb debian-installer standard
- loop-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- md-modules-3.2.0-4-486-di udeb debian-installer extra
- md-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- md-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- md-modules-3.2.0-4-amd64-di udeb debian-installer extra
- md-modules-3.2.0-4-amiga-di udeb debian-installer extra
- md-modules-3.2.0-4-atari-di udeb debian-installer extra
- md-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- md-modules-3.2.0-4-itanium-di udeb debian-installer extra
- md-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- md-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- md-modules-3.2.0-4-mac-di udeb debian-installer extra
- md-modules-3.2.0-4-mx5-di udeb debian-installer extra
- md-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- md-modules-3.2.0-4-parisc-di udeb debian-installer extra
- md-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- md-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- md-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- md-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- md-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- md-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- md-modules-3.2.0-4-s390x-di udeb debian-installer extra
- md-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- md-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- md-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- md-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- md-modules-3.2.0-4-versatile-di udeb debian-installer extra
- md-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- minix-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- minix-modules-3.2.0-4-mx5-di udeb debian-installer extra
- minix-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- minix-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- minix-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- mmc-core-modules-3.2.0-4-486-di udeb debian-installer extra
- mmc-core-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- mmc-core-modules-3.2.0-4-amd64-di udeb debian-installer extra
- mmc-modules-3.2.0-4-486-di udeb debian-installer extra
- mmc-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- mmc-modules-3.2.0-4-amd64-di udeb debian-installer extra
- mmc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- mmc-modules-3.2.0-4-mx5-di udeb debian-installer extra
- mmc-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- mouse-modules-3.2.0-4-486-di udeb debian-installer extra
- mouse-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- mouse-modules-3.2.0-4-amd64-di udeb debian-installer extra
- mouse-modules-3.2.0-4-itanium-di udeb debian-installer extra
- mouse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- mouse-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- mouse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- mtd-modules-3.2.0-4-mx5-di udeb debian-installer extra
- multipath-modules-3.2.0-4-486-di udeb debian-installer extra
- multipath-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- multipath-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- multipath-modules-3.2.0-4-amd64-di udeb debian-installer extra
- multipath-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- multipath-modules-3.2.0-4-itanium-di udeb debian-installer extra
- multipath-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- multipath-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- multipath-modules-3.2.0-4-mx5-di udeb debian-installer extra
- multipath-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- multipath-modules-3.2.0-4-parisc-di udeb debian-installer extra
- multipath-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- multipath-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- multipath-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- multipath-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- multipath-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- multipath-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- multipath-modules-3.2.0-4-s390x-di udeb debian-installer extra
- multipath-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- multipath-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- multipath-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- multipath-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- multipath-modules-3.2.0-4-versatile-di udeb debian-installer extra
- multipath-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- nbd-modules-3.2.0-4-486-di udeb debian-installer extra
- nbd-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- nbd-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- nbd-modules-3.2.0-4-amd64-di udeb debian-installer extra
- nbd-modules-3.2.0-4-amiga-di udeb debian-installer extra
- nbd-modules-3.2.0-4-atari-di udeb debian-installer extra
- nbd-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- nbd-modules-3.2.0-4-itanium-di udeb debian-installer extra
- nbd-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- nbd-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- nbd-modules-3.2.0-4-mac-di udeb debian-installer extra
- nbd-modules-3.2.0-4-mx5-di udeb debian-installer extra
- nbd-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- nbd-modules-3.2.0-4-parisc-di udeb debian-installer extra
- nbd-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- nbd-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- nbd-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- nbd-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- nbd-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- nbd-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- nbd-modules-3.2.0-4-s390x-di udeb debian-installer extra
- nbd-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- nbd-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- nbd-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- nbd-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- nbd-modules-3.2.0-4-versatile-di udeb debian-installer extra
- nbd-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- nfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- nic-extra-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- nic-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- nic-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- nic-modules-3.2.0-4-itanium-di udeb debian-installer standard
- nic-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- nic-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- nic-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- nic-modules-3.2.0-4-parisc-di udeb debian-installer standard
- nic-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- nic-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- nic-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- nic-modules-3.2.0-4-s390x-di udeb debian-installer standard
- nic-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- nic-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- nic-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- nic-modules-3.2.0-4-versatile-di udeb debian-installer standard
- nic-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- nic-pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- nic-pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-amiga-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-atari-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-itanium-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-mac-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-mx5-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-versatile-di udeb debian-installer standard
- nic-shared-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-itanium-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-mx5-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-versatile-di udeb debian-installer standard
- nic-usb-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- nic-wireless-modules-3.2.0-4-486-di udeb debian-installer standard
- nic-wireless-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- nic-wireless-modules-3.2.0-4-amd64-di udeb debian-installer standard
- nic-wireless-modules-3.2.0-4-mx5-di udeb debian-installer standard
- nic-wireless-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- ntfs-modules-3.2.0-4-486-di udeb debian-installer extra
- ntfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- ntfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
- ntfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
- parport-modules-3.2.0-4-486-di udeb debian-installer extra
- parport-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- parport-modules-3.2.0-4-amd64-di udeb debian-installer extra
- parport-modules-3.2.0-4-itanium-di udeb debian-installer extra
- parport-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- parport-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- pata-modules-3.2.0-4-486-di udeb debian-installer standard
- pata-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- pata-modules-3.2.0-4-amd64-di udeb debian-installer standard
- pata-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- pata-modules-3.2.0-4-itanium-di udeb debian-installer standard
- pata-modules-3.2.0-4-mx5-di udeb debian-installer extra
- pata-modules-3.2.0-4-parisc-di udeb debian-installer standard
- pata-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- pata-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- pata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- pata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- pata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- pata-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-itanium-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- pcmcia-storage-modules-3.2.0-4-486-di udeb debian-installer standard
- pcmcia-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- pcmcia-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard
- pcmcia-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- pcmcia-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- plip-modules-3.2.0-4-486-di udeb debian-installer optional
- plip-modules-3.2.0-4-686-pae-di udeb debian-installer optional
- plip-modules-3.2.0-4-amd64-di udeb debian-installer optional
- plip-modules-3.2.0-4-itanium-di udeb debian-installer optional
- plip-modules-3.2.0-4-sparc64-di udeb debian-installer optional
- ppp-modules-3.2.0-4-486-di udeb debian-installer optional
- ppp-modules-3.2.0-4-4kc-malta-di udeb debian-installer optional
- ppp-modules-3.2.0-4-686-pae-di udeb debian-installer optional
- ppp-modules-3.2.0-4-amd64-di udeb debian-installer optional
- ppp-modules-3.2.0-4-amiga-di udeb debian-installer optional
- ppp-modules-3.2.0-4-atari-di udeb debian-installer optional
- ppp-modules-3.2.0-4-iop32x-di udeb debian-installer optional
- ppp-modules-3.2.0-4-itanium-di udeb debian-installer optional
- ppp-modules-3.2.0-4-kirkwood-di udeb debian-installer optional
- ppp-modules-3.2.0-4-loongson-2f-di udeb debian-installer optional
- ppp-modules-3.2.0-4-mac-di udeb debian-installer optional
- ppp-modules-3.2.0-4-orion5x-di udeb debian-installer optional
- ppp-modules-3.2.0-4-parisc-di udeb debian-installer optional
- ppp-modules-3.2.0-4-parisc64-di udeb debian-installer optional
- ppp-modules-3.2.0-4-powerpc-di udeb debian-installer optional
- ppp-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
- ppp-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer optional
- ppp-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer optional
- ppp-modules-3.2.0-4-sh7751r-di udeb debian-installer optional
- ppp-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional
- ppp-modules-3.2.0-4-sparc64-di udeb debian-installer optional
- ppp-modules-3.2.0-4-versatile-di udeb debian-installer optional
- qnx4-modules-3.2.0-4-486-di udeb debian-installer extra
- qnx4-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- qnx4-modules-3.2.0-4-amd64-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-486-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-atari-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-mac-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- reiserfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
- rtc-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- sata-modules-3.2.0-4-486-di udeb debian-installer standard
- sata-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- sata-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- sata-modules-3.2.0-4-amd64-di udeb debian-installer standard
- sata-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- sata-modules-3.2.0-4-itanium-di udeb debian-installer standard
- sata-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- sata-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- sata-modules-3.2.0-4-mx5-di udeb debian-installer standard
- sata-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- sata-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- sata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- sata-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- sata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- sata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- sata-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- sata-modules-3.2.0-4-versatile-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-486-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-amd64-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- scsi-common-modules-3.2.0-4-versatile-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-486-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-amd64-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-itanium-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-mx5-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-parisc-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-s390x-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-versatile-di udeb debian-installer standard
- scsi-core-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- scsi-extra-modules-3.2.0-4-486-di udeb debian-installer standard
- scsi-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- scsi-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard
- scsi-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- scsi-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- scsi-modules-3.2.0-4-486-di udeb debian-installer standard
- scsi-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- scsi-modules-3.2.0-4-amd64-di udeb debian-installer standard
- scsi-modules-3.2.0-4-amiga-di udeb debian-installer standard
- scsi-modules-3.2.0-4-atari-di udeb debian-installer standard
- scsi-modules-3.2.0-4-itanium-di udeb debian-installer standard
- scsi-modules-3.2.0-4-mac-di udeb debian-installer standard
- scsi-modules-3.2.0-4-parisc-di udeb debian-installer standard
- scsi-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- scsi-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- scsi-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- scsi-modules-3.2.0-4-s390x-di udeb debian-installer standard
- scsi-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- scsi-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- serial-modules-3.2.0-4-486-di udeb debian-installer optional
- serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional
- serial-modules-3.2.0-4-amd64-di udeb debian-installer optional
- serial-modules-3.2.0-4-itanium-di udeb debian-installer optional
- serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional
- serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
- sn-modules-3.2.0-4-itanium-di udeb debian-installer extra
- sound-modules-3.2.0-4-486-di udeb debian-installer extra
- sound-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- sound-modules-3.2.0-4-amd64-di udeb debian-installer extra
- sound-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- sound-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- speakup-modules-3.2.0-4-486-di udeb debian-installer extra
- speakup-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- speakup-modules-3.2.0-4-amd64-di udeb debian-installer extra
- speakup-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- speakup-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-486-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-amd64-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-amiga-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-atari-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-itanium-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-mac-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-mx5-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-versatile-di udeb debian-installer extra
- squashfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- udf-modules-3.2.0-4-486-di udeb debian-installer extra
- udf-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- udf-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- udf-modules-3.2.0-4-amd64-di udeb debian-installer extra
- udf-modules-3.2.0-4-amiga-di udeb debian-installer extra
- udf-modules-3.2.0-4-atari-di udeb debian-installer extra
- udf-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- udf-modules-3.2.0-4-itanium-di udeb debian-installer extra
- udf-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- udf-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- udf-modules-3.2.0-4-mac-di udeb debian-installer extra
- udf-modules-3.2.0-4-mx5-di udeb debian-installer extra
- udf-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- udf-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- udf-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- udf-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- udf-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- udf-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- udf-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- udf-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- udf-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- udf-modules-3.2.0-4-versatile-di udeb debian-installer extra
- udf-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- ufs-modules-3.2.0-4-486-di udeb debian-installer extra
- ufs-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- ufs-modules-3.2.0-4-amd64-di udeb debian-installer extra
- ufs-modules-3.2.0-4-itanium-di udeb debian-installer extra
- ufs-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- ufs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- ufs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- ufs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- uinput-modules-3.2.0-4-486-di udeb debian-installer extra
- uinput-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- uinput-modules-3.2.0-4-amd64-di udeb debian-installer extra
- uinput-modules-3.2.0-4-itanium-di udeb debian-installer extra
- uinput-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- uinput-modules-3.2.0-4-mx5-di udeb debian-installer extra
- uinput-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- uinput-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- uinput-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- usb-modules-3.2.0-4-486-di udeb debian-installer extra
- usb-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- usb-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- usb-modules-3.2.0-4-amd64-di udeb debian-installer extra
- usb-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- usb-modules-3.2.0-4-itanium-di udeb debian-installer extra
- usb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra
- usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- usb-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- usb-modules-3.2.0-4-parisc-di udeb debian-installer extra
- usb-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- usb-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- usb-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- usb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- usb-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- usb-modules-3.2.0-4-versatile-di udeb debian-installer extra
- usb-modules-3.2.0-4-vexpress-di udeb debian-installer extra
- usb-serial-modules-3.2.0-4-486-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-amd64-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-iop32x-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-kirkwood-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-orion5x-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-sh7751r-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional
- usb-serial-modules-3.2.0-4-versatile-di udeb debian-installer optional
- usb-storage-modules-3.2.0-4-486-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-iop32x-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-itanium-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-kirkwood-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-mx5-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-orion5x-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-parisc-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-parisc64-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-versatile-di udeb debian-installer standard
- usb-storage-modules-3.2.0-4-vexpress-di udeb debian-installer standard
- virtio-modules-3.2.0-4-486-di udeb debian-installer extra
- virtio-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- virtio-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- virtio-modules-3.2.0-4-amd64-di udeb debian-installer extra
- virtio-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- virtio-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- virtio-modules-3.2.0-4-powerpc64-di udeb debian-installer extra
- virtio-modules-3.2.0-4-s390x-di udeb debian-installer extra
- virtio-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- virtio-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- virtio-modules-3.2.0-4-versatile-di udeb debian-installer extra
- xen-linux-system-3.2.0-4-686-pae deb kernel optional
- xen-linux-system-3.2.0-4-amd64 deb kernel optional
- xfs-modules-3.2.0-4-486-di udeb debian-installer standard
- xfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard
- xfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard
- xfs-modules-3.2.0-4-amd64-di udeb debian-installer standard
- xfs-modules-3.2.0-4-itanium-di udeb debian-installer standard
- xfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard
- xfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard
- xfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard
- xfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard
- xfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard
- xfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard
- xfs-modules-3.2.0-4-s390x-di udeb debian-installer standard
- xfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard
- xfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard
- xfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard
- xfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard
- zlib-modules-3.2.0-4-486-di udeb debian-installer extra
- zlib-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra
- zlib-modules-3.2.0-4-686-pae-di udeb debian-installer extra
- zlib-modules-3.2.0-4-amd64-di udeb debian-installer extra
- zlib-modules-3.2.0-4-amiga-di udeb debian-installer extra
- zlib-modules-3.2.0-4-atari-di udeb debian-installer extra
- zlib-modules-3.2.0-4-iop32x-di udeb debian-installer extra
- zlib-modules-3.2.0-4-itanium-di udeb debian-installer extra
- zlib-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra
- zlib-modules-3.2.0-4-mac-di udeb debian-installer extra
- zlib-modules-3.2.0-4-orion5x-di udeb debian-installer extra
- zlib-modules-3.2.0-4-parisc-di udeb debian-installer extra
- zlib-modules-3.2.0-4-parisc64-di udeb debian-installer extra
- zlib-modules-3.2.0-4-powerpc-di udeb debian-installer extra
- zlib-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra
- zlib-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra
- zlib-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra
- zlib-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra
- zlib-modules-3.2.0-4-sh7751r-di udeb debian-installer extra
- zlib-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra
- zlib-modules-3.2.0-4-sparc64-di udeb debian-installer extra
- zlib-modules-3.2.0-4-versatile-di udeb debian-installer extra
+ acpi-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ acpi-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ acpi-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ affs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ affs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ata-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ ata-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ ata-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ ata-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ ata-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ ata-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ ata-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ ata-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ata-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ btrfs-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ btrfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ btrfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ btrfs-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ btrfs-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ btrfs-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ btrfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ btrfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ btrfs-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ btrfs-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ btrfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ btrfs-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ btrfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ btrfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ btrfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ btrfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ btrfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ btrfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ btrfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ btrfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ btrfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ btrfs-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ cdrom-core-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ cdrom-core-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ cdrom-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ cdrom-core-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ cdrom-core-modules-3.2.0-4-amiga-di udeb debian-installer standard arch=m68k
+ cdrom-core-modules-3.2.0-4-atari-di udeb debian-installer standard arch=m68k
+ cdrom-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ cdrom-core-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ cdrom-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ cdrom-core-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ cdrom-core-modules-3.2.0-4-mac-di udeb debian-installer standard arch=m68k
+ cdrom-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ cdrom-core-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ cdrom-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ cdrom-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ cdrom-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ cdrom-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ cdrom-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ cdrom-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ cdrom-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ cdrom-core-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ core-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ core-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ core-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ core-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ core-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ core-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ core-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ core-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ core-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ core-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ core-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ core-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ crc-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ crc-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ crc-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ crc-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ crc-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ crc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ crc-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ crc-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ crc-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ crc-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crc-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ crc-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crc-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ crc-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ crypto-dm-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ crypto-dm-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ crypto-dm-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ crypto-dm-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ crypto-dm-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ crypto-dm-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ crypto-dm-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ crypto-dm-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ crypto-dm-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ crypto-dm-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ crypto-dm-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crypto-dm-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ crypto-dm-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ crypto-dm-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ crypto-dm-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ crypto-dm-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ crypto-dm-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ crypto-dm-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crypto-dm-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ crypto-dm-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ crypto-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ crypto-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ crypto-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ crypto-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ crypto-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ crypto-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ crypto-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ crypto-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ crypto-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ crypto-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ crypto-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ crypto-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ crypto-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ crypto-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ crypto-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ crypto-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ crypto-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crypto-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ crypto-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ crypto-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ crypto-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ crypto-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ crypto-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ crypto-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crypto-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ crypto-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ crypto-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ dasd-extra-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ dasd-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ efi-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ efi-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ efi-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ event-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ event-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ event-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ event-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ event-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ event-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ event-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ event-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ event-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ext2-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ ext2-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ ext2-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ ext2-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ ext2-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ ext2-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ ext2-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ ext2-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ ext2-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ ext2-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ ext2-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ ext2-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ ext2-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ ext2-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ ext2-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ ext2-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ ext3-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ ext3-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ ext3-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ ext3-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ ext3-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ ext3-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ ext3-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ ext3-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ ext3-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ ext3-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ ext3-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ ext3-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ ext3-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ ext3-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ ext3-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ ext3-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ ext4-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ ext4-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ ext4-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ ext4-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ ext4-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ ext4-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ ext4-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ ext4-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ ext4-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ ext4-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ ext4-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ ext4-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ ext4-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ ext4-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ ext4-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ ext4-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ ext4-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ ext4-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ fancontrol-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ fat-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ fat-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ fat-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ fat-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ fat-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ fat-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ fat-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ fat-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ fat-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ fat-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ fat-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ fat-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ fat-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ fat-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ fat-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ fat-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ fat-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ fat-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ fat-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ fat-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ fat-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ fat-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ fat-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ fat-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ fat-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ fb-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ fb-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ fb-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ fb-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ fb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ fb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ firewire-core-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ firewire-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ firewire-core-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ firewire-core-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ firewire-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ firewire-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ firewire-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ firewire-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ floppy-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ floppy-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ floppy-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ floppy-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ floppy-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ fuse-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ fuse-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ fuse-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ fuse-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ fuse-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ fuse-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ fuse-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ fuse-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ fuse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ fuse-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ fuse-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ fuse-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ fuse-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ fuse-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ fuse-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ fuse-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ fuse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ fuse-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ fuse-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ fuse-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ fuse-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ fuse-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ fuse-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ fuse-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ fuse-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ fuse-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ fuse-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ hfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ hfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ hyperv-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ hyperv-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ hyperv-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ hypervisor-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ i2c-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ i2c-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ i2c-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ i2c-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ ide-core-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ ide-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ input-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ input-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ input-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ input-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ input-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ input-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ input-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ input-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ input-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ input-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ input-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ input-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ input-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ input-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ input-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ ipv6-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ ipv6-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ ipv6-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ ipv6-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ ipv6-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ ipv6-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ ipv6-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ ipv6-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ ipv6-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ ipv6-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ ipv6-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ ipv6-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ ipv6-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ ipv6-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ ipv6-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ ipv6-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ ipv6-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ ipv6-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ ipv6-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ irda-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ irda-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ irda-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ irda-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ irda-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ irda-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ isofs-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ isofs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ isofs-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ isofs-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ isofs-modules-3.2.0-4-amiga-di udeb debian-installer standard arch=m68k
+ isofs-modules-3.2.0-4-atari-di udeb debian-installer standard arch=m68k
+ isofs-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ isofs-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ isofs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ isofs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ isofs-modules-3.2.0-4-mac-di udeb debian-installer standard arch=m68k
+ isofs-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ isofs-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ isofs-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ isofs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ isofs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard arch=mips
+ isofs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard arch=mips
+ isofs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ isofs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ isofs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ isofs-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ isofs-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ isofs-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ jffs2-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ jffs2-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ jfs-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ jfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ jfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ jfs-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ jfs-modules-3.2.0-4-amiga-di udeb debian-installer standard arch=m68k
+ jfs-modules-3.2.0-4-atari-di udeb debian-installer standard arch=m68k
+ jfs-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ jfs-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ jfs-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ jfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ jfs-modules-3.2.0-4-mac-di udeb debian-installer standard arch=m68k
+ jfs-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ jfs-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ jfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ jfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ jfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard arch=mips
+ jfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard arch=mipsel
+ jfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard arch=mips
+ jfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ jfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ jfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ jfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ jfs-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ kernel-image-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ kernel-image-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ kernel-image-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ kernel-image-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ kernel-image-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ kernel-image-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ kernel-image-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ kernel-image-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ kernel-image-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ kernel-image-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ kernel-image-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ kernel-image-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ kernel-image-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ kernel-image-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ kernel-image-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ kernel-image-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ kernel-image-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ kernel-image-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ kernel-image-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ kernel-image-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ kernel-image-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ kernel-image-3.2.0-4-s390x-tape-di udeb debian-installer extra arch=s390,s390x
+ kernel-image-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ kernel-image-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ kernel-image-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ kernel-image-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ kernel-image-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ kernel-image-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ leds-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ linux-doc-3.2 deb doc optional arch=all
+ linux-headers-3.2.0-4-486 deb kernel optional arch=i386
+ linux-headers-3.2.0-4-4kc-malta deb kernel optional arch=mips,mipsel
+ linux-headers-3.2.0-4-5kc-malta deb kernel optional arch=mips,mipsel
+ linux-headers-3.2.0-4-686-pae deb kernel optional arch=i386
+ linux-headers-3.2.0-4-all deb kernel optional arch=alpha,amd64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,ppc64,s390,s390x,sh4,sparc,sparc64
+ linux-headers-3.2.0-4-all-alpha deb kernel optional arch=alpha
+ linux-headers-3.2.0-4-all-amd64 deb kernel optional arch=amd64
+ linux-headers-3.2.0-4-all-armel deb kernel optional arch=armel
+ linux-headers-3.2.0-4-all-armhf deb kernel optional arch=armhf
+ linux-headers-3.2.0-4-all-hppa deb kernel optional arch=hppa
+ linux-headers-3.2.0-4-all-i386 deb kernel optional arch=i386
+ linux-headers-3.2.0-4-all-ia64 deb kernel optional arch=ia64
+ linux-headers-3.2.0-4-all-m68k deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-all-mips deb kernel optional arch=mips
+ linux-headers-3.2.0-4-all-mipsel deb kernel optional arch=mipsel
+ linux-headers-3.2.0-4-all-powerpc deb kernel optional arch=powerpc
+ linux-headers-3.2.0-4-all-ppc64 deb kernel optional arch=ppc64
+ linux-headers-3.2.0-4-all-s390 deb kernel optional arch=s390
+ linux-headers-3.2.0-4-all-s390x deb kernel optional arch=s390x
+ linux-headers-3.2.0-4-all-sh4 deb kernel optional arch=sh4
+ linux-headers-3.2.0-4-all-sparc deb kernel optional arch=sparc
+ linux-headers-3.2.0-4-all-sparc64 deb kernel optional arch=sparc64
+ linux-headers-3.2.0-4-alpha-generic deb kernel optional arch=alpha
+ linux-headers-3.2.0-4-alpha-legacy deb kernel optional arch=alpha
+ linux-headers-3.2.0-4-alpha-smp deb kernel optional arch=alpha
+ linux-headers-3.2.0-4-amd64 deb kernel optional arch=amd64,i386
+ linux-headers-3.2.0-4-amiga deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-atari deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-bvme6000 deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-common deb kernel optional arch=alpha,amd64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,ppc64,s390,s390x,sh4,sparc,sparc64
+ linux-headers-3.2.0-4-common-rt deb kernel optional arch=amd64,i386
+ linux-headers-3.2.0-4-iop32x deb kernel optional arch=armel
+ linux-headers-3.2.0-4-itanium deb kernel optional arch=ia64
+ linux-headers-3.2.0-4-ixp4xx deb kernel optional arch=armel
+ linux-headers-3.2.0-4-kirkwood deb kernel optional arch=armel
+ linux-headers-3.2.0-4-loongson-2f deb kernel optional arch=mipsel
+ linux-headers-3.2.0-4-mac deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-mckinley deb kernel optional arch=ia64
+ linux-headers-3.2.0-4-mv78xx0 deb kernel optional arch=armel
+ linux-headers-3.2.0-4-mvme147 deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-mvme16x deb kernel optional arch=m68k
+ linux-headers-3.2.0-4-mx5 deb kernel optional arch=armhf
+ linux-headers-3.2.0-4-octeon deb kernel optional arch=mips
+ linux-headers-3.2.0-4-omap deb kernel optional arch=armhf
+ linux-headers-3.2.0-4-orion5x deb kernel optional arch=armel
+ linux-headers-3.2.0-4-parisc deb kernel optional arch=hppa
+ linux-headers-3.2.0-4-parisc-smp deb kernel optional arch=hppa
+ linux-headers-3.2.0-4-parisc64 deb kernel optional arch=hppa
+ linux-headers-3.2.0-4-parisc64-smp deb kernel optional arch=hppa
+ linux-headers-3.2.0-4-powerpc deb kernel optional arch=powerpc
+ linux-headers-3.2.0-4-powerpc-smp deb kernel optional arch=powerpc
+ linux-headers-3.2.0-4-powerpc64 deb kernel optional arch=powerpc,ppc64
+ linux-headers-3.2.0-4-r4k-ip22 deb kernel optional arch=mips
+ linux-headers-3.2.0-4-r5k-cobalt deb kernel optional arch=mipsel
+ linux-headers-3.2.0-4-r5k-ip32 deb kernel optional arch=mips
+ linux-headers-3.2.0-4-rt-686-pae deb kernel optional arch=i386
+ linux-headers-3.2.0-4-rt-amd64 deb kernel optional arch=amd64
+ linux-headers-3.2.0-4-s390x deb kernel optional arch=s390,s390x
+ linux-headers-3.2.0-4-sb1-bcm91250a deb kernel optional arch=mips,mipsel
+ linux-headers-3.2.0-4-sb1a-bcm91480b deb kernel optional arch=mips,mipsel
+ linux-headers-3.2.0-4-sh7751r deb kernel optional arch=sh4
+ linux-headers-3.2.0-4-sh7785lcr deb kernel optional arch=sh4
+ linux-headers-3.2.0-4-sparc64 deb kernel optional arch=sparc,sparc64
+ linux-headers-3.2.0-4-sparc64-smp deb kernel optional arch=sparc,sparc64
+ linux-headers-3.2.0-4-versatile deb kernel optional arch=armel
+ linux-headers-3.2.0-4-vexpress deb kernel optional arch=armhf
+ linux-image-3.2.0-4-486 deb kernel optional arch=i386
+ linux-image-3.2.0-4-4kc-malta deb kernel optional arch=mips,mipsel
+ linux-image-3.2.0-4-5kc-malta deb kernel optional arch=mips,mipsel
+ linux-image-3.2.0-4-686-pae deb kernel optional arch=i386
+ linux-image-3.2.0-4-686-pae-dbg deb debug extra arch=i386
+ linux-image-3.2.0-4-alpha-generic deb kernel optional arch=alpha
+ linux-image-3.2.0-4-alpha-legacy deb kernel optional arch=alpha
+ linux-image-3.2.0-4-alpha-smp deb kernel optional arch=alpha
+ linux-image-3.2.0-4-amd64 deb kernel optional arch=amd64,i386
+ linux-image-3.2.0-4-amd64-dbg deb debug extra arch=amd64
+ linux-image-3.2.0-4-amiga deb kernel optional arch=m68k
+ linux-image-3.2.0-4-atari deb kernel optional arch=m68k
+ linux-image-3.2.0-4-bvme6000 deb kernel optional arch=m68k
+ linux-image-3.2.0-4-iop32x deb kernel optional arch=armel
+ linux-image-3.2.0-4-itanium deb kernel optional arch=ia64
+ linux-image-3.2.0-4-ixp4xx deb kernel optional arch=armel
+ linux-image-3.2.0-4-kirkwood deb kernel optional arch=armel
+ linux-image-3.2.0-4-loongson-2f deb kernel optional arch=mipsel
+ linux-image-3.2.0-4-mac deb kernel optional arch=m68k
+ linux-image-3.2.0-4-mckinley deb kernel optional arch=ia64
+ linux-image-3.2.0-4-mv78xx0 deb kernel optional arch=armel
+ linux-image-3.2.0-4-mvme147 deb kernel optional arch=m68k
+ linux-image-3.2.0-4-mvme16x deb kernel optional arch=m68k
+ linux-image-3.2.0-4-mx5 deb kernel optional arch=armhf
+ linux-image-3.2.0-4-octeon deb kernel optional arch=mips
+ linux-image-3.2.0-4-omap deb kernel optional arch=armhf
+ linux-image-3.2.0-4-orion5x deb kernel optional arch=armel
+ linux-image-3.2.0-4-parisc deb kernel optional arch=hppa
+ linux-image-3.2.0-4-parisc-smp deb kernel optional arch=hppa
+ linux-image-3.2.0-4-parisc64 deb kernel optional arch=hppa
+ linux-image-3.2.0-4-parisc64-smp deb kernel optional arch=hppa
+ linux-image-3.2.0-4-powerpc deb kernel optional arch=powerpc
+ linux-image-3.2.0-4-powerpc-smp deb kernel optional arch=powerpc
+ linux-image-3.2.0-4-powerpc64 deb kernel optional arch=powerpc,ppc64
+ linux-image-3.2.0-4-r4k-ip22 deb kernel optional arch=mips
+ linux-image-3.2.0-4-r5k-cobalt deb kernel optional arch=mipsel
+ linux-image-3.2.0-4-r5k-ip32 deb kernel optional arch=mips
+ linux-image-3.2.0-4-rt-686-pae deb kernel optional arch=i386
+ linux-image-3.2.0-4-rt-686-pae-dbg deb debug extra arch=i386
+ linux-image-3.2.0-4-rt-amd64 deb kernel optional arch=amd64
+ linux-image-3.2.0-4-rt-amd64-dbg deb debug extra arch=amd64
+ linux-image-3.2.0-4-s390x deb kernel optional arch=s390,s390x
+ linux-image-3.2.0-4-s390x-dbg deb debug extra arch=s390,s390x
+ linux-image-3.2.0-4-s390x-tape deb kernel optional arch=s390,s390x
+ linux-image-3.2.0-4-sb1-bcm91250a deb kernel optional arch=mips,mipsel
+ linux-image-3.2.0-4-sb1a-bcm91480b deb kernel optional arch=mips,mipsel
+ linux-image-3.2.0-4-sh7751r deb kernel optional arch=sh4
+ linux-image-3.2.0-4-sh7785lcr deb kernel optional arch=sh4
+ linux-image-3.2.0-4-sparc64 deb kernel optional arch=sparc,sparc64
+ linux-image-3.2.0-4-sparc64-smp deb kernel optional arch=sparc,sparc64
+ linux-image-3.2.0-4-versatile deb kernel optional arch=armel
+ linux-image-3.2.0-4-vexpress deb kernel optional arch=armhf
+ linux-libc-dev deb devel optional arch=alpha,amd64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,ppc64,s390,s390x,sh4,sparc,sparc64
+ linux-manual-3.2 deb doc optional arch=all
+ linux-source-3.2 deb kernel optional arch=all
+ linux-support-3.2.0-4 deb devel optional arch=all
+ loop-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ loop-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ loop-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ loop-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ loop-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ loop-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ loop-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ loop-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ loop-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ loop-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ loop-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ loop-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ loop-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ loop-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ loop-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard arch=mips
+ loop-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard arch=mipsel
+ loop-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard arch=mips
+ loop-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ loop-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ loop-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ loop-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ loop-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ md-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ md-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ md-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ md-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ md-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ md-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ md-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ md-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ md-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ md-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ md-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ md-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ md-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ md-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ md-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ md-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ md-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ md-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ md-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ md-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ md-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ md-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ md-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ md-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ md-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ md-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ md-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ minix-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ minix-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ minix-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ minix-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ minix-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ mmc-core-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ mmc-core-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ mmc-core-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ mmc-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ mmc-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ mmc-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ mmc-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ mmc-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ mmc-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ mouse-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ mouse-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ mouse-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ mouse-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ mouse-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ mouse-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ mouse-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ mtd-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ multipath-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ multipath-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ multipath-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ multipath-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ multipath-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ multipath-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ multipath-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ multipath-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ multipath-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ multipath-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ multipath-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ multipath-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ multipath-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ multipath-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ multipath-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ multipath-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ multipath-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ multipath-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ multipath-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ multipath-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ multipath-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ multipath-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ multipath-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ multipath-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ nbd-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ nbd-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ nbd-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ nbd-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ nbd-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ nbd-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ nbd-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ nbd-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ nbd-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ nbd-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ nbd-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ nbd-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ nbd-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ nbd-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ nbd-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ nbd-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ nbd-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ nbd-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ nbd-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ nbd-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ nbd-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ nbd-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ nbd-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ nbd-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ nbd-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ nbd-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ nbd-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ nfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ nic-extra-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ nic-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ nic-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ nic-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ nic-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ nic-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ nic-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ nic-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ nic-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ nic-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ nic-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ nic-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ nic-pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-shared-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-shared-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-shared-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-shared-modules-3.2.0-4-amiga-di udeb debian-installer standard arch=m68k
+ nic-shared-modules-3.2.0-4-atari-di udeb debian-installer standard arch=m68k
+ nic-shared-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ nic-shared-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-shared-modules-3.2.0-4-mac-di udeb debian-installer standard arch=m68k
+ nic-shared-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ nic-shared-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-shared-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-shared-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard arch=mips
+ nic-shared-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard arch=mipsel
+ nic-shared-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard arch=mips
+ nic-shared-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ nic-shared-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ nic-usb-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-usb-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-usb-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-usb-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ nic-usb-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-usb-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ nic-usb-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ nic-usb-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ nic-usb-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ nic-wireless-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ nic-wireless-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ nic-wireless-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ nic-wireless-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ nic-wireless-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ ntfs-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ ntfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ ntfs-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ ntfs-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ parport-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ parport-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ parport-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ parport-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ parport-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ parport-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ pata-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ pata-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ pata-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ pata-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ pata-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ pata-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ pata-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ pata-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ pata-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ pata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ pata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ pata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ pata-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ pcmcia-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ pcmcia-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ pcmcia-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ pcmcia-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ pcmcia-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ pcmcia-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ pcmcia-storage-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ pcmcia-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ pcmcia-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ pcmcia-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ pcmcia-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ plip-modules-3.2.0-4-486-di udeb debian-installer optional arch=i386
+ plip-modules-3.2.0-4-686-pae-di udeb debian-installer optional arch=i386
+ plip-modules-3.2.0-4-amd64-di udeb debian-installer optional arch=amd64
+ plip-modules-3.2.0-4-itanium-di udeb debian-installer optional arch=ia64
+ plip-modules-3.2.0-4-sparc64-di udeb debian-installer optional arch=sparc,sparc64
+ ppp-modules-3.2.0-4-486-di udeb debian-installer optional arch=i386
+ ppp-modules-3.2.0-4-4kc-malta-di udeb debian-installer optional arch=mips,mipsel
+ ppp-modules-3.2.0-4-686-pae-di udeb debian-installer optional arch=i386
+ ppp-modules-3.2.0-4-amd64-di udeb debian-installer optional arch=amd64
+ ppp-modules-3.2.0-4-amiga-di udeb debian-installer optional arch=m68k
+ ppp-modules-3.2.0-4-atari-di udeb debian-installer optional arch=m68k
+ ppp-modules-3.2.0-4-iop32x-di udeb debian-installer optional arch=armel
+ ppp-modules-3.2.0-4-itanium-di udeb debian-installer optional arch=ia64
+ ppp-modules-3.2.0-4-kirkwood-di udeb debian-installer optional arch=armel
+ ppp-modules-3.2.0-4-loongson-2f-di udeb debian-installer optional arch=mipsel
+ ppp-modules-3.2.0-4-mac-di udeb debian-installer optional arch=m68k
+ ppp-modules-3.2.0-4-orion5x-di udeb debian-installer optional arch=armel
+ ppp-modules-3.2.0-4-parisc-di udeb debian-installer optional arch=hppa
+ ppp-modules-3.2.0-4-parisc64-di udeb debian-installer optional arch=hppa
+ ppp-modules-3.2.0-4-powerpc-di udeb debian-installer optional arch=powerpc
+ ppp-modules-3.2.0-4-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ ppp-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer optional arch=mipsel
+ ppp-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer optional arch=mips,mipsel
+ ppp-modules-3.2.0-4-sh7751r-di udeb debian-installer optional arch=sh4
+ ppp-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional arch=sh4
+ ppp-modules-3.2.0-4-sparc64-di udeb debian-installer optional arch=sparc,sparc64
+ ppp-modules-3.2.0-4-versatile-di udeb debian-installer optional arch=armel
+ qnx4-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ qnx4-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ qnx4-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ reiserfs-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ reiserfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ reiserfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ reiserfs-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ reiserfs-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ reiserfs-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ reiserfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ reiserfs-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ reiserfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ reiserfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ reiserfs-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ reiserfs-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ reiserfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ reiserfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ reiserfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ reiserfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ reiserfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ reiserfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ reiserfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ reiserfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ reiserfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ reiserfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ reiserfs-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ rtc-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ sata-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ sata-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ sata-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ sata-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ sata-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ sata-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ sata-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ sata-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ sata-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ sata-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ sata-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ sata-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ sata-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ sata-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ sata-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ sata-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ sata-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ scsi-common-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ scsi-common-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ scsi-common-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ scsi-common-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-common-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-common-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-common-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ scsi-common-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ scsi-core-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ scsi-core-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ scsi-core-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ scsi-core-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ scsi-core-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ scsi-core-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ scsi-core-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-core-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-core-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ scsi-core-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-core-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ scsi-core-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ scsi-core-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ scsi-core-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ scsi-extra-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ scsi-extra-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ scsi-extra-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ scsi-extra-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-extra-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ scsi-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ scsi-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ scsi-modules-3.2.0-4-amiga-di udeb debian-installer standard arch=m68k
+ scsi-modules-3.2.0-4-atari-di udeb debian-installer standard arch=m68k
+ scsi-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ scsi-modules-3.2.0-4-mac-di udeb debian-installer standard arch=m68k
+ scsi-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ scsi-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ scsi-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ scsi-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ serial-modules-3.2.0-4-486-di udeb debian-installer optional arch=i386
+ serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional arch=i386
+ serial-modules-3.2.0-4-amd64-di udeb debian-installer optional arch=amd64
+ serial-modules-3.2.0-4-itanium-di udeb debian-installer optional arch=ia64
+ serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional arch=powerpc
+ serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ sn-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ sound-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ sound-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ sound-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ sound-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ sound-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ speakup-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ speakup-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ speakup-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ speakup-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ speakup-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ squashfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ squashfs-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ squashfs-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ squashfs-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ squashfs-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ squashfs-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ squashfs-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ squashfs-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ squashfs-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ squashfs-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ squashfs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ squashfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ squashfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ squashfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ squashfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ squashfs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ squashfs-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ udf-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ udf-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ udf-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ udf-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ udf-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ udf-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ udf-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ udf-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ udf-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ udf-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ udf-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ udf-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ udf-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ udf-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ udf-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ udf-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ udf-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ udf-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ udf-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ udf-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ udf-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ udf-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ udf-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ ufs-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ ufs-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ ufs-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ ufs-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ ufs-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ ufs-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ufs-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ ufs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ uinput-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ uinput-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ uinput-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ uinput-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ uinput-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ uinput-modules-3.2.0-4-mx5-di udeb debian-installer extra arch=armhf
+ uinput-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ uinput-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ uinput-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ usb-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ usb-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ usb-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ usb-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ usb-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ usb-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ usb-modules-3.2.0-4-kirkwood-di udeb debian-installer extra arch=armel
+ usb-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ usb-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ usb-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ usb-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ usb-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ usb-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ usb-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ usb-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ usb-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ usb-modules-3.2.0-4-vexpress-di udeb debian-installer extra arch=armhf
+ usb-serial-modules-3.2.0-4-486-di udeb debian-installer optional arch=i386
+ usb-serial-modules-3.2.0-4-686-pae-di udeb debian-installer optional arch=i386
+ usb-serial-modules-3.2.0-4-amd64-di udeb debian-installer optional arch=amd64
+ usb-serial-modules-3.2.0-4-iop32x-di udeb debian-installer optional arch=armel
+ usb-serial-modules-3.2.0-4-kirkwood-di udeb debian-installer optional arch=armel
+ usb-serial-modules-3.2.0-4-orion5x-di udeb debian-installer optional arch=armel
+ usb-serial-modules-3.2.0-4-powerpc-di udeb debian-installer optional arch=powerpc
+ usb-serial-modules-3.2.0-4-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ usb-serial-modules-3.2.0-4-sh7751r-di udeb debian-installer optional arch=sh4
+ usb-serial-modules-3.2.0-4-sh7785lcr-di udeb debian-installer optional arch=sh4
+ usb-serial-modules-3.2.0-4-versatile-di udeb debian-installer optional arch=armel
+ usb-storage-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ usb-storage-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ usb-storage-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ usb-storage-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ usb-storage-modules-3.2.0-4-iop32x-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ usb-storage-modules-3.2.0-4-kirkwood-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ usb-storage-modules-3.2.0-4-mx5-di udeb debian-installer standard arch=armhf
+ usb-storage-modules-3.2.0-4-orion5x-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.2.0-4-parisc-di udeb debian-installer standard arch=hppa
+ usb-storage-modules-3.2.0-4-parisc64-di udeb debian-installer standard arch=hppa
+ usb-storage-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ usb-storage-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ usb-storage-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ usb-storage-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ usb-storage-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ usb-storage-modules-3.2.0-4-versatile-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.2.0-4-vexpress-di udeb debian-installer standard arch=armhf
+ virtio-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ virtio-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ virtio-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ virtio-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ virtio-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ virtio-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ virtio-modules-3.2.0-4-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ virtio-modules-3.2.0-4-s390x-di udeb debian-installer extra arch=s390,s390x
+ virtio-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ virtio-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ virtio-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
+ xen-linux-system-3.2.0-4-686-pae deb kernel optional arch=i386
+ xen-linux-system-3.2.0-4-amd64 deb kernel optional arch=amd64,i386
+ xfs-modules-3.2.0-4-486-di udeb debian-installer standard arch=i386
+ xfs-modules-3.2.0-4-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ xfs-modules-3.2.0-4-686-pae-di udeb debian-installer standard arch=i386
+ xfs-modules-3.2.0-4-amd64-di udeb debian-installer standard arch=amd64
+ xfs-modules-3.2.0-4-itanium-di udeb debian-installer standard arch=ia64
+ xfs-modules-3.2.0-4-loongson-2f-di udeb debian-installer standard arch=mipsel
+ xfs-modules-3.2.0-4-powerpc-di udeb debian-installer standard arch=powerpc
+ xfs-modules-3.2.0-4-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ xfs-modules-3.2.0-4-r4k-ip22-di udeb debian-installer standard arch=mips
+ xfs-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer standard arch=mipsel
+ xfs-modules-3.2.0-4-r5k-ip32-di udeb debian-installer standard arch=mips
+ xfs-modules-3.2.0-4-s390x-di udeb debian-installer standard arch=s390,s390x
+ xfs-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ xfs-modules-3.2.0-4-sh7751r-di udeb debian-installer standard arch=sh4
+ xfs-modules-3.2.0-4-sh7785lcr-di udeb debian-installer standard arch=sh4
+ xfs-modules-3.2.0-4-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ zlib-modules-3.2.0-4-486-di udeb debian-installer extra arch=i386
+ zlib-modules-3.2.0-4-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ zlib-modules-3.2.0-4-686-pae-di udeb debian-installer extra arch=i386
+ zlib-modules-3.2.0-4-amd64-di udeb debian-installer extra arch=amd64
+ zlib-modules-3.2.0-4-amiga-di udeb debian-installer extra arch=m68k
+ zlib-modules-3.2.0-4-atari-di udeb debian-installer extra arch=m68k
+ zlib-modules-3.2.0-4-iop32x-di udeb debian-installer extra arch=armel
+ zlib-modules-3.2.0-4-itanium-di udeb debian-installer extra arch=ia64
+ zlib-modules-3.2.0-4-loongson-2f-di udeb debian-installer extra arch=mipsel
+ zlib-modules-3.2.0-4-mac-di udeb debian-installer extra arch=m68k
+ zlib-modules-3.2.0-4-orion5x-di udeb debian-installer extra arch=armel
+ zlib-modules-3.2.0-4-parisc-di udeb debian-installer extra arch=hppa
+ zlib-modules-3.2.0-4-parisc64-di udeb debian-installer extra arch=hppa
+ zlib-modules-3.2.0-4-powerpc-di udeb debian-installer extra arch=powerpc
+ zlib-modules-3.2.0-4-r4k-ip22-di udeb debian-installer extra arch=mips
+ zlib-modules-3.2.0-4-r5k-cobalt-di udeb debian-installer extra arch=mipsel
+ zlib-modules-3.2.0-4-r5k-ip32-di udeb debian-installer extra arch=mips
+ zlib-modules-3.2.0-4-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ zlib-modules-3.2.0-4-sh7751r-di udeb debian-installer extra arch=sh4
+ zlib-modules-3.2.0-4-sh7785lcr-di udeb debian-installer extra arch=sh4
+ zlib-modules-3.2.0-4-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ zlib-modules-3.2.0-4-versatile-di udeb debian-installer extra arch=armel
 Vcs-Svn: svn://svn.debian.org/svn/kernel/dists/trunk/linux/
 Directory: pool/updates/main/l/linux
 Priority: source
