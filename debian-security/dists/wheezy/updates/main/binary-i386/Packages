@@ -24045,6 +24045,222 @@ MD5sum: 9f3c8f5247ffd69da5863c28092c890a
 SHA1: 1478c97e6536775fa7d0fe5463a3173063976626
 SHA256: ef16f3042b223a4fb1ee8dbc46bccd33fd607c57a2d177ab86fc7ef6058d92e3
 
+Package: librpm-dbg
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 3987
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Provides: rpm-dbg
+Depends: librpm3 (= 4.10.0-5+deb7u2)
+Description: debugging symbols for RPM
+Homepage: http://rpm.org/
+Description-md5: b940250aa3e76b7ce785711342eb904c
+Section: debug
+Priority: extra
+Filename: pool/updates/main/r/rpm/librpm-dbg_4.10.0-5+deb7u2_i386.deb
+Size: 2244350
+MD5sum: 30e4aad02325b58344f8eaaa8fd39eab
+SHA1: 4d839dcbfa5eced6c74c84c8d55410d2c52fbb42
+SHA256: f046b772d3d3d41a00ac5ffd9d9232e0d4e9eaca48bb67ca9db935a3e020c658
+
+Package: librpm-dev
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1133
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Replaces: librpm0-dev, librpm1-dev (<< 4.0), librpm4.4, rpm (<< 2.5)
+Provides: librpm0-dev
+Depends: librpm3 (= 4.10.0-5+deb7u2), librpmio3 (= 4.10.0-5+deb7u2), librpmbuild3 (= 4.10.0-5+deb7u2), librpmsign1 (= 4.10.0-5+deb7u2), libc6-dev, libpopt-dev (>= 1.6.4), libdb-dev, libbz2-dev, libz-dev, libxml2-dev, libreadline-dev, libselinux1-dev, libsqlite3-dev
+Conflicts: librpm0-dev, librpm4.4
+Breaks: librpm1-dev (<< 4.0)
+Description: RPM shared library, development kit
+Homepage: http://rpm.org/
+Description-md5: b61ce5bb0129a6b93ca353a53ac9c1e2
+Section: libdevel
+Priority: extra
+Filename: pool/updates/main/r/rpm/librpm-dev_4.10.0-5+deb7u2_i386.deb
+Size: 978418
+MD5sum: eb6b1756e532d9fdc7dfa48563d5a8dd
+SHA1: 00c58f1a7de2b58ade700fcd8807c42469a7507d
+SHA256: 9d7c7a86d27d276adcfc638e40def1166ffd9f0ac1198bc839d99bbda9316773
+
+Package: librpm3
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1293
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.11), libcap2 (>= 2.10), libdb5.1, liblua5.1-0, libpopt0 (>= 1.14), librpmio3 (>= 4.10.0)
+Description: RPM shared library
+Homepage: http://rpm.org/
+Description-md5: 43dcb3c7127ac155f80bce6eb02448dc
+Recommends: rpm-common (= 4.10.0-5+deb7u2)
+Section: libs
+Priority: optional
+Filename: pool/updates/main/r/rpm/librpm3_4.10.0-5+deb7u2_i386.deb
+Size: 1103378
+MD5sum: 0b9d63d19bd048cd85ff6eeeaff56c97
+SHA1: cb186730b9e3aedcf6cb63bf1b561dd199822446
+SHA256: 3b09ab31aae123568130ef72fae2e98402cfd89ac402ac118be3f7b1e3d6e42f
+
+Package: librpmbuild3
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1038
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libmagic1, libpopt0 (>= 1.14), librpm3 (>= 4.10.0), librpmio3 (>= 4.10.0)
+Description: RPM build shared library
+Homepage: http://rpm.org/
+Description-md5: 6c8fdac9007ad1483cb5ded0c7a78d4e
+Section: libs
+Priority: optional
+Filename: pool/updates/main/r/rpm/librpmbuild3_4.10.0-5+deb7u2_i386.deb
+Size: 986034
+MD5sum: 6d26f390cd7975e27d6226fb36c8f360
+SHA1: a80e627bdb7e908fcc32769dff09aa6624415a59
+SHA256: 4e847221b458f47c610b8391d0569e75f1f616253e18b2d2d44d887fbcef54ba
+
+Package: librpmio3
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1063
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Depends: libbz2-1.0, libc6 (>= 2.4), libelf1 (>= 0.131), liblua5.1-0, liblzma5 (>= 5.1.1alpha+20120614), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libpopt0 (>= 1.14), zlib1g (>= 1:1.2.3.3)
+Description: RPM IO shared library
+Homepage: http://rpm.org/
+Description-md5: b102b4700b4f67e72b6c457300d1dee3
+Section: libs
+Priority: optional
+Filename: pool/updates/main/r/rpm/librpmio3_4.10.0-5+deb7u2_i386.deb
+Size: 997230
+MD5sum: f9006b250735115bb68976b4ba020662
+SHA1: a67e4dda586b01fca56b6bb73675ab4d8c401235
+SHA256: 3c46fadbc64ec5d54f300ec81d6e0cc1a0100e8747a4bd95a01636def8523f38
+
+Package: librpmsign1
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 914
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.4), libpopt0 (>= 1.14), librpm3 (>= 4.10.0), librpmio3 (>= 4.10.0)
+Description: RPM signing shared library
+Homepage: http://rpm.org/
+Description-md5: c2958f0a844ec375af9b40fae17c7280
+Section: libs
+Priority: optional
+Filename: pool/updates/main/r/rpm/librpmsign1_4.10.0-5+deb7u2_i386.deb
+Size: 926134
+MD5sum: 97b73049c4c7eb22c4f7d2494a3a01a1
+SHA1: fa90c42a9c66af19f171605469d86e35c6586841
+SHA256: 951e3352762015f0ba8176aa4a97497afb1ee64a3abfd4ec03f5ae3ad61dd5f2
+
+Package: python-rpm
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1106
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Replaces: python2.3-rpm, python2.4-rpm
+Provides: python2.6-rpm, python2.7-rpm
+Depends: libc6 (>= 2.4), librpm3 (>= 4.10.0), librpmbuild3 (>= 4.10.0), librpmio3 (>= 4.10.0), librpmsign1 (>= 4.10.0), python (>= 2.6.6-7~), python (<< 2.8)
+Conflicts: python2.3-rpm, python2.4-rpm
+Description: Python bindings for RPM
+Homepage: http://rpm.org/
+Description-md5: a5b716bfc188a6db4163c970ca64fb6a
+Section: python
+Priority: extra
+Filename: pool/updates/main/r/rpm/python-rpm_4.10.0-5+deb7u2_i386.deb
+Size: 996902
+MD5sum: bd51f3b901f81a3765f512c898209440
+SHA1: fc4c2281c8aebf9e8556c84e62d434edcc505da3
+SHA256: 40811adf42154f312f8098edb86d187a55b06a8bda1ff6366ab703584c4baa4c
+
+Package: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1206
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Replaces: manpages-pl (<< 20051017-1)
+Depends: libc6 (>= 2.4), libelf1 (>= 0.131), libpopt0 (>= 1.14), librpm3 (>= 4.10.0), librpmbuild3 (>= 4.10.0), librpmio3 (>= 4.10.0), librpmsign1 (>= 4.10.0), perl, rpm2cpio, rpm-common (= 4.10.0-5+deb7u2)
+Suggests: alien, elfutils, rpm-i18n
+Breaks: man-db (<< 2.5.0-1), manpages-pl (<< 20051017-1)
+Description: package manager for RPM
+Homepage: http://rpm.org/
+Description-md5: b637dea69233214122f83668b1ac634e
+Section: admin
+Priority: optional
+Filename: pool/updates/main/r/rpm/rpm_4.10.0-5+deb7u2_i386.deb
+Size: 1057556
+MD5sum: a317eac24d38e97588586328b40a1665
+SHA1: f377326f08a72ca2a02b55247f7e6836737fd8fc
+SHA256: 13bbd395176521b3b7652cb15656ee1024ddfb9120b272695f34e6094af67715
+
+Package: rpm-common
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 1059
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Replaces: librpm0 (<< 4.7.1-1), librpm2, rpm (<< 4.7.1-1)
+Depends: libc6 (>= 2.3.6-6~), librpm3 (>= 4.10.0), librpmio3 (>= 4.10.0)
+Breaks: librpm0 (<< 4.7.1-1), librpm2, rpm (<< 4.7.1-1)
+Description: common files for RPM
+Homepage: http://rpm.org/
+Description-md5: 281a776fb3c0b33e3fa2befccc935f42
+Section: admin
+Priority: optional
+Filename: pool/updates/main/r/rpm/rpm-common_4.10.0-5+deb7u2_i386.deb
+Size: 941302
+MD5sum: cd0424a72389ae5b41e1f00e53549fd4
+SHA1: 51030316b8a9564c0464556f975b7fba1d5049b4
+SHA256: 825841aef2a5c211ee40bcc80cef20db5439784cc1ed596b00a9e63a03546f77
+
+Package: rpm-i18n
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 2592
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: all
+Replaces: rpm (<< 4.7.0-2)
+Suggests: rpm
+Breaks: rpm (<< 4.7.0-2)
+Description: localization and localized man pages for rpm
+Homepage: http://rpm.org/
+Description-md5: 38f72444aa854dc7f3f657c4be38e842
+Section: localization
+Priority: optional
+Filename: pool/updates/main/r/rpm/rpm-i18n_4.10.0-5+deb7u2_all.deb
+Size: 1438874
+MD5sum: f6fe611422cb224b1b48ae4b922f7c69
+SHA1: 713137cdb46566073cdf3014dfd8b90960bdd308
+SHA256: c5f931d3784741ed8ccf3acc96d3e0b8c1d56c3e8e95b1d24cff7e7ef0332dcd
+
+Package: rpm2cpio
+Source: rpm
+Version: 4.10.0-5+deb7u2
+Installed-Size: 905
+Maintainer: Michal Čihař <nijel@debian.org>
+Architecture: i386
+Replaces: rpm (<< 4.7.1-1)
+Depends: libc6 (>= 2.3.4), librpm3 (>= 4.10.0), librpmio3 (>= 4.10.0), rpm-common (= 4.10.0-5+deb7u2)
+Suggests: rpm-i18n
+Breaks: rpm (<< 4.7.1-1)
+Description: tool to convert RPM package to CPIO archive
+Homepage: http://rpm.org/
+Description-md5: 40ab460ae975fb68939c5b31c0e7dc8e
+Section: admin
+Priority: optional
+Filename: pool/updates/main/r/rpm/rpm2cpio_4.10.0-5+deb7u2_i386.deb
+Size: 922516
+MD5sum: 75aae659814c208812fc5ff137a9fb8a
+SHA1: 3123c81e3ddcf4f2c170d92c7aabeb14cfc6db23
+SHA256: 09dafd9084a5fe30693d4fd65fb061eac761baae14a6f3e100266b0d259afba8
+
 Package: rsyslog
 Version: 5.8.11-3+deb7u2
 Installed-Size: 1148

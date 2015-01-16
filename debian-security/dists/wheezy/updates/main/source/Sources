@@ -10306,6 +10306,46 @@ Directory: pool/updates/main/r/roundcube
 Priority: source
 Section: web
 
+Package: rpm
+Binary: rpm, rpm2cpio, rpm-common, rpm-i18n, librpm-dbg, librpm3, librpmio3, librpmbuild3, librpmsign1, librpm-dev, python-rpm
+Version: 4.10.0-5+deb7u2
+Maintainer: Michal Čihař <nijel@debian.org>
+Uploaders: Loic Minier <lool@dooz.org>
+Build-Depends: debhelper (>= 7.0.50), dpkg-dev (>= 1.16.1~), dh-autoreconf, libtool (>= 2.2.10), autoconf, automake, autotools-dev, autopoint, zlib1g-dev, libbz2-dev, libpopt-dev, libxml2-dev, libreadline-dev, libselinux1-dev [linux-any], libsepol1-dev [linux-any], libcap-dev (>= 1:2) [linux-any], libsqlite3-dev, python-all-dev (>= 2.6.6-3), bzip2, pkg-config, libnspr4-dev, libnss3-dev, liblzma-dev, xz-utils, libmagic-dev, libelf-dev, libdw-dev, libdb-dev, liblua5.1-0-dev (>= 5.1.4-4)
+Architecture: any all
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ a17649d0188891fe8ff5e38bd7db0e4e 2699 rpm_4.10.0-5+deb7u2.dsc
+ 6531fa74f06df0feee774688538241e8 3530378 rpm_4.10.0.orig.tar.bz2
+ 6d898fe6b85ea6cd39926724fb23feda 36730 rpm_4.10.0-5+deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/rpm.git
+Vcs-Git: git://git.debian.org/git/collab-maint/rpm.git
+Checksums-Sha1:
+ 920b6d213e860e9a7b9e76088855cf227c5529ff 2699 rpm_4.10.0-5+deb7u2.dsc
+ d78f19194066c3895f91f58dc84e3aad69f0b02c 3530378 rpm_4.10.0.orig.tar.bz2
+ 9b06bd07c29eb4114be95d555e84883dbf7e7a54 36730 rpm_4.10.0-5+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ b303b73a5601659a3fbd235597ed3ed92a0b01e3e34a0663b24e65986e826772 2699 rpm_4.10.0-5+deb7u2.dsc
+ 0e2e237235b64c07ee4a4152e4eb77aad4eb559737eac9b6713c5e1bcabfe4a9 3530378 rpm_4.10.0.orig.tar.bz2
+ 32f9a2d08c88155688f9dc4f96050ad678ca3f7f10d2241b683fe5fad176f2ad 36730 rpm_4.10.0-5+deb7u2.debian.tar.gz
+Homepage: http://rpm.org/
+Package-List: 
+ librpm-dbg deb debug extra
+ librpm-dev deb libdevel extra
+ librpm3 deb libs optional
+ librpmbuild3 deb libs optional
+ librpmio3 deb libs optional
+ librpmsign1 deb libs optional
+ python-rpm deb python extra
+ rpm deb admin optional
+ rpm-common deb admin optional
+ rpm-i18n deb localization optional
+ rpm2cpio deb admin optional
+Directory: pool/updates/main/r/rpm
+Priority: source
+Section: admin
+
 Package: rsyslog
 Binary: rsyslog, rsyslog-doc, rsyslog-mysql, rsyslog-pgsql, rsyslog-gssapi, rsyslog-gnutls, rsyslog-relp
 Version: 5.8.11-3+deb7u2
