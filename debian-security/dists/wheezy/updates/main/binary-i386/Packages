@@ -16783,6 +16783,23 @@ MD5sum: 5b24f6a611e2f49f9561f6959324236a
 SHA1: 6512dab7685a2a33901484196130f36c690de240
 SHA256: 732fabaaf4f9ad2fcb89fbb6cb84489a92d0dd5155641f0440657c4a09ad36b9
 
+Package: lsyncd
+Version: 2.0.7-3+deb7u1
+Installed-Size: 165
+Maintainer: Jan Dittberner <jandd@debian.org>
+Architecture: i386
+Depends: libc6 (>= 2.7), liblua5.1-0, rsync, lua5.1
+Description: daemon to synchronize local directories using rsync
+Homepage: http://code.google.com/p/lsyncd/
+Description-md5: b50c48762e5bbefa2bd6a930543472c8
+Section: admin
+Priority: optional
+Filename: pool/updates/main/l/lsyncd/lsyncd_2.0.7-3+deb7u1_i386.deb
+Size: 67066
+MD5sum: f093332f6ddd77a86e739f9c17c4420f
+SHA1: cf68271123ac8adff6ae0a4d3efee1715b50dd5c
+SHA256: ec9a0457af0a64943e934f62693ef0f2e3781561986fc0d96572f83799396a72
+
 Package: liblua5.1-expat-dev
 Source: lua-expat
 Version: 1.2.0-5+deb7u1

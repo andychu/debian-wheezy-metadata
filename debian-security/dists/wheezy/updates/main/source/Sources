@@ -7688,6 +7688,35 @@ Directory: pool/updates/main/l/linux
 Priority: source
 Section: kernel
 
+Package: lsyncd
+Binary: lsyncd
+Version: 2.0.7-3+deb7u1
+Maintainer: Jan Dittberner <jandd@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libxml2-dev, automake, liblua5.1-0-dev, lua5.1, pkg-config, asciidoc, xsltproc, docbook-xml, docbook-xsl, autotools-dev, dpkg-dev (>= 1.16.1~)
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ 46c5dd89069117dd0149705d4f16df32 1616 lsyncd_2.0.7-3+deb7u1.dsc
+ 4ef8787f6e3a402a9a2bcb84c123fb17 141498 lsyncd_2.0.7.orig.tar.gz
+ 37c43bf253f704a4d9f789a76d45718a 5704 lsyncd_2.0.7-3+deb7u1.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/lsyncd.git
+Vcs-Git: git://git.debian.org/collab-maint/lsyncd.git
+Checksums-Sha1:
+ de9aad1b0735b7299e7742727509b6548ad594a4 1616 lsyncd_2.0.7-3+deb7u1.dsc
+ b8e64ea9c83da5546109b8ea47d7fb1ac35ed90c 141498 lsyncd_2.0.7.orig.tar.gz
+ bad47ab7f3d96f6e3c6a4ac04f1bfb0c921ddddb 5704 lsyncd_2.0.7-3+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 15cfb8ad316f6854a483136369ca374025628ca69630ca67ad7428ffe50da722 1616 lsyncd_2.0.7-3+deb7u1.dsc
+ 3c76a6e8acfceea742154afd21f74b220277e54b1ffdb71ee1dc2eb104b0bbde 141498 lsyncd_2.0.7.orig.tar.gz
+ 59fab8573ba35fb6fd74e020b06e76e632590e6b1372a86399e7132d990fb940 5704 lsyncd_2.0.7-3+deb7u1.debian.tar.gz
+Homepage: http://code.google.com/p/lsyncd/
+Package-List: 
+ lsyncd deb admin optional
+Directory: pool/updates/main/l/lsyncd
+Priority: source
+Section: admin
+
 Package: lua-expat
 Binary: lua-expat, lua-expat-dev, liblua5.1-expat0, liblua5.1-expat-dev
 Version: 1.2.0-5+deb7u1
