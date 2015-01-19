@@ -5099,7 +5099,7 @@ SHA256: 3a4e37bfdd84d7703e4be2bb950fb8a96f006d7321e390aded0729dc666609a4
 
 Package: calendar-google-provider
 Source: icedove
-Version: 31.3.0-1~deb7u1
+Version: 31.4.0-1~deb7u1
 Installed-Size: 331
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: all
@@ -5108,22 +5108,22 @@ Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 357c83f9399f837c99c158cc2de15566
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/calendar-google-provider_31.3.0-1~deb7u1_all.deb
-Size: 82996
-MD5sum: 53436eb29e90e77aa0a93f531401ec2a
-SHA1: 56cc805d99b8e38db7242fee325255b2988892a3
-SHA256: 1bd548eb960ebf7a07d11eb016ebab159a7d4fc681e7d7e462bffe85a2b8e3d9
+Filename: pool/updates/main/i/icedove/calendar-google-provider_31.4.0-1~deb7u1_all.deb
+Size: 83010
+MD5sum: 4a584f2eca8921fd39506eca4963ae50
+SHA1: bc1bb00dffe9127bb7b757092cee3e2645f45852
+SHA256: ed64108ee76edcf8d69f6224acdc58fbea199e17be6339b35a52c7572c263993
 
 Package: icedove
-Version: 31.3.0-1~deb7u1
-Installed-Size: 65449
+Version: 31.4.0-1~deb7u1
+Installed-Size: 77780
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: icedove-gnome-support (<< 3.0-1~)
 Provides: mail-reader
 Depends: fontconfig, psmisc, debianutils (>= 1.16), libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.11), libcairo2 (>= 1.10.2-2~), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libevent-2.0-5 (>= 2.0.10-stable), libffi5 (>= 3.0.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk2.0-0 (>= 2.24.0), libhunspell-1.3-0, libpango1.0-0 (>= 1.14.0), libpixman-1-0 (>= 0.25.2), libsqlite3-0 (>= 3.7.7), libstartup-notification0 (>= 0.8), libstdc++6 (>= 4.6), libx11-6, libxext6, libxrender1, libxt6, zlib1g (>= 1:1.2.0)
 Suggests: fonts-lyx, libgssapi-krb5-2, libglib2.0-0 (>= 2.20.0)
-Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 31.3.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
+Breaks: enigmail (<< 2:1.6-4~deb7u1), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), icedove-gnome-support (<< 3.0-1~), iceowl-extension (<< 31.4.0-1~deb7u1), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
 Description: mail/news client with RSS and integrated spam filter support
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: a3f8f79f513675ddae7177832763ff0d
@@ -5131,57 +5131,57 @@ Recommends: myspell-en-us | hunspell-dictionary | myspell-dictionary
 Xul-Appid: {3550f703-e582-4d05-9a08-453d09bdfdc6}
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove_31.3.0-1~deb7u1_i386.deb
-Size: 27864000
-MD5sum: e65c7a6f223e256af8625d1111f00352
-SHA1: 83519de4168c1b072a22cfe469d0b5d4c104f00f
-SHA256: 982f6fd462516f44eb2af9b6da6a450a9de1be9e873208bc76b8b107bc56937b
+Filename: pool/updates/main/i/icedove/icedove_31.4.0-1~deb7u1_i386.deb
+Size: 30344834
+MD5sum: 856dd8ee2ddc1f0b540547c0bcfff60e
+SHA1: 7ae0f76b47ad3365e8301ac14f7f7e146fb57c70
+SHA256: f8f3a6896ae5cfdc8a68a00295f585258e15d81e9586ee72099dd36b8435567a
 
 Package: icedove-dbg
 Source: icedove
-Version: 31.3.0-1~deb7u1
-Installed-Size: 891577
+Version: 31.4.0-1~deb7u1
+Installed-Size: 898010
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 31.3.0-1~deb7u1)
+Depends: icedove (= 31.4.0-1~deb7u1)
 Description: Debug Symbols for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: 99fce9c8b37fcb1fdae080cd71939b95
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dbg_31.3.0-1~deb7u1_i386.deb
-Size: 231570764
-MD5sum: ebe2dde94fe0526ad05cb43747d0cecd
-SHA1: facb07a05af7bbbb33676d830b6c1e0004df9d76
-SHA256: 4aad454496bee7c060ab6d1758de55639df6e06c0c00db756bb3f68dd459e9d9
+Filename: pool/updates/main/i/icedove/icedove-dbg_31.4.0-1~deb7u1_i386.deb
+Size: 233486098
+MD5sum: 268303aa274f996710ffd3977d2c3351
+SHA1: f0fcb0c435bb2adcb99cfa2a2029582ae0840fe2
+SHA256: 760cbe6cb1dc09d50ecf03318ea5cb8a4f9ad659649b575725ab248ba63a416f
 
 Package: icedove-dev
 Source: icedove
-Version: 31.3.0-1~deb7u1
-Installed-Size: 38216
+Version: 31.4.0-1~deb7u1
+Installed-Size: 38217
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
-Depends: icedove (= 31.3.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
+Depends: icedove (= 31.4.0-1~deb7u1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), python, libnspr4-dev, libnss3-dev
 Description: Development files for Icedove
 Homepage: http://www.mozilla.org/thunderbird/
 Description-md5: e5dc915b9a4390b041790032893a56e6
 Section: mail
 Priority: optional
-Filename: pool/updates/main/i/icedove/icedove-dev_31.3.0-1~deb7u1_i386.deb
-Size: 5360214
-MD5sum: 177f87edabeba209e3b829c586a74c24
-SHA1: f3d6389b0e2a22b2196bbad34d9b662d742071c6
-SHA256: 8926ae2b0d42440e49bcbefc2d29fc9255924fa59a5307bd372fc6a70875c718
+Filename: pool/updates/main/i/icedove/icedove-dev_31.4.0-1~deb7u1_i386.deb
+Size: 5360286
+MD5sum: 50d9d1761b6e20b9d73ee3279650e319
+SHA1: ad191c1e7c6a7a73014e7ef2c831917a70839efe
+SHA256: b55e9e6a2f9325a629910c2602e7636eff4f62df1c6216314bfc6938d6e2cc3b
 
 Package: iceowl-extension
 Source: icedove
-Version: 31.3.0-1~deb7u1
+Version: 31.4.0-1~deb7u1
 Installed-Size: 5485
 Maintainer: Christoph Goehre <chris@sigxcpu.org>
 Architecture: i386
 Replaces: calendar-timezones
 Provides: calendar-timezones
-Depends: icedove (>= 31.3.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: icedove (>= 31.4.0-1~deb7u1), libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Suggests: fonts-lyx
 Breaks: calendar-timezones
 Description: Calendar Extension for Thunderbird/Icedove
@@ -5190,11 +5190,11 @@ Description-md5: 65836c12ff9dc4d09cb7aaa996e47d9c
 Recommends: calendar-google-provider
 Section: web
 Priority: optional
-Filename: pool/updates/main/i/icedove/iceowl-extension_31.3.0-1~deb7u1_i386.deb
-Size: 1543152
-MD5sum: e767464080b72f0b7739002a844bfc1c
-SHA1: c1c48230705ce4360ee2b94fc41070b2ddef4f50
-SHA256: 2782d367965eb3280f4db084e6ab71a09e8ad6b0e85bad536b4fa7023a551c1c
+Filename: pool/updates/main/i/icedove/iceowl-extension_31.4.0-1~deb7u1_i386.deb
+Size: 1542914
+MD5sum: 6e9516de4ddd8d7eb15e5f522d7f99ed
+SHA1: f7a08ad9d6c004895f217ab2a1a3fa538bb9c478
+SHA256: 45d0ae366b12ed25059d14c5f941770af3e5682a30396635b6064e770618a602
 
 Package: icedove-l10n-all
 Source: icedove-l10n
@@ -28967,6 +28967,24 @@ Size: 39460
 MD5sum: ad6705c3d997d292a7be52eeac14800e
 SHA1: 100c9b71e4456c13d65d73132fc78e68f25ab84a
 SHA256: ac3d8abbad93a51c8e42773faa66b41b4067452d4efb2277b586839ca3bf5509
+
+Package: xdg-utils
+Version: 1.1.0~rc1+git20111210-6+deb7u2
+Installed-Size: 301
+Maintainer: Per Olofsson <pelle@debian.org>
+Architecture: all
+Suggests: gvfs-bin
+Description: desktop integration utilities from freedesktop.org
+Homepage: http://portland.freedesktop.org/
+Description-md5: b2d9372f62fa5a8a1219b71092959764
+Recommends: libfile-mimeinfo-perl, libnet-dbus-perl, libx11-protocol-perl, x11-utils, x11-xserver-utils
+Section: utils
+Priority: optional
+Filename: pool/updates/main/x/xdg-utils/xdg-utils_1.1.0~rc1+git20111210-6+deb7u2_all.deb
+Size: 82480
+MD5sum: e015fcc8f6794eae92fd0cfa891f5098
+SHA1: 4f95e3527409fdfa613ba6294dc1e5463197f70f
+SHA256: 1bcd90e7d198af7d9b79588b460a5254e4ee3b7d9bf52bcf47e04c1ed8db732b
 
 Package: libxen-4.1
 Source: xen

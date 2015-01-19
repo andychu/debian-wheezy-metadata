@@ -1707,6 +1707,40 @@ Directory: pool/updates/main/i/icedove
 Priority: source
 Section: mail
 
+Package: icedove
+Binary: icedove, icedove-dev, icedove-dbg, iceowl-extension, calendar-google-provider
+Version: 31.4.0-1~deb7u1
+Maintainer: Christoph Goehre <chris@sigxcpu.org>
+Uploaders: Guido Günther <agx@sigxcpu.org>
+Build-Depends: autoconf2.13, autotools-dev, bzip2, debhelper (>= 7.0.50~), dpkg-dev (>= 1.16.1~), libasound2-dev [linux-any], libbz2-dev, libcairo2-dev (>= 1.10.2-1.1~), libdbus-glib-1-dev (>= 0.60), libevent-dev (>= 1.4.1), libffi-dev, libfontconfig1-dev, libglib2.0-dev (>= 2.16.0), libgnomeui-dev (>= 2.16), libgstreamer-plugins-base0.10-dev, libgstreamer0.10-dev, libgtk2.0-dev (>= 2.12), libhunspell-dev (>= 1.2), libidl-dev (>= 0.8.0), libiw-dev [linux-any], libjs-jquery, libjs-jquery-ui, libreadline-dev, libpulse-dev, libsqlite3-dev (>= 3.7.13~), libstartup-notification0-dev, libxau-dev, libxft-dev, libxt-dev, mesa-common-dev, python-minimal (>= 2.6.6-13~), python-ply, python2.7, unzip, yasm (>= 1.1), zip, zlib1g-dev
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Files:
+ 1a57684594751ba06141f30905e44531 2829 icedove_31.4.0-1~deb7u1.dsc
+ 6bf3747f53d0f14f6e7220a3a39bfd1a 139886608 icedove_31.4.0.orig.tar.xz
+ 92aca01ae05266142a06f1901a117002 495429 icedove_31.4.0-1~deb7u1.debian.tar.gz
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mozilla/icedove.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-mozilla/icedove.git
+Checksums-Sha1:
+ a7dc0c434c31b30786acbb94baedddc42ed57bde 2829 icedove_31.4.0-1~deb7u1.dsc
+ eed794d29bca79cac581c6739711cd7735c96c47 139886608 icedove_31.4.0.orig.tar.xz
+ 35d0a09971a4af4ff3bb6969d4cb4d7b5b0f1553 495429 icedove_31.4.0-1~deb7u1.debian.tar.gz
+Checksums-Sha256:
+ c6d9e103be9c4edeb68b3fc1d87af73dfe701e91a0975bab08bf93a2149a2062 2829 icedove_31.4.0-1~deb7u1.dsc
+ 7b47a053fe1f10097350d4a599a80b91eed1dc21dfcda1618b229f97493cb93c 139886608 icedove_31.4.0.orig.tar.xz
+ ff1573fe85bcd7e6dedb2d67fc65f6817faa99ebe38886e1a8f4e85644eb8d82 495429 icedove_31.4.0-1~deb7u1.debian.tar.gz
+Homepage: http://www.mozilla.org/thunderbird/
+Package-List: 
+ calendar-google-provider deb mail optional
+ icedove deb mail optional
+ icedove-dbg deb debug extra
+ icedove-dev deb mail optional
+ iceowl-extension deb mail optional
+Directory: pool/updates/main/i/icedove
+Priority: source
+Section: mail
+
 Package: icedove-l10n
 Binary: icedove-l10n-all, icedove-l10n-ar, icedove-l10n-ast, icedove-l10n-be, icedove-l10n-bg, icedove-l10n-bn-bd, icedove-l10n-br, icedove-l10n-ca, icedove-l10n-cs, icedove-l10n-da, icedove-l10n-de, icedove-l10n-el, icedove-l10n-en-gb, icedove-l10n-es-ar, icedove-l10n-es-es, icedove-l10n-et, icedove-l10n-eu, icedove-l10n-fi, icedove-l10n-fr, icedove-l10n-fy-nl, icedove-l10n-ga-ie, icedove-l10n-gd, icedove-l10n-gl, icedove-l10n-he, icedove-l10n-hr, icedove-l10n-hu, icedove-l10n-hy-am, icedove-l10n-id, icedove-l10n-is, icedove-l10n-it, icedove-l10n-ja, icedove-l10n-ko, icedove-l10n-lt, icedove-l10n-nb-no, icedove-l10n-nl, icedove-l10n-nn-no, icedove-l10n-pa-in, icedove-l10n-pl, icedove-l10n-pt-br, icedove-l10n-pt-pt, icedove-l10n-rm, icedove-l10n-ro, icedove-l10n-ru, icedove-l10n-si, icedove-l10n-sk, icedove-l10n-sl, icedove-l10n-sq, icedove-l10n-sr, icedove-l10n-sv-se, icedove-l10n-ta-lk, icedove-l10n-tr, icedove-l10n-uk, icedove-l10n-vi, icedove-l10n-zh-cn,
  icedove-l10n-zh-tw
@@ -11925,6 +11959,36 @@ Package-List:
 Directory: pool/updates/main/x/xbuffy
 Priority: source
 Section: mail
+
+Package: xdg-utils
+Binary: xdg-utils
+Version: 1.1.0~rc1+git20111210-6+deb7u2
+Maintainer: Per Olofsson <pelle@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>
+Build-Depends: debhelper (>= 8), xmlto, mawk | awk, w3m
+Architecture: all
+Standards-Version: 3.9.2
+Format: 3.0 (quilt)
+Files:
+ 4421e1c14118c6d9900e11aa4940000d 2722 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.dsc
+ 1238359ea2c99246e1ba8292c4eabd32 327534 xdg-utils_1.1.0~rc1+git20111210.orig.tar.gz
+ 8fa0e0783519c073636eedfb8b502433 11566 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/xdg-utils.git
+Vcs-Git: git://git.debian.org/git/collab-maint/xdg-utils.git
+Checksums-Sha1:
+ 027362d50c30e281cd5f7e9772ba591d98d60f31 2722 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.dsc
+ 5ff3bdce38395b73ebc499fd206685e4eb5ebfc5 327534 xdg-utils_1.1.0~rc1+git20111210.orig.tar.gz
+ bcc8b500688e4fde726ab4b7fe633c0091fd01f0 11566 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 0a82f5c4c1c0de7ae6b88f7cc4733363ef7a93b67fcc161745243b41a248e1d5 2722 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.dsc
+ cb1a9898d5c6dbf23d924e3d6b12df8ea2ab883380bda1f0d4b010bd86fd2015 327534 xdg-utils_1.1.0~rc1+git20111210.orig.tar.gz
+ bbd8793ba4d7ddf42615a2e778ee0e0e75f9510cf455a2a14d67c490b7b629f9 11566 xdg-utils_1.1.0~rc1+git20111210-6+deb7u2.debian.tar.gz
+Homepage: http://portland.freedesktop.org/
+Package-List: 
+ xdg-utils deb utils optional
+Directory: pool/updates/main/x/xdg-utils
+Priority: source
+Section: utils
 
 Package: xen
 Binary: xen-docs-4.1, libxen-4.1, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.1, xen-hypervisor-4.1-amd64, xen-system-amd64, xen-hypervisor-4.1-i386, xen-system-i386
