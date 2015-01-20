@@ -21864,6 +21864,24 @@ MD5sum: 4b46acb465c9d1d9700d8b4986e32df9
 SHA1: 519f4b04df2cbf504bb9a70f7e50d216f49210df
 SHA256: c043b4eb11da765a11ff26500901388180685c51c310956b89b2b7738d7ee9be
 
+Package: privoxy
+Version: 3.0.19-2+deb7u1
+Installed-Size: 1870
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libpcre3 (>= 8.10), zlib1g (>= 1:1.1.4), perl, logrotate, adduser, lsb-base (>= 3.2-13)
+Description: Privacy enhancing HTTP Proxy
+Homepage: http://www.privoxy.org/
+Description-md5: 6ec5aaf09f151e319fd41d430dbd5eca
+Recommends: doc-base
+Section: web
+Priority: optional
+Filename: pool/updates/main/p/privoxy/privoxy_3.0.19-2+deb7u1_amd64.deb
+Size: 633578
+MD5sum: df4fae1a8cc852f62d42c24570e0dfa6
+SHA1: 3c3f708b11ce8e9bc2e6a045f202db8e7e133bb5
+SHA256: 9af0c6b317f69fd865415a93390f63ca65a0dc66e9442250a072c436d70906df
+
 Package: procmail
 Version: 3.22-20+deb7u1
 Installed-Size: 314

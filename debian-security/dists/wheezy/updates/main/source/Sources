@@ -9633,6 +9633,33 @@ Directory: pool/updates/main/p/ppp
 Priority: source
 Section: admin
 
+Package: privoxy
+Binary: privoxy
+Version: 3.0.19-2+deb7u1
+Maintainer: Roland Rosenfeld <roland@debian.org>
+Build-Depends: debhelper (>= 9), autoconf, autotools-dev, libpcre3-dev, jade, docbook-dsssl, docbook, w3m, sp, sgmlspl, groff, man2html, zlib1g-dev
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ d63736b5d5a8615d4fa18aa949182157 1824 privoxy_3.0.19-2+deb7u1.dsc
+ 57acc79059565cc42eda67982842785d 1722316 privoxy_3.0.19.orig.tar.gz
+ f23ce084f150727ebc018d4da45ac8c4 20601 privoxy_3.0.19-2+deb7u1.debian.tar.gz
+Checksums-Sha1:
+ 274db380555a7b899fa5c19bb40d6800f2d4a57e 1824 privoxy_3.0.19-2+deb7u1.dsc
+ a82287cbf48375ef449d021473a366baeca49250 1722316 privoxy_3.0.19.orig.tar.gz
+ b9b38021e8ddfee8cd81e90880aebe8d06a9a307 20601 privoxy_3.0.19-2+deb7u1.debian.tar.gz
+Checksums-Sha256:
+ 467f568a1ae13e86de0418635c3cf60e6dc031b510ffdc0f7a0bfd782f97aab0 1824 privoxy_3.0.19-2+deb7u1.dsc
+ 816e627b31caa3d9e71d0a8b83ac9ea7dcbeaaafef3c9a9c792696aa56255232 1722316 privoxy_3.0.19.orig.tar.gz
+ f2ebbde919e0bc0a206cd1c1680fcb5c55f7cf5c8b31686d22bdcfb21c7e5dd3 20601 privoxy_3.0.19-2+deb7u1.debian.tar.gz
+Homepage: http://www.privoxy.org/
+Package-List: 
+ privoxy deb web optional
+Directory: pool/updates/main/p/privoxy
+Priority: source
+Section: web
+
 Package: procmail
 Binary: procmail
 Version: 3.22-20+deb7u1
