@@ -11156,6 +11156,36 @@ Directory: pool/updates/main/s/swift
 Priority: source
 Section: net
 
+Package: sympa
+Binary: sympa
+Version: 6.1.11~dfsg-5+deb7u2
+Maintainer: Debian Sympa team <pkg-sympa-devel@lists.alioth.debian.org>
+Uploaders: Stefan Hornburg (Racke) <racke@linuxia.de>, Jonas Smedegaard <dr@jones.dk>, Emmanuel Bouthenot <kolter@debian.org>
+Build-Depends: cdbs (>= 0.4.72~), devscripts (>= 2.10.7~), debhelper (>= 6), dh-buildinfo, libdbi-perl (>= 1.48), libarchive-zip-perl (>= 1.05), libmailtools-perl (>= 1.51), libmsgcat-perl (>= 1.0), libmime-tools-perl, perl (>= 5.8), libio-stringy-perl, libnet-ldap-perl, libcgi-fast-perl, libintl-perl, libmime-charset-perl, libmime-encwords-perl, libtemplate-perl, libxml-libxml-perl, perl-modules (>= 5.10) | libcgi-pm-perl (>= 3.35), libhtml-stripscripts-parser-perl (>= 1.0), libhtml-tree-perl, libhtml-format-perl, mhonarc, libregexp-common-perl, debconf-utils, po-debconf
+Architecture: any
+Standards-Version: 3.9.3
+Format: 3.0 (quilt)
+Files:
+ f40d8851fa7f4ac1b20227bd3b515f31 2553 sympa_6.1.11~dfsg-5+deb7u2.dsc
+ 1acddec6b91809ee03e11661a78c216c 5428470 sympa_6.1.11~dfsg.orig.tar.gz
+ 9dff2e7111e1bb055e1e459357a8b085 123307 sympa_6.1.11~dfsg-5+deb7u2.debian.tar.gz
+Vcs-Browser: http://git.debian.org/?p=collab-maint/sympa.git;a=summary
+Vcs-Git: git://git.debian.org/git/collab-maint/sympa.git
+Checksums-Sha1:
+ 23ca5a21686719c105276b8026e7ea7192ab2980 2553 sympa_6.1.11~dfsg-5+deb7u2.dsc
+ a7725139d382de7db90a1f40274c82d335952713 5428470 sympa_6.1.11~dfsg.orig.tar.gz
+ 7673920330e8a2de5ae0fd509c656b98aa22739d 123307 sympa_6.1.11~dfsg-5+deb7u2.debian.tar.gz
+Checksums-Sha256:
+ 3a822de2580a0bd71c799affde51d3089421fd448977a7973ca148367915f9d6 2553 sympa_6.1.11~dfsg-5+deb7u2.dsc
+ 68d09f0532fabafec539733c898cd579eea81ac23f4a71914ba47e42595e4b63 5428470 sympa_6.1.11~dfsg.orig.tar.gz
+ 9ccd3bde32d34c25d7a5f8aac48eb4e3235df101ecc1b3b884822199c0399512 123307 sympa_6.1.11~dfsg-5+deb7u2.debian.tar.gz
+Homepage: http://www.sympa.org/
+Package-List: 
+ sympa deb mail optional
+Directory: pool/updates/main/s/sympa
+Priority: source
+Section: mail
+
 Package: systemd
 Binary: systemd, systemd-sysv, libpam-systemd, systemd-gui, libsystemd-login0, libsystemd-login-dev, libsystemd-daemon0, libsystemd-daemon-dev, libsystemd-journal0, libsystemd-journal-dev, libsystemd-id128-0, libsystemd-id128-dev
 Version: 44-11+deb7u4
