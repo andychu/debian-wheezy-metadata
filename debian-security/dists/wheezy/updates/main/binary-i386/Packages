@@ -18802,32 +18802,32 @@ SHA256: 772b8243369f2c56e81ad10b91c543518c0e798975951861c2827c5a37bd0b7d
 
 Package: libmysqlclient-dev
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 5028
+Version: 5.5.41-0+wheezy1
+Installed-Size: 4965
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: libmysqlclient15-dev
 Provides: libmysqlclient15-dev
-Depends: libmysqlclient18 (= 5.5.40-0+wheezy1), zlib1g-dev
+Depends: libmysqlclient18 (= 5.5.41-0+wheezy1), zlib1g-dev
 Conflicts: libmysqlclient10-dev, libmysqlclient12-dev, libmysqlclient14-dev, libmysqlclient15-dev
 Description: MySQL database development files
 Homepage: http://dev.mysql.com/
 Description-md5: 716f7a81dc4e3e8899c7eaa66b24736d
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/libmysqlclient-dev_5.5.40-0+wheezy1_i386.deb
-Size: 929574
-MD5sum: 91f3fec3161dac675288f20f7e4e92d0
-SHA1: 4e98c1f333e15b0fd0ad216c0a02609278a98762
-SHA256: 2707bfbee1c6145cdd25ac4443c8f056afb7a4100c7ab498ff0c65dd3159107d
+Filename: pool/updates/main/m/mysql-5.5/libmysqlclient-dev_5.5.41-0+wheezy1_i386.deb
+Size: 931530
+MD5sum: 78db396d9373ee3030873ba1c2e877a6
+SHA1: 37afbd647b79e605a3e2d1ddc9852a8e2bf6adf4
+SHA256: be1c1937ac15b086f107a1664daab8ad0ee2b667ebd0fc5f3079c95f50fd2d13
 
 Package: libmysqlclient18
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 3323
+Version: 5.5.41-0+wheezy1
+Installed-Size: 3295
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: mysql-common (>= 5.5.40-0+wheezy1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: mysql-common (>= 5.5.41-0+wheezy1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Description: MySQL database client library
 Homepage: http://dev.mysql.com/
 Description-md5: 49de807663510f5f2afd3e71efe199f1
@@ -18835,52 +18835,52 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/libmysqlclient18_5.5.40-0+wheezy1_i386.deb
-Size: 655160
-MD5sum: b863ff77fb43bdfaeeb5bbdac7f774ad
-SHA1: 927e4af577399485b83ca0aff5e038bc834c5fcf
-SHA256: 2a4ef57f2d0503acb3fa9d307c2e65c1073bb903fd6e6b4baea9ac8c29d465f1
+Filename: pool/updates/main/m/mysql-5.5/libmysqlclient18_5.5.41-0+wheezy1_i386.deb
+Size: 659128
+MD5sum: 7dea42c472082a8891ed74473e291f3b
+SHA1: 3bef89440b85dcfcd1e778be0aa5461eb08be4f5
+SHA256: 8d72d36c606a3cff9add0181cf050b71f7efeea0f92be550ea53bdabf078f778
 
 Package: libmysqld-dev
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 15343
+Version: 5.5.41-0+wheezy1
+Installed-Size: 15317
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libmysqlclient-dev (>= 5.5.40-0+wheezy1)
+Depends: libmysqlclient-dev (>= 5.5.41-0+wheezy1)
 Description: MySQL embedded database development files
 Homepage: http://dev.mysql.com/
 Description-md5: 2f06b7e1bfdb9f620d92f9696d24fabc
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/libmysqld-dev_5.5.40-0+wheezy1_i386.deb
-Size: 3073876
-MD5sum: 853d841dac5f7d4b7e194bd1f5f5a7bb
-SHA1: f0c06561b33d3bf97e449b25308bd34ca76be6f1
-SHA256: d37219f260517357b7662bd0e4f1061d289443c2cf822f9e9d002eae03b6266a
+Filename: pool/updates/main/m/mysql-5.5/libmysqld-dev_5.5.41-0+wheezy1_i386.deb
+Size: 3075460
+MD5sum: 609b0fd60d000c96b736953eb761d02d
+SHA1: 1d8d0f42817d1d0413a0ba88568e0fba0b81bed3
+SHA256: 736d84f58b1aeb292cb03864e20f3b49a1718afae5e83fe86f97fb582b5922e0
 
 Package: libmysqld-pic
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 15351
+Version: 5.5.41-0+wheezy1
+Installed-Size: 15321
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: libmysqlclient-dev (>= 5.5.40-0+wheezy1)
+Depends: libmysqlclient-dev (>= 5.5.41-0+wheezy1)
 Description: PIC version of MySQL embedded server development files
 Homepage: http://dev.mysql.com/
 Description-md5: 4f0123604f8e0442d2e6b2d62982b462
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/libmysqld-pic_5.5.40-0+wheezy1_i386.deb
-Size: 3076034
-MD5sum: f7998c6cad9567738e1d03e40a6f5a75
-SHA1: a84a18934b72254f24036a71c99bca986d90cdd0
-SHA256: 9b616992afe50235aff208c5169c6c3ccf6ffd595220dd7ad555722fe3facfae
+Filename: pool/updates/main/m/mysql-5.5/libmysqld-pic_5.5.41-0+wheezy1_i386.deb
+Size: 3077788
+MD5sum: 2228616f168bdff931a95cd07681884c
+SHA1: 8e6a41d853b2c9c66ff6ffa1b1254afb797ef1ca
+SHA256: 25d982d22c86cd839e4c7a1da4c9693ec77e6d770d30c9ef1b3267e5856f177d
 
 Package: mysql-client
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 118
+Version: 5.5.41-0+wheezy1
+Installed-Size: 120
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: mysql-client-5.5
@@ -18889,38 +18889,38 @@ Homepage: http://dev.mysql.com/
 Description-md5: 14f0974c23b8a9eb6d18e6372c961e4c
 Section: misc
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-client_5.5.40-0+wheezy1_all.deb
-Size: 73774
-MD5sum: 40ba6956c848e3b94349dfcc4307a04e
-SHA1: 4a533e8d5b410b5d7c542d736db8059d102c2e93
-SHA256: fbfcff9139b50b0b12bcd13e2de4d02fff0ab82e22979671e769546966333ded
+Filename: pool/updates/main/m/mysql-5.5/mysql-client_5.5.41-0+wheezy1_all.deb
+Size: 76592
+MD5sum: 2fcfc51223d3a173ef25548351fe1972
+SHA1: 6a92aaf4ac0f111dc0a080724e153763dc208893
+SHA256: 047150e163e9b4440b0f600a317124bff6143041f893105a7bcfef4f157ef76b
 
 Package: mysql-client-5.5
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 35128
+Version: 5.5.41-0+wheezy1
+Installed-Size: 35088
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Replaces: mysql-client (<< 5.5.40-0+wheezy1), mysql-client-5.0, mysql-client-5.1
+Replaces: mysql-client (<< 5.5.41-0+wheezy1), mysql-client-5.0, mysql-client-5.1
 Provides: mysql-client, virtual-mysql-client
-Depends: debianutils (>= 1.6), libdbi-perl, libdbd-mysql-perl (>= 1.2202), mysql-common (>= 5.5.40-0+wheezy1), perl, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libreadline6 (>= 6.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
+Depends: debianutils (>= 1.6), libdbi-perl, libdbd-mysql-perl (>= 1.2202), mysql-common (>= 5.5.41-0+wheezy1), perl, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libreadline6 (>= 6.0), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4)
 Suggests: libterm-readkey-perl
-Breaks: mysql-client (<< 5.5.40-0+wheezy1), mysql-client-5.0, mysql-client-5.1
+Breaks: mysql-client (<< 5.5.41-0+wheezy1), mysql-client-5.0, mysql-client-5.1
 Description: MySQL database client binaries
 Homepage: http://dev.mysql.com/
 Description-md5: 70aef1a292fc318f9af72aa188c17716
 Section: database
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-client-5.5_5.5.40-0+wheezy1_i386.deb
-Size: 1698814
-MD5sum: 830a9b9507166697079259c3d5b755a0
-SHA1: d7e886d00cf76e118048f76578389d9d0ad681fe
-SHA256: 05396b48781995bdd7384bfcab07059e9433fc17a57292dd19e99667e6a79a61
+Filename: pool/updates/main/m/mysql-5.5/mysql-client-5.5_5.5.41-0+wheezy1_i386.deb
+Size: 1554684
+MD5sum: 06dfe84377f614c25a17bfea37726ccf
+SHA1: 0f6b4eec47f15f0c4f0fbe3dfff90153b431ad87
+SHA256: b8b3ce40445c92ea5b1d26600b48bcfa7f3a90e6e4faf7d55e5ab8f3563b69b2
 
 Package: mysql-common
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 133
+Version: 5.5.41-0+wheezy1
+Installed-Size: 136
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Breaks: amarok (<< 2.5.0-2), mysql-client-5.1 (<< 5.5), mysql-server-5.1 (<< 5.5), mysql-server-core-5.1 (<< 5.5)
@@ -18930,16 +18930,16 @@ Description-md5: 562d254c602f89e4390e28f6362283c8
 Multi-Arch: foreign
 Section: misc
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-common_5.5.40-0+wheezy1_all.deb
-Size: 75546
-MD5sum: 290e76a5cb1af986042b6687851bb01a
-SHA1: 602d4ede5ee0d690e77523912288aeadd25df115
-SHA256: 33137ea3b7ed5aeb0f8423207b9a9891785f362b14560db94e6ece16bf410fb1
+Filename: pool/updates/main/m/mysql-5.5/mysql-common_5.5.41-0+wheezy1_all.deb
+Size: 78442
+MD5sum: 04eca773b8b7834fa294c3830d9a23a2
+SHA1: 64dbfd4227825a179164a0aa221f37262c0ed457
+SHA256: de3c0a15204b10888199650934f84acd4224b4a5ef7c98ba522f90ea9f114301
 
 Package: mysql-server
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 118
+Version: 5.5.41-0+wheezy1
+Installed-Size: 120
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: all
 Depends: mysql-server-5.5
@@ -18948,40 +18948,40 @@ Homepage: http://dev.mysql.com/
 Description-md5: e519a9c4f87658afbd1d077af63f9269
 Section: misc
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-server_5.5.40-0+wheezy1_all.deb
-Size: 73872
-MD5sum: b49873c3a32d33f6186e779202f6a87e
-SHA1: ca31f1bbd4c99af2c1da83bcdeb0da55a7cfe31e
-SHA256: 05b7e93628ee4eda80b346d2e56ca1a6ad39520e42bafb6abf27e5fa15ed2a7c
+Filename: pool/updates/main/m/mysql-5.5/mysql-server_5.5.41-0+wheezy1_all.deb
+Size: 76720
+MD5sum: 2c829abfd00d661c9acf580e68663104
+SHA1: d2483df2aae95dbb1178ac621bd6d0b8ef25d35f
+SHA256: b051e4a1b6dc2c0fc04746a943935aca1aa991abb65398c59a0bd39b05a759e8
 
 Package: mysql-server-5.5
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 30693
+Version: 5.5.41-0+wheezy1
+Installed-Size: 30606
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Replaces: libmysqlclient-dev (<< 5.5.17~), mysql-client-5.1, mysql-server (<< 5.5.40-0+wheezy1), mysql-server-5.0, mysql-server-5.1
+Replaces: libmysqlclient-dev (<< 5.5.17~), mysql-client-5.1, mysql-server (<< 5.5.41-0+wheezy1), mysql-server-5.0, mysql-server-5.1
 Provides: virtual-mysql-server
-Depends: mysql-client-5.5 (>= 5.5.40-0+wheezy1), libdbi-perl, perl (>= 5.6), libc6 (>= 2.12), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, psmisc, passwd, lsb-base (>= 3.0-10), mysql-server-core-5.5 (>= 5.5.40-0+wheezy1), initscripts (>= 2.88dsf-13.3)
+Depends: mysql-client-5.5 (>= 5.5.41-0+wheezy1), libdbi-perl, perl (>= 5.6), libc6 (>= 2.12), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), zlib1g (>= 1:1.1.4), debconf (>= 0.5) | debconf-2.0, psmisc, passwd, lsb-base (>= 3.0-10), mysql-server-core-5.5 (>= 5.5.41-0+wheezy1), initscripts (>= 2.88dsf-13.3)
 Suggests: tinyca
-Breaks: libmysqlclient-dev (<< 5.5.17~), mysql-client-5.1, mysql-server (<< 5.5.40-0+wheezy1), mysql-server-5.1
+Breaks: libmysqlclient-dev (<< 5.5.17~), mysql-client-5.1, mysql-server (<< 5.5.41-0+wheezy1), mysql-server-5.1
 Description: MySQL database server binaries and system database setup
 Homepage: http://dev.mysql.com/
 Description-md5: 3ae11e16f793b3ee84f73a5fa268ad9b
-Pre-Depends: mysql-common (>= 5.5.40-0+wheezy1), adduser (>= 3.40), debconf
+Pre-Depends: mysql-common (>= 5.5.41-0+wheezy1), adduser (>= 3.40), debconf
 Recommends: mailx, libhtml-template-perl
 Section: database
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-server-5.5_5.5.40-0+wheezy1_i386.deb
-Size: 1988914
-MD5sum: 96473540c9e59ecafdc18604977fa0c9
-SHA1: 92eeafd23fbb1f03b54a85f5b2c0d6e69901c1ff
-SHA256: 9df5c43c299d9d98547020dcb18ce0947ef7bad12ffe03011f9d2c38353f3a77
+Filename: pool/updates/main/m/mysql-5.5/mysql-server-5.5_5.5.41-0+wheezy1_i386.deb
+Size: 1729632
+MD5sum: ef848e428036b21c70f30438e6f0ac35
+SHA1: 3e3ef1b12b00379907a83c5da67f791e5c1b02e1
+SHA256: 2d8aa4d96558378a057ee87e0eb94769e325d7e7a4a50f83bc01268f7b8746a2
 
 Package: mysql-server-core-5.5
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 17982
+Version: 5.5.41-0+wheezy1
+Installed-Size: 17847
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Replaces: mysql-client-5.1, mysql-server-5.0, mysql-server-5.1, mysql-server-core-5.0, mysql-server-core-5.1
@@ -18993,16 +18993,16 @@ Homepage: http://dev.mysql.com/
 Description-md5: a54aa75db64667c487b6c9d3800b8153
 Section: database
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-server-core-5.5_5.5.40-0+wheezy1_i386.deb
-Size: 3265632
-MD5sum: b3271dd205c898aa4d00a120adc3d1a2
-SHA1: 9c345e7b484dd6492d75776b6c8ec41b613988fc
-SHA256: e99d2a8de33f8a7e75f8ff288d6eb8b4af91a6ea6a589b820fbe25436aa3e3d2
+Filename: pool/updates/main/m/mysql-5.5/mysql-server-core-5.5_5.5.41-0+wheezy1_i386.deb
+Size: 3271568
+MD5sum: d44fbd7e3d122af746e8b61a0806d908
+SHA1: c601a5a4f1769e62ee21fdbe9982a5fbdde0189d
+SHA256: 18aa81030dea07b4ed15c3760b06a0fa5ffb938c962387e151c2eb46c0214674
 
 Package: mysql-source-5.5
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 23309
+Version: 5.5.41-0+wheezy1
+Installed-Size: 23337
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
 Description: MySQL source
@@ -19010,29 +19010,29 @@ Homepage: http://dev.mysql.com/
 Description-md5: 9bacc0267862ea6c169da6cfe76d3aef
 Section: database
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-source-5.5_5.5.40-0+wheezy1_i386.deb
-Size: 22814476
-MD5sum: 327855d1ca36224c6094b4d6c8cedb6f
-SHA1: c3c88e1e6e18f8bf3663be32ec063f0204fad49c
-SHA256: f352746810b4371b7a2a4c02eb951141a625d6e1d0e95aa0be6241586bfa0f00
+Filename: pool/updates/main/m/mysql-5.5/mysql-source-5.5_5.5.41-0+wheezy1_i386.deb
+Size: 22875926
+MD5sum: 40833524f8a4e5adfa79fbc3890d3603
+SHA1: f7ac3dd941eff5efc5d24382f559c861afb6a590
+SHA256: 8c28f16b6c40aefc0ef57e27fd63c9c7d2af73e48e27e08534a18e341c029415
 
 Package: mysql-testsuite-5.5
 Source: mysql-5.5
-Version: 5.5.40-0+wheezy1
-Installed-Size: 108786
+Version: 5.5.41-0+wheezy1
+Installed-Size: 108254
 Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
 Architecture: i386
-Depends: mysql-server (= 5.5.40-0+wheezy1), mysql-client (= 5.5.40-0+wheezy1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Depends: mysql-server (= 5.5.41-0+wheezy1), mysql-client (= 5.5.41-0+wheezy1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
 Description: MySQL testsuite
 Homepage: http://dev.mysql.com/
 Description-md5: 3e88fc28903eb44dd0b2a0eb9f813181
 Section: database
 Priority: optional
-Filename: pool/updates/main/m/mysql-5.5/mysql-testsuite-5.5_5.5.40-0+wheezy1_i386.deb
-Size: 4294898
-MD5sum: 38cdd0968d0a1b2a329c880c07e5da5a
-SHA1: 29f5c61656be2b6571062d7bad09a26e847b883f
-SHA256: 026a603c773e05adf3ad26bf19f34c4179427751af0353c3b418649019c14195
+Filename: pool/updates/main/m/mysql-5.5/mysql-testsuite-5.5_5.5.41-0+wheezy1_i386.deb
+Size: 4379718
+MD5sum: ec9983614fc51c80111b355c6544fa49
+SHA1: 23dcdce794456038de03d840d5057469b3aec200
+SHA256: d293eafe8231012c34a8bb1c5548d5d59fa5e6f16e5fb1ede3a4c1232475fc81
 
 Package: libaudio-dev
 Source: nas
