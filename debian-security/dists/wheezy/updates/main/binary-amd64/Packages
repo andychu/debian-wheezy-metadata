@@ -9928,27 +9928,27 @@ SHA256: 984a57ab9ce0b879238bdd61bd393786e5d169ecafd0169d71996194cee791f6
 
 Package: libjasper-dev
 Source: jasper
-Version: 1.900.1-13+deb7u2
-Installed-Size: 1064
+Version: 1.900.1-13+deb7u3
+Installed-Size: 1065
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
 Replaces: libjasper-1.700-2-dev
-Depends: libjasper1 (= 1.900.1-13+deb7u2)
+Depends: libjasper1 (= 1.900.1-13+deb7u3)
 Conflicts: libjasper-1.700-2-dev
 Description: Development files for the JasPer JPEG-2000 library
 Description-md5: cffe1269c80cd3e31782da0e12e80b0e
 Section: libdevel
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper-dev_1.900.1-13+deb7u2_amd64.deb
-Size: 568648
-MD5sum: 7dbaf9791f89f1b9a6a8f67df093c3b2
-SHA1: f82d4fd1dde08b696590cbf6ee445f1a565e3d05
-SHA256: 2dbe19f48d70dbf7315f7bc090e43e4391114ecba9b829d07264b19953d95a34
+Filename: pool/updates/main/j/jasper/libjasper-dev_1.900.1-13+deb7u3_amd64.deb
+Size: 569224
+MD5sum: 5e99aebc6c62cde98edcc7e80837da6c
+SHA1: ec0e6e78c999e26726621363b3993ab595fd1bf6
+SHA256: 2cfe9bf82564958f5d20acdba9eb87c9ff9e9cc104baefca1a5d576079125c7c
 
 Package: libjasper-runtime
 Source: jasper
-Version: 1.900.1-13+deb7u2
-Installed-Size: 105
+Version: 1.900.1-13+deb7u3
+Installed-Size: 106
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
 Replaces: libjasper-progs
@@ -9958,15 +9958,15 @@ Description: Programs for manipulating JPEG-2000 files
 Description-md5: 4c57bba10b4faddb8704d85df1ac0580
 Section: graphics
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper-runtime_1.900.1-13+deb7u2_amd64.deb
-Size: 27148
-MD5sum: 6d94d7b23c5544138536bd95ad4a30dd
-SHA1: 7e4c80527f54ea747e817801680a08e7abd89f17
-SHA256: 391d3a5fdfc8c4d0ff70399937f4521a43c324b5d7b6cd2ea67aa1ee83bfd075
+Filename: pool/updates/main/j/jasper/libjasper-runtime_1.900.1-13+deb7u3_amd64.deb
+Size: 27274
+MD5sum: df449eb8ce10177b0a2b242b609f3b38
+SHA1: f0c2c136fcf7c14a9e33ee74ceb2f6d38beb9678
+SHA256: 45ffc604726b7fe5496e4cf87658cb7c8d525002d6b679287e51703709674c74
 
 Package: libjasper1
 Source: jasper
-Version: 1.900.1-13+deb7u2
+Version: 1.900.1-13+deb7u3
 Installed-Size: 370
 Maintainer: Roland Stigge <stigge@antcom.de>
 Architecture: amd64
@@ -9980,11 +9980,11 @@ Multi-Arch: same
 Pre-Depends: multiarch-support
 Section: libs
 Priority: optional
-Filename: pool/updates/main/j/jasper/libjasper1_1.900.1-13+deb7u2_amd64.deb
-Size: 159520
-MD5sum: f1b34073c5bc06db734c957ebc14e46b
-SHA1: adc9a16d831f4a37671bd93ea660a979a18dc99c
-SHA256: 732d52bfed5de9d6c4659f881582a29a9a5fbde057df37541bd4f3e04ef407ec
+Filename: pool/updates/main/j/jasper/libjasper1_1.900.1-13+deb7u3_amd64.deb
+Size: 160120
+MD5sum: a210810924e691c6ca2452629bc617b5
+SHA1: a53462f64291a92821885b624e92b302115785b1
+SHA256: 656500ae418c6a6a00c70916571c3455dee5745cc4f166862d40eee44e273a13
 
 Package: jbigkit-bin
 Source: jbigkit
@@ -25298,6 +25298,46 @@ Size: 3871784
 MD5sum: a708de346bc654499d85e59796534f7a
 SHA1: 5cba4aa19d27464e248e494ce95e716c76ce037d
 SHA256: e63ac402b3e5a4d0193664a06bab8da99cb3755d816e0dbfa536568bb4d14039
+
+Package: squid
+Version: 2.7.STABLE9-4.1+deb7u1
+Installed-Size: 1864
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: amd64
+Replaces: squid-novm
+Depends: libc6 (>= 2.7), libcomerr2 (>= 1.01), libdb5.1, libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libpam0g (>= 0.99.7.1), netbase, adduser, logrotate (>= 3.5.4-1), squid-common (>= 2.7.STABLE9-4.1+deb7u1), lsb-base (>= 3.2-14), perl-modules
+Suggests: squidclient, squid-cgi, logcheck-database, resolvconf (>= 0.40), smbclient, winbind
+Conflicts: sarg (<< 1.1.1-2), squid-novm
+Description: Internet object cache (WWW proxy cache)
+Homepage: http://www.squid-cache.org/
+Description-md5: 934d5bf57e6f2d45aa0122dceddc8619
+Pre-Depends: debconf (>= 1.2.9) | debconf-2.0
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid/squid_2.7.STABLE9-4.1+deb7u1_amd64.deb
+Size: 823450
+MD5sum: d926b4c49e60a53db2a440d76ea782ec
+SHA1: 39ef980327217e67027cd5c48858eb0ac7b7b1d8
+SHA256: 42d5bba73f44c953f4ac53103176295816a9ceaf0493fa4fc4c305c4da2e87c8
+
+Package: squid-common
+Source: squid
+Version: 2.7.STABLE9-4.1+deb7u1
+Installed-Size: 424
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Architecture: all
+Replaces: squid (<< 2.6.1-1)
+Depends: squid-langpack
+Description: Internet object cache (WWW proxy cache) - common files
+Homepage: http://www.squid-cache.org/
+Description-md5: a86d63c830f3f0b5a573ba8f9a22dbe4
+Section: web
+Priority: optional
+Filename: pool/updates/main/s/squid/squid-common_2.7.STABLE9-4.1+deb7u1_all.deb
+Size: 352542
+MD5sum: 6a7643effee7d28c4fa00ca3e287003b
+SHA1: c727bf29114864d692decbb50036d5f3d43db203
+SHA256: 99c0eea8781ee3643bd9d89c5300de7efe4e3ec31357875fdb66350c70115b84
 
 Package: squid-cgi
 Source: squid3

@@ -3606,24 +3606,24 @@ Section: admin
 
 Package: jasper
 Binary: libjasper1, libjasper-dev, libjasper-runtime
-Version: 1.900.1-13+deb7u2
+Version: 1.900.1-13+deb7u3
 Maintainer: Roland Stigge <stigge@antcom.de>
 Build-Depends: debhelper (>= 8.1.3~), freeglut3-dev, libjpeg8-dev, libxi-dev, libxmu-dev, libxt-dev, autotools-dev
 Architecture: any
 Standards-Version: 3.9.2
 Format: 3.0 (quilt)
 Files:
- bb1aa608e174d34ed78586ab3d3461cf 1878 jasper_1.900.1-13+deb7u2.dsc
+ 925fc6931d68b53e2ec1f4afcd35e04f 1878 jasper_1.900.1-13+deb7u3.dsc
  4ae3dd938fd15f22f30577db5c9f27e9 1143400 jasper_1.900.1.orig.tar.gz
- 04dc723f1ace68e0fa321efdfe36f78c 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
+ 9765c9bd45d2d6f0ac5d73c4a1c42c79 33864 jasper_1.900.1-13+deb7u3.debian.tar.gz
 Checksums-Sha1:
- e0d6c3f0740526df97a7ea4ca6a9195fe1408c76 1878 jasper_1.900.1-13+deb7u2.dsc
+ d1690d295c1c1dfe3dba7bb88ef5cc2483ba0aa9 1878 jasper_1.900.1-13+deb7u3.dsc
  a20dc389f5962661b7ab81777c8316f8faee3a99 1143400 jasper_1.900.1.orig.tar.gz
- 9b5c7e6851f5ec373f4808d27179f5112d551f64 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
+ c2dd86e61c07a04609773fb840ff0796c436fe30 33864 jasper_1.900.1-13+deb7u3.debian.tar.gz
 Checksums-Sha256:
- bea600e984dc62340e34ce4a39168e13aeceae2ce250c88eaee7879ef4611bfd 1878 jasper_1.900.1-13+deb7u2.dsc
+ 6be5b2a5d45bf4de081e218fb01f12cf20e8436a602a8b289f273c1683038148 1878 jasper_1.900.1-13+deb7u3.dsc
  6cf104e2811f6088ca1dc76d87dd27c55178d3ccced20db8858d28ae22911a94 1143400 jasper_1.900.1.orig.tar.gz
- fe16d00f46d0f3ac23898013b5abae626ca07c315fa7576c4a63b09839a4ee5e 32631 jasper_1.900.1-13+deb7u2.debian.tar.gz
+ 4440e323793fe8fb9de352a4460b28a7a58b78cd269c8e778ea5cc026e5b6b9e 33864 jasper_1.900.1-13+deb7u3.debian.tar.gz
 Package-List: 
  libjasper-dev deb libdevel optional
  libjasper-runtime deb graphics optional
@@ -10916,6 +10916,34 @@ Package-List:
  spip deb web extra
 Vcs-Svn: svn://svn.debian.org/svn/spip/trunk
 Directory: pool/updates/main/s/spip
+Priority: source
+Section: web
+
+Package: squid
+Binary: squid, squid-common
+Version: 2.7.STABLE9-4.1+deb7u1
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Build-Depends: libldap2-dev, libpam0g-dev, sharutils, dpatch (>= 2.0.9), po-debconf, libdb-dev, libgssglue-dev, libkrb5-dev, hardening-wrapper, autotools-dev
+Architecture: any all
+Standards-Version: 3.9.1
+Format: 1.0
+Files:
+ 21eb1101ce64cf5240bb7f22dca77c3e 1543 squid_2.7.STABLE9-4.1+deb7u1.dsc
+ 7d3b8b0bdda3ae56e438d4a95a97d3b3 1789462 squid_2.7.STABLE9.orig.tar.gz
+ 2ddbfdf7b27c3c16171c2ff52fcdf1f1 304644 squid_2.7.STABLE9-4.1+deb7u1.diff.gz
+Checksums-Sha1:
+ cc1dd62107678e3c5dc2d07c8c168aab59214ddf 1543 squid_2.7.STABLE9-4.1+deb7u1.dsc
+ 6d90fe06468b662b2eefd7ffeb47b9a78f0a871d 1789462 squid_2.7.STABLE9.orig.tar.gz
+ e35a0c65a7cf4b82fb0d6b44745724cc30316701 304644 squid_2.7.STABLE9-4.1+deb7u1.diff.gz
+Checksums-Sha256:
+ 9b4caf4b0e7085c46a3fc0fb8a083225e7957abfaf6eb01b2e9d5857e6b704f1 1543 squid_2.7.STABLE9-4.1+deb7u1.dsc
+ d54ca048313c4b64609fcdf9f1934a70fc1702032a5f04073056d7491d3dd781 1789462 squid_2.7.STABLE9.orig.tar.gz
+ 02e55c73158b5f8934056b850022522f19f5de915ab356421b56446f7e215477 304644 squid_2.7.STABLE9-4.1+deb7u1.diff.gz
+Homepage: http://www.squid-cache.org/
+Package-List: 
+ squid deb web optional
+ squid-common deb web optional
+Directory: pool/updates/main/s/squid
 Priority: source
 Section: web
 
